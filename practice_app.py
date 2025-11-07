@@ -12,9 +12,13 @@ Features:
 
 import sys
 import json
+import warnings
 from pathlib import Path
 from datetime import datetime
 from typing import Dict, List, Optional
+
+# Suppress FP16 warning from Whisper on CPU
+warnings.filterwarnings("ignore", message="FP16 is not supported on CPU")
 
 try:
     from pronunciation_trainer import PronunciationTrainer

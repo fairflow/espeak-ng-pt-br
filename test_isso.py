@@ -3,6 +3,11 @@
 Quick test for "isso" recognition with various strategies
 """
 import sys
+import warnings
+
+# Suppress FP16 warning from Whisper on CPU
+warnings.filterwarnings("ignore", message="FP16 is not supported on CPU")
+
 sys.path.insert(0, '.')
 from pronunciation_trainer import PronunciationTrainer
 

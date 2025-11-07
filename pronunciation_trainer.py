@@ -21,8 +21,12 @@ Usage:
 import argparse
 import subprocess
 import sys
+import warnings
 from pathlib import Path
 from typing import Optional, Dict, Tuple
+
+# Suppress FP16 warning from Whisper on CPU
+warnings.filterwarnings("ignore", message="FP16 is not supported on CPU")
 
 try:
     import whisper
