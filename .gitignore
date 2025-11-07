@@ -236,3 +236,4 @@ local/
 venv/
 *.pyc
 __pycache__/
+!requirements.txt

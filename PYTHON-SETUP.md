@@ -1,5 +1,20 @@
 # Python Environment Setup
 
+## Prerequisites
+
+**Required:** ffmpeg (for audio processing)
+
+```bash
+# Install via MacPorts
+sudo port install ffmpeg
+
+# Or via Homebrew (if you use that)
+brew install ffmpeg
+
+# Verify installation
+which ffmpeg
+```
+
 ## Why Virtual Environment?
 
 This project uses a Python virtual environment to:

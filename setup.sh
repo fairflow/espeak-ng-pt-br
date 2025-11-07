@@ -6,6 +6,17 @@ set -e
 echo "Setting up Portuguese Pronunciation Trainer..."
 echo ""
 
+# Check for ffmpeg
+if ! command -v ffmpeg &> /dev/null; then
+    echo "❌ Error: ffmpeg is required but not installed"
+    echo ""
+    echo "Install via MacPorts:"
+    echo "  sudo port install ffmpeg"
+    echo ""
+    exit 1
+fi
+echo "✓ ffmpeg found: $(which ffmpeg)"
+
 # Check if venv exists
 if [ ! -d "venv" ]; then
     echo "Creating virtual environment..."
