@@ -105,10 +105,13 @@ The `[[...]]` syntax uses **eSpeak phoneme codes**, not IPA:
 # This does NOT work (IPA):
 ./local/bin/run-espeak-ng "[[kˈazə]]"  # ❌ Just clicks
 
-# This works (eSpeak phonemes):
+# This works (eSpeak phonemes - NOTE: [[ ]] brackets are ESSENTIAL):
 ./local/bin/run-espeak-ng -v pt -x "casa"  # Get codes: k'az&
-./local/bin/run-espeak-ng "[[k'az&]]"      # ✓ Works!
+./local/bin/run-espeak-ng "[[k'az&]]"      # ✓ Correct pronunciation!
+./local/bin/run-espeak-ng "k'az&"          # ❌ Wrong pronunciation without brackets!
 ```
+
+**IMPORTANT:** The `[[ ]]` brackets are **required** for correct phoneme pronunciation. Without them, eSpeak tries to interpret the phoneme codes as text, resulting in incorrect output.
 
 eSpeak phoneme codes are different from IPA:
 - IPA: `ɐ` → eSpeak code: `&`

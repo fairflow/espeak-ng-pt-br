@@ -1,5 +1,19 @@
 # Brazilian Portuguese Phoneme Reference for Speech Recognition
 
+## ⚠️ Critical: `[[ ]]` Brackets are REQUIRED
+
+When speaking phoneme codes with eSpeak, you **MUST** use `[[ ]]` brackets for correct pronunciation:
+
+```bash
+# ✓ CORRECT - sounds like "casa"
+./local/bin/run-espeak-ng "[[k'az&]]"
+
+# ❌ WRONG - produces incorrect sound
+./local/bin/run-espeak-ng "k'az&"
+```
+
+The `speak_phonemes.py` tool automatically adds brackets for you, so you can use it without thinking about this detail.
+
 ## Quick Start
 
 ```bash

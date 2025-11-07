@@ -11,8 +11,8 @@ You're building a tool that:
 ## Setup Complete ✓
 
 - Brazilian Portuguese (`pt-br`) is now the **default voice**
-- eSpeak phoneme codes work with `[[...]]` notation
-- Helper tools ready to use
+- eSpeak phoneme codes **require** `[[...]]` notation for correct pronunciation
+- Helper tools automatically add brackets for you
 
 ## Basic Usage
 
@@ -97,8 +97,9 @@ python3 speak_phonemes.py -c "casa" --ipa
 ./local/bin/run-espeak-ng -x "casa"
 # Output: k'az&
 
-# Speak phoneme codes
+# Speak phoneme codes (MUST use [[ ]] for correct pronunciation!)
 ./local/bin/run-espeak-ng "[[k'az&]]"
+# Without brackets sounds wrong: ./local/bin/run-espeak-ng "k'az&" ❌
 
 # Override default voice
 ./local/bin/run-espeak-ng -v pt "Olá"  # European Portuguese
