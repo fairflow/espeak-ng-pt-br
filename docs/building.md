@@ -104,6 +104,26 @@ For recent Debian or Ubuntu >= 18.04 you should also install:
 |---------------|------------------------------------------------------------------|
 | pcaudiolib    | `sudo apt-get install libpcaudio-dev`                            |
 
+On macOS with MacPorts, install the dependencies as follows:
+
+| Dependency    | Install                                                          |
+|---------------|------------------------------------------------------------------|
+| autotools     | `sudo port install autoconf automake libtool pkgconfig`          |
+| pcaudiolib    | `sudo port install pcaudiolib`                                   |
+| sonic         | `sudo port install sonic`                                        |
+| ronn          | `sudo port install ronn`                                         |
+| kramdown      | `sudo port install rb-kramdown`                                  |
+
+__NOTE:__ When using MacPorts on macOS, libraries are installed in `/opt/local/`.
+You need to tell configure where to find them by setting `CPPFLAGS` and `LDFLAGS`:
+
+    ./configure --prefix=/usr/local \
+      CPPFLAGS="-I/opt/local/include" \
+      LDFLAGS="-L/opt/local/lib"
+
+Alternatively, you can use the provided `configure-macos.sh` script which sets
+these paths automatically.
+
 ### Building
 
 The first time you build eSpeak NG, or when you want to change how to build
