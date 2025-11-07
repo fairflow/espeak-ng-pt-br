@@ -57,6 +57,7 @@ class PracticeApp:
             "date": datetime.now().isoformat(),
             "practices": []
         }
+        self.session_saved = False  # Track if current session has been saved
     
     def load_settings(self):
         """Load user settings from config file"""
@@ -93,10 +94,18 @@ class PracticeApp:
             # Add current session if it has practices
             if self.current_session["practices"]:
                 self.history.append(self.current_session)
+                # Reset current session after saving
+                self.current_session = {
+                    "date": datetime.now().isoformat(),
+                    "practices": []
+                }
             
             with open(self.history_file, 'w') as f:
                 json.dump(self.history, f, indent=2)
             print(f"✓ History saved to {self.history_file}")
+            self.session_saved = True
+        except Exception as e:
+            print(f"⚠ Could not save history: {e}")
         except Exception as e:
             print(f"⚠ Could not save history: {e}")
     
@@ -188,6 +197,7 @@ class PracticeApp:
             "match": result["exact_match"],
             "similarity": result["similarity"]
         })
+        self.session_saved = False  # Mark as unsaved
         
         # Show result
         if result["exact_match"]:
@@ -236,6 +246,7 @@ class PracticeApp:
             "match": result["exact_match"],
             "similarity": result["similarity"]
         })
+        self.session_saved = False  # Mark as unsaved
     
     def practice_from_file(self):
         """Import text from file for practice"""
@@ -285,6 +296,7 @@ class PracticeApp:
                     "match": result["exact_match"],
                     "similarity": result["similarity"]
                 })
+                self.session_saved = False  # Mark as unsaved
                 
                 if i < len(lines):
                     input("\nPress Enter for next item...")
@@ -404,8 +416,8 @@ class PracticeApp:
             print("5. Review Session History")
             print("6. Settings")
             print("7. View Current Settings")
-            print("8. Save & Exit")
-            print("9. Exit without Saving")
+            print("8. Save Session Now")
+            print("9. Quit")
             
             choice = input("\nChoose option (1-9): ").strip()
             
@@ -424,15 +436,38 @@ class PracticeApp:
             elif choice == '7':
                 self.show_settings()
             elif choice == '8':
-                self.save_history()
-                self.save_settings()
-                print("\n👋 Session saved. Até logo!")
-                break
+                # Save session now
+                if self.current_session["practices"]:
+                    self.save_history()
+                    self.save_settings()
+                else:
+                    print("\n⚠ No practices in current session to save")
             elif choice == '9':
-                print("\n👋 Exiting without saving. Até logo!")
+                # Quit - check for unsaved work
+                self.quit_with_prompt()
                 break
             else:
                 print("\n⚠ Invalid choice. Please enter 1-9.")
+    
+    def quit_with_prompt(self):
+        """Quit with prompt to save if there's unsaved work"""
+        # Check if there's unsaved work
+        has_unsaved = self.current_session["practices"] and not self.session_saved
+        
+        if has_unsaved:
+            print(f"\n⚠️  You have {len(self.current_session['practices'])} unsaved practice(s)!")
+            save_choice = input("Save before quitting? (y/n): ").strip().lower()
+            
+            if save_choice == 'y':
+                self.save_history()
+                self.save_settings()
+                print("\n👋 Session saved. Até logo!")
+            else:
+                print("\n👋 Exiting without saving session. Até logo!")
+        else:
+            # Always save settings (they auto-save anyway when edited)
+            self.save_settings()
+            print("\n👋 Até logo!")
 
 
 def main():
