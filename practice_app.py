@@ -366,8 +366,11 @@ class PracticeApp:
             print(f"   Target:     {practice['target']}")
             print(f"   Recognized: {practice['recognized']}")
             if not practice["match"]:
-                print(f"   Correct:    {practice['correct_phonemes']}")
-                print(f"   Yours:      {practice['user_phonemes']}")
+                # Handle old session data that might not have phoneme fields
+                if "correct_phonemes" in practice:
+                    print(f"   Correct:    {practice['correct_phonemes']}")
+                if "user_phonemes" in practice:
+                    print(f"   Yours:      {practice['user_phonemes']}")
     
     def main_menu(self):
         """Display main menu and handle user choice"""
