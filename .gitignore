@@ -237,3 +237,8 @@ venv/
 *.pyc
 __pycache__/
 !requirements.txt
+
+# Practice app data files (user-specific)
+practice_config.json
+practice_history.json
+practice_audio/
