@@ -231,3 +231,8 @@ espeak-ng-data/mbrola_ph/*_phtrans
 # local installation directory
 local/
 !local/README.md
+
+# Python virtual environment
+venv/
+*.pyc
+__pycache__/
