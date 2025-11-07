@@ -189,7 +189,9 @@ class PronunciationTrainer:
         self,
         target_word: str,
         audio_file: Optional[str] = None,
-        duration: int = 3
+        duration: int = 3,
+        speed: int = 140,
+        pitch: int = 35
     ) -> Dict:
         """
         Complete practice workflow for a word
@@ -198,6 +200,8 @@ class PronunciationTrainer:
             target_word: The word to practice
             audio_file: Audio file, or None to record
             duration: Recording duration if audio_file is None
+            speed: Speech speed (80-450, default 140, lower is slower)
+            pitch: Speech pitch (0-99, default 35)
             
         Returns:
             Practice result dictionary
@@ -210,8 +214,8 @@ class PronunciationTrainer:
         correct_phonemes = self.get_phonemes(target_word)
         print(f"📝 Correct phonemes: {correct_phonemes}")
         
-        print("\n🔊 Listen to correct pronunciation:")
-        self.speak_text(target_word, speed=140, pitch=35)
+        print(f"\n🔊 Listen to correct pronunciation (speed={speed}, pitch={pitch}):")
+        self.speak_text(target_word, speed=speed, pitch=pitch)
         
         # Get user's pronunciation
         if audio_file is None:
@@ -247,11 +251,11 @@ class PronunciationTrainer:
         # Speak comparison
         if not exact_match:
             print("\n🔊 Listen to the difference:")
-            print("   Correct:")
-            self.speak_phonemes(correct_phonemes, speed=140, pitch=35)
+            print(f"   Correct (speed={speed}, pitch={pitch}):")
+            self.speak_phonemes(correct_phonemes, speed=speed, pitch=pitch)
             
             print("   Your version:")
-            self.speak_phonemes(user_phonemes, speed=140, pitch=35)
+            self.speak_phonemes(user_phonemes, speed=speed, pitch=pitch)
         
         # Clean up temp file
         if audio_file == "temp_recording.wav":
@@ -269,7 +273,9 @@ class PronunciationTrainer:
     def batch_practice(
         self,
         words_file: str,
-        duration: int = 3
+        duration: int = 3,
+        speed: int = 140,
+        pitch: int = 35
     ):
         """
         Practice a list of words from a file
@@ -277,11 +283,14 @@ class PronunciationTrainer:
         Args:
             words_file: Path to file with one word per line
             duration: Recording duration per word
+            speed: Speech speed (80-450, default 140)
+            pitch: Speech pitch (0-99, default 35)
         """
         words = Path(words_file).read_text().strip().split('\n')
         words = [w.strip() for w in words if w.strip()]
         
-        print(f"\n📚 Practicing {len(words)} words\n")
+        print(f"\n📚 Practicing {len(words)} words")
+        print(f"⚙️  Settings: speed={speed}, pitch={pitch}\n")
         
         results = []
         for i, word in enumerate(words, 1):
@@ -289,7 +298,7 @@ class PronunciationTrainer:
             print(f"Word {i}/{len(words)}")
             print(f"{'#' * 70}\n")
             
-            result = self.practice_word(word, duration=duration)
+            result = self.practice_word(word, duration=duration, speed=speed, pitch=pitch)
             results.append(result)
             
             if i < len(words):
@@ -371,6 +380,20 @@ Examples:
         help="Recording duration in seconds (default: 3)"
     )
     parser.add_argument(
+        "--speed",
+        "-s",
+        type=int,
+        default=140,
+        help="Speech speed in words/min (80-450, default: 140, lower is slower)"
+    )
+    parser.add_argument(
+        "--pitch",
+        "-p",
+        type=int,
+        default=35,
+        help="Speech pitch (0-99, default: 35)"
+    )
+    parser.add_argument(
         "--espeak",
         default="./local/bin/run-espeak-ng",
         help="Path to eSpeak executable"
@@ -397,12 +420,19 @@ Examples:
     # Run training
     try:
         if args.batch:
-            trainer.batch_practice(args.batch, duration=args.duration)
+            trainer.batch_practice(
+                args.batch,
+                duration=args.duration,
+                speed=args.speed,
+                pitch=args.pitch
+            )
         else:
             trainer.practice_word(
                 args.target,
                 audio_file=args.audio,
-                duration=args.duration
+                duration=args.duration,
+                speed=args.speed,
+                pitch=args.pitch
             )
     except KeyboardInterrupt:
         print("\n\n👋 Practice session ended")

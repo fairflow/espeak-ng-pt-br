@@ -34,7 +34,7 @@ def estimate_duration(text, words_per_second=2.5):
     return max(5, duration)  # Minimum 5 seconds
 
 
-def practice_sentence(sentence, voice="pt-br", model="base"):
+def practice_sentence(sentence, voice="pt-br", model="base", speed=140, pitch=35):
     """Practice a Portuguese sentence with auto-duration"""
     
     # Estimate duration
@@ -42,6 +42,7 @@ def practice_sentence(sentence, voice="pt-br", model="base"):
     
     print(f"\n📏 Sentence length: {len(sentence.split())} words")
     print(f"⏱️  Recording duration: {duration} seconds")
+    print(f"⚙️  Speech settings: speed={speed}, pitch={pitch}")
     print(f"💡 Tip: Speak at a comfortable, clear pace\n")
     
     # Initialize trainer
@@ -53,7 +54,9 @@ def practice_sentence(sentence, voice="pt-br", model="base"):
     # Practice
     result = trainer.practice_word(
         sentence,
-        duration=duration
+        duration=duration,
+        speed=speed,
+        pitch=pitch
     )
     
     return result
@@ -111,6 +114,18 @@ def main():
         action="store_true",
         help="Auto-format sentence (convert numbers to words)"
     )
+    parser.add_argument(
+        "--speed", "-s",
+        type=int,
+        default=140,
+        help="Speech speed in words/min (80-450, default: 140, lower is slower)"
+    )
+    parser.add_argument(
+        "--pitch", "-p",
+        type=int,
+        default=35,
+        help="Speech pitch (0-99, default: 35)"
+    )
     
     args = parser.parse_args()
     
@@ -128,9 +143,20 @@ def main():
             whisper_model=args.model,
             voice=args.voice
         )
-        trainer.practice_word(sentence, duration=args.duration)
+        trainer.practice_word(
+            sentence,
+            duration=args.duration,
+            speed=args.speed,
+            pitch=args.pitch
+        )
     else:
-        practice_sentence(sentence, voice=args.voice, model=args.model)
+        practice_sentence(
+            sentence,
+            voice=args.voice,
+            model=args.model,
+            speed=args.speed,
+            pitch=args.pitch
+        )
 
 
 if __name__ == "__main__":
