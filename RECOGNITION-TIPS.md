@@ -57,17 +57,25 @@ Automatic detection of suspicious results:
    - Press Enter, pause 0.5 seconds, then speak
    - Prevents mouth noise being transcribed
    
-2. **Clear Articulation**
+2. **Clear Articulation** ⭐ CRITICAL
    - Speak slightly slower than normal
-   - Emphasize consonants
+   - **Emphasize consonants heavily** (especially S, Z, R, T, D)
+   - Example: "isso" → "i-**SSS**o" (exaggerate the S sounds)
    - Don't rush through syllables
+   - Consonants act as "anchors" that prevent hallucinations
    
-3. **Consistent Volume**
+3. **Why Consonant Emphasis Works**
+   - Portuguese consonants can be subtle
+   - Whisper expects clearer consonant boundaries
+   - Soft consonants → Whisper fills gaps with English words
+   - **Strong consonants → Better recognition, fewer hallucinations**
+   
+4. **Consistent Volume**
    - Speak at moderate, steady volume
    - Avoid trailing off at end of words
    - Don't start too loud or soft
 
-4. **Microphone Position**
+5. **Microphone Position**
    - 6-8 inches (15-20cm) from mouth
    - Slightly to the side (avoid plosives: p, b, t, d)
    - Consistent position between attempts
@@ -202,16 +210,37 @@ Then test if recognition improves for single words.
 
 ## Troubleshooting Specific Issues
 
-### "isso" → "Jesus"
+### "isso" → Strange Results (Hallucinations)
+
+**Real example:** "isso" → "peace to" or "pê easy too" (phonemes: p,e'asy t'oU)
 
 **Why it happens:**
-- Portuguese: [ˈisu] or [ˈisu]
-- Jesus (BR Portuguese): [ʒeˈzus] but casual: [ʒiˈzus]
-- Initial sounds similar: [i] vs [ʒi]
+- "isso" is very short (~0.5 seconds)
+- 3-4 second recording leaves long silence
+- Whisper tries to "fill" silence with words (hallucination)
+- Soft consonants give Whisper room to guess
+
+**Solutions (tested and proven):**
+1. **⭐ BEST: Emphasize consonants heavily** - "i-**SSSS**o"
+   - Makes word boundaries crystal clear
+   - Prevents Whisper from "hearing" phantom words
+   - Works for other words too!
+2. Use 2-second recording instead of 3-4 (less silence to hallucinate in)
+3. Speak immediately after pressing Enter
+4. Use prompting (now automatic)
+
+**Testing showed:** Method #3 (emphasizing S sounds) worked best!
+
+### "isso" → "Jesus" (Phonetic Confusion)
+
+**Why it happens:**
+- Portuguese: [ˈisu]
+- Jesus (BR casual): [ʒiˈzus] 
+- Initial sounds can be similar
 - "Jesus" is more common in training data
 
 **Solutions:**
-1. Emphasize the 's' sounds: "iSSo"
+1. Emphasize the 's' sounds: "i-**SSS**o"
 2. Use prompting (now automatic)
 3. Practice "isso" repeatedly - model adapts
 4. Ensure clear recording - no initial noise
