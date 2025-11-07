@@ -101,12 +101,19 @@ class PronunciationTrainer:
         sf.write(output_file, recording, samplerate)
         return output_file
     
-    def transcribe_audio(self, audio_file: str) -> Tuple[str, Dict]:
+    def transcribe_audio(
+        self, 
+        audio_file: str,
+        prompt: Optional[str] = None,
+        temperature: float = 0.0
+    ) -> Tuple[str, Dict]:
         """
         Transcribe audio to text using Whisper
         
         Args:
             audio_file: Path to audio file
+            prompt: Optional hint text to guide recognition (helps reduce hallucinations)
+            temperature: Sampling temperature (0.0 = deterministic, higher = more random)
             
         Returns:
             Tuple of (transcribed text, full result dict)
@@ -114,13 +121,27 @@ class PronunciationTrainer:
         Note:
             Whisper uses "pt" for all Portuguese (no separate pt-br code).
             It handles both Brazilian and European Portuguese variants.
+            
+        Tips to improve recognition:
+            - Use prompt parameter with expected vocabulary
+            - temperature=0.0 reduces hallucinations (more deterministic)
+            - Ensure clear audio without background noise
         """
         print("🎧 Transcribing audio...")
-        result = self.whisper.transcribe(
-            audio_file,
-            language="pt",  # Whisper only has "pt" (covers both BR and EU variants)
-            task="transcribe"
-        )
+        
+        # Build transcription parameters
+        params = {
+            "audio": audio_file,
+            "language": "pt",  # Whisper only has "pt" (covers both BR and EU variants)
+            "task": "transcribe",
+            "temperature": temperature,
+        }
+        
+        # Add prompt if provided (helps guide recognition)
+        if prompt:
+            params["initial_prompt"] = prompt
+        
+        result = self.whisper.transcribe(**params)
         
         text = result["text"].strip().lower()
         print(f"✓ Recognized: \"{text}\"\n")
@@ -206,6 +227,47 @@ class PronunciationTrainer:
         
         return exact_match, similarity
     
+    def check_recognition_quality(
+        self,
+        recognized: str,
+        target: str
+    ) -> Tuple[bool, str]:
+        """
+        Check if recognition seems reasonable
+        
+        Returns:
+            Tuple of (seems_valid, warning_message)
+        """
+        recognized_words = recognized.split()
+        target_words = target.lower().split()
+        
+        # Check for common hallucination patterns
+        warnings = []
+        
+        # Check 1: Way more words than expected
+        if len(recognized_words) > len(target_words) * 2:
+            warnings.append("⚠️  Recognition has too many words - possible hallucination")
+        
+        # Check 2: Completely different number of words
+        if abs(len(recognized_words) - len(target_words)) > 2:
+            warnings.append(f"⚠️  Expected ~{len(target_words)} words, got {len(recognized_words)}")
+        
+        # Check 3: No overlap with target at all (for multi-word targets)
+        target_set = set(target_words)
+        recognized_set = set(recognized_words)
+        overlap = len(target_set & recognized_set)
+        
+        if len(target_words) > 1 and overlap == 0:
+            warnings.append("⚠️  No word overlap with target - recognition may be wrong")
+        
+        # Check 4: Single word became multiple or completely different
+        if len(target_words) == 1 and len(recognized_words) > 1:
+            # Allow if target word is in recognized (e.g., "casa" → "a casa")
+            if target_words[0] not in recognized_words:
+                warnings.append(f"⚠️  Expected single word '{target_words[0]}', got multiple words")
+        
+        return len(warnings) == 0, "\n".join(warnings) if warnings else ""
+    
     def practice_word(
         self,
         target_word: str,
@@ -246,7 +308,17 @@ class PronunciationTrainer:
             audio_file = self.record_audio(duration=duration)
         
         # Recognize what user said
-        recognized_text, whisper_result = self.transcribe_audio(audio_file)
+        # Use target word as prompt to guide recognition and reduce hallucinations
+        recognized_text, whisper_result = self.transcribe_audio(
+            audio_file,
+            prompt=target_word,  # Hint to Whisper about expected content
+            temperature=0.0      # Deterministic mode reduces hallucinations
+        )
+        
+        # Check recognition quality
+        is_valid, warning = self.check_recognition_quality(recognized_text, target_word)
+        if not is_valid:
+            print(f"{warning}\n")
         
         # Get phonemes of what they said
         user_phonemes = self.get_phonemes(recognized_text)
