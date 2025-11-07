@@ -144,6 +144,23 @@ class PronunciationTrainer:
         )
         return result.stdout.strip()
     
+    def get_ipa(self, text: str) -> str:
+        """
+        Get IPA transcription for text
+        
+        Args:
+            text: Portuguese text
+            
+        Returns:
+            IPA transcription
+        """
+        result = subprocess.run(
+            [str(self.espeak), "-v", self.voice, "--ipa", "-q", text],
+            capture_output=True,
+            text=True
+        )
+        return result.stdout.strip()
+    
     def speak_text(self, text: str, speed: int = 160, pitch: int = 40):
         """Speak Portuguese text"""
         subprocess.run([
@@ -216,7 +233,9 @@ class PronunciationTrainer:
         
         # Get correct pronunciation
         correct_phonemes = self.get_phonemes(target_word)
-        print(f"📝 Correct phonemes: {correct_phonemes}")
+        correct_ipa = self.get_ipa(target_word)
+        print(f"📝 Correct phonemes (eIPA): {correct_phonemes}")
+        print(f"📝 Correct IPA:             {correct_ipa}")
         
         print(f"\n🔊 Listen to correct pronunciation (speed={speed}, pitch={pitch}):")
         self.speak_text(target_word, speed=speed, pitch=pitch)
@@ -231,7 +250,9 @@ class PronunciationTrainer:
         
         # Get phonemes of what they said
         user_phonemes = self.get_phonemes(recognized_text)
-        print(f"📝 Your phonemes:    {user_phonemes}")
+        user_ipa = self.get_ipa(recognized_text)
+        print(f"📝 Your phonemes (eIPA):    {user_phonemes}")
+        print(f"📝 Your IPA:                {user_ipa}")
         
         # Compare
         exact_match, similarity = self.compare_phonemes(
@@ -270,6 +291,8 @@ class PronunciationTrainer:
             "recognized": recognized_text,
             "correct_phonemes": correct_phonemes,
             "user_phonemes": user_phonemes,
+            "correct_ipa": correct_ipa,
+            "user_ipa": user_ipa,
             "exact_match": exact_match,
             "similarity": similarity
         }

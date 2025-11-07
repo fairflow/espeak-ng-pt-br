@@ -179,6 +179,8 @@ class PracticeApp:
             "recognized": result["recognized"],
             "correct_phonemes": result["correct_phonemes"],
             "user_phonemes": result["user_phonemes"],
+            "correct_ipa": result.get("correct_ipa", ""),
+            "user_ipa": result.get("user_ipa", ""),
             "match": result["exact_match"],
             "similarity": result["similarity"]
         })
@@ -223,6 +225,10 @@ class PracticeApp:
             "time": datetime.now().isoformat(),
             "target": result["target"],
             "recognized": result["recognized"],
+            "correct_phonemes": result.get("correct_phonemes", ""),
+            "user_phonemes": result.get("user_phonemes", ""),
+            "correct_ipa": result.get("correct_ipa", ""),
+            "user_ipa": result.get("user_ipa", ""),
             "match": result["exact_match"],
             "similarity": result["similarity"]
         })
@@ -267,6 +273,10 @@ class PracticeApp:
                     "time": datetime.now().isoformat(),
                     "target": result["target"],
                     "recognized": result["recognized"],
+                    "correct_phonemes": result.get("correct_phonemes", ""),
+                    "user_phonemes": result.get("user_phonemes", ""),
+                    "correct_ipa": result.get("correct_ipa", ""),
+                    "user_ipa": result.get("user_ipa", ""),
                     "match": result["exact_match"],
                     "similarity": result["similarity"]
                 })
@@ -368,9 +378,13 @@ class PracticeApp:
             if not practice["match"]:
                 # Handle old session data that might not have phoneme fields
                 if "correct_phonemes" in practice:
-                    print(f"   Correct:    {practice['correct_phonemes']}")
+                    print(f"   Correct eIPA: {practice['correct_phonemes']}")
                 if "user_phonemes" in practice:
-                    print(f"   Yours:      {practice['user_phonemes']}")
+                    print(f"   Your eIPA:    {practice['user_phonemes']}")
+                if "correct_ipa" in practice and practice["correct_ipa"]:
+                    print(f"   Correct IPA:  {practice['correct_ipa']}")
+                if "user_ipa" in practice and practice["user_ipa"]:
+                    print(f"   Your IPA:     {practice['user_ipa']}")
     
     def main_menu(self):
         """Display main menu and handle user choice"""
