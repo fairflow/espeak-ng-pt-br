@@ -244,7 +244,8 @@ class PracticeApp:
         
         try:
             lines = Path(filename).read_text().strip().split('\n')
-            lines = [l.strip() for l in lines if l.strip()]
+            # Filter out empty lines and comments (lines starting with #)
+            lines = [l.strip() for l in lines if l.strip() and not l.strip().startswith('#')]
             
             print(f"\n📚 Found {len(lines)} items")
             print("Practice all? (y/n): ", end="")
