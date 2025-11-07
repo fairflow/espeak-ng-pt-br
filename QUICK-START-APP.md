@@ -33,7 +33,7 @@ source venv/bin/activate
 ## Your Progress is Tracked
 
 Every practice session is saved with:
-- ✅ What you practiced
+- ✅ What you practised
 - ✅ What you said
 - ✅ Phoneme comparison
 - ✅ Match percentage
