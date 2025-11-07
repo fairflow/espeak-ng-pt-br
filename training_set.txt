@@ -1,0 +1,85 @@
+casa
+
+Word:     casa
+Phonemes: k'az&
+IPA:      kˈazæ
+Speaking...
+
+água
+
+Word:     água
+Phonemes: 'agw&
+IPA:      ˈaɡwæ
+Speaking...
+
+tempo
+
+Word:     tempo
+Phonemes: t'eImpU
+IPA:      tˈeɪmpʊ
+Speaking...
+
+pessoa
+
+Word:     pessoa
+Phonemes: p,es'o&
+IPA:      pˌesˈoæ
+Speaking...
+
+obrigado
+
+Word:     obrigado
+Phonemes: ,obRig'adU
+IPA:      ˌobriɡˈadʊ
+Speaking...
+
+por favor
+
+Word:     por
+Phonemes: p'or
+IPA:      pˈor
+Speaking...
+
+Word:     favor
+Phonemes: fav'or
+IPA:      favˈor
+Speaking...
+
+bom dia
+
+Word:     bom
+Phonemes: b'oN
+IPA:      bˈoŋ
+Speaking...
+
+Word:     dia
+Phonemes: dZ'i;&
+IPA:      dʒˈiæ
+Speaking...
+
+boa noite
+
+Word:     boa
+Phonemes: b'o&
+IPA:      bˈoæ
+Speaking...
+
+Word:     noite
+Phonemes: n'oItSy
+IPA:      nˈoɪtʃy
+Speaking...
+
+sim
+
+Word:     sim
+Phonemes: s'iN
+IPA:      sˈiŋ
+Speaking...
+
+não
+
+Word:     não
+Phonemes: n'&U~
+IPA:      nˈɐ̃ʊ̃
+Speaking...
+

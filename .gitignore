@@ -160,7 +160,6 @@ src/pcaudiolib/
 *.cache
 *.user
 
-*.txt
 *.wixobj
 *.wixpdb
 *.cab

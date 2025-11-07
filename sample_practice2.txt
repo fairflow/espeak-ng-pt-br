@@ -1,0 +1,70 @@
+# Portuguese Practice Set 2
+# A mix of common words and useful phrases
+# Lines starting with # are comments and will be ignored
+
+# Common greetings and responses
+olá
+tchau
+obrigado
+obrigada
+desculpa
+por favor
+
+# Everyday words
+água
+café
+pão
+leite
+carne
+peixe
+fruta
+verdura
+
+# Useful phrases
+bom dia
+boa tarde
+boa noite
+até logo
+até amanhã
+com licença
+tudo bem
+muito bem
+
+# Numbers and time
+hoje
+amanhã
+ontem
+agora
+depois
+sempre
+nunca
+
+# Common verbs
+falar
+comer
+beber
+dormir
+acordar
+saber
+poder
+querer
+
+# More everyday words
+casa
+rua
+carro
+trabalho
+escola
+livro
+mesa
+cadeira
+
+# Short useful phrases
+não sei
+claro que sim
+talvez sim
+com certeza
+de nada
+que legal
+que bom
+como assim
