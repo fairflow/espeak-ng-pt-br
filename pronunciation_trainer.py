@@ -110,11 +110,15 @@ class PronunciationTrainer:
             
         Returns:
             Tuple of (transcribed text, full result dict)
+            
+        Note:
+            Whisper uses "pt" for all Portuguese (no separate pt-br code).
+            It handles both Brazilian and European Portuguese variants.
         """
         print("🎧 Transcribing audio...")
         result = self.whisper.transcribe(
             audio_file,
-            language="pt",
+            language="pt",  # Whisper only has "pt" (covers both BR and EU variants)
             task="transcribe"
         )
         
