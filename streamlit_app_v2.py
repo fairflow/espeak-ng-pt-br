@@ -248,6 +248,55 @@ def levenshtein_distance(s1: str, s2: str) -> int:
     return previous_row[-1]
 
 
+def get_edit_operations(s1: str, s2: str):
+    """
+    Get the actual edit operations needed to transform s1 into s2.
+    Returns a list of tuples: (operation, position, char1, char2)
+    where operation is 'match', 'substitute', 'insert', or 'delete'
+    """
+    # Build the DP table
+    m, n = len(s1), len(s2)
+    dp = [[0] * (n + 1) for _ in range(m + 1)]
+    
+    for i in range(m + 1):
+        dp[i][0] = i
+    for j in range(n + 1):
+        dp[0][j] = j
+    
+    for i in range(1, m + 1):
+        for j in range(1, n + 1):
+            if s1[i-1] == s2[j-1]:
+                dp[i][j] = dp[i-1][j-1]
+            else:
+                dp[i][j] = 1 + min(
+                    dp[i-1][j],    # delete
+                    dp[i][j-1],    # insert
+                    dp[i-1][j-1]   # substitute
+                )
+    
+    # Backtrack to find operations
+    operations = []
+    i, j = m, n
+    while i > 0 or j > 0:
+        if i > 0 and j > 0 and s1[i-1] == s2[j-1]:
+            operations.append(('match', i-1, s1[i-1], s2[j-1]))
+            i -= 1
+            j -= 1
+        elif i > 0 and j > 0 and dp[i][j] == dp[i-1][j-1] + 1:
+            operations.append(('substitute', i-1, s1[i-1], s2[j-1]))
+            i -= 1
+            j -= 1
+        elif j > 0 and dp[i][j] == dp[i][j-1] + 1:
+            operations.append(('insert', i, '-', s2[j-1]))
+            j -= 1
+        elif i > 0 and dp[i][j] == dp[i-1][j] + 1:
+            operations.append(('delete', i-1, s1[i-1], '-'))
+            i -= 1
+    
+    operations.reverse()
+    return operations
+
+
 def compare_phonemes_positional(user_phonemes: str, correct_phonemes: str):
     """
     DEPRECATED: Simple positional matching (fails with insertions/deletions).
@@ -643,26 +692,37 @@ def main():
                     if target_norm == user_norm:
                         st.success("🎯 Phonemes are identical!")
                     else:
-                        st.info(f"📏 Length difference: {abs(len(target_norm) - len(user_norm))} characters")
+                        # Use edit distance operations for accurate difference analysis
+                        operations = get_edit_operations(target_norm, user_norm)
                         
-                        # Show first few differences
+                        # Count operation types
+                        matches = sum(1 for op in operations if op[0] == 'match')
+                        substitutions = [op for op in operations if op[0] == 'substitute']
+                        insertions = [op for op in operations if op[0] == 'insert']
+                        deletions = [op for op in operations if op[0] == 'delete']
+                        
+                        st.info(f"📊 {matches} matches, {len(substitutions)} substitutions, {len(insertions)} insertions, {len(deletions)} deletions")
+                        
+                        # Show the actual differences (limit to first 5 non-matches)
                         diffs = []
-                        for i in range(min(len(target_norm), len(user_norm))):
-                            if target_norm[i] != user_norm[i]:
-                                diffs.append(f"Position {i}: `{target_norm[i]}` → `{user_norm[i]}`")
-                                if len(diffs) >= 5:  # Limit to first 5 differences
-                                    break
-                        
-                        if len(target_norm) != len(user_norm):
-                            if len(target_norm) > len(user_norm):
-                                diffs.append(f"Missing {len(target_norm) - len(user_norm)} character(s) at end")
-                            else:
-                                diffs.append(f"Extra {len(user_norm) - len(target_norm)} character(s) at end")
+                        for op_type, pos, c1, c2 in operations:
+                            if op_type == 'substitute':
+                                diffs.append(f"Position {pos}: `{c1}` → `{c2}` (substitute)")
+                            elif op_type == 'insert':
+                                diffs.append(f"Position {pos}: inserted `{c2}`")
+                            elif op_type == 'delete':
+                                diffs.append(f"Position {pos}: deleted `{c1}`")
+                            
+                            if len(diffs) >= 5:
+                                break
                         
                         if diffs:
                             st.write("**Key differences (first 5):**")
                             for diff in diffs:
                                 st.write(f"• {diff}")
+                        
+                        if len(substitutions) + len(insertions) + len(deletions) > 5:
+                            st.caption(f"... and {len(substitutions) + len(insertions) + len(deletions) - 5} more differences")
                 
                 # Button to play back your actual recording
                 if result.get('user_audio_bytes'):
