@@ -488,12 +488,40 @@ def main():
                     st.write(f"**IPA:** {result['user_ipa']}")
                 
                 # Show comparison note
+                # Normalize text by removing punctuation for comparison
+                import string
+                target_clean = result['target'].lower().translate(str.maketrans('', '', string.punctuation))
+                recognized_clean = result['recognized'].translate(str.maketrans('', '', string.punctuation))
+                
                 correct_phonemes_no_space = result['correct_phonemes'].replace(" ", "")
                 user_phonemes_no_space = result['user_phonemes'].replace(" ", "")
+                
                 if correct_phonemes_no_space == user_phonemes_no_space and result['correct_phonemes'] != result['user_phonemes']:
                     st.success("✅ Phonemes match perfectly (spacing differences ignored)")
-                elif result['target'].lower() != result['recognized']:
+                elif target_clean != recognized_clean:
                     st.warning("⚠️ Different words recognized - try speaking more clearly")
+                    
+                    # Show character-by-character comparison for debugging
+                    if st.checkbox("🔍 Show detailed comparison", key="show_detail"):
+                        st.write("**Word comparison:**")
+                        st.write(f"Target: `{target_clean}`")
+                        st.write(f"Recognized: `{recognized_clean}`")
+                        st.write("**Phoneme comparison (no spaces):**")
+                        st.write(f"Target: `{correct_phonemes_no_space}`")
+                        st.write(f"Yours: `{user_phonemes_no_space}`")
+                        
+                        # Show where they differ
+                        min_len = min(len(correct_phonemes_no_space), len(user_phonemes_no_space))
+                        diffs = []
+                        for i in range(min_len):
+                            if correct_phonemes_no_space[i] != user_phonemes_no_space[i]:
+                                diffs.append(f"Position {i}: expected `{correct_phonemes_no_space[i]}`, got `{user_phonemes_no_space[i]}`")
+                        if len(correct_phonemes_no_space) != len(user_phonemes_no_space):
+                            diffs.append(f"Length: expected {len(correct_phonemes_no_space)}, got {len(user_phonemes_no_space)}")
+                        if diffs:
+                            st.write("**Differences:**")
+                            for diff in diffs:
+                                st.write(f"- {diff}")
                 
                 # Button to play back your actual recording
                 if result.get('user_audio_bytes'):
