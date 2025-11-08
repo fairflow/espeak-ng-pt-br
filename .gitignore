@@ -159,7 +159,9 @@ src/pcaudiolib/
 *.sdf
 *.cache
 *.user
-
+# not *.txt as I am using those
+*.wav # bulky and not needed
+*.bak # really not needed
 *.wixobj
 *.wixpdb
 *.cab
