@@ -198,17 +198,28 @@ def transcribe_audio(audio_file: str, model):
     
     Note: No initial_prompt is used to avoid biasing the transcription.
     We force Portuguese language detection and use low temperature for consistency.
+    CRITICAL: language="pt" should FORCE Portuguese, but Whisper can still drift.
     """
     result = model.transcribe(
         audio=audio_file,
-        language="pt",  # Force Portuguese (ISO 639-1 code)
+        language="pt",  # Force Portuguese (ISO 639-1 code) - should be absolute
         task="transcribe",
-        temperature=0.0,
+        temperature=0.0,  # Deterministic output
         no_speech_threshold=0.6,  # Higher threshold to reject non-speech (like beeps)
         logprob_threshold=-1.0,   # Stricter on low-confidence segments
         condition_on_previous_text=False,  # Don't use context from previous segments
-        word_timestamps=False  # Disable word-level timestamps to reduce space insertion
+        word_timestamps=False,  # Disable word-level timestamps to reduce space insertion
+        compression_ratio_threshold=2.4,  # Default is 2.4, keep it strict
+        no_speech_prob=0.5  # Additional noise filtering
     )
+    
+    # Double-check detected language (Whisper should respect language="pt" but doesn't always)
+    detected_lang = result.get("language", "unknown")
+    if detected_lang != "pt":
+        # Log warning but continue (the transcription might still be Portuguese)
+        import warnings
+        warnings.warn(f"Whisper detected language '{detected_lang}' instead of 'pt'")
+    
     return result["text"].strip().lower()
 
 
