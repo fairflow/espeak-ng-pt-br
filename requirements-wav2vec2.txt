@@ -1,0 +1,6 @@
+# Optional dependencies for wav2vec2 Portuguese ASR
+# Install with: pip install -r requirements-wav2vec2.txt
+
+transformers>=4.30.0
+torch>=2.0.0
+librosa>=0.10.0

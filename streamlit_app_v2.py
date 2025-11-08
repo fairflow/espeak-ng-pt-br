@@ -46,6 +46,8 @@ def load_settings():
         "model": "base",
         "duration": 3,
         "comparison_algorithm": "edit_distance",  # or "positional"
+        "asr_engine": "whisper",  # "whisper" or "wav2vec2"
+        "whisper_model_size": "base",  # tiny, base, small, medium, large
     }
     
     if config_file.exists():
@@ -112,6 +114,10 @@ def initialize_session_state():
     if 'whisper_model' not in st.session_state:
         st.session_state.whisper_model = None
         st.session_state.whisper_model_name = None
+    
+    if 'wav2vec2_processor' not in st.session_state:
+        st.session_state.wav2vec2_processor = None
+        st.session_state.wav2vec2_model = None
 
 
 def get_whisper_model(model_name: str):
@@ -121,6 +127,24 @@ def get_whisper_model(model_name: str):
             st.session_state.whisper_model = whisper.load_model(model_name)
             st.session_state.whisper_model_name = model_name
     return st.session_state.whisper_model
+
+
+def get_wav2vec2_model():
+    """Load or get cached wav2vec2 Portuguese model"""
+    if 'wav2vec2_processor' not in st.session_state or st.session_state.wav2vec2_processor is None:
+        try:
+            with st.spinner("Loading wav2vec2 Portuguese model (first time may take a few minutes)..."):
+                from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
+                model_name = "jonatasgrosman/wav2vec2-large-xlsr-53-portuguese"
+                st.session_state.wav2vec2_processor = Wav2Vec2Processor.from_pretrained(model_name)
+                st.session_state.wav2vec2_model = Wav2Vec2ForCTC.from_pretrained(model_name)
+        except ImportError:
+            st.error("wav2vec2 requires 'transformers' and 'torch'. Install with: pip install transformers torch")
+            return None, None
+        except Exception as e:
+            st.error(f"Failed to load wav2vec2 model: {e}")
+            return None, None
+    return st.session_state.wav2vec2_processor, st.session_state.wav2vec2_model
 
 
 def get_espeak_path():
@@ -193,7 +217,7 @@ def speak_text_gtts(text: str, lang: str = "pt-br") -> bytes:
     return audio_bytes
 
 
-def transcribe_audio(audio_file: str, model):
+def transcribe_audio_whisper(audio_file: str, model):
     """
     Transcribe audio to text using Whisper
     
@@ -221,6 +245,58 @@ def transcribe_audio(audio_file: str, model):
         warnings.warn(f"Whisper detected language '{detected_lang}' instead of 'pt'")
     
     return result["text"].strip().lower()
+
+
+def transcribe_audio_wav2vec2(audio_file: str, processor, model):
+    """
+    Transcribe audio to text using wav2vec2 Portuguese model
+    """
+    try:
+        import torch
+        import soundfile as sf
+        
+        # Load audio
+        speech, sample_rate = sf.read(audio_file)
+        
+        # Resample if needed (wav2vec2 expects 16kHz)
+        if sample_rate != 16000:
+            import librosa
+            speech = librosa.resample(speech, orig_sr=sample_rate, target_sr=16000)
+        
+        # Process
+        inputs = processor(speech, sampling_rate=16000, return_tensors="pt", padding=True)
+        
+        with torch.no_grad():
+            logits = model(inputs.input_values).logits
+        
+        predicted_ids = torch.argmax(logits, dim=-1)
+        transcription = processor.batch_decode(predicted_ids)[0]
+        
+        return transcription.strip().lower()
+        
+    except Exception as e:
+        st.error(f"wav2vec2 transcription failed: {e}")
+        return ""
+
+
+def transcribe_audio(audio_file: str, settings: Dict):
+    """
+    Transcribe audio using the selected ASR engine
+    """
+    asr_engine = settings.get('asr_engine', 'whisper')
+    
+    if asr_engine == 'wav2vec2':
+        processor, model = get_wav2vec2_model()
+        if processor is None or model is None:
+            st.warning("wav2vec2 unavailable, falling back to Whisper")
+            asr_engine = 'whisper'
+        else:
+            return transcribe_audio_wav2vec2(audio_file, processor, model)
+    
+    # Default to Whisper
+    model_size = settings.get('whisper_model_size', 'base')
+    model = get_whisper_model(model_size)
+    return transcribe_audio_whisper(audio_file, model)
 
 
 def levenshtein_distance(s1: str, s2: str) -> int:
@@ -411,15 +487,12 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
             # If trimming fails, continue with original audio
             pass
         
-        # Get Whisper model
-        model = get_whisper_model(settings['model'])
-        
         # Get correct pronunciation
         correct_phonemes = get_phonemes(text, settings['voice'])
         correct_ipa = get_ipa(text, settings['voice'])
         
-        # Transcribe user's audio
-        recognized_text = transcribe_audio(temp_audio, model)
+        # Transcribe user's audio using selected ASR engine
+        recognized_text = transcribe_audio(temp_audio, settings)
         
         # Get phonemes with proper spacing (for display)
         user_phonemes = get_phonemes(recognized_text, settings['voice'])
@@ -521,11 +594,29 @@ def main():
             help="pt-br = Brazilian, pt = European"
         )
         
-        st.session_state.settings['model'] = st.selectbox(
-            "Whisper Model",
-            ["tiny", "base", "small", "medium", "large"],
-            index=["tiny", "base", "small", "medium", "large"].index(st.session_state.settings['model'])
+        st.markdown("**🎙️ Speech Recognition**")
+        
+        st.session_state.settings['asr_engine'] = st.selectbox(
+            "ASR Engine",
+            ["whisper", "wav2vec2"],
+            index=0 if st.session_state.settings.get('asr_engine', 'whisper') == 'whisper' else 1,
+            help="whisper: Multilingual (99 languages)\nwav2vec2: Portuguese-specific (may be more accurate)"
         )
+        
+        # Only show Whisper model size if Whisper is selected
+        if st.session_state.settings['asr_engine'] == 'whisper':
+            st.session_state.settings['whisper_model_size'] = st.selectbox(
+                "Whisper Model Size",
+                ["tiny", "base", "small", "medium", "large"],
+                index=["tiny", "base", "small", "medium", "large"].index(
+                    st.session_state.settings.get('whisper_model_size', 'base')
+                ),
+                help="Larger = more accurate but slower. tiny is fastest, large is most accurate."
+            )
+            # Keep 'model' in sync for backwards compatibility
+            st.session_state.settings['model'] = st.session_state.settings['whisper_model_size']
+        else:
+            st.caption("Using wav2vec2-large-xlsr-53-portuguese")
         
         st.session_state.settings['comparison_algorithm'] = st.selectbox(
             "Scoring Algorithm",
