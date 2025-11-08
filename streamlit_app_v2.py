@@ -45,6 +45,7 @@ def load_settings():
         "voice": "pt-br",
         "model": "base",
         "duration": 3,
+        "comparison_algorithm": "edit_distance",  # or "positional"
     }
     
     if config_file.exists():
@@ -222,8 +223,36 @@ def transcribe_audio(audio_file: str, model):
     return result["text"].strip().lower()
 
 
-def compare_phonemes(user_phonemes: str, correct_phonemes: str):
-    """Compare user phonemes with correct phonemes"""
+def levenshtein_distance(s1: str, s2: str) -> int:
+    """
+    Calculate Levenshtein (edit) distance between two strings.
+    Returns the minimum number of single-character edits (insertions, deletions, substitutions).
+    """
+    if len(s1) < len(s2):
+        return levenshtein_distance(s2, s1)
+    
+    if len(s2) == 0:
+        return len(s1)
+    
+    previous_row = range(len(s2) + 1)
+    for i, c1 in enumerate(s1):
+        current_row = [i + 1]
+        for j, c2 in enumerate(s2):
+            # Cost of insertions, deletions, or substitutions
+            insertions = previous_row[j + 1] + 1
+            deletions = current_row[j] + 1
+            substitutions = previous_row[j] + (c1 != c2)
+            current_row.append(min(insertions, deletions, substitutions))
+        previous_row = current_row
+    
+    return previous_row[-1]
+
+
+def compare_phonemes_positional(user_phonemes: str, correct_phonemes: str):
+    """
+    DEPRECATED: Simple positional matching (fails with insertions/deletions).
+    Kept for reference but not recommended for use.
+    """
     exact_match = user_phonemes == correct_phonemes
     
     if len(correct_phonemes) == 0:
@@ -236,6 +265,53 @@ def compare_phonemes(user_phonemes: str, correct_phonemes: str):
         similarity = matches / max(len(user_phonemes), len(correct_phonemes))
     
     return exact_match, similarity
+
+
+def compare_phonemes_edit_distance(user_phonemes: str, correct_phonemes: str):
+    """
+    Compare phonemes using edit distance (Levenshtein).
+    Handles insertions, deletions, and substitutions gracefully.
+    
+    Returns:
+        exact_match: bool - True if strings are identical
+        similarity: float - 0.0 to 1.0, where 1.0 is perfect match
+        distance: int - Number of edits needed
+    """
+    exact_match = user_phonemes == correct_phonemes
+    
+    if len(correct_phonemes) == 0:
+        return exact_match, 0.0, len(user_phonemes)
+    
+    distance = levenshtein_distance(user_phonemes, correct_phonemes)
+    max_length = max(len(user_phonemes), len(correct_phonemes))
+    
+    # Similarity: 1.0 means perfect match, 0.0 means completely different
+    similarity = 1.0 - (distance / max_length)
+    
+    return exact_match, similarity, distance
+
+
+def compare_phonemes(user_phonemes: str, correct_phonemes: str, algorithm: str = "edit_distance"):
+    """
+    Modular phoneme comparison with selectable algorithms.
+    
+    Args:
+        user_phonemes: Phonemes from user's speech
+        correct_phonemes: Target phonemes
+        algorithm: "edit_distance" (default) or "positional"
+    
+    Returns:
+        exact_match: bool
+        similarity: float (0.0 to 1.0)
+        distance: int (only for edit_distance, None otherwise)
+    """
+    if algorithm == "edit_distance":
+        return compare_phonemes_edit_distance(user_phonemes, correct_phonemes)
+    elif algorithm == "positional":
+        exact_match, similarity = compare_phonemes_positional(user_phonemes, correct_phonemes)
+        return exact_match, similarity, None
+    else:
+        raise ValueError(f"Unknown algorithm: {algorithm}")
 
 
 def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
@@ -305,8 +381,14 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
         correct_phonemes_normalized = correct_phonemes.replace(" ", "")
         user_phonemes_normalized = user_phonemes.replace(" ", "")
         
-        # Compare normalized phonemes (without spaces)
-        exact_match, similarity = compare_phonemes(user_phonemes_normalized, correct_phonemes_normalized)
+        # Compare normalized phonemes (without spaces) using edit distance
+        # Get algorithm from settings (default: edit_distance)
+        algorithm = settings.get('comparison_algorithm', 'edit_distance')
+        exact_match, similarity, edit_distance = compare_phonemes(
+            user_phonemes_normalized, 
+            correct_phonemes_normalized,
+            algorithm=algorithm
+        )
         
         # Keep the original recording for playback
         # (Don't delete temp_audio - we'll save it in the result)
@@ -320,6 +402,9 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
             "user_ipa": user_ipa,
             "exact_match": exact_match,
             "similarity": similarity,
+            "edit_distance": edit_distance,
+            "correct_phonemes_normalized": correct_phonemes_normalized,
+            "user_phonemes_normalized": user_phonemes_normalized,
             "user_audio_bytes": audio_bytes  # Save the original recording
         }
         
@@ -390,6 +475,13 @@ def main():
             "Whisper Model",
             ["tiny", "base", "small", "medium", "large"],
             index=["tiny", "base", "small", "medium", "large"].index(st.session_state.settings['model'])
+        )
+        
+        st.session_state.settings['comparison_algorithm'] = st.selectbox(
+            "Scoring Algorithm",
+            ["edit_distance", "positional"],
+            index=0 if st.session_state.settings.get('comparison_algorithm', 'edit_distance') == 'edit_distance' else 1,
+            help="edit_distance: Handles insertions/deletions (recommended)\npositional: Simple character-by-character matching"
         )
         
         if st.button("💾 Save Settings"):
@@ -475,7 +567,13 @@ def main():
             if result["exact_match"]:
                 st.success("🎉 PERFECT MATCH! Well done!")
             else:
-                st.info(f"📊 Score: {result['similarity']:.1%}")
+                score_col1, score_col2 = st.columns([2, 1])
+                with score_col1:
+                    st.info(f"📊 Score: {result['similarity']:.1%}")
+                with score_col2:
+                    if result.get('edit_distance') is not None:
+                        st.metric("Edit Distance", result['edit_distance'],
+                                help="Number of edits needed to match target")
             
             col1, col2 = st.columns(2)
             with col1:
@@ -510,28 +608,51 @@ def main():
                     st.success("✅ Phonemes match perfectly (spacing differences ignored)")
                 elif target_clean != recognized_clean:
                     st.warning("⚠️ Different words recognized - try speaking more clearly")
+                
+                # Show detailed phoneme analysis (works with edit distance!)
+                if st.checkbox("🔍 Show detailed phoneme analysis", key="show_detail"):
+                    st.markdown("#### Phoneme Analysis")
+                    st.write(f"**Algorithm:** {st.session_state.settings.get('comparison_algorithm', 'edit_distance')}")
                     
-                    # Show character-by-character comparison for debugging
-                    if st.checkbox("🔍 Show detailed comparison", key="show_detail"):
-                        st.write("**Word comparison:**")
-                        st.write(f"Target: `{target_clean}`")
-                        st.write(f"Recognized: `{recognized_clean}`")
-                        st.write("**Phoneme comparison (no spaces):**")
-                        st.write(f"Target: `{correct_phonemes_no_space}`")
-                        st.write(f"Yours: `{user_phonemes_no_space}`")
+                    if result.get('edit_distance') is not None:
+                        st.write(f"**Edit Distance:** {result['edit_distance']} edit(s) needed")
+                    
+                    st.write("**Normalized phonemes (spaces removed for comparison):**")
+                    col_a, col_b = st.columns(2)
+                    with col_a:
+                        st.code(result.get('correct_phonemes_normalized', correct_phonemes_no_space), language=None)
+                        st.caption(f"Target ({len(result.get('correct_phonemes_normalized', correct_phonemes_no_space))} chars)")
+                    with col_b:
+                        st.code(result.get('user_phonemes_normalized', user_phonemes_no_space), language=None)
+                        st.caption(f"Yours ({len(result.get('user_phonemes_normalized', user_phonemes_no_space))} chars)")
+                    
+                    # Visual comparison
+                    target_norm = result.get('correct_phonemes_normalized', correct_phonemes_no_space)
+                    user_norm = result.get('user_phonemes_normalized', user_phonemes_no_space)
+                    
+                    if target_norm == user_norm:
+                        st.success("🎯 Phonemes are identical!")
+                    else:
+                        st.info(f"📏 Length difference: {abs(len(target_norm) - len(user_norm))} characters")
                         
-                        # Show where they differ
-                        min_len = min(len(correct_phonemes_no_space), len(user_phonemes_no_space))
+                        # Show first few differences
                         diffs = []
-                        for i in range(min_len):
-                            if correct_phonemes_no_space[i] != user_phonemes_no_space[i]:
-                                diffs.append(f"Position {i}: expected `{correct_phonemes_no_space[i]}`, got `{user_phonemes_no_space[i]}`")
-                        if len(correct_phonemes_no_space) != len(user_phonemes_no_space):
-                            diffs.append(f"Length: expected {len(correct_phonemes_no_space)}, got {len(user_phonemes_no_space)}")
+                        for i in range(min(len(target_norm), len(user_norm))):
+                            if target_norm[i] != user_norm[i]:
+                                diffs.append(f"Position {i}: `{target_norm[i]}` → `{user_norm[i]}`")
+                                if len(diffs) >= 5:  # Limit to first 5 differences
+                                    break
+                        
+                        if len(target_norm) != len(user_norm):
+                            if len(target_norm) > len(user_norm):
+                                diffs.append(f"Missing {len(target_norm) - len(user_norm)} character(s) at end")
+                            else:
+                                diffs.append(f"Extra {len(user_norm) - len(target_norm)} character(s) at end")
+                        
                         if diffs:
-                            st.write("**Differences:**")
+                            st.write("**Key differences (first 5):**")
                             for diff in diffs:
-                                st.write(f"- {diff}")
+                                st.write(f"• {diff}")
                 
                 # Button to play back your actual recording
                 if result.get('user_audio_bytes'):
