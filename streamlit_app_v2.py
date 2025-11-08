@@ -768,21 +768,34 @@ def main():
                         st.session_state.current_phrase_index = jump_to - 1
                         st.rerun()
             with col4:
-                # Switch to free mode
-                if st.button("✏️ Free Text", key="switch_to_free", help="Switch to free text entry mode"):
-                    text = st.session_state.phrase_list[st.session_state.current_phrase_index]
-                    # Don't clear the list, just note we want manual mode
-                    st.info("💡 You can edit the text below, or close 'Import Phrase List' expander to use free text mode")
+                # Toggle edit mode
+                if 'edit_mode' not in st.session_state:
+                    st.session_state.edit_mode = False
+                    
+                if st.button("✏️ Edit", key="toggle_edit", help="Edit current phrase or type your own"):
+                    st.session_state.edit_mode = not st.session_state.edit_mode
+                    st.rerun()
             
             st.markdown("---")
             
-            # Display current phrase prominently
-            st.markdown("### 🎯 Current Phrase:")
-            st.markdown(f"## {current_phrase}")
-            st.caption("This phrase is automatically selected. Practice it below.")
-            
-            # Use this phrase for practice
-            text = current_phrase
+            # Display current phrase - editable or fixed
+            if st.session_state.edit_mode:
+                st.markdown("### ✏️ Edit Mode:")
+                st.caption("Edit the phrase below or type something completely different")
+                text = st.text_input(
+                    "Phrase to practice:",
+                    value=current_phrase,
+                    key="edit_phrase_input"
+                )
+                if st.button("📚 Back to List Mode", key="back_to_list"):
+                    st.session_state.edit_mode = False
+                    st.rerun()
+            else:
+                st.markdown("### 🎯 Current Phrase:")
+                st.markdown(f"## {current_phrase}")
+                st.caption("This phrase is automatically selected from your list. Click 'Edit' above to modify it.")
+                # Use this phrase for practice
+                text = current_phrase
             
         # MODE 2: Free Text Practice
         else:
