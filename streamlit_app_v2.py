@@ -117,14 +117,9 @@ def initialize_session_state():
 def get_whisper_model(model_name: str):
     """Load or get cached Whisper model"""
     if st.session_state.whisper_model_name != model_name:
-        try:
-            with st.spinner(f"Loading Whisper model '{model_name}'... (first run may take 1-2 minutes)"):
-                st.session_state.whisper_model = whisper.load_model(model_name)
-                st.session_state.whisper_model_name = model_name
-        except Exception as e:
-            st.error(f"Failed to load Whisper model: {e}")
-            st.info("Try refreshing the page or selecting a smaller model (tiny/base)")
-            st.stop()
+        with st.spinner(f"Loading Whisper model '{model_name}'..."):
+            st.session_state.whisper_model = whisper.load_model(model_name)
+            st.session_state.whisper_model_name = model_name
     return st.session_state.whisper_model
 
 
@@ -449,15 +444,7 @@ def save_current_session():
 
 def main():
     """Main Streamlit app"""
-    try:
-        initialize_session_state()
-    except Exception as e:
-        st.error(f"Initialization error: {e}")
-        st.info("This might be a first-time setup issue. Try refreshing the page.")
-        import traceback
-        with st.expander("Debug info"):
-            st.code(traceback.format_exc())
-        st.stop()
+    initialize_session_state()
     
     # Header
     st.title("🇧🇷 Brazilian Portuguese Pronunciation Practice")
