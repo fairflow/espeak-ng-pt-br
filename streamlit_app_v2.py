@@ -405,13 +405,14 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
             "edit_distance": edit_distance,
             "correct_phonemes_normalized": correct_phonemes_normalized,
             "user_phonemes_normalized": user_phonemes_normalized,
-            "user_audio_bytes": audio_bytes  # Save the original recording
+            "user_audio_bytes": audio_bytes  # Keep in session for playback, but don't save to JSON
         }
         
-        # Save to current session
+        # Save to current session (exclude bytes for JSON serialization)
+        session_data = {k: v for k, v in result.items() if k != "user_audio_bytes"}
         st.session_state.current_session["practices"].append({
             "time": datetime.now().isoformat(),
-            **result
+            **session_data
         })
         st.session_state.session_saved = False
         st.session_state.last_result = result
