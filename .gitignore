@@ -239,7 +239,10 @@ __pycache__/
 
 # Practice app audio files
 # not *.txt as I am using those
-*.wav # bulky and not needed
+# Only ignore wav files in root and practice_audio, not phsource (those are espeak data)
+/*.wav
+practice_audio/*.wav
+temp_*.wav
 *.bak # really not needed
 
 # Practice app data files (user-specific)

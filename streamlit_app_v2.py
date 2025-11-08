@@ -206,7 +206,8 @@ def transcribe_audio(audio_file: str, model):
         temperature=0.0,
         no_speech_threshold=0.6,  # Higher threshold to reject non-speech (like beeps)
         logprob_threshold=-1.0,   # Stricter on low-confidence segments
-        condition_on_previous_text=False  # Don't use context from previous segments
+        condition_on_previous_text=False,  # Don't use context from previous segments
+        word_timestamps=False  # Disable word-level timestamps to reduce space insertion
     )
     return result["text"].strip().lower()
 
@@ -277,9 +278,14 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
         # Transcribe user's audio
         recognized_text = transcribe_audio(temp_audio, model)
         
-        # Get phonemes of what they said
-        user_phonemes = get_phonemes(recognized_text, settings['voice'])
-        user_ipa = get_ipa(recognized_text, settings['voice'])
+        # Normalize text for comparison (remove spaces for phoneme matching)
+        # This helps when fast speech causes Whisper to add spaces
+        text_normalized = text.lower().replace(" ", "")
+        recognized_normalized = recognized_text.replace(" ", "")
+        
+        # Get phonemes of both normalized versions for fair comparison
+        user_phonemes = get_phonemes(recognized_normalized, settings['voice'])
+        user_ipa = get_ipa(recognized_normalized, settings['voice'])
         
         # Compare
         exact_match, similarity = compare_phonemes(user_phonemes, correct_phonemes)
@@ -436,6 +442,8 @@ def main():
                 
                 with col2:
                     if st.button("🔄 Clear Recording", key="clear_btn"):
+                        # Clear the last result and reset
+                        st.session_state.last_result = None
                         st.rerun()
         else:
             st.info("👆 Enter a word or phrase above to begin")
@@ -467,6 +475,13 @@ def main():
             with col2:
                 st.subheader("Your Pronunciation")
                 st.write(f"**Recognized:** {result['recognized']}")
+                
+                # Show if spaces were normalized
+                target_no_spaces = result['target'].lower().replace(" ", "")
+                recognized_no_spaces = result['recognized'].replace(" ", "")
+                if target_no_spaces == recognized_no_spaces and result['target'].lower() != result['recognized']:
+                    st.info("ℹ️ Text matches when spaces are removed (fast speech detected)")
+                
                 st.write(f"**eIPA:** {result['user_phonemes']}")
                 if result.get('user_ipa'):
                     st.write(f"**IPA:** {result['user_ipa']}")
