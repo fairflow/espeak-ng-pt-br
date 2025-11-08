@@ -209,8 +209,7 @@ def transcribe_audio(audio_file: str, model):
         logprob_threshold=-1.0,   # Stricter on low-confidence segments
         condition_on_previous_text=False,  # Don't use context from previous segments
         word_timestamps=False,  # Disable word-level timestamps to reduce space insertion
-        compression_ratio_threshold=2.4,  # Default is 2.4, keep it strict
-        no_speech_prob=0.5  # Additional noise filtering
+        compression_ratio_threshold=2.4  # Default is 2.4, keep it strict
     )
     
     # Double-check detected language (Whisper should respect language="pt" but doesn't always)
