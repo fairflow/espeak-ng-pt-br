@@ -278,17 +278,17 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
         # Transcribe user's audio
         recognized_text = transcribe_audio(temp_audio, model)
         
-        # Normalize text for comparison (remove spaces for phoneme matching)
-        # This helps when fast speech causes Whisper to add spaces
-        text_normalized = text.lower().replace(" ", "")
-        recognized_normalized = recognized_text.replace(" ", "")
+        # Get phonemes with proper spacing (for display)
+        user_phonemes = get_phonemes(recognized_text, settings['voice'])
+        user_ipa = get_ipa(recognized_text, settings['voice'])
         
-        # Get phonemes of both normalized versions for fair comparison
-        user_phonemes = get_phonemes(recognized_normalized, settings['voice'])
-        user_ipa = get_ipa(recognized_normalized, settings['voice'])
+        # For comparison: normalize by removing spaces from PHONEMES, not text
+        # This allows flexible matching while preserving word boundaries in display
+        correct_phonemes_normalized = correct_phonemes.replace(" ", "")
+        user_phonemes_normalized = user_phonemes.replace(" ", "")
         
-        # Compare
-        exact_match, similarity = compare_phonemes(user_phonemes, correct_phonemes)
+        # Compare normalized phonemes (without spaces)
+        exact_match, similarity = compare_phonemes(user_phonemes_normalized, correct_phonemes_normalized)
         
         # Keep the original recording for playback
         # (Don't delete temp_audio - we'll save it in the result)
@@ -475,16 +475,17 @@ def main():
             with col2:
                 st.subheader("Your Pronunciation")
                 st.write(f"**Recognized:** {result['recognized']}")
-                
-                # Show if spaces were normalized
-                target_no_spaces = result['target'].lower().replace(" ", "")
-                recognized_no_spaces = result['recognized'].replace(" ", "")
-                if target_no_spaces == recognized_no_spaces and result['target'].lower() != result['recognized']:
-                    st.info("ℹ️ Text matches when spaces are removed (fast speech detected)")
-                
                 st.write(f"**eIPA:** {result['user_phonemes']}")
                 if result.get('user_ipa'):
                     st.write(f"**IPA:** {result['user_ipa']}")
+                
+                # Show comparison note
+                correct_phonemes_no_space = result['correct_phonemes'].replace(" ", "")
+                user_phonemes_no_space = result['user_phonemes'].replace(" ", "")
+                if correct_phonemes_no_space == user_phonemes_no_space and result['correct_phonemes'] != result['user_phonemes']:
+                    st.success("✅ Phonemes match perfectly (spacing differences ignored)")
+                elif result['target'].lower() != result['recognized']:
+                    st.warning("⚠️ Different words recognized - try speaking more clearly")
                 
                 # Button to play back your actual recording
                 if result.get('user_audio_bytes'):
