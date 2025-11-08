@@ -675,7 +675,76 @@ def main():
         st.header("Quick Practice")
         st.write("Practice a single word or phrase")
         
-        text = st.text_input("Enter word or phrase:", key="practice_text")
+        # Phrase list import feature
+        with st.expander("📁 Import Phrase List"):
+            st.write("Upload a text file with one phrase per line for easy practice.")
+            uploaded_file = st.file_uploader(
+                "Choose a text file",
+                type=['txt'],
+                help="Upload a .txt file with one phrase per line. Empty lines are ignored."
+            )
+            
+            if uploaded_file is not None:
+                try:
+                    # Read and parse the file
+                    content = uploaded_file.read().decode('utf-8')
+                    phrases = [line.strip() for line in content.split('\n') if line.strip()]
+                    
+                    st.success(f"✓ Loaded {len(phrases)} phrases")
+                    
+                    # Initialize phrase list in session state
+                    if 'phrase_list' not in st.session_state or st.session_state.phrase_list != phrases:
+                        st.session_state.phrase_list = phrases
+                        st.session_state.current_phrase_index = 0
+                    
+                    # Show sample of phrases
+                    if len(phrases) <= 5:
+                        st.write("**Phrases:**")
+                        for p in phrases:
+                            st.write(f"• {p}")
+                    else:
+                        st.write(f"**Sample phrases:** {', '.join(phrases[:3])}, ...")
+                        
+                except Exception as e:
+                    st.error(f"Error reading file: {e}")
+            
+            if st.button("🗑️ Clear Phrase List"):
+                st.session_state.phrase_list = []
+                st.session_state.current_phrase_index = 0
+                st.rerun()
+        
+        # Check if we have a phrase list loaded
+        if 'phrase_list' in st.session_state and st.session_state.phrase_list:
+            st.info(f"📚 Phrase list active: {st.session_state.current_phrase_index + 1}/{len(st.session_state.phrase_list)}")
+            
+            col1, col2, col3 = st.columns([1, 1, 2])
+            with col1:
+                if st.button("⬅️ Previous", disabled=(st.session_state.current_phrase_index == 0)):
+                    st.session_state.current_phrase_index -= 1
+                    st.rerun()
+            with col2:
+                if st.button("➡️ Next", disabled=(st.session_state.current_phrase_index >= len(st.session_state.phrase_list) - 1)):
+                    st.session_state.current_phrase_index += 1
+                    st.rerun()
+            with col3:
+                # Jump to phrase
+                jump_to = st.selectbox(
+                    "Jump to phrase:",
+                    range(len(st.session_state.phrase_list)),
+                    index=st.session_state.current_phrase_index,
+                    format_func=lambda i: f"{i+1}. {st.session_state.phrase_list[i][:50]}{'...' if len(st.session_state.phrase_list[i]) > 50 else ''}",
+                    key="phrase_jump"
+                )
+                if jump_to != st.session_state.current_phrase_index:
+                    st.session_state.current_phrase_index = jump_to
+                    st.rerun()
+            
+            # Auto-populate text input with current phrase
+            default_text = st.session_state.phrase_list[st.session_state.current_phrase_index]
+        else:
+            default_text = ""
+        
+        text = st.text_input("Enter word or phrase:", value=default_text, key="practice_text")
         
         if text:
             # Show target audio directly - one click to play
