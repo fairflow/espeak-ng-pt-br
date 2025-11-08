@@ -48,6 +48,7 @@ def load_settings():
         "comparison_algorithm": "edit_distance",  # or "positional"
         "asr_engine": "whisper",  # "whisper" or "wav2vec2"
         "whisper_model_size": "base",  # tiny, base, small, medium, large
+        "silence_threshold": 0.01,  # Energy threshold for silence detection (0.001-0.1)
     }
     
     if config_file.exists():
@@ -471,8 +472,10 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
                 for i in range(0, len(audio_data) - frame_length, frame_length)
             ])
             
-            # Find speech boundaries (energy > 1% of max energy)
-            threshold = 0.01 * np.max(energy)
+            # Find speech boundaries using user-configurable threshold
+            # threshold is a percentage of max energy (default 0.01 = 1%)
+            silence_threshold = settings.get('silence_threshold', 0.01)
+            threshold = silence_threshold * np.max(energy)
             speech_frames = np.where(energy > threshold)[0]
             
             if len(speech_frames) > 0:
@@ -626,6 +629,18 @@ def main():
             ["edit_distance", "positional"],
             index=0 if st.session_state.settings.get('comparison_algorithm', 'edit_distance') == 'edit_distance' else 1,
             help="edit_distance: Handles insertions/deletions (recommended)\npositional: Simple character-by-character matching"
+        )
+        
+        st.markdown("**🎚️ Audio Processing**")
+        
+        st.session_state.settings['silence_threshold'] = st.slider(
+            "Silence Trim Threshold",
+            min_value=0.001,
+            max_value=0.1,
+            value=st.session_state.settings.get('silence_threshold', 0.01),
+            step=0.001,
+            format="%.3f",
+            help="Lower = more aggressive trimming (may cut speech). Higher = keep more audio (may include noise). Default: 0.01"
         )
         
         if st.button("💾 Save Settings"):
