@@ -673,11 +673,10 @@ def main():
     # Tab 1: Quick Practice
     with tab1:
         st.header("Quick Practice")
-        st.write("Practice a single word or phrase")
         
         # Phrase list import feature
-        with st.expander("📁 Import Phrase List"):
-            st.write("Upload a text file with one phrase per line for easy practice.")
+        with st.expander("📁 Import Phrase List (Optional)"):
+            st.write("Upload a text file with one phrase per line for structured practice.")
             uploaded_file = st.file_uploader(
                 "Choose a text file",
                 type=['txt'],
@@ -696,6 +695,8 @@ def main():
                     if 'phrase_list' not in st.session_state or st.session_state.phrase_list != phrases:
                         st.session_state.phrase_list = phrases
                         st.session_state.current_phrase_index = 0
+                        # Clear last result when loading new list
+                        st.session_state.last_result = None
                     
                     # Show sample of phrases
                     if len(phrases) <= 5:
@@ -708,43 +709,85 @@ def main():
                 except Exception as e:
                     st.error(f"Error reading file: {e}")
             
-            if st.button("🗑️ Clear Phrase List"):
-                st.session_state.phrase_list = []
-                st.session_state.current_phrase_index = 0
-                st.rerun()
+            if 'phrase_list' in st.session_state and st.session_state.phrase_list:
+                if st.button("🗑️ Clear Phrase List"):
+                    st.session_state.phrase_list = []
+                    st.session_state.current_phrase_index = 0
+                    st.session_state.last_result = None
+                    st.rerun()
         
-        # Check if we have a phrase list loaded
-        if 'phrase_list' in st.session_state and st.session_state.phrase_list:
-            st.info(f"📚 Phrase list active: {st.session_state.current_phrase_index + 1}/{len(st.session_state.phrase_list)}")
+        # Determine practice mode
+        guided_mode = 'phrase_list' in st.session_state and st.session_state.phrase_list
+        
+        # MODE 1: Guided List Practice
+        if guided_mode:
+            st.markdown("---")
+            st.subheader("📚 Guided Practice Mode")
             
-            col1, col2, col3 = st.columns([1, 1, 2])
+            # Progress and navigation
+            total_phrases = len(st.session_state.phrase_list)
+            current_idx = st.session_state.current_phrase_index
+            current_phrase = st.session_state.phrase_list[current_idx]
+            
+            # Track phrase changes to show feedback
+            if 'last_phrase_index' not in st.session_state:
+                st.session_state.last_phrase_index = current_idx
+            
+            if st.session_state.last_phrase_index != current_idx:
+                st.success(f"✓ Moved to phrase #{current_idx + 1}")
+                st.session_state.last_phrase_index = current_idx
+            
+            # Progress bar
+            progress = (current_idx + 1) / total_phrases
+            st.progress(progress, text=f"Phrase {current_idx + 1} of {total_phrases}")
+            
+            # Navigation buttons
+            col1, col2, col3, col4 = st.columns([1, 1, 2, 1])
             with col1:
-                if st.button("⬅️ Previous", disabled=(st.session_state.current_phrase_index == 0)):
+                if st.button("⬅️ Previous", disabled=(current_idx == 0), key="nav_prev"):
                     st.session_state.current_phrase_index -= 1
+                    # Keep result when navigating
                     st.rerun()
             with col2:
-                if st.button("➡️ Next", disabled=(st.session_state.current_phrase_index >= len(st.session_state.phrase_list) - 1)):
+                if st.button("Next ➡️", disabled=(current_idx >= total_phrases - 1), key="nav_next"):
                     st.session_state.current_phrase_index += 1
+                    # Keep result when navigating
                     st.rerun()
             with col3:
-                # Jump to phrase
-                jump_to = st.selectbox(
-                    "Jump to phrase:",
-                    range(len(st.session_state.phrase_list)),
-                    index=st.session_state.current_phrase_index,
-                    format_func=lambda i: f"{i+1}. {st.session_state.phrase_list[i][:50]}{'...' if len(st.session_state.phrase_list[i]) > 50 else ''}",
-                    key="phrase_jump"
+                # Number input for jumping
+                jump_to = st.number_input(
+                    "Jump to phrase #:",
+                    min_value=1,
+                    max_value=total_phrases,
+                    value=current_idx + 1,
+                    step=1,
+                    key="phrase_jump_number"
                 )
-                if jump_to != st.session_state.current_phrase_index:
-                    st.session_state.current_phrase_index = jump_to
-                    st.rerun()
+                if jump_to - 1 != current_idx:
+                    if st.button("Go", key="jump_go"):
+                        st.session_state.current_phrase_index = jump_to - 1
+                        st.rerun()
+            with col4:
+                # Switch to free mode
+                if st.button("✏️ Free Text", key="switch_to_free", help="Switch to free text entry mode"):
+                    text = st.session_state.phrase_list[st.session_state.current_phrase_index]
+                    # Don't clear the list, just note we want manual mode
+                    st.info("💡 You can edit the text below, or close 'Import Phrase List' expander to use free text mode")
             
-            # Auto-populate text input with current phrase
-            default_text = st.session_state.phrase_list[st.session_state.current_phrase_index]
+            st.markdown("---")
+            
+            # Display current phrase prominently
+            st.markdown("### 🎯 Current Phrase:")
+            st.markdown(f"## {current_phrase}")
+            st.caption("This phrase is automatically selected. Practice it below.")
+            
+            # Use this phrase for practice
+            text = current_phrase
+            
+        # MODE 2: Free Text Practice
         else:
-            default_text = ""
-        
-        text = st.text_input("Enter word or phrase:", value=default_text, key="practice_text")
+            st.write("Practice any word or phrase you like")
+            text = st.text_input("Enter word or phrase:", key="practice_text_free")
         
         if text:
             # Show target audio directly - one click to play
