@@ -660,26 +660,22 @@ def main():
         text = st.text_input("Enter word or phrase:", key="practice_text")
         
         if text:
-            # Listen First button
-            col1, col2 = st.columns([1, 3])
-            with col1:
-                if st.button("🔊 Listen First", key="listen_btn"):
-                    with st.spinner("Generating audio..."):
-                        audio_bytes = speak_text_gtts(text, st.session_state.settings['voice'])
-                        st.audio(audio_bytes, format='audio/mp3')
-            
-            with col2:
-                st.write("� Click to hear the target pronunciation before recording")
+            # Show target audio directly - one click to play
+            st.write("🎯 **Target pronunciation:**")
+            with st.spinner("Generating audio..."):
+                audio_bytes = speak_text_gtts(text, st.session_state.settings['voice'])
+                st.audio(audio_bytes, format='audio/mp3', autoplay=False)
             
             st.markdown("---")
-            st.write(" Now record your pronunciation:")
+            st.write("🎙️ **Now record your pronunciation:**")
             st.info("💡 Wait for the recording beep to finish before speaking. The app will automatically trim silence and enforce Portuguese language detection.")
             
             # Streamlit's built-in audio input
             audio_data = st.audio_input("Click to record", key="audio_input")
             
             if audio_data:
-                st.audio(audio_data)
+                st.write("▶️ **Your recording:**")
+                st.audio(audio_data, format='audio/wav')
                 
                 col1, col2 = st.columns([1, 3])
                 with col1:
@@ -693,8 +689,9 @@ def main():
                 
                 with col2:
                     if st.button("🔄 Clear Recording", key="clear_btn"):
-                        # Clear the last result and reset
+                        # Clear the last result and audio input
                         st.session_state.last_result = None
+                        # Force rerun to reset audio_input widget
                         st.rerun()
         else:
             st.info("👆 Enter a word or phrase above to begin")
@@ -724,10 +721,10 @@ def main():
                 if result.get('correct_ipa'):
                     st.write(f"**IPA:** {result['correct_ipa']}")
                 
-                # Button to hear target again
-                if st.button("🔊 Hear Target (Google TTS)", key="hear_target"):
-                    audio_bytes = speak_text_gtts(result['target'], st.session_state.settings['voice'])
-                    st.audio(audio_bytes, format='audio/mp3')
+                # Show target audio directly
+                st.write("🔊 **Google TTS:**")
+                audio_bytes = speak_text_gtts(result['target'], st.session_state.settings['voice'])
+                st.audio(audio_bytes, format='audio/mp3')
             
             with col2:
                 st.subheader("Your Pronunciation")
@@ -815,16 +812,16 @@ def main():
                         if len(substitutions) + len(insertions) + len(deletions) > 5:
                             st.caption(f"... and {len(substitutions) + len(insertions) + len(deletions) - 5} more differences")
                 
-                # Button to play back your actual recording
+                # Show your recording directly
                 if result.get('user_audio_bytes'):
-                    if st.button("🔊 Hear Your Recording", key="hear_recording"):
-                        st.audio(result['user_audio_bytes'], format='audio/wav')
+                    st.write("🔊 **Your recording:**")
+                    st.audio(result['user_audio_bytes'], format='audio/wav')
                 
-                # Button to hear TTS of what was recognized (for comparison)
+                # Show TTS of what was recognized (if different)
                 if result['recognized'] != result['target']:
-                    if st.button("🔊 Hear Recognized Text (TTS)", key="hear_recognized"):
-                        audio_bytes = speak_text_gtts(result['recognized'], st.session_state.settings['voice'])
-                        st.audio(audio_bytes, format='audio/mp3')
+                    st.write("🔊 **Recognized text (TTS):**")
+                    audio_bytes = speak_text_gtts(result['recognized'], st.session_state.settings['voice'])
+                    st.audio(audio_bytes, format='audio/mp3')
             
             # Optional: Hear eSpeak phoneme pronunciation
             if not result["exact_match"]:
