@@ -754,19 +754,17 @@ def main():
                     # Keep result when navigating
                     st.rerun()
             with col3:
-                # Number input for jumping
-                jump_to = st.number_input(
-                    "Jump to phrase #:",
-                    min_value=1,
-                    max_value=total_phrases,
-                    value=current_idx + 1,
-                    step=1,
-                    key="phrase_jump_number"
+                # Dropdown for jumping with phrase preview
+                jump_to = st.selectbox(
+                    "Jump to phrase:",
+                    options=range(total_phrases),
+                    index=current_idx,
+                    format_func=lambda i: f"{i+1}. {st.session_state.phrase_list[i][:40]}{'...' if len(st.session_state.phrase_list[i]) > 40 else ''}",
+                    key="phrase_jump_select"
                 )
-                if jump_to - 1 != current_idx:
-                    if st.button("Go", key="jump_go"):
-                        st.session_state.current_phrase_index = jump_to - 1
-                        st.rerun()
+                if jump_to != current_idx:
+                    st.session_state.current_phrase_index = jump_to
+                    st.rerun()
             with col4:
                 # Toggle edit mode
                 if 'edit_mode' not in st.session_state:
@@ -792,7 +790,8 @@ def main():
                     st.rerun()
             else:
                 st.markdown("### 🎯 Current Phrase:")
-                st.markdown(f"## {current_phrase}")
+                # Display phrase in large, bold text
+                st.markdown(f"# **{current_phrase}**")
                 st.caption("This phrase is automatically selected from your list. Click 'Edit' above to modify it.")
                 # Use this phrase for practice
                 text = current_phrase
