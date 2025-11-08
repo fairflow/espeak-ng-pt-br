@@ -122,38 +122,55 @@ def get_whisper_model(model_name: str):
     return st.session_state.whisper_model
 
 
+def get_espeak_path():
+    """Get espeak-ng path (local build or system-wide)"""
+    local_path = "./local/bin/run-espeak-ng"
+    if Path(local_path).exists():
+        return local_path
+    # Try system-wide espeak-ng (for Streamlit Cloud)
+    return "espeak-ng"
+
+
 def get_phonemes(text: str, voice: str = "pt-br") -> str:
     """Get eSpeak phoneme codes (eIPA) for text"""
-    espeak_path = "./local/bin/run-espeak-ng"
-    result = subprocess.run(
-        [espeak_path, "-v", voice, "-x", "-q", text],
-        capture_output=True,
-        text=True
-    )
-    return result.stdout.strip()
+    try:
+        result = subprocess.run(
+            [get_espeak_path(), "-v", voice, "-x", "-q", text],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+        return result.stdout.strip()
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return "[phonemes unavailable]"
 
 
 def get_ipa(text: str, voice: str = "pt-br") -> str:
     """Get IPA transcription for text"""
-    espeak_path = "./local/bin/run-espeak-ng"
-    result = subprocess.run(
-        [espeak_path, "-v", voice, "--ipa", "-q", text],
-        capture_output=True,
-        text=True
-    )
-    return result.stdout.strip()
+    try:
+        result = subprocess.run(
+            [get_espeak_path(), "-v", voice, "--ipa", "-q", text],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+        return result.stdout.strip()
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return "[IPA unavailable]"
 
 
 def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 40):
-    """Speak Portuguese text using eSpeak"""
-    espeak_path = "./local/bin/run-espeak-ng"
-    subprocess.run([
-        espeak_path,
-        "-v", voice,
-        "-s", str(speed),
-        "-p", str(pitch),
-        text
-    ])
+    """Speak Portuguese text using eSpeak (local only)"""
+    try:
+        subprocess.run([
+            get_espeak_path(),
+            "-v", voice,
+            "-s", str(speed),
+            "-p", str(pitch),
+            text
+        ], check=True)
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        pass  # Silently fail if espeak not available
 
 
 def speak_text_gtts(text: str, lang: str = "pt-br") -> bytes:
