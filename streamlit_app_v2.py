@@ -111,6 +111,9 @@ def initialize_session_state():
     if 'last_result' not in st.session_state:
         st.session_state.last_result = None
     
+    if 'audio_input_key' not in st.session_state:
+        st.session_state.audio_input_key = 0
+    
     if 'whisper_model' not in st.session_state:
         st.session_state.whisper_model = None
         st.session_state.whisper_model_name = None
@@ -670,8 +673,8 @@ def main():
             st.write("🎙️ **Now record your pronunciation:**")
             st.info("💡 Wait for the recording beep to finish before speaking. The app will automatically trim silence and enforce Portuguese language detection.")
             
-            # Streamlit's built-in audio input
-            audio_data = st.audio_input("Click to record", key="audio_input")
+            # Streamlit's built-in audio input with dynamic key
+            audio_data = st.audio_input("Click to record", key=f"audio_input_{st.session_state.audio_input_key}")
             
             if audio_data:
                 st.write("▶️ **Your recording:**")
@@ -689,9 +692,9 @@ def main():
                 
                 with col2:
                     if st.button("🔄 Clear Recording", key="clear_btn"):
-                        # Clear the last result and audio input
+                        # Clear the recording, results, and force widget reset
                         st.session_state.last_result = None
-                        # Force rerun to reset audio_input widget
+                        st.session_state.audio_input_key += 1  # Change key to reset widget
                         st.rerun()
         else:
             st.info("👆 Enter a word or phrase above to begin")
