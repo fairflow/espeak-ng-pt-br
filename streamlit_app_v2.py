@@ -196,13 +196,17 @@ def transcribe_audio(audio_file: str, model):
     """
     Transcribe audio to text using Whisper
     
-    Note: No initial_prompt is used to avoid biasing the transcription
+    Note: No initial_prompt is used to avoid biasing the transcription.
+    We force Portuguese language detection and use low temperature for consistency.
     """
     result = model.transcribe(
         audio=audio_file,
-        language="pt",
+        language="pt",  # Force Portuguese (ISO 639-1 code)
         task="transcribe",
-        temperature=0.0
+        temperature=0.0,
+        no_speech_threshold=0.6,  # Higher threshold to reject non-speech (like beeps)
+        logprob_threshold=-1.0,   # Stricter on low-confidence segments
+        condition_on_previous_text=False  # Don't use context from previous segments
     )
     return result["text"].strip().lower()
 
@@ -230,6 +234,38 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
         temp_audio = "temp_streamlit_recording.wav"
         with open(temp_audio, 'wb') as f:
             f.write(audio_bytes)
+        
+        # Preprocess audio: trim silence/noise from start and end
+        # This helps remove recording beeps and other artifacts
+        try:
+            audio_data, sample_rate = sf.read(temp_audio)
+            
+            # Simple energy-based trimming
+            # Calculate short-term energy
+            frame_length = int(0.02 * sample_rate)  # 20ms frames
+            energy = np.array([
+                np.sum(audio_data[i:i+frame_length]**2) 
+                for i in range(0, len(audio_data) - frame_length, frame_length)
+            ])
+            
+            # Find speech boundaries (energy > 1% of max energy)
+            threshold = 0.01 * np.max(energy)
+            speech_frames = np.where(energy > threshold)[0]
+            
+            if len(speech_frames) > 0:
+                start_frame = max(0, speech_frames[0] - 2)  # Add 2 frames padding
+                end_frame = min(len(energy), speech_frames[-1] + 3)
+                
+                start_sample = start_frame * frame_length
+                end_sample = end_frame * frame_length
+                
+                trimmed_audio = audio_data[start_sample:end_sample]
+                
+                # Save trimmed audio
+                sf.write(temp_audio, trimmed_audio, sample_rate)
+        except Exception as e:
+            # If trimming fails, continue with original audio
+            pass
         
         # Get Whisper model
         model = get_whisper_model(settings['model'])
@@ -379,7 +415,8 @@ def main():
                 st.write("� Click to hear the target pronunciation before recording")
             
             st.markdown("---")
-            st.write("�👇 Now record your pronunciation:")
+            st.write(" Now record your pronunciation:")
+            st.info("💡 Wait for the recording beep to finish before speaking. The app will automatically trim silence and enforce Portuguese language detection.")
             
             # Streamlit's built-in audio input
             audio_data = st.audio_input("Click to record", key="audio_input")

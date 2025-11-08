@@ -159,10 +159,8 @@ src/pcaudiolib/
 *.sdf
 *.cache
 *.user
-# not *.txt as I am using those
-*.wav # bulky and not needed
-*.bak # really not needed
-*.wixobj
+
+.wixobj
 *.wixpdb
 *.cab
 /src/windows/Release
@@ -238,6 +236,11 @@ venv/
 *.pyc
 __pycache__/
 !requirements.txt
+
+# Practice app audio files
+# not *.txt as I am using those
+*.wav # bulky and not needed
+*.bak # really not needed
 
 # Practice app data files (user-specific)
 practice_config.json
