@@ -604,10 +604,19 @@ def main():
                 correct_phonemes_no_space = result['correct_phonemes'].replace(" ", "")
                 user_phonemes_no_space = result['user_phonemes'].replace(" ", "")
                 
-                if correct_phonemes_no_space == user_phonemes_no_space and result['correct_phonemes'] != result['user_phonemes']:
+                # Only show messages if there are meaningful differences
+                phonemes_match = correct_phonemes_no_space == user_phonemes_no_space
+                text_matches = target_clean == recognized_clean
+                score_is_high = result['similarity'] >= 0.95
+                
+                if phonemes_match and result['correct_phonemes'] != result['user_phonemes']:
                     st.success("✅ Phonemes match perfectly (spacing differences ignored)")
-                elif target_clean != recognized_clean:
+                elif not text_matches and not score_is_high:
+                    # Only warn if BOTH text differs AND score is low
                     st.warning("⚠️ Different words recognized - try speaking more clearly")
+                elif score_is_high and not text_matches:
+                    # High score but text differs (e.g., punctuation) - show positive message
+                    st.info("ℹ️ Excellent pronunciation! (Minor text differences ignored)")
                 
                 # Show detailed phoneme analysis (works with edit distance!)
                 if st.checkbox("🔍 Show detailed phoneme analysis", key="show_detail"):
