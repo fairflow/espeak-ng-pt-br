@@ -229,7 +229,15 @@ def compare_phonemes(user_phonemes: str, correct_phonemes: str):
 
 
 def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
-    """Practice a word/phrase using pre-recorded audio"""
+    """
+    Practice a word/phrase using pre-recorded audio
+    
+    Logic:
+    1. Transcribe audio to text (with proper spacing)
+    2. Generate phonemes for both target and recognized text (preserving word boundaries)
+    3. For comparison: strip spaces from phonemes only (not from text)
+    4. This allows flexible matching while maintaining proper IPA display
+    """
     try:
         # Save audio bytes to temporary file
         temp_audio = "temp_streamlit_recording.wav"
