@@ -18,8 +18,9 @@ import os
 # Environment configuration
 IS_LOCAL_DEV = os.path.exists('./local/bin/run-espeak-ng')  # True if local eSpeak build exists
 
-# Suppress FP16 warning from Whisper on CPU
-warnings.filterwarnings("ignore", message="FP16 is not supported on CPU")
+# Suppress warnings
+warnings.filterwarnings("ignore", message="FP16 is not supported on CPU")  # Whisper on CPU
+warnings.filterwarnings("ignore", category=UserWarning, module="urllib3")  # LibreSSL compatibility
 
 try:
     import whisper
@@ -475,7 +476,7 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
             f.write(audio_bytes)
         
         # Preprocess audio: trim silence/noise from start and end
-        # This helps remove recording beeps and other artifacts
+        # This helps remove system noise and other artifacts
         try:
             audio_data, sample_rate = sf.read(temp_audio)
             
@@ -861,7 +862,7 @@ def main():
             
             st.markdown("---")
             st.write("🎙️ **Now record your pronunciation:**")
-            st.info("💡 Wait for the recording beep to finish before speaking. The app will automatically trim silence and enforce Portuguese language detection.")
+            st.info("💡 Wait for the recording icon to turn red before speaking. The app will automatically trim silence and enforce Portuguese language detection.")
             
             # Streamlit's built-in audio input with dynamic key
             audio_data = st.audio_input("Click to record", key=f"audio_input_{st.session_state.audio_input_key}")
