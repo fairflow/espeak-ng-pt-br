@@ -104,16 +104,24 @@ class CCSTestSession:
         
         # Conditional elements based on state
         if app_state.current_text:
-            visible.add(UIElement.TARGET_AUDIO_PLAYER)
+            # Target audio player in practice area
+            visible.add(UIElement.AUDIO_PLAYER_TARGET_PRACTICE)
             visible.add(UIElement.AUDIO_RECORDER)
         
         if app_state.has_recording:
-            visible.add(UIElement.USER_AUDIO_PLAYER)
+            # User's live recording playback
+            visible.add(UIElement.AUDIO_PLAYER_USER_LIVE)
             visible.add(UIElement.CHECK_BUTTON)
             visible.add(UIElement.CLEAR_BUTTON)
         
         if app_state.has_results:
             visible.add(UIElement.RESULTS_PANEL)
+            # Audio players in results panel
+            visible.add(UIElement.AUDIO_PLAYER_TARGET_RESULTS)
+            visible.add(UIElement.AUDIO_PLAYER_USER_RESULTS)
+            # Recognized TTS only if different from target
+            # (This would need actual result data to determine accurately)
+            visible.add(UIElement.AUDIO_PLAYER_RECOGNIZED_TTS)
         
         return visible
     
@@ -143,16 +151,22 @@ class CCSTestSession:
             capabilities.add(AppCapability.ACCEPT_TEXT_INPUT)
             capabilities.add(AppCapability.ACCEPT_MODE_TOGGLE)
         
-        # Conditional capabilities
+        # Conditional capabilities - audio specific
         if app_state.current_text:
-            capabilities.add(AppCapability.PROVIDE_TARGET_AUDIO)
+            capabilities.add(AppCapability.PROVIDE_TARGET_AUDIO_PRACTICE)
             capabilities.add(AppCapability.ACCEPT_AUDIO_RECORDING)
         
         if app_state.has_recording:
+            capabilities.add(AppCapability.PROVIDE_USER_AUDIO_LIVE)
             capabilities.add(AppCapability.ACCEPT_CLEAR_RECORDING)
         
         if app_state.has_results:
             capabilities.add(AppCapability.PROVIDE_ANALYSIS_RESULTS)
+            capabilities.add(AppCapability.PROVIDE_TARGET_AUDIO_RESULTS)
+            capabilities.add(AppCapability.PROVIDE_USER_AUDIO_RESULTS)
+            capabilities.add(AppCapability.PROVIDE_RECOGNIZED_AUDIO)
+            capabilities.add(AppCapability.PROVIDE_PHONEME_AUDIO_CORRECT)
+            capabilities.add(AppCapability.PROVIDE_PHONEME_AUDIO_USER)
         
         return capabilities
     

@@ -38,9 +38,16 @@ class UIElement(Enum):
     
     # Display elements
     PHRASE_DISPLAY_BOLD = auto()    # Current phrase in bold/large text
-    TARGET_AUDIO_PLAYER = auto()    # Target pronunciation audio
-    USER_AUDIO_PLAYER = auto()      # User's recording playback
     RESULTS_PANEL = auto()          # Pronunciation analysis results
+    
+    # Audio players - specific types tracked separately
+    AUDIO_PLAYER_TARGET_PRACTICE = auto()     # Target TTS when entering practice
+    AUDIO_PLAYER_USER_LIVE = auto()           # User's just-recorded audio
+    AUDIO_PLAYER_TARGET_RESULTS = auto()      # Target TTS in results panel
+    AUDIO_PLAYER_USER_RESULTS = auto()        # User's recording in results panel
+    AUDIO_PLAYER_RECOGNIZED_TTS = auto()      # TTS of recognized text
+    AUDIO_PLAYER_PHONEME_CORRECT = auto()     # eSpeak correct phonemes (on demand)
+    AUDIO_PLAYER_PHONEME_USER = auto()        # eSpeak user phonemes (on demand)
     
     # Navigation elements
     PHRASE_LIST_UPLOADER = auto()   # File upload widget
@@ -68,7 +75,15 @@ class AppCapability(Enum):
     ACCEPT_MODE_TOGGLE = auto()
     ACCEPT_CLEAR_RECORDING = auto()
     ACCEPT_CLEAR_LIST = auto()
-    PROVIDE_TARGET_AUDIO = auto()
+    
+    # Audio provision capabilities - specific types
+    PROVIDE_TARGET_AUDIO_PRACTICE = auto()    # Can play target during practice
+    PROVIDE_USER_AUDIO_LIVE = auto()          # Can play back just-recorded audio
+    PROVIDE_TARGET_AUDIO_RESULTS = auto()     # Can play target in results
+    PROVIDE_USER_AUDIO_RESULTS = auto()       # Can play user recording in results
+    PROVIDE_RECOGNIZED_AUDIO = auto()         # Can play TTS of recognized text
+    PROVIDE_PHONEME_AUDIO_CORRECT = auto()    # Can play correct phonemes
+    PROVIDE_PHONEME_AUDIO_USER = auto()       # Can play user phonemes
     PROVIDE_ANALYSIS_RESULTS = auto()
 
 
@@ -83,8 +98,16 @@ class UserIntent(Enum):
     WANT_TOGGLE_MODE = auto()
     WANT_CLEAR_RECORDING = auto()
     WANT_CLEAR_LIST = auto()
-    WANT_HEAR_TARGET = auto()
     WANT_SEE_RESULTS = auto()
+    
+    # Audio playback intents - specific types
+    WANT_HEAR_TARGET_PRACTICE = auto()     # Want to hear target before recording
+    WANT_HEAR_USER_LIVE = auto()           # Want to hear just-recorded audio
+    WANT_HEAR_TARGET_RESULTS = auto()      # Want to hear target in results
+    WANT_HEAR_USER_RESULTS = auto()        # Want to hear recording in results
+    WANT_HEAR_RECOGNIZED = auto()          # Want to hear what ASR recognized
+    WANT_HEAR_PHONEME_CORRECT = auto()     # Want to hear correct phoneme pronunciation
+    WANT_HEAR_PHONEME_USER = auto()        # Want to hear user phoneme pronunciation
 
 
 @dataclass
@@ -173,6 +196,7 @@ class CCSInteractionState:
         """
         # Define complementary port pairs (user intent -> app capability)
         port_pairs = {
+            # Control interactions
             UserIntent.WANT_ENTER_TEXT: AppCapability.ACCEPT_TEXT_INPUT,
             UserIntent.WANT_RECORD_AUDIO: AppCapability.ACCEPT_AUDIO_RECORDING,
             UserIntent.WANT_UPLOAD_FILE: AppCapability.ACCEPT_FILE_UPLOAD,
@@ -182,8 +206,16 @@ class CCSInteractionState:
             UserIntent.WANT_TOGGLE_MODE: AppCapability.ACCEPT_MODE_TOGGLE,
             UserIntent.WANT_CLEAR_RECORDING: AppCapability.ACCEPT_CLEAR_RECORDING,
             UserIntent.WANT_CLEAR_LIST: AppCapability.ACCEPT_CLEAR_LIST,
-            UserIntent.WANT_HEAR_TARGET: AppCapability.PROVIDE_TARGET_AUDIO,
             UserIntent.WANT_SEE_RESULTS: AppCapability.PROVIDE_ANALYSIS_RESULTS,
+            
+            # Audio playback interactions - specific types
+            UserIntent.WANT_HEAR_TARGET_PRACTICE: AppCapability.PROVIDE_TARGET_AUDIO_PRACTICE,
+            UserIntent.WANT_HEAR_USER_LIVE: AppCapability.PROVIDE_USER_AUDIO_LIVE,
+            UserIntent.WANT_HEAR_TARGET_RESULTS: AppCapability.PROVIDE_TARGET_AUDIO_RESULTS,
+            UserIntent.WANT_HEAR_USER_RESULTS: AppCapability.PROVIDE_USER_AUDIO_RESULTS,
+            UserIntent.WANT_HEAR_RECOGNIZED: AppCapability.PROVIDE_RECOGNIZED_AUDIO,
+            UserIntent.WANT_HEAR_PHONEME_CORRECT: AppCapability.PROVIDE_PHONEME_AUDIO_CORRECT,
+            UserIntent.WANT_HEAR_PHONEME_USER: AppCapability.PROVIDE_PHONEME_AUDIO_USER,
         }
         
         self.satisfied_interactions.clear()
@@ -426,12 +458,13 @@ if __name__ == "__main__":
     app_state = build_guided_list_state(["Bom dia", "Obrigado", "Por favor"], 0)
     user_state = UserState()
     user_state.active_intents = {
-        UserIntent.WANT_HEAR_TARGET,
+        UserIntent.WANT_HEAR_TARGET_PRACTICE,  # Specific: hear target in practice area
         UserIntent.WANT_RECORD_AUDIO,
         UserIntent.WANT_GO_NEXT
     }
     user_state.expected_visible = {
         UIElement.PHRASE_DISPLAY_BOLD,
+        UIElement.AUDIO_PLAYER_TARGET_PRACTICE,  # Specific audio player type
         UIElement.NEXT_BUTTON,
         UIElement.PREV_BUTTON
     }
