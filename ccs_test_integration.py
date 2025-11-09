@@ -90,6 +90,7 @@ class CCSTestSession:
         
         if app_state.mode == PracticeMode.FREE_TEXT:
             visible.add(UIElement.TEXT_INPUT_FREE)
+            visible.add(UIElement.AUDIO_RECORDER)  # Always present in FREE_TEXT mode
             
         elif app_state.mode == PracticeMode.GUIDED_LIST:
             # Navigation elements
