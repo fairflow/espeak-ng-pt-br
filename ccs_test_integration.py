@@ -276,7 +276,7 @@ class CCSTestSession:
                 self.oracle.user_validation(matches=True, notes=validation_notes)
                 st.session_state.ccs_validation_notes = ""  # Clear notes after saving
                 st.success("✓ Validated!")
-                st.rerun()  # Rerun to clear the text area
+                # Note: NOT calling st.rerun() to avoid interfering with app state
         with col2:
             if st.button("❌ Mismatched", key="validate_no"):
                 # Record the app state with validation
@@ -286,7 +286,7 @@ class CCSTestSession:
                 self.oracle.user_validation(matches=False, notes=validation_notes)
                 st.session_state.ccs_validation_notes = ""  # Clear notes after saving
                 st.error("Bug recorded!")
-                st.rerun()  # Rerun to clear the text area
+                # Note: NOT calling st.rerun() to avoid interfering with app state
         
         # Show bugs found
         bugs = self.oracle.get_bugs()
