@@ -761,14 +761,23 @@ def main():
             st.progress(progress, text=f"Phrase {current_idx + 1} of {total_phrases}")
             
             # Navigation buttons
+            # Check if we're in edit mode
+            in_edit_mode = st.session_state.get('edit_mode', False)
+            
             col1, col2, col3, col4 = st.columns([1, 1, 2, 1])
             with col1:
-                if st.button("⬅️ Previous", disabled=(current_idx == 0), key="nav_prev"):
+                # Disable navigation in edit mode to avoid confusion
+                prev_disabled = (current_idx == 0) or in_edit_mode
+                if st.button("⬅️ Previous", disabled=prev_disabled, key="nav_prev",
+                           help="Navigation disabled in edit mode" if in_edit_mode else None):
                     st.session_state.current_phrase_index -= 1
                     # Keep result when navigating
                     st.rerun()
             with col2:
-                if st.button("Next ➡️", disabled=(current_idx >= total_phrases - 1), key="nav_next"):
+                # Disable navigation in edit mode to avoid confusion
+                next_disabled = (current_idx >= total_phrases - 1) or in_edit_mode
+                if st.button("Next ➡️", disabled=next_disabled, key="nav_next",
+                           help="Navigation disabled in edit mode" if in_edit_mode else None):
                     st.session_state.current_phrase_index += 1
                     # Keep result when navigating
                     st.rerun()
