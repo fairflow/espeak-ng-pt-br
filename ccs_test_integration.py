@@ -102,8 +102,8 @@ class CCSTestSession:
             visible.add(UIElement.EDIT_BUTTON)
             visible.add(UIElement.CLEAR_LIST_BUTTON)
             # Practice elements (always visible in guided mode)
-            visible.add(UIElement.TEXT_INPUT_PHRASE)
-            visible.add(UIElement.RECORD_BUTTON)
+            visible.add(UIElement.TEXT_INPUT_FREE)  # Manual phrase input field
+            visible.add(UIElement.AUDIO_RECORDER)   # Recording widget
             
         elif app_state.mode == PracticeMode.GUIDED_EDIT:
             visible.add(UIElement.TEXT_INPUT_EDIT)
