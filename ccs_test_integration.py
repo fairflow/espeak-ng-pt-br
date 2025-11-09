@@ -82,6 +82,15 @@ class CCSTestSession:
         app_state.has_recording = st.session_state.get('last_result', None) is not None
         app_state.has_results = st.session_state.get('last_result', None) is not None
         
+        # Extract enhanced state (Priority 2 improvements)
+        app_state.displayed_phrase_text = app_state.current_text  # What's shown is what we extracted
+        
+        # Extract results data if available
+        last_result = st.session_state.get('last_result', None)
+        if last_result:
+            app_state.current_score = last_result.get('similarity_score', None)
+            app_state.recognized_text = last_result.get('recognized_text', None)
+        
         # Infer visible elements based on mode
         app_state.visible_elements = self._infer_visible_elements(app_state)
         

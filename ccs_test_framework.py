@@ -20,6 +20,7 @@ from dataclasses import dataclass, field
 from typing import Dict, List, Set, Optional, Tuple
 from enum import Enum, auto
 import json
+import time
 
 
 class PracticeMode(Enum):
@@ -125,6 +126,11 @@ class AppState:
     has_recording: bool = False
     has_results: bool = False
     
+    # Enhanced state tracking (Priority 2 improvements)
+    displayed_phrase_text: Optional[str] = None  # Actual phrase text shown to user
+    current_score: Optional[float] = None        # Pronunciation score if results exist
+    recognized_text: Optional[str] = None        # What ASR heard
+    
     # Visibility state - which UI elements should be visible
     visible_elements: Set[UIElement] = field(default_factory=set)
     
@@ -140,9 +146,46 @@ class AppState:
             'current_phrase_index': self.current_phrase_index,
             'has_recording': self.has_recording,
             'has_results': self.has_results,
+            'displayed_phrase_text': self.displayed_phrase_text,
+            'current_score': self.current_score,
+            'recognized_text': self.recognized_text,
             'visible_elements': [e.name for e in self.visible_elements],
             'active_capabilities': [c.name for c in self.active_capabilities]
         }
+    
+    def check_invariants(self) -> List[str]:
+        """
+        Check state invariants and return list of violations.
+        This enables automated bug detection.
+        """
+        violations = []
+        
+        # Invariant: If has_results, must have has_recording
+        if self.has_results and not self.has_recording:
+            violations.append("Results exist but no recording (impossible state)")
+        
+        # Invariant: GUIDED_LIST requires phrase_list_size > 0
+        if self.mode == PracticeMode.GUIDED_LIST and len(self.phrase_list) == 0:
+            violations.append("GUIDED_LIST mode but empty phrase list")
+        
+        # Invariant: current_phrase_index must be in bounds
+        if len(self.phrase_list) > 0:
+            if self.current_phrase_index < 0:
+                violations.append(f"Negative phrase index: {self.current_phrase_index}")
+            elif self.current_phrase_index >= len(self.phrase_list):
+                violations.append(f"Phrase index {self.current_phrase_index} out of bounds (size={len(self.phrase_list)})")
+        
+        # Invariant: If has_results, should have current_score
+        if self.has_results and self.current_score is None:
+            violations.append("Results exist but no score available")
+        
+        # Invariant: displayed_phrase_text should match expectations
+        if self.mode == PracticeMode.GUIDED_LIST and len(self.phrase_list) > 0:
+            expected_phrase = self.phrase_list[self.current_phrase_index]
+            if self.displayed_phrase_text and self.displayed_phrase_text != expected_phrase:
+                violations.append(f"Displayed phrase '{self.displayed_phrase_text}' doesn't match list phrase '{expected_phrase}' at index {self.current_phrase_index}")
+        
+        return violations
 
 
 @dataclass
@@ -188,6 +231,10 @@ class CCSInteractionState:
     # Testing state
     test_step: int = 0
     bugs_found: List[Dict] = field(default_factory=list)
+    
+    # Timing information (Priority 2 improvement)
+    timestamp: float = 0.0                    # Unix timestamp of this state
+    time_since_last_transition: float = 0.0  # Seconds since previous transition
     
     def compute_port_matching(self):
         """
@@ -260,6 +307,8 @@ class CCSInteractionState:
         """Full state snapshot for logging"""
         return {
             'test_step': self.test_step,
+            'timestamp': self.timestamp,
+            'time_since_last_transition': self.time_since_last_transition,
             'app_state': self.app_state.to_dict(),
             'user_state': self.user_state.to_dict(),
             'satisfied_interactions': [
@@ -267,7 +316,8 @@ class CCSInteractionState:
             ],
             'unsatisfied_user_intents': [i.name for i in self.unsatisfied_user_intents],
             'unused_app_capabilities': [c.name for c in self.unused_app_capabilities],
-            'bugs_found_count': len(self.bugs_found)
+            'bugs_found_count': len(self.bugs_found),
+            'invariant_violations': self.app_state.check_invariants()
         }
 
 
@@ -296,13 +346,33 @@ class CCSTestOracle:
         Record a state transition.
         This should be called whenever app state changes.
         """
+        # Capture timing information
+        current_time = time.time()
+        time_since_last = 0.0
+        if self.current_state is not None:
+            time_since_last = current_time - self.current_state.timestamp
+        
         state = CCSInteractionState(
             app_state=new_app_state,
             user_state=new_user_state,
-            test_step=len(self.state_history)
+            test_step=len(self.state_history),
+            timestamp=current_time,
+            time_since_last_transition=time_since_last
         )
         
         state.compute_port_matching()
+        
+        # Check invariants and log violations
+        violations = new_app_state.check_invariants()
+        if violations:
+            # Automatically record as bug
+            bug_report = {
+                'step': state.test_step,
+                'type': 'INVARIANT_VIOLATION',
+                'violations': violations,
+                'notes': 'Automated invariant check'
+            }
+            state.bugs_found.append(bug_report)
         
         self.current_state = state
         self.state_history.append(state)
