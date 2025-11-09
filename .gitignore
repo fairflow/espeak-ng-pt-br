@@ -249,3 +249,4 @@ temp_*.wav
 practice_config.json
 practice_history.json
 practice_audio/
+ccs_test_session*.json
