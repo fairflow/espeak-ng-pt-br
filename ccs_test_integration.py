@@ -88,8 +88,8 @@ class CCSTestSession:
         # Extract results data if available
         last_result = st.session_state.get('last_result', None)
         if last_result:
-            app_state.current_score = last_result.get('similarity_score', None)
-            app_state.recognized_text = last_result.get('recognized_text', None)
+            app_state.current_score = last_result.get('similarity', None)  # Key is 'similarity', not 'similarity_score'
+            app_state.recognized_text = last_result.get('recognized', None)  # Key is 'recognized', not 'recognized_text'
         
         # Infer visible elements based on mode
         app_state.visible_elements = self._infer_visible_elements(app_state)
