@@ -252,18 +252,18 @@ class CCSTestSession:
                 st.markdown(f"**Has Results:** ✓")
         
         st.sidebar.markdown("**UI Validation:**")
-        st.sidebar.caption("Does what you see match the model?")
+        st.sidebar.caption("Did the previous state match the model?")
         
         # Input for validation notes (outside button to capture value)
         validation_notes = st.sidebar.text_area(
             "Notes (optional):",
             key="validation_notes",
-            help="Describe what you observe or any mismatches"
+            help="Describe what you observed or any mismatches"
         )
         
         col1, col2 = st.sidebar.columns(2)
         with col1:
-            if st.button("✅ Matches", key="validate_yes"):
+            if st.button("✅ Matched", key="validate_yes"):
                 # Record the app state with validation
                 user_state = UserState()
                 user_state.perception_matches = True
@@ -271,7 +271,7 @@ class CCSTestSession:
                 self.oracle.user_validation(matches=True, notes=validation_notes)
                 st.success("✓ Validated!")
         with col2:
-            if st.button("❌ Mismatch", key="validate_no"):
+            if st.button("❌ Mismatched", key="validate_no"):
                 # Record the app state with validation
                 user_state = UserState()
                 user_state.perception_matches = False
