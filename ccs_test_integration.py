@@ -254,11 +254,16 @@ class CCSTestSession:
         st.sidebar.markdown("**UI Validation:**")
         st.sidebar.caption("Did the previous state match the model?")
         
+        # Initialize notes in session state if needed
+        if 'ccs_validation_notes' not in st.session_state:
+            st.session_state.ccs_validation_notes = ""
+        
         # Input for validation notes (outside button to capture value)
         validation_notes = st.sidebar.text_area(
             "Notes (optional):",
-            key="validation_notes",
-            help="Describe what you observed or any mismatches"
+            value=st.session_state.ccs_validation_notes,
+            key="validation_notes_input",
+            help="Type notes here. They will be saved only when you click Matched/Mismatched."
         )
         
         col1, col2 = st.sidebar.columns(2)
@@ -269,7 +274,9 @@ class CCSTestSession:
                 user_state.perception_matches = True
                 self.oracle.transition(app_state, user_state)
                 self.oracle.user_validation(matches=True, notes=validation_notes)
+                st.session_state.ccs_validation_notes = ""  # Clear notes after saving
                 st.success("✓ Validated!")
+                st.rerun()  # Rerun to clear the text area
         with col2:
             if st.button("❌ Mismatched", key="validate_no"):
                 # Record the app state with validation
@@ -277,7 +284,9 @@ class CCSTestSession:
                 user_state.perception_matches = False
                 self.oracle.transition(app_state, user_state)
                 self.oracle.user_validation(matches=False, notes=validation_notes)
+                st.session_state.ccs_validation_notes = ""  # Clear notes after saving
                 st.error("Bug recorded!")
+                st.rerun()  # Rerun to clear the text area
         
         # Show bugs found
         bugs = self.oracle.get_bugs()
