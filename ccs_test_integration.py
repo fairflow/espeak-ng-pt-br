@@ -199,24 +199,53 @@ class CCSTestSession:
         st.sidebar.markdown("---")
         st.sidebar.subheader("🧪 CCS Testing")
         
-        if st.sidebar.button("📊 Show Current State"):
-            if self.oracle.current_state:
-                with st.sidebar.expander("Current Test State", expanded=True):
-                    state_dict = self.oracle.current_state.to_dict()
-                    st.json(state_dict)
+        # Extract and display current state
+        app_state = self.extract_app_state_from_streamlit()
+        
+        with st.sidebar.expander("📊 Current State", expanded=False):
+            st.markdown(f"**Mode:** `{app_state.mode.value}`")
+            st.markdown(f"**Visible Elements:** {len(app_state.visible_elements)}")
+            for elem in sorted(app_state.visible_elements, key=lambda x: x.value):
+                st.markdown(f"  • `{elem.value}`")
+            
+            st.markdown(f"**Capabilities:** {len(app_state.active_capabilities)}")
+            for cap in sorted(app_state.active_capabilities, key=lambda x: x.value):
+                st.markdown(f"  • `{cap.value}`")
+            
+            if app_state.current_text:
+                st.markdown(f"**Current Text:** {app_state.current_text[:50]}...")
+            if app_state.phrase_list:
+                st.markdown(f"**Phrase List:** {len(app_state.phrase_list)} phrases")
+                st.markdown(f"**Current Index:** {app_state.current_phrase_index + 1}")
+            if app_state.has_results:
+                st.markdown(f"**Has Results:** ✓")
         
         st.sidebar.markdown("**UI Validation:**")
         st.sidebar.caption("Does what you see match the model?")
         
+        # Input for validation notes (outside button to capture value)
+        validation_notes = st.sidebar.text_area(
+            "Notes (optional):",
+            key="validation_notes",
+            help="Describe what you observe or any mismatches"
+        )
+        
         col1, col2 = st.sidebar.columns(2)
         with col1:
             if st.button("✅ Matches", key="validate_yes"):
-                self.oracle.user_validation(matches=True)
-                st.success("Validated!")
+                # Record the app state with validation
+                user_state = UserState()
+                user_state.perception_matches = True
+                self.oracle.transition(app_state, user_state)
+                self.oracle.user_validation(matches=True, notes=validation_notes)
+                st.success("✓ Validated!")
         with col2:
             if st.button("❌ Mismatch", key="validate_no"):
-                notes = st.text_area("What's wrong?", key="validation_notes")
-                self.oracle.user_validation(matches=False, notes=notes)
+                # Record the app state with validation
+                user_state = UserState()
+                user_state.perception_matches = False
+                self.oracle.transition(app_state, user_state)
+                self.oracle.user_validation(matches=False, notes=validation_notes)
                 st.error("Bug recorded!")
         
         # Show bugs found
