@@ -203,14 +203,27 @@ class CCSTestSession:
         app_state = self.extract_app_state_from_streamlit()
         
         with st.sidebar.expander("📊 Current State", expanded=False):
-            st.markdown(f"**Mode:** `{app_state.mode.value}`")
+            # Mode with description
+            mode_desc = {
+                "FREE_TEXT": "Quick Practice (type any phrase)",
+                "GUIDED_LIST": "Guided Practice (phrase list loaded)",
+                "GUIDED_EDIT": "Edit Mode (modifying phrase)"
+            }
+            mode_name = app_state.mode.name
+            st.markdown(f"**Mode:** `{mode_name}`")
+            st.caption(mode_desc.get(mode_name, ""))
+            
             st.markdown(f"**Visible Elements:** {len(app_state.visible_elements)}")
-            for elem in sorted(app_state.visible_elements, key=lambda x: x.value):
-                st.markdown(f"  • `{elem.value}`")
+            for elem in sorted(app_state.visible_elements, key=lambda x: x.name):
+                # Convert enum name to readable format
+                readable = elem.name.replace('_', ' ').title()
+                st.markdown(f"  • {readable}")
             
             st.markdown(f"**Capabilities:** {len(app_state.active_capabilities)}")
-            for cap in sorted(app_state.active_capabilities, key=lambda x: x.value):
-                st.markdown(f"  • `{cap.value}`")
+            for cap in sorted(app_state.active_capabilities, key=lambda x: x.name):
+                # Convert enum name to readable format
+                readable = cap.name.replace('_', ' ').title()
+                st.markdown(f"  • {readable}")
             
             if app_state.current_text:
                 st.markdown(f"**Current Text:** {app_state.current_text[:50]}...")
