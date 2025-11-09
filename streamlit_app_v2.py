@@ -27,6 +27,13 @@ except ImportError as e:
     st.error("Please activate the virtual environment and install dependencies")
     st.stop()
 
+# CCS Testing Framework (optional)
+try:
+    from ccs_test_integration import CCSTestSession
+    CCS_AVAILABLE = True
+except ImportError:
+    CCS_AVAILABLE = False
+
 
 # Page configuration
 st.set_page_config(
@@ -122,6 +129,10 @@ def initialize_session_state():
     if 'wav2vec2_processor' not in st.session_state:
         st.session_state.wav2vec2_processor = None
         st.session_state.wav2vec2_model = None
+    
+    # CCS Testing Framework initialization (disabled by default)
+    if CCS_AVAILABLE and 'ccs_test' not in st.session_state:
+        st.session_state.ccs_test = CCSTestSession(enabled=False)
 
 
 def get_whisper_model(model_name: str):
@@ -662,6 +673,14 @@ def main():
                 st.warning(f"⚠️ {practice_count} unsaved practice(s)")
                 if st.button("💾 Save Session Now"):
                     save_current_session()
+        
+        # CCS Testing Framework Controls
+        if CCS_AVAILABLE:
+            st.markdown("---")
+            st.header("🧪 CCS Testing")
+            st.session_state.ccs_test.render_toggle_ui()
+            if st.session_state.ccs_test.enabled:
+                st.session_state.ccs_test.render_validation_ui()
     
     # Main content - Tabs
     tab1, tab2, tab3 = st.tabs([
@@ -1057,6 +1076,10 @@ def main():
                                 st.write("Your eIPA:", practice['user_phonemes'])
                         
                         st.markdown("---")
+    
+    # CCS Testing: Extract app state after UI renders (if testing enabled)
+    if CCS_AVAILABLE and st.session_state.ccs_test.enabled:
+        st.session_state.ccs_test.extract_app_state_from_streamlit()
 
 
 if __name__ == "__main__":
