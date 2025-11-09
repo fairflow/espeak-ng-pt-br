@@ -63,8 +63,20 @@ class CCSTestSession:
         # Create app state
         app_state = AppState(mode=mode)
         
-        # Extract data state
-        app_state.current_text = st.session_state.get('practice_text', None)
+        # Extract data state - use correct keys based on mode
+        if mode == PracticeMode.FREE_TEXT:
+            app_state.current_text = st.session_state.get('practice_text_free', None)
+        elif mode == PracticeMode.GUIDED_EDIT:
+            app_state.current_text = st.session_state.get('edit_phrase_input', None)
+        elif mode == PracticeMode.GUIDED_LIST:
+            # In guided list mode, text comes from the phrase list
+            phrase_list = st.session_state.get('phrase_list', [])
+            current_index = st.session_state.get('current_phrase_index', 0)
+            if phrase_list and 0 <= current_index < len(phrase_list):
+                app_state.current_text = phrase_list[current_index]
+            else:
+                app_state.current_text = None
+        
         app_state.phrase_list = st.session_state.get('phrase_list', [])
         app_state.current_phrase_index = st.session_state.get('current_phrase_index', 0)
         app_state.has_recording = st.session_state.get('last_result', None) is not None
@@ -90,7 +102,6 @@ class CCSTestSession:
         
         if app_state.mode == PracticeMode.FREE_TEXT:
             visible.add(UIElement.TEXT_INPUT_FREE)
-            visible.add(UIElement.AUDIO_RECORDER)  # Always present in FREE_TEXT mode
             
         elif app_state.mode == PracticeMode.GUIDED_LIST:
             # Navigation elements
