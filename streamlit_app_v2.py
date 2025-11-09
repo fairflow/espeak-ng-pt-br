@@ -824,6 +824,19 @@ def main():
         # MODE 2: Free Text Practice
         else:
             st.write("Practice any word or phrase you like")
+            
+            # Show navigation buttons (disabled) for consistency
+            col1, col2, col3 = st.columns([1, 1, 4])
+            with col1:
+                st.button("⬅️ Previous", disabled=True, key="nav_prev_disabled", 
+                         help="Navigation only available in guided mode")
+            with col2:
+                st.button("Next ➡️", disabled=True, key="nav_next_disabled",
+                         help="Navigation only available in guided mode")
+            with col3:
+                st.write("")  # Spacing
+            
+            st.markdown("---")
             text = st.text_input("Enter word or phrase:", key="practice_text_free")
         
         if text:

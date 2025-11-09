@@ -111,6 +111,9 @@ class CCSTestSession:
         
         if app_state.mode == PracticeMode.FREE_TEXT:
             visible.add(UIElement.TEXT_INPUT_FREE)
+            # Navigation buttons are visible but disabled in free text mode
+            visible.add(UIElement.PREV_BUTTON)
+            visible.add(UIElement.NEXT_BUTTON)
             
         elif app_state.mode == PracticeMode.GUIDED_LIST:
             # Navigation elements
