@@ -292,7 +292,9 @@ class CCSTestSession:
         
         # Save session button
         if st.sidebar.button("💾 Save Test Session"):
-            filename = f"ccs_test_session_{st.session_state.get('test_session_id', 'default')}.json"
+            from datetime import datetime
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            filename = f"ccs_test_session_{timestamp}.json"
             self.oracle.save_test_session(filename)
             st.sidebar.success(f"Saved to {filename}")
     
