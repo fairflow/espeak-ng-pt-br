@@ -326,8 +326,14 @@ class CCSTestSession:
         # Save session button
         if st.sidebar.button("💾 Save Test Session"):
             from datetime import datetime
+            import os
+            
+            # Ensure logs directory exists
+            log_dir = "ccs_test_logs"
+            os.makedirs(log_dir, exist_ok=True)
+            
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            filename = f"ccs_test_session_{timestamp}.json"
+            filename = os.path.join(log_dir, f"ccs_test_session_{timestamp}.json")
             self.oracle.save_test_session(filename)
             st.sidebar.success(f"Saved to {filename}")
     
