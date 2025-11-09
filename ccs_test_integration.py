@@ -172,7 +172,7 @@ class CCSTestSession:
         if app_state.has_recording:
             capabilities.add(AppCapability.PROVIDE_USER_AUDIO_LIVE)
             capabilities.add(AppCapability.ACCEPT_CLEAR_RECORDING)
-            capabilities.add(AppCapability.ACCEPT_CHECK_PRONUNCIATION)  # "Check Pronunciation" button
+            # Note: CHECK_BUTTON is a UIElement, added in _infer_visible_elements
         
         if app_state.has_results:
             capabilities.add(AppCapability.PROVIDE_ANALYSIS_RESULTS)
