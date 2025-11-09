@@ -14,9 +14,18 @@ Each log file is named `ccs_test_session_YYYYMMDD_HHMMSS.json` and contains:
 
 ## Timing Analysis
 
+**Important:** Timings are captured automatically from app state transitions, NOT from manual test panel interactions!
+
+Every time the app state changes (recording, checking pronunciation, navigating phrases), `extract_app_state_from_streamlit()` is called, which triggers `oracle.transition()` with automatic timestamp capture (`time.time()`). This means:
+
+- **Timings reflect actual app usage**, not just test panel button clicks
+- **Transitions occur on every Streamlit rerun** when CCS testing is enabled
+- **Intervals measure real user behavior**: thinking time, audio playback, editing, etc.
+
 Use the timing data to understand:
-- Time spent between transitions (thinking, practicing, listening)
+- Time spent between transitions (thinking, practicing, listening to audio)
 - Which modes users spend most time in
+- Natural workflow patterns (quick checks vs. careful practice)
 - Testing patterns (quick validation vs. deep exploration)
 
 ## Analysis Script

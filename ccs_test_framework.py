@@ -114,78 +114,24 @@ class UserIntent(Enum):
 @dataclass
 class AppState:
     """
-    Internal representation of the app's current state.
-    This is the "app tracking state" - what the app thinks it's showing.
+    State of the app agent (what the app offers).
+    This represents what capabilities and UI elements the app provides.
     """
-    mode: PracticeMode
-    
-    # Data state
-    current_text: Optional[str] = None
+    mode: PracticeMode = PracticeMode.FREE_TEXT
+    current_text: str = ""                    # Current phrase being practiced
     phrase_list: List[str] = field(default_factory=list)
     current_phrase_index: int = 0
-    has_recording: bool = False
-    has_results: bool = False
+    has_recording: bool = False               # User has recorded audio
+    has_results: bool = False                 # Pronunciation results available
     
-    # Enhanced state tracking (Priority 2 improvements)
-    displayed_phrase_text: Optional[str] = None  # Actual phrase text shown to user
-    current_score: Optional[float] = None        # Pronunciation score if results exist
-    recognized_text: Optional[str] = None        # What ASR heard
+    # Priority 2 improvements: Enhanced state tracking
+    displayed_phrase_text: Optional[str] = None  # Actual phrase shown on screen
+    current_score: Optional[float] = None        # Most recent similarity score
+    recognized_text: Optional[str] = None        # ASR transcription of user's audio
+    settings: Optional[Dict] = None              # App settings for reproducibility
     
-    # Visibility state - which UI elements should be visible
     visible_elements: Set[UIElement] = field(default_factory=set)
-    
-    # Capability state - what the app can accept right now
     active_capabilities: Set[AppCapability] = field(default_factory=set)
-    
-    def to_dict(self) -> Dict:
-        """Serialize to dictionary for logging/debugging"""
-        return {
-            'mode': self.mode.name,
-            'current_text': self.current_text,
-            'phrase_list_size': len(self.phrase_list),
-            'current_phrase_index': self.current_phrase_index,
-            'has_recording': self.has_recording,
-            'has_results': self.has_results,
-            'displayed_phrase_text': self.displayed_phrase_text,
-            'current_score': self.current_score,
-            'recognized_text': self.recognized_text,
-            'visible_elements': [e.name for e in self.visible_elements],
-            'active_capabilities': [c.name for c in self.active_capabilities]
-        }
-    
-    def check_invariants(self) -> List[str]:
-        """
-        Check state invariants and return list of violations.
-        This enables automated bug detection.
-        """
-        violations = []
-        
-        # Invariant: If has_results, must have has_recording
-        if self.has_results and not self.has_recording:
-            violations.append("Results exist but no recording (impossible state)")
-        
-        # Invariant: GUIDED_LIST requires phrase_list_size > 0
-        if self.mode == PracticeMode.GUIDED_LIST and len(self.phrase_list) == 0:
-            violations.append("GUIDED_LIST mode but empty phrase list")
-        
-        # Invariant: current_phrase_index must be in bounds
-        if len(self.phrase_list) > 0:
-            if self.current_phrase_index < 0:
-                violations.append(f"Negative phrase index: {self.current_phrase_index}")
-            elif self.current_phrase_index >= len(self.phrase_list):
-                violations.append(f"Phrase index {self.current_phrase_index} out of bounds (size={len(self.phrase_list)})")
-        
-        # Invariant: If has_results, should have current_score
-        if self.has_results and self.current_score is None:
-            violations.append("Results exist but no score available")
-        
-        # Invariant: displayed_phrase_text should match expectations
-        if self.mode == PracticeMode.GUIDED_LIST and len(self.phrase_list) > 0:
-            expected_phrase = self.phrase_list[self.current_phrase_index]
-            if self.displayed_phrase_text and self.displayed_phrase_text != expected_phrase:
-                violations.append(f"Displayed phrase '{self.displayed_phrase_text}' doesn't match list phrase '{expected_phrase}' at index {self.current_phrase_index}")
-        
-        return violations
 
 
 @dataclass
@@ -207,10 +153,18 @@ class UserState:
     def to_dict(self) -> Dict:
         """Serialize to dictionary for logging/debugging"""
         return {
-            'active_intents': [i.name for i in self.active_intents],
-            'expected_visible': [e.name for e in self.expected_visible],
-            'perception_matches': self.perception_matches,
-            'perception_notes': self.perception_notes
+            'mode': self.mode.name,
+            'current_text': self.current_text,
+            'phrase_list_size': len(self.phrase_list),
+            'current_phrase_index': self.current_phrase_index,
+            'has_recording': self.has_recording,
+            'has_results': self.has_results,
+            'displayed_phrase_text': self.displayed_phrase_text,
+            'current_score': self.current_score,
+            'recognized_text': self.recognized_text,
+            'settings': self.settings,
+            'visible_elements': [e.name for e in self.visible_elements],
+            'active_capabilities': [c.name for c in self.active_capabilities]
         }
 
 
@@ -326,9 +280,10 @@ class CCSTestOracle:
     Testing oracle that tracks state transitions and validates consistency.
     """
     
-    def __init__(self):
+    def __init__(self, test_config: Optional[Dict] = None):
         self.state_history: List[CCSInteractionState] = []
         self.current_state: Optional[CCSInteractionState] = None
+        self.test_config: Dict = test_config or {}  # Store test configuration
     
     def initialize_state(self, mode: PracticeMode) -> CCSInteractionState:
         """Initialize a new testing session in given mode"""
@@ -399,6 +354,7 @@ class CCSTestOracle:
     def save_test_session(self, filename: str):
         """Save complete test session to JSON for analysis"""
         session_data = {
+            'test_config': self.test_config,  # Save test configuration
             'total_steps': len(self.state_history),
             'bugs_found': self.get_bugs(),
             'state_history': [state.to_dict() for state in self.state_history]

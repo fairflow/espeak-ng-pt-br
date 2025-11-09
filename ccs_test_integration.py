@@ -36,7 +36,14 @@ class CCSTestSession:
     """
     
     def __init__(self, enabled: bool = False):
-        self.oracle = CCSTestOracle()
+        # Prepare test configuration
+        test_config = {
+            'enabled': enabled,
+            'auto_capture': False,
+            'framework_version': '1.0.0',
+            'test_type': 'CCS_dual_agent'
+        }
+        self.oracle = CCSTestOracle(test_config=test_config)
         self.enabled = enabled  # Can be toggled via UI
         self.auto_capture = False  # If True, captures state on every rerun
     
@@ -90,6 +97,9 @@ class CCSTestSession:
         if last_result:
             app_state.current_score = last_result.get('similarity', None)  # Key is 'similarity', not 'similarity_score'
             app_state.recognized_text = last_result.get('recognized', None)  # Key is 'recognized', not 'recognized_text'
+        
+        # Capture settings for reproducibility (auto-save on Save Settings)
+        app_state.settings = st.session_state.get('settings', None)
         
         # Infer visible elements based on mode
         app_state.visible_elements = self._infer_visible_elements(app_state)
@@ -357,6 +367,10 @@ class CCSTestSession:
                 value=self.auto_capture,
                 help="Automatically capture state on every rerun (verbose)"
             )
+            
+            # Update test config when settings change
+            self.oracle.test_config['enabled'] = self.enabled
+            self.oracle.test_config['auto_capture'] = self.auto_capture
             
             st.sidebar.info(
                 "🧪 Testing mode active! Validate UI at each step using "

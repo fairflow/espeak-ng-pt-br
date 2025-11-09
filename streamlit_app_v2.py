@@ -13,6 +13,10 @@ from datetime import datetime
 from typing import Dict, List
 import subprocess
 import tempfile
+import os
+
+# Environment configuration
+IS_LOCAL_DEV = os.path.exists('./local/bin/run-espeak-ng')  # True if local eSpeak build exists
 
 # Suppress FP16 warning from Whisper on CPU
 warnings.filterwarnings("ignore", message="FP16 is not supported on CPU")
@@ -1012,10 +1016,11 @@ def main():
                     audio_bytes = speak_text_gtts(result['recognized'], st.session_state.settings['voice'])
                     st.audio(audio_bytes, format='audio/mp3')
             
-            # Optional: Hear eSpeak phoneme pronunciation
-            if not result["exact_match"]:
+            # Optional: Hear eSpeak phoneme pronunciation (local development only)
+            if IS_LOCAL_DEV and not result["exact_match"]:
                 st.markdown("---")
                 st.subheader("Compare Phoneme Sounds (eSpeak)")
+                st.caption("🔧 Development feature - requires local audio device")
                 col1, col2 = st.columns(2)
                 with col1:
                     if st.button("🔊 Correct Phonemes", key="phoneme_correct"):
