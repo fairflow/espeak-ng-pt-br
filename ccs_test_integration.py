@@ -44,6 +44,12 @@ class CCSTestSession:
         """
         Extract current app state from Streamlit session_state.
         This is the key bridge between actual app and testing model.
+        
+        NOTE: Asynchronous state updates in the app can cause mismatches!
+        The phrase shown during recording may not be the phrase used for comparison
+        when "Check Pronunciation" is clicked. This is a race condition where
+        navigation/selection happens after recording but before checking.
+        CCS is inherently asynchronous, so this captures the issue well.
         """
         # Determine mode
         if 'phrase_list' in st.session_state and st.session_state.get('phrase_list'):
@@ -86,13 +92,18 @@ class CCSTestSession:
             visible.add(UIElement.TEXT_INPUT_FREE)
             
         elif app_state.mode == PracticeMode.GUIDED_LIST:
+            # Navigation elements
             visible.add(UIElement.PHRASE_DISPLAY_BOLD)
             visible.add(UIElement.PREV_BUTTON)
             visible.add(UIElement.NEXT_BUTTON)
             visible.add(UIElement.JUMP_SELECTOR)
-            visible.add(UIElement.EDIT_BUTTON)
             visible.add(UIElement.PROGRESS_BAR)
+            # Mode control elements
+            visible.add(UIElement.EDIT_BUTTON)
             visible.add(UIElement.CLEAR_LIST_BUTTON)
+            # Practice elements (always visible in guided mode)
+            visible.add(UIElement.TEXT_INPUT_PHRASE)
+            visible.add(UIElement.RECORD_BUTTON)
             
         elif app_state.mode == PracticeMode.GUIDED_EDIT:
             visible.add(UIElement.TEXT_INPUT_EDIT)
@@ -138,14 +149,16 @@ class CCSTestSession:
             capabilities.add(AppCapability.ACCEPT_TEXT_INPUT)
             
         elif app_state.mode == PracticeMode.GUIDED_LIST:
-            if app_state.current_phrase_index > 0:
-                capabilities.add(AppCapability.ACCEPT_NAVIGATION_PREV)
-            if app_state.current_phrase_index < len(app_state.phrase_list) - 1:
-                capabilities.add(AppCapability.ACCEPT_NAVIGATION_NEXT)
+            # Navigation always visible but may be disabled
+            capabilities.add(AppCapability.ACCEPT_NAVIGATION_PREV)
+            capabilities.add(AppCapability.ACCEPT_NAVIGATION_NEXT)
             if len(app_state.phrase_list) > 1:
                 capabilities.add(AppCapability.ACCEPT_JUMP_TO_PHRASE)
             capabilities.add(AppCapability.ACCEPT_MODE_TOGGLE)
             capabilities.add(AppCapability.ACCEPT_CLEAR_LIST)
+            # Practice capabilities
+            capabilities.add(AppCapability.ACCEPT_TEXT_INPUT)  # For manual input
+            capabilities.add(AppCapability.ACCEPT_AUDIO_RECORDING)
             
         elif app_state.mode == PracticeMode.GUIDED_EDIT:
             capabilities.add(AppCapability.ACCEPT_TEXT_INPUT)
@@ -159,6 +172,7 @@ class CCSTestSession:
         if app_state.has_recording:
             capabilities.add(AppCapability.PROVIDE_USER_AUDIO_LIVE)
             capabilities.add(AppCapability.ACCEPT_CLEAR_RECORDING)
+            capabilities.add(AppCapability.ACCEPT_CHECK_PRONUNCIATION)  # "Check Pronunciation" button
         
         if app_state.has_results:
             capabilities.add(AppCapability.PROVIDE_ANALYSIS_RESULTS)
@@ -198,6 +212,10 @@ class CCSTestSession:
         
         st.sidebar.markdown("---")
         st.sidebar.subheader("🧪 CCS Testing")
+        
+        # Show step count
+        step_count = len(self.oracle.state_history)
+        st.sidebar.caption(f"**Transitions recorded:** {step_count}")
         
         # Extract and display current state
         app_state = self.extract_app_state_from_streamlit()
