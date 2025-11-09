@@ -20,7 +20,7 @@ IS_LOCAL_DEV = os.path.exists('./local/bin/run-espeak-ng')  # True if local eSpe
 
 # Suppress warnings
 warnings.filterwarnings("ignore", message="FP16 is not supported on CPU")  # Whisper on CPU
-warnings.filterwarnings("ignore", category=UserWarning, module="urllib3")  # LibreSSL compatibility
+warnings.filterwarnings("ignore", message="urllib3 v2 only supports OpenSSL")  # LibreSSL compatibility
 
 try:
     import whisper
