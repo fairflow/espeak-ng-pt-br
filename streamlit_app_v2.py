@@ -773,17 +773,23 @@ def main():
                     # Keep result when navigating
                     st.rerun()
             with col3:
-                # Dropdown for jumping with phrase preview
-                jump_to = st.selectbox(
-                    "Jump to phrase:",
-                    options=range(total_phrases),
-                    index=current_idx,
-                    format_func=lambda i: f"{i+1}. {st.session_state.phrase_list[i][:40]}{'...' if len(st.session_state.phrase_list[i]) > 40 else ''}",
-                    key="phrase_jump_select"
-                )
-                if jump_to != current_idx:
-                    st.session_state.current_phrase_index = jump_to
-                    st.rerun()
+                # DISABLED: Dropdown for jumping with phrase preview
+                # This causes a critical async bug where the phrase shown during recording
+                # is different from the phrase used for comparison when Check Pronunciation
+                # is clicked. The selectbox triggers state updates at unpredictable times,
+                # creating race conditions. May investigate Streamlit workarounds later.
+                # 
+                # jump_to = st.selectbox(
+                #     "Jump to phrase:",
+                #     options=range(total_phrases),
+                #     index=current_idx,
+                #     format_func=lambda i: f"{i+1}. {st.session_state.phrase_list[i][:40]}{'...' if len(st.session_state.phrase_list[i]) > 40 else ''}",
+                #     key="phrase_jump_select"
+                # )
+                # if jump_to != current_idx:
+                #     st.session_state.current_phrase_index = jump_to
+                #     st.rerun()
+                st.write("")  # Placeholder to maintain layout
             with col4:
                 # Toggle edit mode
                 if 'edit_mode' not in st.session_state:
