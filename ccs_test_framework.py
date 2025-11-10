@@ -179,8 +179,10 @@ class AppState:
         # Invariant: displayed_phrase_text should match expectations
         if self.mode == PracticeMode.GUIDED_LIST and len(self.phrase_list) > 0:
             expected_phrase = self.phrase_list[self.current_phrase_index]
-            if self.displayed_phrase_text and self.displayed_phrase_text != expected_phrase:
-                violations.append(f"Displayed phrase '{self.displayed_phrase_text}' doesn't match list phrase '{expected_phrase}' at index {self.current_phrase_index}")
+            # Handle both dict (new format with translations) and string (old format)
+            expected_text = expected_phrase['text'] if isinstance(expected_phrase, dict) else expected_phrase
+            if self.displayed_phrase_text and self.displayed_phrase_text != expected_text:
+                violations.append(f"Displayed phrase '{self.displayed_phrase_text}' doesn't match list phrase '{expected_text}' at index {self.current_phrase_index}")
         
         return violations
 

@@ -301,15 +301,30 @@ class CCSTestSession:
             "Notes (optional):",
             value=st.session_state.ccs_validation_notes,
             key="validation_notes_input",
-            help="Type notes here. They will be saved only when you click Matched/Mismatched."
+            help="Type notes here. Press Cmd+Enter to save, or click one of the buttons below."
         )
         
+        # Check if user pressed Cmd+Enter in the text area (streamlit detects this as form submission)
+        # Note: We handle this by providing a standalone comment button
+        if st.sidebar.button("💬 Save Comment", key="save_comment_only", help="Save comment without validation (Cmd+Enter in notes field)"):
+            if validation_notes.strip():
+                # Record just a comment without validation
+                user_state = UserState()
+                user_state.perception_notes = validation_notes
+                self.oracle.transition(app_state, user_state)
+                st.session_state.ccs_validation_notes = ""  # Clear notes after saving
+                st.sidebar.success("💬 Comment saved!")
+            else:
+                st.sidebar.warning("No comment to save")
+        
+        st.sidebar.caption("Or validate state match:")
         col1, col2 = st.sidebar.columns(2)
         with col1:
             if st.button("✅ Matched", key="validate_yes"):
                 # Record the app state with validation
                 user_state = UserState()
                 user_state.perception_matches = True
+                user_state.perception_notes = validation_notes
                 self.oracle.transition(app_state, user_state)
                 self.oracle.user_validation(matches=True, notes=validation_notes)
                 st.session_state.ccs_validation_notes = ""  # Clear notes after saving
@@ -320,6 +335,7 @@ class CCSTestSession:
                 # Record the app state with validation
                 user_state = UserState()
                 user_state.perception_matches = False
+                user_state.perception_notes = validation_notes
                 self.oracle.transition(app_state, user_state)
                 self.oracle.user_validation(matches=False, notes=validation_notes)
                 st.session_state.ccs_validation_notes = ""  # Clear notes after saving
