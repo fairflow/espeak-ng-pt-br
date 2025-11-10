@@ -1,6 +1,6 @@
 # Portuguese Pronunciation Trainer - User Guide
 
-**Version 0.9.1** | Last Updated: November 2025
+**Version 0.9.2** | Last Updated: November 2025
 
 Welcome! This guide will help you practice Brazilian Portuguese pronunciation using speech recognition and instant feedback.
 
@@ -13,7 +13,7 @@ Welcome! This guide will help you practice Brazilian Portuguese pronunciation us
 **Online (Recommended):**
 
 - Open your web browser (Safari, Chrome, Firefox, etc.)
-- Visit: [ADD YOUR STREAMLIT CLOUD URL HERE]
+- Visit: **https://miolingo.streamlit.app/**
 - 💡 **Tip:** Bookmark this page or add to home screen!
 
 **Running Locally:**
@@ -64,9 +64,9 @@ Perfect for beginners or casual practice.
 
 Structured practice with a prepared list of phrases. Perfect for systematic learning!
 
-**Setting Up:**
+**Creating Your Own List:**
 
-1. **Prepare a phrase list file** (`.txt` format)
+1. **Prepare a text file** (`.txt` format):
    - One phrase per line
    - Simple format: `Bom dia`
    - Enhanced format: `Bom dia | Good morning` (with translation)
@@ -78,6 +78,12 @@ Structured practice with a prepared list of phrases. Perfect for systematic lear
    - Select your `.txt` file
    - The app shows how many phrases were loaded
 
+**Try a Sample List:**
+
+Want to get started quickly? Download this sample file with translations:
+- **[practice_phrases_with_translations.txt](https://github.com/fairflow/espeak-ng-pt-br/raw/main/practice_phrases_with_translations.txt)** (21 phrases with English translations and IPA)
+- Right-click → Save As, then import it in the app
+- *Note: This file has some unusual phrases—we're working on a better beginner list!* 😊
 **Practicing with Guided Mode:**
 
 Once a phrase list is loaded, the interface changes:

@@ -1,6 +1,6 @@
 # Developer Guide - Portuguese Pronunciation Trainer
 
-**Version 0.9.1** | Last Updated: November 10, 2025
+**Version 0.9.2** | Last Updated: November 10, 2025
 
 This guide is for developers who want to contribute to, modify, or understand the Portuguese Pronunciation Trainer codebase.
 

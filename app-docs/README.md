@@ -1,6 +1,6 @@
 # Portuguese Pronunciation Trainer - Documentation
 
-**Version 0.9.1** | Last Updated: November 10, 2025
+**Version 0.9.2** | Last Updated: November 10, 2025
 
 Welcome to the documentation for the Portuguese Pronunciation Trainer app!
 
@@ -74,8 +74,8 @@ Choose the guide that matches your needs:
 
 ### Just Want to Use the App?
 
-1. Read the **[USER_GUIDE.md](USER_GUIDE.md)**
-2. Open the app URL (provided separately)
+1. **Visit:** <https://miolingo.streamlit.app/>
+2. Read the **[USER_GUIDE.md](USER_GUIDE.md)** for help
 3. Start practicing!
 
 ### Want to Help Test?
