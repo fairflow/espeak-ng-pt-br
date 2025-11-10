@@ -226,7 +226,11 @@ def should_use_wav_audio() -> bool:
     
     Returns True if user has enabled WAV format in settings (for iOS devices).
     """
-    return st.session_state.get('settings', {}).get('use_wav_audio', False)
+    try:
+        return st.session_state.get('settings', {}).get('use_wav_audio', False)
+    except:
+        # Session state not yet initialized or not in Streamlit context
+        return False
 
 
 def speak_text_gtts(text: str, lang: str = "pt-br", force_wav: bool = None) -> tuple:
@@ -960,7 +964,7 @@ def main():
             use_wav = should_use_wav_audio()
             spinner_text = "Converting audio to WAV..." if use_wav else "Generating audio..."
             with st.spinner(spinner_text):
-                audio_bytes, audio_format = speak_text_gtts(text, st.session_state.settings['voice'])
+                audio_bytes, audio_format = speak_text_gtts(text, st.session_state.settings['voice'], force_wav=use_wav)
                 st.audio(audio_bytes, format=audio_format, autoplay=False)
             
             st.markdown("---")
@@ -1020,7 +1024,8 @@ def main():
                 
                 # Show target audio directly
                 st.write("🔊 **Google TTS:**")
-                audio_bytes, audio_format = speak_text_gtts(result['target'], st.session_state.settings['voice'])
+                use_wav = should_use_wav_audio()
+                audio_bytes, audio_format = speak_text_gtts(result['target'], st.session_state.settings['voice'], force_wav=use_wav)
                 st.audio(audio_bytes, format=audio_format)
             
             with col2:
@@ -1117,7 +1122,8 @@ def main():
                 # Show TTS of what was recognized (if different)
                 if result['recognized'] != result['target']:
                     st.write("🔊 **Recognized text (TTS):**")
-                    audio_bytes, audio_format = speak_text_gtts(result['recognized'], st.session_state.settings['voice'])
+                    use_wav = should_use_wav_audio()
+                    audio_bytes, audio_format = speak_text_gtts(result['recognized'], st.session_state.settings['voice'], force_wav=use_wav)
                     st.audio(audio_bytes, format=audio_format)
             
             # Optional: Hear eSpeak phoneme pronunciation (local development only)
