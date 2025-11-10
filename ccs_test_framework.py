@@ -63,6 +63,10 @@ class UIElement(Enum):
     EDIT_BUTTON = auto()            # Toggle edit mode button
     BACK_TO_LIST_BUTTON = auto()   # Return to list mode button
     CLEAR_LIST_BUTTON = auto()     # Clear phrase list button
+    
+    # Settings UI (sidebar - always visible)
+    SETTINGS_PANEL = auto()         # Settings sidebar section
+    SAVE_SETTINGS_BUTTON = auto()  # Save settings button
 
 
 class AppCapability(Enum):
@@ -72,10 +76,11 @@ class AppCapability(Enum):
     ACCEPT_FILE_UPLOAD = auto()
     ACCEPT_NAVIGATION_PREV = auto()
     ACCEPT_NAVIGATION_NEXT = auto()
-    ACCEPT_JUMP_TO_PHRASE = auto()
+    ACCEPT_JUMP_TO_PHRASE = auto()  # Disabled - kept for backwards compatibility
     ACCEPT_MODE_TOGGLE = auto()
     ACCEPT_CLEAR_RECORDING = auto()
     ACCEPT_CLEAR_LIST = auto()
+    ACCEPT_SETTINGS_CHANGE = auto()  # Can modify speed, pitch, voice, ASR, algorithm, etc.
     
     # Audio provision capabilities - specific types
     PROVIDE_TARGET_AUDIO_PRACTICE = auto()    # Can play target during practice

@@ -120,6 +120,8 @@ class CCSTestSession:
         
         # Always visible
         visible.add(UIElement.PHRASE_LIST_UPLOADER)
+        visible.add(UIElement.SETTINGS_PANEL)
+        visible.add(UIElement.SAVE_SETTINGS_BUTTON)
         
         if app_state.mode == PracticeMode.FREE_TEXT:
             visible.add(UIElement.TEXT_INPUT_FREE)
@@ -180,6 +182,7 @@ class CCSTestSession:
         
         # Always available
         capabilities.add(AppCapability.ACCEPT_FILE_UPLOAD)
+        capabilities.add(AppCapability.ACCEPT_SETTINGS_CHANGE)
         
         if app_state.mode == PracticeMode.FREE_TEXT:
             capabilities.add(AppCapability.ACCEPT_TEXT_INPUT)
