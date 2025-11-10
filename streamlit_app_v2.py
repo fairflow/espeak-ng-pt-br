@@ -711,7 +711,25 @@ def main():
                 try:
                     # Read and parse the file
                     content = uploaded_file.read().decode('utf-8')
-                    phrases = [line.strip() for line in content.split('\n') if line.strip()]
+                    raw_lines = [line.strip() for line in content.split('\n') if line.strip()]
+                    
+                    # Parse phrases - support both simple and enhanced format
+                    # Enhanced format: "Portuguese | English translation | [IPA]"
+                    # Simple format: "Portuguese"
+                    phrases = []
+                    for line in raw_lines:
+                        if '|' in line:
+                            # Enhanced format with translation
+                            parts = [p.strip() for p in line.split('|')]
+                            phrase_dict = {
+                                'text': parts[0],
+                                'translation': parts[1] if len(parts) > 1 else None,
+                                'ipa': parts[2] if len(parts) > 2 else None
+                            }
+                            phrases.append(phrase_dict)
+                        else:
+                            # Simple format - just the text
+                            phrases.append({'text': line, 'translation': None, 'ipa': None})
                     
                     st.success(f"✓ Loaded {len(phrases)} phrases")
                     
@@ -726,9 +744,10 @@ def main():
                     if len(phrases) <= 5:
                         st.write("**Phrases:**")
                         for p in phrases:
-                            st.write(f"• {p}")
+                            st.write(f"• {p['text']}")
                     else:
-                        st.write(f"**Sample phrases:** {', '.join(phrases[:3])}, ...")
+                        sample_texts = [p['text'] for p in phrases[:3]]
+                        st.write(f"**Sample phrases:** {', '.join(sample_texts)}, ...")
                         
                 except Exception as e:
                     st.error(f"Error reading file: {e}")
@@ -751,7 +770,16 @@ def main():
             # Progress and navigation
             total_phrases = len(st.session_state.phrase_list)
             current_idx = st.session_state.current_phrase_index
-            current_phrase = st.session_state.phrase_list[current_idx]
+            current_phrase_obj = st.session_state.phrase_list[current_idx]
+            # Handle both dict and string formats for backward compatibility
+            if isinstance(current_phrase_obj, dict):
+                current_phrase = current_phrase_obj['text']
+                phrase_translation = current_phrase_obj.get('translation')
+                phrase_ipa = current_phrase_obj.get('ipa')
+            else:
+                current_phrase = current_phrase_obj
+                phrase_translation = None
+                phrase_ipa = None
             
             # Track phrase changes to show feedback
             if 'last_phrase_index' not in st.session_state:
@@ -831,6 +859,16 @@ def main():
                 st.markdown("### 🎯 Current Phrase:")
                 # Display phrase in large, bold text
                 st.markdown(f"# **{current_phrase}**")
+                
+                # Show translation/IPA if available
+                if phrase_translation or phrase_ipa:
+                    with st.expander("📖 Translation & Reference", expanded=False):
+                        if phrase_translation:
+                            st.markdown(f"**🇬🇧 English:** {phrase_translation}")
+                        if phrase_ipa:
+                            st.markdown(f"**📚 Reference IPA:** {phrase_ipa}")
+                            st.caption("Compare with eSpeak IPA generated below")
+                
                 st.caption("This phrase is automatically selected from your list. Click 'Edit' above to modify it.")
                 # Use this phrase for practice
                 text = current_phrase

@@ -80,7 +80,9 @@ class CCSTestSession:
             phrase_list = st.session_state.get('phrase_list', [])
             current_index = st.session_state.get('current_phrase_index', 0)
             if phrase_list and 0 <= current_index < len(phrase_list):
-                app_state.current_text = phrase_list[current_index]
+                phrase_obj = phrase_list[current_index]
+                # Handle both dict (new format) and string (old format)
+                app_state.current_text = phrase_obj['text'] if isinstance(phrase_obj, dict) else phrase_obj
             else:
                 app_state.current_text = None
         
@@ -278,7 +280,9 @@ class CCSTestSession:
                 st.markdown(f"  • {readable}")
             
             if app_state.current_text:
-                st.markdown(f"**Current Text:** {app_state.current_text[:50]}...")
+                # Safely display text (handle both string and potential dict)
+                text_display = str(app_state.current_text)[:50] if app_state.current_text else ""
+                st.markdown(f"**Current Text:** {text_display}...")
             if app_state.phrase_list:
                 st.markdown(f"**Phrase List:** {len(app_state.phrase_list)} phrases")
                 st.markdown(f"**Current Index:** {app_state.current_phrase_index + 1}")
