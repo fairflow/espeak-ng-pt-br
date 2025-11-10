@@ -64,3 +64,12 @@ Git tags match version numbers: `v0.9.0`, `v0.9.1`, `v1.0.0`, etc.
 3. Commit changes: `git commit -m "Bump version to X.Y.Z"`
 4. Create matching git tag: `git tag -a vX.Y.Z -m "Version X.Y.Z"`
 5. Push with tags: `git push myfork main --tags`
+
+## Version 0.9.1 (2025-11-10)
+
+### Bug Fixes
+- **WAV Audio Setting Persistence**: Fixed issue where "Use WAV audio format" checkbox setting would not persist after page reload
+  - Setting now auto-saves immediately when toggled
+  - Added visual confirmation message when saved
+  - Ensures iOS Safari users don't lose their audio format preference
+
