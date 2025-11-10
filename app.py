@@ -81,6 +81,7 @@ def load_settings():
         "whisper_model_size": "base",  # tiny, base, small, medium, large
         "silence_threshold": 0.01,  # Energy threshold for silence detection (0.001-0.1)
         "use_wav_audio": False,  # Convert TTS audio to WAV for iOS Safari compatibility
+        "tts_engine": "gtts",  # "gtts" (Google TTS, high quality) or "espeak" (adjustable speed/pitch)
     }
     
     if config_file.exists():
@@ -290,6 +291,37 @@ def speak_text_gtts(text: str, lang: str = "pt-br", use_wav: bool = False) -> tu
                 audio_bytes = audio_file.read()
             Path(mp3_path).unlink()  # Clean up temp file
             return audio_bytes, 'audio/mp3'
+
+
+def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
+    """
+    Generate target pronunciation audio using the configured TTS engine
+    
+    Args:
+        text: Text to speak
+        settings: User settings dict containing tts_engine, voice, speed, pitch, use_wav_audio
+        
+    Returns:
+        (audio_bytes, format) where format is 'audio/mp3', 'audio/wav', or 'audio/x-wav'
+    """
+    tts_engine = settings.get('tts_engine', 'gtts')
+    
+    if tts_engine == 'espeak':
+        # Use eSpeak with speed and pitch control
+        audio_bytes = speak_text(
+            text,
+            voice=settings.get('voice', 'pt-br'),
+            speed=settings.get('speed', 140),
+            pitch=settings.get('pitch', 35)
+        )
+        return audio_bytes, 'audio/x-wav'
+    else:
+        # Use Google TTS (default, high quality)
+        return speak_text_gtts(
+            text,
+            lang=settings.get('voice', 'pt-br'),
+            use_wav=settings.get('use_wav_audio', False)
+        )
 
 
 def transcribe_audio_whisper(audio_file: str, model):
@@ -654,15 +686,31 @@ def main():
     with st.sidebar:
         st.header("⚙️ Settings")
         
-        # Voice settings
-        st.session_state.settings['speed'] = st.slider(
-            "Speed (wpm)", 80, 450, st.session_state.settings['speed'], 10,
-            help="Lower = slower speech"
+        # TTS Engine selection
+        st.markdown("**🔊 Text-to-Speech Engine**")
+        
+        st.session_state.settings['tts_engine'] = st.selectbox(
+            "TTS Engine",
+            ["gtts", "espeak"],
+            index=0 if st.session_state.settings.get('tts_engine', 'gtts') == 'gtts' else 1,
+            help="gtts: Google TTS (high quality, no speed/pitch control)\nespeak: eSpeak (adjustable speed/pitch, robotic voice)"
         )
         
-        st.session_state.settings['pitch'] = st.slider(
-            "Pitch", 0, 99, st.session_state.settings['pitch'], 5
-        )
+        tts_is_espeak = st.session_state.settings.get('tts_engine', 'gtts') == 'espeak'
+        
+        # Voice settings (only for eSpeak)
+        if tts_is_espeak:
+            st.session_state.settings['speed'] = st.slider(
+                "Speed (wpm)", 80, 450, st.session_state.settings['speed'], 10,
+                help="Lower = slower speech (eSpeak only)"
+            )
+            
+            st.session_state.settings['pitch'] = st.slider(
+                "Pitch", 0, 99, st.session_state.settings['pitch'], 5,
+                help="Voice pitch (eSpeak only)"
+            )
+        else:
+            st.caption("ℹ️ Speed/Pitch controls only available with eSpeak engine")
         
         st.session_state.settings['voice'] = st.selectbox(
             "Voice",
@@ -985,11 +1033,7 @@ def main():
             # Show target audio directly - one click to play
             st.write("🎯 **Target pronunciation:**")
             with st.spinner("Generating audio..."):
-                audio_bytes, audio_format = speak_text_gtts(
-                    text, 
-                    st.session_state.settings['voice'],
-                    st.session_state.settings.get('use_wav_audio', False)
-                )
+                audio_bytes, audio_format = generate_target_audio(text, st.session_state.settings)
                 st.audio(audio_bytes, format=audio_format, autoplay=False)
             
             st.markdown("---")
@@ -1048,12 +1092,9 @@ def main():
                     st.write(f"**IPA:** {result['correct_ipa']}")
                 
                 # Show target audio directly
-                st.write("🔊 **Google TTS:**")
-                audio_bytes, audio_format = speak_text_gtts(
-                    result['target'], 
-                    st.session_state.settings['voice'],
-                    st.session_state.settings.get('use_wav_audio', False)
-                )
+                tts_label = "Google TTS" if st.session_state.settings.get('tts_engine', 'gtts') == 'gtts' else "eSpeak"
+                st.write(f"🔊 **{tts_label}:**")
+                audio_bytes, audio_format = generate_target_audio(result['target'], st.session_state.settings)
                 st.audio(audio_bytes, format=audio_format)
             
             with col2:
@@ -1149,12 +1190,9 @@ def main():
                 
                 # Show TTS of what was recognized (if different)
                 if result['recognized'] != result['target']:
-                    st.write("🔊 **Recognized text (TTS):**")
-                    audio_bytes, audio_format = speak_text_gtts(
-                        result['recognized'], 
-                        st.session_state.settings['voice'],
-                        st.session_state.settings.get('use_wav_audio', False)
-                    )
+                    tts_label = "Google TTS" if st.session_state.settings.get('tts_engine', 'gtts') == 'gtts' else "eSpeak"
+                    st.write(f"🔊 **Recognized text ({tts_label}):**")
+                    audio_bytes, audio_format = generate_target_audio(result['recognized'], st.session_state.settings)
                     st.audio(audio_bytes, format=audio_format)
             
             # Optional: Hear eSpeak phoneme pronunciation (local development only)
