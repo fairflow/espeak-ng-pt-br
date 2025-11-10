@@ -218,23 +218,85 @@ def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 4
         pass  # Silently fail if espeak not available
 
 
-def speak_text_gtts(text: str, lang: str = "pt-br") -> bytes:
+def is_ios_device() -> bool:
+    """
+    Detect if the user is on an iOS device by checking streamlit context.
+    iOS Safari has issues playing MP3 from data URLs.
+    """
+    try:
+        # Check if we can access streamlit headers (only available in actual requests)
+        import streamlit.web.server.websocket_headers as wsh
+        headers = wsh.get_websocket_headers()
+        user_agent = headers.get("User-Agent", "").lower()
+        return "iphone" in user_agent or "ipad" in user_agent
+    except:
+        # If we can't detect, assume not iOS (safer default)
+        return False
+
+
+def speak_text_gtts(text: str, lang: str = "pt-br", force_wav: bool = None) -> tuple:
     """
     Generate speech using Google TTS (higher quality than eSpeak)
-    Returns audio bytes for playback in Streamlit
+    Returns (audio_bytes, format_string) for playback in Streamlit
+    
+    Args:
+        text: Text to convert to speech
+        lang: Language code (e.g., 'pt-br')
+        force_wav: If True, convert to WAV for iOS. If None, auto-detect iOS.
     """
     # Use 'pt' for Portuguese (gTTS auto-detects Brazilian vs European)
-    # or 'pt-br' specifically for Brazilian Portuguese
     tts = gTTS(text=text, lang=lang.replace('-br', ''), slow=False)
     
-    # Save to temporary file and read back
-    with tempfile.NamedTemporaryFile(delete=False, suffix='.mp3') as fp:
-        tts.save(fp.name)
-        with open(fp.name, 'rb') as audio_file:
-            audio_bytes = audio_file.read()
-        Path(fp.name).unlink()  # Clean up temp file
+    # Save to temporary MP3 file
+    with tempfile.NamedTemporaryFile(delete=False, suffix='.mp3') as mp3_fp:
+        tts.save(mp3_fp.name)
+        
+        # Determine if we need WAV conversion
+        convert_to_wav = force_wav if force_wav is not None else is_ios_device()
+        
+        if convert_to_wav:
+            # Convert MP3 to WAV for iOS Safari compatibility
+            wav_path = mp3_fp.name.replace('.mp3', '.wav')
+            try:
+                # Check if ffmpeg is available
+                result = subprocess.run(
+                    ['which', 'ffmpeg'],
+                    capture_output=True,
+                    text=True
+                )
+                
+                if result.returncode == 0:
+                    # ffmpeg available - convert with user notification
+                    subprocess.run(
+                        ['ffmpeg', '-i', mp3_fp.name, '-acodec', 'pcm_s16le', 
+                         '-ar', '22050', '-y', wav_path],
+                        check=True,
+                        capture_output=True
+                    )
+                    with open(wav_path, 'rb') as wav_file:
+                        audio_bytes = wav_file.read()
+                    Path(wav_path).unlink()
+                    audio_format = 'audio/wav'
+                else:
+                    # ffmpeg not available - use MP3 anyway
+                    with open(mp3_fp.name, 'rb') as audio_file:
+                        audio_bytes = audio_file.read()
+                    audio_format = 'audio/mp3'
+                    
+            except Exception as e:
+                # Conversion failed - fallback to MP3
+                with open(mp3_fp.name, 'rb') as audio_file:
+                    audio_bytes = audio_file.read()
+                audio_format = 'audio/mp3'
+        else:
+            # Desktop/macOS - use MP3 directly
+            with open(mp3_fp.name, 'rb') as audio_file:
+                audio_bytes = audio_file.read()
+            audio_format = 'audio/mp3'
+        
+        Path(mp3_fp.name).unlink()  # Clean up MP3 file
     
-    return audio_bytes
+    return audio_bytes, audio_format
 
 
 def transcribe_audio_whisper(audio_file: str, model):
@@ -894,9 +956,11 @@ def main():
         if text:
             # Show target audio directly - one click to play
             st.write("🎯 **Target pronunciation:**")
-            with st.spinner("Generating audio..."):
-                audio_bytes = speak_text_gtts(text, st.session_state.settings['voice'])
-                st.audio(audio_bytes, format='audio/mp3', autoplay=False)
+            is_ios = is_ios_device()
+            spinner_text = "Converting audio for iOS..." if is_ios else "Generating audio..."
+            with st.spinner(spinner_text):
+                audio_bytes, audio_format = speak_text_gtts(text, st.session_state.settings['voice'])
+                st.audio(audio_bytes, format=audio_format, autoplay=False)
             
             st.markdown("---")
             st.write("🎙️ **Now record your pronunciation:**")
@@ -955,8 +1019,8 @@ def main():
                 
                 # Show target audio directly
                 st.write("🔊 **Google TTS:**")
-                audio_bytes = speak_text_gtts(result['target'], st.session_state.settings['voice'])
-                st.audio(audio_bytes, format='audio/mp3')
+                audio_bytes, audio_format = speak_text_gtts(result['target'], st.session_state.settings['voice'])
+                st.audio(audio_bytes, format=audio_format)
             
             with col2:
                 st.subheader("Your Pronunciation")
@@ -1052,8 +1116,8 @@ def main():
                 # Show TTS of what was recognized (if different)
                 if result['recognized'] != result['target']:
                     st.write("🔊 **Recognized text (TTS):**")
-                    audio_bytes = speak_text_gtts(result['recognized'], st.session_state.settings['voice'])
-                    st.audio(audio_bytes, format='audio/mp3')
+                    audio_bytes, audio_format = speak_text_gtts(result['recognized'], st.session_state.settings['voice'])
+                    st.audio(audio_bytes, format=audio_format)
             
             # Optional: Hear eSpeak phoneme pronunciation (local development only)
             if IS_LOCAL_DEV and not result["exact_match"]:
