@@ -1,4 +1,37 @@
-# eSpeak NG Text-to-Speech
+# Portuguese Pronunciation Trainer + eSpeak NG
+
+**Version 0.9.1** | Web-based Brazilian Portuguese pronunciation practice with instant AI feedback
+
+---
+
+## 🎯 Portuguese Pronunciation Trainer App
+
+This repository contains a **Portuguese Pronunciation Trainer** web application built on top of eSpeak NG. The app helps learners practice Brazilian Portuguese pronunciation with real-time feedback.
+
+### For App Users
+
+📱 **Want to practice Portuguese?** See the [User Guide](app-docs/USER_GUIDE.md)
+
+🧪 **Want to help test the app?** See the [Testing Guide](app-docs/TESTING_GUIDE.md)
+- Includes CCS testing mode for advanced users (no coding required!)
+
+👨‍💻 **Want to contribute code?** See the [Developer Guide](app-docs/DEVELOPER_GUIDE.md)
+
+📚 **All app documentation**: [app-docs/](app-docs/)
+
+### Quick Start
+
+Access the live app at: **[Your Streamlit Cloud URL]**
+
+Or run locally:
+```bash
+source venv/bin/activate
+streamlit run app.py
+```
+
+---
+
+## 📚 eSpeak NG Text-to-Speech (Base Project)
 
 - [Features](#features)
 - [Supported languages](docs/languages.md)
