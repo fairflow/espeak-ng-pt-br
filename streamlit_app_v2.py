@@ -61,6 +61,7 @@ def load_settings():
         "asr_engine": "whisper",  # "whisper" or "wav2vec2"
         "whisper_model_size": "base",  # tiny, base, small, medium, large
         "silence_threshold": 0.01,  # Energy threshold for silence detection (0.001-0.1)
+        "use_wav_audio": False,  # True for iOS Safari compatibility (slower but works)
     }
     
     if config_file.exists():
@@ -218,17 +219,14 @@ def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 4
         pass  # Silently fail if espeak not available
 
 
-def is_ios_device() -> bool:
+def should_use_wav_audio() -> bool:
     """
-    Detect if the user is on an iOS device.
-    iOS Safari has issues playing MP3 from data URLs.
+    Check if WAV audio format should be used instead of MP3.
+    iOS Safari has issues playing MP3 from data URLs, so WAV is more compatible.
     
-    Note: Auto-detection not available in current Streamlit version.
-    Returns False by default (uses MP3). User can manually enable WAV conversion.
+    Returns True if user has enabled WAV format in settings (for iOS devices).
     """
-    # TODO: Enable when Streamlit provides user-agent access
-    # For now, always return False and let user manually choose WAV if needed
-    return False
+    return st.session_state.get('settings', {}).get('use_wav_audio', False)
 
 
 def speak_text_gtts(text: str, lang: str = "pt-br", force_wav: bool = None) -> tuple:
@@ -249,7 +247,7 @@ def speak_text_gtts(text: str, lang: str = "pt-br", force_wav: bool = None) -> t
         tts.save(mp3_fp.name)
         
         # Determine if we need WAV conversion
-        convert_to_wav = force_wav if force_wav is not None else is_ios_device()
+        convert_to_wav = force_wav if force_wav is not None else should_use_wav_audio()
         
         if convert_to_wav:
             # Convert MP3 to WAV for iOS Safari compatibility
@@ -718,6 +716,12 @@ def main():
             help="Lower = more aggressive trimming (may cut speech). Higher = keep more audio (may include noise). Default: 0.01"
         )
         
+        st.session_state.settings['use_wav_audio'] = st.checkbox(
+            "🍎 Use WAV audio (for iOS)",
+            value=st.session_state.settings.get('use_wav_audio', False),
+            help="Enable this if you're on iOS/iPad and audio doesn't play. WAV format is slower to generate but works better on iOS Safari. MP3 is faster for desktop."
+        )
+        
         if st.button("💾 Save Settings"):
             save_settings(st.session_state.settings)
             st.success("Settings saved!")
@@ -953,8 +957,8 @@ def main():
         if text:
             # Show target audio directly - one click to play
             st.write("🎯 **Target pronunciation:**")
-            is_ios = is_ios_device()
-            spinner_text = "Converting audio for iOS..." if is_ios else "Generating audio..."
+            use_wav = should_use_wav_audio()
+            spinner_text = "Converting audio to WAV..." if use_wav else "Generating audio..."
             with st.spinner(spinner_text):
                 audio_bytes, audio_format = speak_text_gtts(text, st.session_state.settings['voice'])
                 st.audio(audio_bytes, format=audio_format, autoplay=False)
