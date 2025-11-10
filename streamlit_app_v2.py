@@ -220,18 +220,15 @@ def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 4
 
 def is_ios_device() -> bool:
     """
-    Detect if the user is on an iOS device by checking streamlit context.
+    Detect if the user is on an iOS device.
     iOS Safari has issues playing MP3 from data URLs.
+    
+    Note: Auto-detection not available in current Streamlit version.
+    Returns False by default (uses MP3). User can manually enable WAV conversion.
     """
-    try:
-        # Check if we can access streamlit headers (only available in actual requests)
-        import streamlit.web.server.websocket_headers as wsh
-        headers = wsh.get_websocket_headers()
-        user_agent = headers.get("User-Agent", "").lower()
-        return "iphone" in user_agent or "ipad" in user_agent
-    except:
-        # If we can't detect, assume not iOS (safer default)
-        return False
+    # TODO: Enable when Streamlit provides user-agent access
+    # For now, always return False and let user manually choose WAV if needed
+    return False
 
 
 def speak_text_gtts(text: str, lang: str = "pt-br", force_wav: bool = None) -> tuple:
