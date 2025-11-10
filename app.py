@@ -775,7 +775,7 @@ def main():
             value=st.session_state.settings.get('silence_threshold', 0.01),
             step=0.001,
             format="%.3f",
-            help="Lower = more aggressive trimming (may cut speech). Higher = keep more audio (may include noise). Default: 0.01"
+            help="Audio above this threshold (% of max) is kept as speech. Lower = keep more audio (may include noise). Higher = more aggressive trimming (may cut speech ends). Default: 0.01"
         )
         
         use_wav = st.checkbox(
