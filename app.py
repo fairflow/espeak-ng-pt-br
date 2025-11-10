@@ -746,6 +746,20 @@ def main():
                 if st.button("💾 Save Session Now"):
                     save_current_session()
         
+        # Documentation links
+        st.markdown("---")
+        st.header("📚 Help & Docs")
+        st.markdown("""
+        **📖 Guides:**
+        - [User Guide](https://github.com/fairflow/espeak-ng-pt-br/blob/main/app-docs/USER_GUIDE.md) - How to use the app
+        - [Testing Guide](https://github.com/fairflow/espeak-ng-pt-br/blob/main/app-docs/TESTING_GUIDE.md) - Report bugs & test
+        - [All Documentation](https://github.com/fairflow/espeak-ng-pt-br/tree/main/app-docs)
+        
+        **💬 Support:**
+        - Email: matthew@fairflow.co.uk
+        - Discord: [Coming soon]
+        """)
+        
         # Version info
         st.markdown("---")
         st.caption(f"**{__app_name__}**")
@@ -769,6 +783,10 @@ def main():
     # Tab 1: Quick Practice
     with tab1:
         st.header("Quick Practice")
+        
+        # Help info for new users
+        if len(st.session_state.current_session["practices"]) == 0:
+            st.info("👋 **New here?** Check the [User Guide](https://github.com/fairflow/espeak-ng-pt-br/blob/main/app-docs/USER_GUIDE.md) in the sidebar for step-by-step instructions!")
         
         # Phrase list import feature
         with st.expander("📁 Import Phrase List (Optional)"):
