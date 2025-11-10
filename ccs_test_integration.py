@@ -132,7 +132,7 @@ class CCSTestSession:
             visible.add(UIElement.PHRASE_DISPLAY_BOLD)
             visible.add(UIElement.PREV_BUTTON)
             visible.add(UIElement.NEXT_BUTTON)
-            visible.add(UIElement.JUMP_SELECTOR)
+            # JUMP_SELECTOR removed - disabled due to async race conditions
             visible.add(UIElement.PROGRESS_BAR)
             # Mode control elements
             visible.add(UIElement.EDIT_BUTTON)
@@ -146,7 +146,7 @@ class CCSTestSession:
             visible.add(UIElement.BACK_TO_LIST_BUTTON)
             visible.add(UIElement.PREV_BUTTON)
             visible.add(UIElement.NEXT_BUTTON)
-            visible.add(UIElement.JUMP_SELECTOR)
+            # JUMP_SELECTOR removed - disabled due to async race conditions
             visible.add(UIElement.PROGRESS_BAR)
         
         # Conditional elements based on state
@@ -188,8 +188,7 @@ class CCSTestSession:
             # Navigation always visible but may be disabled
             capabilities.add(AppCapability.ACCEPT_NAVIGATION_PREV)
             capabilities.add(AppCapability.ACCEPT_NAVIGATION_NEXT)
-            if len(app_state.phrase_list) > 1:
-                capabilities.add(AppCapability.ACCEPT_JUMP_TO_PHRASE)
+            # ACCEPT_JUMP_TO_PHRASE removed - feature disabled due to async race conditions
             capabilities.add(AppCapability.ACCEPT_MODE_TOGGLE)
             capabilities.add(AppCapability.ACCEPT_CLEAR_LIST)
             # Practice capabilities
