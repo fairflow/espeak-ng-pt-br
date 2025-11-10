@@ -103,6 +103,11 @@ class CCSTestSession:
         # Capture settings for reproducibility (auto-save on Save Settings)
         app_state.settings = st.session_state.get('settings', None)
         
+        # Capture session state
+        current_session = st.session_state.get('current_session', {})
+        app_state.session_practice_count = len(current_session.get('practices', []))
+        app_state.session_saved = st.session_state.get('session_saved', True)
+        
         # Infer visible elements based on mode
         app_state.visible_elements = self._infer_visible_elements(app_state)
         
@@ -119,9 +124,15 @@ class CCSTestSession:
         visible = set()
         
         # Always visible
+        # Always visible sidebar elements
         visible.add(UIElement.PHRASE_LIST_UPLOADER)
         visible.add(UIElement.SETTINGS_PANEL)
         visible.add(UIElement.SAVE_SETTINGS_BUTTON)
+        visible.add(UIElement.SESSION_INFO_PANEL)
+        
+        # Save session button shown when there are unsaved practices
+        if app_state.session_practice_count > 0 and not app_state.session_saved:
+            visible.add(UIElement.SAVE_SESSION_BUTTON)
         
         if app_state.mode == PracticeMode.FREE_TEXT:
             visible.add(UIElement.TEXT_INPUT_FREE)
@@ -183,6 +194,10 @@ class CCSTestSession:
         # Always available
         capabilities.add(AppCapability.ACCEPT_FILE_UPLOAD)
         capabilities.add(AppCapability.ACCEPT_SETTINGS_CHANGE)
+        
+        # Conditional: session saving
+        if app_state.session_practice_count > 0 and not app_state.session_saved:
+            capabilities.add(AppCapability.ACCEPT_SAVE_SESSION)
         
         if app_state.mode == PracticeMode.FREE_TEXT:
             capabilities.add(AppCapability.ACCEPT_TEXT_INPUT)

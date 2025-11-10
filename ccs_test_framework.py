@@ -67,6 +67,8 @@ class UIElement(Enum):
     # Settings UI (sidebar - always visible)
     SETTINGS_PANEL = auto()         # Settings sidebar section
     SAVE_SETTINGS_BUTTON = auto()  # Save settings button
+    SESSION_INFO_PANEL = auto()    # Current session stats display
+    SAVE_SESSION_BUTTON = auto()   # Save session to history button (conditional)
 
 
 class AppCapability(Enum):
@@ -81,6 +83,7 @@ class AppCapability(Enum):
     ACCEPT_CLEAR_RECORDING = auto()
     ACCEPT_CLEAR_LIST = auto()
     ACCEPT_SETTINGS_CHANGE = auto()  # Can modify speed, pitch, voice, ASR, algorithm, etc.
+    ACCEPT_SAVE_SESSION = auto()     # Save current session to history
     
     # Audio provision capabilities - specific types
     PROVIDE_TARGET_AUDIO_PRACTICE = auto()    # Can play target during practice
@@ -128,6 +131,8 @@ class AppState:
     current_phrase_index: int = 0
     has_recording: bool = False               # User has recorded audio
     has_results: bool = False                 # Pronunciation results available
+    session_practice_count: int = 0           # Number of practices in current session
+    session_saved: bool = True                # Whether current session is saved
     
     # Priority 2 improvements: Enhanced state tracking
     displayed_phrase_text: Optional[str] = None  # Actual phrase shown on screen
@@ -147,6 +152,8 @@ class AppState:
             'current_phrase_index': self.current_phrase_index,
             'has_recording': self.has_recording,
             'has_results': self.has_results,
+            'session_practice_count': self.session_practice_count,
+            'session_saved': self.session_saved,
             'displayed_phrase_text': self.displayed_phrase_text,
             'current_score': self.current_score,
             'recognized_text': self.recognized_text,
