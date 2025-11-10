@@ -1,9 +1,26 @@
 #!/usr/bin/env python3
 """
-streamlit_app_v2.py - Simplified Streamlit Web Interface for Brazilian Portuguese Pronunciation Practice
+Portuguese Pronunciation Trainer - Web Application
 
-Run with: streamlit run streamlit_app_v2.py
+Streamlit-based app for practicing Brazilian Portuguese pronunciation
+with real-time feedback using speech recognition and phonetic analysis.
+
+Run with: streamlit run app.py
 """
+
+__version__ = "0.9.0"
+__app_name__ = "Portuguese Pronunciation Trainer"
+__author__ = "Matthew & Contributors"
+__license__ = "GPL-3.0"
+
+# Version History:
+# 0.9.0 (2025-11-10):
+#   - Add iOS Safari audio compatibility (WAV conversion)
+#   - Fix audio generation deadlock with subprocess.DEVNULL
+#   - Add user-adjustable silence trimming threshold
+#   - Improve CCS testing framework integration
+#   - Implement edit distance scoring algorithm
+#   - Add version management system
 
 import streamlit as st
 import json
@@ -720,6 +737,11 @@ def main():
                 st.warning(f"⚠️ {practice_count} unsaved practice(s)")
                 if st.button("💾 Save Session Now"):
                     save_current_session()
+        
+        # Version info
+        st.markdown("---")
+        st.caption(f"**{__app_name__}**")
+        st.caption(f"Version {__version__}")
         
         # CCS Testing Framework Controls
         if CCS_AVAILABLE:
