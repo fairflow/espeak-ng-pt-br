@@ -8,12 +8,18 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "0.9.1"
+__version__ = "0.9.2"
 __app_name__ = "Portuguese Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
 
 # Version History:
+# 0.9.2 (2025-11-10):
+#   - Add TTS engine selection (Google TTS vs eSpeak)
+#   - Fix speed/pitch settings now work (with eSpeak)
+#   - Add slow mode for Google TTS (simple on/off)
+#   - Add documentation links in sidebar
+#   - Reorganize documentation (USER_GUIDE, TESTING_GUIDE, DEVELOPER_GUIDE)
 # 0.9.1 (2025-11-10):
 #   - Fix WAV audio setting not persisting when saved
 # 0.9.0 (2025-11-10):
@@ -82,6 +88,7 @@ def load_settings():
         "silence_threshold": 0.01,  # Energy threshold for silence detection (0.001-0.1)
         "use_wav_audio": False,  # Convert TTS audio to WAV for iOS Safari compatibility
         "tts_engine": "gtts",  # "gtts" (Google TTS, high quality) or "espeak" (adjustable speed/pitch)
+        "gtts_slow": False,  # Enable slow speech for Google TTS (when tts_engine='gtts')
     }
     
     if config_file.exists():
@@ -239,7 +246,7 @@ def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 4
         pass  # Silently fail if espeak not available
 
 
-def speak_text_gtts(text: str, lang: str = "pt-br", use_wav: bool = False) -> tuple[bytes, str]:
+def speak_text_gtts(text: str, lang: str = "pt-br", use_wav: bool = False, slow: bool = False) -> tuple[bytes, str]:
     """
     Generate speech using Google TTS (higher quality than eSpeak)
     Returns tuple of (audio_bytes, format) for playback in Streamlit
@@ -248,13 +255,14 @@ def speak_text_gtts(text: str, lang: str = "pt-br", use_wav: bool = False) -> tu
         text: Text to speak
         lang: Language code (default pt-br)
         use_wav: If True, convert MP3 to WAV for iOS Safari compatibility
+        slow: If True, speak at ~50% speed (Google TTS slow mode)
         
     Returns:
         (audio_bytes, format) where format is 'audio/mp3' or 'audio/wav'
     """
     # Use 'pt' for Portuguese (gTTS auto-detects Brazilian vs European)
     # or 'pt-br' specifically for Brazilian Portuguese
-    tts = gTTS(text=text, lang=lang.replace('-br', ''), slow=False)
+    tts = gTTS(text=text, lang=lang.replace('-br', ''), slow=slow)
     
     # Save to temporary file and read back
     with tempfile.NamedTemporaryFile(delete=False, suffix='.mp3') as fp:
@@ -320,7 +328,8 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
         return speak_text_gtts(
             text,
             lang=settings.get('voice', 'pt-br'),
-            use_wav=settings.get('use_wav_audio', False)
+            use_wav=settings.get('use_wav_audio', False),
+            slow=settings.get('gtts_slow', False)
         )
 
 
@@ -693,13 +702,14 @@ def main():
             "TTS Engine",
             ["gtts", "espeak"],
             index=0 if st.session_state.settings.get('tts_engine', 'gtts') == 'gtts' else 1,
-            help="gtts: Google TTS (high quality, no speed/pitch control)\nespeak: eSpeak (adjustable speed/pitch, robotic voice)"
+            help="gtts: Google TTS (high quality, limited speed control)\nespeak: eSpeak (adjustable speed/pitch, robotic voice)"
         )
         
         tts_is_espeak = st.session_state.settings.get('tts_engine', 'gtts') == 'espeak'
         
-        # Voice settings (only for eSpeak)
+        # Voice settings
         if tts_is_espeak:
+            # eSpeak: Full speed and pitch control
             st.session_state.settings['speed'] = st.slider(
                 "Speed (wpm)", 80, 450, st.session_state.settings['speed'], 10,
                 help="Lower = slower speech (eSpeak only)"
@@ -710,7 +720,13 @@ def main():
                 help="Voice pitch (eSpeak only)"
             )
         else:
-            st.caption("ℹ️ Speed/Pitch controls only available with eSpeak engine")
+            # Google TTS: Limited speed control (normal/slow only)
+            st.session_state.settings['gtts_slow'] = st.checkbox(
+                "Slow speech",
+                value=st.session_state.settings.get('gtts_slow', False),
+                help="Enable slower speech (~50% speed). Google TTS only supports normal or slow."
+            )
+            st.caption("💡 For fine-grained speed control, use eSpeak engine")
         
         st.session_state.settings['voice'] = st.selectbox(
             "Voice",
