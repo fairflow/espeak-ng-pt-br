@@ -8,12 +8,14 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "0.9.0"
+__version__ = "0.9.1"
 __app_name__ = "Portuguese Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
 
 # Version History:
+# 0.9.1 (2025-11-10):
+#   - Fix WAV audio setting not persisting when saved
 # 0.9.0 (2025-11-10):
 #   - Add iOS Safari audio compatibility (WAV conversion)
 #   - Fix audio generation deadlock with subprocess.DEVNULL
@@ -712,11 +714,17 @@ def main():
             help="Lower = more aggressive trimming (may cut speech). Higher = keep more audio (may include noise). Default: 0.01"
         )
         
-        st.session_state.settings['use_wav_audio'] = st.checkbox(
+        use_wav = st.checkbox(
             "Use WAV audio format",
             value=st.session_state.settings.get('use_wav_audio', False),
-            help="Enable if TTS audio doesn't play on your device (iOS Safari compatibility). Converts MP3→WAV."
+            help="Enable if TTS audio doesn't play on your device (iOS Safari compatibility). Converts MP3→WAV.",
+            key="use_wav_checkbox"
         )
+        # Update setting immediately when checkbox changes
+        if use_wav != st.session_state.settings.get('use_wav_audio', False):
+            st.session_state.settings['use_wav_audio'] = use_wav
+            save_settings(st.session_state.settings)
+            st.info("WAV audio setting saved")
         
         if st.button("💾 Save Settings"):
             save_settings(st.session_state.settings)
