@@ -61,7 +61,7 @@ def load_settings():
         "asr_engine": "whisper",  # "whisper" or "wav2vec2"
         "whisper_model_size": "base",  # tiny, base, small, medium, large
         "silence_threshold": 0.01,  # Energy threshold for silence detection (0.001-0.1)
-        "use_wav_audio": False,  # True for iOS Safari compatibility (slower but works)
+        "use_wav_audio": False,  # Convert TTS audio to WAV for iOS Safari compatibility
     }
     
     if config_file.exists():
@@ -219,83 +219,58 @@ def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 4
         pass  # Silently fail if espeak not available
 
 
-def should_use_wav_audio() -> bool:
-    """
-    Check if WAV audio format should be used instead of MP3.
-    iOS Safari has issues playing MP3 from data URLs, so WAV is more compatible.
-    
-    Returns True if user has enabled WAV format in settings (for iOS devices).
-    """
-    try:
-        return st.session_state.get('settings', {}).get('use_wav_audio', False)
-    except:
-        # Session state not yet initialized or not in Streamlit context
-        return False
-
-
-def speak_text_gtts(text: str, lang: str = "pt-br", force_wav: bool = None) -> tuple:
+def speak_text_gtts(text: str, lang: str = "pt-br", use_wav: bool = False) -> tuple[bytes, str]:
     """
     Generate speech using Google TTS (higher quality than eSpeak)
-    Returns (audio_bytes, format_string) for playback in Streamlit
+    Returns tuple of (audio_bytes, format) for playback in Streamlit
     
     Args:
-        text: Text to convert to speech
-        lang: Language code (e.g., 'pt-br')
-        force_wav: If True, convert to WAV for iOS. If None, auto-detect iOS.
+        text: Text to speak
+        lang: Language code (default pt-br)
+        use_wav: If True, convert MP3 to WAV for iOS Safari compatibility
+        
+    Returns:
+        (audio_bytes, format) where format is 'audio/mp3' or 'audio/wav'
     """
     # Use 'pt' for Portuguese (gTTS auto-detects Brazilian vs European)
+    # or 'pt-br' specifically for Brazilian Portuguese
     tts = gTTS(text=text, lang=lang.replace('-br', ''), slow=False)
     
-    # Save to temporary MP3 file
-    with tempfile.NamedTemporaryFile(delete=False, suffix='.mp3') as mp3_fp:
-        tts.save(mp3_fp.name)
+    # Save to temporary file and read back
+    with tempfile.NamedTemporaryFile(delete=False, suffix='.mp3') as fp:
+        mp3_path = fp.name
+        tts.save(mp3_path)
         
-        # Determine if we need WAV conversion
-        convert_to_wav = force_wav if force_wav is not None else should_use_wav_audio()
-        
-        if convert_to_wav:
+        if use_wav:
             # Convert MP3 to WAV for iOS Safari compatibility
-            wav_path = mp3_fp.name.replace('.mp3', '.wav')
-            try:
-                # Check if ffmpeg is available
-                result = subprocess.run(
-                    ['which', 'ffmpeg'],
-                    capture_output=True,
-                    text=True
-                )
-                
-                if result.returncode == 0:
-                    # ffmpeg available - convert with user notification
-                    subprocess.run(
-                        ['ffmpeg', '-i', mp3_fp.name, '-acodec', 'pcm_s16le', 
-                         '-ar', '22050', '-y', wav_path],
-                        check=True,
-                        capture_output=True
-                    )
-                    with open(wav_path, 'rb') as wav_file:
-                        audio_bytes = wav_file.read()
-                    Path(wav_path).unlink()
-                    audio_format = 'audio/wav'
-                else:
-                    # ffmpeg not available - use MP3 anyway
-                    with open(mp3_fp.name, 'rb') as audio_file:
-                        audio_bytes = audio_file.read()
-                    audio_format = 'audio/mp3'
-                    
-            except Exception as e:
-                # Conversion failed - fallback to MP3
-                with open(mp3_fp.name, 'rb') as audio_file:
+            wav_path = mp3_path.replace('.mp3', '.wav')
+            
+            # Run ffmpeg without capturing output to avoid pipe buffer deadlock
+            result = subprocess.run(
+                ['ffmpeg', '-i', mp3_path, '-acodec', 'pcm_s16le', 
+                 '-ar', '22050', '-y', wav_path],
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL
+            )
+            
+            if result.returncode == 0:
+                with open(wav_path, 'rb') as audio_file:
                     audio_bytes = audio_file.read()
-                audio_format = 'audio/mp3'
+                Path(wav_path).unlink()  # Clean up WAV
+                Path(mp3_path).unlink()  # Clean up MP3
+                return audio_bytes, 'audio/wav'
+            else:
+                # Conversion failed, fall back to MP3
+                with open(mp3_path, 'rb') as audio_file:
+                    audio_bytes = audio_file.read()
+                Path(mp3_path).unlink()
+                return audio_bytes, 'audio/mp3'
         else:
-            # Desktop/macOS - use MP3 directly
-            with open(mp3_fp.name, 'rb') as audio_file:
+            # Return MP3
+            with open(mp3_path, 'rb') as audio_file:
                 audio_bytes = audio_file.read()
-            audio_format = 'audio/mp3'
-        
-        Path(mp3_fp.name).unlink()  # Clean up MP3 file
-    
-    return audio_bytes, audio_format
+            Path(mp3_path).unlink()  # Clean up temp file
+            return audio_bytes, 'audio/mp3'
 
 
 def transcribe_audio_whisper(audio_file: str, model):
@@ -721,9 +696,9 @@ def main():
         )
         
         st.session_state.settings['use_wav_audio'] = st.checkbox(
-            "🍎 Use WAV audio (for iOS)",
+            "Use WAV audio format",
             value=st.session_state.settings.get('use_wav_audio', False),
-            help="Enable this if you're on iOS/iPad and audio doesn't play. WAV format is slower to generate but works better on iOS Safari. MP3 is faster for desktop."
+            help="Enable if TTS audio doesn't play on your device (iOS Safari compatibility). Converts MP3→WAV."
         )
         
         if st.button("💾 Save Settings"):
@@ -961,10 +936,12 @@ def main():
         if text:
             # Show target audio directly - one click to play
             st.write("🎯 **Target pronunciation:**")
-            use_wav = should_use_wav_audio()
-            spinner_text = "Converting audio to WAV..." if use_wav else "Generating audio..."
-            with st.spinner(spinner_text):
-                audio_bytes, audio_format = speak_text_gtts(text, st.session_state.settings['voice'], force_wav=use_wav)
+            with st.spinner("Generating audio..."):
+                audio_bytes, audio_format = speak_text_gtts(
+                    text, 
+                    st.session_state.settings['voice'],
+                    st.session_state.settings.get('use_wav_audio', False)
+                )
                 st.audio(audio_bytes, format=audio_format, autoplay=False)
             
             st.markdown("---")
@@ -1024,8 +1001,11 @@ def main():
                 
                 # Show target audio directly
                 st.write("🔊 **Google TTS:**")
-                use_wav = should_use_wav_audio()
-                audio_bytes, audio_format = speak_text_gtts(result['target'], st.session_state.settings['voice'], force_wav=use_wav)
+                audio_bytes, audio_format = speak_text_gtts(
+                    result['target'], 
+                    st.session_state.settings['voice'],
+                    st.session_state.settings.get('use_wav_audio', False)
+                )
                 st.audio(audio_bytes, format=audio_format)
             
             with col2:
@@ -1122,8 +1102,11 @@ def main():
                 # Show TTS of what was recognized (if different)
                 if result['recognized'] != result['target']:
                     st.write("🔊 **Recognized text (TTS):**")
-                    use_wav = should_use_wav_audio()
-                    audio_bytes, audio_format = speak_text_gtts(result['recognized'], st.session_state.settings['voice'], force_wav=use_wav)
+                    audio_bytes, audio_format = speak_text_gtts(
+                        result['recognized'], 
+                        st.session_state.settings['voice'],
+                        st.session_state.settings.get('use_wav_audio', False)
+                    )
                     st.audio(audio_bytes, format=audio_format)
             
             # Optional: Hear eSpeak phoneme pronunciation (local development only)
