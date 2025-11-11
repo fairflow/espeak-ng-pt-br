@@ -1,6 +1,6 @@
 # Testing Guide for Portuguese Pronunciation Trainer
 
-**Version 0.9.2** | For App Users & Testers
+**Version 0.9.3** | For App Users & Testers
 
 Thank you for helping us improve the Portuguese Pronunciation Trainer! This guide explains how you can help test the app and report any problems you find.
 
