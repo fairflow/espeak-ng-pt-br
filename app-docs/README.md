@@ -1,6 +1,6 @@
 # Portuguese Pronunciation Trainer - Documentation
 
-**Version 0.9.3** | Last Updated: 11 November 2025
+**Version 1.0.0** | Last Updated: 11 November 2025
 
 Welcome to the documentation for the Portuguese Pronunciation Trainer app!
 
@@ -76,7 +76,8 @@ Choose the guide that matches your needs:
 
 1. **Visit:** <https://miolingo.streamlit.app/>
 2. Read the **[USER_GUIDE.md](USER_GUIDE.md)** for help
-3. Start practicing!
+3. Select your language and voice/dialect in the sidebar
+4. Start practicing!
 
 ### Want to Help Test?
 
@@ -96,6 +97,7 @@ Choose the guide that matches your needs:
 
 The **Portuguese Pronunciation Trainer** is a web-based app that helps you practice Brazilian Portuguese pronunciation with instant feedback.
 
+
 ### Key Features
 
 - **Real-time feedback**: Record yourself and get instant pronunciation scores
@@ -104,6 +106,7 @@ The **Portuguese Pronunciation Trainer** is a web-based app that helps you pract
 - **Progress tracking**: View your improvement over time
 - **Works everywhere**: Phone, tablet, or computer
 - **iOS compatible**: Special audio format for iPhone users
+- **Multi-language support**: Practice Portuguese, French, Dutch, or Flemish. Select your language and voice/dialect in the sidebar for tailored feedback.
 
 ### Technology
 

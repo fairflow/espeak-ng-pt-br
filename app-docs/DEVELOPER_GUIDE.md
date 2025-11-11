@@ -1,6 +1,6 @@
 # Developer Guide - Portuguese Pronunciation Trainer
 
-**Version 0.9.3** | Last Updated: 11 November 2025
+**Version 1.0.0** | Last Updated: 11 November 2025
 
 This guide is for developers who want to contribute to, modify, or understand the Portuguese Pronunciation Trainer codebase.
 
@@ -22,7 +22,7 @@ This guide is for developers who want to contribute to, modify, or understand th
 
 ### What Is This?
 
-A Streamlit web application for practicing Brazilian Portuguese pronunciation with real-time feedback using AI speech recognition.
+A Streamlit web application for practicing pronunciation in multiple languages (Portuguese, French, Dutch, Flemish) with real-time feedback using AI speech recognition. Users can select their language and voice/dialect in the sidebar; all practice features work identically for every supported language.
 
 ### Tech Stack
 
@@ -162,16 +162,16 @@ User Input (Browser)
     ↓
 Streamlit Interface (app.py)
     ↓
-┌─────────────────────────────────┐
-│  Practice Session State         │
-│  - Current phrase               │
-│  - User recordings              │
-│  - Settings                     │
-└─────────────────────────────────┘
+┌─────────────────────────────────────────────┐
+│  Practice Session State                     │
+│  - Current phrase                           │
+│  - User recordings                          │
+│  - Settings (language, voice/dialect, etc.) │
+└─────────────────────────────────────────────┘
     ↓
-Text-to-Speech (eSpeak NG)
+Text-to-Speech (eSpeak NG, gTTS)
     ↓
-Audio Generation (gTTS or eSpeak)
+Audio Generation (per selected language/voice)
     ↓
 Optional: MP3→WAV Conversion (ffmpeg)
     ↓

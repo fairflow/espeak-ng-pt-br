@@ -5,6 +5,21 @@ All notable changes to the Portuguese Pronunciation Trainer application will be 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [1.0.0] - 2025-11-11
+
+### Added
+- Multi-language support: Portuguese, French, Dutch, Flemish
+- Language and voice/dialect selection in sidebar
+- Dynamic phrase lists and session tracking per language
+- All practice modes, scoring, and feedback now work for every supported language
+
+### Changed
+- Updated documentation for language/voice selection
+- Phrase files reorganized for multi-language support
+
+---
+
 ## [0.9.0] - 2025-11-10
 
 ### Added

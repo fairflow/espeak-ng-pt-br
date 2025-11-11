@@ -152,9 +152,11 @@ Copy this template and fill it out:
 
 **Browser**: [Safari / Chrome / Firefox / etc.]
 
-**App Version**: 0.9.1
+**App Version**: 1.0.0
 
 **Settings** (if relevant):
+- Language: [Portuguese/French/Dutch/Flemish]
+- Voice/Dialect: [e.g., pt-br, fr-fr, nl, etc.]
 - WAV audio: [ON/OFF]
 - Recording duration: [X seconds]
 - Other relevant settings

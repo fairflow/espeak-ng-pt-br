@@ -1,6 +1,6 @@
 # Portuguese Pronunciation Trainer - User Guide
 
-**Version 0.9.3** | Last Updated: 11 November 2025
+**Version 1.0.0** | Last Updated: 11 November 2025
 
 Welcome! This guide will help you practice Brazilian Portuguese pronunciation using speech recognition and instant feedback.
 
@@ -169,10 +169,13 @@ All settings are in the left sidebar.
 - Adjusts voice pitch
 - Default: 35
 
-**Voice:**
 
-- `pt-br` = Brazilian Portuguese (default)
-- `pt` = European Portuguese
+**Language & Voice/Dialect Selection:**
+
+- Select your practice language from the sidebar (Portuguese, French, Dutch/Flemish).
+- For each language, choose a voice/dialect (e.g., Brazilian Portuguese, European Portuguese, French (France), French (Belgium), Dutch, Flemish).
+- The available voices/dialects update automatically based on your selected language.
+- All practice features work identically for every supported language.
 
 ### 🎙️ Speech Recognition
 
@@ -234,6 +237,17 @@ For keen users who want to help test the app:
 - See [Testing Guide](TESTING_GUIDE.md) for details
 - No coding required!
 
+
+
+## 🌍 Multi-Language Support
+
+Version 1.0.0 adds support for multiple languages:
+
+- **Portuguese** (Brazilian, European)
+- **French** (France, Belgium)
+- **Dutch/Flemish**
+
+You can select your language and voice/dialect in the sidebar. All practice modes, scoring, and feedback work for every language. Phrase lists are available for each language, and you can import your own lists as before.
 ---
 
 ## 📊 Understanding Your Results
