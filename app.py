@@ -8,12 +8,63 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "0.9.2"
-__app_name__ = "Portuguese Pronunciation Trainer"
+__version__ = "1.0.0"
+__app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
 
+# Language configuration
+LANGUAGE_CONFIG = {
+    "Portuguese": {
+        "code": "pt",
+        "whisper_code": "pt",
+        "display_name": "Portuguese Pronunciation Trainer",
+        "voices": {
+            "gtts": ["pt-br", "pt"],
+            "espeak": ["pt-br", "pt"]
+        }
+    },
+    "French": {
+        "code": "fr",
+        "whisper_code": "fr",
+        "display_name": "French Pronunciation Trainer",
+        "voices": {
+            "gtts": ["fr"],
+            "espeak": ["fr-fr", "fr-be"]
+        }
+    },
+    "Dutch": {
+        "code": "nl",
+        "whisper_code": "nl",
+        "display_name": "Dutch Pronunciation Trainer",
+        "voices": {
+            "gtts": ["nl"],
+            "espeak": ["nl"]
+        }
+    },
+    "Flemish": {
+        "code": "nl-be",
+        "whisper_code": "nl",  # Flemish uses Dutch for Whisper
+        "display_name": "Flemish Pronunciation Trainer",
+        "voices": {
+            "gtts": ["nl"],
+            "espeak": ["nl-be"]
+        }
+    }
+}
+
 # Version History:
+# 1.0.0 (2025-11-11):
+#   - Add multi-language support (Portuguese, French, Dutch, Flemish)
+#   - Language-specific session tracking
+#   - Dynamic app title based on selected language
+#   - Language selector in sidebar
+# 0.9.3 (2025-11-11):
+#   - Improve audio trimming with 200ms padding (prevents speech artifacts)
+#   - Show trimmed audio in results (what was actually recognized)
+#   - Use IPA instead of eIPA for normalized phonemes display (user-friendly)
+#   - Fix Edit button UX: grayed out in edit mode, clear "Return to Guided Mode" button
+#   - British spelling: "Normalised" in UI
 # 0.9.2 (2025-11-10):
 #   - Add TTS engine selection (Google TTS vs eSpeak)
 #   - Fix speed/pitch settings now work (with eSpeak)
@@ -137,11 +188,20 @@ def initialize_session_state():
     if 'settings' not in st.session_state:
         st.session_state.settings = load_settings()
     
+    # Initialize language selection (default to Portuguese)
+    if 'language' not in st.session_state:
+        st.session_state.language = "Portuguese"
+    
     if 'history' not in st.session_state:
         st.session_state.history = load_history()
     
-    if 'current_session' not in st.session_state:
-        st.session_state.current_session = {
+    # Language-specific session tracking
+    if 'current_sessions' not in st.session_state:
+        st.session_state.current_sessions = {}
+    
+    # Get or create current session for selected language
+    if st.session_state.language not in st.session_state.current_sessions:
+        st.session_state.current_sessions[st.session_state.language] = {
             "date": datetime.now().isoformat(),
             "practices": []
         }
@@ -333,17 +393,21 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
         )
 
 
-def transcribe_audio_whisper(audio_file: str, model):
+def transcribe_audio_whisper(audio_file: str, model, language_code: str = "pt"):
     """
     Transcribe audio to text using Whisper
     
+    Args:
+        audio_file: Path to audio file
+        model: Whisper model instance
+        language_code: Whisper language code (e.g., 'pt', 'fr', 'nl')
+    
     Note: No initial_prompt is used to avoid biasing the transcription.
-    We force Portuguese language detection and use low temperature for consistency.
-    CRITICAL: language="pt" should FORCE Portuguese, but Whisper can still drift.
+    We force language detection and use low temperature for consistency.
     """
     result = model.transcribe(
         audio=audio_file,
-        language="pt",  # Force Portuguese (ISO 639-1 code) - should be absolute
+        language=language_code,  # Force language (ISO 639-1 code)
         task="transcribe",
         temperature=0.0,  # Deterministic output
         no_speech_threshold=0.6,  # Higher threshold to reject non-speech (like beeps)
@@ -353,12 +417,12 @@ def transcribe_audio_whisper(audio_file: str, model):
         compression_ratio_threshold=2.4  # Default is 2.4, keep it strict
     )
     
-    # Double-check detected language (Whisper should respect language="pt" but doesn't always)
+    # Double-check detected language (Whisper should respect language parameter but doesn't always)
     detected_lang = result.get("language", "unknown")
-    if detected_lang != "pt":
-        # Log warning but continue (the transcription might still be Portuguese)
+    if detected_lang != language_code:
+        # Log warning but continue (the transcription might still be correct)
         import warnings
-        warnings.warn(f"Whisper detected language '{detected_lang}' instead of 'pt'")
+        warnings.warn(f"Whisper detected language '{detected_lang}' instead of '{language_code}'")
     
     return result["text"].strip().lower()
 
@@ -395,24 +459,38 @@ def transcribe_audio_wav2vec2(audio_file: str, processor, model):
         return ""
 
 
-def transcribe_audio(audio_file: str, settings: Dict):
+def transcribe_audio(audio_file: str, settings: Dict, language: str = "Portuguese"):
     """
     Transcribe audio using the selected ASR engine
+    
+    Args:
+        audio_file: Path to audio file
+        settings: App settings dict
+        language: Selected language name (e.g., "Portuguese", "French")
     """
     asr_engine = settings.get('asr_engine', 'whisper')
     
+    # Get language configuration
+    lang_config = LANGUAGE_CONFIG[language]
+    whisper_code = lang_config['whisper_code']
+    
     if asr_engine == 'wav2vec2':
-        processor, model = get_wav2vec2_model()
-        if processor is None or model is None:
-            st.warning("wav2vec2 unavailable, falling back to Whisper")
+        # wav2vec2 is Portuguese-only
+        if whisper_code != 'pt':
+            st.warning("wav2vec2 only supports Portuguese, falling back to Whisper")
             asr_engine = 'whisper'
         else:
-            return transcribe_audio_wav2vec2(audio_file, processor, model)
+            processor, model = get_wav2vec2_model()
+            if processor is None or model is None:
+                st.warning("wav2vec2 unavailable, falling back to Whisper")
+                asr_engine = 'whisper'
+            else:
+                return transcribe_audio_wav2vec2(audio_file, processor, model)
     
     # Default to Whisper
     model_size = settings.get('whisper_model_size', 'base')
     model = get_whisper_model(model_size)
-    return transcribe_audio_whisper(audio_file, model)
+    return transcribe_audio_whisper(audio_file, model, whisper_code)
 
 
 def levenshtein_distance(s1: str, s2: str) -> int:
@@ -591,16 +669,25 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
             speech_frames = np.where(energy > threshold)[0]
             
             if len(speech_frames) > 0:
-                start_frame = max(0, speech_frames[0] - 2)  # Add 2 frames padding
-                end_frame = min(len(energy), speech_frames[-1] + 3)
+                # Add 200ms padding before and after to avoid speech artifacts
+                padding_ms = 0.2  # 200ms as requested
+                padding_samples = int(padding_ms * sample_rate)
                 
-                start_sample = start_frame * frame_length
-                end_sample = end_frame * frame_length
+                start_sample = max(0, speech_frames[0] * frame_length - padding_samples)
+                end_sample = min(len(audio_data), (speech_frames[-1] + 1) * frame_length + padding_samples)
                 
                 trimmed_audio = audio_data[start_sample:end_sample]
                 
                 # Save trimmed audio
                 sf.write(temp_audio, trimmed_audio, sample_rate)
+                
+                # Also save trimmed audio bytes for playback
+                import io
+                trimmed_buffer = io.BytesIO()
+                sf.write(trimmed_buffer, trimmed_audio, sample_rate, format='WAV')
+                trimmed_audio_bytes = trimmed_buffer.getvalue()
+            else:
+                trimmed_audio_bytes = audio_bytes
         except Exception as e:
             # If trimming fails, continue with original audio
             pass
@@ -610,7 +697,7 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
         correct_ipa = get_ipa(text, settings['voice'])
         
         # Transcribe user's audio using selected ASR engine
-        recognized_text = transcribe_audio(temp_audio, settings)
+        recognized_text = transcribe_audio(temp_audio, settings, st.session_state.language)
         
         # Get phonemes with proper spacing (for display)
         user_phonemes = get_phonemes(recognized_text, settings['voice'])
@@ -645,12 +732,13 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
             "edit_distance": edit_distance,
             "correct_phonemes_normalized": correct_phonemes_normalized,
             "user_phonemes_normalized": user_phonemes_normalized,
-            "user_audio_bytes": audio_bytes  # Keep in session for playback, but don't save to JSON
+            "user_audio_bytes": audio_bytes,  # Original recording
+            "user_audio_trimmed_bytes": trimmed_audio_bytes  # Trimmed version (what was actually recognized)
         }
         
         # Save to current session (exclude bytes for JSON serialization)
-        session_data = {k: v for k, v in result.items() if k != "user_audio_bytes"}
-        st.session_state.current_session["practices"].append({
+        session_data = {k: v for k, v in result.items() if k not in ["user_audio_bytes", "user_audio_trimmed_bytes"]}
+        st.session_state.current_sessions[st.session_state.language]["practices"].append({
             "time": datetime.now().isoformat(),
             **session_data
         })
@@ -668,12 +756,13 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
 
 def save_current_session():
     """Save current session to history"""
-    if st.session_state.current_session["practices"]:
-        st.session_state.history.append(st.session_state.current_session)
+    current_session = st.session_state.current_sessions[st.session_state.language]
+    if current_session["practices"]:
+        st.session_state.history.append(current_session)
         save_history(st.session_state.history)
         
-        # Reset current session
-        st.session_state.current_session = {
+        # Reset current session for this language
+        st.session_state.current_sessions[st.session_state.language] = {
             "date": datetime.now().isoformat(),
             "practices": []
         }
@@ -687,13 +776,46 @@ def main():
     """Main Streamlit app"""
     initialize_session_state()
     
-    # Header
-    st.title("🇧🇷 Brazilian Portuguese Pronunciation Practice")
+    # Header - Dynamic title based on selected language
+    lang_config = LANGUAGE_CONFIG[st.session_state.language]
+    
+    # Add flag emoji for each language
+    flag_emojis = {
+        "Portuguese": "🇧🇷",
+        "French": "🇫🇷",
+        "Dutch": "🇳🇱",
+        "Flemish": "🇧🇪"
+    }
+    
+    flag = flag_emojis.get(st.session_state.language, "🌍")
+    st.title(f"{flag} {lang_config['display_name']}")
     st.markdown("---")
     
     # Sidebar - Settings and Navigation
     with st.sidebar:
         st.header("⚙️ Settings")
+        
+        # Language selection
+        st.markdown("**🌍 Language**")
+        
+        previous_language = st.session_state.language
+        st.session_state.language = st.selectbox(
+            "Training Language",
+            list(LANGUAGE_CONFIG.keys()),
+            index=list(LANGUAGE_CONFIG.keys()).index(st.session_state.language),
+            help="Select the language you want to practice"
+        )
+        
+        # If language changed, ensure session exists for new language
+        if previous_language != st.session_state.language:
+            if st.session_state.language not in st.session_state.current_sessions:
+                st.session_state.current_sessions[st.session_state.language] = {
+                    "date": datetime.now().isoformat(),
+                    "practices": []
+                }
+        
+        # Get current language config
+        lang_config = LANGUAGE_CONFIG[st.session_state.language]
         
         # TTS Engine selection
         st.markdown("**🔊 Text-to-Speech Engine**")
@@ -726,13 +848,23 @@ def main():
                 value=st.session_state.settings.get('gtts_slow', False),
                 help="Enable slower speech (~50% speed). Google TTS only supports normal or slow."
             )
-            st.caption("💡 For fine-grained speed control, use eSpeak engine")
+            st.caption("💡 For more speed control, change the speed settings on the playback control (⋮)")
+        
+        # Get available voices for current language and TTS engine
+        tts_engine = st.session_state.settings['tts_engine']
+        available_voices = lang_config['voices'][tts_engine]
+        
+        # Make sure current voice is valid for selected language, otherwise use first available
+        current_voice = st.session_state.settings.get('voice', available_voices[0])
+        if current_voice not in available_voices:
+            current_voice = available_voices[0]
+            st.session_state.settings['voice'] = current_voice
         
         st.session_state.settings['voice'] = st.selectbox(
             "Voice",
-            ["pt-br", "pt"],
-            index=0 if st.session_state.settings['voice'] == "pt-br" else 1,
-            help="pt-br = Brazilian, pt = European"
+            available_voices,
+            index=available_voices.index(current_voice),
+            help=f"Available voices for {st.session_state.language}"
         )
         
         st.markdown("**🎙️ Speech Recognition**")
@@ -798,11 +930,12 @@ def main():
         
         # Session info
         st.header("📊 Current Session")
-        practice_count = len(st.session_state.current_session["practices"])
+        current_session = st.session_state.current_sessions[st.session_state.language]
+        practice_count = len(current_session["practices"])
         st.metric("Practices", practice_count)
         
         if practice_count > 0:
-            perfect = sum(1 for p in st.session_state.current_session["practices"] if p.get("exact_match", False))
+            perfect = sum(1 for p in current_session["practices"] if p.get("exact_match", False))
             st.metric("Perfect", f"{perfect}/{practice_count}")
             
             if not st.session_state.session_saved:
@@ -849,7 +982,8 @@ def main():
         st.header("Quick Practice")
         
         # Help info for new users
-        if len(st.session_state.current_session["practices"]) == 0:
+        current_session = st.session_state.current_sessions[st.session_state.language]
+        if len(current_session["practices"]) == 0:
             st.info("👋 **New here?** Check the [User Guide](https://github.com/fairflow/espeak-ng-pt-br/blob/main/app-docs/USER_GUIDE.md) in the sidebar for step-by-step instructions!")
         
         # Phrase list import feature
@@ -985,14 +1119,17 @@ def main():
                 # if jump_to != current_idx:
                 #     st.session_state.current_phrase_index = jump_to
                 #     st.rerun()
-                st.write("")  # Placeholder to maintain layout
+                st.write("")  # Spacer for button alignment
             with col4:
-                # Toggle edit mode
+                # Edit button - disabled when in edit mode
                 if 'edit_mode' not in st.session_state:
                     st.session_state.edit_mode = False
                     
-                if st.button("✏️ Edit", key="toggle_edit", help="Edit current phrase or type your own"):
-                    st.session_state.edit_mode = not st.session_state.edit_mode
+                # Disable Edit button when already in edit mode (grayed out)
+                if st.button("✏️ Edit", key="toggle_edit", 
+                            help="Edit current phrase or type your own",
+                            disabled=st.session_state.edit_mode):
+                    st.session_state.edit_mode = True
                     st.rerun()
             
             st.markdown("---")
@@ -1006,7 +1143,7 @@ def main():
                     value=current_phrase,
                     key="edit_phrase_input"
                 )
-                if st.button("📚 Back to List Mode", key="back_to_list"):
+                if st.button("📚 Return to Guided Mode", key="back_to_guided"):
                     st.session_state.edit_mode = False
                     st.rerun()
             else:
@@ -1151,14 +1288,17 @@ def main():
                     if result.get('edit_distance') is not None:
                         st.write(f"**Edit Distance:** {result['edit_distance']} edit(s) needed")
                     
-                    st.write("**Normalized phonemes (spaces removed for comparison):**")
+                    st.write("**Normalised phonemes (spaces removed for comparison):**")
                     col_a, col_b = st.columns(2)
                     with col_a:
-                        st.code(result.get('correct_phonemes_normalized', correct_phonemes_no_space), language=None)
-                        st.caption(f"Target ({len(result.get('correct_phonemes_normalized', correct_phonemes_no_space))} chars)")
+                        # Use IPA (not eIPA) for user-friendly display
+                        correct_ipa_normalized = result.get('correct_ipa', '').replace(" ", "")
+                        st.code(correct_ipa_normalized, language=None)
+                        st.caption(f"Target ({len(correct_ipa_normalized)} chars)")
                     with col_b:
-                        st.code(result.get('user_phonemes_normalized', user_phonemes_no_space), language=None)
-                        st.caption(f"Yours ({len(result.get('user_phonemes_normalized', user_phonemes_no_space))} chars)")
+                        user_ipa_normalized = result.get('user_ipa', '').replace(" ", "")
+                        st.code(user_ipa_normalized, language=None)
+                        st.caption(f"Your Pronunciation ({len(user_ipa_normalized)} chars)")
                     
                     # Visual comparison
                     target_norm = result.get('correct_phonemes_normalized', correct_phonemes_no_space)
@@ -1199,10 +1339,11 @@ def main():
                         if len(substitutions) + len(insertions) + len(deletions) > 5:
                             st.caption(f"... and {len(substitutions) + len(insertions) + len(deletions) - 5} more differences")
                 
-                # Show your recording directly
-                if result.get('user_audio_bytes'):
-                    st.write("🔊 **Your recording:**")
-                    st.audio(result['user_audio_bytes'], format='audio/wav')
+                # Show trimmed recording (what was actually recognized)
+                if result.get('user_audio_trimmed_bytes'):
+                    st.write("🔊 **Your (trimmed) recording:**")
+                    st.audio(result['user_audio_trimmed_bytes'], format='audio/wav')
+                    st.caption("This is the audio that was actually sent to the recognition engine (after silence trimming with 200ms padding).")
                 
                 # Show TTS of what was recognized (if different)
                 if result['recognized'] != result['target']:
@@ -1235,9 +1376,10 @@ def main():
         st.header("📊 Practice Statistics")
         
         # Current session stats
-        if st.session_state.current_session["practices"]:
+        current_session = st.session_state.current_sessions[st.session_state.language]
+        if current_session["practices"]:
             st.subheader("🔵 Current Session")
-            practices = st.session_state.current_session["practices"]
+            practices = current_session["practices"]
             perfect = sum(1 for p in practices if p.get("exact_match", False))
             avg_sim = sum(p["similarity"] for p in practices) / len(practices)
             
