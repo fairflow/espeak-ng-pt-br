@@ -355,13 +355,14 @@ git push myfork main
 
 ### Versioning
 
+
 Follow **Semantic Versioning** (MAJOR.MINOR.PATCH):
 
 - **PATCH** (0.9.0 → 0.9.1): Bug fixes only
 - **MINOR** (0.9.1 → 0.10.0): New features (backward compatible)
-- **MAJOR** (0.9.9 → 1.0.0): Breaking changes or stable milestone
+- **MAJOR** (0.9.9 → 1.0.0 → 1.0.1): Breaking changes or stable milestone
 
-**Note**: 0.9.9 → 1.0.0 (NOT 0.10.0)
+**Note**: 0.9.9 → 1.0.0 → 1.0.1 (NOT 0.10.0)
 
 #### Releasing a New Version
 
@@ -616,4 +617,4 @@ GPL-3.0 (inherited from eSpeak NG)
 
 **Happy coding! 🚀**
 
-*Last updated: Version 0.9.1 (November 10, 2025)*
+*Last updated: Version 1.0.1 (November 11, 2025)*
