@@ -24,6 +24,15 @@ LANGUAGE_CONFIG = {
             "espeak": ["pt-br", "pt"]
         }
     },
+    "Dutch": {
+        "code": "nl",
+        "whisper_code": "nl",
+        "display_name": "Dutch/Flemish Pronunciation Trainer",
+        "voices": {
+            "gtts": ["nl", "nl-be"],
+            "espeak": ["nl", "nl-be"]
+        }
+    },
     "French": {
         "code": "fr",
         "whisper_code": "fr",
@@ -31,24 +40,6 @@ LANGUAGE_CONFIG = {
         "voices": {
             "gtts": ["fr"],
             "espeak": ["fr-fr", "fr-be"]
-        }
-    },
-    "Dutch": {
-        "code": "nl",
-        "whisper_code": "nl",
-        "display_name": "Dutch Pronunciation Trainer",
-        "voices": {
-            "gtts": ["nl"],
-            "espeak": ["nl"]
-        }
-    },
-    "Flemish": {
-        "code": "nl-be",
-        "whisper_code": "nl",  # Flemish uses Dutch for Whisper
-        "display_name": "Flemish Pronunciation Trainer",
-        "voices": {
-            "gtts": ["nl"],
-            "espeak": ["nl-be"]
         }
     }
 }
