@@ -29,8 +29,8 @@ LANGUAGE_CONFIG = {
         "whisper_code": "nl",
         "display_name": "Dutch/Flemish Pronunciation Trainer",
         "voices": {
-            "gtts": ["nl", "nl-be"],
-            "espeak": ["nl", "nl-be"]
+            "gtts": ["nl"],
+            "espeak": ["nl"]
         }
     },
     "French": {
@@ -39,7 +39,7 @@ LANGUAGE_CONFIG = {
         "display_name": "French Pronunciation Trainer",
         "voices": {
             "gtts": ["fr"],
-            "espeak": ["fr-fr", "fr-be"]
+            "espeak": ["fr-fr"]
         }
     }
 }
