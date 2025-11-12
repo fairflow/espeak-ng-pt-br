@@ -283,18 +283,34 @@ def get_ipa(text: str, voice: str = "pt-br") -> str:
         return "[IPA unavailable]"
 
 
-def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 40):
-    """Speak Portuguese text using eSpeak (local only)"""
+def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 40) -> tuple[bytes, str]:
+    """
+    Generate speech using eSpeak NG (returns audio bytes, does not auto-play)
+    
+    Args:
+        text: Text to speak
+        voice: Voice/language code (e.g., 'pt-br', 'fr-fr', 'nl')
+        speed: Speech speed in words per minute (80-450)
+        pitch: Voice pitch (0-99)
+    
+    Returns:
+        (audio_bytes, format) where format is 'audio/wav'
+    """
     try:
-        subprocess.run([
+        # Use --stdout to capture audio bytes instead of playing directly
+        result = subprocess.run([
             get_espeak_path(),
             "-v", voice,
             "-s", str(speed),
             "-p", str(pitch),
+            "--stdout",  # Output WAV to stdout instead of playing
             text
-        ], check=True)
+        ], capture_output=True, check=True)
+        
+        return result.stdout, 'audio/wav'
     except (subprocess.CalledProcessError, FileNotFoundError):
-        pass  # Silently fail if espeak not available
+        # Return empty audio if espeak not available
+        return b'', 'audio/wav'
 
 
 def speak_text_gtts(text: str, lang: str = "pt-br", use_wav: bool = False, slow: bool = False) -> tuple[bytes, str]:
@@ -367,13 +383,12 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
     
     if tts_engine == 'espeak':
         # Use eSpeak with speed and pitch control
-        audio_bytes = speak_text(
+        return speak_text(
             text,
             voice=settings.get('voice', 'pt-br'),
             speed=settings.get('speed', 140),
             pitch=settings.get('pitch', 35)
         )
-        return audio_bytes, 'audio/x-wav'
     else:
         # Use Google TTS (default, high quality)
         return speak_text_gtts(
