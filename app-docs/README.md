@@ -1,6 +1,6 @@
 # Portuguese Pronunciation Trainer - Documentation
 
-**Version 1.0.0** | Last Updated: 11 November 2025
+**Version 1.1.1** | Last Updated: 13 November 2025
 
 Welcome to the documentation for the Portuguese Pronunciation Trainer app!
 

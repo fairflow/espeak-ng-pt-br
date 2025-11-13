@@ -1,6 +1,6 @@
 # Portuguese Pronunciation Trainer + eSpeak NG
 
-**Version 0.9.1** | Web-based Brazilian Portuguese pronunciation practice with instant AI feedback
+**Version 1.1.1** | Web-based Brazilian Portuguese pronunciation practice with instant AI feedback
 
 ---
 

@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.0.0"
+__version__ = "1.1.1"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -45,6 +45,10 @@ LANGUAGE_CONFIG = {
 }
 
 # Version History:
+# 1.1.1 (2025-11-13):
+#   - Fix eSpeak TTS auto-play bug (use --stdout to capture audio bytes)
+#   - Fix mobile UX: smaller heading (h3), emoji inline, translation above phrase
+#   - Add French language materials infrastructure (phrases A-D levels)
 # 1.0.0 (2025-11-11):
 #   - Add multi-language support (Portuguese, French, Dutch, Flemish)
 #   - Language-specific session tracking

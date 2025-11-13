@@ -6,6 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [1.1.1] - 2025-11-13
+
+### Fixed
+- eSpeak TTS auto-play bug: now uses `--stdout` to capture audio bytes instead of auto-playing
+- Mobile UX improvements: changed phrase heading from h1 to h3 for better visibility
+- Mobile layout: moved emoji inline with phrase and translation above phrase for better recording visibility
+
+### Added
+- French language materials infrastructure (phrases A-D levels)
+- Helper script for French phrase setup
+
+---
+
 ## [1.0.0] - 2025-11-11
 
 ### Added
