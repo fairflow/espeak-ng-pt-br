@@ -1,6 +1,6 @@
 # Testing Guide for Miolingo Multi-Language Pronunciation Trainer
 
-**Version 1.3.0** | For App Users & Testers
+**Version 1.3.1** | For App Users & Testers
 
 Thank you for helping us improve Miolingo! This guide explains how you can help test the app and report any problems you find.
 

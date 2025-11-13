@@ -23,6 +23,20 @@ import secrets
 from datetime import datetime, timedelta
 from typing import Optional, Dict, List, Any, Tuple
 import json
+from sshtunnel import SSHTunnelForwarder
+from pathlib import Path
+import atexit
+import warnings
+import logging
+
+# Suppress cryptography deprecation warnings
+warnings.filterwarnings('ignore', category=DeprecationWarning, module='paramiko')
+
+# Suppress debug logging from SSH and other libraries
+logging.getLogger('paramiko').setLevel(logging.WARNING)
+logging.getLogger('gtts').setLevel(logging.WARNING)
+logging.getLogger('urllib3').setLevel(logging.WARNING)
+logging.getLogger('fsevents').setLevel(logging.WARNING)
 
 
 # ============================================================================
@@ -41,27 +55,69 @@ pwd_hasher = PasswordHasher(
 
 
 # ============================================================================
-# CONNECTION POOLING (Optimized for Emerald Plan)
+# SSH TUNNEL & CONNECTION POOLING (Secure, Optimized for Emerald Plan)
 # ============================================================================
 
-_connection_pool = None
+def get_ssh_tunnel() -> SSHTunnelForwarder:
+    """
+    Get or create SSH tunnel to MySQL server.
+    Encrypts all database traffic via SSH tunnel.
+    Uses st.session_state to prevent duplicate tunnels across Streamlit reruns.
+    
+    Supports two modes for SSH key:
+    1. Local development: key_path in secrets (file path)
+    2. Streamlit Cloud: key_content in secrets (paste private key directly)
+    """
+    if "ssh_tunnel" not in st.session_state:
+        try:
+            # Ensure port is integer
+            ssh_port = int(st.secrets["ssh"]["port"])
+            
+            # Handle SSH key - either from file path or direct content
+            if "key_content" in st.secrets["ssh"]:
+                # Streamlit Cloud: use key content directly
+                ssh_key = st.secrets["ssh"]["key_content"]
+            else:
+                # Local development: use key file path
+                ssh_key_path = Path(st.secrets["ssh"]["key_path"]).expanduser().resolve()
+                ssh_key = str(ssh_key_path)
+            
+            # Remote MySQL is on the SSH server itself (localhost from SSH server's perspective)
+            # Don't specify local_bind_address to let sshtunnel auto-select an available port
+            # This avoids port conflicts
+            tunnel = SSHTunnelForwarder(
+                (st.secrets["ssh"]["host"], ssh_port),
+                ssh_username=st.secrets["ssh"]["username"],
+                ssh_pkey=ssh_key,
+                remote_bind_address=('127.0.0.1', 3306)  # MySQL on SSH server
+            )
+            tunnel.start()
+            st.session_state.ssh_tunnel = tunnel
+        except Exception as e:
+            st.error(f"❌ SSH tunnel failed: {e}")
+            raise
+    
+    return st.session_state.ssh_tunnel
+
 
 def get_connection_pool() -> pooling.MySQLConnectionPool:
     """
-    Get or create MySQL connection pool.
+    Get or create MySQL connection pool via SSH tunnel.
     Connection pooling improves performance by reusing database connections.
     Emerald plan resources allow for higher concurrency.
+    Uses st.session_state to prevent duplicate pools across Streamlit reruns.
     """
-    global _connection_pool
-    
-    if _connection_pool is None:
+    if "mysql_pool" not in st.session_state:
         try:
-            _connection_pool = pooling.MySQLConnectionPool(
+            # Establish SSH tunnel first
+            tunnel = get_ssh_tunnel()
+            
+            st.session_state.mysql_pool = pooling.MySQLConnectionPool(
                 pool_name="miolingo_pool",
                 pool_size=10,  # Increased for Emerald plan resources
                 pool_reset_session=True,
-                host=st.secrets["mysql"]["host"],
-                port=st.secrets["mysql"]["port"],
+                host='127.0.0.1',  # Connect via SSH tunnel
+                port=tunnel.local_bind_port,  # Tunnel's local port
                 database=st.secrets["mysql"]["database"],
                 user=st.secrets["mysql"]["user"],
                 password=st.secrets["mysql"]["password"],
@@ -72,7 +128,7 @@ def get_connection_pool() -> pooling.MySQLConnectionPool:
             st.error(f"❌ Database connection pool failed: {e}")
             raise
     
-    return _connection_pool
+    return st.session_state.mysql_pool
 
 
 def get_connection() -> mysql.connector.MySQLConnection:
@@ -82,6 +138,22 @@ def get_connection() -> mysql.connector.MySQLConnection:
     """
     pool = get_connection_pool()
     return pool.get_connection()
+
+
+def cleanup_ssh_tunnel():
+    """
+    Cleanup function to properly close SSH tunnel on app exit.
+    Registered with atexit to ensure cleanup happens.
+    """
+    if "ssh_tunnel" in st.session_state:
+        try:
+            st.session_state.ssh_tunnel.stop()
+        except:
+            pass
+
+
+# Register cleanup function
+atexit.register(cleanup_ssh_tunnel)
 
 
 # ============================================================================

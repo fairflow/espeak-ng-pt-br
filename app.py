@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.3.0"
+__version__ = "1.3.1"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -936,6 +936,7 @@ def save_current_session():
         }
         st.session_state.session_saved = True
         st.success("✓ Session saved!")
+        st.rerun()
     else:
         st.warning("No practices in current session to save")
 

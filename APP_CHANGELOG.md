@@ -6,6 +6,38 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [1.3.1] - 2025-11-13
+
+### Added
+- **SSH Tunnel Encryption**: All database traffic now encrypted via SSH tunnel
+  - Port 722 SSH connection to miolingo.io
+  - ED25519 key-based authentication
+  - Automatic port selection to avoid conflicts
+  - Connection persistence across Streamlit reruns using `st.session_state`
+  - Dual-mode key support: file path (local) or direct content (Streamlit Cloud)
+
+### Changed
+- **Session Save Behavior**: Added `st.rerun()` after saving session for immediate UI sync
+  - Eliminates double-click issue on "Save Session Now" button
+  - Sidebar state updates immediately after save
+
+### Fixed
+- SSH tunnel lifecycle management to prevent duplicate tunnels on Streamlit reruns
+- Port binding conflicts resolved by auto-selecting available ports
+- SSH port configuration (722 instead of default 22 for Krystal hosting)
+- Debug logging suppressed (paramiko, gtts, urllib3, fsevents now at WARNING level)
+
+### Security
+- Database connections now fully encrypted end-to-end via SSH tunnel
+- Private SSH keys kept secure (never committed to git)
+- Supports both local development (key file) and cloud deployment (key content in secrets)
+
+### Technical
+- New dependencies: `paramiko<3.0` (downgraded for sshtunnel compatibility), `sshtunnel>=0.4.0`
+- SSH tunnel managed in `app_mysql.py` module
+- Connection uses SSH key at `~/.ssh/miolingo/mysql_tunnel_key` (local) or secrets (cloud)
+- Cleanup handler registered via `atexit` to properly close tunnel on shutdown
+
 ## [1.3.0] - 2025-11-13
 
 ### Added
