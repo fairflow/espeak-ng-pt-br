@@ -8,8 +8,10 @@
 
 **Krystal hosting includes EVERYTHING we need:**
 
-### ✅ What's Included (Even on Amethyst £7/month plan):
-- **Unlimited MySQL/MariaDB databases** 
+### ✅ What You Have (Emerald £19/month plan):
+- **Unlimited MySQL/MariaDB databases** (future-proof for growth!)
+- **Unlimited storage** (no database size constraints)
+- **Enhanced resources** (better performance for production)
 - **phpMyAdmin** (web-based database management)
 - **Remote MySQL access** (connect from Streamlit Cloud!)
 - **Python support** (for any server-side scripts)
@@ -267,10 +269,17 @@ import secrets
 from argon2 import PasswordHasher
 from argon2.exceptions import VerifyMismatchError
 
-# Password hasher (Argon2id)
-ph = PasswordHasher()
+# Password hasher (Argon2id) - Hardened for Emerald plan resources
+# Memory-hard algorithm, resistant to GPU attacks
+ph = PasswordHasher(
+    time_cost=4,        # 4 iterations (increased from default 3)
+    memory_cost=102400, # 100 MB (increased from default 64 MB)
+    parallelism=8,      # 8 threads (increased from default 4)
+    hash_len=32,
+    salt_len=16
+)
 
-# Connection pool for better performance
+# Connection pool for better performance - Optimized for Emerald
 _connection_pool = None
 
 def get_connection_pool():
@@ -281,7 +290,7 @@ def get_connection_pool():
         try:
             _connection_pool = pooling.MySQLConnectionPool(
                 pool_name="miolingo_pool",
-                pool_size=5,
+                pool_size=10,  # Increased for Emerald plan resources
                 pool_reset_session=True,
                 host=st.secrets["mysql"]["host"],
                 port=st.secrets["mysql"]["port"],
@@ -718,31 +727,37 @@ connection_config = {
 
 ## 💰 Cost Analysis
 
-### Krystal Hosting Costs:
+### Krystal Hosting Costs
 
-**Amethyst Plan (£7/month = ~$9/month):**
+**Emerald Plan (£19/month = ~$24/month):**
 - ✅ Unlimited MySQL databases
-- ✅ 10GB NVMe storage (plenty for user database)
+- ✅ Unlimited storage (no database size limits!)
 - ✅ Unlimited bandwidth
+- ✅ Enhanced resources for production workloads
 - ✅ Daily backups
 - ✅ phpMyAdmin included
 - ✅ Remote MySQL access
-- ✅ Perfect for MVP and early growth
+- ✅ Perfect for scaling to thousands of users
 
-**When to Upgrade:**
-- **Ruby (£11/month)** if you need 25GB storage
-- **Emerald (£19/month)** if you need unlimited sites/storage
+**When Emerald is the right choice:**
+- Future-proof: No storage constraints as user base grows
+- Performance: Enhanced resources handle higher concurrency
+- Professional: Premium infrastructure for serious application
 
-### Total Monthly Costs:
-- Krystal hosting: £7/month ($9/month)
+### Total Monthly Costs
+
+- Krystal Emerald hosting: £19/month ($24/month)
 - Streamlit Cloud: $0 (free tier)
 - Domain (miolingo.io): Already paid
-- **Total: £7/month = ~$9/month** 🎉
+- **Total: £19/month = ~$24/month** 🎉
 
-### Comparison to Supabase:
-- Supabase free: $0/month (but 500MB limit)
-- Supabase Pro: $25/month
-- **Krystal: £7/month with unlimited databases** ✅
+### Comparison to Supabase
+
+- Supabase free: $0/month (but 500MB limit, will hit quickly)
+- Supabase Pro: $25/month (needed for production)
+- **Krystal Emerald: £19/month ($24/month) with unlimited storage** ✅
+
+**Winner: Krystal Emerald** - Slightly cheaper than Supabase Pro, no storage limits, you control the infrastructure, professional setup on your own domain.
 
 ## 🚀 Implementation Timeline
 
@@ -796,10 +811,11 @@ connection_config = {
 ---
 
 **Ready to proceed?** This solution is:
-- ✅ Cost-effective (£7/month)
-- ✅ Production-ready (daily backups, SSL)
-- ✅ Scalable (can upgrade as needed)
-- ✅ Secure (Argon2 passwords, parameterized queries)
-- ✅ Your infrastructure (hosted on miolingo.io)
+- ✅ Cost-effective (£19/month, competitive with Supabase Pro)
+- ✅ Production-ready (daily backups, SSL, enhanced resources)
+- ✅ Scalable (unlimited storage, handles growth)
+- ✅ Secure (Argon2 passwords, parameterized queries, rate limiting)
+- ✅ Your infrastructure (hosted on miolingo.io, full control)
+- ✅ Future-proof (Emerald plan resources support enterprise-grade security)
 
 Let me know what Krystal support says, and we can start building! 🚀
