@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.1.3"
+__version__ = "1.2.0"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -45,6 +45,12 @@ LANGUAGE_CONFIG = {
 }
 
 # Version History:
+# 1.2.0 (2025-11-13):
+#   - Add built-in language materials library browser (French: 200 phrases + 428 words, Portuguese: 83 phrases + 172 words)
+#   - New tabbed interface: "Built-in Library" + "Upload File" for better UX
+#   - File metadata preview (item count, translations, IPA) before loading
+#   - Track material source in session state
+#   - Add app_language_materials.py module for materials management
 # 1.1.3 (2025-11-13):
 #   - Remove separator line between audio and recording for better mobile spacing
 #   - Dynamic language name in recording instructions (Portuguese/French/Dutch)
@@ -1001,66 +1007,161 @@ def main():
         if len(current_session["practices"]) == 0:
             st.info("👋 **New here?** Check the [User Guide](https://github.com/fairflow/espeak-ng-pt-br/blob/main/app-docs/USER_GUIDE.md) in the sidebar for step-by-step instructions!")
         
-        # Phrase list import feature
-        with st.expander("📁 Import Phrase List (Optional)"):
-            st.write("Upload a text file with one phrase per line for structured practice.")
-            uploaded_file = st.file_uploader(
-                "Choose a text file",
-                type=['txt'],
-                help="Upload a .txt file with one phrase per line. Empty lines are ignored."
+        # Phrase/Word list loading - Built-in Library + User Upload
+        with st.expander("📚 Load Practice Materials"):
+            from app_language_materials import (
+                get_available_languages,
+                get_language_structure,
+                get_file_metadata,
+                load_phrase_file,
+                format_category_name,
+                format_language_name
             )
             
-            if uploaded_file is not None:
-                try:
-                    # Read and parse the file
-                    content = uploaded_file.read().decode('utf-8')
-                    raw_lines = [line.strip() for line in content.split('\n') if line.strip()]
-                    
-                    # Parse phrases - support both simple and enhanced format
-                    # Enhanced format: "Portuguese | English translation | [IPA]"
-                    # Simple format: "Portuguese"
-                    phrases = []
-                    for line in raw_lines:
-                        if '|' in line:
-                            # Enhanced format with translation
-                            parts = [p.strip() for p in line.split('|')]
-                            phrase_dict = {
-                                'text': parts[0],
-                                'translation': parts[1] if len(parts) > 1 else None,
-                                'ipa': parts[2] if len(parts) > 2 else None
-                            }
-                            phrases.append(phrase_dict)
-                        else:
-                            # Simple format - just the text
-                            phrases.append({'text': line, 'translation': None, 'ipa': None})
-                    
-                    st.success(f"✓ Loaded {len(phrases)} phrases")
-                    
-                    # Initialize phrase list in session state
-                    if 'phrase_list' not in st.session_state or st.session_state.phrase_list != phrases:
-                        st.session_state.phrase_list = phrases
-                        st.session_state.current_phrase_index = 0
-                        # Clear last result when loading new list
-                        st.session_state.last_result = None
-                    
-                    # Show sample of phrases
-                    if len(phrases) <= 5:
-                        st.write("**Phrases:**")
-                        for p in phrases:
-                            st.write(f"• {p['text']}")
-                    else:
-                        sample_texts = [p['text'] for p in phrases[:3]]
-                        st.write(f"**Sample phrases:** {', '.join(sample_texts)}, ...")
-                        
-                except Exception as e:
-                    st.error(f"Error reading file: {e}")
+            source_tab1, source_tab2 = st.tabs(["📦 Built-in Library", "📁 Upload File"])
             
-            if 'phrase_list' in st.session_state and st.session_state.phrase_list:
-                if st.button("🗑️ Clear Phrase List"):
-                    st.session_state.phrase_list = []
-                    st.session_state.current_phrase_index = 0
-                    st.session_state.last_result = None
-                    st.rerun()
+            # TAB 1: Built-in materials
+            with source_tab1:
+                st.write("Browse curated phrase and word lists by language and level.")
+                
+                languages = get_available_languages()
+                
+                if not languages:
+                    st.warning("No built-in materials found in `language_materials/` directory.")
+                else:
+                    # Language selection
+                    material_lang = st.selectbox(
+                        "Material Language",
+                        languages,
+                        format_func=format_language_name,
+                        help="Choose the language of practice materials to load"
+                    )
+                    
+                    structure = get_language_structure(material_lang)
+                    
+                    if structure:
+                        # Category selection (phrases vs words, level A-D)
+                        categories = list(structure.keys())
+                        category = st.selectbox(
+                            "Category",
+                            categories,
+                            format_func=format_category_name,
+                            help="Select difficulty level: Beginner (A) → Expert (D)"
+                        )
+                        
+                        # File selection within category
+                        files = structure[category]
+                        selected_file = st.selectbox(
+                            "File",
+                            files,
+                            help="Select a specific file from this category"
+                        )
+                        
+                        # Show metadata preview
+                        metadata = get_file_metadata(material_lang, category, selected_file)
+                        
+                        if metadata and 'line_count' in metadata:
+                            col1, col2, col3 = st.columns(3)
+                            with col1:
+                                st.metric("Items", metadata.get('line_count', 0))
+                            with col2:
+                                st.metric("Translations", "✓" if metadata.get('has_translations') else "✗")
+                            with col3:
+                                st.metric("IPA", "✓" if metadata.get('has_ipa') else "✗")
+                            
+                            # Preview
+                            if metadata.get('preview'):
+                                with st.expander("Preview first 3 items"):
+                                    for line in metadata['preview']:
+                                        st.text(line)
+                            
+                            # Load button
+                            if st.button("📂 Load This File", type="primary", key="load_builtin"):
+                                try:
+                                    phrases = load_phrase_file(str(metadata['path']))
+                                    st.session_state.phrase_list = phrases
+                                    st.session_state.current_phrase_index = 0
+                                    st.session_state.last_result = None
+                                    st.session_state.material_source = f"{format_language_name(material_lang)} - {format_category_name(category)} - {selected_file}"
+                                    st.success(f"✓ Loaded {len(phrases)} items from built-in library")
+                                    st.rerun()
+                                except Exception as e:
+                                    st.error(f"Error loading file: {e}")
+                        else:
+                            st.error("Could not read file metadata")
+                    else:
+                        st.info(f"No materials found for {format_language_name(material_lang)}")
+            
+            # TAB 2: User upload
+            with source_tab2:
+                st.write("Upload your own phrase or word list.")
+                st.caption("**Format:** One phrase per line, or `phrase | translation | [ipa]`")
+                
+                uploaded_file = st.file_uploader(
+                    "Choose a text file",
+                    type=['txt'],
+                    help="Upload a .txt file with one phrase per line. Empty lines and comments (#) are ignored."
+                )
+                
+                if uploaded_file is not None:
+                    try:
+                        # Read and parse the file
+                        content = uploaded_file.read().decode('utf-8')
+                        raw_lines = [line.strip() for line in content.split('\n') if line.strip()]
+                        
+                        # Parse phrases - support both simple and enhanced format
+                        phrases = []
+                        for line in raw_lines:
+                            # Skip comments
+                            if line.startswith('#'):
+                                continue
+                            
+                            if '|' in line:
+                                # Enhanced format with translation
+                                parts = [p.strip() for p in line.split('|')]
+                                phrase_dict = {
+                                    'text': parts[0],
+                                    'translation': parts[1] if len(parts) > 1 else None,
+                                    'ipa': parts[2] if len(parts) > 2 else None
+                                }
+                                phrases.append(phrase_dict)
+                            else:
+                                # Simple format - just the text
+                                phrases.append({'text': line, 'translation': None, 'ipa': None})
+                        
+                        st.success(f"✓ Loaded {len(phrases)} items from upload")
+                        
+                        # Show sample
+                        if len(phrases) <= 5:
+                            st.write("**Items:**")
+                            for p in phrases:
+                                st.write(f"• {p['text']}")
+                        else:
+                            sample_texts = [p['text'] for p in phrases[:3]]
+                            st.write(f"**Sample:** {', '.join(sample_texts)}, ...")
+                        
+                        # Use button
+                        if st.button("✅ Use This File", type="primary", key="use_upload"):
+                            st.session_state.phrase_list = phrases
+                            st.session_state.current_phrase_index = 0
+                            st.session_state.last_result = None
+                            st.session_state.material_source = f"Uploaded: {uploaded_file.name}"
+                            st.rerun()
+                            
+                    except Exception as e:
+                        st.error(f"Error reading file: {e}")
+        
+        # Show current material source
+        if 'phrase_list' in st.session_state and st.session_state.phrase_list:
+            material_source = st.session_state.get('material_source', 'Unknown source')
+            st.info(f"📚 **Current material:** {material_source}")
+            
+            if st.button("🗑️ Clear Material"):
+                st.session_state.phrase_list = []
+                st.session_state.current_phrase_index = 0
+                st.session_state.last_result = None
+                st.session_state.material_source = None
+                st.rerun()
         
         # Determine practice mode
         guided_mode = 'phrase_list' in st.session_state and st.session_state.phrase_list
