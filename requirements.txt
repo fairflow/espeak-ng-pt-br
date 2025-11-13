@@ -12,3 +12,5 @@ librosa>=0.10.0
 
 # Note: espeak-ng needs to be installed system-wide on the deployment server
 # For local development: ./configure && make && make install
+mysql-connector-python==9.4.0
+argon2-cffi==25.1.0
