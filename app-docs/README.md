@@ -1,8 +1,8 @@
-# Portuguese Pronunciation Trainer - Documentation
+# Miolingo - Multi-Language Pronunciation Trainer - Documentation
 
-**Version 1.1.3** | Last Updated: 13 November 2025
+**Version 1.2.1** | Last Updated: 13 November 2025
 
-Welcome to the documentation for the Portuguese Pronunciation Trainer app!
+Welcome to the documentation for Miolingo, the multi-language pronunciation trainer app!
 
 ---
 
@@ -95,7 +95,7 @@ Choose the guide that matches your needs:
 
 ## 🎯 What Is This App?
 
-The **Portuguese Pronunciation Trainer** is a web-based app that helps you practice Brazilian Portuguese pronunciation with instant feedback.
+**Miolingo** is a web-based app that helps you practice pronunciation in multiple languages (Portuguese, French, Dutch, Flemish) with instant feedback.
 
 
 ### Key Features
@@ -128,7 +128,7 @@ The **Portuguese Pronunciation Trainer** is a web-based app that helps you pract
 
 ## 📄 License
 
-The Portuguese Pronunciation Trainer app is built on top of eSpeak NG, which is licensed under GPL v3.
+The Miolingo pronunciation trainer app is built on top of eSpeak NG, which is licensed under GPL v3.
 
 The app itself inherits this license. See the main repository LICENSE file for details.
 

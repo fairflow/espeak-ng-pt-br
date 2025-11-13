@@ -1,14 +1,14 @@
-# Testing Guide for Portuguese Pronunciation Trainer
+# Testing Guide for Miolingo Multi-Language Pronunciation Trainer
 
-**Version 1.1.3** | For App Users & Testers
+**Version 1.2.1** | For App Users & Testers
 
-Thank you for helping us improve the Portuguese Pronunciation Trainer! This guide explains how you can help test the app and report any problems you find.
+Thank you for helping us improve Miolingo! This guide explains how you can help test the app and report any problems you find.
 
 ---
 
 ## 🎯 Why Your Testing Helps
 
-You don't need to be a programmer to help test! As someone learning Portuguese, you're the perfect person to tell us:
+You don't need to be a programmer to help test! As a language learner, you're the perfect person to tell us:
 
 - What's confusing or unclear
 - What doesn't work as expected
@@ -373,7 +373,7 @@ If you're comfortable with it:
 
 ## 🌟 Thank You!
 
-Your testing helps make the app better for everyone learning Portuguese. Every bug report, feature suggestion, and test result is valuable!
+Your testing helps make the app better for all language learners. Every bug report, feature suggestion, and test result is valuable!
 
 **Remember**: 
 - There are no stupid questions

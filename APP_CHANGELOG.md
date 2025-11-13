@@ -1,10 +1,23 @@
-# Changelog - Portuguese Pronunciation Trainer
+# Changelog - Miolingo Multi-Language Pronunciation Trainer
 
-All notable changes to the Portuguese Pronunciation Trainer application will be documented in this file.
+All notable changes to the Miolingo pronunciation trainer application will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+
+## [1.2.1] - 2025-11-13
+
+### Changed
+- **Documentation**: Updated all documentation to be language-agnostic instead of Portuguese-specific
+  - Changed app name from "Portuguese Pronunciation Trainer" to "Miolingo - Multi-Language Pronunciation Trainer"
+  - Updated README.md, USER_GUIDE.md, DEVELOPER_GUIDE.md, TESTING_GUIDE.md, and app-docs/README.md
+  - Replaced Portuguese-specific language with generic "pronunciation practice" or "language learning"
+  - Updated primary app URL to https://miolingo.io/ with backup https://miolingo.streamlit.app/
+  - Emphasized multi-language support (Portuguese, French, Dutch, Flemish) throughout docs
+  - Clarified wav2vec2 is Portuguese-only, Whisper supports all languages
+
+---
 
 ## [1.1.3] - 2025-11-13
 

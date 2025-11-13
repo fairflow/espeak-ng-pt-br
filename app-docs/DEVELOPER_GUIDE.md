@@ -1,8 +1,8 @@
-# Developer Guide - Portuguese Pronunciation Trainer
+# Developer Guide - Miolingo Multi-Language Pronunciation Trainer
 
-**Version 1.1.3** | Last Updated: 13 November 2025
+**Version 1.2.1** | Last Updated: 13 November 2025
 
-This guide is for developers who want to contribute to, modify, or understand the Portuguese Pronunciation Trainer codebase.
+This guide is for developers who want to contribute to, modify, or understand the Miolingo pronunciation trainer codebase.
 
 ---
 

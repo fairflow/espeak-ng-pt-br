@@ -1,6 +1,6 @@
 # Miolingo - Multi-Language Pronunciation Trainer - User Guide
 
-**Version 1.2.0** | Last Updated: 11 January 2025
+**Version 1.2.1** | Last Updated: 13 November 2025
 
 Welcome! This guide will help you practice pronunciation in multiple languages (Portuguese, French, Dutch/Flemish) using speech recognition and instant AI feedback.
 
@@ -224,7 +224,7 @@ All settings are in the left sidebar.
 **ASR Engine:**
 
 - **Whisper** (default) - Multilingual model, supports 99 languages
-- **wav2vec2** - Portuguese-specific model, may be more accurate for Portuguese
+- **wav2vec2** - Language-specific model (Portuguese only), may be more accurate for Portuguese
 
 **Whisper Model Size** (only visible when Whisper is selected):
 
@@ -408,7 +408,7 @@ Below the results, you can:
 - Reduce background noise
 - Try different microphone (earbuds often work better)
 - Increase silence threshold if words are being cut off
-- Try wav2vec2 engine for Portuguese-specific recognition
+- Try wav2vec2 engine for improved Portuguese recognition (Portuguese only)
 
 **App is slow:**
 

@@ -1,16 +1,16 @@
-# Portuguese Pronunciation Trainer + eSpeak NG
+# Miolingo - Multi-Language Pronunciation Trainer + eSpeak NG
 
-**Version 1.1.3** | Web-based Brazilian Portuguese pronunciation practice with instant AI feedback
+**Version 1.2.1** | Web-based multi-language pronunciation practice with instant AI feedback
 
 ---
 
-## 🎯 Portuguese Pronunciation Trainer App
+## 🎯 Miolingo Pronunciation Trainer App
 
-This repository contains a **Portuguese Pronunciation Trainer** web application built on top of eSpeak NG. The app helps learners practice Brazilian Portuguese pronunciation with real-time feedback.
+This repository contains **Miolingo**, a multi-language pronunciation trainer web application built on top of eSpeak NG. The app helps learners practice pronunciation in Portuguese, French, Dutch, and Flemish with real-time feedback.
 
 ### For App Users
 
-📱 **Want to practice Portuguese?** See the [User Guide](app-docs/USER_GUIDE.md)
+📱 **Want to practice pronunciation?** See the [User Guide](app-docs/USER_GUIDE.md)
 
 🧪 **Want to help test the app?** See the [Testing Guide](app-docs/TESTING_GUIDE.md)
 - Includes CCS testing mode for advanced users (no coding required!)

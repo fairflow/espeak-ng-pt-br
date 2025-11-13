@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.2.0"
+__version__ = "1.2.1"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -45,6 +45,10 @@ LANGUAGE_CONFIG = {
 }
 
 # Version History:
+# 1.2.1 (2025-11-13):
+#   - Documentation: Update all docs to be language-agnostic (Miolingo branding)
+#   - Update primary URL to miolingo.io with backup streamlit.app URL
+#   - Emphasize multi-language support throughout documentation
 # 1.2.0 (2025-11-13):
 #   - Add built-in language materials library browser (French: 200 phrases + 428 words, Portuguese: 83 phrases + 172 words)
 #   - New tabbed interface: "Built-in Library" + "Upload File" for better UX
