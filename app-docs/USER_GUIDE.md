@@ -13,7 +13,8 @@ Welcome! This guide will help you practice pronunciation in multiple languages (
 **Online (Recommended):**
 
 - Open your web browser (Safari, Chrome, Firefox, etc.)
-- Visit: **https://miolingo.streamlit.app/**
+- Visit: **https://miolingo.io/**
+- Backup URL (if primary fails): **https://miolingo.streamlit.app/**
 - 💡 **Tip:** Bookmark this page or add to home screen!
 
 **Running Locally:**
