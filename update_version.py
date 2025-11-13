@@ -95,6 +95,40 @@ def main():
     ):
         success_count += 1
     
+    # 4. Update app-docs/DEVELOPER_GUIDE.md - Version and date
+    dev_guide = script_dir / "app-docs" / "DEVELOPER_GUIDE.md"
+    total_count += 1
+    if update_version_in_file(
+        dev_guide,
+        r'\*\*Version\s+[0-9]+\.[0-9]+\.[0-9]+\*\*\s*\|\s*Last Updated:.*',
+        f'**Version {new_version}** | Last Updated: {update_date}',
+        f"Version and date"
+    ):
+        success_count += 1
+    
+    # 5. Update app-docs/TESTING_GUIDE.md - Version at top
+    testing_guide = script_dir / "app-docs" / "TESTING_GUIDE.md"
+    total_count += 1
+    if update_version_in_file(
+        testing_guide,
+        r'\*\*Version\s+[0-9]+\.[0-9]+\.[0-9]+\*\*',
+        f'**Version {new_version}**',
+        f"Version badge"
+    ):
+        success_count += 1
+    
+    # 6. Update app-docs/USER_GUIDE.md - Version and date (if exists)
+    user_guide = script_dir / "app-docs" / "USER_GUIDE.md"
+    if user_guide.exists():
+        total_count += 1
+        if update_version_in_file(
+            user_guide,
+            r'\*\*Version\s+[0-9]+\.[0-9]+\.[0-9]+\*\*',
+            f'**Version {new_version}**',
+            f"Version badge"
+        ):
+            success_count += 1
+    
     print("-" * 50)
     print(f"Updated {success_count}/{total_count} files successfully")
     
@@ -104,7 +138,7 @@ def main():
         print(f"1. Update APP_CHANGELOG.md manually with changes for v{new_version}")
         print(f"2. Update version history comment in app.py (around line 47)")
         print(f"3. Test: streamlit run app.py")
-        print(f"4. Commit: git add app.py APP_CHANGELOG.md README.md app-docs/README.md")
+        print(f"4. Commit: git add app.py APP_CHANGELOG.md README.md app-docs/")
         print(f"5. Commit: git commit -m 'Bump version to {new_version}'")
         print(f"6. Tag: git tag -a v{new_version} -m 'Release version {new_version}: [description]'")
         print(f"7. Push: git push myfork main --follow-tags")

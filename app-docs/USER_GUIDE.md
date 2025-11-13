@@ -1,6 +1,6 @@
 # Portuguese Pronunciation Trainer - User Guide
 
-**Version 1.0.0** | Last Updated: 11 November 2025
+**Version 1.1.3** | Last Updated: 11 November 2025
 
 Welcome! This guide will help you practice Brazilian Portuguese pronunciation using speech recognition and instant feedback.
 
