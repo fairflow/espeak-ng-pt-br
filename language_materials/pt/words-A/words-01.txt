@@ -1,0 +1,35 @@
+# Portuguese words from phr-01.txt
+# Level: A
+# Total unique words: 27
+#
+# Format: word | translation | [ipa]
+# One word per line
+#
+
+amanhã | tomorrow | [ˌæmɐ̃ɲˈɐ̃]
+até | until | [atˈɛ]
+bem | good | [bˈeɪŋ]
+boa | good | [bˈoæ]
+bom | good | [bˈoŋ]
+certeza | certainty | [sˌeɾətˈezæ]
+claro | Of course | [klˈaɾʊ]
+com | with | [kˈoŋ]
+de | of | [dʒˈy]
+desculpa | sorry | [dˌeskˈuwpæ]
+dia | day | [dʒˈiæ]
+favor | please | [favˈor]
+licença | license | [lˌisˈeɪŋsæ]
+logo | soon | [lˈɔɡʊ]
+muito | very | [mwˈiŋtʊ]
+nada | nothing | [nˈadæ]
+noite | night | [nˈoɪtʃy]
+não | no | [nˈɐ̃ʊ̃]
+obrigada | thank you (f) | [ˌobriɡˈadæ]
+obrigado | thank you (m) | [ˌobriɡˈadʊ]
+olá | hello | [olˈa]
+por | put | [pˈor]
+sim | yes | [sˈiŋ]
+talvez | perhaps | [taʊvˈes]
+tarde | afternoon | [tˈaɾədʒy]
+tchau | goodbye | [tʃˈaʊ]
+tudo | all | [tˈudʊ]
