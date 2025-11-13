@@ -1,8 +1,8 @@
-# Portuguese Pronunciation Trainer - User Guide
+# Miolingo - Multi-Language Pronunciation Trainer - User Guide
 
-**Version 1.1.3** | Last Updated: 11 November 2025
+**Version 1.2.0** | Last Updated: 11 January 2025
 
-Welcome! This guide will help you practice Brazilian Portuguese pronunciation using speech recognition and instant feedback.
+Welcome! This guide will help you practice pronunciation in multiple languages (Portuguese, French, Dutch/Flemish) using speech recognition and instant AI feedback.
 
 ---
 
@@ -30,7 +30,33 @@ The app has **three main tabs**: Quick Practice, Statistics, and History.
 
 ### Tab 1: 🎯 Quick Practice
 
-This is where you practice! The app supports two modes:
+This is where you practice! The app supports two modes with two material sources:
+
+#### Material Sources (Tabbed Interface)
+
+Starting with v1.2.0, you can choose between two sources for practice materials:
+
+**📚 Built-in Library (New in v1.2.0):**
+
+- Pre-curated practice materials organized by language and level
+- Browse available materials by expanding "Browse Available Materials"
+- See available languages, difficulty levels (A-D), and categories (phrases/words)
+- Each material file shows:
+  - Number of items
+  - Description
+  - Last modified date
+- Click "Load" to import a material file directly
+- Preview first few lines before loading
+
+**📁 Upload File:**
+
+- Upload your own custom phrase lists (`.txt` format)
+- Create personalized practice materials
+- Same functionality as before, now in a dedicated tab
+
+Both sources work with the same practice modes (Free Practice and Guided Practice) detailed below.
+
+---
 
 #### Mode A: Free Practice (Type Anything)
 
@@ -73,21 +99,36 @@ Structured practice with a prepared list of phrases. Perfect for systematic lear
    - Advanced format: `Bom dia | Good morning | [bõ ˈd͡ʒi.ɐ]` (with IPA)
 
 2. **Import your list:**
-   - In the Quick Practice tab, expand **"📁 Import Phrase List"**
+   - In the Quick Practice tab, go to **"📁 Upload File"** tab
    - Click "Choose a text file"
    - Select your `.txt` file
    - The app shows how many phrases were loaded
 
-**Try a Sample List:**
+**Try Built-in Materials (New in v1.2.0):**
 
-Want to get started quickly? Download this sample file with translations:
+Want to get started quickly? Use the built-in library:
+
+- Go to **"📚 Built-in Library"** tab
+- Expand **"Browse Available Materials"**
+- See available materials organized by:
+  - **Language** (Portuguese, French, etc.)
+  - **Difficulty Level** (A = Beginner, B = Intermediate, C = Advanced, D = Expert)
+  - **Category** (phrases or words)
+- Click **"Load"** next to any material to import it
+- Preview shows first few lines of content before loading
+
+**Legacy Sample File:**
+
+For users familiar with the previous version, you can still download this sample file:
+
 - **[practice_phrases_with_translations.txt](https://github.com/fairflow/espeak-ng-pt-br/raw/main/practice_phrases_with_translations.txt)** (21 phrases with English translations and IPA)
-- Right-click → Save As, then import it in the app
-- *Note: This file has some unusual phrases—we're working on a better beginner list!* 😊
+- Right-click → Save As, then import via the Upload File tab
+- *Note: This file has some unusual phrases—the built-in library has better beginner content!* 😊
 **Practicing with Guided Mode:**
 
-Once a phrase list is loaded, the interface changes:
+Once a phrase list is loaded (from either Built-in Library or Upload File), the interface changes:
 
+- **Material source indicator** shows where the list came from (e.g., "Using material from: Built-in Library (pt/phrases-A/greetings.txt)")
 - **Progress bar** shows your position (e.g., "Phrase 3 of 20")
 - **Current phrase** displays in large, bold text
 - **Navigation buttons:**
@@ -95,7 +136,7 @@ Once a phrase list is loaded, the interface changes:
   - **Next** ➡️ - Move to next phrase
   - ✏️ **Edit** - Temporarily modify or replace the current phrase
 - **Translation/IPA** (if provided in your file) - Expand to see
-- **Clear Phrase List** button (in the import section) - Removes the list
+- **Clear Phrase List** button (in the material source section) - Removes the list
 
 **Practice workflow:**
 
@@ -247,7 +288,31 @@ Version 1.0.0 adds support for multiple languages:
 - **French** (France, Belgium)
 - **Dutch/Flemish**
 
-You can select your language and voice/dialect in the sidebar. All practice modes, scoring, and feedback work for every language. Phrase lists are available for each language, and you can import your own lists as before.
+You can select your language and voice/dialect in the sidebar. All practice modes, scoring, and feedback work for every language.
+
+**v1.2.0 Language Materials Library:**
+
+The built-in library includes curated practice materials for supported languages:
+
+- **Portuguese (pt):**
+  - Phrases: A-D levels (greetings, basics, travel, food, culture)
+  - Words: A-D levels (nouns, verbs, adjectives, adverbs, expressions)
+  - Total: 255 items with translations and IPA
+
+- **French (fr):**
+  - Phrases: A-D levels (everyday conversation, travel, business)
+  - Words: A-D levels (vocabulary by category and complexity)
+  - Total: 628 items with translations and IPA
+
+- **Dutch/Flemish:**
+  - Materials coming soon! You can still use Upload File with your own materials.
+
+All materials include:
+
+- English translations
+- IPA (International Phonetic Alphabet) pronunciations
+- Organized by CEFR levels (A = Beginner, B = Intermediate, C = Advanced, D = Expert)
+
 ---
 
 ## 📊 Understanding Your Results

@@ -117,17 +117,16 @@ def main():
     ):
         success_count += 1
     
-    # 6. Update app-docs/USER_GUIDE.md - Version and date (if exists)
+    # 6. Update app-docs/USER_GUIDE.md - Version and date
     user_guide = script_dir / "app-docs" / "USER_GUIDE.md"
-    if user_guide.exists():
-        total_count += 1
-        if update_version_in_file(
-            user_guide,
-            r'\*\*Version\s+[0-9]+\.[0-9]+\.[0-9]+\*\*',
-            f'**Version {new_version}**',
-            f"Version badge"
-        ):
-            success_count += 1
+    total_count += 1
+    if update_version_in_file(
+        user_guide,
+        r'\*\*Version\s+[0-9]+\.[0-9]+\.[0-9]+\*\*\s*\|\s*Last Updated:.*',
+        f'**Version {new_version}** | Last Updated: {update_date}',
+        f"Version and date"
+    ):
+        success_count += 1
     
     print("-" * 50)
     print(f"Updated {success_count}/{total_count} files successfully")
