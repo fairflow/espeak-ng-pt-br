@@ -1153,11 +1153,7 @@ def main():
                     st.session_state.edit_mode = False
                     st.rerun()
             else:
-                st.markdown("### 🎯 Current Phrase:")
-                # Display phrase in large, bold text
-                st.markdown(f"# **{current_phrase}**")
-                
-                # Show translation/IPA if available
+                # Show translation/IPA if available (above phrase for mobile visibility)
                 if phrase_translation or phrase_ipa:
                     with st.expander("📖 Translation & Reference", expanded=False):
                         if phrase_translation:
@@ -1165,6 +1161,9 @@ def main():
                         if phrase_ipa:
                             st.markdown(f"**📚 Reference IPA:** {phrase_ipa}")
                             st.caption("Compare with eSpeak IPA generated below")
+                
+                # Display phrase - mobile-friendly with emoji inline
+                st.markdown(f"### 🎯 **{current_phrase}**")
                 
                 st.caption("This phrase is automatically selected from your list. Click 'Edit' above to modify it.")
                 # Use this phrase for practice

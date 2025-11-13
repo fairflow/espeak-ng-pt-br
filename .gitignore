@@ -3,6 +3,7 @@
 *~
 .*.swp
 *.bat
+.DS_Store
 
 # Eclipse project files:
 
