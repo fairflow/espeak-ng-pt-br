@@ -6,6 +6,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [1.1.3] - 2025-11-13
+
+### Fixed
+- Mobile UX: removed separator line between audio and recording sections for more compact layout
+- Recording instructions now dynamically display the selected language (Portuguese/French/Dutch) instead of hardcoded "Portuguese"
+
+---
+
 ## [1.1.2] - 2025-11-13
 
 ### Fixed

@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.1.2"
+__version__ = "1.1.3"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -45,6 +45,9 @@ LANGUAGE_CONFIG = {
 }
 
 # Version History:
+# 1.1.3 (2025-11-13):
+#   - Remove separator line between audio and recording for better mobile spacing
+#   - Dynamic language name in recording instructions (Portuguese/French/Dutch)
 # 1.1.2 (2025-11-13):
 #   - Further mobile UX improvements: smaller phrase heading (h4), info box moved below recording widget
 # 1.1.1 (2025-11-13):
@@ -1199,14 +1202,14 @@ def main():
                 audio_bytes, audio_format = generate_target_audio(text, st.session_state.settings)
                 st.audio(audio_bytes, format=audio_format, autoplay=False)
             
-            st.markdown("---")
             st.write("🎙️ **Now record your pronunciation:**")
             
             # Streamlit's built-in audio input with dynamic key
             audio_data = st.audio_input("Click to record", key=f"audio_input_{st.session_state.audio_input_key}")
             
             # Show recording tip after the recording widget (mobile-friendly)
-            st.info("💡 Wait for the recording icon to turn red before speaking. The app will automatically trim silence and enforce Portuguese language detection.")
+            language_name = st.session_state.settings.get('language', 'Portuguese')
+            st.info(f"💡 Wait for the recording icon to turn red before speaking. The app will automatically trim silence and enforce {language_name} language detection.")
             
             if audio_data:
                 st.write("▶️ **Your recording:**")
