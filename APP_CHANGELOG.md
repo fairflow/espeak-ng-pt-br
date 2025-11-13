@@ -6,6 +6,53 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [1.3.0] - 2025-11-13
+
+### Added
+- **Multi-User Authentication**: Complete user authentication system with secure login/registration
+  - Argon2id password hashing (100MB memory, 4 iterations, 8 threads)
+  - 32-byte secure session tokens with 24-hour expiration
+  - Per-user, per-language settings and progress tracking
+  - Rate limiting for abuse prevention (no CAPTCHA by design)
+- **MySQL Database Integration**: External database on Krystal hosting (miolingo.io)
+  - 6-table schema: users, sessions, user_settings, user_progress, rate_limits, activity_log
+  - Modular architecture: `app_mysql.py` module keeps all database logic separate
+  - Connection pooling optimized for Krystal Emerald plan (10 connections)
+- **Per-User Progress**: Practice sessions saved per-user and per-language
+  - Individual statistics for each user and language combination
+  - Real-time database saving after each practice
+  - Recent average (last 10 practices) tracking
+- **Security Features**:
+  - All SQL queries parameterized to prevent injection attacks
+  - Session IP validation to detect hijacking
+  - Activity logging with timestamps and IP addresses
+  - Secure secrets management via Streamlit secrets.toml
+
+### Changed
+- **Statistics Display**: Now pulls from database instead of local JSON files
+  - Shows per-language stats dynamically based on selected language
+  - Real-time updates when switching languages
+  - Current session stats + all-time stats from database
+- **Punctuation Handling**: Removed punctuation before audio generation
+  - Prevents comma/pause detection from affecting similarity scores
+  - Cleaner transcription matching
+- **UI Improvements**:
+  - Normalized phonemes display changed from `st.code()` to `st.markdown()` for better mobile rendering
+  - Sidebar shows username, email, and logout button when authenticated
+  - Login/registration forms with validation
+
+### Fixed
+- Total Perfect statistic now uses correct `exact_match` key (was showing 0%)
+- Compare Phoneme Sounds buttons reference fixed (deferred for later testing)
+
+### Technical
+- Branch: `feature/multi-user-auth-v1.3.0`
+- Database: MariaDB 10.6.23 on miolingo.io:3306
+- New dependencies: `mysql-connector-python==9.4.0`, `argon2-cffi==25.1.0`
+- All credentials git-ignored via updated `.gitignore`
+
+---
+
 ## [1.2.1] - 2025-11-13
 
 ### Changed

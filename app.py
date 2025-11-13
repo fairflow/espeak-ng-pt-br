@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.2.1"
+__version__ = "1.3.0"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -101,6 +101,9 @@ import subprocess
 import tempfile
 import os
 
+# Import authentication module
+import app_mysql
+
 # Environment configuration
 IS_LOCAL_DEV = os.path.exists('./local/bin/run-espeak-ng')  # True if local eSpeak build exists
 
@@ -132,6 +135,125 @@ st.set_page_config(
     page_icon="🇧🇷",
     layout="wide",
 )
+
+
+# ============================================================================
+# AUTHENTICATION (Test Implementation for v1.3.0)
+# ============================================================================
+
+def show_login_page():
+    """Display login/registration page."""
+    st.title("🔐 Miolingo Login")
+    st.markdown("**Multi-language pronunciation trainer** - Practice Portuguese, French, Dutch & Flemish!")
+    
+    tab1, tab2 = st.tabs(["Login", "Register"])
+    
+    with tab1:
+        st.subheader("Login to Your Account")
+        
+        with st.form("login_form"):
+            username = st.text_input("Username")
+            password = st.text_input("Password", type="password")
+            submit = st.form_submit_button("Login")
+            
+            if submit:
+                if not username or not password:
+                    st.error("❌ Please enter both username and password")
+                else:
+                    # Authenticate user
+                    user = app_mysql.authenticate_user(username, password)
+                    
+                    if user:
+                        # Create session
+                        session_id = app_mysql.create_session(user['user_id'], "127.0.0.1")
+                        
+                        if session_id:
+                            # Store in session state
+                            st.session_state['authenticated'] = True
+                            st.session_state['user'] = user
+                            st.session_state['session_id'] = session_id
+                            st.success(f"✅ Welcome back, {user['username']}!")
+                            st.rerun()
+                        else:
+                            st.error("❌ Failed to create session. Please try again.")
+                    else:
+                        st.error("❌ Invalid username or password")
+    
+    with tab2:
+        st.subheader("Create New Account")
+        
+        with st.form("register_form"):
+            new_username = st.text_input("Choose Username", help="3-20 characters, letters/numbers only")
+            new_email = st.text_input("Email Address")
+            new_password = st.text_input("Choose Password", type="password", help="Min 8 characters")
+            new_password_confirm = st.text_input("Confirm Password", type="password")
+            submit_register = st.form_submit_button("Create Account")
+            
+            if submit_register:
+                # Validation
+                if not all([new_username, new_email, new_password, new_password_confirm]):
+                    st.error("❌ Please fill in all fields")
+                elif new_password != new_password_confirm:
+                    st.error("❌ Passwords do not match")
+                elif len(new_password) < 8:
+                    st.error("❌ Password must be at least 8 characters")
+                elif len(new_username) < 3 or len(new_username) > 20:
+                    st.error("❌ Username must be 3-20 characters")
+                else:
+                    # Create user
+                    user_id = app_mysql.create_user(new_username, new_email, new_password)
+                    
+                    if user_id:
+                        st.success(f"✅ Account created! Welcome, {new_username}!")
+                        st.info("👆 Please login with your new account in the Login tab")
+                    # Errors are handled in app_mysql.create_user()
+
+
+def check_authentication():
+    """
+    Check if user is authenticated. If not, show login page and stop.
+    This runs at the start of every app load.
+    """
+    # Initialize session state
+    if 'authenticated' not in st.session_state:
+        st.session_state['authenticated'] = False
+    
+    # Check if authenticated
+    if not st.session_state['authenticated']:
+        show_login_page()
+        st.stop()
+    
+    # Validate session (optional security check)
+    if 'session_id' in st.session_state:
+        user = app_mysql.validate_session(st.session_state['session_id'], "127.0.0.1")
+        if not user:
+            # Session expired or invalid
+            st.warning("⚠️ Your session has expired. Please login again.")
+            st.session_state['authenticated'] = False
+            st.rerun()
+
+
+# Check authentication BEFORE loading the app
+check_authentication()
+
+# If we get here, user is authenticated! Show logout button in sidebar
+with st.sidebar:
+    st.markdown("---")
+    st.markdown(f"👤 **{st.session_state['user']['username']}**")
+    st.markdown(f"📧 {st.session_state['user']['email']}")
+    
+    if st.button("🚪 Logout"):
+        # Delete session
+        if 'session_id' in st.session_state:
+            app_mysql.delete_session(st.session_state['session_id'])
+        
+        # Clear session state
+        st.session_state.clear()
+        st.rerun()
+
+# ============================================================================
+# END AUTHENTICATION - Main app starts below
+# ============================================================================
 
 
 def load_settings():
@@ -398,12 +520,16 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
     Returns:
         (audio_bytes, format) where format is 'audio/mp3', 'audio/wav', or 'audio/x-wav'
     """
+    # Remove punctuation to avoid comma/pause detection affecting scores
+    import string
+    text_no_punct = text.translate(str.maketrans('', '', string.punctuation))
+    
     tts_engine = settings.get('tts_engine', 'gtts')
     
     if tts_engine == 'espeak':
         # Use eSpeak with speed and pitch control
         return speak_text(
-            text,
+            text_no_punct,
             voice=settings.get('voice', 'pt-br'),
             speed=settings.get('speed', 140),
             pitch=settings.get('pitch', 35)
@@ -411,7 +537,7 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
     else:
         # Use Google TTS (default, high quality)
         return speak_text_gtts(
-            text,
+            text_no_punct,
             lang=settings.get('voice', 'pt-br'),
             use_wav=settings.get('use_wav_audio', False),
             slow=settings.get('gtts_slow', False)
@@ -769,6 +895,23 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
         })
         st.session_state.session_saved = False
         st.session_state.last_result = result
+        
+        # Save to database immediately
+        if st.session_state.get('authenticated', False):
+            try:
+                user_id = st.session_state['user']['user_id']
+                app_mysql.save_practice(
+                    user_id=user_id,
+                    language_code=st.session_state.language,
+                    target_phrase=result['target'],
+                    recognized_phrase=result['recognized'],
+                    similarity_score=result['similarity'],
+                    perfect_match=result['exact_match'],
+                    target_phonemes=result['correct_ipa'],
+                    user_phonemes=result['user_ipa']
+                )
+            except Exception as e:
+                st.warning(f"⚠️ Could not save to database: {e}")
         
         return result
         
@@ -1413,11 +1556,11 @@ def main():
                     with col_a:
                         # Use IPA (not eIPA) for user-friendly display
                         correct_ipa_normalized = result.get('correct_ipa', '').replace(" ", "")
-                        st.code(correct_ipa_normalized, language=None)
+                        st.markdown(f"`{correct_ipa_normalized}`")
                         st.caption(f"Target ({len(correct_ipa_normalized)} chars)")
                     with col_b:
                         user_ipa_normalized = result.get('user_ipa', '').replace(" ", "")
-                        st.code(user_ipa_normalized, language=None)
+                        st.markdown(f"`{user_ipa_normalized}`")
                         st.caption(f"Your Pronunciation ({len(user_ipa_normalized)} chars)")
                     
                     # Visual comparison
@@ -1473,20 +1616,20 @@ def main():
                     st.audio(audio_bytes, format=audio_format)
             
             # Optional: Hear eSpeak phoneme pronunciation (local development only)
-            if IS_LOCAL_DEV and not result["exact_match"]:
+            if IS_LOCAL_DEV and st.session_state.last_result and not st.session_state.last_result["exact_match"]:
                 st.markdown("---")
                 st.subheader("Compare Phoneme Sounds (eSpeak)")
                 st.caption("🔧 Development feature - requires local audio device")
                 col1, col2 = st.columns(2)
                 with col1:
                     if st.button("🔊 Correct Phonemes", key="phoneme_correct"):
-                        speak_text(result['target'], 
+                        speak_text(st.session_state.last_result['target'], 
                                  voice=st.session_state.settings['voice'],
                                  speed=st.session_state.settings['speed'],
                                  pitch=st.session_state.settings['pitch'])
                 with col2:
                     if st.button("🔊 Your Phonemes", key="phoneme_yours"):
-                        speak_text(result['recognized'],
+                        speak_text(st.session_state.last_result['recognized'],
                                  voice=st.session_state.settings['voice'],
                                  speed=st.session_state.settings['speed'],
                                  pitch=st.session_state.settings['pitch'])
@@ -1508,31 +1651,23 @@ def main():
             col2.metric("Perfect", f"{perfect} ({perfect/len(practices):.1%})")
             col3.metric("Avg Similarity", f"{avg_sim:.1%}")
         
-        # Overall stats
-        if st.session_state.history:
+        # Overall stats - from database for authenticated users
+        if st.session_state.get('authenticated', False):
             st.subheader("📈 All Time")
-            
-            total_practices = sum(len(s["practices"]) for s in st.session_state.history)
-            total_perfect = sum(
-                sum(1 for p in s["practices"] if p.get("match", False))
-                for s in st.session_state.history
-            )
-            
-            all_similarities = [
-                p["similarity"]
-                for s in st.session_state.history
-                for p in s["practices"]
-                if "similarity" in p
-            ]
-            
-            if all_similarities:
-                avg_all = sum(all_similarities) / len(all_similarities)
+            try:
+                user_id = st.session_state['user']['user_id']
+                stats = app_mysql.get_user_stats(user_id, st.session_state.language)
                 
-                col1, col2, col3, col4 = st.columns(4)
-                col1.metric("Total Practices", total_practices)
-                col2.metric("Total Perfect", f"{total_perfect} ({total_perfect/total_practices:.1%})")
-                col3.metric("Overall Avg", f"{avg_all:.1%}")
-                col4.metric("Sessions", len(st.session_state.history))
+                if stats and stats['total'] > 0:
+                    col1, col2, col3, col4 = st.columns(4)
+                    col1.metric("Total Practices", stats['total'])
+                    col2.metric("Total Perfect", f"{stats['perfect_count']} ({stats['perfect_count']/stats['total']:.1%})")
+                    col3.metric("Overall Avg", f"{stats['avg_score']:.1%}")
+                    col4.metric("Recent Avg (last 10)", f"{stats['recent_avg']:.1%}")
+                else:
+                    st.info("No practice history yet. Start practicing!")
+            except Exception as e:
+                st.error(f"Could not load stats: {e}")
         else:
             st.info("No practice history yet. Start practicing!")
     
