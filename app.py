@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.1.1"
+__version__ = "1.1.2"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -45,6 +45,8 @@ LANGUAGE_CONFIG = {
 }
 
 # Version History:
+# 1.1.2 (2025-11-13):
+#   - Further mobile UX improvements: smaller phrase heading (h4), info box moved below recording widget
 # 1.1.1 (2025-11-13):
 #   - Fix eSpeak TTS auto-play bug (use --stdout to capture audio bytes)
 #   - Fix mobile UX: smaller heading (h3), emoji inline, translation above phrase
@@ -1167,9 +1169,8 @@ def main():
                             st.caption("Compare with eSpeak IPA generated below")
                 
                 # Display phrase - mobile-friendly with emoji inline
-                st.markdown(f"### 🎯 **{current_phrase}**")
+                st.markdown(f"#### 🎯 **{current_phrase}**")
                 
-                st.caption("This phrase is automatically selected from your list. Click 'Edit' above to modify it.")
                 # Use this phrase for practice
                 text = current_phrase
             
@@ -1200,10 +1201,12 @@ def main():
             
             st.markdown("---")
             st.write("🎙️ **Now record your pronunciation:**")
-            st.info("💡 Wait for the recording icon to turn red before speaking. The app will automatically trim silence and enforce Portuguese language detection.")
             
             # Streamlit's built-in audio input with dynamic key
             audio_data = st.audio_input("Click to record", key=f"audio_input_{st.session_state.audio_input_key}")
+            
+            # Show recording tip after the recording widget (mobile-friendly)
+            st.info("💡 Wait for the recording icon to turn red before speaking. The app will automatically trim silence and enforce Portuguese language detection.")
             
             if audio_data:
                 st.write("▶️ **Your recording:**")
