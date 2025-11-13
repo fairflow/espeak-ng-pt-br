@@ -257,3 +257,4 @@ language_materials/fr/.DS_Store
 test_krystal_connection.py
 deploy_schema.py
 test_mysql_connection.py
+test_app_mysql.py
