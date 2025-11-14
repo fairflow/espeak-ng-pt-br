@@ -237,7 +237,7 @@ def check_authentication():
 # MAINTENANCE BANNER
 # Uncomment the line below to show a maintenance/reboot warning to all users
 # ========================================
-# st.warning("⚠️ **Maintenance Notice:** System will reboot in 10 minutes. Please save your current session!")
+st.warning("⚠️ **Maintenance Notice:** System will reboot in 5 minutes to fix audio issues. Please save your session. Apologies for the disruption!")
 
 # Check authentication BEFORE loading the app
 check_authentication()
@@ -519,13 +519,22 @@ def speak_text_gtts(text: str, lang: str = "pt-br", use_wav: bool = False, slow:
             return audio_bytes, 'audio/mp3'
 
 
-def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
+@st.cache_data(ttl=86400)  # Cache for 24 hours (shared across all users!)
+def generate_target_audio(text: str, tts_engine: str, voice: str, speed: int, pitch: int, use_wav: bool, slow: bool) -> tuple[bytes, str]:
     """
     Generate target pronunciation audio using the configured TTS engine
     
+    Cached for 24 hours and shared across all users. Once generated, same phrase
+    with same settings is reused for everyone.
+    
     Args:
         text: Text to speak
-        settings: User settings dict containing tts_engine, voice, speed, pitch, use_wav_audio
+        tts_engine: 'gtts' or 'espeak'
+        voice: Voice/language code
+        speed: eSpeak speed
+        pitch: eSpeak pitch
+        use_wav: Convert to WAV format
+        slow: gTTS slow mode
         
     Returns:
         (audio_bytes, format) where format is 'audio/mp3', 'audio/wav', or 'audio/x-wav'
@@ -534,33 +543,31 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
     import string
     text_no_punct = text.translate(str.maketrans('', '', string.punctuation))
     
-    tts_engine = settings.get('tts_engine', 'gtts')
-    
     if tts_engine == 'espeak':
         # Use eSpeak with speed and pitch control
         return speak_text(
             text_no_punct,
-            voice=settings.get('voice', 'pt-br'),
-            speed=settings.get('speed', 140),
-            pitch=settings.get('pitch', 35)
+            voice=voice,
+            speed=speed,
+            pitch=pitch
         )
     else:
         # Use Google TTS (default, high quality)
         try:
             return speak_text_gtts(
                 text_no_punct,
-                lang=settings.get('voice', 'pt-br'),
-                use_wav=settings.get('use_wav_audio', False),
-                slow=settings.get('gtts_slow', False)
+                lang=voice,
+                use_wav=use_wav,
+                slow=slow
             )
         except Exception as e:
             # gTTS failed (rate limit, network issue, etc.) - fall back to eSpeak
             st.warning(f"⚠️ Google TTS unavailable, using eSpeak NG instead. ({str(e)[:100]})")
             return speak_text(
                 text_no_punct,
-                voice=settings.get('voice', 'pt-br'),
-                speed=settings.get('speed', 140),
-                pitch=settings.get('pitch', 35)
+                voice=voice,
+                speed=speed,
+                pitch=pitch
             )
 
 
@@ -1468,7 +1475,16 @@ def main():
             # Show target audio directly - one click to play
             st.write("🎯 **Target pronunciation:**")
             with st.spinner("Generating audio..."):
-                audio_bytes, audio_format = generate_target_audio(text, st.session_state.settings)
+                settings = st.session_state.settings
+                audio_bytes, audio_format = generate_target_audio(
+                    text,
+                    settings.get('tts_engine', 'gtts'),
+                    settings.get('voice', 'pt-br'),
+                    settings.get('speed', 140),
+                    settings.get('pitch', 35),
+                    settings.get('use_wav_audio', False),
+                    settings.get('gtts_slow', False)
+                )
                 st.audio(audio_bytes, format=audio_format, autoplay=False)
             
             st.write("🎙️ **Now record your pronunciation:**")
