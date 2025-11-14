@@ -260,3 +260,5 @@ test_mysql_connection.py
 test_app_mysql.py
 query_all_data.py
 query_test_user.py
+test_ssh_tunnel.py
+test_ssh_simple.py
