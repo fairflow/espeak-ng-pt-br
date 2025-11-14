@@ -237,7 +237,7 @@ def check_authentication():
 # MAINTENANCE BANNER
 # Uncomment the line below to show a maintenance/reboot warning to all users
 # ========================================
-st.warning("⚠️ **Maintenance Notice:** System will reboot in 10 minutes. Please save your current session!")
+# st.warning("⚠️ **Maintenance Notice:** System will reboot in 10 minutes. Please save your current session!")
 
 # Check authentication BEFORE loading the app
 check_authentication()
