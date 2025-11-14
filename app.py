@@ -460,10 +460,14 @@ def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 4
         return b'', 'audio/wav'
 
 
+@st.cache_data(ttl=86400)  # Cache for 24 hours (shared across all users!)
 def speak_text_gtts(text: str, lang: str = "pt-br", use_wav: bool = False, slow: bool = False) -> tuple[bytes, str]:
     """
     Generate speech using Google TTS (higher quality than eSpeak)
     Returns tuple of (audio_bytes, format) for playback in Streamlit
+    
+    Cached for 24 hours and shared across all users to minimize API calls.
+    Once a phrase is generated, it's reused for everyone.
     
     Args:
         text: Text to speak
