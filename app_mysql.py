@@ -70,13 +70,30 @@ def get_ssh_tunnel() -> SSHTunnelForwarder:
     """
     if "ssh_tunnel" not in st.session_state:
         try:
+            import paramiko
+            from io import StringIO
+            
             # Ensure port is integer
             ssh_port = int(st.secrets["ssh"]["port"])
             
             # Handle SSH key - either from file path or direct content
             if "key_content" in st.secrets["ssh"]:
-                # Streamlit Cloud: use key content directly
-                ssh_key = st.secrets["ssh"]["key_content"]
+                # Streamlit Cloud: parse key content into paramiko key object
+                key_content = st.secrets["ssh"]["key_content"]
+                key_file = StringIO(key_content)
+                
+                # Try different key types
+                ssh_key = None
+                for key_class in (paramiko.Ed25519Key, paramiko.RSAKey, paramiko.ECDSAKey):
+                    try:
+                        key_file.seek(0)
+                        ssh_key = key_class.from_private_key(key_file)
+                        break
+                    except Exception:
+                        continue
+                
+                if ssh_key is None:
+                    raise ValueError("Could not parse SSH key - unsupported key type")
             else:
                 # Local development: use key file path
                 ssh_key_path = Path(st.secrets["ssh"]["key_path"]).expanduser().resolve()
