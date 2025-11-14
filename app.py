@@ -484,17 +484,17 @@ def speak_text_google_cloud(text: str, lang: str = "pt-BR", use_wav: bool = Fals
     """
     try:
         from google.cloud import texttospeech
+        import json
         
-        # Check if API key exists in secrets
+        # Create credentials from API key in secrets
         api_key = st.secrets.get("google_cloud_tts_api_key", None)
         if not api_key:
             raise ValueError("google_cloud_tts_api_key not found in secrets")
         
-        # Note: Google Cloud TTS client library doesn't support API key auth directly
-        # API keys work via REST API, but the client library requires service account
-        # For now, we'll skip this and fall back to gTTS
-        # TODO: Implement service account authentication (see GitHub issue #6)
-        raise NotImplementedError("Google Cloud TTS requires service account credentials")
+        # Initialize client with API key
+        client = texttospeech.TextToSpeechClient(
+            client_options={"api_key": api_key}
+        )
         
         # Map language codes to voice names
         voice_map = {
