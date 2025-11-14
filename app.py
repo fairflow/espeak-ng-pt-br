@@ -235,9 +235,13 @@ def check_authentication():
 
 # ========================================
 # MAINTENANCE BANNER
-# Uncomment the line below to show a maintenance/reboot warning to all users
+# When activating: Set BANNER_START_TIME to current time, banner shows time+5 minutes
+# Remember to deactivate after maintenance by commenting out the st.warning line!
 # ========================================
-st.warning("⚠️ **Maintenance Notice:** System will reboot in 5 minutes to fix audio issues. Please save your session. Apologies for the disruption!")
+# from datetime import datetime, timedelta
+# BANNER_START_TIME = datetime(2025, 11, 14, 10, 30)  # Set to when you activate the banner
+# reboot_time = BANNER_START_TIME + timedelta(minutes=5)
+# st.warning(f"⚠️ **Maintenance Notice:** System will reboot at {reboot_time.strftime('%H:%M')} to fix audio issues. Please save your session. Apologies for the disruption!")
 
 # Check authentication BEFORE loading the app
 check_authentication()
