@@ -1635,13 +1635,15 @@ def main():
             result = st.session_state.last_result
             
             # Play celebration sounds based on score
+            import streamlit.components.v1 as components
+            
             if result["exact_match"]:
                 st.success("🎉 PERFECT MATCH! Well done!")
-                # Play perfect match bell sound
-                st.markdown("""
+                # Play perfect match bell sound (C major triad)
+                components.html("""
                 <script>
                 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-                // Perfect match: clear bell-like tone (C major triad: C5-E5-G5)
+                // Perfect match: clear bell-like tone (C5-E5-G5)
                 [523.25, 659.25, 783.99].forEach((freq, i) => {
                     const oscillator = audioContext.createOscillator();
                     const gainNode = audioContext.createGain();
@@ -1655,11 +1657,11 @@ def main():
                     oscillator.stop(audioContext.currentTime + i * 0.15 + 0.6);
                 });
                 </script>
-                """, unsafe_allow_html=True)
+                """, height=0)
             elif result['similarity'] >= 0.90:
                 # High score but not perfect: gentle encouraging sound
                 st.success(f"✨ Excellent! {result['similarity']:.1%} - Almost perfect!")
-                st.markdown("""
+                components.html("""
                 <script>
                 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
                 // Gentle "well done" sound: soft ascending notes (A4-C5)
@@ -1676,7 +1678,7 @@ def main():
                     oscillator.stop(audioContext.currentTime + i * 0.12 + 0.4);
                 });
                 </script>
-                """, unsafe_allow_html=True)
+                """, height=0)
             else:
                 score_col1, score_col2 = st.columns([2, 1])
                 with score_col1:
@@ -1868,11 +1870,11 @@ def main():
             for i, session in enumerate(reversed(st.session_state.history[-10:]), 1):
                 date = session["date"][:10]
                 count = len(session["practices"])
-                perfect = sum(1 for p in session["practices"] if p.get("match", False))
+                perfect = sum(1 for p in session["practices"] if p.get("exact_match", False))
                 
                 with st.expander(f"{date} - {count} practices ({perfect} perfect)"):
                     for j, practice in enumerate(session["practices"], 1):
-                        status = "✅" if practice.get("match", False) else f"📊 {practice.get('similarity', 0):.1%}"
+                        status = "✅" if practice.get("exact_match", False) else f"📊 {practice.get('similarity', 0):.1%}"
                         
                         st.markdown(f"**{j}. {status}**")
                         col1, col2 = st.columns(2)
