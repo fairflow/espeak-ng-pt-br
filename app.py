@@ -467,78 +467,80 @@ def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 4
 @st.cache_data(ttl=86400)  # Cache for 24 hours (shared across all users!)
 def speak_text_google_cloud(text: str, lang: str = "pt-BR", use_wav: bool = False, speaking_rate: float = 1.0) -> tuple[bytes, str]:
     """
-    Generate speech using Google Cloud Text-to-Speech API (official, high quality)
+    Generate speech using Google Cloud Text-to-Speech REST API with API key auth
     Returns tuple of (audio_bytes, format) for playback in Streamlit
     
     Cached for 24 hours and shared across all users to minimize API calls.
     Requires GOOGLE_CLOUD_TTS_API_KEY in Streamlit secrets.
     
+    Uses REST API instead of client library because API key auth is simpler
+    and doesn't require service account JSON credentials.
+    
     Args:
         text: Text to speak
         lang: Language code (pt-BR, fr-FR, nl-NL, etc.)
-        use_wav: If True, return as WAV format
+        use_wav: If True, return as WAV format (LINEAR16)
         speaking_rate: Speech speed (0.25 to 4.0, default 1.0)
         
     Returns:
         (audio_bytes, format) where format is 'audio/mp3' or 'audio/wav'
     """
-    try:
-        from google.cloud import texttospeech
-        import json
-        
-        # Create credentials from API key in secrets
-        api_key = st.secrets.get("google_cloud_tts_api_key", None)
-        if not api_key:
-            raise ValueError("google_cloud_tts_api_key not found in secrets")
-        
-        # Initialize client with API key
-        client = texttospeech.TextToSpeechClient(
-            client_options={"api_key": api_key}
-        )
-        
-        # Map language codes to voice names
-        voice_map = {
-            "pt-BR": "pt-BR-Standard-A",  # Female Brazilian Portuguese
-            "pt-PT": "pt-PT-Standard-A",  # Female European Portuguese
-            "fr-FR": "fr-FR-Standard-A",  # Female French
-            "nl-NL": "nl-NL-Standard-A",  # Female Dutch
-            "nl-BE": "nl-BE-Standard-A",  # Female Flemish
+    import requests
+    import json
+    import base64
+    
+    # Get API key from secrets
+    api_key = st.secrets.get("google_cloud_tts_api_key", None)
+    if not api_key:
+        raise ValueError("google_cloud_tts_api_key not found in secrets")
+    
+    # Map language codes to voice names
+    voice_map = {
+        "pt-BR": "pt-BR-Standard-A",  # Female Brazilian Portuguese
+        "pt-PT": "pt-PT-Standard-A",  # Female European Portuguese
+        "fr-FR": "fr-FR-Standard-A",  # Female French
+        "nl-NL": "nl-NL-Standard-A",  # Female Dutch
+        "nl-BE": "nl-BE-Standard-A",  # Female Flemish
+    }
+    
+    voice_name = voice_map.get(lang, "pt-BR-Standard-A")
+    audio_encoding = "LINEAR16" if use_wav else "MP3"
+    
+    # Build the REST API request
+    url = "https://texttospeech.googleapis.com/v1/text:synthesize"
+    headers = {
+        "X-goog-api-key": api_key,
+        "Content-Type": "application/json; charset=utf-8"
+    }
+    
+    payload = {
+        "input": {"text": text},
+        "voice": {
+            "languageCode": lang[:5],  # pt-BR, fr-FR, etc.
+            "name": voice_name
+        },
+        "audioConfig": {
+            "audioEncoding": audio_encoding,
+            "speakingRate": speaking_rate
         }
-        
-        voice_name = voice_map.get(lang, "pt-BR-Standard-A")
-        
-        # Set the text input
-        synthesis_input = texttospeech.SynthesisInput(text=text)
-        
-        # Build the voice request
-        voice = texttospeech.VoiceSelectionParams(
-            language_code=lang[:5],  # pt-BR, fr-FR, etc.
-            name=voice_name
-        )
-        
-        # Select audio format
-        audio_format = texttospeech.AudioEncoding.LINEAR16 if use_wav else texttospeech.AudioEncoding.MP3
-        
-        # Configure audio
-        audio_config = texttospeech.AudioConfig(
-            audio_encoding=audio_format,
-            speaking_rate=speaking_rate
-        )
-        
-        # Perform the TTS request
-        response = client.synthesize_speech(
-            input=synthesis_input,
-            voice=voice,
-            audio_config=audio_config
-        )
-        
-        # Return audio bytes and format
-        format_str = 'audio/wav' if use_wav else 'audio/mp3'
-        return response.audio_content, format_str
-        
-    except Exception as e:
-        st.warning(f"⚠️ Google Cloud TTS failed: {str(e)[:100]}")
-        raise
+    }
+    
+    # Make the API request
+    response = requests.post(url, headers=headers, json=payload)
+    
+    if response.status_code != 200:
+        error_msg = f"Google Cloud TTS API error {response.status_code}: {response.text[:200]}"
+        st.warning(f"⚠️ {error_msg}")
+        raise Exception(error_msg)
+    
+    # Extract audio content from response (it's base64 encoded)
+    response_data = response.json()
+    audio_content_base64 = response_data.get("audioContent", "")
+    audio_bytes = base64.b64decode(audio_content_base64)
+    
+    # Return audio bytes and format
+    format_str = 'audio/wav' if use_wav else 'audio/mp3'
+    return audio_bytes, format_str
 
 
 @st.cache_data(ttl=86400)  # Cache for 24 hours (shared across all users!)
