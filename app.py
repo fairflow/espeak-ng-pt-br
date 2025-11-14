@@ -461,6 +461,83 @@ def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 4
 
 
 @st.cache_data(ttl=86400)  # Cache for 24 hours (shared across all users!)
+def speak_text_google_cloud(text: str, lang: str = "pt-BR", use_wav: bool = False, speaking_rate: float = 1.0) -> tuple[bytes, str]:
+    """
+    Generate speech using Google Cloud Text-to-Speech API (official, high quality)
+    Returns tuple of (audio_bytes, format) for playback in Streamlit
+    
+    Cached for 24 hours and shared across all users to minimize API calls.
+    Requires GOOGLE_CLOUD_TTS_API_KEY in Streamlit secrets.
+    
+    Args:
+        text: Text to speak
+        lang: Language code (pt-BR, fr-FR, nl-NL, etc.)
+        use_wav: If True, return as WAV format
+        speaking_rate: Speech speed (0.25 to 4.0, default 1.0)
+        
+    Returns:
+        (audio_bytes, format) where format is 'audio/mp3' or 'audio/wav'
+    """
+    try:
+        from google.cloud import texttospeech
+        import json
+        
+        # Create credentials from API key in secrets
+        api_key = st.secrets.get("google_cloud_tts_api_key", None)
+        if not api_key:
+            raise ValueError("google_cloud_tts_api_key not found in secrets")
+        
+        # Initialize client with API key
+        client = texttospeech.TextToSpeechClient(
+            client_options={"api_key": api_key}
+        )
+        
+        # Map language codes to voice names
+        voice_map = {
+            "pt-BR": "pt-BR-Standard-A",  # Female Brazilian Portuguese
+            "pt-PT": "pt-PT-Standard-A",  # Female European Portuguese
+            "fr-FR": "fr-FR-Standard-A",  # Female French
+            "nl-NL": "nl-NL-Standard-A",  # Female Dutch
+            "nl-BE": "nl-BE-Standard-A",  # Female Flemish
+        }
+        
+        voice_name = voice_map.get(lang, "pt-BR-Standard-A")
+        
+        # Set the text input
+        synthesis_input = texttospeech.SynthesisInput(text=text)
+        
+        # Build the voice request
+        voice = texttospeech.VoiceSelectionParams(
+            language_code=lang[:5],  # pt-BR, fr-FR, etc.
+            name=voice_name
+        )
+        
+        # Select audio format
+        audio_format = texttospeech.AudioEncoding.LINEAR16 if use_wav else texttospeech.AudioEncoding.MP3
+        
+        # Configure audio
+        audio_config = texttospeech.AudioConfig(
+            audio_encoding=audio_format,
+            speaking_rate=speaking_rate
+        )
+        
+        # Perform the TTS request
+        response = client.synthesize_speech(
+            input=synthesis_input,
+            voice=voice,
+            audio_config=audio_config
+        )
+        
+        # Return audio bytes and format
+        format_str = 'audio/wav' if use_wav else 'audio/mp3'
+        return response.audio_content, format_str
+        
+    except Exception as e:
+        st.warning(f"⚠️ Google Cloud TTS failed: {str(e)[:100]}")
+        raise
+
+
+@st.cache_data(ttl=86400)  # Cache for 24 hours (shared across all users!)
 def speak_text_gtts(text: str, lang: str = "pt-br", use_wav: bool = False, slow: bool = False) -> tuple[bytes, str]:
     """
     Generate speech using Google TTS (higher quality than eSpeak)
@@ -534,7 +611,7 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
     import string
     text_no_punct = text.translate(str.maketrans('', '', string.punctuation))
     
-    tts_engine = settings.get('tts_engine', 'gtts')
+    tts_engine = settings.get('tts_engine', 'google_cloud')  # Default to Google Cloud TTS
     
     if tts_engine == 'espeak':
         # Use eSpeak with speed and pitch control
@@ -544,8 +621,47 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
             speed=settings.get('speed', 140),
             pitch=settings.get('pitch', 35)
         )
+    elif tts_engine == 'google_cloud':
+        # Use Google Cloud TTS (official API, best quality)
+        try:
+            # Map voice codes to Google Cloud language codes
+            voice_map = {
+                'pt-br': 'pt-BR',
+                'pt': 'pt-PT',
+                'fr': 'fr-FR',
+                'fr-fr': 'fr-FR',
+                'nl': 'nl-NL',
+                'nl-be': 'nl-BE'
+            }
+            cloud_lang = voice_map.get(settings.get('voice', 'pt-br'), 'pt-BR')
+            
+            return speak_text_google_cloud(
+                text_no_punct,
+                lang=cloud_lang,
+                use_wav=settings.get('use_wav_audio', False),
+                speaking_rate=1.0 if not settings.get('gtts_slow', False) else 0.75
+            )
+        except Exception as e:
+            # Google Cloud TTS failed - try gTTS as fallback
+            st.warning(f"⚠️ Google Cloud TTS unavailable, trying gTTS... ({str(e)[:80]})")
+            try:
+                return speak_text_gtts(
+                    text_no_punct,
+                    lang=settings.get('voice', 'pt-br'),
+                    use_wav=settings.get('use_wav_audio', False),
+                    slow=settings.get('gtts_slow', False)
+                )
+            except Exception as e2:
+                # Both Google options failed - fall back to eSpeak
+                st.warning("⚠️ All Google TTS options failed, using eSpeak NG")
+                return speak_text(
+                    text_no_punct,
+                    voice=settings.get('voice', 'pt-br'),
+                    speed=settings.get('speed', 140),
+                    pitch=settings.get('pitch', 35)
+                )
     else:
-        # Use Google TTS (default, high quality)
+        # Use gTTS (unofficial Google TTS, rate limited)
         try:
             return speak_text_gtts(
                 text_no_punct,
