@@ -542,12 +542,22 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
         )
     else:
         # Use Google TTS (default, high quality)
-        return speak_text_gtts(
-            text_no_punct,
-            lang=settings.get('voice', 'pt-br'),
-            use_wav=settings.get('use_wav_audio', False),
-            slow=settings.get('gtts_slow', False)
-        )
+        try:
+            return speak_text_gtts(
+                text_no_punct,
+                lang=settings.get('voice', 'pt-br'),
+                use_wav=settings.get('use_wav_audio', False),
+                slow=settings.get('gtts_slow', False)
+            )
+        except Exception as e:
+            # gTTS failed (rate limit, network issue, etc.) - fall back to eSpeak
+            st.warning(f"⚠️ Google TTS unavailable, using eSpeak NG instead. ({str(e)[:100]})")
+            return speak_text(
+                text_no_punct,
+                voice=settings.get('voice', 'pt-br'),
+                speed=settings.get('speed', 140),
+                pitch=settings.get('pitch', 35)
+            )
 
 
 def transcribe_audio_whisper(audio_file: str, model, language_code: str = "pt"):
