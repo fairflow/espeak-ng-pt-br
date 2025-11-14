@@ -519,22 +519,13 @@ def speak_text_gtts(text: str, lang: str = "pt-br", use_wav: bool = False, slow:
             return audio_bytes, 'audio/mp3'
 
 
-@st.cache_data(ttl=86400)  # Cache for 24 hours (shared across all users!)
-def generate_target_audio(text: str, tts_engine: str, voice: str, speed: int, pitch: int, use_wav: bool, slow: bool) -> tuple[bytes, str]:
+def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
     """
     Generate target pronunciation audio using the configured TTS engine
     
-    Cached for 24 hours and shared across all users. Once generated, same phrase
-    with same settings is reused for everyone.
-    
     Args:
         text: Text to speak
-        tts_engine: 'gtts' or 'espeak'
-        voice: Voice/language code
-        speed: eSpeak speed
-        pitch: eSpeak pitch
-        use_wav: Convert to WAV format
-        slow: gTTS slow mode
+        settings: User settings dict containing tts_engine, voice, speed, pitch, use_wav_audio
         
     Returns:
         (audio_bytes, format) where format is 'audio/mp3', 'audio/wav', or 'audio/x-wav'
@@ -543,31 +534,33 @@ def generate_target_audio(text: str, tts_engine: str, voice: str, speed: int, pi
     import string
     text_no_punct = text.translate(str.maketrans('', '', string.punctuation))
     
+    tts_engine = settings.get('tts_engine', 'gtts')
+    
     if tts_engine == 'espeak':
         # Use eSpeak with speed and pitch control
         return speak_text(
             text_no_punct,
-            voice=voice,
-            speed=speed,
-            pitch=pitch
+            voice=settings.get('voice', 'pt-br'),
+            speed=settings.get('speed', 140),
+            pitch=settings.get('pitch', 35)
         )
     else:
         # Use Google TTS (default, high quality)
         try:
             return speak_text_gtts(
                 text_no_punct,
-                lang=voice,
-                use_wav=use_wav,
-                slow=slow
+                lang=settings.get('voice', 'pt-br'),
+                use_wav=settings.get('use_wav_audio', False),
+                slow=settings.get('gtts_slow', False)
             )
         except Exception as e:
             # gTTS failed (rate limit, network issue, etc.) - fall back to eSpeak
             st.warning(f"⚠️ Google TTS unavailable, using eSpeak NG instead. ({str(e)[:100]})")
             return speak_text(
                 text_no_punct,
-                voice=voice,
-                speed=speed,
-                pitch=pitch
+                voice=settings.get('voice', 'pt-br'),
+                speed=settings.get('speed', 140),
+                pitch=settings.get('pitch', 35)
             )
 
 
