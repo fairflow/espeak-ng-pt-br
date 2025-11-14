@@ -1590,15 +1590,9 @@ def main():
             # Show target audio directly - one click to play
             st.write("🎯 **Target pronunciation:**")
             with st.spinner("Generating audio..."):
-                settings = st.session_state.settings
                 audio_bytes, audio_format = generate_target_audio(
                     text,
-                    settings.get('tts_engine', 'gtts'),
-                    settings.get('voice', 'pt-br'),
-                    settings.get('speed', 140),
-                    settings.get('pitch', 35),
-                    settings.get('use_wav_audio', False),
-                    settings.get('gtts_slow', False)
+                    st.session_state.settings
                 )
                 st.audio(audio_bytes, format=audio_format, autoplay=False)
             
@@ -1640,8 +1634,49 @@ def main():
             st.header("Results")
             result = st.session_state.last_result
             
+            # Play celebration sounds based on score
             if result["exact_match"]:
                 st.success("🎉 PERFECT MATCH! Well done!")
+                # Play perfect match bell sound
+                st.markdown("""
+                <script>
+                const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                // Perfect match: clear bell-like tone (C major triad: C5-E5-G5)
+                [523.25, 659.25, 783.99].forEach((freq, i) => {
+                    const oscillator = audioContext.createOscillator();
+                    const gainNode = audioContext.createGain();
+                    oscillator.connect(gainNode);
+                    gainNode.connect(audioContext.destination);
+                    oscillator.frequency.value = freq;
+                    oscillator.type = 'sine';
+                    gainNode.gain.setValueAtTime(0.3, audioContext.currentTime + i * 0.15);
+                    gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.15 + 0.6);
+                    oscillator.start(audioContext.currentTime + i * 0.15);
+                    oscillator.stop(audioContext.currentTime + i * 0.15 + 0.6);
+                });
+                </script>
+                """, unsafe_allow_html=True)
+            elif result['similarity'] >= 0.90:
+                # High score but not perfect: gentle encouraging sound
+                st.success(f"✨ Excellent! {result['similarity']:.1%} - Almost perfect!")
+                st.markdown("""
+                <script>
+                const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+                // Gentle "well done" sound: soft ascending notes (A4-C5)
+                [440, 493.88, 523.25].forEach((freq, i) => {
+                    const oscillator = audioContext.createOscillator();
+                    const gainNode = audioContext.createGain();
+                    oscillator.connect(gainNode);
+                    gainNode.connect(audioContext.destination);
+                    oscillator.frequency.value = freq;
+                    oscillator.type = 'sine';
+                    gainNode.gain.setValueAtTime(0.15, audioContext.currentTime + i * 0.12);
+                    gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.12 + 0.4);
+                    oscillator.start(audioContext.currentTime + i * 0.12);
+                    oscillator.stop(audioContext.currentTime + i * 0.12 + 0.4);
+                });
+                </script>
+                """, unsafe_allow_html=True)
             else:
                 score_col1, score_col2 = st.columns([2, 1])
                 with score_col1:
