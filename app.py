@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.4.2"
+__version__ = "1.4.3"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -1324,11 +1324,6 @@ def main():
         - Email: matthew@fairflow.co.uk
         - Discord: [Coming soon]
         """)
-        
-        # Version info
-        st.markdown("---")
-        st.caption(f"**{__app_name__}**")
-        st.caption(f"Version {__version__}")
         
         # CCS Testing Framework Controls
         if CCS_AVAILABLE:
