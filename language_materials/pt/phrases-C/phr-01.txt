@@ -1,24 +1,24 @@
 # Portuguese phrases - Level C
 # Common situations and useful sentences
-# Format: phrase | translation | [ipa]
+# Format: phrase | translation | [[ipa]]
 
-onde está o banheiro | where is the bathroom | ˌoŋdʒj estˌa ʊ bˌɐ̃ɲˈeɪɾʊ
-eu estou aprendendo português | i am learning portuguese | eʊ estˌow ˌapreɪŋdˈeɪŋdʊ pˌoɾətuɡˈes
-minha mãe está em casa | my mother is at home | mˌiɲæ mˈɐ̃j estˌa ˈeɪŋ kˈazæ
-o gato está dormindo | the cat is sleeping | ʊ ɡˈatw estˌa dˌoɾəmˈiŋdʊ
-onde fica o mercado | where is the market | ˌoŋdʒy fˈikæ ʊ mˌeɾəkˈadʊ
-eu preciso de ajuda | i need help | eʊ prˌesˈizʊ dʒj ˌaʒˈudæ
-pode me ajudar | can you help me | pˌɔdʒy mj ˌaʒudˈar
-estou com fome | i'm hungry | estˌow koŋ fˈomy
-estou com sede | i'm thirsty | estˌow koŋ sˈedʒy
-qual é o caminho | what's the way | kwˈaʊ ɛ ʊ kˌæmˈiɲʊ
-vou para o trabalho | i'm going to work | vow pˌaɾæ ʊ trˌabˈaljʊ
-volto amanhã | i'll be back tomorrow | vˈɔltw ˌæmɐ̃ɲˈɐ̃
-foi muito bom | it was very good | foɪ mwˈiŋtʊ bˈoŋ
-que legal | that's cool | ky leɡˈaʊ
-que bom | that's good | ky bˈoŋ
-como assim | what do you mean | kˌomʊ asˈiŋ
-tem certeza | are you sure | teɪŋ sˌeɾətˈezæ
-sem problema | no problem | sˈeɪŋ prˌoblˈemæ
-tudo certo | all good | tˈudʊ sˈɛɾətʊ
-vamos ver | let's see | vˌɐ̃mʊz vˈer
+onde está o banheiro | where is the bathroom | [ˌoŋdʒj estˌa ʊ bˌɐ̃ɲˈeɪɾʊ]
+eu estou aprendendo português | i am learning portuguese | [eʊ estˌow ˌapreɪŋdˈeɪŋdʊ pˌoɾətuɡˈes]
+minha mãe está em casa | my mother is at home | [mˌiɲæ mˈɐ̃j estˌa ˈeɪŋ kˈazæ]
+o gato está dormindo | the cat is sleeping | [ʊ ɡˈatw estˌa dˌoɾəmˈiŋdʊ]
+onde fica o mercado | where is the market | [ˌoŋdʒy fˈikæ ʊ mˌeɾəkˈadʊ]
+eu preciso de ajuda | i need help | [eʊ prˌesˈizʊ dʒj ˌaʒˈudæ]
+pode me ajudar | can you help me | [pˌɔdʒy mj ˌaʒudˈar]
+estou com fome | i'm hungry | [estˌow koŋ fˈomy]
+estou com sede | i'm thirsty | [estˌow koŋ sˈedʒy]
+qual é o caminho | what's the way | [kwˈaʊ ɛ ʊ kˌæmˈiɲʊ]
+vou para o trabalho | i'm going to work | [vow pˌaɾæ ʊ trˌabˈaljʊ]
+volto amanhã | i'll be back tomorrow | [vˈɔltw ˌæmɐ̃ɲˈɐ̃]
+foi muito bom | it was very good | [foɪ mwˈiŋtʊ bˈoŋ]
+que legal | that's cool | [ky leɡˈaʊ]
+que bom | that's good | [ky bˈoŋ]
+como assim | what do you mean | [kˌomʊ asˈiŋ]
+tem certeza | are you sure | [teɪŋ sˌeɾətˈezæ]
+sem problema | no problem | [sˈeɪŋ prˌoblˈemæ]
+tudo certo | all good | [tˈudʊ sˈɛɾətʊ]
+vamos ver | let's see | [vˌɐ̃mʊz vˈer]

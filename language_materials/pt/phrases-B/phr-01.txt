@@ -1,26 +1,26 @@
 # Portuguese phrases - Level B
 # Everyday expressions and questions
-# Format: phrase | translation | [ipa]
+# Format: phrase | translation | [[ipa]]
 
-como você se chama | what's your name | kˌomʊ vosˌe sy ʃˈɐ̃mæ
-meu nome é | my name is | meʊ nˈomj ɛ
-prazer em conhecer | nice to meet you | prazˈeɾ ˈeɪŋ kˌoɲesˈer
-você fala inglês | do you speak english | vosˌe fˈalæ iŋɡlˈes
-eu falo um pouco | i speak a little | eʊ fˈalw ũŋ pˈowkʊ
-onde fica | where is | ˌoŋdʒy fˈikæ
-quanto custa | how much does it cost | kwˈɐ̃ŋtʊ kˈustæ
-eu gosto de | i like | eʊ ɡˈɔstʊ dʒy
-eu quero | i want | eʊ kˈɛɾʊ
-posso ter | can i have | pˈɔsʊ ter
-não sei | i don't know | nˌɐ̃ʊ̃ sˈeɪ
-não entendo | i don't understand | nˌɐ̃ʊ̃ ˌeɪŋtˈeɪŋdʊ
-pode repetir | can you repeat | pˌɔdʒy xˌepetʃˈir
-mais devagar | slower | mˈaɪz dˌevaɡˈar
-que horas são | what time is it | ky ˈɔɾæs sɐ̃ʊ̃
-hoje | today | ˈoʒy
-amanhã | tomorrow | ˌæmɐ̃ɲˈɐ̃
-ontem | yesterday | ˈoŋteɪŋ
-agora | now | ˌaɡˈɔɾæ
-depois | later | depˈoɪs
-sempre | always | sˈeɪmpry
-nunca | never | nˈũŋkæ
+como você se chama | what's your name | [kˌomʊ vosˌe sy ʃˈɐ̃mæ]
+meu nome é | my name is | [meʊ nˈomj ɛ]
+prazer em conhecer | nice to meet you | [prazˈeɾ ˈeɪŋ kˌoɲesˈer]
+você fala inglês | do you speak english | [vosˌe fˈalæ iŋɡlˈes]
+eu falo um pouco | i speak a little | [eʊ fˈalw ũŋ pˈowkʊ]
+onde fica | where is | [ˌoŋdʒy fˈikæ]
+quanto custa | how much does it cost | [kwˈɐ̃ŋtʊ kˈustæ]
+eu gosto de | i like | [eʊ ɡˈɔstʊ dʒy]
+eu quero | i want | [eʊ kˈɛɾʊ]
+posso ter | can i have | [pˈɔsʊ ter]
+não sei | i don't know | [nˌɐ̃ʊ̃ sˈeɪ]
+não entendo | i don't understand | [nˌɐ̃ʊ̃ ˌeɪŋtˈeɪŋdʊ]
+pode repetir | can you repeat | [pˌɔdʒy xˌepetʃˈir]
+mais devagar | slower | [mˈaɪz dˌevaɡˈar]
+que horas são | what time is it | [ky ˈɔɾæs sɐ̃ʊ̃]
+hoje | today | [ˈoʒy]
+amanhã | tomorrow | [ˌæmɐ̃ɲˈɐ̃]
+ontem | yesterday | [ˈoŋteɪŋ]
+agora | now | [ˌaɡˈɔɾæ]
+depois | later | [depˈoɪs]
+sempre | always | [sˈeɪmpry]
+nunca | never | [nˈũŋkæ]

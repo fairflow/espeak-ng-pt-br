@@ -1,24 +1,24 @@
 # Portuguese phrases - Level A
 # Basic greetings and common phrases
-# Format: phrase | translation | [ipa]
+# Format: phrase | translation | [[ipa]]
 
-olá | hello | olˈa
-bom dia | good morning | bˈoŋ dʒˈiæ
-boa tarde | good afternoon | bˈoæ tˈaɾədʒy
-boa noite | good night | bˈoæ nˈoɪtʃy
-tchau | bye | tʃˈaʊ
-até logo | see you later | atˌɛ lˈɔɡʊ
-até amanhã | see you tomorrow | atˌɛ ˌæmɐ̃ɲˈɐ̃
-obrigado | thank you (m) | ˌobriɡˈadʊ
-obrigada | thank you (f) | ˌobriɡˈadæ
-por favor | please | por favˈor
-com licença | excuse me | koŋ lˌisˈeɪŋsæ
-desculpa | sorry | dˌeskˈuwpæ
-tudo bem | everything okay / how are you | tˈudʊ bˈeɪŋ
-muito bem | very good | mwˈiŋtʊ bˈeɪŋ
-de nada | you're welcome | dʒy nˈadæ
-sim | yes | sˈiŋ
-não | no | nˈɐ̃ʊ̃
-claro | of course | klˈaɾʊ
-talvez | maybe | taʊvˈes
-com certeza | certainly | koŋ sˌeɾətˈezæ
+olá | hello | [olˈa]
+bom dia | good morning | [bˈoŋ dʒˈiæ]
+boa tarde | good afternoon | [bˈoæ tˈaɾədʒy]
+boa noite | good night | [bˈoæ nˈoɪtʃy]
+tchau | bye | [tʃˈaʊ]
+até logo | see you later | [atˌɛ lˈɔɡʊ]
+até amanhã | see you tomorrow | [atˌɛ ˌæmɐ̃ɲˈɐ̃]
+obrigado | thank you (m) | [ˌobriɡˈadʊ]
+obrigada | thank you (f) | [ˌobriɡˈadæ]
+por favor | please | [por favˈor]
+com licença | excuse me | [koŋ lˌisˈeɪŋsæ]
+desculpa | sorry | [dˌeskˈuwpæ]
+tudo bem | everything okay / how are you | [tˈudʊ bˈeɪŋ]
+muito bem | very good | [mwˈiŋtʊ bˈeɪŋ]
+de nada | you're welcome | [dʒy nˈadæ]
+sim | yes | [sˈiŋ]
+não | no | [nˈɐ̃ʊ̃]
+claro | of course | [klˈaɾʊ]
+talvez | maybe | [taʊvˈes]
+com certeza | certainly | [koŋ sˌeɾətˈezæ]
