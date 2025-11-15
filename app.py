@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.3.1"
+__version__ = "1.3.5"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -241,19 +241,9 @@ def check_authentication():
 # When activating: Set BANNER_START_TIME to current time, banner shows time+5 minutes
 # Remember to deactivate after maintenance by commenting out the st.warning line!
 # ========================================
-from datetime import datetime, timedelta
-BANNER_START_TIME = datetime(2025, 11, 15, 11, 0)  # Set to when you activate the banner
-st.warning("⚠️ **Miolingo is currently undergoing maintenance and repair.** Your patience is appreciated. We expect to be back up within 24 hours.")
-
-# DEBUG: Show what secrets are available (REMOVE AFTER DEBUGGING)
-st.sidebar.markdown("---")
-st.sidebar.markdown("**🔍 Debug: Available Secrets**")
-available_keys = list(st.secrets.keys())
-st.sidebar.write(f"Keys: {available_keys}")
-st.sidebar.write(f"Has google_cloud_tts_api_key: {'google_cloud_tts_api_key' in available_keys}")
-if "google_cloud_tts_api_key" in available_keys:
-    st.sidebar.write(f"Value starts with: {st.secrets['google_cloud_tts_api_key'][:10]}...")
-st.sidebar.markdown("---")
+# from datetime import datetime, timedelta
+# BANNER_START_TIME = datetime(2025, 11, 15, 11, 0)  # Set to when you activate the banner
+st.success("✅ **Miolingo is back online!** Audio has been upgraded to Google Cloud TTS for higher quality. Thank you for your patience!")
 
 # Check authentication BEFORE loading the app
 check_authentication()
