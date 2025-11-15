@@ -2,23 +2,23 @@
 # Food, everyday items, and activities
 # Format: phrase | translation | [ipa]
 
-eu gosto de café | i like coffee | [ipa]
-água com gás | sparkling water | [ipa]
-água sem gás | still water | [ipa]
-a comida está deliciosa | the food is delicious | [ipa]
-pode trazer a conta | can you bring the bill | [ipa]
-aceita cartão de crédito | do you accept credit card | [ipa]
-vou comer pão com manteiga | i'll eat bread with butter | [ipa]
-gostaria de um café com leite | i would like a coffee with milk | [ipa]
-onde posso comprar | where can i buy | [ipa]
-está muito caro | it's too expensive | [ipa]
-tem desconto | is there a discount | [ipa]
-vou à praia no fim de semana | i'm going to the beach on the weekend | [ipa]
-o tempo está muito bom | the weather is very good | [ipa]
-está fazendo calor | it's hot | [ipa]
-está fazendo frio | it's cold | [ipa]
-preciso ir embora | i need to leave | [ipa]
-até mais tarde | see you later | [ipa]
-tenha um bom dia | have a good day | [ipa]
-boa viagem | have a good trip | [ipa]
-feliz aniversário | happy birthday | [ipa]
+eu gosto de café | i like coffee | eʊ ɡˈɔstʊ dʒy kafˈɛ
+água com gás | sparkling water | ˈaɡwæ koŋ ɡˈas
+água sem gás | still water | ˈaɡwæ sˈeɪŋ ɡˈas
+a comida está deliciosa | the food is delicious | a kˌomˈidæ estˌa dˌelisiˈɔzæ
+pode trazer a conta | can you bring the bill | pˌɔdʒy trazˈeɾ a kˈoŋtæ
+aceita cartão de crédito | do you accept credit card | ˌasˈeɪtæ kaɾətˈɐ̃ʊ̃ dʒy krˈɛdʒitʊ
+vou comer pão com manteiga | i'll eat bread with butter | vow komˈer pˈɐ̃ʊ̃ koŋ mˌɐ̃ŋtˈeɪɡæ
+gostaria de um café com leite | i would like a coffee with milk | ɡˌostaɾˈiæ dʒj ũŋ kafˈɛ koŋ lˈeɪtʃy
+onde posso comprar | where can i buy | ˌoŋdʒy pˌɔsʊ komprˈar
+está muito caro | it's too expensive | estˌa mwˈiŋtʊ kˈaɾʊ
+tem desconto | is there a discount | teɪŋ dˌeskˈoŋtʊ
+vou à praia no fim de semana | i'm going to the beach on the weekend | vow ˌaː prˈaɪæ nʊ fˈiŋ dʒy sˌemˈɐ̃næ
+o tempo está muito bom | the weather is very good | ʊ tˈeɪmpw estˌa mwˈiŋtʊ bˈoŋ
+está fazendo calor | it's hot | estˌa fˌazˈeɪŋdʊ kalˈor
+está fazendo frio | it's cold | estˌa fˌazˈeɪŋdʊ frˈiʊ
+preciso ir embora | i need to leave | prˌesˈizw ˈiɾ ˌeɪmbˈɔɾæ
+até mais tarde | see you later | atˌɛ mˈaɪs tˈaɾədʒy
+tenha um bom dia | have a good day | tˈeɲæ ũŋ bˈoŋ dʒˈiæ
+boa viagem | have a good trip | bˈoæ vˌiˈaʒeɪŋ
+feliz aniversário | happy birthday | felˈiz ˌæniveɾəsˈaɾjʊ
