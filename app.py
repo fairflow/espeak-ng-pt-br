@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.4.0"
+__version__ = "1.4.2"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
