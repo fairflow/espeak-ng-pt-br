@@ -241,10 +241,9 @@ def check_authentication():
 # When activating: Set BANNER_START_TIME to current time, banner shows time+5 minutes
 # Remember to deactivate after maintenance by commenting out the st.warning line!
 # ========================================
-# from datetime import datetime, timedelta
-# BANNER_START_TIME = datetime(2025, 11, 14, 10, 30)  # Set to when you activate the banner
-# reboot_time = BANNER_START_TIME + timedelta(minutes=5)
-# st.warning(f"⚠️ **Maintenance Notice:** System will reboot at {reboot_time.strftime('%H:%M')} to fix audio issues. Please save your session. Apologies for the disruption!")
+from datetime import datetime, timedelta
+BANNER_START_TIME = datetime(2025, 11, 15, 11, 0)  # Set to when you activate the banner
+st.warning("⚠️ **Miolingo is currently undergoing maintenance and repair.** Your patience is appreciated. We expect to be back up within 24 hours.")
 
 # Check authentication BEFORE loading the app
 check_authentication()
