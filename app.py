@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.3.5"
+__version__ = "1.4.0"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -1149,6 +1149,10 @@ def main():
     
     # Sidebar - Settings and Navigation
     with st.sidebar:
+        # Version display at top
+        st.markdown(f"### 🎯 Miolingo v{__version__}")
+        st.markdown("---")
+        
         st.header("⚙️ Settings")
         
         # Language selection
