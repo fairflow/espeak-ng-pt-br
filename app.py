@@ -280,7 +280,7 @@ def load_settings():
         "whisper_model_size": "base",  # tiny, base, small, medium, large
         "silence_threshold": 0.01,  # Energy threshold for silence detection (0.001-0.1)
         "use_wav_audio": False,  # Convert TTS audio to WAV for iOS Safari compatibility
-        "tts_engine": "gtts",  # "gtts" (Google TTS, high quality) or "espeak" (adjustable speed/pitch)
+        "tts_engine": "google_cloud",  # "google_cloud" (official API, best), "gtts" (unofficial, rate limited), or "espeak"
         "gtts_slow": False,  # Enable slow speech for Google TTS (when tts_engine='gtts')
     }
     
@@ -1131,11 +1131,19 @@ def main():
         # TTS Engine selection
         st.markdown("**🔊 Text-to-Speech Engine**")
         
+        # Map current setting to dropdown index
+        current_engine = st.session_state.settings.get('tts_engine', 'google_cloud')
+        engine_options = ["google_cloud", "gtts", "espeak"]
+        try:
+            current_index = engine_options.index(current_engine)
+        except ValueError:
+            current_index = 0  # Default to google_cloud if unknown
+        
         st.session_state.settings['tts_engine'] = st.selectbox(
             "TTS Engine",
-            ["gtts", "espeak"],
-            index=0 if st.session_state.settings.get('tts_engine', 'gtts') == 'gtts' else 1,
-            help="gtts: Google TTS (high quality, limited speed control)\nespeak: eSpeak (adjustable speed/pitch, robotic voice)"
+            engine_options,
+            index=current_index,
+            help="google_cloud: Official Google Cloud TTS (best quality, requires API key)\ngtts: Unofficial Google TTS (rate limited)\nespeak: eSpeak (adjustable speed/pitch, robotic voice)"
         )
         
         tts_is_espeak = st.session_state.settings.get('tts_engine', 'gtts') == 'espeak'
