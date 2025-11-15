@@ -492,8 +492,9 @@ def speak_text_google_cloud(text: str, lang: str = "pt-BR", use_wav: bool = Fals
     import base64
     
     # Get API key from secrets
-    api_key = st.secrets.get("google_cloud_tts_api_key", None)
-    if not api_key:
+    try:
+        api_key = st.secrets["google_cloud_tts_api_key"]
+    except KeyError:
         raise ValueError("google_cloud_tts_api_key not found in secrets")
     
     # Map language codes to voice names
