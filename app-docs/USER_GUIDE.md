@@ -438,7 +438,7 @@ Below the results, you can:
 
 We'd love to hear from you!
 
-**Email:** matthew@fairflow.co.uk
+**Email:** io@miolingo.io
 
 **Discord:** [Link will be added soon]
 

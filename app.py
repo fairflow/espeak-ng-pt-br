@@ -1321,7 +1321,7 @@ def main():
         - [All Documentation](https://github.com/fairflow/espeak-ng-pt-br/tree/main/app-docs)
         
         **💬 Support:**
-        - Email: matthew@fairflow.co.uk
+        - Email: io@miolingo.io
         - Discord: [Coming soon]
         """)
         

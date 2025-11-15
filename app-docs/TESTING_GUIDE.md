@@ -166,7 +166,7 @@ Copy this template and fill it out:
 
 ### Where to Send Bug Reports
 
-**Email**: matthew@fairflow.co.uk
+**Email**: io@miolingo.io
 
 **Discord**: [Link will be added soon for community testing]
 
