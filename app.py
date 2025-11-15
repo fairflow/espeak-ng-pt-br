@@ -1659,7 +1659,7 @@ def main():
             audio_data = st.audio_input("Click to record", key=f"audio_input_{st.session_state.audio_input_key}")
             
             # Show recording tip after the recording widget (mobile-friendly)
-            language_name = st.session_state.settings.get('language', 'Portuguese')
+            language_name = st.session_state.language
             st.info(f"💡 Wait for the recording icon to turn red before speaking. The app will automatically trim silence and enforce {language_name} language detection.")
             
             if audio_data:
@@ -1691,13 +1691,22 @@ def main():
             st.header("Results")
             result = st.session_state.last_result
             
-            # Play celebration sounds based on score
+            # Play celebration sounds based on score (only once per result)
             import streamlit.components.v1 as components
+            
+            # Track if sound has been played for this result
+            result_id = f"{result.get('target', '')}_{result.get('recognized', '')}_{result.get('similarity', 0)}"
+            if 'last_sound_played' not in st.session_state:
+                st.session_state.last_sound_played = None
+            
+            should_play_sound = st.session_state.last_sound_played != result_id
             
             if result["exact_match"]:
                 st.success("🎉 PERFECT MATCH! Well done!")
                 # Play perfect match bell sound (C major triad)
-                components.html("""
+                if should_play_sound:
+                    st.session_state.last_sound_played = result_id
+                    components.html("""
                 <script>
                 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
                 // Perfect match: clear bell-like tone (C5-E5-G5)
@@ -1718,7 +1727,9 @@ def main():
             elif result['similarity'] >= 0.90:
                 # High score but not perfect: gentle encouraging sound
                 st.success(f"✨ Excellent! {result['similarity']:.1%} - Almost perfect!")
-                components.html("""
+                if should_play_sound:
+                    st.session_state.last_sound_played = result_id
+                    components.html("""
                 <script>
                 const audioContext = new (window.AudioContext || window.webkitAudioContext)();
                 // Gentle "well done" sound: soft ascending notes (A4-C5)
