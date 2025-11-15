@@ -20,6 +20,7 @@ LANGUAGE_CONFIG = {
         "whisper_code": "pt",
         "display_name": "Portuguese Pronunciation Trainer",
         "voices": {
+            "google_cloud": ["pt-br", "pt"],
             "gtts": ["pt-br", "pt"],
             "espeak": ["pt-br", "pt"]
         }
@@ -29,6 +30,7 @@ LANGUAGE_CONFIG = {
         "whisper_code": "nl",
         "display_name": "Dutch/Flemish Pronunciation Trainer",
         "voices": {
+            "google_cloud": ["nl", "nl-be"],
             "gtts": ["nl"],
             "espeak": ["nl"]
         }
@@ -38,6 +40,7 @@ LANGUAGE_CONFIG = {
         "whisper_code": "fr",
         "display_name": "French Pronunciation Trainer",
         "voices": {
+            "google_cloud": ["fr", "fr-fr"],
             "gtts": ["fr"],
             "espeak": ["fr-fr"]
         }
