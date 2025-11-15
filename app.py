@@ -245,6 +245,16 @@ from datetime import datetime, timedelta
 BANNER_START_TIME = datetime(2025, 11, 15, 11, 0)  # Set to when you activate the banner
 st.warning("⚠️ **Miolingo is currently undergoing maintenance and repair.** Your patience is appreciated. We expect to be back up within 24 hours.")
 
+# DEBUG: Show what secrets are available (REMOVE AFTER DEBUGGING)
+st.sidebar.markdown("---")
+st.sidebar.markdown("**🔍 Debug: Available Secrets**")
+available_keys = list(st.secrets.keys())
+st.sidebar.write(f"Keys: {available_keys}")
+st.sidebar.write(f"Has google_cloud_tts_api_key: {'google_cloud_tts_api_key' in available_keys}")
+if "google_cloud_tts_api_key" in available_keys:
+    st.sidebar.write(f"Value starts with: {st.secrets['google_cloud_tts_api_key'][:10]}...")
+st.sidebar.markdown("---")
+
 # Check authentication BEFORE loading the app
 check_authentication()
 
