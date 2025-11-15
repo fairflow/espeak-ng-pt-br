@@ -107,6 +107,14 @@ import os
 # Import authentication module
 import app_mysql
 
+# Import API usage logger for cost tracking
+try:
+    from api_usage_logger import log_api_call
+except ImportError:
+    # Fallback if logger not available (no-op function)
+    def log_api_call(*args, **kwargs):
+        pass
+
 # Environment configuration
 IS_LOCAL_DEV = os.path.exists('./local/bin/run-espeak-ng')  # True if local eSpeak build exists
 
@@ -460,6 +468,17 @@ def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 4
             text
         ], capture_output=True, check=True)
         
+        # Log API call (eSpeak is free/local but good to track usage)
+        log_api_call(
+            api_type="espeak",
+            text=text,
+            language=voice,
+            char_count=len(text),
+            audio_bytes=len(result.stdout),
+            success=True,
+            cached=False
+        )
+        
         return result.stdout, 'audio/wav'
     except (subprocess.CalledProcessError, FileNotFoundError):
         # Return empty audio if espeak not available
@@ -541,6 +560,17 @@ def speak_text_google_cloud(text: str, lang: str = "pt-BR", use_wav: bool = Fals
     audio_content_base64 = response_data.get("audioContent", "")
     audio_bytes = base64.b64decode(audio_content_base64)
     
+    # Log API call for cost tracking
+    log_api_call(
+        api_type="google_cloud_tts",
+        text=text,
+        language=lang,
+        char_count=len(text),
+        audio_bytes=len(audio_bytes),
+        success=True,
+        cached=False  # This runs before cache check
+    )
+    
     # Return audio bytes and format
     format_str = 'audio/wav' if use_wav else 'audio/mp3'
     return audio_bytes, format_str
@@ -602,6 +632,18 @@ def speak_text_gtts(text: str, lang: str = "pt-br", use_wav: bool = False, slow:
             with open(mp3_path, 'rb') as audio_file:
                 audio_bytes = audio_file.read()
             Path(mp3_path).unlink()  # Clean up temp file
+            
+            # Log API call for cost tracking
+            log_api_call(
+                api_type="gtts",
+                text=text,
+                language=lang,
+                char_count=len(text),
+                audio_bytes=len(audio_bytes),
+                success=True,
+                cached=False
+            )
+            
             return audio_bytes, 'audio/mp3'
 
 
