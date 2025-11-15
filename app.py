@@ -1566,23 +1566,27 @@ def main():
                     # Keep result when navigating
                     st.rerun()
             with col3:
-                # DISABLED: Dropdown for jumping with phrase preview
-                # This causes a critical async bug where the phrase shown during recording
-                # is different from the phrase used for comparison when Check Pronunciation
-                # is clicked. The selectbox triggers state updates at unpredictable times,
-                # creating race conditions. May investigate Streamlit workarounds later.
-                # 
-                # jump_to = st.selectbox(
-                #     "Jump to phrase:",
-                #     options=range(total_phrases),
-                #     index=current_idx,
-                #     format_func=lambda i: f"{i+1}. {st.session_state.phrase_list[i][:40]}{'...' if len(st.session_state.phrase_list[i]) > 40 else ''}",
-                #     key="phrase_jump_select"
-                # )
-                # if jump_to != current_idx:
-                #     st.session_state.current_phrase_index = jump_to
-                #     st.rerun()
-                st.write("")  # Spacer for button alignment
+                # Dropdown for jumping with phrase preview
+                # Disabled in edit mode to prevent async bugs where the phrase shown
+                # during recording differs from the phrase used for comparison
+                def format_phrase(i):
+                    phrase_obj = st.session_state.phrase_list[i]
+                    phrase_text = phrase_obj['text'] if isinstance(phrase_obj, dict) else phrase_obj
+                    preview = f"{i+1}. {phrase_text[:40]}{'...' if len(phrase_text) > 40 else ''}"
+                    return preview
+                
+                jump_to = st.selectbox(
+                    "Jump to phrase:",
+                    options=range(total_phrases),
+                    index=current_idx,
+                    format_func=format_phrase,
+                    key="phrase_jump_select",
+                    disabled=in_edit_mode,
+                    help="Phrase navigation disabled in edit mode" if in_edit_mode else "Jump directly to any phrase"
+                )
+                if jump_to != current_idx and not in_edit_mode:
+                    st.session_state.current_phrase_index = jump_to
+                    st.rerun()
             with col4:
                 # Edit button - disabled when in edit mode
                 if 'edit_mode' not in st.session_state:
