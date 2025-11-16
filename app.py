@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.6.0"
+__version__ = "1.6.1"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -1584,27 +1584,32 @@ def main():
                     # Keep result when navigating
                     st.rerun()
             with col3:
-                # Dropdown for jumping with phrase preview
-                # Disabled in edit mode to prevent async bugs where the phrase shown
-                # during recording differs from the phrase used for comparison
-                def format_phrase(i):
-                    phrase_obj = st.session_state.phrase_list[i]
-                    phrase_text = phrase_obj['text'] if isinstance(phrase_obj, dict) else phrase_obj
-                    preview = f"{i+1}. {phrase_text[:40]}{'...' if len(phrase_text) > 40 else ''}"
-                    return preview
-                
-                jump_to = st.selectbox(
-                    "Jump to phrase:",
-                    options=range(total_phrases),
-                    index=current_idx,
-                    format_func=format_phrase,
-                    key="phrase_jump_select",
-                    disabled=in_edit_mode,
-                    help="Phrase navigation disabled in edit mode" if in_edit_mode else "Jump directly to any phrase"
-                )
-                if jump_to != current_idx and not in_edit_mode:
-                    st.session_state.current_phrase_index = jump_to
-                    st.rerun()
+                # Dropdown DISABLED - causes state management issues with recordings
+                # Users reported that dropdown changes during recording workflow cause:
+                # - Target phrase to revert unexpectedly
+                # - Check Recording button to disappear
+                # - Remove Recording button to disappear
+                # Use Previous/Next buttons for navigation instead
+                st.caption("🚧 Phrase dropdown temporarily disabled - use ⬅️ Previous / Next ➡️ buttons")
+                # Keep this for reference when we fix state management:
+                # def format_phrase(i):
+                #     phrase_obj = st.session_state.phrase_list[i]
+                #     phrase_text = phrase_obj['text'] if isinstance(phrase_obj, dict) else phrase_obj
+                #     preview = f"{i+1}. {phrase_text[:40]}{'...' if len(phrase_text) > 40 else ''}"
+                #     return preview
+                # 
+                # jump_to = st.selectbox(
+                #     "Jump to phrase:",
+                #     options=range(total_phrases),
+                #     index=current_idx,
+                #     format_func=format_phrase,
+                #     key="phrase_jump_select",
+                #     disabled=in_edit_mode,
+                #     help="Phrase navigation disabled in edit mode" if in_edit_mode else "Jump directly to any phrase"
+                # )
+                # if jump_to != current_idx and not in_edit_mode:
+                #     st.session_state.current_phrase_index = jump_to
+                #     st.rerun()
             with col4:
                 # Edit button - disabled when in edit mode
                 if 'edit_mode' not in st.session_state:
@@ -1688,7 +1693,8 @@ def main():
                 st.write("▶️ **Your recording:**")
                 st.audio(audio_data, format='audio/wav')
                 
-                col1, col2 = st.columns([1, 3])
+                # Always show both buttons when recording exists - critical for UX
+                col1, col2 = st.columns([1, 1])
                 with col1:
                     if st.button("✅ Check Pronunciation", key="submit_btn", type="primary"):
                         with st.spinner("Processing..."):
@@ -1699,7 +1705,9 @@ def main():
                             )
                 
                 with col2:
-                    if st.button("🔄 Clear Recording", key="clear_btn"):
+                    # CRITICAL: Always show Remove Recording button when audio exists
+                    # This was disappearing and blocking user progress
+                    if st.button("🗑️ Remove Recording", key="clear_btn"):
                         # Clear the recording, results, and force widget reset
                         st.session_state.last_result = None
                         st.session_state.audio_input_key += 1  # Change key to reset widget
