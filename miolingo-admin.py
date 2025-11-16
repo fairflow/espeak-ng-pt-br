@@ -3,7 +3,8 @@
 Miolingo Admin Dashboard
 
 Local admin interface for monitoring resource usage, users, and logs.
-Run with: streamlit run miolingo-admin.py
+Run with: streamlit run miolingo-admin.py --server.port 8505 --server.headless=true
+Then open: http://localhost:8505
 """
 
 import streamlit as st
@@ -195,7 +196,8 @@ with tab2:
             
             # Get currently logged-in users (active sessions)
             cursor.execute("""
-                SELECT u.username, u.email, s.created_at as login_time, s.ip_address
+                SELECT u.username, u.email, s.created_at as login_time, s.expires_at, s.ip_address,
+                       TIMESTAMPDIFF(HOUR, NOW(), s.expires_at) as hours_until_expire
                 FROM sessions s
                 JOIN users u ON s.user_id = u.user_id
                 WHERE s.expires_at > NOW()
@@ -217,23 +219,46 @@ with tab2:
             with col3:
                 st.metric("Expired Sessions", expired_count, delta="⚠️" if expired_count > 0 else None)
             
-            # Cleanup button for expired sessions
-            if expired_count > 0:
-                if st.button("🧹 Clean Up Expired Sessions", type="secondary"):
-                    try:
-                        from app_mysql import cleanup_expired_sessions
-                        deleted = cleanup_expired_sessions()
-                        st.success(f"✅ Removed {deleted} expired sessions")
-                        st.rerun()
-                    except Exception as e:
-                        st.error(f"❌ Cleanup failed: {e}")
+            # Cleanup buttons
+            col_btn1, col_btn2 = st.columns(2)
+            
+            with col_btn1:
+                if expired_count > 0:
+                    if st.button("🧹 Clean Up Expired Sessions", type="secondary"):
+                        try:
+                            from app_mysql import cleanup_expired_sessions
+                            deleted = cleanup_expired_sessions()
+                            st.success(f"✅ Removed {deleted} expired sessions")
+                            st.rerun()
+                        except Exception as e:
+                            st.error(f"❌ Cleanup failed: {e}")
+            
+            with col_btn2:
+                if len(active_sessions) > 0:
+                    with st.popover("⚠️ Force Logout All Users"):
+                        st.warning("This will immediately log out ALL users (including you on production)!")
+                        if st.button("⚠️ Confirm Force Logout All", type="primary"):
+                            try:
+                                conn_del = get_db_connection()[0]
+                                cursor_del = conn_del.cursor()
+                                cursor_del.execute("DELETE FROM sessions")
+                                deleted = cursor_del.rowcount
+                                conn_del.commit()
+                                cursor_del.close()
+                                st.success(f"✅ Logged out all users ({deleted} sessions removed)")
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"❌ Force logout failed: {e}")
             
             if active_sessions:
                 st.subheader("🟢 Currently Logged In Users")
                 df_active = pd.DataFrame(active_sessions)
                 df_active['login_time'] = pd.to_datetime(df_active['login_time'])
+                df_active['expires_at'] = pd.to_datetime(df_active['expires_at'])
+                # Convert hours to int
+                df_active['hours_until_expire'] = df_active['hours_until_expire'].astype(int)
                 st.dataframe(df_active, use_container_width=True, hide_index=True)
-                st.caption("💡 Active sessions expire after 24 hours of inactivity. Sessions are removed on logout or expiration.")
+                st.caption("💡 Active sessions expire 24 hours after login. Sessions are removed on logout or cleanup.")
             else:
                 st.info("No users currently logged in")
             
