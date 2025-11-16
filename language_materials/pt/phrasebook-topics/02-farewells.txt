@@ -1,0 +1,10 @@
+# Portuguese Phrasebook - Farewells
+# Level distribution: A
+# Format: portuguese | english | [ipa]
+
+Até amanhã | See you tomorrow | [atˌɛ ˌæmɐ̃ɲˈɐ̃]
+Até logo | See you soon | [atˌɛ lˈɔɡʊ]
+Boa noite | Good night | [bˈoæ nˈoɪtʃy]
+Boa tarde | Have a good evening | [bˈoæ tˈaɾədʒy]
+Bom dia | Have a good day | [bˈoŋ dʒˈiæ]
+Tchau | Goodbye | [tʃˈaʊ]

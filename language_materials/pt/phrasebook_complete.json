@@ -1,0 +1,838 @@
+{
+  "metadata": {
+    "source": "Translated from French phrasebook using AI assistance",
+    "organization": "by situation/context",
+    "levels": {
+      "A": "Beginner - basic greetings, simple questions",
+      "B": "Elementary - common situations, basic conversations",
+      "C": "Intermediate - complex situations, nuanced expressions",
+      "D": "Advanced - idiomatic, literary, formal"
+    }
+  },
+  "phrases": [
+    {
+      "portuguese": "Oi",
+      "situation": "greetings",
+      "level": "A",
+      "id": 1,
+      "english": "Hello",
+      "ipa": "ˈoɪ"
+    },
+    {
+      "portuguese": "Boa tarde",
+      "situation": "greetings",
+      "level": "A",
+      "id": 2,
+      "english": "Good evening",
+      "ipa": "bˈoæ tˈaɾədʒy"
+    },
+    {
+      "portuguese": "Oi",
+      "situation": "greetings",
+      "level": "A",
+      "id": 3,
+      "english": "Hi",
+      "ipa": "ˈoɪ"
+    },
+    {
+      "portuguese": "Tchau",
+      "situation": "farewells",
+      "level": "A",
+      "id": 4,
+      "english": "Goodbye",
+      "ipa": "tʃˈaʊ"
+    },
+    {
+      "portuguese": "Até logo",
+      "situation": "farewells",
+      "level": "A",
+      "id": 5,
+      "english": "See you soon",
+      "ipa": "atˌɛ lˈɔɡʊ"
+    },
+    {
+      "portuguese": "Até amanhã",
+      "situation": "farewells",
+      "level": "A",
+      "id": 6,
+      "english": "See you tomorrow",
+      "ipa": "atˌɛ ˌæmɐ̃ɲˈɐ̃"
+    },
+    {
+      "portuguese": "Bom dia",
+      "situation": "farewells",
+      "level": "A",
+      "id": 7,
+      "english": "Have a good day",
+      "ipa": "bˈoŋ dʒˈiæ"
+    },
+    {
+      "portuguese": "Boa tarde",
+      "situation": "farewells",
+      "level": "A",
+      "id": 8,
+      "english": "Have a good evening",
+      "ipa": "bˈoæ tˈaɾədʒy"
+    },
+    {
+      "portuguese": "Boa noite",
+      "situation": "farewells",
+      "level": "A",
+      "id": 9,
+      "english": "Good night",
+      "ipa": "bˈoæ nˈoɪtʃy"
+    },
+    {
+      "portuguese": "Obrigado",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 10,
+      "english": "Thank you",
+      "ipa": "ˌobriɡˈadʊ"
+    },
+    {
+      "portuguese": "Muito obrigado",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 11,
+      "english": "Thank you very much",
+      "ipa": "mwˈiŋtw ˌobriɡˈadʊ"
+    },
+    {
+      "portuguese": "De nada",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 12,
+      "english": "You're welcome",
+      "ipa": "dʒy nˈadæ"
+    },
+    {
+      "portuguese": "Por favor",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 13,
+      "english": "Please",
+      "ipa": "por favˈor"
+    },
+    {
+      "portuguese": "Por favor",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 14,
+      "english": "Please",
+      "ipa": "por favˈor"
+    },
+    {
+      "portuguese": "Com licença",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 15,
+      "english": "Excuse me",
+      "ipa": "koŋ lˌisˈeɪŋsæ"
+    },
+    {
+      "portuguese": "Perdão",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 16,
+      "english": "Pardon",
+      "ipa": "peɾədˈɐ̃ʊ̃"
+    },
+    {
+      "portuguese": "Desculpa",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 17,
+      "english": "Sorry",
+      "ipa": "dˌeskˈuwpæ"
+    },
+    {
+      "portuguese": "Sim",
+      "situation": "basics",
+      "level": "A",
+      "id": 18,
+      "english": "Yes",
+      "ipa": "sˈiŋ"
+    },
+    {
+      "portuguese": "Não",
+      "situation": "basics",
+      "level": "A",
+      "id": 19,
+      "english": "No",
+      "ipa": "nˈɐ̃ʊ̃"
+    },
+    {
+      "portuguese": "Como vai?",
+      "situation": "greetings",
+      "level": "A",
+      "id": 20,
+      "english": "How are you?",
+      "ipa": "kˌomʊ vˈaɪ"
+    },
+    {
+      "portuguese": "Como está?",
+      "situation": "greetings",
+      "level": "A",
+      "id": 21,
+      "english": "How are you?",
+      "ipa": "kˌomʊ estˈa"
+    },
+    {
+      "portuguese": "Tudo bem",
+      "situation": "greetings",
+      "level": "A",
+      "id": 22,
+      "english": "I'm fine",
+      "ipa": "tˈudʊ bˈeɪŋ"
+    },
+    {
+      "portuguese": "Tudo bem",
+      "situation": "greetings",
+      "level": "A",
+      "id": 23,
+      "english": "I'm doing well",
+      "ipa": "tˈudʊ bˈeɪŋ"
+    },
+    {
+      "portuguese": "Estou bem, obrigado",
+      "situation": "greetings",
+      "level": "A",
+      "id": 24,
+      "english": "I'm fine, thank you",
+      "ipa": "estˌow bˈeɪŋ  ˌobriɡˈadʊ"
+    },
+    {
+      "portuguese": "E você?",
+      "situation": "greetings",
+      "level": "A",
+      "id": 25,
+      "english": "And you?",
+      "ipa": "i vosˈe"
+    },
+    {
+      "portuguese": "Meu nome é...",
+      "situation": "introductions",
+      "level": "A",
+      "id": 26,
+      "english": "My name is...",
+      "ipa": "meʊ nˈomj ɛ"
+    },
+    {
+      "portuguese": "Como você se chama?",
+      "situation": "introductions",
+      "level": "A",
+      "id": 27,
+      "english": "What is your name?",
+      "ipa": "kˌomʊ vosˌe sy ʃˈɐ̃mæ"
+    },
+    {
+      "portuguese": "Prazer em conhecer",
+      "situation": "introductions",
+      "level": "A",
+      "id": 28,
+      "english": "Nice to meet you",
+      "ipa": "prazˈeɾ ˈeɪŋ kˌoɲesˈer"
+    },
+    {
+      "portuguese": "Prazer em conhecer",
+      "situation": "introductions",
+      "level": "A",
+      "id": 29,
+      "english": "Nice to meet you",
+      "ipa": "prazˈeɾ ˈeɪŋ kˌoɲesˈer"
+    },
+    {
+      "portuguese": "Prazer em conhecê-lo",
+      "situation": "introductions",
+      "level": "B",
+      "id": 30,
+      "english": "Pleased to meet you",
+      "ipa": "prazˈeɾ ˈeɪŋ kˌoɲesˈelʊ"
+    },
+    {
+      "portuguese": "De onde você é?",
+      "situation": "introductions",
+      "level": "A",
+      "id": 31,
+      "english": "Where are you from?",
+      "ipa": "dʒj ˌoŋdʒy vosˈe ɛ"
+    },
+    {
+      "portuguese": "Eu sou de...",
+      "situation": "introductions",
+      "level": "A",
+      "id": 32,
+      "english": "I come from...",
+      "ipa": "eʊ sow dʒˈy"
+    },
+    {
+      "portuguese": "Eu não entendo",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 33,
+      "english": "I don't understand",
+      "ipa": "eʊ nˌɐ̃ʊ̃ ˌeɪŋtˈeɪŋdʊ"
+    },
+    {
+      "portuguese": "Eu não falo português",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 34,
+      "english": "I don't speak French",
+      "ipa": "eʊ nˌɐ̃ʊ̃ fˈalʊ pˌoɾətuɡˈes"
+    },
+    {
+      "portuguese": "Eu falo um pouco de português",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 35,
+      "english": "I speak a little French",
+      "ipa": "eʊ fˈalw ũŋ pˈowkʊ dʒy pˌoɾətuɡˈes"
+    },
+    {
+      "portuguese": "Você fala inglês?",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 36,
+      "english": "Do you speak English?",
+      "ipa": "vosˌe fˈalæ iŋɡlˈes"
+    },
+    {
+      "portuguese": "Mais devagar, por favor",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 37,
+      "english": "Slower, please",
+      "ipa": "mˈaɪz dˌevaɡˈar  por favˈor"
+    },
+    {
+      "portuguese": "Pode repetir?",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 38,
+      "english": "Can you repeat?",
+      "ipa": "pˌɔdʒy xˌepetʃˈir"
+    },
+    {
+      "portuguese": "Como se diz... em português?",
+      "situation": "asking_for_help",
+      "level": "B",
+      "id": 39,
+      "english": "How do you say... in French?",
+      "ipa": "kˌomʊ sy dʒˈis  ˈeɪŋ pˌoɾətuɡˈes"
+    },
+    {
+      "portuguese": "O que isso quer dizer?",
+      "situation": "asking_for_help",
+      "level": "B",
+      "id": 40,
+      "english": "What does that mean?",
+      "ipa": "ʊ ky ˈisʊ kˈɛr dʒizˈer"
+    },
+    {
+      "portuguese": "Eu preciso de ajuda",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 41,
+      "english": "I need help",
+      "ipa": "eʊ prˌesˈizʊ dʒj ˌaʒˈudæ"
+    },
+    {
+      "portuguese": "Você pode me ajudar?",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 42,
+      "english": "Can you help me?",
+      "ipa": "vosˌe pˌɔdʒy mj ˌaʒudˈar"
+    },
+    {
+      "portuguese": "Onde fica...?",
+      "situation": "directions",
+      "level": "A",
+      "id": 43,
+      "english": "Where is...?",
+      "ipa": "ˌoŋdʒy fˈikæ"
+    },
+    {
+      "portuguese": "Onde fica...?",
+      "situation": "directions",
+      "level": "B",
+      "id": 44,
+      "english": "Where is...?",
+      "ipa": "ˌoŋdʒy fˈikæ"
+    },
+    {
+      "portuguese": "Onde fica o banheiro?",
+      "situation": "directions",
+      "level": "A",
+      "id": 45,
+      "english": "Where is the bathroom?",
+      "ipa": "ˌoŋdʒy fˈikæ ʊ bˌɐ̃ɲˈeɪɾʊ"
+    },
+    {
+      "portuguese": "É longe daqui?",
+      "situation": "directions",
+      "level": "A",
+      "id": 46,
+      "english": "Is it far from here?",
+      "ipa": "ɛ lˈoŋʒy dakˈi"
+    },
+    {
+      "portuguese": "É perto daqui?",
+      "situation": "directions",
+      "level": "A",
+      "id": 47,
+      "english": "Is it near here?",
+      "ipa": "ɛ pˈɛɾətʊ dakˈi"
+    },
+    {
+      "portuguese": "À esquerda",
+      "situation": "directions",
+      "level": "A",
+      "id": 48,
+      "english": "To the left",
+      "ipa": "ˌaː ˌeskˈeɾədæ"
+    },
+    {
+      "portuguese": "À direita",
+      "situation": "directions",
+      "level": "A",
+      "id": 49,
+      "english": "To the right",
+      "ipa": "ˌaː dʒˌiɾˈeɪtæ"
+    },
+    {
+      "portuguese": "Reto",
+      "situation": "directions",
+      "level": "A",
+      "id": 50,
+      "english": "Straight ahead",
+      "ipa": "xˈɛtʊ"
+    },
+    {
+      "portuguese": "Estou procurando...",
+      "situation": "directions",
+      "level": "A",
+      "id": 51,
+      "english": "I'm looking for...",
+      "ipa": "estˌow prˌokuɾˈɐ̃ŋdʊ"
+    },
+    {
+      "portuguese": "Quanto custa?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 52,
+      "english": "How much does it cost?",
+      "ipa": "kwˈɐ̃ŋtʊ kˈustæ"
+    },
+    {
+      "portuguese": "Quanto é?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 53,
+      "english": "How much is it?",
+      "ipa": "kwˈɐ̃ŋtw ɛ"
+    },
+    {
+      "portuguese": "É muito caro",
+      "situation": "shopping",
+      "level": "A",
+      "id": 54,
+      "english": "It's too expensive",
+      "ipa": "ɛ mwˈiŋtʊ kˈaɾʊ"
+    },
+    {
+      "portuguese": "Eu gostaria de...",
+      "situation": "shopping",
+      "level": "A",
+      "id": 55,
+      "english": "I would like...",
+      "ipa": "eʊ ɡˌostaɾˈiæ dʒy"
+    },
+    {
+      "portuguese": "Estou procurando...",
+      "situation": "shopping",
+      "level": "A",
+      "id": 56,
+      "english": "I'm looking for...",
+      "ipa": "estˌow prˌokuɾˈɐ̃ŋdʊ"
+    },
+    {
+      "portuguese": "Você tem...?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 57,
+      "english": "Do you have...?",
+      "ipa": "vosˈe teɪŋ"
+    },
+    {
+      "portuguese": "Qual tamanho?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 58,
+      "english": "What size?",
+      "ipa": "kwˈaʊ tˌæmˈɐ̃ɲʊ"
+    },
+    {
+      "portuguese": "Posso experimentar?",
+      "situation": "shopping",
+      "level": "B",
+      "id": 59,
+      "english": "Can I try it?",
+      "ipa": "pˌɔsʊ ˌespeɾˌimeɪŋtˈar"
+    },
+    {
+      "portuguese": "Vou levar isso",
+      "situation": "shopping",
+      "level": "A",
+      "id": 60,
+      "english": "I'll take this",
+      "ipa": "vow levˈaɾ ˈisʊ"
+    },
+    {
+      "portuguese": "Posso pagar com cartão?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 61,
+      "english": "Can I pay by card?",
+      "ipa": "pˌɔsʊ paɡˈar koŋ kaɾətˈɐ̃ʊ̃"
+    },
+    {
+      "portuguese": "Uma mesa para dois, por favor",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 62,
+      "english": "A table for two, please",
+      "ipa": "ˌumæ mˈezæ pˌaɾæ dˈoɪs  por favˈor"
+    },
+    {
+      "portuguese": "O cardápio, por favor",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 63,
+      "english": "The menu, please",
+      "ipa": "ʊ kˌaɾədˈapjʊ  por favˈor"
+    },
+    {
+      "portuguese": "Eu gostaria de...",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 64,
+      "english": "I would like...",
+      "ipa": "eʊ ɡˌostaɾˈiæ dʒy"
+    },
+    {
+      "portuguese": "A conta, por favor",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 65,
+      "english": "The bill, please",
+      "ipa": "a kˈoŋtæ  por favˈor"
+    },
+    {
+      "portuguese": "Estava delicioso",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 66,
+      "english": "It was delicious",
+      "ipa": "estˌavæ dˌelisiˈozʊ"
+    },
+    {
+      "portuguese": "O que você recomenda?",
+      "situation": "restaurant",
+      "level": "B",
+      "id": 67,
+      "english": "What do you recommend?",
+      "ipa": "ʊ ky vosˌe xˌekomˈeɪŋdæ"
+    },
+    {
+      "portuguese": "Eu sou vegetariano",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 68,
+      "english": "I'm vegetarian",
+      "ipa": "eʊ sow vˌeʒetˌaɾiˈɐ̃nʊ"
+    },
+    {
+      "portuguese": "Eu sou alérgico a...",
+      "situation": "restaurant",
+      "level": "B",
+      "id": 69,
+      "english": "I'm allergic to...",
+      "ipa": "eʊ sow ˌalˈɛɾəʒikw ˈa"
+    },
+    {
+      "portuguese": "Um café, por favor",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 70,
+      "english": "A coffee, please",
+      "ipa": "ũŋ kafˈɛ  por favˈor"
+    },
+    {
+      "portuguese": "Uma jarra de água, por favor",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 71,
+      "english": "A carafe of water, please",
+      "ipa": "ˌumæ ʒˈaxæ dʒj ˈaɡwæ  por favˈor"
+    },
+    {
+      "portuguese": "Como você está?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 72,
+      "english": "How are you?",
+      "ipa": "kˌomʊ vosˌe estˈa"
+    },
+    {
+      "portuguese": "O que você está fazendo?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 73,
+      "english": "What are you doing?",
+      "ipa": "ʊ ky vosˌe estˌa fˌazˈeɪŋdʊ"
+    },
+    {
+      "portuguese": "O que você faz?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 74,
+      "english": "What are you doing?",
+      "ipa": "ʊ ky vosˌe fˈas"
+    },
+    {
+      "portuguese": "Que tal?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 75,
+      "english": "How about it?",
+      "ipa": "ky tˈaʊ"
+    },
+    {
+      "portuguese": "Estou com vontade de...",
+      "situation": "conversation",
+      "level": "B",
+      "id": 76,
+      "english": "I feel like...",
+      "ipa": "estˌow koŋ vˌoŋtˈadʒy dʒy"
+    },
+    {
+      "portuguese": "Você quer tomar algo?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 77,
+      "english": "Want to get a drink?",
+      "ipa": "vosˌe kˈɛr tomˈaɾ ˈaʊɡʊ"
+    },
+    {
+      "portuguese": "Como está o trabalho?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 78,
+      "english": "How's work?",
+      "ipa": "kˌomʊ estˌa ʊ trˌabˈaljʊ"
+    },
+    {
+      "portuguese": "Como está sua família?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 79,
+      "english": "How's your family?",
+      "ipa": "kˌomʊ estˌa sˌuæ fˌæmˈiljæ"
+    },
+    {
+      "portuguese": "Me mantenha informado",
+      "situation": "conversation",
+      "level": "C",
+      "id": 80,
+      "english": "Keep me updated",
+      "ipa": "my mˌɐ̃ŋtˈeɲæ ˌiŋfoɾəmˈadʊ"
+    },
+    {
+      "portuguese": "Você está dando conta?",
+      "situation": "conversation",
+      "level": "C",
+      "id": 81,
+      "english": "Are you managing?",
+      "ipa": "vosˌe estˌa dˈɐ̃ŋdʊ kˈoŋtæ"
+    },
+    {
+      "portuguese": "Estou feliz",
+      "situation": "feelings",
+      "level": "B",
+      "id": 82,
+      "english": "I'm happy",
+      "ipa": "estˌow felˈis"
+    },
+    {
+      "portuguese": "Estou feliz",
+      "situation": "feelings",
+      "level": "B",
+      "id": 83,
+      "english": "I'm happy",
+      "ipa": "estˌow felˈis"
+    },
+    {
+      "portuguese": "Estou cansado",
+      "situation": "feelings",
+      "level": "B",
+      "id": 84,
+      "english": "I'm tired",
+      "ipa": "estˌow kˌɐ̃ŋsˈadʊ"
+    },
+    {
+      "portuguese": "Estou cansada",
+      "situation": "feelings",
+      "level": "B",
+      "id": 85,
+      "english": "I'm tired",
+      "ipa": "estˌow kˌɐ̃ŋsˈadæ"
+    },
+    {
+      "portuguese": "Estou com fome",
+      "situation": "feelings",
+      "level": "A",
+      "id": 86,
+      "english": "I'm hungry",
+      "ipa": "estˌow koŋ fˈomy"
+    },
+    {
+      "portuguese": "Estou com sede",
+      "situation": "feelings",
+      "level": "A",
+      "id": 87,
+      "english": "I'm thirsty",
+      "ipa": "estˌow koŋ sˈɛdʒy"
+    },
+    {
+      "portuguese": "Estou com calor",
+      "situation": "feelings",
+      "level": "A",
+      "id": 88,
+      "english": "I'm hot",
+      "ipa": "estˌow koŋ kalˈor"
+    },
+    {
+      "portuguese": "Estou com frio",
+      "situation": "feelings",
+      "level": "A",
+      "id": 89,
+      "english": "I'm cold",
+      "ipa": "estˌow koŋ frˈiʊ"
+    },
+    {
+      "portuguese": "Estou exausto",
+      "situation": "feelings",
+      "level": "C",
+      "id": 90,
+      "english": "I'm exhausted",
+      "ipa": "estˌow ˌezˈaʊstʊ"
+    },
+    {
+      "portuguese": "Estou meio pra baixo",
+      "situation": "feelings",
+      "level": "C",
+      "id": 91,
+      "english": "I'm feeling down",
+      "ipa": "estˌow mˈeɪʊ pra bˈaɪʃʊ"
+    },
+    {
+      "portuguese": "Mal posso esperar",
+      "situation": "feelings",
+      "level": "B",
+      "id": 92,
+      "english": "I can't wait",
+      "ipa": "mˈaʊ pˌɔsʊ ˌespeɾˈar"
+    },
+    {
+      "portuguese": "Estou entediado",
+      "situation": "feelings",
+      "level": "B",
+      "id": 93,
+      "english": "I'm bored",
+      "ipa": "estˌow ˌeɪŋtedʒiˈadʊ"
+    },
+    {
+      "portuguese": "Ah é!",
+      "situation": "exclamations",
+      "level": "B",
+      "id": 94,
+      "english": "Oh really!",
+      "ipa": "ˈa ɛ"
+    },
+    {
+      "portuguese": "Qualquer coisa!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 95,
+      "english": "Whatever!",
+      "ipa": "kwaʊkˌɛr kˈoɪzæ"
+    },
+    {
+      "portuguese": "Isso é absurdo!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 96,
+      "english": "That's nonsense!",
+      "ipa": "ˈisw ɛ ˌabsˈuɾədʊ"
+    },
+    {
+      "portuguese": "Deixa pra lá",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 97,
+      "english": "Forget it",
+      "ipa": "dˈeɪʃæ pra lˈa"
+    },
+    {
+      "portuguese": "Enfim",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 98,
+      "english": "Anyway",
+      "ipa": "eɪŋfˈiŋ"
+    },
+    {
+      "portuguese": "Nossa!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 99,
+      "english": "Wow!",
+      "ipa": "nˈɔsæ"
+    },
+    {
+      "portuguese": "Caramba!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 100,
+      "english": "Holy cow!",
+      "ipa": "kˌaɾˈɐ̃mbæ"
+    },
+    {
+      "portuguese": "Isso é uma droga",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 101,
+      "english": "That sucks",
+      "ipa": "ˈisw ɛ ˌumæ drˈɔɡæ"
+    },
+    {
+      "portuguese": "Vamos!",
+      "situation": "exclamations",
+      "level": "B",
+      "id": 102,
+      "english": "Come on!",
+      "ipa": "vˈɐ̃mʊs"
+    },
+    {
+      "portuguese": "Tanto faz",
+      "situation": "exclamations",
+      "level": "B",
+      "id": 103,
+      "english": "Meh",
+      "ipa": "tˈɐ̃ŋtʊ fˈas"
+    }
+  ]
+}

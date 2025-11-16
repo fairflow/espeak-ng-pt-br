@@ -1,0 +1,13 @@
+# Portuguese Phrasebook - Directions
+# Level distribution: B, A
+# Format: portuguese | english | [ipa]
+
+Estou procurando... | I'm looking for... | [estˌow prˌokuɾˈɐ̃ŋdʊ]
+Onde fica o banheiro? | Where is the bathroom? | [ˌoŋdʒy fˈikæ ʊ bˌɐ̃ɲˈeɪɾʊ]
+Onde fica...? | Where is...? | [ˌoŋdʒy fˈikæ]
+Reto | Straight ahead | [xˈɛtʊ]
+À direita | To the right | [ˌaː dʒˌiɾˈeɪtæ]
+À esquerda | To the left | [ˌaː ˌeskˈeɾədæ]
+É longe daqui? | Is it far from here? | [ɛ lˈoŋʒy dakˈi]
+É perto daqui? | Is it near here? | [ɛ pˈɛɾətʊ dakˈi]
+Onde fica...? | Where is...? | [ˌoŋdʒy fˈikæ]

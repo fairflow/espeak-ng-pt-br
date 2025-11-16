@@ -1,0 +1,12 @@
+# Portuguese Phrasebook - Courtesy
+# Level distribution: A
+# Format: portuguese | english | [ipa]
+
+Com licença | Excuse me | [koŋ lˌisˈeɪŋsæ]
+De nada | You're welcome | [dʒy nˈadæ]
+Desculpa | Sorry | [dˌeskˈuwpæ]
+Muito obrigado | Thank you very much | [mwˈiŋtw ˌobriɡˈadʊ]
+Obrigado | Thank you | [ˌobriɡˈadʊ]
+Perdão | Pardon | [peɾədˈɐ̃ʊ̃]
+Por favor | Please | [por favˈor]
+Por favor | Please | [por favˈor]

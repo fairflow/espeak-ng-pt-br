@@ -1,0 +1,16 @@
+# Portuguese Phrasebook - Feelings
+# Level distribution: B, C, A
+# Format: portuguese | english | [ipa]
+
+Estou com calor | I'm hot | [estˌow koŋ kalˈor]
+Estou com fome | I'm hungry | [estˌow koŋ fˈomy]
+Estou com frio | I'm cold | [estˌow koŋ frˈiʊ]
+Estou com sede | I'm thirsty | [estˌow koŋ sˈɛdʒy]
+Estou cansada | I'm tired | [estˌow kˌɐ̃ŋsˈadæ]
+Estou cansado | I'm tired | [estˌow kˌɐ̃ŋsˈadʊ]
+Estou entediado | I'm bored | [estˌow ˌeɪŋtedʒiˈadʊ]
+Estou feliz | I'm happy | [estˌow felˈis]
+Estou feliz | I'm happy | [estˌow felˈis]
+Mal posso esperar | I can't wait | [mˈaʊ pˌɔsʊ ˌespeɾˈar]
+Estou exausto | I'm exhausted | [estˌow ˌezˈaʊstʊ]
+Estou meio pra baixo | I'm feeling down | [estˌow mˈeɪʊ pra bˈaɪʃʊ]

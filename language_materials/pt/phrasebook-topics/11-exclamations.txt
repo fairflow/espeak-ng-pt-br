@@ -1,0 +1,14 @@
+# Portuguese Phrasebook - Exclamations
+# Level distribution: C, B
+# Format: portuguese | english | [ipa]
+
+Ah é! | Oh really! | [ˈa ɛ]
+Tanto faz | Meh | [tˈɐ̃ŋtʊ fˈas]
+Vamos! | Come on! | [vˈɐ̃mʊs]
+Caramba! | Holy cow! | [kˌaɾˈɐ̃mbæ]
+Deixa pra lá | Forget it | [dˈeɪʃæ pra lˈa]
+Enfim | Anyway | [eɪŋfˈiŋ]
+Isso é absurdo! | That's nonsense! | [ˈisw ɛ ˌabsˈuɾədʊ]
+Isso é uma droga | That sucks | [ˈisw ɛ ˌumæ drˈɔɡæ]
+Nossa! | Wow! | [nˈɔsæ]
+Qualquer coisa! | Whatever! | [kwaʊkˌɛr kˈoɪzæ]

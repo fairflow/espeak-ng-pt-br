@@ -1,0 +1,13 @@
+# Portuguese Phrasebook - Greetings
+# Level distribution: A
+# Format: portuguese | english | [ipa]
+
+Boa tarde | Good evening | [bˈoæ tˈaɾədʒy]
+Como está? | How are you? | [kˌomʊ estˈa]
+Como vai? | How are you? | [kˌomʊ vˈaɪ]
+E você? | And you? | [i vosˈe]
+Estou bem, obrigado | I'm fine, thank you | [estˌow bˈeɪŋ  ˌobriɡˈadʊ]
+Oi | Hello | [ˈoɪ]
+Oi | Hi | [ˈoɪ]
+Tudo bem | I'm fine | [tˈudʊ bˈeɪŋ]
+Tudo bem | I'm doing well | [tˈudʊ bˈeɪŋ]

@@ -1,0 +1,14 @@
+# Portuguese Phrasebook - Shopping
+# Level distribution: B, A
+# Format: portuguese | english | [ipa]
+
+Estou procurando... | I'm looking for... | [estˌow prˌokuɾˈɐ̃ŋdʊ]
+Eu gostaria de... | I would like... | [eʊ ɡˌostaɾˈiæ dʒy]
+Posso pagar com cartão? | Can I pay by card? | [pˌɔsʊ paɡˈar koŋ kaɾətˈɐ̃ʊ̃]
+Qual tamanho? | What size? | [kwˈaʊ tˌæmˈɐ̃ɲʊ]
+Quanto custa? | How much does it cost? | [kwˈɐ̃ŋtʊ kˈustæ]
+Quanto é? | How much is it? | [kwˈɐ̃ŋtw ɛ]
+Você tem...? | Do you have...? | [vosˈe teɪŋ]
+Vou levar isso | I'll take this | [vow levˈaɾ ˈisʊ]
+É muito caro | It's too expensive | [ɛ mwˈiŋtʊ kˈaɾʊ]
+Posso experimentar? | Can I try it? | [pˌɔsʊ ˌespeɾˌimeɪŋtˈar]
