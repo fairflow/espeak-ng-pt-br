@@ -1,0 +1,5672 @@
+{
+  "metadata": {
+    "total_phrases": 215,
+    "analyzed_date": "2025-11-15T22:08:10.406477",
+    "average_difficulty_score": 41.87,
+    "distribution": {
+      "A": 69,
+      "B": 129,
+      "C": 12,
+      "D": 5
+    },
+    "analysis_method": "rule-based (local, no API)"
+  },
+  "phrases": [
+    {
+      "phrase": "Bonjour Sophie, ça va?",
+      "overall_score": 22,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 30,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 30
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.75,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": [
+          "ça va"
+        ]
+      },
+      "original_scene": 1,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Ça va. Qu'est-ce que tu prends ce matin?",
+      "overall_score": 43,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 30
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "2 nasal(s)"
+        ],
+        "idioms_found": [
+          "ça va"
+        ]
+      },
+      "original_scene": 1,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Salut! Tu as bien dormi?",
+      "overall_score": 27,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.6,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 1,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Non, pas très bien. J'ai fait des rêves étranges.",
+      "overall_score": 47,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.4,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 1,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Tu veux du sucre dans ton café?",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.29,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 1,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Il fait beau aujourd'hui,",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 55,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.2,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 1,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Oui, c'est une belle journée.",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 1,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Tu sais, Lucas, la vie est si monotone ici.",
+      "overall_score": 48,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.33,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 1,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je suis d'accord avec toi. Chaque jour est pareil.",
+      "overall_score": 41,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 30
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.2,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "multiple R sounds"
+        ],
+        "idioms_found": [
+          "d\\'accord"
+        ]
+      },
+      "original_scene": 1,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Tu as raison! Pourquoi pas?",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.4,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 1,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Les rues du Marais commencent à s'animer",
+      "overall_score": 43,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 65,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.12,
+        "verb_tense": "conditionnel",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 1,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Qu'est-ce que je peux faire pour vous?",
+      "overall_score": 41,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Nous avons besoin de pain,",
+      "overall_score": 35,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.4,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Le pain est là-bas, près de l'entrée.",
+      "overall_score": 39,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.22,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Le fromage est frais?",
+      "overall_score": 42,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 65,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.25,
+        "verb_tense": "conditionnel",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Oui, il est très bon. Je l'ai reçu ce matin.",
+      "overall_score": 32,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 11,
+        "common_words_ratio": 0.45,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "C'est trop cher pour moi.",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.17,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "j'ai des tomates d'hier. Deux euros le kilo.",
+      "overall_score": 39,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.3,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Où est la boulangerie?",
+      "overall_score": 29,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 35,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.5,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Elle est au coin de la rue, après l'église.",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.3,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "J'aime ce quartier.",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.0,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Moi aussi, c'est très joli. Les vieux bâtiments ont du charme.",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Bonne idée! On peut prendre une bouteille pour ce soir.",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.1,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Sophie fait la grimace",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 55,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.25,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Lucas a une idée",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 2,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Tu sais, Lucas, je suis fatigué de cette vie,",
+      "overall_score": 46,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.22,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 3,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Moi aussi, tout est pareil chaque jour. Métro, boulot, dodo.",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.2,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 3,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "On pourrait voyager quelque part. Pour de vrai, pas juste en parler.",
+      "overall_score": 48,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 65,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.08,
+        "verb_tense": "conditionnel",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 3,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Où veux-tu aller?",
+      "overall_score": 22,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 30,
+        "grammar": 35,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.75,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 3,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je ne sais pas encore. Mais loin d'ici.",
+      "overall_score": 48,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 30,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.22,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "negation"
+        ],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 3,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "La montagne ou la mer?",
+      "overall_score": 27,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.5,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 3,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Oui! C'est une excellente idée!",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 3,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "J'ai un peu peur, tu sais.",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 55,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.43,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 3,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "N'aie pas peur, ça va bien se passer.",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 30
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": [
+          "ça va"
+        ]
+      },
+      "original_scene": 3,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Tu as raison, allons-y! Qu'est-ce qu'on risque?",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 11,
+        "common_words_ratio": 0.1,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 3,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "C'est décidé, nous partons!",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.2,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 4,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Dans une semaine. J'ai regardé les trains cette nuit.",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.3,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 4,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Une semaine? C'est si rapide!",
+      "overall_score": 36,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 4,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Oui, mais c'est mieux comme ça. Si on attend trop, on ne partira jamais.",
+      "overall_score": 57,
+      "difficulty_level": "C",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 45,
+        "length": 60,
+        "verb_tense": 55,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 15,
+        "common_words_ratio": 0.36,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)",
+          "negation"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 4,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Tu as raison. Qu'est-ce qu'on emporte?",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.12,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 4,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je suis excité! C'est vraiment en train d'arriver!",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 55,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.3,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 4,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Aller simple ou aller-retour?",
+      "overall_score": 28,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.5,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 5,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "À onze heures quinze. Vous avez de la chance, c'est le TGV direct.",
+      "overall_score": 46,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 14,
+        "common_words_ratio": 0.21,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 5,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Nous avons le temps de prendre un café?",
+      "overall_score": 28,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.5,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 5,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Oui, nous avons une demi-heure.",
+      "overall_score": 28,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.5,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 5,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je l'ai déjà pris. Et toi, tu as les billets?",
+      "overall_score": 39,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 11,
+        "common_words_ratio": 0.36,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 5,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Tu es prêt pour l'aventure?",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.17,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 5,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Montons vite, il y a du monde,",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.14,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 5,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "C'est parti pour une nouvelle vie!",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.14,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 5,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Leurs sacs à dos sont prêts",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.0,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 5,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Nous avons finalement quitté Paris,",
+      "overall_score": 35,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.2,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "As-tu fermé la porte à clé?",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.29,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Oui, j'ai vérifié trois fois. Et toi, tu as prévenu ton travail?",
+      "overall_score": 46,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 13,
+        "common_words_ratio": 0.23,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Oui, j'ai envoyé un email hier soir.",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.38,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Qu'est-ce que tu ressens?",
+      "overall_score": 36,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.17,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je me sens libre et un peu nerveux. C'est bizarre, non?",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 55,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.42,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Moi aussi, c'est normal. On change toute notre vie.",
+      "overall_score": 39,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.0,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Regarde le paysage, il est magnifique!",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "J'ai apporté des sandwichs. Fromage et jambon.",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Excellente idée, j'ai faim.",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.0,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Oh non! J'ai oublié mon livre!",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.14,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Ce n'est pas grave, on peut parler.",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.12,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "De quoi veux-tu parler?",
+      "overall_score": 27,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.6,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "De nos rêves et de notre avenir. Qu'est-ce que tu veux vraiment dans la vie?",
+      "overall_score": 49,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 17,
+        "common_words_ratio": 0.19,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "C'est une grande question. Je veux me sentir vivante, je pense.",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.18,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "5 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 6,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "C'est plus petit que je pensais.",
+      "overall_score": 43,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 15,
+        "verb_tense": 55,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.29,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 7,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Mais c'est charmant et tranquille. Regarde ces montagnes!",
+      "overall_score": 47,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 55,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.22,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 7,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Il y a une auberge là-bas.",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.29,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 7,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Demandons s'ils ont des chambres.",
+      "overall_score": 35,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 7,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Bonjour, avez-vous deux chambres libres?",
+      "overall_score": 35,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 7,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Oui, mais seulement pour ce soir. Demain, j'ai une réservation de groupe.",
+      "overall_score": 53,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 55,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 13,
+        "common_words_ratio": 0.31,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 7,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "C'est parfait, nous les prenons.",
+      "overall_score": 41,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 55,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.33,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 7,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Soixante euros par chambre, avec le petit-déjeuner.",
+      "overall_score": 35,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 7,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Le dîner est servi à sept heures dans la salle à manger,",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.27,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 7,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Allons explorer le village!",
+      "overall_score": 37,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 25,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.25,
+        "verb_tense": "futur_proche",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 7,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Le village est pittoresque avec ses maisons en pierre et ses volets en bois",
+      "overall_score": 47,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 55,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 14,
+        "common_words_ratio": 0.17,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 7,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Excusez-moi, où est la boulangerie?",
+      "overall_score": 36,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 8,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Tournez à droite après l'église. Vous ne pouvez pas la manquer.",
+      "overall_score": 41,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 30,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.17,
+        "verb_tense": "present",
+        "grammar_features": [
+          "negation"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 8,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Paris! Bienvenue dans notre village! Ici, c'est plus calme qu'à Paris.",
+      "overall_score": 46,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 13,
+        "common_words_ratio": 0.0,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 8,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Les gens sont très gentils ici.",
+      "overall_score": 35,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 8,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Oui, c'est différent de la grande ville. Tout le monde se parle.",
+      "overall_score": 46,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 13,
+        "common_words_ratio": 0.23,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 8,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Qu'est-ce qu'on peut faire ici?",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.14,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 8,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Il y a beaucoup de randonnées. Les montagnes sont magnifiques.",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.2,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "4 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 8,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Oui, nous adorons la nature. C'est pour ça qu'on est venus.",
+      "overall_score": 50,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 35,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 13,
+        "common_words_ratio": 0.33,
+        "verb_tense": "passe_compose",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 8,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "La boulangère est bavarde",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 8,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Nous marchions depuis trois heures quand les nuages sont arrivés,",
+      "overall_score": 50,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 55,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.3,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 9,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Nous devrions peut-être faire demi-tour.",
+      "overall_score": 36,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 65,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.43,
+        "verb_tense": "conditionnel",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 9,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Non, le refuge n'est pas loin. Regarde la carte.",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.3,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 9,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Tu es trop optimiste parfois!",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.4,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 9,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Ce n'est pas le moment de se disputer.",
+      "overall_score": 39,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.11,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 9,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je suis désolé, j'ai juste peur.",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.14,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 9,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Moi aussi, mais il faut continuer. On ne peut pas rester ici.",
+      "overall_score": 50,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 30,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 50,
+        "idiomatic": 30
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.17,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "negation"
+        ],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": [
+          "il faut"
+        ]
+      },
+      "original_scene": 9,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je ne vois presque plus le sentier.",
+      "overall_score": 36,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 30,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.29,
+        "verb_tense": "present",
+        "grammar_features": [
+          "negation"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 9,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Attends, j'ai perdu mon sac! Il était juste là!",
+      "overall_score": 46,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.1,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 9,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je reviens le chercher, toi, continue! Suis le sentier!",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.38,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 9,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Le temps est beau, le ciel est bleu",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.17,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 9,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Ils suivent un sentier qui monte vers un refuge de montagne",
+      "overall_score": 43,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 11,
+        "common_words_ratio": 0.3,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "6 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 9,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Le changement est soudain",
+      "overall_score": 35,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 9,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Mais Lucas est déjà parti dans le brouillard.",
+      "overall_score": 42,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 55,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.25,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 9,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Lucas? Lucas, où es-tu?",
+      "overall_score": 29,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 35,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.5,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 10,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je ne sais plus où je suis.",
+      "overall_score": 45,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 45,
+        "length": 15,
+        "verb_tense": 55,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.33,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)",
+          "negation"
+        ],
+        "phonetic_features": [
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 10,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Il aurait fallu rester ensemble. Nous avons été stupides.",
+      "overall_score": 49,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 65,
+        "phonetics": 55,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.22,
+        "verb_tense": "conditionnel",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 10,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Maintenant, je suis complètement seule.",
+      "overall_score": 35,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.4,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "4 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 10,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "J'aurais dû l'écouter tout à l'heure. Il voulait faire demi-tour.",
+      "overall_score": 54,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 65,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 14,
+        "common_words_ratio": 0.23,
+        "verb_tense": "conditionnel",
+        "grammar_features": [],
+        "phonetic_features": [
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 10,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Mais il est trop tard pour les regrets.",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 55,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.5,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 10,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je dois trouver un abri. Je ne peux pas rester dehors cette nuit.",
+      "overall_score": 47,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 30,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 13,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [
+          "negation"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 10,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Là-bas, il y a quelque chose!",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.14,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 10,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "La Séparation Involontaire\n\nSophie attend quelques minutes, puis commence à paniquer",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 11,
+        "common_words_ratio": 0.09,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "6 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 10,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Le brouillard est si dense qu'elle ne voit pas à trois mètres devant elle",
+      "overall_score": 50,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 45,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 15,
+        "common_words_ratio": 0.21,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)",
+          "negation"
+        ],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 10,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "C'est une forme sombre dans le brouillard",
+      "overall_score": 35,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 10,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Heureusement, j'ai des allumettes dans ma poche.",
+      "overall_score": 35,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.12,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Le bois est humide, ce ne sera pas facile.",
+      "overall_score": 41,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 30,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.11,
+        "verb_tense": "present",
+        "grammar_features": [
+          "negation"
+        ],
+        "phonetic_features": [
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Si Lucas était là, il serait fier de moi.",
+      "overall_score": 49,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 65,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.22,
+        "verb_tense": "conditionnel",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Maintenant, j'ai très faim, mais je n'ai rien à manger.",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.45,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "5 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Ce sont des orties! Elles sont comestibles si on les fait cuire.",
+      "overall_score": 49,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.36,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "J'ose à peine les toucher, elles piquent.",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Mais il le faut si je veux survivre.",
+      "overall_score": 29,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 30,
+        "grammar": 35,
+        "length": 15,
+        "verb_tense": 55,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.62,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Où puis-je trouver de l'eau potable?",
+      "overall_score": 29,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 35,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.5,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Avec le feu, l'eau de la source, et les orties, je fais une soupe.",
+      "overall_score": 45,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 55,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 15,
+        "common_words_ratio": 0.47,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "La nature me donne exactement ce dont j'ai besoin.",
+      "overall_score": 42,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.1,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Cette épreuve m'apprend que je suis plus forte que je ne pensais.",
+      "overall_score": 57,
+      "difficulty_level": "C",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 50,
+        "length": 60,
+        "verb_tense": 55,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 13,
+        "common_words_ratio": 0.09,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "2 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "C'est une vieille structure de berger, simple mais solide",
+      "overall_score": 47,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.2,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Il y a une cheminée",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.4,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Elle trouve du bois à l'intérieur de la cabane, mais il est humide",
+      "overall_score": 53,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 55,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 14,
+        "common_words_ratio": 0.29,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Elle arrange le bois, met du papier, prend une allumette",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.3,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Mais après quelques heures, la faim se fait sentir",
+      "overall_score": 47,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.22,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Elle sort de la cabane pour explorer les environs",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Elle cueille les orties avec précaution, en utilisant un bout de tissu pour protéger ses mains",
+      "overall_score": 47,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 16,
+        "common_words_ratio": 0.19,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "5 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Maintenant, elle a besoin d'eau",
+      "overall_score": 28,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.5,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Elle remplit une petite casserole qu'elle a trouvée dans la cabane",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.27,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "De retour près du feu, elle fait bouillir l'eau et y met les orties",
+      "overall_score": 53,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 55,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 15,
+        "common_words_ratio": 0.27,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "La soupe est simple mais délicieuse",
+      "overall_score": 41,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 55,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.33,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 11,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Comment ai-je pu la perdre? Comment?",
+      "overall_score": 28,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.5,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je n'aurais jamais dû la laisser continuer seule. J'aurais dû rester avec elle.",
+      "overall_score": 54,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 65,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 15,
+        "common_words_ratio": 0.23,
+        "verb_tense": "conditionnel",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Il faut que je trouve de l'aide.",
+      "overall_score": 38,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 30
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [],
+        "idioms_found": [
+          "il faut"
+        ]
+      },
+      "original_scene": 12,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Le village ne peut pas être très loin. Si je descends, c'est par là.",
+      "overall_score": 50,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 45,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 15,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)",
+          "negation"
+        ],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Elle commence à descendre un sentier que je n'avais pas vu.",
+      "overall_score": 49,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.25,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "5 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "J'ai l'impression qu'elle veut me montrer quelque chose.",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 11,
+        "common_words_ratio": 0.09,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Même si c'est étrange, je dois lui faire confiance. Je n'ai pas d'autre choix.",
+      "overall_score": 48,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 17,
+        "common_words_ratio": 0.19,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Sophie compte sur moi, je ne peux pas l'abandonner.",
+      "overall_score": 41,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 30,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.1,
+        "verb_tense": "present",
+        "grammar_features": [
+          "negation"
+        ],
+        "phonetic_features": [
+          "3 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Voilà une lumière au loin! La chèvre m'a guidé!",
+      "overall_score": 39,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.2,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "À l'aide! J'ai besoin d'aide!",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.0,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Il essaie de s'orienter",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.2,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Il pourrait tourner en rond pendant des heures",
+      "overall_score": 44,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 65,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.25,
+        "verb_tense": "conditionnel",
+        "grammar_features": [],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Au contraire, elle s'approche, puis se retourne et commence à descendre un sentier",
+      "overall_score": 46,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 14,
+        "common_words_ratio": 0.21,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "6 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "La chèvre s'arrête et se retourne, comme pour vérifier s'il suit",
+      "overall_score": 46,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 13,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Il suit la chèvre qui descend le sentier avec assurance",
+      "overall_score": 42,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.4,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "C'est une ferme",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "La chèvre bêle une dernière fois et s'en va",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.4,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Un homme sort de la maison, surpris mais prêt à aider.",
+      "overall_score": 47,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 11,
+        "common_words_ratio": 0.36,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 12,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Il faut que nous organisions une équipe de recherche,",
+      "overall_score": 50,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 45,
+        "idiomatic": 30
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.33,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": [
+          "il faut"
+        ]
+      },
+      "original_scene": 13,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Pourvu qu'elle ait trouvé un abri!",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.29,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 13,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Le jeune homme a dit qu'elle portait une veste rouge. Ça nous aidera.",
+      "overall_score": 46,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 55,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 14,
+        "common_words_ratio": 0.43,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 13,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Nous avons besoin que vous nous montriez sur la carte exactement où vous étiez.",
+      "overall_score": 60,
+      "difficulty_level": "C",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 50,
+        "length": 60,
+        "verb_tense": 65,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 14,
+        "common_words_ratio": 0.33,
+        "verb_tense": "conditionnel",
+        "grammar_features": [
+          "2 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 13,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Il est important que vous restiez calme. Nous sommes des professionnels.",
+      "overall_score": 50,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 11,
+        "common_words_ratio": 0.36,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 13,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Quoi qu'il arrive, nous la retrouverons, n'est-ce pas?",
+      "overall_score": 41,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 30
+      },
+      "analysis": {
+        "word_count": 11,
+        "common_words_ratio": 0.36,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": [
+          "n\\'est-ce pas"
+        ]
+      },
+      "original_scene": 13,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "L'hélicoptère partira dès que le temps le permettra. Au lever du jour.",
+      "overall_score": 48,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 13,
+        "common_words_ratio": 0.17,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 13,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Les Secours\n\nLucas explique la situation au fermier, qui appelle immédiatement les secours de montagne",
+      "overall_score": 49,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 15,
+        "common_words_ratio": 0.23,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 13,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Cette épreuve m'a fait comprendre qui je suis vraiment.",
+      "overall_score": 49,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.2,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 14,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Quoi que la vie me réserve, je saurai y faire face. J'en suis sûre maintenant.",
+      "overall_score": 48,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 16,
+        "common_words_ratio": 0.31,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 14,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Il n'est pas nécessaire d'avoir toujours quelqu'un à ses côtés.",
+      "overall_score": 46,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 13,
+        "common_words_ratio": 0.23,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 14,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "C'est comme si j'avais retrouvé une partie de moi-même que j'avais perdue.",
+      "overall_score": 57,
+      "difficulty_level": "C",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 50,
+        "length": 60,
+        "verb_tense": 55,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 16,
+        "common_words_ratio": 0.14,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "2 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 14,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Il est temps que je descende chercher de l'aide.",
+      "overall_score": 42,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.3,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "2 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 14,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Cette montagne m'a donné un cadeau inestimable: la confiance en moi.",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.17,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "6 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 14,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "La Réflexion de Sophie\n\nAu lever du jour, Sophie est toujours dans la cabane",
+      "overall_score": 46,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 14,
+        "common_words_ratio": 0.17,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 14,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "C'est un hélicoptère de secours!",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.17,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 15,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Ils me cherchent, il faut que je leur fasse signe!",
+      "overall_score": 43,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 30
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.3,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": [
+          "il faut"
+        ]
+      },
+      "original_scene": 15,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Là-haut! Je suis ici! Ici!",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.2,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 15,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Ils m'ont vue, ils descendent!",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.2,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "3 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 15,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Que je suis soulagée!",
+      "overall_score": 36,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 15,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Le brouillard s'est levé, le ciel est clair",
+      "overall_score": 39,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 9,
+        "common_words_ratio": 0.14,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 15,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "L'hélicoptère fait un cercle, puis se rapproche",
+      "overall_score": 42,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 55,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.12,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 15,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Sophie! Dieu merci, tu es vivante!",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 6,
+        "common_words_ratio": 0.33,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 16,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Pardonne-moi de t'avoir laissée partir seule. Je suis tellement désolé.",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 16,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Non, c'est moi qui aurais dû t'écouter. Tu voulais faire demi-tour.",
+      "overall_score": 56,
+      "difficulty_level": "C",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 60,
+        "verb_tense": 65,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 14,
+        "common_words_ratio": 0.36,
+        "verb_tense": "conditionnel",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 16,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "L'important, c'est que nous soyons tous les deux sains et saufs.",
+      "overall_score": 62,
+      "difficulty_level": "D",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 60,
+        "verb_tense": 95,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 13,
+        "common_words_ratio": 0.23,
+        "verb_tense": "subjonctif",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 16,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Cette expérience nous a changés,",
+      "overall_score": 35,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 5,
+        "common_words_ratio": 0.2,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 16,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je ne suis plus la même personne qu'avant. Cette nuit dans la montagne...",
+      "overall_score": 48,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 30,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 14,
+        "common_words_ratio": 0.23,
+        "verb_tense": "present",
+        "grammar_features": [
+          "negation"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 16,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Moi non plus, j'ai appris tellement de choses. La chèvre qui m'a guidé, les gens qui m'ont aidé...",
+      "overall_score": 55,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 50,
+        "length": 75,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 21,
+        "common_words_ratio": 0.21,
+        "verb_tense": "present",
+        "grammar_features": [
+          "2 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 16,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Quand on est séparés, on réalise ce qui compte vraiment.",
+      "overall_score": 45,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 50,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.22,
+        "verb_tense": "present",
+        "grammar_features": [
+          "2 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "5 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 16,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je ne veux plus jamais te perdre.",
+      "overall_score": 42,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 30,
+        "length": 15,
+        "verb_tense": 55,
+        "phonetics": 20,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.14,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "negation"
+        ],
+        "phonetic_features": [],
+        "idioms_found": []
+      },
+      "original_scene": 16,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Et c'est exactement ce qui rend notre relation plus forte. Nous sommes deux personnes complètes qui choisissent d'être ensemble.",
+      "overall_score": 55,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 50,
+        "length": 75,
+        "verb_tense": 10,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 21,
+        "common_words_ratio": 0.2,
+        "verb_tense": "present",
+        "grammar_features": [
+          "2 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "9 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 16,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Nous sommes venus pour nous trouver nous-mêmes.",
+      "overall_score": 38,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 35,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.33,
+        "verb_tense": "passe_compose",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 16,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Et nous avons réussi,",
+      "overall_score": 28,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.5,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 16,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Je ne vois presque plus le sentier.",
+      "overall_score": 36,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 30,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.29,
+        "verb_tense": "present",
+        "grammar_features": [
+          "negation"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Cette cabane a survécu à combien de tempêtes, à combien de solitudes?",
+      "overall_score": 40,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 12,
+        "common_words_ratio": 0.11,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "5 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Et c'est exactement ce qui rend notre relation plus forte.",
+      "overall_score": 43,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 55,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 11,
+        "common_words_ratio": 0.18,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "Cette épreuve m'a fait comprendre qui je suis vraiment.",
+      "overall_score": 49,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 55,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.2,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "3 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "La nature me donne exactement ce dont j'ai besoin.",
+      "overall_score": 42,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.1,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "dialogue"
+    },
+    {
+      "phrase": "ici, c'est dans l'absence que se cristallise non pas l'idéalisation de l'autre, mais la découverte de soi",
+      "overall_score": 59,
+      "difficulty_level": "C",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 75,
+        "verb_tense": 55,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 21,
+        "common_words_ratio": 0.17,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Les orties piquantes incarnent cette dialectique fondamentale où toute vérité nutritive exige d'abord qu'on accepte sa capacité à blesser",
+      "overall_score": 58,
+      "difficulty_level": "C",
+      "scores": {
+        "vocabulary": 85,
+        "grammar": 35,
+        "length": 75,
+        "verb_tense": 10,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 21,
+        "common_words_ratio": 0.1,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "6 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Était-ce véritablement un hasard, ou Lucas projette-t-il rétrospectivement une intentionnalité sur un comportement animal ordinaire",
+      "overall_score": 54,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 55,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 18,
+        "common_words_ratio": 0.24,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "9 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "N'est-ce pas précisément notre condition existentielle",
+      "overall_score": 36,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 40,
+        "idiomatic": 30
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.0,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "4 nasal(s)"
+        ],
+        "idioms_found": [
+          "n\\'est-ce pas"
+        ]
+      },
+      "original_scene": 17,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Votre récit suit une linéarité classique, mais l'épreuve de Sophie dans la cabane—cette longue nuit de l'âme—pourrait bénéficier d'une fragmentation temporelle",
+      "overall_score": 69,
+      "difficulty_level": "D",
+      "scores": {
+        "vocabulary": 85,
+        "grammar": 20,
+        "length": 95,
+        "verb_tense": 65,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 26,
+        "common_words_ratio": 0.17,
+        "verb_tense": "conditionnel",
+        "grammar_features": [],
+        "phonetic_features": [
+          "6 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "qui l'a construite",
+      "overall_score": 36,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 4,
+        "common_words_ratio": 0.25,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Quel berger solitaire a jadis trouvé refuge ici",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 8,
+        "common_words_ratio": 0.0,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Sophie pourrait s'interroger ainsi, inscrivant sa propre épreuve dans une continuité humaine millénaire",
+      "overall_score": 64,
+      "difficulty_level": "C",
+      "scores": {
+        "vocabulary": 95,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 65,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 14,
+        "common_words_ratio": 0.07,
+        "verb_tense": "conditionnel",
+        "grammar_features": [],
+        "phonetic_features": [
+          "6 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Qu'ont-ils perdu dans cette épreuve",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 10,
+        "phonetics": 30,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.14,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "2 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Magnifique affirmation, mais peut-être trop définitive",
+      "overall_score": 34,
+      "difficulty_level": "A",
+      "scores": {
+        "vocabulary": 50,
+        "grammar": 20,
+        "length": 15,
+        "verb_tense": 55,
+        "phonetics": 35,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 7,
+        "common_words_ratio": 0.43,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "L'identité n'est pas découverte une fois pour toutes",
+      "overall_score": 39,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 35,
+        "verb_tense": 10,
+        "phonetics": 25,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 10,
+        "common_words_ratio": 0.1,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 17,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "n'est-ce pas l'exacte définition de toute vérité difficile mais nécessaire",
+      "overall_score": 54,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 55,
+        "phonetics": 25,
+        "idiomatic": 30
+      },
+      "analysis": {
+        "word_count": 13,
+        "common_words_ratio": 0.08,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "1 nasal(s)"
+        ],
+        "idioms_found": [
+          "n\\'est-ce pas"
+        ]
+      },
+      "original_scene": 17,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Bien qu'elle eût préféré éviter l'épreuve, celle-ci s'était révélée indispensable à sa transformation",
+      "overall_score": 53,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 55,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 17,
+        "common_words_ratio": 0.12,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Si seulement Lucas avait été plus attentif aux signes avant-coureurs, peut-être auraient-ils pu éviter la séparation",
+      "overall_score": 61,
+      "difficulty_level": "C",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 75,
+        "verb_tense": 65,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 19,
+        "common_words_ratio": 0.21,
+        "verb_tense": "conditionnel",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Pourtant, il était essentiel qu'ils vécussent cette expérience pour qu'ils pussent véritablement se connaître",
+      "overall_score": 54,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 55,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 16,
+        "common_words_ratio": 0.14,
+        "verb_tense": "imparfait",
+        "grammar_features": [],
+        "phonetic_features": [
+          "7 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Le guide de montagne suggère qu'il faille toujours emporter des provisions supplémentaires afin que les randonneurs puissent survivre en cas d'urgence imprévue",
+      "overall_score": 60,
+      "difficulty_level": "C",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 75,
+        "verb_tense": 55,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 24,
+        "common_words_ratio": 0.17,
+        "verb_tense": "imparfait",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "11 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Il est impératif que chacun sache allumer un feu sans allumettes, pourvu qu'il y ait du bois sec disponible",
+      "overall_score": 53,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 75,
+        "verb_tense": 10,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 20,
+        "common_words_ratio": 0.11,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Il est peu probable que Lucas oublie la terreur de cette nuit où il croyait avoir perdu sa compagne",
+      "overall_score": 67,
+      "difficulty_level": "D",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 50,
+        "length": 75,
+        "verb_tense": 95,
+        "phonetics": 45,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 19,
+        "common_words_ratio": 0.33,
+        "verb_tense": "subjonctif",
+        "grammar_features": [
+          "2 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "1 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Ils regrettent que leur aventure ait pris une tournure si dangereuse, bien que ce fût précisément cette dangerosité qui les ait transformés",
+      "overall_score": 72,
+      "difficulty_level": "D",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 80,
+        "length": 75,
+        "verb_tense": 95,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 22,
+        "common_words_ratio": 0.3,
+        "verb_tense": "subjonctif",
+        "grammar_features": [
+          "4 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "7 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Pour que la relation survive aux épreuves futures, il faudra qu'ils apprennent à communiquer avant que les malentendus ne deviennent insurmontables",
+      "overall_score": 55,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 50,
+        "length": 75,
+        "verb_tense": 10,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 22,
+        "common_words_ratio": 0.19,
+        "verb_tense": "present",
+        "grammar_features": [
+          "2 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "11 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Afin que chacun puisse s'épanouir pleinement, il est nécessaire qu'ils acceptent l'autonomie de l'autre",
+      "overall_score": 62,
+      "difficulty_level": "D",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 60,
+        "verb_tense": 95,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 18,
+        "common_words_ratio": 0.12,
+        "verb_tense": "subjonctif",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Il eût été préférable qu'ils eussent discuté davantage avant de s'aventurer dans les montagnes",
+      "overall_score": 47,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 20,
+        "length": 60,
+        "verb_tense": 10,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 16,
+        "common_words_ratio": 0.19,
+        "verb_tense": "present",
+        "grammar_features": [],
+        "phonetic_features": [
+          "6 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Si Sophie avait su qu'elle pût compter sur sa propre résilience, elle n'aurait pas eu tant d'appréhension",
+      "overall_score": 61,
+      "difficulty_level": "C",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 75,
+        "verb_tense": 65,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 20,
+        "common_words_ratio": 0.11,
+        "verb_tense": "conditionnel",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "4 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Il est rare qu'on ait la lucidité nécessaire dans le moment présent, jusqu'à ce que le recul temporel permette la compréhension",
+      "overall_score": 52,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 75,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 23,
+        "common_words_ratio": 0.14,
+        "verb_tense": "present",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "7 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "En admettant que leur histoire inspire d'autres couples, il serait souhaitable qu'elle les encourageât à cultiver leur indépendance mutuelle",
+      "overall_score": 61,
+      "difficulty_level": "C",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 35,
+        "length": 75,
+        "verb_tense": 65,
+        "phonetics": 60,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 21,
+        "common_words_ratio": 0.15,
+        "verb_tense": "conditionnel",
+        "grammar_features": [
+          "1 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "7 nasal(s)",
+          "multiple R sounds",
+          "liaison context"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    },
+    {
+      "phrase": "Sans que l'un doive renoncer à sa personnalité pour que l'autre puisse exister, ils peuvent créer une synergie enrichissante",
+      "overall_score": 55,
+      "difficulty_level": "B",
+      "scores": {
+        "vocabulary": 70,
+        "grammar": 50,
+        "length": 75,
+        "verb_tense": 10,
+        "phonetics": 50,
+        "idiomatic": 0
+      },
+      "analysis": {
+        "word_count": 21,
+        "common_words_ratio": 0.16,
+        "verb_tense": "present",
+        "grammar_features": [
+          "2 subordinate clause(s)"
+        ],
+        "phonetic_features": [
+          "7 nasal(s)",
+          "multiple R sounds"
+        ],
+        "idioms_found": []
+      },
+      "original_scene": 18,
+      "original_type": "narrative"
+    }
+  ]
+}

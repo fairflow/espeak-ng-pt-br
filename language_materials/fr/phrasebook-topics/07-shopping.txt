@@ -1,0 +1,15 @@
+# French Phrasebook - Shopping
+# Practical phrases for real-world situations
+# Difficulty levels: A:9, B:1
+# Format: french | english | [ipa]
+
+Combien ça coûte? | How much does it cost? | [kɔ̃bjˈɛ̃ sa kˈut]
+C'est combien? | How much is it? | [sɛ kɔ̃bjˈɛ̃]
+C'est trop cher | It's too expensive | [sɛ tʁo ʃˈɛʁ]
+Je voudrais... | I would like... | [ʒə- vudʁˈɛ]
+Je cherche... | I'm looking for... | [ʒə- ʃˈɛʁʃ]
+Avez-vous...? | Do you have...? | [avˈevˈu]
+Quelle taille? | What size? | [kɛl tˈaj]
+Je vais prendre ça | I'll take this | [ʒə- vˈɛ pʁˈɑ̃dʁ sˈa]
+Puis-je payer par carte? | Can I pay by card? | [pyˈiʒ pɛjˈe paʁ kˈaʁt]
+Puis-je essayer? | Can I try it? | [pyˈiʒ esɛjˈe]

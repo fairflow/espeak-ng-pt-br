@@ -1,0 +1,632 @@
+{
+  "metadata": {
+    "source": "Common French phrasebooks and online resources",
+    "organization": "by situation/context",
+    "levels": {
+      "A": "Beginner - basic greetings, simple questions",
+      "B": "Elementary - common situations, basic conversations",
+      "C": "Intermediate - complex situations, nuanced expressions",
+      "D": "Advanced - idiomatic, literary, formal"
+    }
+  },
+  "phrases": [
+    {
+      "french": "Bonjour",
+      "situation": "greetings",
+      "level": "A",
+      "id": 1
+    },
+    {
+      "french": "Bonsoir",
+      "situation": "greetings",
+      "level": "A",
+      "id": 2
+    },
+    {
+      "french": "Salut",
+      "situation": "greetings",
+      "level": "A",
+      "id": 3
+    },
+    {
+      "french": "Au revoir",
+      "situation": "farewells",
+      "level": "A",
+      "id": 4
+    },
+    {
+      "french": "À bientôt",
+      "situation": "farewells",
+      "level": "A",
+      "id": 5
+    },
+    {
+      "french": "À demain",
+      "situation": "farewells",
+      "level": "A",
+      "id": 6
+    },
+    {
+      "french": "Bonne journée",
+      "situation": "farewells",
+      "level": "A",
+      "id": 7
+    },
+    {
+      "french": "Bonne soirée",
+      "situation": "farewells",
+      "level": "A",
+      "id": 8
+    },
+    {
+      "french": "Bonne nuit",
+      "situation": "farewells",
+      "level": "A",
+      "id": 9
+    },
+    {
+      "french": "Merci",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 10
+    },
+    {
+      "french": "Merci beaucoup",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 11
+    },
+    {
+      "french": "De rien",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 12
+    },
+    {
+      "french": "S'il vous plaît",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 13
+    },
+    {
+      "french": "S'il te plaît",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 14
+    },
+    {
+      "french": "Excusez-moi",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 15
+    },
+    {
+      "french": "Pardon",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 16
+    },
+    {
+      "french": "Désolé",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 17
+    },
+    {
+      "french": "Oui",
+      "situation": "basics",
+      "level": "A",
+      "id": 18
+    },
+    {
+      "french": "Non",
+      "situation": "basics",
+      "level": "A",
+      "id": 19
+    },
+    {
+      "french": "Comment allez-vous?",
+      "situation": "greetings",
+      "level": "A",
+      "id": 20
+    },
+    {
+      "french": "Comment ça va?",
+      "situation": "greetings",
+      "level": "A",
+      "id": 21
+    },
+    {
+      "french": "Ça va",
+      "situation": "greetings",
+      "level": "A",
+      "id": 22
+    },
+    {
+      "french": "Ça va bien",
+      "situation": "greetings",
+      "level": "A",
+      "id": 23
+    },
+    {
+      "french": "Je vais bien, merci",
+      "situation": "greetings",
+      "level": "A",
+      "id": 24
+    },
+    {
+      "french": "Et vous?",
+      "situation": "greetings",
+      "level": "A",
+      "id": 25
+    },
+    {
+      "french": "Je m'appelle...",
+      "situation": "introductions",
+      "level": "A",
+      "id": 26
+    },
+    {
+      "french": "Comment vous appelez-vous?",
+      "situation": "introductions",
+      "level": "A",
+      "id": 27
+    },
+    {
+      "french": "Enchanté",
+      "situation": "introductions",
+      "level": "A",
+      "id": 28
+    },
+    {
+      "french": "Enchantée",
+      "situation": "introductions",
+      "level": "A",
+      "id": 29
+    },
+    {
+      "french": "Ravi de faire votre connaissance",
+      "situation": "introductions",
+      "level": "B",
+      "id": 30
+    },
+    {
+      "french": "D'où venez-vous?",
+      "situation": "introductions",
+      "level": "A",
+      "id": 31
+    },
+    {
+      "french": "Je viens de...",
+      "situation": "introductions",
+      "level": "A",
+      "id": 32
+    },
+    {
+      "french": "Je ne comprends pas",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 33
+    },
+    {
+      "french": "Je ne parle pas français",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 34
+    },
+    {
+      "french": "Je parle un peu français",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 35
+    },
+    {
+      "french": "Parlez-vous anglais?",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 36
+    },
+    {
+      "french": "Plus lentement, s'il vous plaît",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 37
+    },
+    {
+      "french": "Pouvez-vous répéter?",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 38
+    },
+    {
+      "french": "Comment dit-on... en français?",
+      "situation": "asking_for_help",
+      "level": "B",
+      "id": 39
+    },
+    {
+      "french": "Qu'est-ce que ça veut dire?",
+      "situation": "asking_for_help",
+      "level": "B",
+      "id": 40
+    },
+    {
+      "french": "J'ai besoin d'aide",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 41
+    },
+    {
+      "french": "Pouvez-vous m'aider?",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 42
+    },
+    {
+      "french": "Où est...?",
+      "situation": "directions",
+      "level": "A",
+      "id": 43
+    },
+    {
+      "french": "Où se trouve...?",
+      "situation": "directions",
+      "level": "B",
+      "id": 44
+    },
+    {
+      "french": "Où sont les toilettes?",
+      "situation": "directions",
+      "level": "A",
+      "id": 45
+    },
+    {
+      "french": "C'est loin d'ici?",
+      "situation": "directions",
+      "level": "A",
+      "id": 46
+    },
+    {
+      "french": "C'est près d'ici?",
+      "situation": "directions",
+      "level": "A",
+      "id": 47
+    },
+    {
+      "french": "À gauche",
+      "situation": "directions",
+      "level": "A",
+      "id": 48
+    },
+    {
+      "french": "À droite",
+      "situation": "directions",
+      "level": "A",
+      "id": 49
+    },
+    {
+      "french": "Tout droit",
+      "situation": "directions",
+      "level": "A",
+      "id": 50
+    },
+    {
+      "french": "Je cherche...",
+      "situation": "directions",
+      "level": "A",
+      "id": 51
+    },
+    {
+      "french": "Combien ça coûte?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 52
+    },
+    {
+      "french": "C'est combien?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 53
+    },
+    {
+      "french": "C'est trop cher",
+      "situation": "shopping",
+      "level": "A",
+      "id": 54
+    },
+    {
+      "french": "Je voudrais...",
+      "situation": "shopping",
+      "level": "A",
+      "id": 55
+    },
+    {
+      "french": "Je cherche...",
+      "situation": "shopping",
+      "level": "A",
+      "id": 56
+    },
+    {
+      "french": "Avez-vous...?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 57
+    },
+    {
+      "french": "Quelle taille?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 58
+    },
+    {
+      "french": "Puis-je essayer?",
+      "situation": "shopping",
+      "level": "B",
+      "id": 59
+    },
+    {
+      "french": "Je vais prendre ça",
+      "situation": "shopping",
+      "level": "A",
+      "id": 60
+    },
+    {
+      "french": "Puis-je payer par carte?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 61
+    },
+    {
+      "french": "Une table pour deux, s'il vous plaît",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 62
+    },
+    {
+      "french": "Le menu, s'il vous plaît",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 63
+    },
+    {
+      "french": "Je voudrais...",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 64
+    },
+    {
+      "french": "L'addition, s'il vous plaît",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 65
+    },
+    {
+      "french": "C'était délicieux",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 66
+    },
+    {
+      "french": "Qu'est-ce que vous recommandez?",
+      "situation": "restaurant",
+      "level": "B",
+      "id": 67
+    },
+    {
+      "french": "Je suis végétarien",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 68
+    },
+    {
+      "french": "Je suis allergique à...",
+      "situation": "restaurant",
+      "level": "B",
+      "id": 69
+    },
+    {
+      "french": "Un café, s'il vous plaît",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 70
+    },
+    {
+      "french": "Une carafe d'eau, s'il vous plaît",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 71
+    },
+    {
+      "french": "Comment vas-tu?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 72
+    },
+    {
+      "french": "Qu'est-ce que tu fais?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 73
+    },
+    {
+      "french": "Tu fais quoi?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 74
+    },
+    {
+      "french": "Ça te dit?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 75
+    },
+    {
+      "french": "J'ai envie de...",
+      "situation": "conversation",
+      "level": "B",
+      "id": 76
+    },
+    {
+      "french": "Tu veux prendre un verre?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 77
+    },
+    {
+      "french": "Comment va le travail?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 78
+    },
+    {
+      "french": "Comment va ta famille?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 79
+    },
+    {
+      "french": "Tiens-moi au courant",
+      "situation": "conversation",
+      "level": "C",
+      "id": 80
+    },
+    {
+      "french": "Tu t'en sors?",
+      "situation": "conversation",
+      "level": "C",
+      "id": 81
+    },
+    {
+      "french": "Je suis content",
+      "situation": "feelings",
+      "level": "B",
+      "id": 82
+    },
+    {
+      "french": "Je suis contente",
+      "situation": "feelings",
+      "level": "B",
+      "id": 83
+    },
+    {
+      "french": "Je suis fatigué",
+      "situation": "feelings",
+      "level": "B",
+      "id": 84
+    },
+    {
+      "french": "Je suis fatiguée",
+      "situation": "feelings",
+      "level": "B",
+      "id": 85
+    },
+    {
+      "french": "J'ai faim",
+      "situation": "feelings",
+      "level": "A",
+      "id": 86
+    },
+    {
+      "french": "J'ai soif",
+      "situation": "feelings",
+      "level": "A",
+      "id": 87
+    },
+    {
+      "french": "J'ai chaud",
+      "situation": "feelings",
+      "level": "A",
+      "id": 88
+    },
+    {
+      "french": "J'ai froid",
+      "situation": "feelings",
+      "level": "A",
+      "id": 89
+    },
+    {
+      "french": "Je suis crevé",
+      "situation": "feelings",
+      "level": "C",
+      "id": 90
+    },
+    {
+      "french": "J'ai le cafard",
+      "situation": "feelings",
+      "level": "C",
+      "id": 91
+    },
+    {
+      "french": "J'ai hâte",
+      "situation": "feelings",
+      "level": "B",
+      "id": 92
+    },
+    {
+      "french": "Je m'ennuie",
+      "situation": "feelings",
+      "level": "B",
+      "id": 93
+    },
+    {
+      "french": "Ah bon!",
+      "situation": "exclamations",
+      "level": "B",
+      "id": 94
+    },
+    {
+      "french": "N'importe quoi!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 95
+    },
+    {
+      "french": "C'est n'importe quoi!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 96
+    },
+    {
+      "french": "Laisse tomber",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 97
+    },
+    {
+      "french": "Bref",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 98
+    },
+    {
+      "french": "Dis donc!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 99
+    },
+    {
+      "french": "La vache!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 100
+    },
+    {
+      "french": "C'est nul",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 101
+    },
+    {
+      "french": "Allez!",
+      "situation": "exclamations",
+      "level": "B",
+      "id": 102
+    },
+    {
+      "french": "Bof",
+      "situation": "exclamations",
+      "level": "B",
+      "id": 103
+    }
+  ]
+}

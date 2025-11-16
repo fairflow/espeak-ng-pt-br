@@ -1,0 +1,1301 @@
+{
+  "metadata": {
+    "total_phrases": 215,
+    "dialogue_count": 153,
+    "narrative_count": 62,
+    "min_words": 3,
+    "max_words": 25
+  },
+  "phrases": [
+    {
+      "text": "Bonjour Sophie, ça va?",
+      "type": "dialogue",
+      "scene_number": 1,
+      "scene_title": "Le Café du Matin"
+    },
+    {
+      "text": "Ça va. Qu'est-ce que tu prends ce matin?",
+      "type": "dialogue",
+      "scene_number": 1,
+      "scene_title": "Le Café du Matin"
+    },
+    {
+      "text": "Salut! Tu as bien dormi?",
+      "type": "dialogue",
+      "scene_number": 1,
+      "scene_title": "Le Café du Matin"
+    },
+    {
+      "text": "Non, pas très bien. J'ai fait des rêves étranges.",
+      "type": "dialogue",
+      "scene_number": 1,
+      "scene_title": "Le Café du Matin"
+    },
+    {
+      "text": "Tu veux du sucre dans ton café?",
+      "type": "dialogue",
+      "scene_number": 1,
+      "scene_title": "Le Café du Matin"
+    },
+    {
+      "text": "Il fait beau aujourd'hui,",
+      "type": "dialogue",
+      "scene_number": 1,
+      "scene_title": "Le Café du Matin"
+    },
+    {
+      "text": "Oui, c'est une belle journée.",
+      "type": "dialogue",
+      "scene_number": 1,
+      "scene_title": "Le Café du Matin"
+    },
+    {
+      "text": "Tu sais, Lucas, la vie est si monotone ici.",
+      "type": "dialogue",
+      "scene_number": 1,
+      "scene_title": "Le Café du Matin"
+    },
+    {
+      "text": "Je suis d'accord avec toi. Chaque jour est pareil.",
+      "type": "dialogue",
+      "scene_number": 1,
+      "scene_title": "Le Café du Matin"
+    },
+    {
+      "text": "Tu as raison! Pourquoi pas?",
+      "type": "dialogue",
+      "scene_number": 1,
+      "scene_title": "Le Café du Matin"
+    },
+    {
+      "text": "Les rues du Marais commencent à s'animer",
+      "type": "narrative",
+      "scene_number": 1,
+      "scene_title": "Le Café du Matin"
+    },
+    {
+      "text": "Qu'est-ce que je peux faire pour vous?",
+      "type": "dialogue",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "Nous avons besoin de pain,",
+      "type": "dialogue",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "Le pain est là-bas, près de l'entrée.",
+      "type": "dialogue",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "Le fromage est frais?",
+      "type": "dialogue",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "Oui, il est très bon. Je l'ai reçu ce matin.",
+      "type": "dialogue",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "C'est trop cher pour moi.",
+      "type": "dialogue",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "j'ai des tomates d'hier. Deux euros le kilo.",
+      "type": "dialogue",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "Où est la boulangerie?",
+      "type": "dialogue",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "Elle est au coin de la rue, après l'église.",
+      "type": "dialogue",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "J'aime ce quartier.",
+      "type": "dialogue",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "Moi aussi, c'est très joli. Les vieux bâtiments ont du charme.",
+      "type": "dialogue",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "Bonne idée! On peut prendre une bouteille pour ce soir.",
+      "type": "dialogue",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "Sophie fait la grimace",
+      "type": "narrative",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "Lucas a une idée",
+      "type": "narrative",
+      "scene_number": 2,
+      "scene_title": "Les Achats en Ville"
+    },
+    {
+      "text": "Tu sais, Lucas, je suis fatigué de cette vie,",
+      "type": "dialogue",
+      "scene_number": 3,
+      "scene_title": "Conversation sur le Rêve"
+    },
+    {
+      "text": "Moi aussi, tout est pareil chaque jour. Métro, boulot, dodo.",
+      "type": "dialogue",
+      "scene_number": 3,
+      "scene_title": "Conversation sur le Rêve"
+    },
+    {
+      "text": "On pourrait voyager quelque part. Pour de vrai, pas juste en parler.",
+      "type": "dialogue",
+      "scene_number": 3,
+      "scene_title": "Conversation sur le Rêve"
+    },
+    {
+      "text": "Où veux-tu aller?",
+      "type": "dialogue",
+      "scene_number": 3,
+      "scene_title": "Conversation sur le Rêve"
+    },
+    {
+      "text": "Je ne sais pas encore. Mais loin d'ici.",
+      "type": "dialogue",
+      "scene_number": 3,
+      "scene_title": "Conversation sur le Rêve"
+    },
+    {
+      "text": "La montagne ou la mer?",
+      "type": "dialogue",
+      "scene_number": 3,
+      "scene_title": "Conversation sur le Rêve"
+    },
+    {
+      "text": "Oui! C'est une excellente idée!",
+      "type": "dialogue",
+      "scene_number": 3,
+      "scene_title": "Conversation sur le Rêve"
+    },
+    {
+      "text": "J'ai un peu peur, tu sais.",
+      "type": "dialogue",
+      "scene_number": 3,
+      "scene_title": "Conversation sur le Rêve"
+    },
+    {
+      "text": "N'aie pas peur, ça va bien se passer.",
+      "type": "dialogue",
+      "scene_number": 3,
+      "scene_title": "Conversation sur le Rêve"
+    },
+    {
+      "text": "Tu as raison, allons-y! Qu'est-ce qu'on risque?",
+      "type": "dialogue",
+      "scene_number": 3,
+      "scene_title": "Conversation sur le Rêve"
+    },
+    {
+      "text": "C'est décidé, nous partons!",
+      "type": "dialogue",
+      "scene_number": 4,
+      "scene_title": "La Décision"
+    },
+    {
+      "text": "Dans une semaine. J'ai regardé les trains cette nuit.",
+      "type": "dialogue",
+      "scene_number": 4,
+      "scene_title": "La Décision"
+    },
+    {
+      "text": "Une semaine? C'est si rapide!",
+      "type": "dialogue",
+      "scene_number": 4,
+      "scene_title": "La Décision"
+    },
+    {
+      "text": "Oui, mais c'est mieux comme ça. Si on attend trop, on ne partira jamais.",
+      "type": "dialogue",
+      "scene_number": 4,
+      "scene_title": "La Décision"
+    },
+    {
+      "text": "Tu as raison. Qu'est-ce qu'on emporte?",
+      "type": "dialogue",
+      "scene_number": 4,
+      "scene_title": "La Décision"
+    },
+    {
+      "text": "Je suis excité! C'est vraiment en train d'arriver!",
+      "type": "dialogue",
+      "scene_number": 4,
+      "scene_title": "La Décision"
+    },
+    {
+      "text": "Aller simple ou aller-retour?",
+      "type": "dialogue",
+      "scene_number": 5,
+      "scene_title": "À la Gare"
+    },
+    {
+      "text": "À onze heures quinze. Vous avez de la chance, c'est le TGV direct.",
+      "type": "dialogue",
+      "scene_number": 5,
+      "scene_title": "À la Gare"
+    },
+    {
+      "text": "Nous avons le temps de prendre un café?",
+      "type": "dialogue",
+      "scene_number": 5,
+      "scene_title": "À la Gare"
+    },
+    {
+      "text": "Oui, nous avons une demi-heure.",
+      "type": "dialogue",
+      "scene_number": 5,
+      "scene_title": "À la Gare"
+    },
+    {
+      "text": "Je l'ai déjà pris. Et toi, tu as les billets?",
+      "type": "dialogue",
+      "scene_number": 5,
+      "scene_title": "À la Gare"
+    },
+    {
+      "text": "Tu es prêt pour l'aventure?",
+      "type": "dialogue",
+      "scene_number": 5,
+      "scene_title": "À la Gare"
+    },
+    {
+      "text": "Montons vite, il y a du monde,",
+      "type": "dialogue",
+      "scene_number": 5,
+      "scene_title": "À la Gare"
+    },
+    {
+      "text": "C'est parti pour une nouvelle vie!",
+      "type": "dialogue",
+      "scene_number": 5,
+      "scene_title": "À la Gare"
+    },
+    {
+      "text": "Leurs sacs à dos sont prêts",
+      "type": "narrative",
+      "scene_number": 5,
+      "scene_title": "À la Gare"
+    },
+    {
+      "text": "Nous avons finalement quitté Paris,",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "As-tu fermé la porte à clé?",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "Oui, j'ai vérifié trois fois. Et toi, tu as prévenu ton travail?",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "Oui, j'ai envoyé un email hier soir.",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "Qu'est-ce que tu ressens?",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "Je me sens libre et un peu nerveux. C'est bizarre, non?",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "Moi aussi, c'est normal. On change toute notre vie.",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "Regarde le paysage, il est magnifique!",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "J'ai apporté des sandwichs. Fromage et jambon.",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "Excellente idée, j'ai faim.",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "Oh non! J'ai oublié mon livre!",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "Ce n'est pas grave, on peut parler.",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "De quoi veux-tu parler?",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "De nos rêves et de notre avenir. Qu'est-ce que tu veux vraiment dans la vie?",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "C'est une grande question. Je veux me sentir vivante, je pense.",
+      "type": "dialogue",
+      "scene_number": 6,
+      "scene_title": "Dans le Train"
+    },
+    {
+      "text": "C'est plus petit que je pensais.",
+      "type": "dialogue",
+      "scene_number": 7,
+      "scene_title": "Arrivée au Village"
+    },
+    {
+      "text": "Mais c'est charmant et tranquille. Regarde ces montagnes!",
+      "type": "dialogue",
+      "scene_number": 7,
+      "scene_title": "Arrivée au Village"
+    },
+    {
+      "text": "Il y a une auberge là-bas.",
+      "type": "dialogue",
+      "scene_number": 7,
+      "scene_title": "Arrivée au Village"
+    },
+    {
+      "text": "Demandons s'ils ont des chambres.",
+      "type": "dialogue",
+      "scene_number": 7,
+      "scene_title": "Arrivée au Village"
+    },
+    {
+      "text": "Bonjour, avez-vous deux chambres libres?",
+      "type": "dialogue",
+      "scene_number": 7,
+      "scene_title": "Arrivée au Village"
+    },
+    {
+      "text": "Oui, mais seulement pour ce soir. Demain, j'ai une réservation de groupe.",
+      "type": "dialogue",
+      "scene_number": 7,
+      "scene_title": "Arrivée au Village"
+    },
+    {
+      "text": "C'est parfait, nous les prenons.",
+      "type": "dialogue",
+      "scene_number": 7,
+      "scene_title": "Arrivée au Village"
+    },
+    {
+      "text": "Soixante euros par chambre, avec le petit-déjeuner.",
+      "type": "dialogue",
+      "scene_number": 7,
+      "scene_title": "Arrivée au Village"
+    },
+    {
+      "text": "Le dîner est servi à sept heures dans la salle à manger,",
+      "type": "dialogue",
+      "scene_number": 7,
+      "scene_title": "Arrivée au Village"
+    },
+    {
+      "text": "Allons explorer le village!",
+      "type": "dialogue",
+      "scene_number": 7,
+      "scene_title": "Arrivée au Village"
+    },
+    {
+      "text": "Le village est pittoresque avec ses maisons en pierre et ses volets en bois",
+      "type": "narrative",
+      "scene_number": 7,
+      "scene_title": "Arrivée au Village"
+    },
+    {
+      "text": "Excusez-moi, où est la boulangerie?",
+      "type": "dialogue",
+      "scene_number": 8,
+      "scene_title": "Rencontres et Découvertes"
+    },
+    {
+      "text": "Tournez à droite après l'église. Vous ne pouvez pas la manquer.",
+      "type": "dialogue",
+      "scene_number": 8,
+      "scene_title": "Rencontres et Découvertes"
+    },
+    {
+      "text": "Paris! Bienvenue dans notre village! Ici, c'est plus calme qu'à Paris.",
+      "type": "dialogue",
+      "scene_number": 8,
+      "scene_title": "Rencontres et Découvertes"
+    },
+    {
+      "text": "Les gens sont très gentils ici.",
+      "type": "dialogue",
+      "scene_number": 8,
+      "scene_title": "Rencontres et Découvertes"
+    },
+    {
+      "text": "Oui, c'est différent de la grande ville. Tout le monde se parle.",
+      "type": "dialogue",
+      "scene_number": 8,
+      "scene_title": "Rencontres et Découvertes"
+    },
+    {
+      "text": "Qu'est-ce qu'on peut faire ici?",
+      "type": "dialogue",
+      "scene_number": 8,
+      "scene_title": "Rencontres et Découvertes"
+    },
+    {
+      "text": "Il y a beaucoup de randonnées. Les montagnes sont magnifiques.",
+      "type": "dialogue",
+      "scene_number": 8,
+      "scene_title": "Rencontres et Découvertes"
+    },
+    {
+      "text": "Oui, nous adorons la nature. C'est pour ça qu'on est venus.",
+      "type": "dialogue",
+      "scene_number": 8,
+      "scene_title": "Rencontres et Découvertes"
+    },
+    {
+      "text": "La boulangère est bavarde",
+      "type": "narrative",
+      "scene_number": 8,
+      "scene_title": "Rencontres et Découvertes"
+    },
+    {
+      "text": "Nous marchions depuis trois heures quand les nuages sont arrivés,",
+      "type": "dialogue",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Nous devrions peut-être faire demi-tour.",
+      "type": "dialogue",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Non, le refuge n'est pas loin. Regarde la carte.",
+      "type": "dialogue",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Tu es trop optimiste parfois!",
+      "type": "dialogue",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Ce n'est pas le moment de se disputer.",
+      "type": "dialogue",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Je suis désolé, j'ai juste peur.",
+      "type": "dialogue",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Moi aussi, mais il faut continuer. On ne peut pas rester ici.",
+      "type": "dialogue",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Je ne vois presque plus le sentier.",
+      "type": "dialogue",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Attends, j'ai perdu mon sac! Il était juste là!",
+      "type": "dialogue",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Je reviens le chercher, toi, continue! Suis le sentier!",
+      "type": "dialogue",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Le temps est beau, le ciel est bleu",
+      "type": "narrative",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Ils suivent un sentier qui monte vers un refuge de montagne",
+      "type": "narrative",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Le changement est soudain",
+      "type": "narrative",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Mais Lucas est déjà parti dans le brouillard.",
+      "type": "narrative",
+      "scene_number": 9,
+      "scene_title": "La Randonnée Difficile"
+    },
+    {
+      "text": "Lucas? Lucas, où es-tu?",
+      "type": "dialogue",
+      "scene_number": 10,
+      "scene_title": "La Séparation Involontaire"
+    },
+    {
+      "text": "Je ne sais plus où je suis.",
+      "type": "dialogue",
+      "scene_number": 10,
+      "scene_title": "La Séparation Involontaire"
+    },
+    {
+      "text": "Il aurait fallu rester ensemble. Nous avons été stupides.",
+      "type": "dialogue",
+      "scene_number": 10,
+      "scene_title": "La Séparation Involontaire"
+    },
+    {
+      "text": "Maintenant, je suis complètement seule.",
+      "type": "dialogue",
+      "scene_number": 10,
+      "scene_title": "La Séparation Involontaire"
+    },
+    {
+      "text": "J'aurais dû l'écouter tout à l'heure. Il voulait faire demi-tour.",
+      "type": "dialogue",
+      "scene_number": 10,
+      "scene_title": "La Séparation Involontaire"
+    },
+    {
+      "text": "Mais il est trop tard pour les regrets.",
+      "type": "dialogue",
+      "scene_number": 10,
+      "scene_title": "La Séparation Involontaire"
+    },
+    {
+      "text": "Je dois trouver un abri. Je ne peux pas rester dehors cette nuit.",
+      "type": "dialogue",
+      "scene_number": 10,
+      "scene_title": "La Séparation Involontaire"
+    },
+    {
+      "text": "Là-bas, il y a quelque chose!",
+      "type": "dialogue",
+      "scene_number": 10,
+      "scene_title": "La Séparation Involontaire"
+    },
+    {
+      "text": "La Séparation Involontaire\n\nSophie attend quelques minutes, puis commence à paniquer",
+      "type": "narrative",
+      "scene_number": 10,
+      "scene_title": "La Séparation Involontaire"
+    },
+    {
+      "text": "Le brouillard est si dense qu'elle ne voit pas à trois mètres devant elle",
+      "type": "narrative",
+      "scene_number": 10,
+      "scene_title": "La Séparation Involontaire"
+    },
+    {
+      "text": "C'est une forme sombre dans le brouillard",
+      "type": "narrative",
+      "scene_number": 10,
+      "scene_title": "La Séparation Involontaire"
+    },
+    {
+      "text": "Heureusement, j'ai des allumettes dans ma poche.",
+      "type": "dialogue",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Le bois est humide, ce ne sera pas facile.",
+      "type": "dialogue",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Si Lucas était là, il serait fier de moi.",
+      "type": "dialogue",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Maintenant, j'ai très faim, mais je n'ai rien à manger.",
+      "type": "dialogue",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Ce sont des orties! Elles sont comestibles si on les fait cuire.",
+      "type": "dialogue",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "J'ose à peine les toucher, elles piquent.",
+      "type": "dialogue",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Mais il le faut si je veux survivre.",
+      "type": "dialogue",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Où puis-je trouver de l'eau potable?",
+      "type": "dialogue",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Avec le feu, l'eau de la source, et les orties, je fais une soupe.",
+      "type": "dialogue",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "La nature me donne exactement ce dont j'ai besoin.",
+      "type": "dialogue",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Cette épreuve m'apprend que je suis plus forte que je ne pensais.",
+      "type": "dialogue",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "C'est une vieille structure de berger, simple mais solide",
+      "type": "narrative",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Il y a une cheminée",
+      "type": "narrative",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Elle trouve du bois à l'intérieur de la cabane, mais il est humide",
+      "type": "narrative",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Elle arrange le bois, met du papier, prend une allumette",
+      "type": "narrative",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Mais après quelques heures, la faim se fait sentir",
+      "type": "narrative",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Elle sort de la cabane pour explorer les environs",
+      "type": "narrative",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Elle cueille les orties avec précaution, en utilisant un bout de tissu pour protéger ses mains",
+      "type": "narrative",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Maintenant, elle a besoin d'eau",
+      "type": "narrative",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Elle remplit une petite casserole qu'elle a trouvée dans la cabane",
+      "type": "narrative",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "De retour près du feu, elle fait bouillir l'eau et y met les orties",
+      "type": "narrative",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "La soupe est simple mais délicieuse",
+      "type": "narrative",
+      "scene_number": 11,
+      "scene_title": "Le Défi de Sophie - Les Quatre Éléments"
+    },
+    {
+      "text": "Comment ai-je pu la perdre? Comment?",
+      "type": "dialogue",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "Je n'aurais jamais dû la laisser continuer seule. J'aurais dû rester avec elle.",
+      "type": "dialogue",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "Il faut que je trouve de l'aide.",
+      "type": "dialogue",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "Le village ne peut pas être très loin. Si je descends, c'est par là.",
+      "type": "dialogue",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "Elle commence à descendre un sentier que je n'avais pas vu.",
+      "type": "dialogue",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "J'ai l'impression qu'elle veut me montrer quelque chose.",
+      "type": "dialogue",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "Même si c'est étrange, je dois lui faire confiance. Je n'ai pas d'autre choix.",
+      "type": "dialogue",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "Sophie compte sur moi, je ne peux pas l'abandonner.",
+      "type": "dialogue",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "Voilà une lumière au loin! La chèvre m'a guidé!",
+      "type": "dialogue",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "À l'aide! J'ai besoin d'aide!",
+      "type": "dialogue",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "Il essaie de s'orienter",
+      "type": "narrative",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "Il pourrait tourner en rond pendant des heures",
+      "type": "narrative",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "Au contraire, elle s'approche, puis se retourne et commence à descendre un sentier",
+      "type": "narrative",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "La chèvre s'arrête et se retourne, comme pour vérifier s'il suit",
+      "type": "narrative",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "Il suit la chèvre qui descend le sentier avec assurance",
+      "type": "narrative",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "C'est une ferme",
+      "type": "narrative",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "La chèvre bêle une dernière fois et s'en va",
+      "type": "narrative",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "Un homme sort de la maison, surpris mais prêt à aider.",
+      "type": "narrative",
+      "scene_number": 12,
+      "scene_title": "Le Défi de Lucas - Le Guide Inattendu"
+    },
+    {
+      "text": "Il faut que nous organisions une équipe de recherche,",
+      "type": "dialogue",
+      "scene_number": 13,
+      "scene_title": "Les Secours"
+    },
+    {
+      "text": "Pourvu qu'elle ait trouvé un abri!",
+      "type": "dialogue",
+      "scene_number": 13,
+      "scene_title": "Les Secours"
+    },
+    {
+      "text": "Le jeune homme a dit qu'elle portait une veste rouge. Ça nous aidera.",
+      "type": "dialogue",
+      "scene_number": 13,
+      "scene_title": "Les Secours"
+    },
+    {
+      "text": "Nous avons besoin que vous nous montriez sur la carte exactement où vous étiez.",
+      "type": "dialogue",
+      "scene_number": 13,
+      "scene_title": "Les Secours"
+    },
+    {
+      "text": "Il est important que vous restiez calme. Nous sommes des professionnels.",
+      "type": "dialogue",
+      "scene_number": 13,
+      "scene_title": "Les Secours"
+    },
+    {
+      "text": "Quoi qu'il arrive, nous la retrouverons, n'est-ce pas?",
+      "type": "dialogue",
+      "scene_number": 13,
+      "scene_title": "Les Secours"
+    },
+    {
+      "text": "L'hélicoptère partira dès que le temps le permettra. Au lever du jour.",
+      "type": "dialogue",
+      "scene_number": 13,
+      "scene_title": "Les Secours"
+    },
+    {
+      "text": "Les Secours\n\nLucas explique la situation au fermier, qui appelle immédiatement les secours de montagne",
+      "type": "narrative",
+      "scene_number": 13,
+      "scene_title": "Les Secours"
+    },
+    {
+      "text": "Cette épreuve m'a fait comprendre qui je suis vraiment.",
+      "type": "dialogue",
+      "scene_number": 14,
+      "scene_title": "La Réflexion de Sophie"
+    },
+    {
+      "text": "Quoi que la vie me réserve, je saurai y faire face. J'en suis sûre maintenant.",
+      "type": "dialogue",
+      "scene_number": 14,
+      "scene_title": "La Réflexion de Sophie"
+    },
+    {
+      "text": "Il n'est pas nécessaire d'avoir toujours quelqu'un à ses côtés.",
+      "type": "dialogue",
+      "scene_number": 14,
+      "scene_title": "La Réflexion de Sophie"
+    },
+    {
+      "text": "C'est comme si j'avais retrouvé une partie de moi-même que j'avais perdue.",
+      "type": "dialogue",
+      "scene_number": 14,
+      "scene_title": "La Réflexion de Sophie"
+    },
+    {
+      "text": "Il est temps que je descende chercher de l'aide.",
+      "type": "dialogue",
+      "scene_number": 14,
+      "scene_title": "La Réflexion de Sophie"
+    },
+    {
+      "text": "Cette montagne m'a donné un cadeau inestimable: la confiance en moi.",
+      "type": "dialogue",
+      "scene_number": 14,
+      "scene_title": "La Réflexion de Sophie"
+    },
+    {
+      "text": "La Réflexion de Sophie\n\nAu lever du jour, Sophie est toujours dans la cabane",
+      "type": "narrative",
+      "scene_number": 14,
+      "scene_title": "La Réflexion de Sophie"
+    },
+    {
+      "text": "C'est un hélicoptère de secours!",
+      "type": "dialogue",
+      "scene_number": 15,
+      "scene_title": "La Découverte"
+    },
+    {
+      "text": "Ils me cherchent, il faut que je leur fasse signe!",
+      "type": "dialogue",
+      "scene_number": 15,
+      "scene_title": "La Découverte"
+    },
+    {
+      "text": "Là-haut! Je suis ici! Ici!",
+      "type": "dialogue",
+      "scene_number": 15,
+      "scene_title": "La Découverte"
+    },
+    {
+      "text": "Ils m'ont vue, ils descendent!",
+      "type": "dialogue",
+      "scene_number": 15,
+      "scene_title": "La Découverte"
+    },
+    {
+      "text": "Que je suis soulagée!",
+      "type": "dialogue",
+      "scene_number": 15,
+      "scene_title": "La Découverte"
+    },
+    {
+      "text": "Le brouillard s'est levé, le ciel est clair",
+      "type": "narrative",
+      "scene_number": 15,
+      "scene_title": "La Découverte"
+    },
+    {
+      "text": "L'hélicoptère fait un cercle, puis se rapproche",
+      "type": "narrative",
+      "scene_number": 15,
+      "scene_title": "La Découverte"
+    },
+    {
+      "text": "Sophie! Dieu merci, tu es vivante!",
+      "type": "dialogue",
+      "scene_number": 16,
+      "scene_title": "La Réunion"
+    },
+    {
+      "text": "Pardonne-moi de t'avoir laissée partir seule. Je suis tellement désolé.",
+      "type": "dialogue",
+      "scene_number": 16,
+      "scene_title": "La Réunion"
+    },
+    {
+      "text": "Non, c'est moi qui aurais dû t'écouter. Tu voulais faire demi-tour.",
+      "type": "dialogue",
+      "scene_number": 16,
+      "scene_title": "La Réunion"
+    },
+    {
+      "text": "L'important, c'est que nous soyons tous les deux sains et saufs.",
+      "type": "dialogue",
+      "scene_number": 16,
+      "scene_title": "La Réunion"
+    },
+    {
+      "text": "Cette expérience nous a changés,",
+      "type": "dialogue",
+      "scene_number": 16,
+      "scene_title": "La Réunion"
+    },
+    {
+      "text": "Je ne suis plus la même personne qu'avant. Cette nuit dans la montagne...",
+      "type": "dialogue",
+      "scene_number": 16,
+      "scene_title": "La Réunion"
+    },
+    {
+      "text": "Moi non plus, j'ai appris tellement de choses. La chèvre qui m'a guidé, les gens qui m'ont aidé...",
+      "type": "dialogue",
+      "scene_number": 16,
+      "scene_title": "La Réunion"
+    },
+    {
+      "text": "Quand on est séparés, on réalise ce qui compte vraiment.",
+      "type": "dialogue",
+      "scene_number": 16,
+      "scene_title": "La Réunion"
+    },
+    {
+      "text": "Je ne veux plus jamais te perdre.",
+      "type": "dialogue",
+      "scene_number": 16,
+      "scene_title": "La Réunion"
+    },
+    {
+      "text": "Et c'est exactement ce qui rend notre relation plus forte. Nous sommes deux personnes complètes qui choisissent d'être ensemble.",
+      "type": "dialogue",
+      "scene_number": 16,
+      "scene_title": "La Réunion"
+    },
+    {
+      "text": "Nous sommes venus pour nous trouver nous-mêmes.",
+      "type": "dialogue",
+      "scene_number": 16,
+      "scene_title": "La Réunion"
+    },
+    {
+      "text": "Et nous avons réussi,",
+      "type": "dialogue",
+      "scene_number": 16,
+      "scene_title": "La Réunion"
+    },
+    {
+      "text": "Je ne vois presque plus le sentier.",
+      "type": "dialogue",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "Cette cabane a survécu à combien de tempêtes, à combien de solitudes?",
+      "type": "dialogue",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "Et c'est exactement ce qui rend notre relation plus forte.",
+      "type": "dialogue",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "Cette épreuve m'a fait comprendre qui je suis vraiment.",
+      "type": "dialogue",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "La nature me donne exactement ce dont j'ai besoin.",
+      "type": "dialogue",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "ici, c'est dans l'absence que se cristallise non pas l'idéalisation de l'autre, mais la découverte de soi",
+      "type": "narrative",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "Les orties piquantes incarnent cette dialectique fondamentale où toute vérité nutritive exige d'abord qu'on accepte sa capacité à blesser",
+      "type": "narrative",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "Était-ce véritablement un hasard, ou Lucas projette-t-il rétrospectivement une intentionnalité sur un comportement animal ordinaire",
+      "type": "narrative",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "N'est-ce pas précisément notre condition existentielle",
+      "type": "narrative",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "Votre récit suit une linéarité classique, mais l'épreuve de Sophie dans la cabane—cette longue nuit de l'âme—pourrait bénéficier d'une fragmentation temporelle",
+      "type": "narrative",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "qui l'a construite",
+      "type": "narrative",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "Quel berger solitaire a jadis trouvé refuge ici",
+      "type": "narrative",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "Sophie pourrait s'interroger ainsi, inscrivant sa propre épreuve dans une continuité humaine millénaire",
+      "type": "narrative",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "Qu'ont-ils perdu dans cette épreuve",
+      "type": "narrative",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "Magnifique affirmation, mais peut-être trop définitive",
+      "type": "narrative",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "L'identité n'est pas découverte une fois pour toutes",
+      "type": "narrative",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "n'est-ce pas l'exacte définition de toute vérité difficile mais nécessaire",
+      "type": "narrative",
+      "scene_number": 17,
+      "scene_title": "Épilogue Critique - Réflexions Littéraires"
+    },
+    {
+      "text": "Bien qu'elle eût préféré éviter l'épreuve, celle-ci s'était révélée indispensable à sa transformation",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    },
+    {
+      "text": "Si seulement Lucas avait été plus attentif aux signes avant-coureurs, peut-être auraient-ils pu éviter la séparation",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    },
+    {
+      "text": "Pourtant, il était essentiel qu'ils vécussent cette expérience pour qu'ils pussent véritablement se connaître",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    },
+    {
+      "text": "Le guide de montagne suggère qu'il faille toujours emporter des provisions supplémentaires afin que les randonneurs puissent survivre en cas d'urgence imprévue",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    },
+    {
+      "text": "Il est impératif que chacun sache allumer un feu sans allumettes, pourvu qu'il y ait du bois sec disponible",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    },
+    {
+      "text": "Il est peu probable que Lucas oublie la terreur de cette nuit où il croyait avoir perdu sa compagne",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    },
+    {
+      "text": "Ils regrettent que leur aventure ait pris une tournure si dangereuse, bien que ce fût précisément cette dangerosité qui les ait transformés",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    },
+    {
+      "text": "Pour que la relation survive aux épreuves futures, il faudra qu'ils apprennent à communiquer avant que les malentendus ne deviennent insurmontables",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    },
+    {
+      "text": "Afin que chacun puisse s'épanouir pleinement, il est nécessaire qu'ils acceptent l'autonomie de l'autre",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    },
+    {
+      "text": "Il eût été préférable qu'ils eussent discuté davantage avant de s'aventurer dans les montagnes",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    },
+    {
+      "text": "Si Sophie avait su qu'elle pût compter sur sa propre résilience, elle n'aurait pas eu tant d'appréhension",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    },
+    {
+      "text": "Il est rare qu'on ait la lucidité nécessaire dans le moment présent, jusqu'à ce que le recul temporel permette la compréhension",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    },
+    {
+      "text": "En admettant que leur histoire inspire d'autres couples, il serait souhaitable qu'elle les encourageât à cultiver leur indépendance mutuelle",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    },
+    {
+      "text": "Sans que l'un doive renoncer à sa personnalité pour que l'autre puisse exister, ils peuvent créer une synergie enrichissante",
+      "type": "narrative",
+      "scene_number": 18,
+      "scene_title": "Réflexions Avancées - Constructions Subjunctives"
+    }
+  ]
+}

@@ -183,10 +183,10 @@ def format_category_name(category: str) -> str:
     """Format category name for display.
     
     Args:
-        category: Raw category name (e.g., 'phrases-A', 'words-C')
+        category: Raw category name (e.g., 'phrases-A', 'words-C', 'phrasebook-topics')
     
     Returns:
-        Formatted display name (e.g., '📝 Phrases - Level A (Beginner)')
+        Formatted display name (e.g., '📝 Phrases - Level A (Beginner)', '💬 Phrasebook by Topic')
     """
     category_map = {
         'phrases-A': '📝 Phrases - Level A (Beginner)',
@@ -197,6 +197,7 @@ def format_category_name(category: str) -> str:
         'words-B': '📖 Words - Level B (Intermediate)',
         'words-C': '📖 Words - Level C (Advanced)',
         'words-D': '📖 Words - Level D (Expert)',
+        'phrasebook-topics': '💬 Phrasebook by Topic',
     }
     
     return category_map.get(category, category)

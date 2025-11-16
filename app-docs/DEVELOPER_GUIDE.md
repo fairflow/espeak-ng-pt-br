@@ -1,6 +1,6 @@
 # Developer Guide - Miolingo Multi-Language Pronunciation Trainer
 
-**Version 1.3.4** | Last Updated: 14 November 2025
+**Version 1.5.0** | Last Updated: 14 November 2025
 
 This guide is for developers who want to contribute to, modify, or understand the Miolingo pronunciation trainer codebase.
 
