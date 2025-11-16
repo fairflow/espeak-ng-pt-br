@@ -11,10 +11,16 @@ import streamlit as st
 
 DATA_DIR = Path(__file__).parent / "language_materials"
 
+# Cache version - increment when language list or structure changes
+CACHE_VERSION = "1.8.0"
+
 
 @st.cache_data
-def get_available_languages() -> List[str]:
+def get_available_languages(_cache_version: str = CACHE_VERSION) -> List[str]:
     """Get list of languages with available materials.
+    
+    Args:
+        _cache_version: Version string to bust cache (leading underscore prevents it from being used)
     
     Returns:
         List of language codes (e.g., ['fr', 'pt', 'nl'])
@@ -26,11 +32,12 @@ def get_available_languages() -> List[str]:
 
 
 @st.cache_data
-def get_language_structure(language: str) -> Dict[str, List[str]]:
+def get_language_structure(language: str, _cache_version: str = CACHE_VERSION) -> Dict[str, List[str]]:
     """Get complete directory structure for a language.
     
     Args:
         language: Language code (e.g., 'fr', 'pt')
+        _cache_version: Version string to bust cache (leading underscore prevents it from being used)
     
     Returns:
         Dictionary mapping category names to lists of filenames:
