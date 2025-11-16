@@ -447,4 +447,4 @@ with tab4:
 
 # Footer
 st.divider()
-st.caption("Miolingo Admin Dashboard v1.5.0 | Local monitoring interface")
+st.caption("Miolingo Admin Dashboard v1.5.1 | Local monitoring interface")
