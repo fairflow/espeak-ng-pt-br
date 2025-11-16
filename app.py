@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.6.1"
+__version__ = "1.6.2"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -785,7 +785,34 @@ def transcribe_audio_whisper(audio_file: str, model, language_code: str = "pt"):
         import warnings
         warnings.warn(f"Whisper detected language '{detected_lang}' instead of '{language_code}'")
     
-    return result["text"].strip().lower()
+    transcribed_text = result["text"].strip().lower()
+    
+    # CRITICAL: Detect hallucination - Whisper sometimes loops when audio is poor
+    # Check for repetitive patterns like "é o que é o que é o que..."
+    words = transcribed_text.split()
+    if len(words) > 20:  # Only check longer transcriptions
+        # Check if same 2-3 word pattern repeats many times
+        # Look for patterns like "word1 word2" repeated 10+ times
+        pattern_found = False
+        for pattern_len in [2, 3, 4]:
+            if len(words) >= pattern_len * 10:
+                # Check if first pattern repeats throughout
+                pattern = ' '.join(words[:pattern_len])
+                repetitions = transcribed_text.count(pattern)
+                if repetitions >= 10:  # Pattern repeats 10+ times
+                    pattern_found = True
+                    import warnings
+                    warnings.warn(f"Whisper hallucination detected: '{pattern}' repeated {repetitions} times")
+                    # Return truncated version to show the issue
+                    return f"[hallucination detected: '{pattern}' x{repetitions}]"
+        
+        # Also check total word count - if way too long, it's probably hallucinating
+        if len(words) > 100:
+            import warnings
+            warnings.warn(f"Suspiciously long transcription: {len(words)} words")
+            return f"[error: transcription too long - {len(words)} words, possible hallucination]"
+    
+    return transcribed_text
 
 
 def transcribe_audio_wav2vec2(audio_file: str, processor, model):
