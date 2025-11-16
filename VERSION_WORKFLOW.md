@@ -2,7 +2,7 @@
 
 ## Quick Reference
 
-**Current Version:** 0.9.0
+**Current Version:** 1.8.0
 **App File:** `app.py`
 **Versioning:** Semantic Versioning (MAJOR.MINOR.PATCH)
 **Git Tags:** Match versions (`v0.9.0`, `v1.0.0`, etc.)

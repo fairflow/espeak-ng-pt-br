@@ -10,7 +10,7 @@ Examples:
     python3 generate_phrasebook_ipa.py pt
     python3 generate_phrasebook_ipa.py es
 
-Supported languages: fr (French), pt (Portuguese), es (Spanish), it (Italian), de (German)
+Supported languages: fr (French), pt (Portuguese), es (Spanish), it (Italian), de (German), nl (Dutch)
 
 Requirements:
     - espeak command (not espeak-ng)
@@ -28,6 +28,7 @@ LANGUAGES = {
     'es': {'name': 'Spanish', 'key': 'spanish', 'voice': 'es'},
     'it': {'name': 'Italian', 'key': 'italian', 'voice': 'it'},
     'de': {'name': 'German', 'key': 'german', 'voice': 'de'},
+    'nl': {'name': 'Dutch', 'key': 'dutch', 'voice': 'nl'},
 }
 
 

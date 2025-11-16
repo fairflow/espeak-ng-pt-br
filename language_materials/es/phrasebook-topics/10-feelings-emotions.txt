@@ -1,0 +1,16 @@
+# Spanish Phrasebook - Feelings
+# Level distribution: A, B, C
+# Format: spanish | english | [ipa]
+
+Tengo calor | I'm hot | [tˈɛŋɡo kalˈɔɾ]
+Tengo frío | I'm cold | [tˈɛŋɡo fɾˈio]
+Tengo hambre | I'm hungry | [tˈɛŋɡo ˈambɾe]
+Tengo sed | I'm thirsty | [tˈɛŋɡo sˈed]
+Estoy cansada | I'm tired | [estˈoɪ kansˈaða]
+Estoy cansado | I'm tired | [estˈoɪ kansˈaðo]
+Estoy feliz | I'm happy | [estˈoɪ felˈiθ]
+Estoy feliz | I'm happy | [estˈoɪ felˈiθ]
+Me aburro | I'm bored | [me aβˈuro]
+No puedo esperar | I can't wait | [nˈo pwˈeðo ˌespɛɾˈaɾ]
+Estoy agotado | I'm exhausted | [estˈoɪ ˌaɣotˈaðo]
+Me siento decaído | I'm feeling down | [me sjˈɛnto ðˌekaˈiðo]

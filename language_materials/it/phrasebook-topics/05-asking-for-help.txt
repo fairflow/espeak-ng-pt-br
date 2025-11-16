@@ -1,0 +1,14 @@
+# Italian Phrasebook - Asking For Help
+# Level distribution: A, B
+# Format: italian | english | [ipa]
+
+Ho bisogno di aiuto | I need help | [ˌo bizˈoɲʲo dˌɪ ajˈuːto]
+Non capisco | I don't understand | [nˌon kapˈisko]
+Non parlo italiano | I don't speak Italian | [nˌon pˈaːrlo ˌitaliˈaːno]
+Parla inglese? | Do you speak English? | [pˈaːrla iŋɡlˈeːze]
+Parlo un po' di italiano | I speak a little Italian | [pˈaːrlo ˌʊn pˈo dˌɪ ˌitaliˈaːno]
+Più lentamente, per favore | Slower, please | [pjˌʊ lˌentamˈente pˌɛr favˈoːre]
+Può aiutarmi? | Can you help me? | [pʊˈɔ ˌajʊtˈaːrmɪ]
+Può ripetere? | Can you repeat? | [pʊˈɔ ripˈetere]
+Come si dice... in italiano? | How do you say... in Italian? | [kˌome sˌɪ dˈiːtʃe ˌin ˌitaliˈaːno]
+Cosa significa? | What does that mean? | [kˈɔːza siɲˈifika]

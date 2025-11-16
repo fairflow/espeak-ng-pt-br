@@ -1,0 +1,838 @@
+{
+  "metadata": {
+    "source": "Translated from French phrasebook",
+    "organization": "by situation/context",
+    "levels": {
+      "A": "Beginner - basic greetings, simple questions",
+      "B": "Elementary - common situations, basic conversations",
+      "C": "Intermediate - complex situations, nuanced expressions",
+      "D": "Advanced - idiomatic, literary, formal"
+    }
+  },
+  "phrases": [
+    {
+      "spanish": "Buenos días",
+      "situation": "greetings",
+      "level": "A",
+      "id": 1,
+      "english": "Hello",
+      "ipa": "bwˈenos ðˈias"
+    },
+    {
+      "spanish": "Buenas tardes",
+      "situation": "greetings",
+      "level": "A",
+      "id": 2,
+      "english": "Good evening",
+      "ipa": "bwˈenas tˈaɾðes"
+    },
+    {
+      "spanish": "Hola",
+      "situation": "greetings",
+      "level": "A",
+      "id": 3,
+      "english": "Hi",
+      "ipa": "ˈola"
+    },
+    {
+      "spanish": "Adiós",
+      "situation": "farewells",
+      "level": "A",
+      "id": 4,
+      "english": "Goodbye",
+      "ipa": "aðjˈɔs"
+    },
+    {
+      "spanish": "Hasta pronto",
+      "situation": "farewells",
+      "level": "A",
+      "id": 5,
+      "english": "See you soon",
+      "ipa": "ˌasta pɾˈɔnto"
+    },
+    {
+      "spanish": "Hasta mañana",
+      "situation": "farewells",
+      "level": "A",
+      "id": 6,
+      "english": "See you tomorrow",
+      "ipa": "ˌasta maɲˈana"
+    },
+    {
+      "spanish": "Que tengas un buen día",
+      "situation": "farewells",
+      "level": "A",
+      "id": 7,
+      "english": "Have a good day",
+      "ipa": "ke tˈɛŋɡas ˈum bwˈɛn dˈia"
+    },
+    {
+      "spanish": "Que tengas una buena tarde",
+      "situation": "farewells",
+      "level": "A",
+      "id": 8,
+      "english": "Have a good evening",
+      "ipa": "ke tˈɛŋɡas ˈuna βwˈena tˈaɾðe"
+    },
+    {
+      "spanish": "Buenas noches",
+      "situation": "farewells",
+      "level": "A",
+      "id": 9,
+      "english": "Good night",
+      "ipa": "bwˈenas nˈotʃes"
+    },
+    {
+      "spanish": "Gracias",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 10,
+      "english": "Thank you",
+      "ipa": "ɡɾˈaθjas"
+    },
+    {
+      "spanish": "Muchas gracias",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 11,
+      "english": "Thank you very much",
+      "ipa": "mˈutʃas ɣɾˈaθjas"
+    },
+    {
+      "spanish": "De nada",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 12,
+      "english": "You're welcome",
+      "ipa": "de nˈaða"
+    },
+    {
+      "spanish": "Por favor",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 13,
+      "english": "Please",
+      "ipa": "pɔɾ faβˈɔɾ"
+    },
+    {
+      "spanish": "Por favor",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 14,
+      "english": "Please",
+      "ipa": "pɔɾ faβˈɔɾ"
+    },
+    {
+      "spanish": "Disculpe",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 15,
+      "english": "Excuse me",
+      "ipa": "diskˈulpe"
+    },
+    {
+      "spanish": "Perdón",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 16,
+      "english": "Pardon",
+      "ipa": "pɛɾðˈɔn"
+    },
+    {
+      "spanish": "Lo siento",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 17,
+      "english": "Sorry",
+      "ipa": "lo sjˈɛnto"
+    },
+    {
+      "spanish": "Sí",
+      "situation": "basics",
+      "level": "A",
+      "id": 18,
+      "english": "Yes",
+      "ipa": "sˈi"
+    },
+    {
+      "spanish": "No",
+      "situation": "basics",
+      "level": "A",
+      "id": 19,
+      "english": "No",
+      "ipa": "nˈo"
+    },
+    {
+      "spanish": "¿Cómo está usted?",
+      "situation": "greetings",
+      "level": "A",
+      "id": 20,
+      "english": "How are you?",
+      "ipa": "kˈɔmo estˈa ustˈed"
+    },
+    {
+      "spanish": "¿Cómo estás?",
+      "situation": "greetings",
+      "level": "A",
+      "id": 21,
+      "english": "How are you?",
+      "ipa": "kˈɔmo estˈas"
+    },
+    {
+      "spanish": "Bien",
+      "situation": "greetings",
+      "level": "A",
+      "id": 22,
+      "english": "I'm fine",
+      "ipa": "bjˈɛn"
+    },
+    {
+      "spanish": "Estoy bien",
+      "situation": "greetings",
+      "level": "A",
+      "id": 23,
+      "english": "I'm doing well",
+      "ipa": "estˈoɪ βjˈɛn"
+    },
+    {
+      "spanish": "Estoy bien, gracias",
+      "situation": "greetings",
+      "level": "A",
+      "id": 24,
+      "english": "I'm fine, thank you",
+      "ipa": "estˈoɪ βjˈɛn ɡɾˈaθjas"
+    },
+    {
+      "spanish": "¿Y usted?",
+      "situation": "greetings",
+      "level": "A",
+      "id": 25,
+      "english": "And you?",
+      "ipa": "i ustˈed"
+    },
+    {
+      "spanish": "Me llamo...",
+      "situation": "introductions",
+      "level": "A",
+      "id": 26,
+      "english": "My name is...",
+      "ipa": "me ʎˈamo"
+    },
+    {
+      "spanish": "¿Cómo se llama?",
+      "situation": "introductions",
+      "level": "A",
+      "id": 27,
+      "english": "What is your name?",
+      "ipa": "kˈɔmo se ʎˈama"
+    },
+    {
+      "spanish": "Encantado",
+      "situation": "introductions",
+      "level": "A",
+      "id": 28,
+      "english": "Nice to meet you",
+      "ipa": "ˌɛnkantˈaðo"
+    },
+    {
+      "spanish": "Encantada",
+      "situation": "introductions",
+      "level": "A",
+      "id": 29,
+      "english": "Nice to meet you",
+      "ipa": "ˌɛnkantˈaða"
+    },
+    {
+      "spanish": "Mucho gusto en conocerle",
+      "situation": "introductions",
+      "level": "B",
+      "id": 30,
+      "english": "Pleased to meet you",
+      "ipa": "mˈutʃo ɣˈusto ɛn kˌonoθˈɛɾle"
+    },
+    {
+      "spanish": "¿De dónde eres?",
+      "situation": "introductions",
+      "level": "A",
+      "id": 31,
+      "english": "Where are you from?",
+      "ipa": "de ðˈɔnde ˈɛɾɛs"
+    },
+    {
+      "spanish": "Soy de...",
+      "situation": "introductions",
+      "level": "A",
+      "id": 32,
+      "english": "I come from...",
+      "ipa": "sˈoɪ ðˈe"
+    },
+    {
+      "spanish": "No entiendo",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 33,
+      "english": "I don't understand",
+      "ipa": "nˈo ɛntjˈɛndo"
+    },
+    {
+      "spanish": "No hablo español",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 34,
+      "english": "I don't speak Spanish",
+      "ipa": "nˈo ˈaβlo ˌespaɲˈɔl"
+    },
+    {
+      "spanish": "Hablo un poco de español",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 35,
+      "english": "I speak a little Spanish",
+      "ipa": "ˈaβlo ˈum pˈoko ðe ˌespaɲˈɔl"
+    },
+    {
+      "spanish": "¿Habla inglés?",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 36,
+      "english": "Do you speak English?",
+      "ipa": "ˈaβla iŋɡlˈɛs"
+    },
+    {
+      "spanish": "Más despacio, por favor",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 37,
+      "english": "Slower, please",
+      "ipa": "mˈas ðespˈaθjo pɔɾ faβˈɔɾ"
+    },
+    {
+      "spanish": "¿Puede repetir?",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 38,
+      "english": "Can you repeat?",
+      "ipa": "pwˈeðe rˌepetˈiɾ"
+    },
+    {
+      "spanish": "¿Cómo se dice... en español?",
+      "situation": "asking_for_help",
+      "level": "B",
+      "id": 39,
+      "english": "How do you say... in Spanish?",
+      "ipa": "kˈɔmo se ðˈiθe ɛn ˌespaɲˈɔl"
+    },
+    {
+      "spanish": "¿Qué significa eso?",
+      "situation": "asking_for_help",
+      "level": "B",
+      "id": 40,
+      "english": "What does that mean?",
+      "ipa": "kˈɛ sˌiɡnifˈika ˈeso"
+    },
+    {
+      "spanish": "Necesito ayuda",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 41,
+      "english": "I need help",
+      "ipa": "nˌeθesˈito ajjˈuða"
+    },
+    {
+      "spanish": "¿Puede ayudarme?",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 42,
+      "english": "Can you help me?",
+      "ipa": "pwˈeðe ˌajjuðˈaɾme"
+    },
+    {
+      "spanish": "¿Dónde está...?",
+      "situation": "directions",
+      "level": "A",
+      "id": 43,
+      "english": "Where is...?",
+      "ipa": "dˈɔnde estˈa"
+    },
+    {
+      "spanish": "¿Dónde se encuentra...?",
+      "situation": "directions",
+      "level": "B",
+      "id": 44,
+      "english": "Where is...?",
+      "ipa": "dˈɔnde se ɛnkwˈɛntɾa"
+    },
+    {
+      "spanish": "¿Dónde está el baño?",
+      "situation": "directions",
+      "level": "A",
+      "id": 45,
+      "english": "Where is the bathroom?",
+      "ipa": "dˈɔnde estˈa el βˈaɲo"
+    },
+    {
+      "spanish": "¿Está lejos de aquí?",
+      "situation": "directions",
+      "level": "A",
+      "id": 46,
+      "english": "Is it far from here?",
+      "ipa": "estˈa lˈexos ðe akˈi"
+    },
+    {
+      "spanish": "¿Está cerca?",
+      "situation": "directions",
+      "level": "A",
+      "id": 47,
+      "english": "Is it near here?",
+      "ipa": "estˈa θˈɛɾka"
+    },
+    {
+      "spanish": "A la izquierda",
+      "situation": "directions",
+      "level": "A",
+      "id": 48,
+      "english": "To the left",
+      "ipa": "a la iθkjˈɛɾða"
+    },
+    {
+      "spanish": "A la derecha",
+      "situation": "directions",
+      "level": "A",
+      "id": 49,
+      "english": "To the right",
+      "ipa": "a la ðɛɾˈɛtʃa"
+    },
+    {
+      "spanish": "Todo recto",
+      "situation": "directions",
+      "level": "A",
+      "id": 50,
+      "english": "Straight ahead",
+      "ipa": "tˈoðo rˈekto"
+    },
+    {
+      "spanish": "Estoy buscando...",
+      "situation": "directions",
+      "level": "A",
+      "id": 51,
+      "english": "I'm looking for...",
+      "ipa": "estˈoɪ βuskˈando"
+    },
+    {
+      "spanish": "¿Cuánto cuesta?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 52,
+      "english": "How much does it cost?",
+      "ipa": "kwˈanto kwˈesta"
+    },
+    {
+      "spanish": "¿Cuánto es?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 53,
+      "english": "How much is it?",
+      "ipa": "kwˈanto ˈes"
+    },
+    {
+      "spanish": "Es demasiado caro",
+      "situation": "shopping",
+      "level": "A",
+      "id": 54,
+      "english": "It's too expensive",
+      "ipa": "ˈes ðˌemasjˈaðo kˈaɾɔ"
+    },
+    {
+      "spanish": "Quisiera...",
+      "situation": "shopping",
+      "level": "A",
+      "id": 55,
+      "english": "I would like...",
+      "ipa": "kisjˈɛɾa"
+    },
+    {
+      "spanish": "Estoy buscando...",
+      "situation": "shopping",
+      "level": "A",
+      "id": 56,
+      "english": "I'm looking for...",
+      "ipa": "estˈoɪ βuskˈando"
+    },
+    {
+      "spanish": "¿Tiene...?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 57,
+      "english": "Do you have...?",
+      "ipa": "tjˈene"
+    },
+    {
+      "spanish": "¿Qué talla?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 58,
+      "english": "What size?",
+      "ipa": "kˈɛ tˈaʎa"
+    },
+    {
+      "spanish": "¿Puedo probármelo?",
+      "situation": "shopping",
+      "level": "B",
+      "id": 59,
+      "english": "Can I try it?",
+      "ipa": "pwˈeðo pɾoβˈaɾmelo"
+    },
+    {
+      "spanish": "Me lo llevo",
+      "situation": "shopping",
+      "level": "A",
+      "id": 60,
+      "english": "I'll take this",
+      "ipa": "me lo ʎˈeβo"
+    },
+    {
+      "spanish": "¿Puedo pagar con tarjeta?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 61,
+      "english": "Can I pay by card?",
+      "ipa": "pwˈeðo paɣˈaɾ kɔn taɾxˈeta"
+    },
+    {
+      "spanish": "Una mesa para dos, por favor",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 62,
+      "english": "A table for two, please",
+      "ipa": "ˈuna mˈesa pˌaɾa ðˈos pɔɾ faβˈɔɾ"
+    },
+    {
+      "spanish": "El menú, por favor",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 63,
+      "english": "The menu, please",
+      "ipa": "el menˈu pɔɾ faβˈɔɾ"
+    },
+    {
+      "spanish": "Quisiera...",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 64,
+      "english": "I would like...",
+      "ipa": "kisjˈɛɾa"
+    },
+    {
+      "spanish": "La cuenta, por favor",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 65,
+      "english": "The bill, please",
+      "ipa": "la kwˈɛnta pɔɾ faβˈɔɾ"
+    },
+    {
+      "spanish": "Estaba delicioso",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 66,
+      "english": "It was delicious",
+      "ipa": "estˈaβa ðˌeliθjˈoso"
+    },
+    {
+      "spanish": "¿Qué recomienda?",
+      "situation": "restaurant",
+      "level": "B",
+      "id": 67,
+      "english": "What do you recommend?",
+      "ipa": "kˈɛ rˌekomjˈɛnda"
+    },
+    {
+      "spanish": "Soy vegetariano",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 68,
+      "english": "I'm vegetarian",
+      "ipa": "sˈoɪ βˌexetaɾjˈano"
+    },
+    {
+      "spanish": "Soy alérgico a...",
+      "situation": "restaurant",
+      "level": "B",
+      "id": 69,
+      "english": "I'm allergic to...",
+      "ipa": "sˈoɪ alˈɛɾxiko ˈa"
+    },
+    {
+      "spanish": "Un café, por favor",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 70,
+      "english": "A coffee, please",
+      "ipa": "ˈun kafˈɛ pɔɾ faβˈɔɾ"
+    },
+    {
+      "spanish": "Una jarra de agua, por favor",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 71,
+      "english": "A carafe of water, please",
+      "ipa": "ˈuna xˈara ðe ˈaɣwa pɔɾ faβˈɔɾ"
+    },
+    {
+      "spanish": "¿Cómo estás?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 72,
+      "english": "How are you?",
+      "ipa": "kˈɔmo estˈas"
+    },
+    {
+      "spanish": "¿Qué haces?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 73,
+      "english": "What are you doing?",
+      "ipa": "kˈɛ ˈaθes"
+    },
+    {
+      "spanish": "¿Qué haces?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 74,
+      "english": "What are you doing?",
+      "ipa": "kˈɛ ˈaθes"
+    },
+    {
+      "spanish": "¿Te apetece?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 75,
+      "english": "How about it?",
+      "ipa": "te ˌapetˈeθe"
+    },
+    {
+      "spanish": "Tengo ganas de...",
+      "situation": "conversation",
+      "level": "B",
+      "id": 76,
+      "english": "I feel like...",
+      "ipa": "tˈɛŋɡo ɣˈanas ðˈe"
+    },
+    {
+      "spanish": "¿Quieres ir a tomar algo?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 77,
+      "english": "Want to get a drink?",
+      "ipa": "kjˈɛɾɛs ˈiɾ a tomˈaɾ ˈalɣo"
+    },
+    {
+      "spanish": "¿Cómo va el trabajo?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 78,
+      "english": "How's work?",
+      "ipa": "kˈɔmo βˈa el tɾaβˈaxo"
+    },
+    {
+      "spanish": "¿Cómo está tu familia?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 79,
+      "english": "How's your family?",
+      "ipa": "kˈɔmo estˈa tu famˈilja"
+    },
+    {
+      "spanish": "Mantenme informado",
+      "situation": "conversation",
+      "level": "C",
+      "id": 80,
+      "english": "Keep me updated",
+      "ipa": "mantˈɛnme ˌimfɔɾmˈaðo"
+    },
+    {
+      "spanish": "¿Te las arreglas?",
+      "situation": "conversation",
+      "level": "C",
+      "id": 81,
+      "english": "Are you managing?",
+      "ipa": "te las arˈeɣlas"
+    },
+    {
+      "spanish": "Estoy feliz",
+      "situation": "feelings",
+      "level": "B",
+      "id": 82,
+      "english": "I'm happy",
+      "ipa": "estˈoɪ felˈiθ"
+    },
+    {
+      "spanish": "Estoy feliz",
+      "situation": "feelings",
+      "level": "B",
+      "id": 83,
+      "english": "I'm happy",
+      "ipa": "estˈoɪ felˈiθ"
+    },
+    {
+      "spanish": "Estoy cansado",
+      "situation": "feelings",
+      "level": "B",
+      "id": 84,
+      "english": "I'm tired",
+      "ipa": "estˈoɪ kansˈaðo"
+    },
+    {
+      "spanish": "Estoy cansada",
+      "situation": "feelings",
+      "level": "B",
+      "id": 85,
+      "english": "I'm tired",
+      "ipa": "estˈoɪ kansˈaða"
+    },
+    {
+      "spanish": "Tengo hambre",
+      "situation": "feelings",
+      "level": "A",
+      "id": 86,
+      "english": "I'm hungry",
+      "ipa": "tˈɛŋɡo ˈambɾe"
+    },
+    {
+      "spanish": "Tengo sed",
+      "situation": "feelings",
+      "level": "A",
+      "id": 87,
+      "english": "I'm thirsty",
+      "ipa": "tˈɛŋɡo sˈed"
+    },
+    {
+      "spanish": "Tengo calor",
+      "situation": "feelings",
+      "level": "A",
+      "id": 88,
+      "english": "I'm hot",
+      "ipa": "tˈɛŋɡo kalˈɔɾ"
+    },
+    {
+      "spanish": "Tengo frío",
+      "situation": "feelings",
+      "level": "A",
+      "id": 89,
+      "english": "I'm cold",
+      "ipa": "tˈɛŋɡo fɾˈio"
+    },
+    {
+      "spanish": "Estoy agotado",
+      "situation": "feelings",
+      "level": "C",
+      "id": 90,
+      "english": "I'm exhausted",
+      "ipa": "estˈoɪ ˌaɣotˈaðo"
+    },
+    {
+      "spanish": "Me siento decaído",
+      "situation": "feelings",
+      "level": "C",
+      "id": 91,
+      "english": "I'm feeling down",
+      "ipa": "me sjˈɛnto ðˌekaˈiðo"
+    },
+    {
+      "spanish": "No puedo esperar",
+      "situation": "feelings",
+      "level": "B",
+      "id": 92,
+      "english": "I can't wait",
+      "ipa": "nˈo pwˈeðo ˌespɛɾˈaɾ"
+    },
+    {
+      "spanish": "Me aburro",
+      "situation": "feelings",
+      "level": "B",
+      "id": 93,
+      "english": "I'm bored",
+      "ipa": "me aβˈuro"
+    },
+    {
+      "spanish": "¡Ah sí!",
+      "situation": "exclamations",
+      "level": "B",
+      "id": 94,
+      "english": "Oh really!",
+      "ipa": "ˈa sˈi"
+    },
+    {
+      "spanish": "¡Lo que sea!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 95,
+      "english": "Whatever!",
+      "ipa": "lo ke sˈea"
+    },
+    {
+      "spanish": "¡Eso es una tontería!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 96,
+      "english": "That's nonsense!",
+      "ipa": "ˈeso ˈes ˈuna tˌɔntɛɾˈia"
+    },
+    {
+      "spanish": "Olvídalo",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 97,
+      "english": "Forget it",
+      "ipa": "ɔlβˈiðalo"
+    },
+    {
+      "spanish": "En fin",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 98,
+      "english": "Anyway",
+      "ipa": "ɛm fˈin"
+    },
+    {
+      "spanish": "¡Guau!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 99,
+      "english": "Wow!",
+      "ipa": "ɡwˈaʊ"
+    },
+    {
+      "spanish": "¡Madre mía!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 100,
+      "english": "Holy cow!",
+      "ipa": "mˈaðɾe mˈia"
+    },
+    {
+      "spanish": "Qué rollo",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 101,
+      "english": "That sucks",
+      "ipa": "kˈɛ rˈɔʎo"
+    },
+    {
+      "spanish": "¡Venga!",
+      "situation": "exclamations",
+      "level": "B",
+      "id": 102,
+      "english": "Come on!",
+      "ipa": "bˈɛŋɡa"
+    },
+    {
+      "spanish": "Bah",
+      "situation": "exclamations",
+      "level": "B",
+      "id": 103,
+      "english": "Meh",
+      "ipa": "bˈa"
+    }
+  ]
+}

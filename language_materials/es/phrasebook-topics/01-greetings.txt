@@ -1,0 +1,13 @@
+# Spanish Phrasebook - Greetings
+# Level distribution: A
+# Format: spanish | english | [ipa]
+
+Bien | I'm fine | [bjˈɛn]
+Buenas tardes | Good evening | [bwˈenas tˈaɾðes]
+Buenos días | Hello | [bwˈenos ðˈias]
+Estoy bien | I'm doing well | [estˈoɪ βjˈɛn]
+Estoy bien, gracias | I'm fine, thank you | [estˈoɪ βjˈɛn ɡɾˈaθjas]
+Hola | Hi | [ˈola]
+¿Cómo está usted? | How are you? | [kˈɔmo estˈa ustˈed]
+¿Cómo estás? | How are you? | [kˈɔmo estˈas]
+¿Y usted? | And you? | [i ustˈed]

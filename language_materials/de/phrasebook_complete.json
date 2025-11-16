@@ -1,0 +1,838 @@
+{
+  "metadata": {
+    "source": "Translated from French phrasebook",
+    "organization": "by situation/context",
+    "levels": {
+      "A": "Beginner - basic greetings, simple questions",
+      "B": "Elementary - common situations, basic conversations",
+      "C": "Intermediate - complex situations, nuanced expressions",
+      "D": "Advanced - idiomatic, literary, formal"
+    }
+  },
+  "phrases": [
+    {
+      "german": "Guten Tag",
+      "situation": "greetings",
+      "level": "A",
+      "id": 1,
+      "english": "Hello",
+      "ipa": "ɡˈuːtən tˈɑːk"
+    },
+    {
+      "german": "Guten Abend",
+      "situation": "greetings",
+      "level": "A",
+      "id": 2,
+      "english": "Good evening",
+      "ipa": "ɡˈuːtən ˈɑːbənt"
+    },
+    {
+      "german": "Hallo",
+      "situation": "greetings",
+      "level": "A",
+      "id": 3,
+      "english": "Hi",
+      "ipa": "hˈaloː"
+    },
+    {
+      "german": "Auf Wiedersehen",
+      "situation": "farewells",
+      "level": "A",
+      "id": 4,
+      "english": "Goodbye",
+      "ipa": "aʊf viːdɜzˈeːən"
+    },
+    {
+      "german": "Bis bald",
+      "situation": "farewells",
+      "level": "A",
+      "id": 5,
+      "english": "See you soon",
+      "ipa": "bɪs bˈalt"
+    },
+    {
+      "german": "Bis morgen",
+      "situation": "farewells",
+      "level": "A",
+      "id": 6,
+      "english": "See you tomorrow",
+      "ipa": "bɪs mˈɔɾɡən"
+    },
+    {
+      "german": "Schönen Tag noch",
+      "situation": "farewells",
+      "level": "A",
+      "id": 7,
+      "english": "Have a good day",
+      "ipa": "ʃˈøːnən tˈɑːk nˈɔx"
+    },
+    {
+      "german": "Schönen Abend noch",
+      "situation": "farewells",
+      "level": "A",
+      "id": 8,
+      "english": "Have a good evening",
+      "ipa": "ʃˈøːnən ˈɑːbənt nˈɔx"
+    },
+    {
+      "german": "Gute Nacht",
+      "situation": "farewells",
+      "level": "A",
+      "id": 9,
+      "english": "Good night",
+      "ipa": "ɡˈuːtə nˈaxt"
+    },
+    {
+      "german": "Danke",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 10,
+      "english": "Thank you",
+      "ipa": "dˈaŋkə"
+    },
+    {
+      "german": "Vielen Dank",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 11,
+      "english": "Thank you very much",
+      "ipa": "fˈiːlən dˈaŋk"
+    },
+    {
+      "german": "Bitte",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 12,
+      "english": "You're welcome",
+      "ipa": "bˈɪtə"
+    },
+    {
+      "german": "Bitte",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 13,
+      "english": "Please",
+      "ipa": "bˈɪtə"
+    },
+    {
+      "german": "Bitte",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 14,
+      "english": "Please",
+      "ipa": "bˈɪtə"
+    },
+    {
+      "german": "Entschuldigung",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 15,
+      "english": "Excuse me",
+      "ipa": "ɛntʃˈʊldɪɡˌʊŋ"
+    },
+    {
+      "german": "Verzeihung",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 16,
+      "english": "Pardon",
+      "ipa": "fɛɾtsˈaɪhʊŋ"
+    },
+    {
+      "german": "Tut mir leid",
+      "situation": "courtesy",
+      "level": "A",
+      "id": 17,
+      "english": "Sorry",
+      "ipa": "tˈuːt miːɾ lˈaɪt"
+    },
+    {
+      "german": "Ja",
+      "situation": "basics",
+      "level": "A",
+      "id": 18,
+      "english": "Yes",
+      "ipa": "jˈɑː"
+    },
+    {
+      "german": "Nein",
+      "situation": "basics",
+      "level": "A",
+      "id": 19,
+      "english": "No",
+      "ipa": "nˈaɪn"
+    },
+    {
+      "german": "Wie geht es Ihnen?",
+      "situation": "greetings",
+      "level": "A",
+      "id": 20,
+      "english": "How are you?",
+      "ipa": "viː ɡˈeːt ɛs ˈiːnən"
+    },
+    {
+      "german": "Wie geht's?",
+      "situation": "greetings",
+      "level": "A",
+      "id": 21,
+      "english": "How are you?",
+      "ipa": "viː ɡˈeːts"
+    },
+    {
+      "german": "Es geht",
+      "situation": "greetings",
+      "level": "A",
+      "id": 22,
+      "english": "I'm fine",
+      "ipa": "ɛs ɡˈeːt"
+    },
+    {
+      "german": "Mir geht es gut",
+      "situation": "greetings",
+      "level": "A",
+      "id": 23,
+      "english": "I'm doing well",
+      "ipa": "miːɾ ɡˈeːt ɛs ɡˈuːt"
+    },
+    {
+      "german": "Mir geht es gut, danke",
+      "situation": "greetings",
+      "level": "A",
+      "id": 24,
+      "english": "I'm fine, thank you",
+      "ipa": "miːɾ ɡˈeːt ɛs ɡˈuːt dˈaŋkə"
+    },
+    {
+      "german": "Und Ihnen?",
+      "situation": "greetings",
+      "level": "A",
+      "id": 25,
+      "english": "And you?",
+      "ipa": "ʊnt ˈiːnən"
+    },
+    {
+      "german": "Ich heiße...",
+      "situation": "introductions",
+      "level": "A",
+      "id": 26,
+      "english": "My name is...",
+      "ipa": "ɪç hˈaɪsə"
+    },
+    {
+      "german": "Wie heißen Sie?",
+      "situation": "introductions",
+      "level": "A",
+      "id": 27,
+      "english": "What is your name?",
+      "ipa": "viː hˈaɪsən ziː"
+    },
+    {
+      "german": "Angenehm",
+      "situation": "introductions",
+      "level": "A",
+      "id": 28,
+      "english": "Nice to meet you",
+      "ipa": "ˈanɡənˌeːm"
+    },
+    {
+      "german": "Angenehm",
+      "situation": "introductions",
+      "level": "A",
+      "id": 29,
+      "english": "Nice to meet you",
+      "ipa": "ˈanɡənˌeːm"
+    },
+    {
+      "german": "Freut mich, Sie kennenzulernen",
+      "situation": "introductions",
+      "level": "B",
+      "id": 30,
+      "english": "Pleased to meet you",
+      "ipa": "frˈɔøt mɪç ziː kˈɛnəntsˌuːlɜnən"
+    },
+    {
+      "german": "Woher kommen Sie?",
+      "situation": "introductions",
+      "level": "A",
+      "id": 31,
+      "english": "Where are you from?",
+      "ipa": "voːhˈeːɾ kˈɔmən ziː"
+    },
+    {
+      "german": "Ich komme aus...",
+      "situation": "introductions",
+      "level": "A",
+      "id": 32,
+      "english": "I come from...",
+      "ipa": "ɪç kˈɔmə ˈaʊs"
+    },
+    {
+      "german": "Ich verstehe nicht",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 33,
+      "english": "I don't understand",
+      "ipa": "ɪç fɛɾʃtˈeːə nˈɪçt"
+    },
+    {
+      "german": "Ich spreche kein Deutsch",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 34,
+      "english": "I don't speak German",
+      "ipa": "ɪç ʃprˈɛçə kˈaɪn dˈɔøtʃ"
+    },
+    {
+      "german": "Ich spreche ein bisschen Deutsch",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 35,
+      "english": "I speak a little German",
+      "ipa": "ɪç ʃprˈɛçə aɪn bˈɪsçən dˈɔøtʃ"
+    },
+    {
+      "german": "Sprechen Sie Englisch?",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 36,
+      "english": "Do you speak English?",
+      "ipa": "ʃprˈɛçən ziː ˈɛŋlɪʃ"
+    },
+    {
+      "german": "Langsamer, bitte",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 37,
+      "english": "Slower, please",
+      "ipa": "lˈaŋzɑːmɜ bˈɪtə"
+    },
+    {
+      "german": "Können Sie das wiederholen?",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 38,
+      "english": "Can you repeat?",
+      "ipa": "kˌœnən ziː das viːdɜhˈoːlən"
+    },
+    {
+      "german": "Wie sagt man... auf Deutsch?",
+      "situation": "asking_for_help",
+      "level": "B",
+      "id": 39,
+      "english": "How do you say... in German?",
+      "ipa": "viː zˈɑːkt man aʊf dˈɔøtʃ"
+    },
+    {
+      "german": "Was bedeutet das?",
+      "situation": "asking_for_help",
+      "level": "B",
+      "id": 40,
+      "english": "What does that mean?",
+      "ipa": "vˈas bədˈɔøtət das"
+    },
+    {
+      "german": "Ich brauche Hilfe",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 41,
+      "english": "I need help",
+      "ipa": "ɪç brˈaʊxə hˈɪlfə"
+    },
+    {
+      "german": "Können Sie mir helfen?",
+      "situation": "asking_for_help",
+      "level": "A",
+      "id": 42,
+      "english": "Can you help me?",
+      "ipa": "kˌœnən ziː miːɾ hˈɛlfən"
+    },
+    {
+      "german": "Wo ist...?",
+      "situation": "directions",
+      "level": "A",
+      "id": 43,
+      "english": "Where is...?",
+      "ipa": "vˈoː ɪst"
+    },
+    {
+      "german": "Wo befindet sich...?",
+      "situation": "directions",
+      "level": "B",
+      "id": 44,
+      "english": "Where is...?",
+      "ipa": "vˌoː bəfˈɪndət zɪç"
+    },
+    {
+      "german": "Wo ist die Toilette?",
+      "situation": "directions",
+      "level": "A",
+      "id": 45,
+      "english": "Where is the bathroom?",
+      "ipa": "vˌoː ɪst diː tˈoːiːlˌɛtə"
+    },
+    {
+      "german": "Ist es weit von hier?",
+      "situation": "directions",
+      "level": "A",
+      "id": 46,
+      "english": "Is it far from here?",
+      "ipa": "ɪst ɛs vˈaɪt fɔn hˈiːɾ"
+    },
+    {
+      "german": "Ist es in der Nähe?",
+      "situation": "directions",
+      "level": "A",
+      "id": 47,
+      "english": "Is it near here?",
+      "ipa": "ɪst ɛs ɪn dɛɾ nˈɛːə"
+    },
+    {
+      "german": "Nach links",
+      "situation": "directions",
+      "level": "A",
+      "id": 48,
+      "english": "To the left",
+      "ipa": "nɑːx lˈɪŋks"
+    },
+    {
+      "german": "Nach rechts",
+      "situation": "directions",
+      "level": "A",
+      "id": 49,
+      "english": "To the right",
+      "ipa": "nɑːx rˈɛçts"
+    },
+    {
+      "german": "Geradeaus",
+      "situation": "directions",
+      "level": "A",
+      "id": 50,
+      "english": "Straight ahead",
+      "ipa": "ɡərˈɑdeːˌaʊs"
+    },
+    {
+      "german": "Ich suche...",
+      "situation": "directions",
+      "level": "A",
+      "id": 51,
+      "english": "I'm looking for...",
+      "ipa": "ɪç zˈuːxə"
+    },
+    {
+      "german": "Wie viel kostet das?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 52,
+      "english": "How much does it cost?",
+      "ipa": "viː fˈiːl kˈɔstət das"
+    },
+    {
+      "german": "Was kostet das?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 53,
+      "english": "How much is it?",
+      "ipa": "vˈas kˈɔstət das"
+    },
+    {
+      "german": "Das ist zu teuer",
+      "situation": "shopping",
+      "level": "A",
+      "id": 54,
+      "english": "It's too expensive",
+      "ipa": "das ɪst tsuː tˈɔøɜ"
+    },
+    {
+      "german": "Ich hätte gern...",
+      "situation": "shopping",
+      "level": "A",
+      "id": 55,
+      "english": "I would like...",
+      "ipa": "ɪç hˌɛtə ɡˈɛɾn"
+    },
+    {
+      "german": "Ich suche...",
+      "situation": "shopping",
+      "level": "A",
+      "id": 56,
+      "english": "I'm looking for...",
+      "ipa": "ɪç zˈuːxə"
+    },
+    {
+      "german": "Haben Sie...?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 57,
+      "english": "Do you have...?",
+      "ipa": "hˈɑːbən ziː"
+    },
+    {
+      "german": "Welche Größe?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 58,
+      "english": "What size?",
+      "ipa": "vˈɛlçə ɡrˈøːsə"
+    },
+    {
+      "german": "Kann ich das anprobieren?",
+      "situation": "shopping",
+      "level": "B",
+      "id": 59,
+      "english": "Can I try it?",
+      "ipa": "kˌan ɪç das ˈanproːbˌiːrən"
+    },
+    {
+      "german": "Ich nehme das",
+      "situation": "shopping",
+      "level": "A",
+      "id": 60,
+      "english": "I'll take this",
+      "ipa": "ɪç nˈeːmə das"
+    },
+    {
+      "german": "Kann ich mit Karte zahlen?",
+      "situation": "shopping",
+      "level": "A",
+      "id": 61,
+      "english": "Can I pay by card?",
+      "ipa": "kˌan ɪç mɪt kˈaɾtə tsˈɑːlən"
+    },
+    {
+      "german": "Einen Tisch für zwei, bitte",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 62,
+      "english": "A table for two, please",
+      "ipa": "ˌaɪnən tˈɪʃ fyːɾ tsvˈaɪ bˈɪtə"
+    },
+    {
+      "german": "Die Speisekarte, bitte",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 63,
+      "english": "The menu, please",
+      "ipa": "diː ʃpˈaɪzeːkˌaɾtə bˈɪtə"
+    },
+    {
+      "german": "Ich hätte gern...",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 64,
+      "english": "I would like...",
+      "ipa": "ɪç hˌɛtə ɡˈɛɾn"
+    },
+    {
+      "german": "Die Rechnung, bitte",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 65,
+      "english": "The bill, please",
+      "ipa": "diː rˈɛçnʊŋ bˈɪtə"
+    },
+    {
+      "german": "Es war köstlich",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 66,
+      "english": "It was delicious",
+      "ipa": "ɛs vɑːɾ kˈœstlɪç"
+    },
+    {
+      "german": "Was empfehlen Sie?",
+      "situation": "restaurant",
+      "level": "B",
+      "id": 67,
+      "english": "What do you recommend?",
+      "ipa": "vˈas ɛmpfˈeːlən ziː"
+    },
+    {
+      "german": "Ich bin Vegetarier",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 68,
+      "english": "I'm vegetarian",
+      "ipa": "ɪç bɪn vˌeːɡeːtˈɑːriːɜ"
+    },
+    {
+      "german": "Ich bin allergisch gegen...",
+      "situation": "restaurant",
+      "level": "B",
+      "id": 69,
+      "english": "I'm allergic to...",
+      "ipa": "ɪç bɪn ˈalɜɡˌɪʃ ɡˈeːɡən"
+    },
+    {
+      "german": "Einen Kaffee, bitte",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 70,
+      "english": "A coffee, please",
+      "ipa": "ˌaɪnən kˈafeː bˈɪtə"
+    },
+    {
+      "german": "Eine Karaffe Wasser, bitte",
+      "situation": "restaurant",
+      "level": "A",
+      "id": 71,
+      "english": "A carafe of water, please",
+      "ipa": "ˌaɪnə kˈɑrafə vˈasɜ bˈɪtə"
+    },
+    {
+      "german": "Wie geht es dir?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 72,
+      "english": "How are you?",
+      "ipa": "viː ɡˈeːt ɛs dˈiːɾ"
+    },
+    {
+      "german": "Was machst du?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 73,
+      "english": "What are you doing?",
+      "ipa": "vˈas mˈaxst duː"
+    },
+    {
+      "german": "Was machst du?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 74,
+      "english": "What are you doing?",
+      "ipa": "vˈas mˈaxst duː"
+    },
+    {
+      "german": "Hast du Lust?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 75,
+      "english": "How about it?",
+      "ipa": "hast duː lˈʊst"
+    },
+    {
+      "german": "Ich habe Lust auf...",
+      "situation": "conversation",
+      "level": "B",
+      "id": 76,
+      "english": "I feel like...",
+      "ipa": "ɪç hɑːbə lˈʊst ˈaʊf"
+    },
+    {
+      "german": "Willst du was trinken gehen?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 77,
+      "english": "Want to get a drink?",
+      "ipa": "vɪlst duː vˈas tɾˈɪŋkən ɡˈeːən"
+    },
+    {
+      "german": "Wie läuft die Arbeit?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 78,
+      "english": "How's work?",
+      "ipa": "viː lˈɔøft diː ˈaɾbaɪt"
+    },
+    {
+      "german": "Wie geht es deiner Familie?",
+      "situation": "conversation",
+      "level": "B",
+      "id": 79,
+      "english": "How's your family?",
+      "ipa": "viː ɡˈeːt ɛs dˌaɪnɜ famˈiːlɪə"
+    },
+    {
+      "german": "Halt mich auf dem Laufenden",
+      "situation": "conversation",
+      "level": "C",
+      "id": 80,
+      "english": "Keep me updated",
+      "ipa": "hˈalt mɪç aʊf deːm lˈaʊfəndən"
+    },
+    {
+      "german": "Kommst du zurecht?",
+      "situation": "conversation",
+      "level": "C",
+      "id": 81,
+      "english": "Are you managing?",
+      "ipa": "kˈɔmst duː tsuːrˈɛçt"
+    },
+    {
+      "german": "Ich bin glücklich",
+      "situation": "feelings",
+      "level": "B",
+      "id": 82,
+      "english": "I'm happy",
+      "ipa": "ɪç bɪn ɡlˈʏklɪç"
+    },
+    {
+      "german": "Ich bin glücklich",
+      "situation": "feelings",
+      "level": "B",
+      "id": 83,
+      "english": "I'm happy",
+      "ipa": "ɪç bɪn ɡlˈʏklɪç"
+    },
+    {
+      "german": "Ich bin müde",
+      "situation": "feelings",
+      "level": "B",
+      "id": 84,
+      "english": "I'm tired",
+      "ipa": "ɪç bɪn mˈyːdə"
+    },
+    {
+      "german": "Ich bin müde",
+      "situation": "feelings",
+      "level": "B",
+      "id": 85,
+      "english": "I'm tired",
+      "ipa": "ɪç bɪn mˈyːdə"
+    },
+    {
+      "german": "Ich habe Hunger",
+      "situation": "feelings",
+      "level": "A",
+      "id": 86,
+      "english": "I'm hungry",
+      "ipa": "ɪç hɑːbə hˈʊŋɜ"
+    },
+    {
+      "german": "Ich habe Durst",
+      "situation": "feelings",
+      "level": "A",
+      "id": 87,
+      "english": "I'm thirsty",
+      "ipa": "ɪç hɑːbə dˈuːɾst"
+    },
+    {
+      "german": "Mir ist warm",
+      "situation": "feelings",
+      "level": "A",
+      "id": 88,
+      "english": "I'm hot",
+      "ipa": "miːɾ ɪst vˈaɾm"
+    },
+    {
+      "german": "Mir ist kalt",
+      "situation": "feelings",
+      "level": "A",
+      "id": 89,
+      "english": "I'm cold",
+      "ipa": "miːɾ ɪst kˈalt"
+    },
+    {
+      "german": "Ich bin erschöpft",
+      "situation": "feelings",
+      "level": "C",
+      "id": 90,
+      "english": "I'm exhausted",
+      "ipa": "ɪç bɪn ɛɾʃˈœpft"
+    },
+    {
+      "german": "Mir ist nicht gut",
+      "situation": "feelings",
+      "level": "C",
+      "id": 91,
+      "english": "I'm feeling down",
+      "ipa": "miːɾ ɪst nˈɪçt ɡˈuːt"
+    },
+    {
+      "german": "Ich kann es kaum erwarten",
+      "situation": "feelings",
+      "level": "B",
+      "id": 92,
+      "english": "I can't wait",
+      "ipa": "ɪç kˌan ɛs kˈaʊm ɛɾvˈaɾtən"
+    },
+    {
+      "german": "Mir ist langweilig",
+      "situation": "feelings",
+      "level": "B",
+      "id": 93,
+      "english": "I'm bored",
+      "ipa": "miːɾ ɪst lˈaŋvˌaɪlɪç"
+    },
+    {
+      "german": "Ach wirklich!",
+      "situation": "exclamations",
+      "level": "B",
+      "id": 94,
+      "english": "Oh really!",
+      "ipa": "ˈax vˈɪɾklɪç"
+    },
+    {
+      "german": "Egal!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 95,
+      "english": "Whatever!",
+      "ipa": "eːɡˈɑːl"
+    },
+    {
+      "german": "Das ist Unsinn!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 96,
+      "english": "That's nonsense!",
+      "ipa": "das ɪst ˈʊnzˌɪn"
+    },
+    {
+      "german": "Vergiss es",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 97,
+      "english": "Forget it",
+      "ipa": "fɛɾɡˈɪs ɛs"
+    },
+    {
+      "german": "Jedenfalls",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 98,
+      "english": "Anyway",
+      "ipa": "jˈeːdənfˌals"
+    },
+    {
+      "german": "Wahnsinn!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 99,
+      "english": "Wow!",
+      "ipa": "vˈɑːnzɪn"
+    },
+    {
+      "german": "Mensch!",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 100,
+      "english": "Holy cow!",
+      "ipa": "mˈɛnʃ"
+    },
+    {
+      "german": "Das ist doof",
+      "situation": "exclamations",
+      "level": "C",
+      "id": 101,
+      "english": "That sucks",
+      "ipa": "das ɪst dˈoːf"
+    },
+    {
+      "german": "Los!",
+      "situation": "exclamations",
+      "level": "B",
+      "id": 102,
+      "english": "Come on!",
+      "ipa": "lˈoːs"
+    },
+    {
+      "german": "Na ja",
+      "situation": "exclamations",
+      "level": "B",
+      "id": 103,
+      "english": "Meh",
+      "ipa": "nˈɑː jˈɑː"
+    }
+  ]
+}

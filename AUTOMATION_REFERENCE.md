@@ -9,7 +9,7 @@ Generate IPA transcriptions for any supported language.
 python3 generate_phrasebook_ipa.py <lang_code>
 ```
 
-**Supported languages**: `fr`, `pt`, `es`, `it`, `de`
+**Supported languages**: `fr`, `pt`, `es`, `it`, `de`, `nl`
 
 **Requirements**:
 
@@ -33,7 +33,7 @@ Split phrasebook JSON into topic-based text files.
 python3 split_phrasebook.py <lang_code>
 ```
 
-**Supported languages**: `fr`, `pt`, `es`, `it`, `de`
+**Supported languages**: `fr`, `pt`, `es`, `it`, `de`, `nl`
 
 **Input**: `language_materials/<lang>/phrasebook_complete.json`  
 **Output**: `language_materials/<lang>/phrasebook-topics/*.txt` (12 files)
@@ -130,6 +130,7 @@ LANGUAGES = {
     'es': {'name': 'Spanish', 'key': 'spanish', 'voice': 'es'},
     'it': {'name': 'Italian', 'key': 'italian', 'voice': 'it'},
     'de': {'name': 'German', 'key': 'german', 'voice': 'de'},
+    'nl': {'name': 'Dutch', 'key': 'dutch', 'voice': 'nl'},
 }
 ```
 

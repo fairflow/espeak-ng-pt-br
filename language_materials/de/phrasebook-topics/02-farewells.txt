@@ -1,0 +1,10 @@
+# German Phrasebook - Farewells
+# Level distribution: A
+# Format: german | english | [ipa]
+
+Auf Wiedersehen | Goodbye | [aʊf viːdɜzˈeːən]
+Bis bald | See you soon | [bɪs bˈalt]
+Bis morgen | See you tomorrow | [bɪs mˈɔɾɡən]
+Gute Nacht | Good night | [ɡˈuːtə nˈaxt]
+Schönen Abend noch | Have a good evening | [ʃˈøːnən ˈɑːbənt nˈɔx]
+Schönen Tag noch | Have a good day | [ʃˈøːnən tˈɑːk nˈɔx]

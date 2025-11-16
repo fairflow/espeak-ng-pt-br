@@ -216,6 +216,9 @@ def format_language_name(lang_code: str) -> str:
         'fr': '🇫🇷 French',
         'pt': '🇵🇹 Portuguese',
         'nl': '🇳🇱 Dutch',
+        'de': '🇩🇪 German',
+        'it': '🇮🇹 Italian',
+        'es': '🇪🇸 Spanish',
     }
     
     return language_map.get(lang_code, lang_code.upper())

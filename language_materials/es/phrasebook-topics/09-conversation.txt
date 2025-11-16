@@ -1,0 +1,14 @@
+# Spanish Phrasebook - Conversation
+# Level distribution: B, C
+# Format: spanish | english | [ipa]
+
+Tengo ganas de... | I feel like... | [tˈɛŋɡo ɣˈanas ðˈe]
+¿Cómo está tu familia? | How's your family? | [kˈɔmo estˈa tu famˈilja]
+¿Cómo estás? | How are you? | [kˈɔmo estˈas]
+¿Cómo va el trabajo? | How's work? | [kˈɔmo βˈa el tɾaβˈaxo]
+¿Quieres ir a tomar algo? | Want to get a drink? | [kjˈɛɾɛs ˈiɾ a tomˈaɾ ˈalɣo]
+¿Qué haces? | What are you doing? | [kˈɛ ˈaθes]
+¿Qué haces? | What are you doing? | [kˈɛ ˈaθes]
+¿Te apetece? | How about it? | [te ˌapetˈeθe]
+Mantenme informado | Keep me updated | [mantˈɛnme ˌimfɔɾmˈaðo]
+¿Te las arreglas? | Are you managing? | [te las arˈeɣlas]

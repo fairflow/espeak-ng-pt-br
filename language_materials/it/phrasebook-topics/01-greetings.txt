@@ -1,0 +1,13 @@
+# Italian Phrasebook - Greetings
+# Level distribution: A
+# Format: italian | english | [ipa]
+
+Bene | I'm fine | [bˈɛːne]
+Buonasera | Good evening | [bˌʊonazˈɛːra]
+Buongiorno | Hello | [bˌʊondʒˈɔːrno]
+Ciao | Hi | [tʃˈaʊ]
+Come sta? | How are you? | [kˌome stˈa]
+Come va? | How are you? | [kˌome vˈa]
+E Lei? | And you? | [ˌe lˈɛj]
+Sto bene | I'm doing well | [stˈo bˈɛːne]
+Sto bene, grazie | I'm fine, thank you | [stˈo bˈɛːne ɡrˈatsje]

@@ -1,0 +1,6 @@
+# Dutch Phrasebook - Basics
+# Level distribution: A
+# Format: dutch | english | [ipa]
+
+Ja | Yes | [jˈaː]
+Nee | No | [nˈeː]

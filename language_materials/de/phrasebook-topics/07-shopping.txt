@@ -1,0 +1,14 @@
+# German Phrasebook - Shopping
+# Level distribution: A, B
+# Format: german | english | [ipa]
+
+Das ist zu teuer | It's too expensive | [das ɪst tsuː tˈɔøɜ]
+Haben Sie...? | Do you have...? | [hˈɑːbən ziː]
+Ich hätte gern... | I would like... | [ɪç hˌɛtə ɡˈɛɾn]
+Ich nehme das | I'll take this | [ɪç nˈeːmə das]
+Ich suche... | I'm looking for... | [ɪç zˈuːxə]
+Kann ich mit Karte zahlen? | Can I pay by card? | [kˌan ɪç mɪt kˈaɾtə tsˈɑːlən]
+Was kostet das? | How much is it? | [vˈas kˈɔstət das]
+Welche Größe? | What size? | [vˈɛlçə ɡrˈøːsə]
+Wie viel kostet das? | How much does it cost? | [viː fˈiːl kˈɔstət das]
+Kann ich das anprobieren? | Can I try it? | [kˌan ɪç das ˈanproːbˌiːrən]

@@ -1,0 +1,14 @@
+# Spanish Phrasebook - Restaurant
+# Level distribution: A, B
+# Format: spanish | english | [ipa]
+
+El menú, por favor | The menu, please | [el menˈu pɔɾ faβˈɔɾ]
+Estaba delicioso | It was delicious | [estˈaβa ðˌeliθjˈoso]
+La cuenta, por favor | The bill, please | [la kwˈɛnta pɔɾ faβˈɔɾ]
+Quisiera... | I would like... | [kisjˈɛɾa]
+Soy vegetariano | I'm vegetarian | [sˈoɪ βˌexetaɾjˈano]
+Un café, por favor | A coffee, please | [ˈun kafˈɛ pɔɾ faβˈɔɾ]
+Una jarra de agua, por favor | A carafe of water, please | [ˈuna xˈara ðe ˈaɣwa pɔɾ faβˈɔɾ]
+Una mesa para dos, por favor | A table for two, please | [ˈuna mˈesa pˌaɾa ðˈos pɔɾ faβˈɔɾ]
+Soy alérgico a... | I'm allergic to... | [sˈoɪ alˈɛɾxiko ˈa]
+¿Qué recomienda? | What do you recommend? | [kˈɛ rˌekomjˈɛnda]

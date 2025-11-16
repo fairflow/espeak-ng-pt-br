@@ -1,0 +1,12 @@
+# Italian Phrasebook - Courtesy
+# Level distribution: A
+# Format: italian | english | [ipa]
+
+Grazie | Thank you | [ɡrˈatsje]
+Grazie mille | Thank you very much | [ɡrˈatsje mˈille]
+Mi scusi | Excuse me | [mˌɪ skˈuːzɪ]
+Per favore | Please | [pˌɛr favˈoːre]
+Per piacere | Please | [pˌɛr pjatʃˈeːre]
+Prego | You're welcome | [prˈɛːɡo]
+Scusa | Sorry | [skˈuːza]
+Scusi | Pardon | [skˈuːzɪ]

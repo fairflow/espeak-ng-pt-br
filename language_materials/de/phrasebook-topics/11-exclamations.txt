@@ -1,0 +1,14 @@
+# German Phrasebook - Exclamations
+# Level distribution: B, C
+# Format: german | english | [ipa]
+
+Ach wirklich! | Oh really! | [ˈax vˈɪɾklɪç]
+Los! | Come on! | [lˈoːs]
+Na ja | Meh | [nˈɑː jˈɑː]
+Das ist Unsinn! | That's nonsense! | [das ɪst ˈʊnzˌɪn]
+Das ist doof | That sucks | [das ɪst dˈoːf]
+Egal! | Whatever! | [eːɡˈɑːl]
+Jedenfalls | Anyway | [jˈeːdənfˌals]
+Mensch! | Holy cow! | [mˈɛnʃ]
+Vergiss es | Forget it | [fɛɾɡˈɪs ɛs]
+Wahnsinn! | Wow! | [vˈɑːnzɪn]

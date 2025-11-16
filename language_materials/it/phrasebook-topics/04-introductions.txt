@@ -1,0 +1,11 @@
+# Italian Phrasebook - Introductions
+# Level distribution: A, B
+# Format: italian | english | [ipa]
+
+Come si chiama? | What is your name? | [kˌome sˌɪ kjˈaːma]
+Di dove sei? | Where are you from? | [dˌɪ dˈoːve sˈɛj]
+Mi chiamo... | My name is... | [mˌɪ kjˈaːmo]
+Piacere | Nice to meet you | [pjatʃˈeːre]
+Piacere | Nice to meet you | [pjatʃˈeːre]
+Vengo da... | I come from... | [vˈeŋɡo dˈa]
+Molto lieto di conoscerla | Pleased to meet you | [mˈolto liˈɛːto dˌɪ konˈoʃerla]

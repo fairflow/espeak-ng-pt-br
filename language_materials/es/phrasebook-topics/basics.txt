@@ -1,0 +1,6 @@
+# Spanish Phrasebook - Basics
+# Level distribution: A
+# Format: spanish | english | [ipa]
+
+No | No | [nˈo]
+Sí | Yes | [sˈi]

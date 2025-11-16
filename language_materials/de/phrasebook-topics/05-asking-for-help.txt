@@ -1,0 +1,14 @@
+# German Phrasebook - Asking For Help
+# Level distribution: A, B
+# Format: german | english | [ipa]
+
+Ich brauche Hilfe | I need help | [ɪç brˈaʊxə hˈɪlfə]
+Ich spreche ein bisschen Deutsch | I speak a little German | [ɪç ʃprˈɛçə aɪn bˈɪsçən dˈɔøtʃ]
+Ich spreche kein Deutsch | I don't speak German | [ɪç ʃprˈɛçə kˈaɪn dˈɔøtʃ]
+Ich verstehe nicht | I don't understand | [ɪç fɛɾʃtˈeːə nˈɪçt]
+Können Sie das wiederholen? | Can you repeat? | [kˌœnən ziː das viːdɜhˈoːlən]
+Können Sie mir helfen? | Can you help me? | [kˌœnən ziː miːɾ hˈɛlfən]
+Langsamer, bitte | Slower, please | [lˈaŋzɑːmɜ bˈɪtə]
+Sprechen Sie Englisch? | Do you speak English? | [ʃprˈɛçən ziː ˈɛŋlɪʃ]
+Was bedeutet das? | What does that mean? | [vˈas bədˈɔøtət das]
+Wie sagt man... auf Deutsch? | How do you say... in German? | [viː zˈɑːkt man aʊf dˈɔøtʃ]

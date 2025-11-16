@@ -1,0 +1,12 @@
+# Spanish Phrasebook - Courtesy
+# Level distribution: A
+# Format: spanish | english | [ipa]
+
+De nada | You're welcome | [de nˈaða]
+Disculpe | Excuse me | [diskˈulpe]
+Gracias | Thank you | [ɡɾˈaθjas]
+Lo siento | Sorry | [lo sjˈɛnto]
+Muchas gracias | Thank you very much | [mˈutʃas ɣɾˈaθjas]
+Perdón | Pardon | [pɛɾðˈɔn]
+Por favor | Please | [pɔɾ faβˈɔɾ]
+Por favor | Please | [pɔɾ faβˈɔɾ]

@@ -10,7 +10,7 @@ Examples:
     python3 split_phrasebook.py pt
     python3 split_phrasebook.py es
 
-Supported languages: fr (French), pt (Portuguese), es (Spanish), it (Italian), de (German)
+Supported languages: fr (French), pt (Portuguese), es (Spanish), it (Italian), de (German), nl (Dutch)
 """
 import json
 import sys
@@ -24,6 +24,7 @@ LANGUAGES = {
     'es': {'name': 'Spanish', 'key': 'spanish'},
     'it': {'name': 'Italian', 'key': 'italian'},
     'de': {'name': 'German', 'key': 'german'},
+    'nl': {'name': 'Dutch', 'key': 'dutch'},
 }
 
 # Topic file mapping (consistent across all languages)

@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.6.2"
+__version__ = "1.7.0"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -43,6 +43,36 @@ LANGUAGE_CONFIG = {
             "google_cloud": ["fr", "fr-fr"],
             "gtts": ["fr"],
             "espeak": ["fr-fr"]
+        }
+    },
+    "German": {
+        "code": "de",
+        "whisper_code": "de",
+        "display_name": "German Pronunciation Trainer",
+        "voices": {
+            "google_cloud": ["de", "de-de"],
+            "gtts": ["de"],
+            "espeak": ["de"]
+        }
+    },
+    "Italian": {
+        "code": "it",
+        "whisper_code": "it",
+        "display_name": "Italian Pronunciation Trainer",
+        "voices": {
+            "google_cloud": ["it", "it-it"],
+            "gtts": ["it"],
+            "espeak": ["it"]
+        }
+    },
+    "Spanish": {
+        "code": "es",
+        "whisper_code": "es",
+        "display_name": "Spanish Pronunciation Trainer",
+        "voices": {
+            "google_cloud": ["es", "es-es"],
+            "gtts": ["es"],
+            "espeak": ["es"]
         }
     }
 }
@@ -523,6 +553,9 @@ def speak_text_google_cloud(text: str, lang: str = "pt-BR", use_wav: bool = Fals
         "fr-FR": "fr-FR-Standard-A",  # Female French
         "nl-NL": "nl-NL-Standard-A",  # Female Dutch
         "nl-BE": "nl-BE-Standard-A",  # Female Flemish
+        "de-DE": "de-DE-Standard-A",  # Female German
+        "it-IT": "it-IT-Standard-A",  # Female Italian
+        "es-ES": "es-ES-Standard-A",  # Female Spanish
     }
     
     voice_name = voice_map.get(lang, "pt-BR-Standard-A")
@@ -684,7 +717,13 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
                 'fr': 'fr-FR',
                 'fr-fr': 'fr-FR',
                 'nl': 'nl-NL',
-                'nl-be': 'nl-BE'
+                'nl-be': 'nl-BE',
+                'de': 'de-DE',
+                'de-de': 'de-DE',
+                'it': 'it-IT',
+                'it-it': 'it-IT',
+                'es': 'es-ES',
+                'es-es': 'es-ES'
             }
             cloud_lang = voice_map.get(settings.get('voice', 'pt-br'), 'pt-BR')
             
@@ -724,7 +763,13 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
                 'fr': 'fr-FR',
                 'fr-fr': 'fr-FR',
                 'nl': 'nl-NL',
-                'nl-be': 'nl-BE'
+                'nl-be': 'nl-BE',
+                'de': 'de-DE',
+                'de-de': 'de-DE',
+                'it': 'it-IT',
+                'it-it': 'it-IT',
+                'es': 'es-ES',
+                'es-es': 'es-ES'
             }
             cloud_lang = voice_map.get(settings.get('voice', 'pt-br'), 'pt-BR')
             
@@ -1190,7 +1235,10 @@ def main():
         "Portuguese": "🇧🇷",
         "French": "🇫🇷",
         "Dutch": "🇳🇱",
-        "Flemish": "🇧🇪"
+        "Flemish": "🇧🇪",
+        "German": "🇩🇪",
+        "Italian": "🇮🇹",
+        "Spanish": "🇪🇸"
     }
     
     flag = flag_emojis.get(st.session_state.language, "🌍")
@@ -1393,6 +1441,12 @@ def main():
     # Tab 1: Quick Practice
     with tab1:
         st.header("Quick Practice")
+        
+        # Language announcement banner
+        st.info("🎉 **Now supporting 6 languages!** Practice pronunciation in Portuguese, French, Dutch, German, Italian, and Spanish.")
+        
+        # Language announcement banner
+        st.info("🎉 **Now supporting 6 languages!** Practice pronunciation in Portuguese, French, Dutch, German, Italian, and Spanish.")
         
         # Help info for new users
         current_session = st.session_state.current_sessions[st.session_state.language]

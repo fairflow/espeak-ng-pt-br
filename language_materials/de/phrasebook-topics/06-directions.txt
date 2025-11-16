@@ -1,0 +1,13 @@
+# German Phrasebook - Directions
+# Level distribution: A, B
+# Format: german | english | [ipa]
+
+Geradeaus | Straight ahead | [ɡərˈɑdeːˌaʊs]
+Ich suche... | I'm looking for... | [ɪç zˈuːxə]
+Ist es in der Nähe? | Is it near here? | [ɪst ɛs ɪn dɛɾ nˈɛːə]
+Ist es weit von hier? | Is it far from here? | [ɪst ɛs vˈaɪt fɔn hˈiːɾ]
+Nach links | To the left | [nɑːx lˈɪŋks]
+Nach rechts | To the right | [nɑːx rˈɛçts]
+Wo ist die Toilette? | Where is the bathroom? | [vˌoː ɪst diː tˈoːiːlˌɛtə]
+Wo ist...? | Where is...? | [vˈoː ɪst]
+Wo befindet sich...? | Where is...? | [vˌoː bəfˈɪndət zɪç]

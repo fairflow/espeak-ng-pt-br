@@ -1,0 +1,12 @@
+# German Phrasebook - Courtesy
+# Level distribution: A
+# Format: german | english | [ipa]
+
+Bitte | You're welcome | [bˈɪtə]
+Bitte | Please | [bˈɪtə]
+Bitte | Please | [bˈɪtə]
+Danke | Thank you | [dˈaŋkə]
+Entschuldigung | Excuse me | [ɛntʃˈʊldɪɡˌʊŋ]
+Tut mir leid | Sorry | [tˈuːt miːɾ lˈaɪt]
+Verzeihung | Pardon | [fɛɾtsˈaɪhʊŋ]
+Vielen Dank | Thank you very much | [fˈiːlən dˈaŋk]

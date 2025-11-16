@@ -1,0 +1,14 @@
+# Dutch Phrasebook - Exclamations
+# Level distribution: B, C
+# Format: dutch | english | [ipa]
+
+Kom op! | Come on! | [kˈɔm ˈɔp]
+Nou ja | Meh | [nˈʌʊ jˈaː]
+O echt! | Oh really! | [ˈoː ˈɛxt]
+Dat is balen | That sucks | [dɑt ɪs bˈaːlən]
+Dat slaat nergens op! | That's nonsense! | [dɑt slˈaːt nˈɛrɣəns ˈɔp]
+Jeetje! | Holy cow! | [jˈeːtʲə]
+Kortom | Anyway | [kˈɔrtɔm]
+Laat maar | Forget it | [lˈaːt maːr]
+Maakt niet uit! | Whatever! | [mˈaːkt nˌit ˈœyt]
+Wauw! | Wow! | [ʋˈʌʊ]

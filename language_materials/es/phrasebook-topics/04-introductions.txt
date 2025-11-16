@@ -1,0 +1,11 @@
+# Spanish Phrasebook - Introductions
+# Level distribution: A, B
+# Format: spanish | english | [ipa]
+
+Encantada | Nice to meet you | [ˌɛnkantˈaða]
+Encantado | Nice to meet you | [ˌɛnkantˈaðo]
+Me llamo... | My name is... | [me ʎˈamo]
+Soy de... | I come from... | [sˈoɪ ðˈe]
+¿Cómo se llama? | What is your name? | [kˈɔmo se ʎˈama]
+¿De dónde eres? | Where are you from? | [de ðˈɔnde ˈɛɾɛs]
+Mucho gusto en conocerle | Pleased to meet you | [mˈutʃo ɣˈusto ɛn kˌonoθˈɛɾle]

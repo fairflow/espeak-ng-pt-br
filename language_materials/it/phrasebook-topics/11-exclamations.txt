@@ -1,0 +1,14 @@
+# Italian Phrasebook - Exclamations
+# Level distribution: B, C
+# Format: italian | english | [ipa]
+
+Dai! | Come on! | [dˈaːɪ]
+Davvero! | Oh really! | [davvˈeːro]
+Mah | Meh | [mˈa]
+Cavolo! | Holy cow! | [kˈavolo]
+Che schifo | That sucks | [kˌe skˈiːfo]
+Insomma | Anyway | [insˈomma]
+Lascia perdere | Forget it | [lˈaːʃa pˈɛrdere]
+Qualunque cosa! | Whatever! | [kwalˈunkwe kˈɔːza]
+Wow! | Wow! | [(en)wˈaʊ(it)]
+È una sciocchezza! | That's nonsense! | [ˌɛ ˌʊna ʃokːˈetsːa]

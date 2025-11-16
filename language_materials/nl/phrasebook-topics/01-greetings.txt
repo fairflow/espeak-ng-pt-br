@@ -1,0 +1,13 @@
+# Dutch Phrasebook - Greetings
+# Level distribution: A
+# Format: dutch | english | [ipa]
+
+En jij? | And you? | [ˈɛn jɛɪ]
+Goedenavond | Good evening | [ɣˈudənˌaːvɔnt]
+Hallo | Hello | [hˈɑloː]
+Het gaat | I'm fine | [hət ɣˈaːt]
+Het gaat goed | I'm doing well | [hət ɣˈaːt ɣˈut]
+Het gaat goed, dank je | I'm fine, thank you | [hət ɣˈaːt ɣˈut dˈɑŋk jə]
+Hoe gaat het met u? | How are you? | [hˈu ɣˈaːt hət mɛt y]
+Hoe gaat het? | How are you? | [hˈu ɣˈaːt hət]
+Hoi | Hi | [hˈoːi]

@@ -1,0 +1,14 @@
+# Italian Phrasebook - Conversation
+# Level distribution: B, C
+# Format: italian | english | [ipa]
+
+Che fai? | What are you doing? | [kˌe fˈaːɪ]
+Come sta la tua famiglia? | How's your family? | [kˌome stˈa lˌa tˌʊa famˈiːʎa]
+Come stai? | How are you? | [kˌome stˈaɪ]
+Come va il lavoro? | How's work? | [kˌome vˈa ˌil lavˈɔːro]
+Cosa fai? | What are you doing? | [kˈɔːza fˈaːɪ]
+Ho voglia di... | I feel like... | [ˌo vˈoːʎa dˈi]
+Ti va? | How about it? | [tˌɪ vˈa]
+Vuoi andare a bere qualcosa? | Want to get a drink? | [vʊˈɔːɪ andˈaːre ˌa bˈeːre kwalkˈɔːza]
+Te la cavi? | Are you managing? | [tˌe lˌa kˈaːvɪ]
+Tienimi aggiornato | Keep me updated | [tjˈɛnimɪ ˌadʒːornˈaːto]

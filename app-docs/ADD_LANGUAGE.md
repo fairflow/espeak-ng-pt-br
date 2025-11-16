@@ -26,6 +26,7 @@ Currently supported language codes:
 - `es` - Spanish (es voice)
 - `it` - Italian (it voice)
 - `de` - German (de voice)
+- `nl` - Dutch (nl voice)
 
 ## Complete Workflow
 
@@ -73,6 +74,7 @@ Create `language_materials/<lang_code>/phrasebook_complete.json` based on French
 - Spanish: `"spanish"`
 - Italian: `"italian"`
 - German: `"german"`
+- Dutch: `"dutch"`
 
 **Important**: Translate ALL 103 French phrases from `language_materials/fr/phrasebook_complete.json`
 
@@ -148,6 +150,7 @@ LANGUAGES = {
     'es': {'name': 'Spanish', 'key': 'spanish', 'voice': 'es'},
     'it': {'name': 'Italian', 'key': 'italian', 'voice': 'it'},
     'de': {'name': 'German', 'key': 'german', 'voice': 'de'},
+    'nl': {'name': 'Dutch', 'key': 'dutch', 'voice': 'nl'},
     # Add new language here
 }
 ```

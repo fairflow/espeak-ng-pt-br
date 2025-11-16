@@ -1,0 +1,14 @@
+# Spanish Phrasebook - Exclamations
+# Level distribution: B, C
+# Format: spanish | english | [ipa]
+
+Bah | Meh | [bˈa]
+¡Ah sí! | Oh really! | [ˈa sˈi]
+¡Venga! | Come on! | [bˈɛŋɡa]
+En fin | Anyway | [ɛm fˈin]
+Olvídalo | Forget it | [ɔlβˈiðalo]
+Qué rollo | That sucks | [kˈɛ rˈɔʎo]
+¡Eso es una tontería! | That's nonsense! | [ˈeso ˈes ˈuna tˌɔntɛɾˈia]
+¡Guau! | Wow! | [ɡwˈaʊ]
+¡Lo que sea! | Whatever! | [lo ke sˈea]
+¡Madre mía! | Holy cow! | [mˈaðɾe mˈia]

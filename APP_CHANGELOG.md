@@ -6,6 +6,58 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [1.8.0] - 2025-11-16
+
+### Added
+
+- **German Language Support**: Complete practice materials with 103 phrases and IPA transcriptions
+- **Italian Language Support**: Complete practice materials with 103 phrases and IPA transcriptions
+- **Spanish Language Support**: Complete practice materials with 103 phrases and IPA transcriptions
+- Multi-language TTS support: all 3 TTS engines (Google Cloud, gTTS, eSpeak) now fully support German, Italian, and Spanish
+
+### Fixed
+
+- Voice mapping for German, Italian, and Spanish across all TTS engines
+- Language selection now correctly applies to TTS audio generation
+
+
+## [1.7.0] - 2025-11-16
+
+### Added
+
+- **German Language Support**: Complete German practice materials with 103 phrases
+  - Full phonetic transcriptions (IPA)
+  - 12 topic-based practice files (greetings, numbers, time, etc.)
+  - TTS support for google_cloud, gtts, and espeak engines
+  - Flag emoji 🇩🇪 integration
+- **Italian Language Support**: Complete Italian practice materials with 103 phrases
+  - Full phonetic transcriptions (IPA)
+  - 12 topic-based practice files (greetings, numbers, time, etc.)
+  - TTS support for google_cloud, gtts, and espeak engines
+  - Flag emoji 🇮🇹 integration
+- **Spanish Language Support**: Complete Spanish practice materials with 103 phrases
+  - Full phonetic transcriptions (IPA)
+  - 12 topic-based practice files (greetings, numbers, time, etc.)
+  - TTS support for google_cloud, gtts, and espeak engines
+  - Flag emoji 🇪🇸 integration
+- **Enhanced Language Display**: Full language names with flag emojis in practice materials section
+  - Updated format: "🇫🇷 French", "🇩🇪 German", "🇮🇹 Italian", "🇪🇸 Spanish"
+  - Consistent display across all 6 supported languages
+
+### Changed
+
+- App now supports 6 languages: Portuguese, French, Dutch, German, Italian, Spanish
+- Total practice materials expanded to 618 phrases (6 languages × 103 phrases)
+- Language selection dropdown now includes German, Italian, and Spanish options
+
+### Technical
+
+- Updated `LANGUAGE_CONFIG` with voice codes for all TTS engines
+- Updated `flag_emojis` dictionary with 🇩🇪, 🇮🇹, 🇪🇸
+- Updated `format_language_name()` in `app_language_materials.py`
+- Automation scripts updated to support all 6 languages
+
+
 ## [1.3.1] - 2025-11-13
 
 ### Added

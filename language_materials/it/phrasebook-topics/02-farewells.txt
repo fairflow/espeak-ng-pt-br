@@ -1,0 +1,10 @@
+# Italian Phrasebook - Farewells
+# Level distribution: A
+# Format: italian | english | [ipa]
+
+A domani | See you tomorrow | [ˌa domˈaːnɪ]
+A presto | See you soon | [ˌa prˈɛsto]
+Arrivederci | Goodbye | [ˌarɾivedˈɛːrtʃɪ]
+Buona giornata | Have a good day | [bʊˌona dʒornˈaːta]
+Buona serata | Have a good evening | [bʊˌona serˈaːta]
+Buonanotte | Good night | [bˌʊonanˈɔtːe]

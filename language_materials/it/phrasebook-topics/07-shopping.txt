@@ -1,0 +1,14 @@
+# Italian Phrasebook - Shopping
+# Level distribution: A, B
+# Format: italian | english | [ipa]
+
+Che taglia? | What size? | [kˌe tˈaːʎa]
+Ha...? | Do you have...? | [ˈa]
+Posso pagare con la carta? | Can I pay by card? | [pˈɔsso paɡˈaːre kˌon lˌa kˈaːrta]
+Prendo questo | I'll take this | [prˈɛndo kwˈɛsto]
+Quanto costa? | How much does it cost? | [kwˈanto kˈɔsta]
+Quanto è? | How much is it? | [kwˈanto ˈɛ]
+Sto cercando... | I'm looking for... | [stˈo tʃerkˈando]
+Vorrei... | I would like... | [vorɾˈeːɪ]
+È troppo caro | It's too expensive | [ˌɛ trˈɔpːo kˈaːro]
+Posso provare? | Can I try it? | [pˈɔsso provˈaːre]
