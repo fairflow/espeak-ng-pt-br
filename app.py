@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "1.7.0"
+__version__ = "1.8.0"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -279,9 +279,7 @@ def check_authentication():
 # When activating: Set BANNER_START_TIME to current time, banner shows time+5 minutes
 # Remember to deactivate after maintenance by commenting out the st.warning line!
 # ========================================
-# from datetime import datetime, timedelta
-# BANNER_START_TIME = datetime(2025, 11, 15, 11, 0)  # Set to when you activate the banner
-st.success("✅ **Miolingo is back online!** Audio has been upgraded to Google Cloud TTS for higher quality. Thank you for your patience!")
+st.success("🎉 **Now supporting 6 languages!** Practice pronunciation in Portuguese, French, Dutch, German, Italian, and Spanish.")
 
 # Check authentication BEFORE loading the app
 check_authentication()
@@ -1441,9 +1439,6 @@ def main():
     # Tab 1: Quick Practice
     with tab1:
         st.header("Quick Practice")
-        
-        # Language announcement banner
-        st.info("🎉 **Now supporting 6 languages!** Practice pronunciation in Portuguese, French, Dutch, German, Italian, and Spanish.")
         
         # Language announcement banner
         st.info("🎉 **Now supporting 6 languages!** Practice pronunciation in Portuguese, French, Dutch, German, Italian, and Spanish.")
