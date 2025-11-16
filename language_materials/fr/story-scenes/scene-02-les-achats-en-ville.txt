@@ -1,0 +1,32 @@
+# French Story - Scene 02: Les Achats en Ville
+# Extracted phrases in chronological order
+# Format: french_phrase
+
+Bonjour,
+Qu'est-ce que je peux faire pour vous?
+Nous avons besoin de pain,
+Le pain est là-bas, près de l'entrée.
+Le fromage est frais?
+Oui, il est très bon. Je l'ai reçu ce matin.
+Parfait. Et combien coûtent les tomates?
+Trois euros le kilo.
+C'est trop cher pour moi.
+Regardez,
+j'ai des tomates d'hier. Deux euros le kilo.
+D'accord, nous prenons un kilo.
+Où est la boulangerie?
+Elle est au coin de la rue, après l'église.
+J'aime ce quartier.
+Moi aussi, c'est très joli. Les vieux bâtiments ont du charme.
+On achète du vin?
+Bonne idée! On peut prendre une bouteille pour ce soir.
+Quel vin tu préfères?
+Le rouge, toujours le rouge.
+Parfait, prenons une bouteille.
+L'après-midi, Sophie et Lucas se promènent dans les rues du Marais.
+Ils entrent dans une petite épicerie.
+Lucas examine les fromages sur le comptoir.
+Sophie fait la grimace.
+Ils marchent vers la boulangerie.
+Ils entrent dans un petit magasin de vins.
+Le propriétaire les conseille et ils repartent avec un bon bordeaux.

@@ -370,13 +370,21 @@ Le vent souffle de plus en plus fort. La température chute.
 
 Sophie se force à réfléchir calmement. «Je dois trouver un abri. Je ne peux pas rester dehors cette nuit.»
 
-Elle avance prudemment, les mains tendues devant elle. «Là-bas, il y a quelque chose!»
+Elle avance prudemment, les mains tendues devant elle. Dans sa tête, des souvenirs surgissent. Son père lui disait toujours: «Dans le doute, descends. L'eau coule vers le bas.» Mais maintenant, dans ce brouillard, le haut et le bas se confondent.
+
+«Où suis-je vraiment? Qui suis-je sans Lucas à mes côtés?»
+
+Soudain, ses mains touchent quelque chose de solide. «Là-bas, il y a quelque chose!»
 
 C'est une forme sombre dans le brouillard. «Une petite cabane abandonnée. Dieu merci!»
 
 ### SCÈNE 11: Le Défi de Sophie - Les Quatre Éléments
 
-Sophie entre dans la cabane. C'est une vieille structure de berger, simple mais solide. Il y a une cheminée.
+Sophie entre dans la cabane. C'est une vieille structure de berger, simple mais solide. Il y a une cheminée. Sur le mur, quelqu'un a gravé des mots presque effacés: «...ne pardonne pas...enseigne.»
+
+«Qui a vécu ici avant moi? Combien de solitudes cette cabane a-t-elle abritées?»
+
+Elle touche les murs de pierre. «Ces murs ont survécu à combien de tempêtes, à combien d'hivers?»
 
 «Il faudrait que j'allume un feu.»
 
@@ -386,11 +394,13 @@ Elle trouve du bois à l'intérieur de la cabane, mais il est humide. «Le bois 
 
 Elle arrange le bois, met du papier, prend une allumette. Elle frotte. Rien. «J'essaie une fois, deux fois, trois fois...»
 
+Dans son esprit, elle revoit sa grand-mère montrant à la petite Sophie comment allumer un feu dans la cheminée de leur maison de campagne. «Patience, ma chérie. Le feu vient à ceux qui savent attendre.»
+
 À la quatrième tentative, une petite flamme apparaît. «Enfin! Une petite flamme qui grandit!»
 
 Elle souffle doucement et la flamme grandit. Bientôt, un vrai feu brûle dans la cheminée.
 
-«Si Lucas était là, il serait fier de moi.»
+«Ce feu... c'est moi qui l'ai créé. Moi seule.»
 
 La chaleur se répand dans la petite cabane. «Le feu me donne de la chaleur et du courage.»
 
@@ -400,15 +410,17 @@ Elle sort de la cabane pour explorer les environs. Près de la porte, elle remar
 
 «Attends... ces plantes près de la cabane, je les reconnais!»
 
-Des souvenirs de son enfance reviennent. Sa grand-mère lui avait montré ces plantes.
+Des souvenirs de son enfance reviennent. Elle revoit sa grand-mère dans le jardin de Normandie, ses mains ridées tenant délicatement les tiges vertes.
+
+«Regarde, Sophie. Les orties te piquent d'abord, mais après, elles te nourrissent. C'est comme la vie, ma petite. Les choses qui font mal nous rendent plus fortes.»
 
 «Ce sont des orties! Elles sont comestibles si on les fait cuire.»
 
 Elle les regarde avec hésitation. «J'ose à peine les toucher, elles piquent.»
 
-«Mais il le faut si je veux survivre.»
+«Mais il le faut si je veux survivre. Toute vérité exige qu'on accepte d'abord sa capacité à blesser.»
 
-Elle cueille les orties avec précaution, en utilisant un bout de tissu pour protéger ses mains.
+Elle cueille les orties avec précaution, en utilisant un bout de tissu pour protéger ses mains. Les piqûres lui rappellent que la nature n'est ni bonne ni mauvaise—elle est simplement authentique.
 
 Maintenant, elle a besoin d'eau. «Où puis-je trouver de l'eau potable?»
 
@@ -422,9 +434,15 @@ Elle remplit une petite casserole qu'elle a trouvée dans la cabane. De retour p
 
 La soupe est simple mais délicieuse. Elle la boit lentement, sentant la chaleur se répandre dans son corps.
 
-«La nature me donne exactement ce dont j'ai besoin.»
+«La nature me donne exactement ce dont j'ai besoin. Ou bien... est-ce moi qui interprète ses dons?»
+
+Elle regarde le feu danser dans la cheminée. Le feu qu'elle a allumé. L'eau qu'elle a trouvée. Les orties qu'elle a reconnues. «La montagne m'offre ces éléments, mais c'est moi qui les transforme en survie.»
 
 Cette nuit-là, assise près du feu, Sophie réfléchit à sa vie. «Cette épreuve m'apprend que je suis plus forte que je ne pensais.»
+
+Elle pense à tous les futurs possibles. Un futur où elle retourne à Paris et reprend sa vie d'avant. Un futur où elle reste dans les montagnes. Un futur où elle et Lucas se séparent. Un futur où ils restent ensemble mais différents.
+
+«Qui suis-je vraiment? Peut-être que je ne le saurai jamais complètement. Peut-être que c'est normal.»
 
 ### SCÈNE 12: Le Défi de Lucas - Le Guide Inattendu
 
@@ -434,7 +452,9 @@ Pendant ce temps, Lucas cherche désespérément Sophie dans le brouillard.
 
 Il se sent terriblement coupable. «Je n'aurais jamais dû la laisser continuer seule. J'aurais dû rester avec elle.»
 
-Il marche pendant des heures, criant son nom, mais le brouillard absorbe tous les sons.
+Il marche pendant des heures, criant son nom, mais le brouillard absorbe tous les sons. Dans cette blancheur épaisse, il perd toute notion de direction. Le haut, le bas, la gauche, la droite—tout se confond.
+
+«Je ne vois presque plus le sentier. N'est-ce pas notre condition humaine? Nous avançons tous dans l'incertitude.»
 
 Finalement, il doit prendre une décision. «Il faut que je trouve de l'aide.»
 
@@ -454,9 +474,13 @@ L'animal ne semble pas effrayé. Au contraire, elle s'approche, puis se retourne
 
 Lucas hésite. «Devrais-je la suivre? Les animaux connaissent les chemins sûrs.»
 
+«Ou bien... est-ce simplement une chèvre qui rentre à sa ferme? Est-ce que je projette une intentionnalité sur un comportement animal ordinaire?»
+
 La chèvre s'arrête et se retourne, comme pour vérifier s'il suit.
 
 «J'ai l'impression qu'elle veut me montrer quelque chose.»
+
+«Peut-être que dans notre désespoir, nous voyons des signes partout. Mais peu importe—je dois choisir de faire confiance.»
 
 «Même si c'est étrange, je dois lui faire confiance. Je n'ai pas d'autre choix.»
 
@@ -506,29 +530,31 @@ Lucas respire profondément. «Quoi qu'il arrive, nous la retrouverons, n'est-ce
 
 Au lever du jour, Sophie est toujours dans la cabane. Le feu brûle encore doucement. Elle sort et regarde le soleil qui se lève.
 
-«Cette épreuve m'a fait comprendre qui je suis vraiment.»
+«Cette épreuve m'a fait comprendre quelque chose sur moi-même.»
 
 Elle pense à toutes les fois où elle avait peur, où elle doutait d'elle-même.
 
 «Je n'aurais jamais cru être capable de survivre seule. Jamais.»
 
-Elle regarde les montagnes autour d'elle, magnifiques dans la lumière du matin.
+Elle regarde les montagnes autour d'elle, magnifiques dans la lumière du matin. Mais maintenant, elle voit aussi leur indifférence. La montagne ne l'a pas sauvée par bonté—elle a simplement existé, et Sophie a appris à lire ses signes.
 
-«Quoi que la vie me réserve, je saurai y faire face. J'en suis sûre maintenant.»
+«Quoi que la vie me réserve, je saurai mieux y faire face. Mais je ne serai jamais "complètement" prête.»
 
 Elle pense à Lucas, à leur relation. «Il n'est pas nécessaire d'avoir toujours quelqu'un à ses côtés.»
 
-«Bien que Lucas me manque terriblement, je me sens complète. Entière.»
+«Bien que Lucas me manque terriblement, je me sens plus entière qu'avant. Mais "entière" ne signifie pas "achevée"—cela signifie "en devenir".»
 
-«C'est comme si j'avais retrouvé une partie de moi-même que j'avais perdue.»
+«C'est comme si j'avais retrouvé une partie de moi-même que j'avais perdue. Mais combien d'autres parties reste-t-il à découvrir?»
 
 Le soleil illumine maintenant toute la vallée. «Le soleil se lève enfin après cette longue nuit.»
 
 Elle prend sa décision. «Il est temps que je descende chercher de l'aide.»
 
-«Quoi qu'il advienne, je n'aurai plus jamais peur de la vie.»
+«Cette nuit m'a transformée. Mais toute transformation implique aussi une perte—j'ai perdu mon innocence, ma naïveté. Je ne peux plus prétendre que la vie est simple.»
 
-Elle touche le mur de la cabane avec gratitude. «Cette montagne m'a donné un cadeau inestimable: la confiance en moi.»
+Elle touche le mur de la cabane avec gratitude et une étrange mélancolie. «Cette cabane, cette montagne... elles continueront d'exister après mon départ, indifférentes à mon histoire.»
+
+Avant de partir, elle grave quelques mots sur le mur, juste sous l'inscription mystérieuse: «Sophie, novembre 2024. La montagne enseigne.»
 
 ### SCÈNE 15: La Découverte
 
@@ -570,24 +596,40 @@ Ils restent enlacés un long moment. «L'important, c'est que nous soyons tous l
 
 Un secouriste leur apporte du thé chaud. Ils s'assoient ensemble, encore tremblants.
 
-«Cette expérience nous a changés,» dit Sophie doucement.
+«Cette expérience nous a changés,» dit Sophie doucement. «Mais elle nous a aussi coûté quelque chose.»
+
+«Qu'est-ce qu'elle nous a coûté?» demande Lucas.
+
+«Notre innocence, peut-être. L'illusion que nous pouvions contrôler nos vies. Le bonheur facile.»
 
 «Je ne suis plus la même personne qu'avant. Cette nuit dans la montagne...»
 
 «Moi non plus, j'ai appris tellement de choses. La chèvre qui m'a guidé, les gens qui m'ont aidé...»
 
-Sophie le regarde avec des yeux nouveaux. «Quand on est séparés, on réalise ce qui compte vraiment.»
+Sophie le regarde avec des yeux nouveaux, mais aussi avec une certaine tristesse. «Était-ce vraiment une chèvre guide, ou juste une chèvre ordinaire? Nous projetons tant de signification sur ce qui nous arrive.»
+
+Lucas réfléchit. «Peut-être que cela n'a pas d'importance. J'ai choisi de lui faire confiance, et cela m'a sauvé.»
+
+«Quand on est séparés, on réalise ce qui compte vraiment.»
 
 Lucas prend sa main. «Je ne veux plus jamais te perdre.»
 
 «Mais maintenant, je sais que je peux me débrouiller seule si nécessaire. J'ai fait du feu, j'ai trouvé de l'eau, j'ai fait une soupe avec des orties.»
 
-«Et c'est exactement ce qui rend notre relation plus forte. Nous sommes deux personnes complètes qui choisissent d'être ensemble.»
+«Et c'est exactement ce qui rend notre relation plus forte. Nous sommes deux personnes qui choisissent d'être ensemble—pas par besoin, mais par désir.»
 
-Ils regardent les montagnes ensemble, main dans la main. Le soleil brille sur les sommets enneigés.
+«Mais nous ne serons jamais "complètes", Lucas. Nous continuerons toujours de changer, de devenir. Et c'est bien comme ça.»
 
-«Nous ne sommes pas venus ici pour fuir Paris,» dit Sophie. «Nous sommes venus pour nous trouver nous-mêmes.»
+Ils regardent les montagnes ensemble, main dans la main. Le soleil brille sur les sommets enneigés, indifférent à leurs histoires humaines.
 
-«Et nous avons réussi,» répond Lucas en souriant.
+«Nous ne sommes pas venus ici pour fuir Paris,» dit Sophie. «Nous sommes venus pour découvrir quelque chose. Et nous l'avons trouvé.»
+
+«Qu'avons-nous trouvé exactement?» demande Lucas.
+
+Sophie sourit, mais c'est un sourire différent maintenant—plus profond, plus conscient de la fragilité des choses. «Peut-être simplement que nous sommes capables d'affronter l'incertitude. Et que notre amour peut exister même dans cette incertitude.»
+
+«C'est déjà beaucoup,» dit Lucas.
+
+«Oui. C'est déjà beaucoup.»
 
 --- FIN ---

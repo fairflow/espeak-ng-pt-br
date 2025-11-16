@@ -1465,6 +1465,10 @@ def main():
             with source_tab1:
                 st.write("Browse curated phrase and word lists by language and level.")
                 
+                # French Story link
+                st.markdown("📖 **[Read the French Story: Sophie & Lucas](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/fr/story.md)** - Advanced learners can follow the full narrative, then practice with scene-based phrases.")
+                st.markdown("---")
+                
                 languages = get_available_languages()
                 
                 if not languages:
