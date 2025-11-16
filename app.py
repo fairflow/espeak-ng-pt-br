@@ -664,8 +664,11 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
     
     tts_engine = settings.get('tts_engine', 'google_cloud')  # Default to Google Cloud TTS
     
+    # Smart fallback priority: Google Cloud TTS → gTTS → eSpeak
+    # This ensures best quality audio with graceful degradation
+    
     if tts_engine == 'espeak':
-        # Use eSpeak with speed and pitch control
+        # User explicitly chose eSpeak - use it directly
         return speak_text(
             text_no_punct,
             voice=settings.get('voice', 'pt-br'),
@@ -673,9 +676,8 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
             pitch=settings.get('pitch', 35)
         )
     elif tts_engine == 'google_cloud':
-        # Use Google Cloud TTS (official API, best quality)
+        # Try Google Cloud TTS first (best quality)
         try:
-            # Map voice codes to Google Cloud language codes
             voice_map = {
                 'pt-br': 'pt-BR',
                 'pt': 'pt-PT',
@@ -712,23 +714,44 @@ def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
                     pitch=settings.get('pitch', 35)
                 )
     else:
-        # Use gTTS (unofficial Google TTS, rate limited)
+        # tts_engine is 'gtts' - but use smart fallback
+        # Priority: Google Cloud → gTTS → eSpeak
         try:
-            return speak_text_gtts(
+            # Try Google Cloud first even if user selected gTTS (best quality)
+            voice_map = {
+                'pt-br': 'pt-BR',
+                'pt': 'pt-PT',
+                'fr': 'fr-FR',
+                'fr-fr': 'fr-FR',
+                'nl': 'nl-NL',
+                'nl-be': 'nl-BE'
+            }
+            cloud_lang = voice_map.get(settings.get('voice', 'pt-br'), 'pt-BR')
+            
+            return speak_text_google_cloud(
                 text_no_punct,
-                lang=settings.get('voice', 'pt-br'),
+                lang=cloud_lang,
                 use_wav=settings.get('use_wav_audio', False),
-                slow=settings.get('gtts_slow', False)
+                speaking_rate=1.0 if not settings.get('gtts_slow', False) else 0.75
             )
-        except Exception as e:
-            # gTTS failed (rate limit, network issue, etc.) - fall back to eSpeak
-            st.warning(f"⚠️ Google TTS unavailable, using eSpeak NG instead. ({str(e)[:100]})")
-            return speak_text(
-                text_no_punct,
-                voice=settings.get('voice', 'pt-br'),
-                speed=settings.get('speed', 140),
-                pitch=settings.get('pitch', 35)
-            )
+        except Exception:
+            # Google Cloud not available - try gTTS as requested
+            try:
+                return speak_text_gtts(
+                    text_no_punct,
+                    lang=settings.get('voice', 'pt-br'),
+                    use_wav=settings.get('use_wav_audio', False),
+                    slow=settings.get('gtts_slow', False)
+                )
+            except Exception as e:
+                # gTTS failed - fall back to eSpeak to preserve basic functionality
+                st.warning(f"⚠️ Google TTS unavailable, using eSpeak NG instead. ({str(e)[:100]})")
+                return speak_text(
+                    text_no_punct,
+                    voice=settings.get('voice', 'pt-br'),
+                    speed=settings.get('speed', 140),
+                    pitch=settings.get('pitch', 35)
+                )
 
 
 def transcribe_audio_whisper(audio_file: str, model, language_code: str = "pt"):
