@@ -8,6 +8,7 @@ learning materials (phrases and words) organized by language and difficulty leve
 from pathlib import Path
 from typing import Dict, List
 import streamlit as st
+import json
 
 DATA_DIR = Path(__file__).parent / "language_materials"
 
@@ -54,7 +55,10 @@ def get_language_structure(language: str, _cache_version: str = CACHE_VERSION) -
     structure = {}
     for category_dir in sorted(lang_dir.iterdir()):
         if category_dir.is_dir() and not category_dir.name.startswith('.'):
-            files = sorted([f.name for f in category_dir.glob("*.txt")])
+            # Support both .txt and .json files
+            txt_files = sorted([f.name for f in category_dir.glob("*.txt")])
+            json_files = sorted([f.name for f in category_dir.glob("*.json")])
+            files = txt_files + json_files
             if files:
                 structure[category_dir.name] = files
     
@@ -132,7 +136,7 @@ def get_file_metadata(language: str, category: str, filename: str) -> Dict:
 
 @st.cache_data
 def load_phrase_file(file_path_str: str) -> List[Dict]:
-    """Load and parse a phrase/word file.
+    """Load and parse a phrase/word file (TXT or JSON).
     
     Args:
         file_path_str: String representation of file path (for caching)
@@ -156,6 +160,22 @@ def load_phrase_file(file_path_str: str) -> List[Dict]:
     except Exception as e:
         raise ValueError(f"Invalid file path: {e}")
     
+    # Handle JSON files (story scenes)
+    if file_path.suffix == '.json':
+        with open(file_path, 'r', encoding='utf-8') as f:
+            data = json.load(f)
+        
+        # Convert JSON format to phrase dict format
+        phrases = []
+        for item in data:
+            phrases.append({
+                'text': item.get('french', item.get('text', '')),
+                'translation': item.get('english', item.get('translation')),
+                'ipa': item.get('ipa')
+            })
+        return phrases
+    
+    # Handle TXT files (original format)
     with open(file_path, 'r', encoding='utf-8') as f:
         content = f.read()
     
@@ -205,6 +225,7 @@ def format_category_name(category: str) -> str:
         'words-C': '📖 Words - Level C (Advanced)',
         'words-D': '📖 Words - Level D (Expert)',
         'phrasebook-topics': '💬 Phrasebook by Topic',
+        'story-scenes-json': '📖 Story Scenes (Sophie & Lucas)',
     }
     
     return category_map.get(category, category)
