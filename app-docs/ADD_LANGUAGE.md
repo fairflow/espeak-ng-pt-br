@@ -69,6 +69,7 @@ Create `language_materials/<lang_code>/phrasebook_complete.json` based on French
 ```
 
 **Language key mapping**:
+
 - French: `"french"`
 - Portuguese: `"portuguese"`
 - Spanish: `"spanish"`
@@ -104,6 +105,7 @@ python3 generate_phrasebook_ipa.py es
 ```
 
 This script will:
+
 - Read `phrasebook_complete.json`
 - Generate IPA for each phrase using eSpeak
 - Update the `ipa` field in the JSON
@@ -254,6 +256,7 @@ pip install openai-whisper
 ## Future Tasks
 
 After adding a language:
+
 - [ ] Crosscheck English translations for accuracy
 - [ ] Native speaker review of target language phrases
 - [ ] Add more advanced phrases (levels C and D)

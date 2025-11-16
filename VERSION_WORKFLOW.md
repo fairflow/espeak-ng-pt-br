@@ -20,6 +20,7 @@
 ## Git Workflow
 
 ### Main Branch
+
 - **main** - Always production-ready, deployed to Streamlit Cloud
 - Never commit broken code to main
 - Never merge without explicit permission
@@ -90,6 +91,7 @@ git merge hotfix/critical-issue
 ### 1. Update Version Number
 
 Edit `app.py`:
+
 ```python
 __version__ = "0.9.1"  # Increment appropriately
 ```
@@ -97,6 +99,7 @@ __version__ = "0.9.1"  # Increment appropriately
 ### 2. Update Changelog
 
 Edit `APP_CHANGELOG.md`:
+
 ```markdown
 ## [0.9.1] - 2025-11-XX
 
@@ -148,6 +151,7 @@ git push myfork main --follow-tags
 ## Version Display
 
 The app automatically shows version info in the sidebar:
+
 ```
 Portuguese Pronunciation Trainer
 Version 0.9.0
@@ -187,6 +191,7 @@ git push myfork main --force  # Only if necessary!
 ## When to Release 1.0.0
 
 Version 1.0.0 should be released when:
+
 - All major features are stable
 - No critical bugs remain
 - App has been tested on multiple devices/platforms
@@ -194,6 +199,7 @@ Version 1.0.0 should be released when:
 - You're confident it's production-ready
 
 Until then, stay in 0.x.x versions:
+
 - 0.9.x = beta/pre-release
 - 1.0.0 = first stable release
 - 1.x.x = stable with new features
