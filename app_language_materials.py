@@ -90,6 +90,60 @@ def get_file_metadata(language: str, category: str, filename: str) -> Dict:
         return {}
     
     try:
+        # Handle JSON files (story scenes) - extract actual phrases, not JSON structure
+        if file_path.suffix == '.json':
+            with open(file_path, 'r', encoding='utf-8') as f:
+                data = json.load(f)
+            
+            # Format 2: {"lang": [...], "scene_number": 1, "scene_title": "..."}
+            if isinstance(data, dict):
+                # Get language key (pt, fr, de, etc.)
+                lang_keys = [k for k in data.keys() if k not in ['scene_number', 'scene_title']]
+                if not lang_keys:
+                    return {
+                        'path': file_path,
+                        'line_count': 0,
+                        'has_translations': False,
+                        'has_ipa': False,
+                        'preview': []
+                    }
+                
+                lang_key = lang_keys[0]
+                phrases = data[lang_key]
+                
+                # Extract preview (first 3 phrases as text)
+                preview = []
+                for phrase in phrases[:3]:
+                    text = phrase.get(lang_key, '')
+                    translation = phrase.get('english', '')
+                    ipa = phrase.get('ipa', '')
+                    
+                    # Format like text files: text | translation | ipa
+                    if translation and ipa:
+                        preview.append(f"{text} | {translation} | {ipa}")
+                    elif translation:
+                        preview.append(f"{text} | {translation}")
+                    else:
+                        preview.append(text)
+                
+                return {
+                    'path': file_path,
+                    'line_count': len(phrases),
+                    'has_translations': bool(phrases and phrases[0].get('english')),
+                    'has_ipa': bool(phrases and phrases[0].get('ipa')),
+                    'preview': preview
+                }
+            else:
+                # Unknown JSON format
+                return {
+                    'path': file_path,
+                    'line_count': 0,
+                    'has_translations': False,
+                    'has_ipa': False,
+                    'preview': []
+                }
+        
+        # Handle text files
         with open(file_path, 'r', encoding='utf-8') as f:
             all_lines = f.readlines()
         
