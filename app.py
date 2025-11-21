@@ -1221,6 +1221,375 @@ def save_current_session():
         st.warning("No practices in current session to save")
 
 
+def render_practice_interface(text):
+    """
+    Reusable practice interface component for audio playback, recording, and checking.
+    
+    Args:
+        text: The phrase to practice
+        
+    Returns:
+        None (handles UI rendering and result storage in session state)
+    """
+    if not text:
+        st.info("👆 Enter a word or phrase above to begin")
+        return
+    
+    # Show target audio directly - one click to play
+    st.write("🎯 **Target pronunciation:**")
+    with st.spinner("Generating audio..."):
+        audio_bytes, audio_format = generate_target_audio(
+            text,
+            st.session_state.settings
+        )
+        st.audio(audio_bytes, format=audio_format, autoplay=False)
+    
+    st.write("🎙️ **Now record your pronunciation:**")
+    
+    # Streamlit's built-in audio input with dynamic key
+    audio_data = st.audio_input("Click to record", key=f"audio_input_{st.session_state.audio_input_key}")
+    
+    # Show recording tip after the recording widget (mobile-friendly)
+    language_name = st.session_state.language
+    st.info(f"💡 Wait for the recording icon to turn red before speaking. The app will automatically trim silence and enforce {language_name} language detection.")
+    
+    if audio_data:
+        st.write("▶️ **Your recording:**")
+        st.audio(audio_data, format='audio/wav')
+        
+        # Always show both buttons when recording exists - critical for UX
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            if st.button("✅ Check Pronunciation", key="submit_btn", type="primary"):
+                with st.spinner("Processing..."):
+                    result = practice_word_from_audio(
+                        text,
+                        audio_data.getvalue(),
+                        st.session_state.settings
+                    )
+        
+        with col2:
+            # CRITICAL: Always show Remove Recording button when audio exists
+            if st.button("🗑️ Remove Recording", key="clear_btn"):
+                # Clear the recording, results, and force widget reset
+                st.session_state.last_result = None
+                st.session_state.audio_input_key += 1  # Change key to reset widget
+                st.rerun()
+
+
+def render_practice_results(result):
+    """
+    Reusable practice results display component.
+    
+    Args:
+        result: Dictionary with practice results from practice_word_from_audio()
+    """
+    if not result:
+        return
+    
+    st.markdown("---")
+    st.header("Results")
+    
+    # Play celebration sounds based on score (only once per result)
+    import streamlit.components.v1 as components
+    
+    # Track if sound has been played for this result
+    result_id = f"{result.get('target', '')}_{result.get('recognized', '')}_{result.get('similarity', 0)}"
+    if 'last_sound_played' not in st.session_state:
+        st.session_state.last_sound_played = None
+    
+    should_play_sound = st.session_state.last_sound_played != result_id
+    
+    if result["exact_match"]:
+        st.success("🎉 PERFECT MATCH! Well done!")
+        # Play perfect match bell sound (C major triad)
+        if should_play_sound:
+            st.session_state.last_sound_played = result_id
+            components.html("""
+        <script>
+        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        // Perfect match: clear bell-like tone (C5-E5-G5)
+        [523.25, 659.25, 783.99].forEach((freq, i) => {
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            oscillator.frequency.value = freq;
+            oscillator.type = 'sine';
+            gainNode.gain.setValueAtTime(0.3, audioContext.currentTime + i * 0.15);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.15 + 0.6);
+            oscillator.start(audioContext.currentTime + i * 0.15);
+            oscillator.stop(audioContext.currentTime + i * 0.15 + 0.6);
+        });
+        </script>
+        """, height=0)
+    elif result['similarity'] >= 0.90:
+        # High score but not perfect: gentle encouraging sound
+        st.success(f"✨ Excellent! {result['similarity']:.1%} - Almost perfect!")
+        if should_play_sound:
+            st.session_state.last_sound_played = result_id
+            components.html("""
+        <script>
+        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        // Gentle "well done" sound: soft ascending notes (A4-C5)
+        [440, 493.88, 523.25].forEach((freq, i) => {
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            oscillator.frequency.value = freq;
+            oscillator.type = 'sine';
+            gainNode.gain.setValueAtTime(0.15, audioContext.currentTime + i * 0.12);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.12 + 0.4);
+            oscillator.start(audioContext.currentTime + i * 0.12);
+            oscillator.stop(audioContext.currentTime + i * 0.12 + 0.4);
+        });
+        </script>
+        """, height=0)
+    else:
+        score_col1, score_col2 = st.columns([2, 1])
+        with score_col1:
+            st.info(f"📊 Score: {result['similarity']:.1%}")
+        with score_col2:
+            if result.get('edit_distance') is not None:
+                st.metric("Edit Distance", result['edit_distance'],
+                        help="Number of edits needed to match target")
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("Target")
+        st.write(f"**Text:** {result['target']}")
+        st.write(f"**eIPA:** {result['correct_phonemes']}")
+        if result.get('correct_ipa'):
+            st.write(f"**IPA:** {result['correct_ipa']}")
+        
+        # Show target audio directly
+        tts_label = "Google TTS" if st.session_state.settings.get('tts_engine', 'gtts') == 'gtts' else "eSpeak"
+        st.write(f"🔊 **{tts_label}:**")
+        audio_bytes, audio_format = generate_target_audio(result['target'], st.session_state.settings)
+        st.audio(audio_bytes, format=audio_format)
+    
+    with col2:
+        st.subheader("Your Pronunciation")
+        st.write(f"**Recognized:** {result['recognized']}")
+        st.write(f"**eIPA:** {result['user_phonemes']}")
+        if result.get('user_ipa'):
+            st.write(f"**IPA:** {result['user_ipa']}")
+        
+        # Show comparison note
+        # Normalize text by removing punctuation for comparison
+        import string
+        target_clean = result['target'].lower().translate(str.maketrans('', '', string.punctuation))
+        recognized_clean = result['recognized'].translate(str.maketrans('', '', string.punctuation))
+        
+        correct_phonemes_no_space = result['correct_phonemes'].replace(" ", "")
+        user_phonemes_no_space = result['user_phonemes'].replace(" ", "")
+        
+        # Only show messages if there are meaningful differences
+        phonemes_match = correct_phonemes_no_space == user_phonemes_no_space
+        text_matches = target_clean == recognized_clean
+        score_is_high = result['similarity'] >= 0.95
+        
+        if phonemes_match and result['correct_phonemes'] != result['user_phonemes']:
+            st.success("✅ Phonemes match perfectly (spacing differences ignored)")
+        elif not text_matches and not score_is_high:
+            # Only warn if BOTH text differs AND score is low
+            st.warning("⚠️ Different words recognized - try speaking more clearly")
+        elif score_is_high and not text_matches:
+            # High score but text differs (e.g., punctuation) - show positive message
+            st.info("ℹ️ Excellent pronunciation! (Minor text differences ignored)")
+        
+        # Show detailed phoneme analysis (works with edit distance!)
+        if st.checkbox("🔍 Show detailed phoneme analysis", key="show_detail"):
+            st.markdown("#### Phoneme Analysis")
+            st.write(f"**Algorithm:** {st.session_state.settings.get('comparison_algorithm', 'edit_distance')}")
+            
+            if result.get('edit_distance') is not None:
+                st.write(f"**Edit Distance:** {result['edit_distance']} edit(s) needed")
+            
+            st.write("**Normalised phonemes (spaces removed for comparison):**")
+            col_a, col_b = st.columns(2)
+            with col_a:
+                # Use IPA (not eIPA) for user-friendly display
+                correct_ipa_normalized = result.get('correct_ipa', '').replace(" ", "")
+                st.markdown(f"`{correct_ipa_normalized}`")
+                st.caption(f"Target ({len(correct_ipa_normalized)} chars)")
+            with col_b:
+                user_ipa_normalized = result.get('user_ipa', '').replace(" ", "")
+                st.markdown(f"`{user_ipa_normalized}`")
+                st.caption(f"Your Pronunciation ({len(user_ipa_normalized)} chars)")
+            
+            # Visual comparison
+            target_norm = result.get('correct_phonemes_normalized', correct_phonemes_no_space)
+            user_norm = result.get('user_phonemes_normalized', user_phonemes_no_space)
+            
+            if target_norm == user_norm:
+                st.success("🎯 Phonemes are identical!")
+            else:
+                # Use edit distance operations for accurate difference analysis
+                operations = get_edit_operations(target_norm, user_norm)
+                
+                # Count operation types
+                matches = sum(1 for op in operations if op[0] == 'match')
+                substitutions = [op for op in operations if op[0] == 'substitute']
+                insertions = [op for op in operations if op[0] == 'insert']
+                deletions = [op for op in operations if op[0] == 'delete']
+                
+                st.write(f"**Operations:** {matches} matches, {len(substitutions)} substitutions, {len(insertions)} insertions, {len(deletions)} deletions")
+                
+                # Show specific differences
+                if substitutions:
+                    st.write("**Substitutions:**")
+                    for op, i, j, t_char, u_char in substitutions[:5]:  # Limit to first 5
+                        st.write(f"  Position {i}: `{t_char}` → `{u_char}`")
+                
+                if insertions:
+                    st.write("**Insertions (extra phonemes in your pronunciation):**")
+                    for op, i, j, _, u_char in insertions[:5]:
+                        st.write(f"  Position {j}: `{u_char}`")
+                
+                if deletions:
+                    st.write("**Deletions (missing phonemes):**")
+                    for op, i, j, t_char, _ in deletions[:5]:
+                        st.write(f"  Position {i}: `{t_char}`")
+
+
+def render_scene_practice_mode(scenes_dir):
+    """
+    Story practice mode - practice pronunciation of story phrases scene by scene.
+    
+    Args:
+        scenes_dir: Path to the directory containing scene JSON files
+    """
+    if not scenes_dir.exists():
+        st.warning("Story scenes not found. Please ensure story-scenes-json/ exists.")
+        return
+    
+    # Get all scene files
+    scene_files = sorted(scenes_dir.glob("scene-*.json"))
+    
+    if not scene_files:
+        st.warning("No scene files found in the story-scenes-json directory.")
+        return
+    
+    # Initialize session state for story practice
+    if 'story_practice_scene_file' not in st.session_state:
+        st.session_state.story_practice_scene_file = str(scene_files[0])
+    if 'story_practice_index' not in st.session_state:
+        st.session_state.story_practice_index = 0
+    
+    # Create scene selector with friendly names
+    scene_options = {}
+    for scene_file in scene_files:
+        # Extract scene number and title from filename
+        parts = scene_file.stem.split('-', 2)
+        if len(parts) >= 3:
+            scene_num = parts[1]
+            scene_title = parts[2].replace('-', ' ').title()
+            display_name = f"Scene {scene_num}: {scene_title}"
+        else:
+            display_name = scene_file.stem
+        
+        scene_options[display_name] = str(scene_file)
+    
+    # Scene selector
+    selected_scene_display = st.selectbox(
+        "Select a scene to practice:",
+        list(scene_options.keys()),
+        index=list(scene_options.values()).index(st.session_state.story_practice_scene_file)
+            if st.session_state.story_practice_scene_file in scene_options.values() else 0,
+        help="Choose a scene from Sophie & Lucas's adventure",
+        key="story_practice_scene_select"
+    )
+    
+    selected_scene_path = scene_options[selected_scene_display]
+    
+    # If scene changed, reset index
+    if selected_scene_path != st.session_state.story_practice_scene_file:
+        st.session_state.story_practice_scene_file = selected_scene_path
+        st.session_state.story_practice_index = 0
+        st.session_state.last_result = None
+        st.rerun()
+    
+    # Load the scene
+    try:
+        with open(selected_scene_path, 'r', encoding='utf-8') as f:
+            scene_data = json.load(f)
+        
+        # Get language key from scene data (pt, fr, etc.)
+        lang_keys = [k for k in scene_data.keys() if k not in ['scene_number', 'scene_title']]
+        if not lang_keys:
+            st.error("Invalid scene data format - no language key found")
+            return
+        
+        lang_key = lang_keys[0]
+        phrases = scene_data[lang_key]
+        
+        if not phrases:
+            st.warning("No phrases found in this scene.")
+            return
+        
+        # Navigation and progress
+        total_phrases = len(phrases)
+        current_idx = st.session_state.story_practice_index
+        
+        # Keep index in bounds
+        if current_idx >= total_phrases:
+            st.session_state.story_practice_index = 0
+            current_idx = 0
+        
+        current_phrase_obj = phrases[current_idx]
+        current_phrase = current_phrase_obj.get(lang_key, '')
+        phrase_translation = current_phrase_obj.get('english')
+        phrase_ipa = current_phrase_obj.get('ipa')
+        
+        st.subheader(selected_scene_display)
+        
+        # Progress bar
+        progress = (current_idx + 1) / total_phrases
+        st.progress(progress, text=f"Phrase {current_idx + 1} of {total_phrases}")
+        
+        # Navigation buttons
+        col1, col2, col3 = st.columns([1, 1, 2])
+        with col1:
+            if st.button("⬅️ Previous", disabled=(current_idx == 0), key="story_prev"):
+                st.session_state.story_practice_index -= 1
+                st.session_state.last_result = None
+                st.rerun()
+        with col2:
+            if st.button("Next ➡️", disabled=(current_idx >= total_phrases - 1), key="story_next"):
+                st.session_state.story_practice_index += 1
+                st.session_state.last_result = None
+                st.rerun()
+        with col3:
+            st.caption(f"💡 Navigate through {total_phrases} phrases in this scene")
+        
+        st.markdown("---")
+        
+        # Display current phrase
+        if phrase_translation or phrase_ipa:
+            with st.expander("📖 Translation & Reference", expanded=False):
+                if phrase_translation:
+                    st.markdown(f"**🇬🇧 English:** {phrase_translation}")
+                if phrase_ipa:
+                    st.markdown(f"**📚 Reference IPA:** {phrase_ipa}")
+                    st.caption("Compare with eSpeak IPA generated below")
+        
+        st.markdown(f"#### 🎯 **{current_phrase}**")
+        
+        # Practice interface
+        render_practice_interface(current_phrase)
+        
+        # Show results
+        if st.session_state.last_result:
+            render_practice_results(st.session_state.last_result)
+            
+    except json.JSONDecodeError as e:
+        st.error(f"Error parsing scene file: {e}")
+    except Exception as e:
+        st.error(f"Error loading scene: {e}")
+
+
 def render_story_reader():
     """
     Story Reader tab - Read stories in various formats
@@ -1248,21 +1617,23 @@ def render_story_reader():
     st.header(f"📖 {config['title']}")
     
     if not story_md_path.exists():
-        st.warning("Story file not found. Please ensure `language_materials/fr/story.md` exists.")
+        st.warning("Story file not found. Please ensure story materials exist for this language.")
         return
     
-    # Story mode selector
+    # Story mode selector - now with Practice Mode option
     story_mode = st.radio(
         "Choose reading mode:",
-        ["📄 Full Story", "🎬 Scene by Scene"],
+        ["📄 Full Story", "🎬 Scene by Scene", "🎙️ Practice Mode"],
         horizontal=True,
-        help="Read the complete story or explore individual scenes with translations"
+        help="Read the complete story, explore individual scenes, or practice pronunciation"
     )
     
     if story_mode == "📄 Full Story":
         render_full_story(story_md_path)
     elif story_mode == "🎬 Scene by Scene":
         render_scene_by_scene(story_scenes_dir)
+    elif story_mode == "🎙️ Practice Mode":
+        render_scene_practice_mode(story_scenes_dir)
 
 
 def render_full_story(story_path):
@@ -1935,237 +2306,12 @@ def main():
             st.markdown("---")
             text = st.text_input("Enter word or phrase:", key="practice_text_free")
         
-        if text:
-            # Show target audio directly - one click to play
-            st.write("🎯 **Target pronunciation:**")
-            with st.spinner("Generating audio..."):
-                audio_bytes, audio_format = generate_target_audio(
-                    text,
-                    st.session_state.settings
-                )
-                st.audio(audio_bytes, format=audio_format, autoplay=False)
-            
-            st.write("🎙️ **Now record your pronunciation:**")
-            
-            # Streamlit's built-in audio input with dynamic key
-            audio_data = st.audio_input("Click to record", key=f"audio_input_{st.session_state.audio_input_key}")
-            
-            # Show recording tip after the recording widget (mobile-friendly)
-            language_name = st.session_state.language
-            st.info(f"💡 Wait for the recording icon to turn red before speaking. The app will automatically trim silence and enforce {language_name} language detection.")
-            
-            if audio_data:
-                st.write("▶️ **Your recording:**")
-                st.audio(audio_data, format='audio/wav')
-                
-                # Always show both buttons when recording exists - critical for UX
-                col1, col2 = st.columns([1, 1])
-                with col1:
-                    if st.button("✅ Check Pronunciation", key="submit_btn", type="primary"):
-                        with st.spinner("Processing..."):
-                            result = practice_word_from_audio(
-                                text,
-                                audio_data.getvalue(),
-                                st.session_state.settings
-                            )
-                
-                with col2:
-                    # CRITICAL: Always show Remove Recording button when audio exists
-                    # This was disappearing and blocking user progress
-                    if st.button("🗑️ Remove Recording", key="clear_btn"):
-                        # Clear the recording, results, and force widget reset
-                        st.session_state.last_result = None
-                        st.session_state.audio_input_key += 1  # Change key to reset widget
-                        st.rerun()
-        else:
-            st.info("👆 Enter a word or phrase above to begin")
+        # Use reusable practice interface
+        render_practice_interface(text)
         
-        # Show last result
+        # Show last result using reusable component
         if st.session_state.last_result:
-            st.markdown("---")
-            st.header("Results")
-            result = st.session_state.last_result
-            
-            # Play celebration sounds based on score (only once per result)
-            import streamlit.components.v1 as components
-            
-            # Track if sound has been played for this result
-            result_id = f"{result.get('target', '')}_{result.get('recognized', '')}_{result.get('similarity', 0)}"
-            if 'last_sound_played' not in st.session_state:
-                st.session_state.last_sound_played = None
-            
-            should_play_sound = st.session_state.last_sound_played != result_id
-            
-            if result["exact_match"]:
-                st.success("🎉 PERFECT MATCH! Well done!")
-                # Play perfect match bell sound (C major triad)
-                if should_play_sound:
-                    st.session_state.last_sound_played = result_id
-                    components.html("""
-                <script>
-                const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-                // Perfect match: clear bell-like tone (C5-E5-G5)
-                [523.25, 659.25, 783.99].forEach((freq, i) => {
-                    const oscillator = audioContext.createOscillator();
-                    const gainNode = audioContext.createGain();
-                    oscillator.connect(gainNode);
-                    gainNode.connect(audioContext.destination);
-                    oscillator.frequency.value = freq;
-                    oscillator.type = 'sine';
-                    gainNode.gain.setValueAtTime(0.3, audioContext.currentTime + i * 0.15);
-                    gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.15 + 0.6);
-                    oscillator.start(audioContext.currentTime + i * 0.15);
-                    oscillator.stop(audioContext.currentTime + i * 0.15 + 0.6);
-                });
-                </script>
-                """, height=0)
-            elif result['similarity'] >= 0.90:
-                # High score but not perfect: gentle encouraging sound
-                st.success(f"✨ Excellent! {result['similarity']:.1%} - Almost perfect!")
-                if should_play_sound:
-                    st.session_state.last_sound_played = result_id
-                    components.html("""
-                <script>
-                const audioContext = new (window.AudioContext || window.webkitAudioContext)();
-                // Gentle "well done" sound: soft ascending notes (A4-C5)
-                [440, 493.88, 523.25].forEach((freq, i) => {
-                    const oscillator = audioContext.createOscillator();
-                    const gainNode = audioContext.createGain();
-                    oscillator.connect(gainNode);
-                    gainNode.connect(audioContext.destination);
-                    oscillator.frequency.value = freq;
-                    oscillator.type = 'sine';
-                    gainNode.gain.setValueAtTime(0.15, audioContext.currentTime + i * 0.12);
-                    gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.12 + 0.4);
-                    oscillator.start(audioContext.currentTime + i * 0.12);
-                    oscillator.stop(audioContext.currentTime + i * 0.12 + 0.4);
-                });
-                </script>
-                """, height=0)
-            else:
-                score_col1, score_col2 = st.columns([2, 1])
-                with score_col1:
-                    st.info(f"📊 Score: {result['similarity']:.1%}")
-                with score_col2:
-                    if result.get('edit_distance') is not None:
-                        st.metric("Edit Distance", result['edit_distance'],
-                                help="Number of edits needed to match target")
-            
-            col1, col2 = st.columns(2)
-            with col1:
-                st.subheader("Target")
-                st.write(f"**Text:** {result['target']}")
-                st.write(f"**eIPA:** {result['correct_phonemes']}")
-                if result.get('correct_ipa'):
-                    st.write(f"**IPA:** {result['correct_ipa']}")
-                
-                # Show target audio directly
-                tts_label = "Google TTS" if st.session_state.settings.get('tts_engine', 'gtts') == 'gtts' else "eSpeak"
-                st.write(f"🔊 **{tts_label}:**")
-                audio_bytes, audio_format = generate_target_audio(result['target'], st.session_state.settings)
-                st.audio(audio_bytes, format=audio_format)
-            
-            with col2:
-                st.subheader("Your Pronunciation")
-                st.write(f"**Recognized:** {result['recognized']}")
-                st.write(f"**eIPA:** {result['user_phonemes']}")
-                if result.get('user_ipa'):
-                    st.write(f"**IPA:** {result['user_ipa']}")
-                
-                # Show comparison note
-                # Normalize text by removing punctuation for comparison
-                import string
-                target_clean = result['target'].lower().translate(str.maketrans('', '', string.punctuation))
-                recognized_clean = result['recognized'].translate(str.maketrans('', '', string.punctuation))
-                
-                correct_phonemes_no_space = result['correct_phonemes'].replace(" ", "")
-                user_phonemes_no_space = result['user_phonemes'].replace(" ", "")
-                
-                # Only show messages if there are meaningful differences
-                phonemes_match = correct_phonemes_no_space == user_phonemes_no_space
-                text_matches = target_clean == recognized_clean
-                score_is_high = result['similarity'] >= 0.95
-                
-                if phonemes_match and result['correct_phonemes'] != result['user_phonemes']:
-                    st.success("✅ Phonemes match perfectly (spacing differences ignored)")
-                elif not text_matches and not score_is_high:
-                    # Only warn if BOTH text differs AND score is low
-                    st.warning("⚠️ Different words recognized - try speaking more clearly")
-                elif score_is_high and not text_matches:
-                    # High score but text differs (e.g., punctuation) - show positive message
-                    st.info("ℹ️ Excellent pronunciation! (Minor text differences ignored)")
-                
-                # Show detailed phoneme analysis (works with edit distance!)
-                if st.checkbox("🔍 Show detailed phoneme analysis", key="show_detail"):
-                    st.markdown("#### Phoneme Analysis")
-                    st.write(f"**Algorithm:** {st.session_state.settings.get('comparison_algorithm', 'edit_distance')}")
-                    
-                    if result.get('edit_distance') is not None:
-                        st.write(f"**Edit Distance:** {result['edit_distance']} edit(s) needed")
-                    
-                    st.write("**Normalised phonemes (spaces removed for comparison):**")
-                    col_a, col_b = st.columns(2)
-                    with col_a:
-                        # Use IPA (not eIPA) for user-friendly display
-                        correct_ipa_normalized = result.get('correct_ipa', '').replace(" ", "")
-                        st.markdown(f"`{correct_ipa_normalized}`")
-                        st.caption(f"Target ({len(correct_ipa_normalized)} chars)")
-                    with col_b:
-                        user_ipa_normalized = result.get('user_ipa', '').replace(" ", "")
-                        st.markdown(f"`{user_ipa_normalized}`")
-                        st.caption(f"Your Pronunciation ({len(user_ipa_normalized)} chars)")
-                    
-                    # Visual comparison
-                    target_norm = result.get('correct_phonemes_normalized', correct_phonemes_no_space)
-                    user_norm = result.get('user_phonemes_normalized', user_phonemes_no_space)
-                    
-                    if target_norm == user_norm:
-                        st.success("🎯 Phonemes are identical!")
-                    else:
-                        # Use edit distance operations for accurate difference analysis
-                        operations = get_edit_operations(target_norm, user_norm)
-                        
-                        # Count operation types
-                        matches = sum(1 for op in operations if op[0] == 'match')
-                        substitutions = [op for op in operations if op[0] == 'substitute']
-                        insertions = [op for op in operations if op[0] == 'insert']
-                        deletions = [op for op in operations if op[0] == 'delete']
-                        
-                        st.info(f"📊 {matches} matches, {len(substitutions)} substitutions, {len(insertions)} insertions, {len(deletions)} deletions")
-                        
-                        # Show the actual differences (limit to first 5 non-matches)
-                        diffs = []
-                        for op_type, pos, c1, c2 in operations:
-                            if op_type == 'substitute':
-                                diffs.append(f"Position {pos}: `{c1}` → `{c2}` (substitute)")
-                            elif op_type == 'insert':
-                                diffs.append(f"Position {pos}: inserted `{c2}`")
-                            elif op_type == 'delete':
-                                diffs.append(f"Position {pos}: deleted `{c1}`")
-                            
-                            if len(diffs) >= 5:
-                                break
-                        
-                        if diffs:
-                            st.write("**Key differences (first 5):**")
-                            for diff in diffs:
-                                st.write(f"• {diff}")
-                        
-                        if len(substitutions) + len(insertions) + len(deletions) > 5:
-                            st.caption(f"... and {len(substitutions) + len(insertions) + len(deletions) - 5} more differences")
-                
-                # Show trimmed recording (what was actually recognized)
-                if result.get('user_audio_trimmed_bytes'):
-                    st.write("🔊 **Your (trimmed) recording:**")
-                    st.audio(result['user_audio_trimmed_bytes'], format='audio/wav')
-                    st.caption("This is the audio that was actually sent to the recognition engine (after silence trimming with 200ms padding).")
-                
-                # Show TTS of what was recognized (if different)
-                if result['recognized'] != result['target']:
-                    tts_label = "Google TTS" if st.session_state.settings.get('tts_engine', 'gtts') == 'gtts' else "eSpeak"
-                    st.write(f"🔊 **Recognized text ({tts_label}):**")
-                    audio_bytes, audio_format = generate_target_audio(result['recognized'], st.session_state.settings)
-                    st.audio(audio_bytes, format=audio_format)
+            render_practice_results(st.session_state.last_result)
             
             # Optional: Hear eSpeak phoneme pronunciation (local development only)
             if IS_LOCAL_DEV and st.session_state.last_result and not st.session_state.last_result["exact_match"]:
