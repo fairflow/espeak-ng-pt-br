@@ -265,3 +265,5 @@ test_ssh_tunnel.py
 test_ssh_simple.py
 test_key_content.py
 generate_phrasebook_ipa.py.old
+language_materials/.DS_Store
+language_materials/.DS_Store
