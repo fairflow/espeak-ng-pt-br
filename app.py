@@ -1278,12 +1278,13 @@ def render_practice_interface(text, key_prefix="practice"):
                 st.rerun()
 
 
-def render_practice_results(result):
+def render_practice_results(result, key_prefix="practice"):
     """
     Reusable practice results display component.
     
     Args:
         result: Dictionary with practice results from practice_word_from_audio()
+        key_prefix: Unique prefix for widget keys to avoid collisions (default: "practice")
     """
     if not result:
         return
@@ -1401,7 +1402,7 @@ def render_practice_results(result):
             st.info("ℹ️ Excellent pronunciation! (Minor text differences ignored)")
         
         # Show detailed phoneme analysis (works with edit distance!)
-        if st.checkbox("🔍 Show detailed phoneme analysis", key="show_detail"):
+        if st.checkbox("🔍 Show detailed phoneme analysis", key=f"{key_prefix}_show_detail"):
             st.markdown("#### Phoneme Analysis")
             st.write(f"**Algorithm:** {st.session_state.settings.get('comparison_algorithm', 'edit_distance')}")
             
@@ -1601,7 +1602,7 @@ def render_scene_practice_mode(scenes_dir):
         
         # Show results
         if st.session_state.last_result:
-            render_practice_results(st.session_state.last_result)
+            render_practice_results(st.session_state.last_result, key_prefix="story")
             
     except json.JSONDecodeError as e:
         st.error(f"Error parsing scene file: {e}")
@@ -2330,7 +2331,7 @@ def main():
         
         # Show last result using reusable component
         if st.session_state.last_result:
-            render_practice_results(st.session_state.last_result)
+            render_practice_results(st.session_state.last_result, key_prefix="quick")
             
             # Optional: Hear eSpeak phoneme pronunciation (local development only)
             if IS_LOCAL_DEV and st.session_state.last_result and not st.session_state.last_result["exact_match"]:
