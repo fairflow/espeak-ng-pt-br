@@ -1,117 +1,121 @@
-[
-  {
-    "french": "Tu sais, Lucas, je suis fatigué de cette vie,",
-    "english": "You know, Lucas, I'm tired of this life,",
-    "ipa": "ty sˈɛ lykˈa ʒə- syˌi fatiɡˈe də- sɛt vˈi"
-  },
-  {
-    "french": "Moi aussi, tout est pareil chaque jour",
-    "english": "Me too, everything is the same every day",
-    "ipa": "mwˌa osˈi tut ɛ paʁˈɛj ʃak ʒˈuʁ"
-  },
-  {
-    "french": "Métro, boulot, dodo.",
-    "english": "Subway, work, sleep.",
-    "ipa": "metʁˈo bulˈo dɔdˈo"
-  },
-  {
-    "french": "On pourrait voyager quelque part",
-    "english": "We could travel somewhere",
-    "ipa": "ɔ̃ puʁˈɛ vwajaʒˈe kˌɛlkə pˈaʁ"
-  },
-  {
-    "french": "Pour de vrai, pas juste en parler.",
-    "english": "For real, not just talk about it.",
-    "ipa": "puʁ də- vʁˈɛ pa ʒˈyst ɑ̃ paʁlˈe"
-  },
-  {
-    "french": "Où veux-tu aller?",
-    "english": "Where do you want to go?",
-    "ipa": "u vˈøty alˈe"
-  },
-  {
-    "french": "Je ne sais pas encore. Mais loin d'ici.",
-    "english": "I don't know yet. But far from here.",
-    "ipa": "ʒə- nə- sˈɛ paz ɑ̃kˈɔʁ mɛ lwˌɛ̃ disˈi"
-  },
-  {
-    "french": "La montagne ou la mer?",
-    "english": "The mountains or the sea?",
-    "ipa": "la- mɔ̃tˈaɲ u la- mˈɛʁ"
-  },
-  {
-    "french": "La montagne, j'adore la nature",
-    "english": "The mountains, I love nature",
-    "ipa": "la- mɔ̃tˈaɲ ʒadˈɔʁ la- natˈyʁ"
-  },
-  {
-    "french": "Les arbres, l'air pur, le silence.",
-    "english": "The trees, the fresh air, the silence.",
-    "ipa": "le-z ˈaʁbʁ lˈɛʁ pˈyʁ lə- silˈɑ̃s"
-  },
-  {
-    "french": "Les Alpes?",
-    "english": "The Alps?",
-    "ipa": "le-z ˈalp"
-  },
-  {
-    "french": "Oui! C'est une excellente idée!",
-    "english": "Yes! That's an excellent idea!",
-    "ipa": "wˈi sɛt yn ɛksɛlˈɑ̃t idˈe"
-  },
-  {
-    "french": "Quand partons-nous?",
-    "english": "When are we leaving?",
-    "ipa": "kɑ̃ paʁtˈɔ̃nˈu"
-  },
-  {
-    "french": "Bientôt, très bientôt.",
-    "english": "Soon, very soon.",
-    "ipa": "bjɛ̃tˈo tʁɛ bjɛ̃tˈo"
-  },
-  {
-    "french": "J'ai un peu peur, tu sais.",
-    "english": "I'm a little scared, you know.",
-    "ipa": "ʒe œ̃ pø pˈœʁ ty sˈɛ"
-  },
-  {
-    "french": "N'aie pas peur, ça va bien se passer.",
-    "english": "Don't be afraid, it will be fine.",
-    "ipa": "nɛ pa pˈœʁ sa vˈa bjˈɛ̃ sə- pasˈe"
-  },
-  {
-    "french": "Tu as raison, allons-y! Qu'est-ce qu'on risque?",
-    "english": "You're right, let's go! What do we have to lose?",
-    "ipa": "ty a ʁɛzˈɔ̃ alˈɔ̃ziɡʁˈɛk kɛs kɔ̃ ʁˈisk"
-  },
-  {
-    "french": "Le soir, dans l'appartement de Sophie, ils partagent le vin et du fromage.",
-    "english": "In the evening, in Sophie's apartment, they share wine and cheese.",
-    "ipa": "lə- swˈaʁ dɑ̃ lapaʁtəmˈɑ̃ də- sɔfˈi il paʁtˈaʒ lə- vˈɛ̃ e dy- fʁɔmˈaʒ"
-  },
-  {
-    "french": "La conversation devient plus profonde.",
-    "english": "The conversation becomes deeper.",
-    "ipa": "la- kɔ̃vɛʁsasjˈɔ̃ dəvjˈɛ̃ ply pʁɔfˈɔ̃d"
-  },
-  {
-    "french": "Lucas se redresse sur le canapé.",
-    "english": "Lucas sits up on the couch.",
-    "ipa": "lykˈa sə- ʁədʁˈɛs syʁ lə- kanapˈe"
-  },
-  {
-    "french": "Lucas se lève avec enthousiasme.",
-    "english": "Lucas gets up with enthusiasm.",
-    "ipa": "lykˈa sə- lˈɛv avˌɛkɛnθˈawzɪˌazmɪ"
-  },
-  {
-    "french": "Sophie hésite un moment.",
-    "english": "Sophie hesitates for a moment.",
-    "ipa": "sɔfˈi ezˈit œ̃ mɔmˈɑ̃"
-  },
-  {
-    "french": "Lucas lui prend la main.",
-    "english": "Lucas takes her hand.",
-    "ipa": "lykˈa lyˌi pʁˈɑ̃ la- mˈɛ̃"
-  }
-]
+{
+  "fr": [
+    {
+      "fr": "Tu sais, Lucas, je suis fatigué de cette vie,",
+      "english": "You know, Lucas, I'm tired of this life,",
+      "ipa": "ty sˈɛ lykˈa ʒə- syˌi fatiɡˈe də- sɛt vˈi"
+    },
+    {
+      "fr": "Moi aussi, tout est pareil chaque jour",
+      "english": "Me too, everything is the same every day",
+      "ipa": "mwˌa osˈi tut ɛ paʁˈɛj ʃak ʒˈuʁ"
+    },
+    {
+      "fr": "Métro, boulot, dodo.",
+      "english": "Subway, work, sleep.",
+      "ipa": "metʁˈo bulˈo dɔdˈo"
+    },
+    {
+      "fr": "On pourrait voyager quelque part",
+      "english": "We could travel somewhere",
+      "ipa": "ɔ̃ puʁˈɛ vwajaʒˈe kˌɛlkə pˈaʁ"
+    },
+    {
+      "fr": "Pour de vrai, pas juste en parler.",
+      "english": "For real, not just talk about it.",
+      "ipa": "puʁ də- vʁˈɛ pa ʒˈyst ɑ̃ paʁlˈe"
+    },
+    {
+      "fr": "Où veux-tu aller?",
+      "english": "Where do you want to go?",
+      "ipa": "u vˈøty alˈe"
+    },
+    {
+      "fr": "Je ne sais pas encore. Mais loin d'ici.",
+      "english": "I don't know yet. But far from here.",
+      "ipa": "ʒə- nə- sˈɛ paz ɑ̃kˈɔʁ mɛ lwˌɛ̃ disˈi"
+    },
+    {
+      "fr": "La montagne ou la mer?",
+      "english": "The mountains or the sea?",
+      "ipa": "la- mɔ̃tˈaɲ u la- mˈɛʁ"
+    },
+    {
+      "fr": "La montagne, j'adore la nature",
+      "english": "The mountains, I love nature",
+      "ipa": "la- mɔ̃tˈaɲ ʒadˈɔʁ la- natˈyʁ"
+    },
+    {
+      "fr": "Les arbres, l'air pur, le silence.",
+      "english": "The trees, the fresh air, the silence.",
+      "ipa": "le-z ˈaʁbʁ lˈɛʁ pˈyʁ lə- silˈɑ̃s"
+    },
+    {
+      "fr": "Les Alpes?",
+      "english": "The Alps?",
+      "ipa": "le-z ˈalp"
+    },
+    {
+      "fr": "Oui! C'est une excellente idée!",
+      "english": "Yes! That's an excellent idea!",
+      "ipa": "wˈi sɛt yn ɛksɛlˈɑ̃t idˈe"
+    },
+    {
+      "fr": "Quand partons-nous?",
+      "english": "When are we leaving?",
+      "ipa": "kɑ̃ paʁtˈɔ̃nˈu"
+    },
+    {
+      "fr": "Bientôt, très bientôt.",
+      "english": "Soon, very soon.",
+      "ipa": "bjɛ̃tˈo tʁɛ bjɛ̃tˈo"
+    },
+    {
+      "fr": "J'ai un peu peur, tu sais.",
+      "english": "I'm a little scared, you know.",
+      "ipa": "ʒe œ̃ pø pˈœʁ ty sˈɛ"
+    },
+    {
+      "fr": "N'aie pas peur, ça va bien se passer.",
+      "english": "Don't be afraid, it will be fine.",
+      "ipa": "nɛ pa pˈœʁ sa vˈa bjˈɛ̃ sə- pasˈe"
+    },
+    {
+      "fr": "Tu as raison, allons-y! Qu'est-ce qu'on risque?",
+      "english": "You're right, let's go! What do we have to lose?",
+      "ipa": "ty a ʁɛzˈɔ̃ alˈɔ̃ziɡʁˈɛk kɛs kɔ̃ ʁˈisk"
+    },
+    {
+      "fr": "Le soir, dans l'appartement de Sophie, ils partagent le vin et du fromage.",
+      "english": "In the evening, in Sophie's apartment, they share wine and cheese.",
+      "ipa": "lə- swˈaʁ dɑ̃ lapaʁtəmˈɑ̃ də- sɔfˈi il paʁtˈaʒ lə- vˈɛ̃ e dy- fʁɔmˈaʒ"
+    },
+    {
+      "fr": "La conversation devient plus profonde.",
+      "english": "The conversation becomes deeper.",
+      "ipa": "la- kɔ̃vɛʁsasjˈɔ̃ dəvjˈɛ̃ ply pʁɔfˈɔ̃d"
+    },
+    {
+      "fr": "Lucas se redresse sur le canapé.",
+      "english": "Lucas sits up on the couch.",
+      "ipa": "lykˈa sə- ʁədʁˈɛs syʁ lə- kanapˈe"
+    },
+    {
+      "fr": "Lucas se lève avec enthousiasme.",
+      "english": "Lucas gets up with enthusiasm.",
+      "ipa": "lykˈa sə- lˈɛv avˌɛkɛnθˈawzɪˌazmɪ"
+    },
+    {
+      "fr": "Sophie hésite un moment.",
+      "english": "Sophie hesitates for a moment.",
+      "ipa": "sɔfˈi ezˈit œ̃ mɔmˈɑ̃"
+    },
+    {
+      "fr": "Lucas lui prend la main.",
+      "english": "Lucas takes her hand.",
+      "ipa": "lykˈa lyˌi pʁˈɑ̃ la- mˈɛ̃"
+    }
+  ],
+  "scene_number": 3,
+  "scene_title": "Conversation Sur Le Rêve"
+}

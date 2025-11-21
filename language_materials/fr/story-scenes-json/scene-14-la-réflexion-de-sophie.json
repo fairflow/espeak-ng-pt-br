@@ -1,147 +1,151 @@
-[
-  {
-    "french": "Cette épreuve m'a fait comprendre quelque chose sur moi-même.",
-    "english": "This ordeal made me understand something about myself.",
-    "ipa": "sɛt epʁˈøv ma fˈɛ kɔ̃pʁˈɑ̃dʁ kˌɛlkə ʃˈoz syʁ mwˌamˈɛm"
-  },
-  {
-    "french": "Je n'aurais jamais cru être capable de survivre seule",
-    "english": "I never would have believed I was capable of surviving alone",
-    "ipa": "ʒə- noʁˈɛ ʒamˌɛ kʁˈy ˈɛtʁ kapˈabl də- syʁvˈivʁ sˈœl"
-  },
-  {
-    "french": "Quoi que la vie me réserve, je saurai mieux y faire face",
-    "english": "Whatever life has in store for me, I will know better how to face it",
-    "ipa": "kwˌa kə la- vˈi mə- ʁezˈɛʁv ʒə- soʁˈe mjˌø i fˈɛʁ fˈas"
-  },
-  {
-    "french": "Mais je ne serai jamais prête",
-    "english": "But I will never be ready",
-    "ipa": "mɛ ʒə- nə- səʁˈe ʒamˈɛ pʁˈɛt"
-  },
-  {
-    "french": "Il n'est pas nécessaire d'avoir toujours quelqu'un à ses côtés.",
-    "english": "It is not necessary to always have someone by your side.",
-    "ipa": "il nɛ pa nesɛsˈɛʁ davwˈaʁ tuʒˌuʁ kɛlkˌœ̃ a se- kotˈe"
-  },
-  {
-    "french": "Bien que Lucas me manque terriblement, je me sens plus entière qu'avant",
-    "english": "Although I miss Lucas terribly, I feel more whole than before",
-    "ipa": "bjˈɛ̃ kə lykˈa mə- mˈɑ̃k tɛʁibləmˈɑ̃ ʒə- mə- sˈɑ̃ plyz ɑ̃tjˈɛʁ kavˈɑ̃"
-  },
-  {
-    "french": "Mais ne signifie pas",
-    "english": "But it does not mean",
-    "ipa": "mˈɛ nə- siɲifˈi pˈa"
-  },
-  {
-    "french": "—cela signifie",
-    "english": "—that means",
-    "ipa": "səlˌa siɲifˈi"
-  },
-  {
-    "french": "C'est comme si j'avais retrouvé une partie de moi-même que j'avais perdue",
-    "english": "It's as if I had found a part of myself that I had lost",
-    "ipa": "sɛ kɔm sˈi ʒavˈɛ ʁətʁuvˈe yn paʁtˈi də- mwˌamˈɛm kə ʒavˈɛ pɛʁdˈy"
-  },
-  {
-    "french": "Mais combien d'autres parties reste-t-il à découvrir?",
-    "english": "But how many other parts remain to be discovered?",
-    "ipa": "mɛ kɔ̃bjˈɛ̃ dotʁ paʁtˈi ʁˈɛsttil a dekuvʁˈiʁ"
-  },
-  {
-    "french": "Le soleil se lève enfin après cette longue nuit.",
-    "english": "The sun finally rises after this long night.",
-    "ipa": "lə- sɔlˈɛj sə- lˈɛv ɑ̃fˌɛ̃ apʁˌɛ sɛt lˈɔ̃ɡ nyˈi"
-  },
-  {
-    "french": "Il est temps que je descende chercher de l'aide.",
-    "english": "It's time for me to go down and seek help.",
-    "ipa": "il ɛ tˈɑ̃ kə ʒə- dɛsˈɑ̃d ʃɛʁʃˈe də- lˈɛd"
-  },
-  {
-    "french": "Cette nuit m'a transformée",
-    "english": "This night has transformed me",
-    "ipa": "sɛt nyˈi ma tʁɑ̃sfɔʁmˈe"
-  },
-  {
-    "french": "Mais toute transformation implique aussi une perte",
-    "english": "But every transformation also involves a loss",
-    "ipa": "mɛ tut tʁɑ̃sfɔʁmasjˈɔ̃ ɛ̃plˈik osˌi yn pˈɛʁt"
-  },
-  {
-    "french": "j'ai perdu mon innocence, ma naïveté",
-    "english": "I have lost my innocence, my naivety",
-    "ipa": "ʒe pɛʁdˈy mɔ̃n inɔsˈɑ̃s ma- naivtˈe"
-  },
-  {
-    "french": "Je ne peux plus prétendre que la vie est simple.",
-    "english": "I can no longer pretend that life is simple.",
-    "ipa": "ʒə- nə- pˈø ply pʁetˈɑ̃dʁ kə la- vˈi ɛ sˈɛ̃pl"
-  },
-  {
-    "french": "Cette cabane, cette montagne..",
-    "english": "This cabin, this mountain..",
-    "ipa": "sɛt kabˈan sɛt mɔ̃tˈaɲ"
-  },
-  {
-    "french": "elles continueront d'exister après mon départ, indifférentes à mon histoire.",
-    "english": "they will continue to exist after my departure, indifferent to my story.",
-    "ipa": "ɛl kɔ̃tinyʁˈɔ̃ dɛɡzistˈe apʁˌɛ mɔ̃ depˈaʁ ɛ̃difeʁˈɑ̃tz a mɔ̃n istwˈaʁ"
-  },
-  {
-    "french": "Sophie, novembre 2024. La montagne enseigne.",
-    "english": "Sophie, November 2024. The mountain teaches.",
-    "ipa": "sɔfˈi nɔvˈɑ̃bʁ dø mil vɛ̃tkˈatʁ la- mɔ̃tˈaɲ ɑ̃sˈɛɲ"
-  },
-  {
-    "french": "Au lever du jour, Sophie est toujours dans la cabane.",
-    "english": "At daybreak, Sophie is still in the cabin.",
-    "ipa": "o ləvˈe dy- ʒˈuʁ sɔfˈi ɛ tuʒˌuʁ dɑ̃ la- kabˈan"
-  },
-  {
-    "french": "Le feu brûle encore doucement.",
-    "english": "The fire is still burning softly.",
-    "ipa": "lə- fˈø bʁˈyːl ɑ̃kˌɔʁ dusmˈɑ̃"
-  },
-  {
-    "french": "Elle sort et regarde le soleil qui se lève.",
-    "english": "She goes out and watches the rising sun.",
-    "ipa": "ɛl sˈɔʁ e ʁəɡˈaʁd lə- sɔlˈɛj ki sə- lˈɛv"
-  },
-  {
-    "french": "Elle pense à toutes les fois où elle avait peur, où elle doutait d'elle-même.",
-    "english": "She thinks of all the times she was afraid, when she doubted herself.",
-    "ipa": "ɛl pˈɑ̃s a tut le- fwˈaz u ɛl avˈɛ pˈœʁ u ɛl dutˈɛ dɛlmˈɛm"
-  },
-  {
-    "french": "Elle regarde les montagnes autour d'elle, magnifiques dans la lumière du matin.",
-    "english": "She looks at the mountains around her, magnificent in the morning light.",
-    "ipa": "ɛl ʁəɡˈaʁd le- mɔ̃tˈanjz otˌuʁ dˈɛl maɲifˈik dɑ̃ la- lymjˈɛʁ dy- matˈɛ̃"
-  },
-  {
-    "french": "Mais maintenant, elle voit aussi leur indifférence.",
-    "english": "But now, she also sees their indifference.",
-    "ipa": "mɛ mɛ̃tnˈɑ̃ ɛl vwˈa osˌi lœʁ ɛ̃difeʁˈɑ̃s"
-  },
-  {
-    "french": "La montagne ne l'a pas sauvée par bonté.",
-    "english": "The mountain did not save her out of kindness.",
-    "ipa": "la- mɔ̃tˈaɲ nə- la pa sovˈe paʁ bɔ̃tˈe"
-  },
-  {
-    "french": "elle a simplement existé, et Sophie a appris à lire ses signes.",
-    "english": "It simply existed, and Sophie learned to read its signs.",
-    "ipa": "ɛl a sɛ̃pləmˈɑ̃ ɛɡzistˈe e sɔfˈi a apʁˈi a lˈiʁ se- sˈinj"
-  },
-  {
-    "french": "Elle prend sa décision.",
-    "english": "She makes her decision.",
-    "ipa": "ɛl pʁˈɑ̃ sa- desizjˈɔ̃"
-  },
-  {
-    "french": "Elle touche le mur de la cabane avec gratitude et une étrange mélancolie.",
-    "english": "She touches the cabin wall with gratitude and a strange melancholy.",
-    "ipa": "ɛl tˈuʃ lə- mˈyʁ də- la- kabˈan avˌɛk ɡʁatitˈyd e yn etʁˈɑ̃ʒ melɑ̃kɔlˈi"
-  }
-]
+{
+  "fr": [
+    {
+      "fr": "Cette épreuve m'a fait comprendre quelque chose sur moi-même.",
+      "english": "This ordeal made me understand something about myself.",
+      "ipa": "sɛt epʁˈøv ma fˈɛ kɔ̃pʁˈɑ̃dʁ kˌɛlkə ʃˈoz syʁ mwˌamˈɛm"
+    },
+    {
+      "fr": "Je n'aurais jamais cru être capable de survivre seule",
+      "english": "I never would have believed I was capable of surviving alone",
+      "ipa": "ʒə- noʁˈɛ ʒamˌɛ kʁˈy ˈɛtʁ kapˈabl də- syʁvˈivʁ sˈœl"
+    },
+    {
+      "fr": "Quoi que la vie me réserve, je saurai mieux y faire face",
+      "english": "Whatever life has in store for me, I will know better how to face it",
+      "ipa": "kwˌa kə la- vˈi mə- ʁezˈɛʁv ʒə- soʁˈe mjˌø i fˈɛʁ fˈas"
+    },
+    {
+      "fr": "Mais je ne serai jamais prête",
+      "english": "But I will never be ready",
+      "ipa": "mɛ ʒə- nə- səʁˈe ʒamˈɛ pʁˈɛt"
+    },
+    {
+      "fr": "Il n'est pas nécessaire d'avoir toujours quelqu'un à ses côtés.",
+      "english": "It is not necessary to always have someone by your side.",
+      "ipa": "il nɛ pa nesɛsˈɛʁ davwˈaʁ tuʒˌuʁ kɛlkˌœ̃ a se- kotˈe"
+    },
+    {
+      "fr": "Bien que Lucas me manque terriblement, je me sens plus entière qu'avant",
+      "english": "Although I miss Lucas terribly, I feel more whole than before",
+      "ipa": "bjˈɛ̃ kə lykˈa mə- mˈɑ̃k tɛʁibləmˈɑ̃ ʒə- mə- sˈɑ̃ plyz ɑ̃tjˈɛʁ kavˈɑ̃"
+    },
+    {
+      "fr": "Mais ne signifie pas",
+      "english": "But it does not mean",
+      "ipa": "mˈɛ nə- siɲifˈi pˈa"
+    },
+    {
+      "fr": "—cela signifie",
+      "english": "—that means",
+      "ipa": "səlˌa siɲifˈi"
+    },
+    {
+      "fr": "C'est comme si j'avais retrouvé une partie de moi-même que j'avais perdue",
+      "english": "It's as if I had found a part of myself that I had lost",
+      "ipa": "sɛ kɔm sˈi ʒavˈɛ ʁətʁuvˈe yn paʁtˈi də- mwˌamˈɛm kə ʒavˈɛ pɛʁdˈy"
+    },
+    {
+      "fr": "Mais combien d'autres parties reste-t-il à découvrir?",
+      "english": "But how many other parts remain to be discovered?",
+      "ipa": "mɛ kɔ̃bjˈɛ̃ dotʁ paʁtˈi ʁˈɛsttil a dekuvʁˈiʁ"
+    },
+    {
+      "fr": "Le soleil se lève enfin après cette longue nuit.",
+      "english": "The sun finally rises after this long night.",
+      "ipa": "lə- sɔlˈɛj sə- lˈɛv ɑ̃fˌɛ̃ apʁˌɛ sɛt lˈɔ̃ɡ nyˈi"
+    },
+    {
+      "fr": "Il est temps que je descende chercher de l'aide.",
+      "english": "It's time for me to go down and seek help.",
+      "ipa": "il ɛ tˈɑ̃ kə ʒə- dɛsˈɑ̃d ʃɛʁʃˈe də- lˈɛd"
+    },
+    {
+      "fr": "Cette nuit m'a transformée",
+      "english": "This night has transformed me",
+      "ipa": "sɛt nyˈi ma tʁɑ̃sfɔʁmˈe"
+    },
+    {
+      "fr": "Mais toute transformation implique aussi une perte",
+      "english": "But every transformation also involves a loss",
+      "ipa": "mɛ tut tʁɑ̃sfɔʁmasjˈɔ̃ ɛ̃plˈik osˌi yn pˈɛʁt"
+    },
+    {
+      "fr": "j'ai perdu mon innocence, ma naïveté",
+      "english": "I have lost my innocence, my naivety",
+      "ipa": "ʒe pɛʁdˈy mɔ̃n inɔsˈɑ̃s ma- naivtˈe"
+    },
+    {
+      "fr": "Je ne peux plus prétendre que la vie est simple.",
+      "english": "I can no longer pretend that life is simple.",
+      "ipa": "ʒə- nə- pˈø ply pʁetˈɑ̃dʁ kə la- vˈi ɛ sˈɛ̃pl"
+    },
+    {
+      "fr": "Cette cabane, cette montagne..",
+      "english": "This cabin, this mountain..",
+      "ipa": "sɛt kabˈan sɛt mɔ̃tˈaɲ"
+    },
+    {
+      "fr": "elles continueront d'exister après mon départ, indifférentes à mon histoire.",
+      "english": "they will continue to exist after my departure, indifferent to my story.",
+      "ipa": "ɛl kɔ̃tinyʁˈɔ̃ dɛɡzistˈe apʁˌɛ mɔ̃ depˈaʁ ɛ̃difeʁˈɑ̃tz a mɔ̃n istwˈaʁ"
+    },
+    {
+      "fr": "Sophie, novembre 2024. La montagne enseigne.",
+      "english": "Sophie, November 2024. The mountain teaches.",
+      "ipa": "sɔfˈi nɔvˈɑ̃bʁ dø mil vɛ̃tkˈatʁ la- mɔ̃tˈaɲ ɑ̃sˈɛɲ"
+    },
+    {
+      "fr": "Au lever du jour, Sophie est toujours dans la cabane.",
+      "english": "At daybreak, Sophie is still in the cabin.",
+      "ipa": "o ləvˈe dy- ʒˈuʁ sɔfˈi ɛ tuʒˌuʁ dɑ̃ la- kabˈan"
+    },
+    {
+      "fr": "Le feu brûle encore doucement.",
+      "english": "The fire is still burning softly.",
+      "ipa": "lə- fˈø bʁˈyːl ɑ̃kˌɔʁ dusmˈɑ̃"
+    },
+    {
+      "fr": "Elle sort et regarde le soleil qui se lève.",
+      "english": "She goes out and watches the rising sun.",
+      "ipa": "ɛl sˈɔʁ e ʁəɡˈaʁd lə- sɔlˈɛj ki sə- lˈɛv"
+    },
+    {
+      "fr": "Elle pense à toutes les fois où elle avait peur, où elle doutait d'elle-même.",
+      "english": "She thinks of all the times she was afraid, when she doubted herself.",
+      "ipa": "ɛl pˈɑ̃s a tut le- fwˈaz u ɛl avˈɛ pˈœʁ u ɛl dutˈɛ dɛlmˈɛm"
+    },
+    {
+      "fr": "Elle regarde les montagnes autour d'elle, magnifiques dans la lumière du matin.",
+      "english": "She looks at the mountains around her, magnificent in the morning light.",
+      "ipa": "ɛl ʁəɡˈaʁd le- mɔ̃tˈanjz otˌuʁ dˈɛl maɲifˈik dɑ̃ la- lymjˈɛʁ dy- matˈɛ̃"
+    },
+    {
+      "fr": "Mais maintenant, elle voit aussi leur indifférence.",
+      "english": "But now, she also sees their indifference.",
+      "ipa": "mɛ mɛ̃tnˈɑ̃ ɛl vwˈa osˌi lœʁ ɛ̃difeʁˈɑ̃s"
+    },
+    {
+      "fr": "La montagne ne l'a pas sauvée par bonté.",
+      "english": "The mountain did not save her out of kindness.",
+      "ipa": "la- mɔ̃tˈaɲ nə- la pa sovˈe paʁ bɔ̃tˈe"
+    },
+    {
+      "fr": "elle a simplement existé, et Sophie a appris à lire ses signes.",
+      "english": "It simply existed, and Sophie learned to read its signs.",
+      "ipa": "ɛl a sɛ̃pləmˈɑ̃ ɛɡzistˈe e sɔfˈi a apʁˈi a lˈiʁ se- sˈinj"
+    },
+    {
+      "fr": "Elle prend sa décision.",
+      "english": "She makes her decision.",
+      "ipa": "ɛl pʁˈɑ̃ sa- desizjˈɔ̃"
+    },
+    {
+      "fr": "Elle touche le mur de la cabane avec gratitude et une étrange mélancolie.",
+      "english": "She touches the cabin wall with gratitude and a strange melancholy.",
+      "ipa": "ɛl tˈuʃ lə- mˈyʁ də- la- kabˈan avˌɛk ɡʁatitˈyd e yn etʁˈɑ̃ʒ melɑ̃kɔlˈi"
+    }
+  ],
+  "scene_number": 14,
+  "scene_title": "La Réflexion De Sophie"
+}

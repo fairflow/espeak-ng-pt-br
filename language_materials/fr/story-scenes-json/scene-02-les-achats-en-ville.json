@@ -1,147 +1,151 @@
-[
-  {
-    "french": "Bonjour,",
-    "english": "Hello",
-    "ipa": "bɔ̃ʒˈuʁ"
-  },
-  {
-    "french": "Qu'est-ce que je peux faire pour vous?",
-    "english": "What can I do for you?",
-    "ipa": "kɛskˌə ʒə- pˈø fˈɛʁ puʁ vˈu"
-  },
-  {
-    "french": "Nous avons besoin de pain,",
-    "english": "We need bread,",
-    "ipa": "nuz avˈɔ̃ bəzwˈɛ̃ də- pˈɛ̃"
-  },
-  {
-    "french": "Le pain est là-bas, près de l'entrée.",
-    "english": "The bread is over there, near the entrance.",
-    "ipa": "lə- pˈɛ̃ ɛ lˈabˈa pʁɛ də- lɑ̃tʁˈe"
-  },
-  {
-    "french": "Le fromage est frais?",
-    "english": "Is the cheese fresh?",
-    "ipa": "lə- fʁɔmˈaʒ ɛ fʁˈɛ"
-  },
-  {
-    "french": "Oui, il est très bon. Je l'ai reçu ce matin.",
-    "english": "Yes, it's very good. I received it this morning.",
-    "ipa": "wˈi il ɛ tʁɛ bˈɔ̃ ʒə- le ʁəsˈy sə- matˈɛ̃"
-  },
-  {
-    "french": "Parfait. Et combien coûtent les tomates?",
-    "english": "Perfect. And how much are the tomatoes?",
-    "ipa": "paʁfˈɛ e kɔ̃bjˈɛ̃ kˈut le- tɔmˈat"
-  },
-  {
-    "french": "Trois euros le kilo.",
-    "english": "Three euros per kilo.",
-    "ipa": "tʁwˈaz øʁˈo lə- kilˈo"
-  },
-  {
-    "french": "C'est trop cher pour moi.",
-    "english": "That's too expensive for me.",
-    "ipa": "sɛ tʁo ʃˈɛʁ puʁ mwˈa"
-  },
-  {
-    "french": "Regardez,",
-    "english": "Look,",
-    "ipa": "ʁəɡaʁdˈe"
-  },
-  {
-    "french": "j'ai des tomates d'hier. Deux euros le kilo.",
-    "english": "I have yesterday's tomatoes. Two euros per kilo.",
-    "ipa": "ʒe de- tɔmˈat djˈɛʁ dˈøz øʁˈo lə- kilˈo"
-  },
-  {
-    "french": "D'accord, nous prenons un kilo.",
-    "english": "Okay, we'll take a kilo.",
-    "ipa": "dakˈɔʁ nu pʁənˈɔ̃z œ̃ kilˈo"
-  },
-  {
-    "french": "Où est la boulangerie?",
-    "english": "Where is the bakery?",
-    "ipa": "u ɛ la- bulɑ̃ʒʁˈi"
-  },
-  {
-    "french": "Elle est au coin de la rue, après l'église.",
-    "english": "It's on the corner of the street, after the church.",
-    "ipa": "ɛl ɛt o kwˈɛ̃ də- la- ʁˈy apʁˌɛ leɡlˈiz"
-  },
-  {
-    "french": "J'aime ce quartier.",
-    "english": "I like this neighborhood.",
-    "ipa": "ʒˈɛm sə- kaʁtjˈe"
-  },
-  {
-    "french": "Moi aussi, c'est très joli",
-    "english": "Me too, it's very pretty.",
-    "ipa": "mwˌa osˈi sɛ tʁɛ ʒɔlˈi"
-  },
-  {
-    "french": "Les vieux bâtiments ont du charme.",
-    "english": "The old buildings have charm.",
-    "ipa": "le- vjˈø batimˈɑ̃z ˈɔ̃ dy- ʃˈaʁm"
-  },
-  {
-    "french": "On achète du vin?",
-    "english": "Shall we buy some wine?",
-    "ipa": "ɔ̃n aʃˈɛt dy- vˈɛ̃"
-  },
-  {
-    "french": "Bonne idée! On peut prendre une bouteille pour ce soir.",
-    "english": "Good idea! We can get a bottle for tonight.",
-    "ipa": "bˈɔn idˈe ɔ̃ pˈø pʁˈɑ̃dʁ yn butˈɛj puʁ sə- swˈaʁ"
-  },
-  {
-    "french": "Quel vin tu préfères?",
-    "english": "Which wine do you prefer?",
-    "ipa": "kɛl vˈɛ̃ ty pʁefˈɛʁ"
-  },
-  {
-    "french": "Le rouge, toujours le rouge.",
-    "english": "Red, always red.",
-    "ipa": "lə- ʁˈuʒ tuʒˌuʁ lə- ʁˈuʒ"
-  },
-  {
-    "french": "Parfait, prenons une bouteille.",
-    "english": "Perfect, let's take a bottle.",
-    "ipa": "paʁfˈɛ pʁənˈɔ̃z yn butˈɛj"
-  },
-  {
-    "french": "L'après-midi, Sophie et Lucas se promènent dans les rues du Marais.",
-    "english": "In the afternoon, Sophie and Lucas walk through the streets of the Marais.",
-    "ipa": "lapʁˌɛmidˈi sɔfˈi e lykˈa sə- pʁɔmˈɛn dɑ̃ le- ʁˈy dy- maʁˈɛ"
-  },
-  {
-    "french": "Ils entrent dans une petite épicerie.",
-    "english": "They enter a small grocery store.",
-    "ipa": "ilz ˈɑ̃tʁ dɑ̃z yn pətˈit episʁˈi"
-  },
-  {
-    "french": "Lucas examine les fromages sur le comptoir.",
-    "english": "Lucas examines the cheeses on the counter.",
-    "ipa": "lykˈaz ɛɡzamˈin le- fʁɔmˈaʒ syʁ lə- kɔ̃twˈaʁ"
-  },
-  {
-    "french": "Sophie fait la grimace.",
-    "english": "Sophie makes a face.",
-    "ipa": "sɔfˈi fˈɛ la- ɡʁimˈas"
-  },
-  {
-    "french": "Ils marchent vers la boulangerie.",
-    "english": "They walk toward the bakery.",
-    "ipa": "il mˈaʁʃ vɛʁ la- bulɑ̃ʒʁˈi"
-  },
-  {
-    "french": "Ils entrent dans un petit magasin de vins.",
-    "english": "They enter a small wine shop.",
-    "ipa": "ilz ˈɑ̃tʁ dɑ̃z œ̃ pətˈi maɡazˈɛ̃ də- vˈɛ̃"
-  },
-  {
-    "french": "Le propriétaire les conseille et ils repartent avec un bon bordeaux.",
-    "english": "The owner advises them and they leave with a good Bordeaux.",
-    "ipa": "lə- pʁɔpʁietˈɛʁ le- kɔ̃sˈɛj e il ʁəpˈaʁt avˌɛk œ̃ bˈɔ̃ bɔʁdˈo"
-  }
-]
+{
+  "fr": [
+    {
+      "fr": "Bonjour,",
+      "english": "Hello",
+      "ipa": "bɔ̃ʒˈuʁ"
+    },
+    {
+      "fr": "Qu'est-ce que je peux faire pour vous?",
+      "english": "What can I do for you?",
+      "ipa": "kɛskˌə ʒə- pˈø fˈɛʁ puʁ vˈu"
+    },
+    {
+      "fr": "Nous avons besoin de pain,",
+      "english": "We need bread,",
+      "ipa": "nuz avˈɔ̃ bəzwˈɛ̃ də- pˈɛ̃"
+    },
+    {
+      "fr": "Le pain est là-bas, près de l'entrée.",
+      "english": "The bread is over there, near the entrance.",
+      "ipa": "lə- pˈɛ̃ ɛ lˈabˈa pʁɛ də- lɑ̃tʁˈe"
+    },
+    {
+      "fr": "Le fromage est frais?",
+      "english": "Is the cheese fresh?",
+      "ipa": "lə- fʁɔmˈaʒ ɛ fʁˈɛ"
+    },
+    {
+      "fr": "Oui, il est très bon. Je l'ai reçu ce matin.",
+      "english": "Yes, it's very good. I received it this morning.",
+      "ipa": "wˈi il ɛ tʁɛ bˈɔ̃ ʒə- le ʁəsˈy sə- matˈɛ̃"
+    },
+    {
+      "fr": "Parfait. Et combien coûtent les tomates?",
+      "english": "Perfect. And how much are the tomatoes?",
+      "ipa": "paʁfˈɛ e kɔ̃bjˈɛ̃ kˈut le- tɔmˈat"
+    },
+    {
+      "fr": "Trois euros le kilo.",
+      "english": "Three euros per kilo.",
+      "ipa": "tʁwˈaz øʁˈo lə- kilˈo"
+    },
+    {
+      "fr": "C'est trop cher pour moi.",
+      "english": "That's too expensive for me.",
+      "ipa": "sɛ tʁo ʃˈɛʁ puʁ mwˈa"
+    },
+    {
+      "fr": "Regardez,",
+      "english": "Look,",
+      "ipa": "ʁəɡaʁdˈe"
+    },
+    {
+      "fr": "j'ai des tomates d'hier. Deux euros le kilo.",
+      "english": "I have yesterday's tomatoes. Two euros per kilo.",
+      "ipa": "ʒe de- tɔmˈat djˈɛʁ dˈøz øʁˈo lə- kilˈo"
+    },
+    {
+      "fr": "D'accord, nous prenons un kilo.",
+      "english": "Okay, we'll take a kilo.",
+      "ipa": "dakˈɔʁ nu pʁənˈɔ̃z œ̃ kilˈo"
+    },
+    {
+      "fr": "Où est la boulangerie?",
+      "english": "Where is the bakery?",
+      "ipa": "u ɛ la- bulɑ̃ʒʁˈi"
+    },
+    {
+      "fr": "Elle est au coin de la rue, après l'église.",
+      "english": "It's on the corner of the street, after the church.",
+      "ipa": "ɛl ɛt o kwˈɛ̃ də- la- ʁˈy apʁˌɛ leɡlˈiz"
+    },
+    {
+      "fr": "J'aime ce quartier.",
+      "english": "I like this neighborhood.",
+      "ipa": "ʒˈɛm sə- kaʁtjˈe"
+    },
+    {
+      "fr": "Moi aussi, c'est très joli",
+      "english": "Me too, it's very pretty.",
+      "ipa": "mwˌa osˈi sɛ tʁɛ ʒɔlˈi"
+    },
+    {
+      "fr": "Les vieux bâtiments ont du charme.",
+      "english": "The old buildings have charm.",
+      "ipa": "le- vjˈø batimˈɑ̃z ˈɔ̃ dy- ʃˈaʁm"
+    },
+    {
+      "fr": "On achète du vin?",
+      "english": "Shall we buy some wine?",
+      "ipa": "ɔ̃n aʃˈɛt dy- vˈɛ̃"
+    },
+    {
+      "fr": "Bonne idée! On peut prendre une bouteille pour ce soir.",
+      "english": "Good idea! We can get a bottle for tonight.",
+      "ipa": "bˈɔn idˈe ɔ̃ pˈø pʁˈɑ̃dʁ yn butˈɛj puʁ sə- swˈaʁ"
+    },
+    {
+      "fr": "Quel vin tu préfères?",
+      "english": "Which wine do you prefer?",
+      "ipa": "kɛl vˈɛ̃ ty pʁefˈɛʁ"
+    },
+    {
+      "fr": "Le rouge, toujours le rouge.",
+      "english": "Red, always red.",
+      "ipa": "lə- ʁˈuʒ tuʒˌuʁ lə- ʁˈuʒ"
+    },
+    {
+      "fr": "Parfait, prenons une bouteille.",
+      "english": "Perfect, let's take a bottle.",
+      "ipa": "paʁfˈɛ pʁənˈɔ̃z yn butˈɛj"
+    },
+    {
+      "fr": "L'après-midi, Sophie et Lucas se promènent dans les rues du Marais.",
+      "english": "In the afternoon, Sophie and Lucas walk through the streets of the Marais.",
+      "ipa": "lapʁˌɛmidˈi sɔfˈi e lykˈa sə- pʁɔmˈɛn dɑ̃ le- ʁˈy dy- maʁˈɛ"
+    },
+    {
+      "fr": "Ils entrent dans une petite épicerie.",
+      "english": "They enter a small grocery store.",
+      "ipa": "ilz ˈɑ̃tʁ dɑ̃z yn pətˈit episʁˈi"
+    },
+    {
+      "fr": "Lucas examine les fromages sur le comptoir.",
+      "english": "Lucas examines the cheeses on the counter.",
+      "ipa": "lykˈaz ɛɡzamˈin le- fʁɔmˈaʒ syʁ lə- kɔ̃twˈaʁ"
+    },
+    {
+      "fr": "Sophie fait la grimace.",
+      "english": "Sophie makes a face.",
+      "ipa": "sɔfˈi fˈɛ la- ɡʁimˈas"
+    },
+    {
+      "fr": "Ils marchent vers la boulangerie.",
+      "english": "They walk toward the bakery.",
+      "ipa": "il mˈaʁʃ vɛʁ la- bulɑ̃ʒʁˈi"
+    },
+    {
+      "fr": "Ils entrent dans un petit magasin de vins.",
+      "english": "They enter a small wine shop.",
+      "ipa": "ilz ˈɑ̃tʁ dɑ̃z œ̃ pətˈi maɡazˈɛ̃ də- vˈɛ̃"
+    },
+    {
+      "fr": "Le propriétaire les conseille et ils repartent avec un bon bordeaux.",
+      "english": "The owner advises them and they leave with a good Bordeaux.",
+      "ipa": "lə- pʁɔpʁietˈɛʁ le- kɔ̃sˈɛj e il ʁəpˈaʁt avˌɛk œ̃ bˈɔ̃ bɔʁdˈo"
+    }
+  ],
+  "scene_number": 2,
+  "scene_title": "Les Achats En Ville"
+}

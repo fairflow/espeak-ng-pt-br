@@ -1,82 +1,86 @@
-[
-  {
-    "french": "C'est décidé, nous partons!",
-    "english": "It's decided, we're leaving!",
-    "ipa": "sɛ desidˈe nu paʁtˈɔ̃"
-  },
-  {
-    "french": "Dans combien de temps?",
-    "english": "In how much time?",
-    "ipa": "dɑ̃ kɔ̃bjˈɛ̃ də- tˈɑ̃"
-  },
-  {
-    "french": "Dans une semaine. J'ai regardé les trains cette nuit.",
-    "english": "In a week. I looked at the trains last night.",
-    "ipa": "dɑ̃z yn səmˈɛn ʒe ʁəɡaʁdˈe le- tʁˈɛ̃ sɛt nyˈi"
-  },
-  {
-    "french": "Une semaine? C'est si rapide!",
-    "english": "A week? That's so fast!",
-    "ipa": "yn səmˈɛn sɛ sˈi ʁapˈid"
-  },
-  {
-    "french": "Oui, mais c'est mieux comme ça",
-    "english": "Yes, but it's better this way",
-    "ipa": "wˈi mɛ sɛ mjˌø kɔm sˈa"
-  },
-  {
-    "french": "Si on attend trop, on ne partira jamais.",
-    "english": "If we wait too long, we'll never leave.",
-    "ipa": "sˈi ɔ̃n atˈɑ̃ tʁˈo ɔ̃ nə- paʁtiʁˈa ʒamˈɛ"
-  },
-  {
-    "french": "Tu as raison. Qu'est-ce qu'on emporte?",
-    "english": "You're right. What do we take?",
-    "ipa": "ty a ʁɛzˈɔ̃ kɛs kɔ̃n ɑ̃pˈɔʁt"
-  },
-  {
-    "french": "Pas grand-chose, juste l'essentiel",
-    "english": "Not much, just the essentials",
-    "ipa": "pa ɡʁˈɑ̃ʃˈoz ʒˈyst lesɑ̃sjˈɛl"
-  },
-  {
-    "french": "Des vêtements chauds, une lampe de poche.",
-    "english": "Warm clothes, a pocket lamp.",
-    "ipa": "de- vɛtmˈɑ̃ ʃˈo yn lˈɑ̃p də- pˈɔʃ"
-  },
-  {
-    "french": "Un sac à dos chacun,",
-    "english": "A backpack each,",
-    "ipa": "œ̃ sˈak adˈɔs ʃakˈœ̃"
-  },
-  {
-    "french": "Et nos téléphones?",
-    "english": "And our phones?",
-    "ipa": "e no telefˈɔn"
-  },
-  {
-    "french": "Bien sûr, pour les photos. Et pour la sécurité.",
-    "english": "Of course, for photos. And for safety.",
-    "ipa": "bjˈɛ̃ sˈyːʁ puʁ le- fɔtˈo e puʁ la- sekyʁitˈe"
-  },
-  {
-    "french": "Je suis excitée! C'est vraiment en train d'arriver!",
-    "english": "I'm excited! It's really happening!",
-    "ipa": "ʒə- syˌiz ɛksitˈe sɛ vʁɛmˈɑ̃ ɑ̃ tʁˈɛ̃ daʁivˈe"
-  },
-  {
-    "french": "Moi aussi. Une nouvelle aventure commence.",
-    "english": "Me too. A new adventure begins.",
-    "ipa": "mwˌa osˈi yn nuvˈɛl avɑ̃tˈyʁ kɔmˈɑ̃s"
-  },
-  {
-    "french": "Le lendemain matin, Lucas arrive chez Sophie avec son ordinateur portable.",
-    "english": "The next morning, Lucas arrives at Sophie's with his laptop.",
-    "ipa": "lə- lɑ̃dmˈɛ̃ matˈɛ̃ lykˈaz aʁˈiv ʃe sɔfˈi avˌɛk sɔ̃n ɔʁdinatˈœʁ pɔʁtˈabl"
-  },
-  {
-    "french": "Sophie commence à faire une liste.",
-    "english": "Sophie starts making a list.",
-    "ipa": "sɔfˈi kɔmˈɑ̃s a fˈɛʁ yn lˈist"
-  }
-]
+{
+  "fr": [
+    {
+      "fr": "C'est décidé, nous partons!",
+      "english": "It's decided, we're leaving!",
+      "ipa": "sɛ desidˈe nu paʁtˈɔ̃"
+    },
+    {
+      "fr": "Dans combien de temps?",
+      "english": "In how much time?",
+      "ipa": "dɑ̃ kɔ̃bjˈɛ̃ də- tˈɑ̃"
+    },
+    {
+      "fr": "Dans une semaine. J'ai regardé les trains cette nuit.",
+      "english": "In a week. I looked at the trains last night.",
+      "ipa": "dɑ̃z yn səmˈɛn ʒe ʁəɡaʁdˈe le- tʁˈɛ̃ sɛt nyˈi"
+    },
+    {
+      "fr": "Une semaine? C'est si rapide!",
+      "english": "A week? That's so fast!",
+      "ipa": "yn səmˈɛn sɛ sˈi ʁapˈid"
+    },
+    {
+      "fr": "Oui, mais c'est mieux comme ça",
+      "english": "Yes, but it's better this way",
+      "ipa": "wˈi mɛ sɛ mjˌø kɔm sˈa"
+    },
+    {
+      "fr": "Si on attend trop, on ne partira jamais.",
+      "english": "If we wait too long, we'll never leave.",
+      "ipa": "sˈi ɔ̃n atˈɑ̃ tʁˈo ɔ̃ nə- paʁtiʁˈa ʒamˈɛ"
+    },
+    {
+      "fr": "Tu as raison. Qu'est-ce qu'on emporte?",
+      "english": "You're right. What do we take?",
+      "ipa": "ty a ʁɛzˈɔ̃ kɛs kɔ̃n ɑ̃pˈɔʁt"
+    },
+    {
+      "fr": "Pas grand-chose, juste l'essentiel",
+      "english": "Not much, just the essentials",
+      "ipa": "pa ɡʁˈɑ̃ʃˈoz ʒˈyst lesɑ̃sjˈɛl"
+    },
+    {
+      "fr": "Des vêtements chauds, une lampe de poche.",
+      "english": "Warm clothes, a pocket lamp.",
+      "ipa": "de- vɛtmˈɑ̃ ʃˈo yn lˈɑ̃p də- pˈɔʃ"
+    },
+    {
+      "fr": "Un sac à dos chacun,",
+      "english": "A backpack each,",
+      "ipa": "œ̃ sˈak adˈɔs ʃakˈœ̃"
+    },
+    {
+      "fr": "Et nos téléphones?",
+      "english": "And our phones?",
+      "ipa": "e no telefˈɔn"
+    },
+    {
+      "fr": "Bien sûr, pour les photos. Et pour la sécurité.",
+      "english": "Of course, for photos. And for safety.",
+      "ipa": "bjˈɛ̃ sˈyːʁ puʁ le- fɔtˈo e puʁ la- sekyʁitˈe"
+    },
+    {
+      "fr": "Je suis excitée! C'est vraiment en train d'arriver!",
+      "english": "I'm excited! It's really happening!",
+      "ipa": "ʒə- syˌiz ɛksitˈe sɛ vʁɛmˈɑ̃ ɑ̃ tʁˈɛ̃ daʁivˈe"
+    },
+    {
+      "fr": "Moi aussi. Une nouvelle aventure commence.",
+      "english": "Me too. A new adventure begins.",
+      "ipa": "mwˌa osˈi yn nuvˈɛl avɑ̃tˈyʁ kɔmˈɑ̃s"
+    },
+    {
+      "fr": "Le lendemain matin, Lucas arrive chez Sophie avec son ordinateur portable.",
+      "english": "The next morning, Lucas arrives at Sophie's with his laptop.",
+      "ipa": "lə- lɑ̃dmˈɛ̃ matˈɛ̃ lykˈaz aʁˈiv ʃe sɔfˈi avˌɛk sɔ̃n ɔʁdinatˈœʁ pɔʁtˈabl"
+    },
+    {
+      "fr": "Sophie commence à faire une liste.",
+      "english": "Sophie starts making a list.",
+      "ipa": "sɔfˈi kɔmˈɑ̃s a fˈɛʁ yn lˈist"
+    }
+  ],
+  "scene_number": 4,
+  "scene_title": "La Décision"
+}

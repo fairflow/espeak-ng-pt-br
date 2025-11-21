@@ -1,147 +1,151 @@
-[
-  {
-    "french": "Deux billets pour Grenoble, s'il vous plaît,",
-    "english": "  Two tickets to Grenoble, please,",
-    "ipa": "dˈø bijˈɛ puʁ ɡʁənˈɔbl sil vu plˈɛ"
-  },
-  {
-    "french": "Aller simple ou aller-retour?",
-    "english": "One way or round trip?",
-    "ipa": "alˈe sˈɛ̃pl u alˈeʁətˈuʁ"
-  },
-  {
-    "french": "Aller simple.",
-    "english": "One way.",
-    "ipa": "alˈe sˈɛ̃pl"
-  },
-  {
-    "french": "Le train part à quelle heure?",
-    "english": "What time does the train leave?",
-    "ipa": "lə- tʁˈɛ̃ pˈaʁ a kɛl ˈœʁ"
-  },
-  {
-    "french": "À onze heures quinze",
-    "english": "At eleven fifteen",
-    "ipa": "a ˈɔ̃z ˈœʁ kˈɛ̃z"
-  },
-  {
-    "french": "Vous avez de la chance, c'est le TGV direct.",
-    "english": "You're lucky, it's the direct TGV.",
-    "ipa": "vuz avˈe də- la- ʃˈɑ̃s sɛ lə- tˌeʒˌevˈe diʁˈɛkt"
-  },
-  {
-    "french": "Nous avons le temps de prendre un café?",
-    "english": "Do we have time to grab a coffee?",
-    "ipa": "nuz avˈɔ̃ lə- tˈɑ̃ də- pʁˈɑ̃dʁ œ̃ kafˈe"
-  },
-  {
-    "french": "Oui, nous avons une demi-heure.",
-    "english": "Yes, we have half an hour.",
-    "ipa": "wˈi nuz avˈɔ̃z yn dəmjˈœʁ"
-  },
-  {
-    "french": "Quel quai pour le train de Grenoble?",
-    "english": "Which platform for the Grenoble train?",
-    "ipa": "kɛl kˈe puʁ lə- tʁˈɛ̃ də- ɡʁənˈɔbl"
-  },
-  {
-    "french": "Le quai numéro sept. Vous verrez les panneaux.",
-    "english": "Platform number seven. You'll see the signs.",
-    "ipa": "lə- kˈe nymeʁˈo sˈɛt vu vɛʁˈe le- panˈo"
-  },
-  {
-    "french": "N'oublie pas ton sac!",
-    "english": "Don't forget your bag!",
-    "ipa": "nublˈi pa tɔ̃ sˈak"
-  },
-  {
-    "french": "Je l'ai déjà pris. Et toi, tu as les billets?",
-    "english": "I've already taken it. And you, do you have the tickets?",
-    "ipa": "ʒə- le deʒˈa pʁˈi e twˈa ty a le- bijˈɛ"
-  },
-  {
-    "french": "Oui, dans ma poche.",
-    "english": "Yes, in my pocket.",
-    "ipa": "wˈi dɑ̃ ma- pˈɔʃ"
-  },
-  {
-    "french": "Tu es prêt pour l'aventure?",
-    "english": "Are you ready for the adventure?",
-    "ipa": "ty ɛ pʁˈɛ puʁ lavɑ̃tˈyʁ"
-  },
-  {
-    "french": "Oui, plus que jamais!",
-    "english": "Yes, more than ever!",
-    "ipa": "wˈi ply kə ʒamˈɛ"
-  },
-  {
-    "french": "Le train arrive bientôt.",
-    "english": "The train is arriving soon.",
-    "ipa": "lə- tʁˈɛ̃ aʁˈiv bjɛ̃tˈo"
-  },
-  {
-    "french": "Montons vite, il y a du monde,",
-    "english": "Let's get on quickly, there are a lot of people,",
-    "ipa": "mɔ̃tˈɔ̃ vˈit il i a dy- mˈɔ̃d"
-  },
-  {
-    "french": "Voici nos places. Près de la fenêtre!",
-    "english": "Here are our seats. Near the window!",
-    "ipa": "vwasˌi no plˈas pʁɛ də- la- fənˈɛtʁ"
-  },
-  {
-    "french": "C'est parti pour une nouvelle vie!",
-    "english": "Here we go for a new life!",
-    "ipa": "sɛ paʁtˈi puʁ yn nuvˈɛl vˈi"
-  },
-  {
-    "french": "Une semaine plus tard, Sophie et Lucas se tiennent devant la Gare de Lyon.",
-    "english": "One week later, Sophie and Lucas stand in front of the Gare de Lyon.",
-    "ipa": "yn səmˈɛn ply tˈaʁ sɔfˈi e lykˈa sə- tjˈɛn dəvˈɑ̃ la- ɡˈaʁ də- ljˈɔ̃"
-  },
-  {
-    "french": "Leurs sacs à dos sont prêts.",
-    "english": "Their backpacks are ready.",
-    "ipa": "lœʁ sˈakz adˈɔs sˈɔ̃ pʁˈɛ"
-  },
-  {
-    "french": "L'excitation se mêle à la nervosité.",
-    "english": "Excitement mixes with nervousness.",
-    "ipa": "lɛksitasjˈɔ̃ sə- mˈɛl a la- nɛʁvozitˈe"
-  },
-  {
-    "french": "Ils s'approchent du guichet.",
-    "english": "They approach the ticket counter.",
-    "ipa": "il sapʁˈɔʃ dy- ɡiʃˈɛ"
-  },
-  {
-    "french": "Lucas regarde sa montre.",
-    "english": "Lucas looks at his watch.",
-    "ipa": "lykˈa ʁəɡˈaʁd sa- mˈɔ̃tʁ"
-  },
-  {
-    "french": "Ils trouvent un café dans la gare.",
-    "english": "They find a café in the station.",
-    "ipa": "il tʁˈuvt œ̃ kafˈe dɑ̃ la- ɡˈaʁ"
-  },
-  {
-    "french": "Sophie respire profondément.",
-    "english": "Sophie breathes deeply.",
-    "ipa": "sɔfˈi ʁɛspˈiʁ pʁɔfɔ̃demˈɑ̃"
-  },
-  {
-    "french": "Une annonce résonne dans la gare.",
-    "english": "An announcement echoes through the station.",
-    "ipa": "yn anˈɔ̃s ʁezˈɔn dɑ̃ la- ɡˈaʁ"
-  },
-  {
-    "french": "Ils trouvent leurs places dans le wagon.",
-    "english": "They find their seats in the carriage.",
-    "ipa": "il tʁˈuv lœʁ plˈas dɑ̃ lə- vaɡˈɔ̃"
-  },
-  {
-    "french": "Sophie regarde Paris qui s'éloigne.",
-    "english": "Sophie looks at Paris as it fades away.",
-    "ipa": "sɔfˈi ʁəɡˈaʁd paʁˈi ki selwˈaɲ"
-  }
-]
+{
+  "fr": [
+    {
+      "fr": "Deux billets pour Grenoble, s'il vous plaît,",
+      "english": "  Two tickets to Grenoble, please,",
+      "ipa": "dˈø bijˈɛ puʁ ɡʁənˈɔbl sil vu plˈɛ"
+    },
+    {
+      "fr": "Aller simple ou aller-retour?",
+      "english": "One way or round trip?",
+      "ipa": "alˈe sˈɛ̃pl u alˈeʁətˈuʁ"
+    },
+    {
+      "fr": "Aller simple.",
+      "english": "One way.",
+      "ipa": "alˈe sˈɛ̃pl"
+    },
+    {
+      "fr": "Le train part à quelle heure?",
+      "english": "What time does the train leave?",
+      "ipa": "lə- tʁˈɛ̃ pˈaʁ a kɛl ˈœʁ"
+    },
+    {
+      "fr": "À onze heures quinze",
+      "english": "At eleven fifteen",
+      "ipa": "a ˈɔ̃z ˈœʁ kˈɛ̃z"
+    },
+    {
+      "fr": "Vous avez de la chance, c'est le TGV direct.",
+      "english": "You're lucky, it's the direct TGV.",
+      "ipa": "vuz avˈe də- la- ʃˈɑ̃s sɛ lə- tˌeʒˌevˈe diʁˈɛkt"
+    },
+    {
+      "fr": "Nous avons le temps de prendre un café?",
+      "english": "Do we have time to grab a coffee?",
+      "ipa": "nuz avˈɔ̃ lə- tˈɑ̃ də- pʁˈɑ̃dʁ œ̃ kafˈe"
+    },
+    {
+      "fr": "Oui, nous avons une demi-heure.",
+      "english": "Yes, we have half an hour.",
+      "ipa": "wˈi nuz avˈɔ̃z yn dəmjˈœʁ"
+    },
+    {
+      "fr": "Quel quai pour le train de Grenoble?",
+      "english": "Which platform for the Grenoble train?",
+      "ipa": "kɛl kˈe puʁ lə- tʁˈɛ̃ də- ɡʁənˈɔbl"
+    },
+    {
+      "fr": "Le quai numéro sept. Vous verrez les panneaux.",
+      "english": "Platform number seven. You'll see the signs.",
+      "ipa": "lə- kˈe nymeʁˈo sˈɛt vu vɛʁˈe le- panˈo"
+    },
+    {
+      "fr": "N'oublie pas ton sac!",
+      "english": "Don't forget your bag!",
+      "ipa": "nublˈi pa tɔ̃ sˈak"
+    },
+    {
+      "fr": "Je l'ai déjà pris. Et toi, tu as les billets?",
+      "english": "I've already taken it. And you, do you have the tickets?",
+      "ipa": "ʒə- le deʒˈa pʁˈi e twˈa ty a le- bijˈɛ"
+    },
+    {
+      "fr": "Oui, dans ma poche.",
+      "english": "Yes, in my pocket.",
+      "ipa": "wˈi dɑ̃ ma- pˈɔʃ"
+    },
+    {
+      "fr": "Tu es prêt pour l'aventure?",
+      "english": "Are you ready for the adventure?",
+      "ipa": "ty ɛ pʁˈɛ puʁ lavɑ̃tˈyʁ"
+    },
+    {
+      "fr": "Oui, plus que jamais!",
+      "english": "Yes, more than ever!",
+      "ipa": "wˈi ply kə ʒamˈɛ"
+    },
+    {
+      "fr": "Le train arrive bientôt.",
+      "english": "The train is arriving soon.",
+      "ipa": "lə- tʁˈɛ̃ aʁˈiv bjɛ̃tˈo"
+    },
+    {
+      "fr": "Montons vite, il y a du monde,",
+      "english": "Let's get on quickly, there are a lot of people,",
+      "ipa": "mɔ̃tˈɔ̃ vˈit il i a dy- mˈɔ̃d"
+    },
+    {
+      "fr": "Voici nos places. Près de la fenêtre!",
+      "english": "Here are our seats. Near the window!",
+      "ipa": "vwasˌi no plˈas pʁɛ də- la- fənˈɛtʁ"
+    },
+    {
+      "fr": "C'est parti pour une nouvelle vie!",
+      "english": "Here we go for a new life!",
+      "ipa": "sɛ paʁtˈi puʁ yn nuvˈɛl vˈi"
+    },
+    {
+      "fr": "Une semaine plus tard, Sophie et Lucas se tiennent devant la Gare de Lyon.",
+      "english": "One week later, Sophie and Lucas stand in front of the Gare de Lyon.",
+      "ipa": "yn səmˈɛn ply tˈaʁ sɔfˈi e lykˈa sə- tjˈɛn dəvˈɑ̃ la- ɡˈaʁ də- ljˈɔ̃"
+    },
+    {
+      "fr": "Leurs sacs à dos sont prêts.",
+      "english": "Their backpacks are ready.",
+      "ipa": "lœʁ sˈakz adˈɔs sˈɔ̃ pʁˈɛ"
+    },
+    {
+      "fr": "L'excitation se mêle à la nervosité.",
+      "english": "Excitement mixes with nervousness.",
+      "ipa": "lɛksitasjˈɔ̃ sə- mˈɛl a la- nɛʁvozitˈe"
+    },
+    {
+      "fr": "Ils s'approchent du guichet.",
+      "english": "They approach the ticket counter.",
+      "ipa": "il sapʁˈɔʃ dy- ɡiʃˈɛ"
+    },
+    {
+      "fr": "Lucas regarde sa montre.",
+      "english": "Lucas looks at his watch.",
+      "ipa": "lykˈa ʁəɡˈaʁd sa- mˈɔ̃tʁ"
+    },
+    {
+      "fr": "Ils trouvent un café dans la gare.",
+      "english": "They find a café in the station.",
+      "ipa": "il tʁˈuvt œ̃ kafˈe dɑ̃ la- ɡˈaʁ"
+    },
+    {
+      "fr": "Sophie respire profondément.",
+      "english": "Sophie breathes deeply.",
+      "ipa": "sɔfˈi ʁɛspˈiʁ pʁɔfɔ̃demˈɑ̃"
+    },
+    {
+      "fr": "Une annonce résonne dans la gare.",
+      "english": "An announcement echoes through the station.",
+      "ipa": "yn anˈɔ̃s ʁezˈɔn dɑ̃ la- ɡˈaʁ"
+    },
+    {
+      "fr": "Ils trouvent leurs places dans le wagon.",
+      "english": "They find their seats in the carriage.",
+      "ipa": "il tʁˈuv lœʁ plˈas dɑ̃ lə- vaɡˈɔ̃"
+    },
+    {
+      "fr": "Sophie regarde Paris qui s'éloigne.",
+      "english": "Sophie looks at Paris as it fades away.",
+      "ipa": "sɔfˈi ʁəɡˈaʁd paʁˈi ki selwˈaɲ"
+    }
+  ],
+  "scene_number": 5,
+  "scene_title": "À La Gare"
+}

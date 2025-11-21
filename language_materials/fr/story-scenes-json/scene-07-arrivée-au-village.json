@@ -1,127 +1,131 @@
-[
-  {
-    "french": "Nous sommes enfin arrivés!",
-    "english": "We have finally arrived!",
-    "ipa": "nu sɔmz ɑ̃fˌɛ̃ aʁivˈe"
-  },
-  {
-    "french": "C'est plus petit que je pensais.",
-    "english": "It's smaller than I thought.",
-    "ipa": "sɛ ply pətˈi kə ʒə- pɑ̃sˈɛ"
-  },
-  {
-    "french": "Mais c'est charmant et tranquille. Regarde ces montagnes!",
-    "english": "But it's charming and quiet. Look at these mountains!",
-    "ipa": "mɛ sɛ ʃaʁmˈɑ̃ e tʁɑ̃kˈil ʁəɡˈaʁd se mɔ̃tˈanj"
-  },
-  {
-    "french": "Où allons-nous dormir ce soir?",
-    "english": "Where are we going to sleep tonight?",
-    "ipa": "u alˈɔ̃nu dɔʁmˈiʁ sə- swˈaʁ"
-  },
-  {
-    "french": "Il y a une auberge là-bas.",
-    "english": "There is an inn over there.",
-    "ipa": "il i a yn obˈɛʁʒ lˈabˈa"
-  },
-  {
-    "french": "Demandons s'ils ont des chambres.",
-    "english": "Let's ask if they have rooms.",
-    "ipa": "dəmɑ̃dˈɔ̃ silz ɔ̃ de- ʃˈɑ̃bʁ"
-  },
-  {
-    "french": "Bonjour, avez-vous deux chambres libres?",
-    "english": "Hello, do you have two free rooms?",
-    "ipa": "bɔ̃ʒˈuʁ avˈevu dˈø ʃˈɑ̃bʁ lˈibʁ"
-  },
-  {
-    "french": "Oui, mais seulement pour ce soir",
-    "english": "Yes, but only for tonight",
-    "ipa": "wˈi mɛ sølmˈɑ̃ puʁ sə- swˈaʁ"
-  },
-  {
-    "french": "Demain, j'ai une réservation de groupe.",
-    "english": "Tomorrow, I have a group reservation.",
-    "ipa": "dəmˈɛ̃ ʒe yn ʁezɛʁvasjˈɔ̃ də- ɡʁˈup"
-  },
-  {
-    "french": "C'est parfait, nous les prenons.",
-    "english": "That's perfect, we'll take them.",
-    "ipa": "sɛ paʁfˈɛ nu le- pʁənˈɔ̃"
-  },
-  {
-    "french": "Combien coûte la nuit?",
-    "english": "How much does the night cost?",
-    "ipa": "kɔ̃bjˈɛ̃ kˈut la- nyˈi"
-  },
-  {
-    "french": "Soixante euros par chambre, avec le petit-déjeuner.",
-    "english": "Sixty euros per room, with breakfast.",
-    "ipa": "swasˈɑ̃t øʁˈo paʁ ʃˈɑ̃bʁ avˌɛk lə- pətˈideʒønˈe"
-  },
-  {
-    "french": "D'accord, nous payons maintenant.",
-    "english": "Okay, we'll pay now.",
-    "ipa": "dakˈɔʁ nu pɛjˈɔ̃ mɛ̃tnˈɑ̃"
-  },
-  {
-    "french": "Le dîner est servi à sept heures dans la salle à manger,",
-    "english": "Dinner is served at seven o'clock in the dining room,",
-    "ipa": "lə- dinˈe ɛ sɛʁvˈi a sˈɛt ˈœʁ dɑ̃ la- sˈal a mɑ̃ʒˈe"
-  },
-  {
-    "french": "Merci beaucoup pour votre aide.",
-    "english": "Thank you very much for your help.",
-    "ipa": "mɛʁsˈi bokˌu puʁ vɔtʁ ˈɛd"
-  },
-  {
-    "french": "Allons explorer le village!",
-    "english": "Let's explore the village!",
-    "ipa": "alˈɔ̃z ɛksplɔʁˈe lə- vilˈaʒ"
-  },
-  {
-    "french": "Le train arrive en gare de Grenoble.",
-    "english": "The train arrives at Grenoble station.",
-    "ipa": "lə- tʁˈɛ̃ aʁˈiv ɑ̃ ɡˈaʁ də- ɡʁənˈɔbl"
-  },
-  {
-    "french": "Sophie et Lucas descendent et prennent un bus local vers un petit village alpin.",
-    "english": "Sophie and Lucas get off and take a local bus to a small alpine village.",
-    "ipa": "sɔfˈi e lykˈa dɛsˈɑ̃dt e pʁˈɛnt œ̃ bˈys lɔkˈal vɛʁ œ̃ pətˈi vilˈaʒ alpˈɛ̃"
-  },
-  {
-    "french": "s'exclame Sophie en sortant du bus.",
-    "english": "exclaims Sophie as she gets off the bus.",
-    "ipa": "sɛksklˈam sɔfˈi ɑ̃ sɔʁtˈɑ̃ dy- bˈys"
-  },
-  {
-    "french": "Lucas regarde autour de lui.",
-    "english": "Lucas looks around him.",
-    "ipa": "lykˈa ʁəɡˈaʁd otˌuʁ də- lyˈi"
-  },
-  {
-    "french": "Le village est pittoresque avec ses maisons en pierre et ses volets en bois.",
-    "english": "The village is picturesque with its stone houses and wooden shutters.",
-    "ipa": "lə- vilˈaʒ ɛ pitɔʁˈɛsk avˌɛk se- mɛzˈɔ̃z ɑ̃ pjˈɛʁ e se- vɔlˈɛz ɑ̃ bwˈa"
-  },
-  {
-    "french": "Sophie pointe du doigt.",
-    "english": "Sophie points with her finger.",
-    "ipa": "sɔfˈi pwˈɛ̃t dy- dwˈa"
-  },
-  {
-    "french": "Une femme d'âge moyen les accueille avec un sourire chaleureux.",
-    "english": "A middle-aged woman welcomes them with a warm smile.",
-    "ipa": "yn fˈam dˈaːʒ mwajˈɛ̃ le-z akˈœj avˌɛk œ̃ suʁˈiʁ ʃaløʁˈø"
-  },
-  {
-    "french": "Lucas sort son portefeuille.",
-    "english": "Lucas takes out his wallet.",
-    "ipa": "lykˈa sˈɔʁ sɔ̃ pɔʁtəfˈœj"
-  },
-  {
-    "french": "Sophie et Lucas montent leurs sacs dans les chambres, puis redescendent.",
-    "english": "Sophie and Lucas take their bags to the rooms, then come back down.",
-    "ipa": "sɔfˈi e lykˈa mˈɔ̃t lœʁ sˈak dɑ̃ le- ʃˈɑ̃bʁ pyˈi ʁədɛsˈɑ̃d"
-  }
-]
+{
+  "fr": [
+    {
+      "fr": "Nous sommes enfin arrivés!",
+      "english": "We have finally arrived!",
+      "ipa": "nu sɔmz ɑ̃fˌɛ̃ aʁivˈe"
+    },
+    {
+      "fr": "C'est plus petit que je pensais.",
+      "english": "It's smaller than I thought.",
+      "ipa": "sɛ ply pətˈi kə ʒə- pɑ̃sˈɛ"
+    },
+    {
+      "fr": "Mais c'est charmant et tranquille. Regarde ces montagnes!",
+      "english": "But it's charming and quiet. Look at these mountains!",
+      "ipa": "mɛ sɛ ʃaʁmˈɑ̃ e tʁɑ̃kˈil ʁəɡˈaʁd se mɔ̃tˈanj"
+    },
+    {
+      "fr": "Où allons-nous dormir ce soir?",
+      "english": "Where are we going to sleep tonight?",
+      "ipa": "u alˈɔ̃nu dɔʁmˈiʁ sə- swˈaʁ"
+    },
+    {
+      "fr": "Il y a une auberge là-bas.",
+      "english": "There is an inn over there.",
+      "ipa": "il i a yn obˈɛʁʒ lˈabˈa"
+    },
+    {
+      "fr": "Demandons s'ils ont des chambres.",
+      "english": "Let's ask if they have rooms.",
+      "ipa": "dəmɑ̃dˈɔ̃ silz ɔ̃ de- ʃˈɑ̃bʁ"
+    },
+    {
+      "fr": "Bonjour, avez-vous deux chambres libres?",
+      "english": "Hello, do you have two free rooms?",
+      "ipa": "bɔ̃ʒˈuʁ avˈevu dˈø ʃˈɑ̃bʁ lˈibʁ"
+    },
+    {
+      "fr": "Oui, mais seulement pour ce soir",
+      "english": "Yes, but only for tonight",
+      "ipa": "wˈi mɛ sølmˈɑ̃ puʁ sə- swˈaʁ"
+    },
+    {
+      "fr": "Demain, j'ai une réservation de groupe.",
+      "english": "Tomorrow, I have a group reservation.",
+      "ipa": "dəmˈɛ̃ ʒe yn ʁezɛʁvasjˈɔ̃ də- ɡʁˈup"
+    },
+    {
+      "fr": "C'est parfait, nous les prenons.",
+      "english": "That's perfect, we'll take them.",
+      "ipa": "sɛ paʁfˈɛ nu le- pʁənˈɔ̃"
+    },
+    {
+      "fr": "Combien coûte la nuit?",
+      "english": "How much does the night cost?",
+      "ipa": "kɔ̃bjˈɛ̃ kˈut la- nyˈi"
+    },
+    {
+      "fr": "Soixante euros par chambre, avec le petit-déjeuner.",
+      "english": "Sixty euros per room, with breakfast.",
+      "ipa": "swasˈɑ̃t øʁˈo paʁ ʃˈɑ̃bʁ avˌɛk lə- pətˈideʒønˈe"
+    },
+    {
+      "fr": "D'accord, nous payons maintenant.",
+      "english": "Okay, we'll pay now.",
+      "ipa": "dakˈɔʁ nu pɛjˈɔ̃ mɛ̃tnˈɑ̃"
+    },
+    {
+      "fr": "Le dîner est servi à sept heures dans la salle à manger,",
+      "english": "Dinner is served at seven o'clock in the dining room,",
+      "ipa": "lə- dinˈe ɛ sɛʁvˈi a sˈɛt ˈœʁ dɑ̃ la- sˈal a mɑ̃ʒˈe"
+    },
+    {
+      "fr": "Merci beaucoup pour votre aide.",
+      "english": "Thank you very much for your help.",
+      "ipa": "mɛʁsˈi bokˌu puʁ vɔtʁ ˈɛd"
+    },
+    {
+      "fr": "Allons explorer le village!",
+      "english": "Let's explore the village!",
+      "ipa": "alˈɔ̃z ɛksplɔʁˈe lə- vilˈaʒ"
+    },
+    {
+      "fr": "Le train arrive en gare de Grenoble.",
+      "english": "The train arrives at Grenoble station.",
+      "ipa": "lə- tʁˈɛ̃ aʁˈiv ɑ̃ ɡˈaʁ də- ɡʁənˈɔbl"
+    },
+    {
+      "fr": "Sophie et Lucas descendent et prennent un bus local vers un petit village alpin.",
+      "english": "Sophie and Lucas get off and take a local bus to a small alpine village.",
+      "ipa": "sɔfˈi e lykˈa dɛsˈɑ̃dt e pʁˈɛnt œ̃ bˈys lɔkˈal vɛʁ œ̃ pətˈi vilˈaʒ alpˈɛ̃"
+    },
+    {
+      "fr": "s'exclame Sophie en sortant du bus.",
+      "english": "exclaims Sophie as she gets off the bus.",
+      "ipa": "sɛksklˈam sɔfˈi ɑ̃ sɔʁtˈɑ̃ dy- bˈys"
+    },
+    {
+      "fr": "Lucas regarde autour de lui.",
+      "english": "Lucas looks around him.",
+      "ipa": "lykˈa ʁəɡˈaʁd otˌuʁ də- lyˈi"
+    },
+    {
+      "fr": "Le village est pittoresque avec ses maisons en pierre et ses volets en bois.",
+      "english": "The village is picturesque with its stone houses and wooden shutters.",
+      "ipa": "lə- vilˈaʒ ɛ pitɔʁˈɛsk avˌɛk se- mɛzˈɔ̃z ɑ̃ pjˈɛʁ e se- vɔlˈɛz ɑ̃ bwˈa"
+    },
+    {
+      "fr": "Sophie pointe du doigt.",
+      "english": "Sophie points with her finger.",
+      "ipa": "sɔfˈi pwˈɛ̃t dy- dwˈa"
+    },
+    {
+      "fr": "Une femme d'âge moyen les accueille avec un sourire chaleureux.",
+      "english": "A middle-aged woman welcomes them with a warm smile.",
+      "ipa": "yn fˈam dˈaːʒ mwajˈɛ̃ le-z akˈœj avˌɛk œ̃ suʁˈiʁ ʃaløʁˈø"
+    },
+    {
+      "fr": "Lucas sort son portefeuille.",
+      "english": "Lucas takes out his wallet.",
+      "ipa": "lykˈa sˈɔʁ sɔ̃ pɔʁtəfˈœj"
+    },
+    {
+      "fr": "Sophie et Lucas montent leurs sacs dans les chambres, puis redescendent.",
+      "english": "Sophie and Lucas take their bags to the rooms, then come back down.",
+      "ipa": "sɔfˈi e lykˈa mˈɔ̃t lœʁ sˈak dɑ̃ le- ʃˈɑ̃bʁ pyˈi ʁədɛsˈɑ̃d"
+    }
+  ],
+  "scene_number": 7,
+  "scene_title": "Arrivée Au Village"
+}

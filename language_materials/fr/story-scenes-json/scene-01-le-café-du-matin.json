@@ -1,177 +1,181 @@
-[
-  {
-    "french": "Bonjour Sophie, ça va?",
-    "english": "Hello Sophie, how are you?",
-    "ipa": "bɔ̃ʒˈuʁ sɔfˈi sa vˈa"
-  },
-  {
-    "french": "Oui, bien merci. Et toi?",
-    "english": "Yes, well thank you. And you?",
-    "ipa": "wˈi bjˈɛ̃ mɛʁsˈi e twˈa"
-  },
-  {
-    "french": "Ça va. Qu'est-ce que tu prends ce matin?",
-    "english": "I'm fine. What are you having this morning?",
-    "ipa": "sa vˈa kɛskˌə ty pʁˈɑ̃ sə- matˈɛ̃"
-  },
-  {
-    "french": "Un café et un croissant, s'il vous plaît.",
-    "english": "A coffee and a croissant, please.",
-    "ipa": "œ̃ kafˈe e œ̃ kʁwasˈɑ̃ sil vu plˈɛ"
-  },
-  {
-    "french": "Bonjour Lucas!",
-    "english": "Hello Lucas!",
-    "ipa": "bɔ̃ʒˈuʁ lykˈa"
-  },
-  {
-    "french": "Salut! Tu as bien dormi?",
-    "english": "Hi! Did you sleep well?",
-    "ipa": "salˈy ty a bjˈɛ̃ dɔʁmˈi"
-  },
-  {
-    "french": "Non, pas très bien. J'ai fait des rêves étranges.",
-    "english": "No, not very well. I had strange dreams.",
-    "ipa": "nˈɔ̃ pa tʁɛ bjˈɛ̃ ʒe fˈɛ de- ʁˈɛvz etʁˈɑ̃ʒ"
-  },
-  {
-    "french": "Un café au lait et un pain au chocolat, s'il vous plaît.",
-    "english": "A coffee with milk and a chocolate croissant, please.",
-    "ipa": "œ̃ kafˈe o lˈɛt e œ̃ pˈɛ̃ o ʃɔkɔlˈa sil vu plˈɛ"
-  },
-  {
-    "french": "Voilà pour vous. Bon appétit!",
-    "english": "Here you are. Enjoy your meal!",
-    "ipa": "vwalˌa puʁ vˈu bˈɔ̃n apetˈi"
-  },
-  {
-    "french": "Merci,",
-    "english": "Thank you,",
-    "ipa": "mɛʁsˈi"
-  },
-  {
-    "french": "Tu veux du sucre dans ton café?",
-    "english": "Do you want sugar in your coffee?",
-    "ipa": "ty vˈø dy- sˈykʁ dɑ̃ tɔ̃ kafˈe"
-  },
-  {
-    "french": "Non merci, je le prends noir.",
-    "english": "No thanks, I take it black.",
-    "ipa": "nɔ̃ mɛʁsˈi ʒə- lə- pʁˈɑ̃ nwˈaʁ"
-  },
-  {
-    "french": "Il fait beau aujourd'hui,",
-    "english": "It's nice today,",
-    "ipa": "il fˈɛ bˈo oʒuʁdyˈi"
-  },
-  {
-    "french": "Oui, c'est une belle journée.",
-    "english": "Yes, it's a beautiful day.",
-    "ipa": "wˈi sɛt yn bˈɛl ʒuʁnˈe"
-  },
-  {
-    "french": "Tu sais, Lucas, la vie est si monotone ici.",
-    "english": "You know, Lucas, life is so monotonous here.",
-    "ipa": "ty sˈɛ lykˈa la- vˈi ɛ sˈi mɔnɔtˈɔn isˈi"
-  },
-  {
-    "french": "Je suis d'accord avec toi. Chaque jour est pareil.",
-    "english": "I agree with you. Every day is the same.",
-    "ipa": "ʒə- syˌi dakˈɔʁ avˌɛk twˈa ʃak ʒˈuʁ ɛ paʁˈɛj"
-  },
-  {
-    "french": "On devrait partir en voyage,",
-    "english": "We should go on a trip,",
-    "ipa": "ɔ̃ dəvʁˈɛ paʁtˈiʁ ɑ̃ vwajˈaʒ"
-  },
-  {
-    "french": "Tu as raison! Pourquoi pas?",
-    "english": "You're right! Why not?",
-    "ipa": "ty a ʁɛzˈɔ̃ puʁkwˌa pˈa"
-  },
-  {
-    "french": "Le soleil se lève doucement sur Paris.",
-    "english": "The sun rises gently over Paris.",
-    "ipa": "lə- sɔlˈɛj sə- lˈɛv dusmˈɑ̃ syʁ paʁˈi"
-  },
-  {
-    "french": "Les rues du Marais commencent à s'animer.",
-    "english": "The streets of the Marais begin to come alive.",
-    "ipa": "le- ʁˈy dy- maʁˈɛ kɔmˈɑ̃st a sanimˈe"
-  },
-  {
-    "french": "Sophie Moreau entre dans son café préféré, un petit endroit chaleureux au coin de la rue des Rosiers.",
-    "english": "Sophie Moreau enters her favorite café, a small cozy place on the corner of Rue des Rosiers.",
-    "ipa": "sɔfˈi mɔʁˈo ɑ̃tʁ dɑ̃ sɔ̃ kafˈe pʁefeʁˈe œ̃ pətˈit ɑ̃dʁwˈa ʃaløʁˈøz o kwˈɛ̃ də- la- ʁˈy de- ʁozjˈe"
-  },
-  {
-    "french": "demande Marc, le serveur qui la connaît bien.",
-    "english": "asks Marc, le serveur qui la connaît bien.",
-    "ipa": "dəmˈɑ̃d mˈaʁk lə- sɛʁvˈœʁ ki la- kɔnˈɛ bjˈɛ̃"
-  },
-  {
-    "french": "répond Sophie avec un sourire fatigué.",
-    "english": "replies Sophie avec un sourire fatigué.",
-    "ipa": "ʁepˈɔ̃ sɔfˈi avˌɛk œ̃ suʁˈiʁ fatiɡˈe"
-  },
-  {
-    "french": "Sophie s'assoit près de la fenêtre.",
-    "english": "Sophie sits near the window.",
-    "ipa": "sɔfˈi saswˈa pʁɛ də- la- fənˈɛtʁ"
-  },
-  {
-    "french": "Elle regarde les gens qui passent dans la rue.",
-    "english": "She watches people passing in the street.",
-    "ipa": "ɛl ʁəɡˈaʁd le- ʒˈɑ̃ ki pˈas dɑ̃ la- ʁˈy"
-  },
-  {
-    "french": "Quelques minutes plus tard, Lucas Dubois arrive, son sac à dos sur l'épaule.",
-    "english": "A few minutes later, Lucas Dubois arrives, his backpack on his shoulder.",
-    "ipa": "kˌɛlkə minˈyt ply tˈaʁ lykˈa dybwˈaz aʁˈiv sɔ̃ sˈak adˈɔs syʁ lepˈol"
-  },
-  {
-    "french": "Lucas commande au comptoir.",
-    "english": "Lucas orders at the counter.",
-    "ipa": "lykˈa kɔmˈɑ̃d o kɔ̃twˈaʁ"
-  },
-  {
-    "french": "Il vient s'asseoir en face de Sophie.",
-    "english": "He comes to sit across from Sophie.",
-    "ipa": "il vjˈɛ̃ saswˈaʁ ɑ̃ fˈas də- sɔfˈi"
-  },
-  {
-    "french": "Marc apporte leurs commandes.",
-    "english": "Marc brings their orders.",
-    "ipa": "mˈaʁk apˈɔʁt lœʁ kɔmˈɑ̃d"
-  },
-  {
-    "french": "Lucas regarde Sophie attentivement.",
-    "english": "Lucas looks at Sophie attentively.",
-    "ipa": "lykˈa ʁəɡˈaʁd sɔfˈi atɑ̃tivmˈɑ̃"
-  },
-  {
-    "french": "remarque Lucas en regardant par la fenêtre.",
-    "english": "Lucas notes, looking out the window.",
-    "ipa": "ʁəmˈaʁk lykˈaz ɑ̃ ʁəɡaʁdˈɑ̃ paʁ la- fənˈɛtʁ"
-  },
-  {
-    "french": "Ils boivent leur café en silence pendant quelques instants.",
-    "english": "They drink their coffee in silence for a few moments.",
-    "ipa": "il bwˈav lœʁ kafˈe ɑ̃ silˈɑ̃s pɑ̃dˈɑ̃ kˌɛlkəz ɛ̃stˈɑ̃"
-  },
-  {
-    "french": "Sophie soupire profondément.",
-    "english": "Sophie sighs deeply.",
-    "ipa": "sɔfˈi supˈiʁ pʁɔfɔ̃demˈɑ̃"
-  },
-  {
-    "french": "dit Sophie spontanément.",
-    "english": "says Sophie spontanément.",
-    "ipa": "dˈi sɔfˈi spɔ̃tanemˈɑ̃"
-  },
-  {
-    "french": "Lucas la regarde avec surprise, puis un sourire apparaît sur son visage.",
-    "english": "Lucas looks at her with surprise, then a smile appears on his face.",
-    "ipa": "lykˈa la- ʁəɡˈaʁd avˌɛk syʁpʁˈiz pyˈiz œ̃ suʁˈiʁ apaʁˈɛ syʁ sɔ̃ vizˈaʒ"
-  }
-]
+{
+  "fr": [
+    {
+      "fr": "Bonjour Sophie, ça va?",
+      "english": "Hello Sophie, how are you?",
+      "ipa": "bɔ̃ʒˈuʁ sɔfˈi sa vˈa"
+    },
+    {
+      "fr": "Oui, bien merci. Et toi?",
+      "english": "Yes, well thank you. And you?",
+      "ipa": "wˈi bjˈɛ̃ mɛʁsˈi e twˈa"
+    },
+    {
+      "fr": "Ça va. Qu'est-ce que tu prends ce matin?",
+      "english": "I'm fine. What are you having this morning?",
+      "ipa": "sa vˈa kɛskˌə ty pʁˈɑ̃ sə- matˈɛ̃"
+    },
+    {
+      "fr": "Un café et un croissant, s'il vous plaît.",
+      "english": "A coffee and a croissant, please.",
+      "ipa": "œ̃ kafˈe e œ̃ kʁwasˈɑ̃ sil vu plˈɛ"
+    },
+    {
+      "fr": "Bonjour Lucas!",
+      "english": "Hello Lucas!",
+      "ipa": "bɔ̃ʒˈuʁ lykˈa"
+    },
+    {
+      "fr": "Salut! Tu as bien dormi?",
+      "english": "Hi! Did you sleep well?",
+      "ipa": "salˈy ty a bjˈɛ̃ dɔʁmˈi"
+    },
+    {
+      "fr": "Non, pas très bien. J'ai fait des rêves étranges.",
+      "english": "No, not very well. I had strange dreams.",
+      "ipa": "nˈɔ̃ pa tʁɛ bjˈɛ̃ ʒe fˈɛ de- ʁˈɛvz etʁˈɑ̃ʒ"
+    },
+    {
+      "fr": "Un café au lait et un pain au chocolat, s'il vous plaît.",
+      "english": "A coffee with milk and a chocolate croissant, please.",
+      "ipa": "œ̃ kafˈe o lˈɛt e œ̃ pˈɛ̃ o ʃɔkɔlˈa sil vu plˈɛ"
+    },
+    {
+      "fr": "Voilà pour vous. Bon appétit!",
+      "english": "Here you are. Enjoy your meal!",
+      "ipa": "vwalˌa puʁ vˈu bˈɔ̃n apetˈi"
+    },
+    {
+      "fr": "Merci,",
+      "english": "Thank you,",
+      "ipa": "mɛʁsˈi"
+    },
+    {
+      "fr": "Tu veux du sucre dans ton café?",
+      "english": "Do you want sugar in your coffee?",
+      "ipa": "ty vˈø dy- sˈykʁ dɑ̃ tɔ̃ kafˈe"
+    },
+    {
+      "fr": "Non merci, je le prends noir.",
+      "english": "No thanks, I take it black.",
+      "ipa": "nɔ̃ mɛʁsˈi ʒə- lə- pʁˈɑ̃ nwˈaʁ"
+    },
+    {
+      "fr": "Il fait beau aujourd'hui,",
+      "english": "It's nice today,",
+      "ipa": "il fˈɛ bˈo oʒuʁdyˈi"
+    },
+    {
+      "fr": "Oui, c'est une belle journée.",
+      "english": "Yes, it's a beautiful day.",
+      "ipa": "wˈi sɛt yn bˈɛl ʒuʁnˈe"
+    },
+    {
+      "fr": "Tu sais, Lucas, la vie est si monotone ici.",
+      "english": "You know, Lucas, life is so monotonous here.",
+      "ipa": "ty sˈɛ lykˈa la- vˈi ɛ sˈi mɔnɔtˈɔn isˈi"
+    },
+    {
+      "fr": "Je suis d'accord avec toi. Chaque jour est pareil.",
+      "english": "I agree with you. Every day is the same.",
+      "ipa": "ʒə- syˌi dakˈɔʁ avˌɛk twˈa ʃak ʒˈuʁ ɛ paʁˈɛj"
+    },
+    {
+      "fr": "On devrait partir en voyage,",
+      "english": "We should go on a trip,",
+      "ipa": "ɔ̃ dəvʁˈɛ paʁtˈiʁ ɑ̃ vwajˈaʒ"
+    },
+    {
+      "fr": "Tu as raison! Pourquoi pas?",
+      "english": "You're right! Why not?",
+      "ipa": "ty a ʁɛzˈɔ̃ puʁkwˌa pˈa"
+    },
+    {
+      "fr": "Le soleil se lève doucement sur Paris.",
+      "english": "The sun rises gently over Paris.",
+      "ipa": "lə- sɔlˈɛj sə- lˈɛv dusmˈɑ̃ syʁ paʁˈi"
+    },
+    {
+      "fr": "Les rues du Marais commencent à s'animer.",
+      "english": "The streets of the Marais begin to come alive.",
+      "ipa": "le- ʁˈy dy- maʁˈɛ kɔmˈɑ̃st a sanimˈe"
+    },
+    {
+      "fr": "Sophie Moreau entre dans son café préféré, un petit endroit chaleureux au coin de la rue des Rosiers.",
+      "english": "Sophie Moreau enters her favorite café, a small cozy place on the corner of Rue des Rosiers.",
+      "ipa": "sɔfˈi mɔʁˈo ɑ̃tʁ dɑ̃ sɔ̃ kafˈe pʁefeʁˈe œ̃ pətˈit ɑ̃dʁwˈa ʃaløʁˈøz o kwˈɛ̃ də- la- ʁˈy de- ʁozjˈe"
+    },
+    {
+      "fr": "demande Marc, le serveur qui la connaît bien.",
+      "english": "asks Marc, le serveur qui la connaît bien.",
+      "ipa": "dəmˈɑ̃d mˈaʁk lə- sɛʁvˈœʁ ki la- kɔnˈɛ bjˈɛ̃"
+    },
+    {
+      "fr": "répond Sophie avec un sourire fatigué.",
+      "english": "replies Sophie avec un sourire fatigué.",
+      "ipa": "ʁepˈɔ̃ sɔfˈi avˌɛk œ̃ suʁˈiʁ fatiɡˈe"
+    },
+    {
+      "fr": "Sophie s'assoit près de la fenêtre.",
+      "english": "Sophie sits near the window.",
+      "ipa": "sɔfˈi saswˈa pʁɛ də- la- fənˈɛtʁ"
+    },
+    {
+      "fr": "Elle regarde les gens qui passent dans la rue.",
+      "english": "She watches people passing in the street.",
+      "ipa": "ɛl ʁəɡˈaʁd le- ʒˈɑ̃ ki pˈas dɑ̃ la- ʁˈy"
+    },
+    {
+      "fr": "Quelques minutes plus tard, Lucas Dubois arrive, son sac à dos sur l'épaule.",
+      "english": "A few minutes later, Lucas Dubois arrives, his backpack on his shoulder.",
+      "ipa": "kˌɛlkə minˈyt ply tˈaʁ lykˈa dybwˈaz aʁˈiv sɔ̃ sˈak adˈɔs syʁ lepˈol"
+    },
+    {
+      "fr": "Lucas commande au comptoir.",
+      "english": "Lucas orders at the counter.",
+      "ipa": "lykˈa kɔmˈɑ̃d o kɔ̃twˈaʁ"
+    },
+    {
+      "fr": "Il vient s'asseoir en face de Sophie.",
+      "english": "He comes to sit across from Sophie.",
+      "ipa": "il vjˈɛ̃ saswˈaʁ ɑ̃ fˈas də- sɔfˈi"
+    },
+    {
+      "fr": "Marc apporte leurs commandes.",
+      "english": "Marc brings their orders.",
+      "ipa": "mˈaʁk apˈɔʁt lœʁ kɔmˈɑ̃d"
+    },
+    {
+      "fr": "Lucas regarde Sophie attentivement.",
+      "english": "Lucas looks at Sophie attentively.",
+      "ipa": "lykˈa ʁəɡˈaʁd sɔfˈi atɑ̃tivmˈɑ̃"
+    },
+    {
+      "fr": "remarque Lucas en regardant par la fenêtre.",
+      "english": "Lucas notes, looking out the window.",
+      "ipa": "ʁəmˈaʁk lykˈaz ɑ̃ ʁəɡaʁdˈɑ̃ paʁ la- fənˈɛtʁ"
+    },
+    {
+      "fr": "Ils boivent leur café en silence pendant quelques instants.",
+      "english": "They drink their coffee in silence for a few moments.",
+      "ipa": "il bwˈav lœʁ kafˈe ɑ̃ silˈɑ̃s pɑ̃dˈɑ̃ kˌɛlkəz ɛ̃stˈɑ̃"
+    },
+    {
+      "fr": "Sophie soupire profondément.",
+      "english": "Sophie sighs deeply.",
+      "ipa": "sɔfˈi supˈiʁ pʁɔfɔ̃demˈɑ̃"
+    },
+    {
+      "fr": "dit Sophie spontanément.",
+      "english": "says Sophie spontanément.",
+      "ipa": "dˈi sɔfˈi spɔ̃tanemˈɑ̃"
+    },
+    {
+      "fr": "Lucas la regarde avec surprise, puis un sourire apparaît sur son visage.",
+      "english": "Lucas looks at her with surprise, then a smile appears on his face.",
+      "ipa": "lykˈa la- ʁəɡˈaʁd avˌɛk syʁpʁˈiz pyˈiz œ̃ suʁˈiʁ apaʁˈɛ syʁ sɔ̃ vizˈaʒ"
+    }
+  ],
+  "scene_number": 1,
+  "scene_title": "Le Café Du Matin"
+}

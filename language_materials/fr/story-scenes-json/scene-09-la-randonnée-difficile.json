@@ -1,147 +1,151 @@
-[
-  {
-    "french": "Nous marchions depuis trois heures quand les nuages sont arrivés,",
-    "english": "We had been walking for three hours when the clouds arrived,",
-    "ipa": "nu maʁʃjˈɔ̃ dəpyˌi tʁwˈaz ˈœʁ kɑ̃ le- nyˈaʒ sˈɔ̃t aʁivˈe"
-  },
-  {
-    "french": "Il faisait de plus en plus froid.",
-    "english": "It was getting colder and colder.",
-    "ipa": "il fəzˈɛ də- plyz ɑ̃ ply fʁwˈa"
-  },
-  {
-    "french": "Si j'avais su, j'aurais apporté un pull plus chaud.",
-    "english": "If I had known, I would have brought a warmer sweater.",
-    "ipa": "sˈi ʒavˈɛ sˈy ʒoʁˈɛz apɔʁtˈe œ̃pˈul ply ʃˈo"
-  },
-  {
-    "french": "Nous devrions peut-être faire demi-tour.",
-    "english": "We should maybe turn back.",
-    "ipa": "nu dəvʁiˈɔ̃ pˈøtˈɛtʁ fˈɛʁ dəmˈitˈuʁ"
-  },
-  {
-    "french": "Non, le refuge n'est pas loin. Regarde la carte.",
-    "english": "No, the refuge is not far. Look at the map.",
-    "ipa": "nˈɔ̃ lə- ʁəfˈyʒ nɛ pa lwˈɛ̃ ʁəɡˈaʁd la- kˈaʁt"
-  },
-  {
-    "french": "Tu es trop optimiste parfois!",
-    "english": "You are too optimistic sometimes!",
-    "ipa": "ty ɛ tʁop ɔptimˈist paʁfwˈa"
-  },
-  {
-    "french": "Et toi, tu t'inquiètes toujours trop.",
-    "english": "And you, you are always too worried.",
-    "ipa": "e twˈa ty tɛ̃kjˈɛt tuʒˌuʁ tʁˈo"
-  },
-  {
-    "french": "Ce n'est pas le moment de se disputer.",
-    "english": "This is not the time to argue.",
-    "ipa": "sə- nɛ pa lə- mɔmˈɑ̃ də- sə- dispytˈe"
-  },
-  {
-    "french": "Je suis désolé, j'ai juste peur.",
-    "english": "I'm sorry, I'm just scared.",
-    "ipa": "ʒə- syˌi dezɔlˈe ʒe ʒˈyst pˈœʁ"
-  },
-  {
-    "french": "Moi aussi, mais il faut continuer",
-    "english": "Me too, but we have to keep going.",
-    "ipa": "mwˌa osˈi mɛz il fo kɔ̃tinyˈe"
-  },
-  {
-    "french": "On ne peut pas rester ici.",
-    "english": "We can't stay here.",
-    "ipa": "ɔ̃ nə- pˈø pa ʁɛstˈe isˈi"
-  },
-  {
-    "french": "Le brouillard devient très épais.",
-    "english": "The fog is getting very thick.",
-    "ipa": "lə- bʁujˈaʁ dəvjˈɛ̃ tʁɛz epˈɛ"
-  },
-  {
-    "french": "Je ne vois presque plus le sentier.",
-    "english": "I can hardly see the path anymore.",
-    "ipa": "ʒə- nə- vwˈa pʁˌɛskə ply lə- sɑ̃tjˈe"
-  },
-  {
-    "french": "Restons ensemble, ne nous séparons pas,",
-    "english": "Let's stay together, let's not separate,",
-    "ipa": "ʁɛstˈɔ̃z ɑ̃sˈɑ̃bl nə- nu sepaʁˈɔ̃ pˈa"
-  },
-  {
-    "french": "Attends, j'ai perdu mon sac! Il était juste là!",
-    "english": "Wait, I lost my bag! It was right here!",
-    "ipa": "atˈɑ̃ ʒe pɛʁdˈy mɔ̃ sˈak il etˈɛ ʒˈyst lˈa"
-  },
-  {
-    "french": "Je reviens le chercher, toi, continue! Suis le sentier!",
-    "english": "I'll go back to get it, you keep going! Follow the path!",
-    "ipa": "ʒə- ʁəvjˈɛ̃ lə- ʃɛʁʃˈe twˈa kɔ̃tinˈy syˈi lə- sɑ̃tjˈe"
-  },
-  {
-    "french": "Non, Lucas, attendons ensemble!",
-    "english": "No, Lucas, let's wait together!",
-    "ipa": "nˈɔ̃ lykˈa atɑ̃dˈɔ̃z ɑ̃sˈɑ̃bl"
-  },
-  {
-    "french": "Le lendemain matin, Sophie et Lucas commencent leur randonnée.",
-    "english": "The next morning, Sophie and Lucas start their hike.",
-    "ipa": "lə- lɑ̃dmˈɛ̃ matˈɛ̃ sɔfˈi e lykˈa kɔmˈɑ̃s lœʁ ʁɑ̃dɔnˈe"
-  },
-  {
-    "french": "Le temps est beau, le ciel est bleu.",
-    "english": "The weather is nice, the sky is blue.",
-    "ipa": "lə- tˈɑ̃ ɛ bˈo lə- sjˈɛl ɛ blˈø"
-  },
-  {
-    "french": "Ils suivent un sentier qui monte vers un refuge de montagne.",
-    "english": "They follow a path that goes up to a mountain refuge.",
-    "ipa": "il syˈivt œ̃ sɑ̃tjˈe ki mˈɔ̃t vɛʁ œ̃ ʁəfˈyʒ də- mɔ̃tˈaɲ"
-  },
-  {
-    "french": "racontera plus tard Sophie.",
-    "english": "Sophie will tell her story later.",
-    "ipa": "ʁakɔ̃tʁˈa ply tˈaʁ sɔfˈi"
-  },
-  {
-    "french": "Le changement est soudain.",
-    "english": "The change is sudden.",
-    "ipa": "lə- ʃɑ̃ʒmˈɑ̃ ɛ sudˈɛ̃"
-  },
-  {
-    "french": "Lucas regarde le ciel menaçant.",
-    "english": "Lucas looks at the threatening sky.",
-    "ipa": "lykˈa ʁəɡˈaʁd lə- sjˈɛl mənasˈɑ̃"
-  },
-  {
-    "french": "dit Sophie, la voix tendue.",
-    "english": "says Sophie, la voix tendue.",
-    "ipa": "dˈi sɔfˈi la- vwˈa tɑ̃dˈy"
-  },
-  {
-    "french": "Sophie s'arrête brusquement.",
-    "english": "Sophie stops suddenly.",
-    "ipa": "sɔfˈi saʁˈɛt bʁyskəmˈɑ̃"
-  },
-  {
-    "french": "Le brouillard commence à descendre de la montagne.",
-    "english": "The fog begins to descend from the mountain.",
-    "ipa": "lə- bʁujˈaʁ kɔmˈɑ̃s a dɛsˈɑ̃dʁ də- la- mɔ̃tˈaɲ"
-  },
-  {
-    "french": "Lucas avance prudemment.",
-    "english": "Lucas moves forward cautiously.",
-    "ipa": "lykˈaz avˈɑ̃s pʁydamˈɑ̃"
-  },
-  {
-    "french": "Soudain, Sophie s'arrête.",
-    "english": "Suddenly, Sophie stops.",
-    "ipa": "sudˈɛ̃ sɔfˈi saʁˈɛt"
-  },
-  {
-    "french": "Mais Lucas est déjà parti dans le brouillard.",
-    "english": "But Lucas has already left into the fog.",
-    "ipa": "mɛ lykˈaz ɛ deʒˈa paʁtˈi dɑ̃ lə- bʁujˈaʁ"
-  }
-]
+{
+  "fr": [
+    {
+      "fr": "Nous marchions depuis trois heures quand les nuages sont arrivés,",
+      "english": "We had been walking for three hours when the clouds arrived,",
+      "ipa": "nu maʁʃjˈɔ̃ dəpyˌi tʁwˈaz ˈœʁ kɑ̃ le- nyˈaʒ sˈɔ̃t aʁivˈe"
+    },
+    {
+      "fr": "Il faisait de plus en plus froid.",
+      "english": "It was getting colder and colder.",
+      "ipa": "il fəzˈɛ də- plyz ɑ̃ ply fʁwˈa"
+    },
+    {
+      "fr": "Si j'avais su, j'aurais apporté un pull plus chaud.",
+      "english": "If I had known, I would have brought a warmer sweater.",
+      "ipa": "sˈi ʒavˈɛ sˈy ʒoʁˈɛz apɔʁtˈe œ̃pˈul ply ʃˈo"
+    },
+    {
+      "fr": "Nous devrions peut-être faire demi-tour.",
+      "english": "We should maybe turn back.",
+      "ipa": "nu dəvʁiˈɔ̃ pˈøtˈɛtʁ fˈɛʁ dəmˈitˈuʁ"
+    },
+    {
+      "fr": "Non, le refuge n'est pas loin. Regarde la carte.",
+      "english": "No, the refuge is not far. Look at the map.",
+      "ipa": "nˈɔ̃ lə- ʁəfˈyʒ nɛ pa lwˈɛ̃ ʁəɡˈaʁd la- kˈaʁt"
+    },
+    {
+      "fr": "Tu es trop optimiste parfois!",
+      "english": "You are too optimistic sometimes!",
+      "ipa": "ty ɛ tʁop ɔptimˈist paʁfwˈa"
+    },
+    {
+      "fr": "Et toi, tu t'inquiètes toujours trop.",
+      "english": "And you, you are always too worried.",
+      "ipa": "e twˈa ty tɛ̃kjˈɛt tuʒˌuʁ tʁˈo"
+    },
+    {
+      "fr": "Ce n'est pas le moment de se disputer.",
+      "english": "This is not the time to argue.",
+      "ipa": "sə- nɛ pa lə- mɔmˈɑ̃ də- sə- dispytˈe"
+    },
+    {
+      "fr": "Je suis désolé, j'ai juste peur.",
+      "english": "I'm sorry, I'm just scared.",
+      "ipa": "ʒə- syˌi dezɔlˈe ʒe ʒˈyst pˈœʁ"
+    },
+    {
+      "fr": "Moi aussi, mais il faut continuer",
+      "english": "Me too, but we have to keep going.",
+      "ipa": "mwˌa osˈi mɛz il fo kɔ̃tinyˈe"
+    },
+    {
+      "fr": "On ne peut pas rester ici.",
+      "english": "We can't stay here.",
+      "ipa": "ɔ̃ nə- pˈø pa ʁɛstˈe isˈi"
+    },
+    {
+      "fr": "Le brouillard devient très épais.",
+      "english": "The fog is getting very thick.",
+      "ipa": "lə- bʁujˈaʁ dəvjˈɛ̃ tʁɛz epˈɛ"
+    },
+    {
+      "fr": "Je ne vois presque plus le sentier.",
+      "english": "I can hardly see the path anymore.",
+      "ipa": "ʒə- nə- vwˈa pʁˌɛskə ply lə- sɑ̃tjˈe"
+    },
+    {
+      "fr": "Restons ensemble, ne nous séparons pas,",
+      "english": "Let's stay together, let's not separate,",
+      "ipa": "ʁɛstˈɔ̃z ɑ̃sˈɑ̃bl nə- nu sepaʁˈɔ̃ pˈa"
+    },
+    {
+      "fr": "Attends, j'ai perdu mon sac! Il était juste là!",
+      "english": "Wait, I lost my bag! It was right here!",
+      "ipa": "atˈɑ̃ ʒe pɛʁdˈy mɔ̃ sˈak il etˈɛ ʒˈyst lˈa"
+    },
+    {
+      "fr": "Je reviens le chercher, toi, continue! Suis le sentier!",
+      "english": "I'll go back to get it, you keep going! Follow the path!",
+      "ipa": "ʒə- ʁəvjˈɛ̃ lə- ʃɛʁʃˈe twˈa kɔ̃tinˈy syˈi lə- sɑ̃tjˈe"
+    },
+    {
+      "fr": "Non, Lucas, attendons ensemble!",
+      "english": "No, Lucas, let's wait together!",
+      "ipa": "nˈɔ̃ lykˈa atɑ̃dˈɔ̃z ɑ̃sˈɑ̃bl"
+    },
+    {
+      "fr": "Le lendemain matin, Sophie et Lucas commencent leur randonnée.",
+      "english": "The next morning, Sophie and Lucas start their hike.",
+      "ipa": "lə- lɑ̃dmˈɛ̃ matˈɛ̃ sɔfˈi e lykˈa kɔmˈɑ̃s lœʁ ʁɑ̃dɔnˈe"
+    },
+    {
+      "fr": "Le temps est beau, le ciel est bleu.",
+      "english": "The weather is nice, the sky is blue.",
+      "ipa": "lə- tˈɑ̃ ɛ bˈo lə- sjˈɛl ɛ blˈø"
+    },
+    {
+      "fr": "Ils suivent un sentier qui monte vers un refuge de montagne.",
+      "english": "They follow a path that goes up to a mountain refuge.",
+      "ipa": "il syˈivt œ̃ sɑ̃tjˈe ki mˈɔ̃t vɛʁ œ̃ ʁəfˈyʒ də- mɔ̃tˈaɲ"
+    },
+    {
+      "fr": "racontera plus tard Sophie.",
+      "english": "Sophie will tell her story later.",
+      "ipa": "ʁakɔ̃tʁˈa ply tˈaʁ sɔfˈi"
+    },
+    {
+      "fr": "Le changement est soudain.",
+      "english": "The change is sudden.",
+      "ipa": "lə- ʃɑ̃ʒmˈɑ̃ ɛ sudˈɛ̃"
+    },
+    {
+      "fr": "Lucas regarde le ciel menaçant.",
+      "english": "Lucas looks at the threatening sky.",
+      "ipa": "lykˈa ʁəɡˈaʁd lə- sjˈɛl mənasˈɑ̃"
+    },
+    {
+      "fr": "dit Sophie, la voix tendue.",
+      "english": "says Sophie, la voix tendue.",
+      "ipa": "dˈi sɔfˈi la- vwˈa tɑ̃dˈy"
+    },
+    {
+      "fr": "Sophie s'arrête brusquement.",
+      "english": "Sophie stops suddenly.",
+      "ipa": "sɔfˈi saʁˈɛt bʁyskəmˈɑ̃"
+    },
+    {
+      "fr": "Le brouillard commence à descendre de la montagne.",
+      "english": "The fog begins to descend from the mountain.",
+      "ipa": "lə- bʁujˈaʁ kɔmˈɑ̃s a dɛsˈɑ̃dʁ də- la- mɔ̃tˈaɲ"
+    },
+    {
+      "fr": "Lucas avance prudemment.",
+      "english": "Lucas moves forward cautiously.",
+      "ipa": "lykˈaz avˈɑ̃s pʁydamˈɑ̃"
+    },
+    {
+      "fr": "Soudain, Sophie s'arrête.",
+      "english": "Suddenly, Sophie stops.",
+      "ipa": "sudˈɛ̃ sɔfˈi saʁˈɛt"
+    },
+    {
+      "fr": "Mais Lucas est déjà parti dans le brouillard.",
+      "english": "But Lucas has already left into the fog.",
+      "ipa": "mɛ lykˈaz ɛ deʒˈa paʁtˈi dɑ̃ lə- bʁujˈaʁ"
+    }
+  ],
+  "scene_number": 9,
+  "scene_title": "La Randonnée Difficile"
+}
