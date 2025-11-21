@@ -1516,14 +1516,31 @@ def render_scene_practice_mode(scenes_dir):
         with open(selected_scene_path, 'r', encoding='utf-8') as f:
             scene_data = json.load(f)
         
-        # Get language key from scene data (pt, fr, etc.)
-        lang_keys = [k for k in scene_data.keys() if k not in ['scene_number', 'scene_title']]
-        if not lang_keys:
-            st.error("Invalid scene data format - no language key found")
-            return
+        # Handle two different JSON formats:
+        # Format 1 (Portuguese): {"pt": [...], "scene_number": 1, "scene_title": "..."}
+        # Format 2 (French): [{"french": "...", "english": "...", "ipa": "..."}]
         
-        lang_key = lang_keys[0]
-        phrases = scene_data[lang_key]
+        if isinstance(scene_data, list):
+            # Format 2: Direct list of phrases
+            phrases = scene_data
+            # Determine language key from phrase keys
+            if phrases and isinstance(phrases[0], dict):
+                # French uses 'french', Portuguese uses 'pt', etc.
+                phrase_keys = phrases[0].keys()
+                lang_key = next((k for k in phrase_keys if k not in ['english', 'ipa']), 'text')
+            else:
+                lang_key = 'text'
+        elif isinstance(scene_data, dict):
+            # Format 1: Dict with language key
+            lang_keys = [k for k in scene_data.keys() if k not in ['scene_number', 'scene_title']]
+            if not lang_keys:
+                st.error("Invalid scene data format - no language key found")
+                return
+            lang_key = lang_keys[0]
+            phrases = scene_data[lang_key]
+        else:
+            st.error(f"Invalid scene data format - expected list or dict, got {type(scene_data).__name__}")
+            return
         
         if not phrases:
             st.warning("No phrases found in this scene.")
