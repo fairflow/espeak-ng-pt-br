@@ -6,7 +6,7 @@
 
 ## 🎯 Miolingo Pronunciation Trainer App
 
-This repository contains **Miolingo**, a multi-language pronunciation trainer web application built on top of eSpeak NG. The app helps learners practice pronunciation in Portuguese, French, Dutch, and Flemish with real-time feedback.
+This repository contains **Miolingo**, a multi-language pronunciation trainer web application built on top of eSpeak NG. The app helps learners practice pronunciation in Portuguese, French, Dutch, German, Italian and Spanish with real-time feedback.
 
 ### For App Users
 
