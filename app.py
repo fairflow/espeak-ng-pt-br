@@ -1221,12 +1221,13 @@ def save_current_session():
         st.warning("No practices in current session to save")
 
 
-def render_practice_interface(text):
+def render_practice_interface(text, key_prefix="practice"):
     """
     Reusable practice interface component for audio playback, recording, and checking.
     
     Args:
         text: The phrase to practice
+        key_prefix: Unique prefix for widget keys to avoid collisions (default: "practice")
         
     Returns:
         None (handles UI rendering and result storage in session state)
@@ -1246,8 +1247,8 @@ def render_practice_interface(text):
     
     st.write("🎙️ **Now record your pronunciation:**")
     
-    # Streamlit's built-in audio input with dynamic key
-    audio_data = st.audio_input("Click to record", key=f"audio_input_{st.session_state.audio_input_key}")
+    # Streamlit's built-in audio input with dynamic key (unique per mode)
+    audio_data = st.audio_input("Click to record", key=f"{key_prefix}_audio_input_{st.session_state.audio_input_key}")
     
     # Show recording tip after the recording widget (mobile-friendly)
     language_name = st.session_state.language
@@ -1260,7 +1261,7 @@ def render_practice_interface(text):
         # Always show both buttons when recording exists - critical for UX
         col1, col2 = st.columns([1, 1])
         with col1:
-            if st.button("✅ Check Pronunciation", key="submit_btn", type="primary"):
+            if st.button("✅ Check Pronunciation", key=f"{key_prefix}_submit_btn", type="primary"):
                 with st.spinner("Processing..."):
                     result = practice_word_from_audio(
                         text,
@@ -1270,7 +1271,7 @@ def render_practice_interface(text):
         
         with col2:
             # CRITICAL: Always show Remove Recording button when audio exists
-            if st.button("🗑️ Remove Recording", key="clear_btn"):
+            if st.button("🗑️ Remove Recording", key=f"{key_prefix}_clear_btn"):
                 # Clear the recording, results, and force widget reset
                 st.session_state.last_result = None
                 st.session_state.audio_input_key += 1  # Change key to reset widget
@@ -1594,8 +1595,8 @@ def render_scene_practice_mode(scenes_dir):
         
         st.markdown(f"#### 🎯 **{current_phrase}**")
         
-        # Practice interface
-        render_practice_interface(current_phrase)
+        # Practice interface with unique key prefix for story mode
+        render_practice_interface(current_phrase, key_prefix="story")
         
         # Show results
         if st.session_state.last_result:
@@ -2323,8 +2324,8 @@ def main():
             st.markdown("---")
             text = st.text_input("Enter word or phrase:", key="practice_text_free")
         
-        # Use reusable practice interface
-        render_practice_interface(text)
+        # Use reusable practice interface with quick practice key prefix
+        render_practice_interface(text, key_prefix="quick")
         
         # Show last result using reusable component
         if st.session_state.last_result:
