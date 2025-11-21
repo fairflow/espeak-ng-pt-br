@@ -1,10 +1,12 @@
 # Security Enhancement: Migrate to Service Account Keys for Google Cloud TTS
 
 ## Priority: High
+
 **Category:** Security, Best Practices  
 **Created:** 2025-11-14
 
 ## Problem Statement
+
 Currently using Google Cloud API keys for Text-to-Speech authentication, which violates several security best practices:
 
 1. **API Keys in repositories:** While `.streamlit/secrets.toml` is gitignored, API keys are less secure than Service Account credentials
@@ -16,6 +18,7 @@ Currently using Google Cloud API keys for Text-to-Speech authentication, which v
 ## Security Best Practices from Google Cloud Documentation
 
 From Google's official guidance:
+
 - ✅ **Restrict your API key** (partially implemented)
 - ❌ **Delete unneeded API keys to minimise exposure to attacks**
 - ❌ **Delete and recreate your API keys periodically**
@@ -25,6 +28,7 @@ From Google's official guidance:
 ## Recommended Solution: Service Account Keys
 
 ### Benefits
+
 1. **Fine-grained permissions:** IAM roles can be scoped to only Text-to-Speech API
 2. **Better audit trail:** Cloud Audit Logs track all API calls with service account identity
 3. **Easier rotation:** Multiple keys can exist simultaneously for zero-downtime rotation
@@ -34,6 +38,7 @@ From Google's official guidance:
 ### Implementation Plan
 
 #### Phase 1: Service Account Setup (Immediate)
+
 1. Create dedicated service account: `miolingo-tts@PROJECT_ID.iam.gserviceaccount.com`
 2. Grant minimal IAM role: `roles/cloudtts.user` (Text-to-Speech API User)
 3. Generate JSON key file
@@ -51,18 +56,21 @@ From Google's official guidance:
    ```
 
 #### Phase 2: Monitoring & Logging (1-2 weeks)
+
 1. Enable Cloud Audit Logs for Text-to-Speech API
 2. Set up budget alerts in Google Cloud Console ($5/month threshold)
 3. Create Streamlit dashboard for TTS usage monitoring
 4. Implement error logging for failed TTS API calls
 
 #### Phase 3: Key Rotation Policy (Ongoing)
+
 1. Document key rotation procedure in `DEVELOPER_GUIDE.md`
 2. Set calendar reminder for quarterly key rotation
 3. Create automation script for key rotation (future enhancement)
 4. Maintain 2 active keys during rotation period
 
 #### Phase 4: Advanced Security (Future)
+
 1. Investigate Workload Identity Federation for credential-free auth
 2. Implement VPC Service Controls if scaling beyond hobby project
 3. Add API rate limiting in application layer
@@ -71,6 +79,7 @@ From Google's official guidance:
 ### Code Changes Required
 
 **app.py modifications:**
+
 ```python
 # Replace lines ~467-470 (current API key approach):
 # OLD:
@@ -91,6 +100,7 @@ client = texttospeech.TextToSpeechClient(credentials=credentials)
 ```
 
 **Streamlit Cloud Secrets format:**
+
 ```toml
 # Instead of:
 # google_cloud_tts_api_key = "AIza..."
@@ -113,6 +123,7 @@ google_cloud_tts_credentials = '''
 ```
 
 ### Testing Plan
+
 1. Create new service account in Google Cloud Console
 2. Test locally with service account credentials in `.streamlit/secrets.toml`
 3. Verify audio generation works for all supported languages (pt-BR, pt-PT, fr-FR, nl-NL, nl-BE)
@@ -121,12 +132,14 @@ google_cloud_tts_credentials = '''
 6. Delete old API key after confirming service account works
 
 ### Documentation Updates Required
+
 - `app-docs/DEVELOPER_GUIDE.md`: Add service account setup instructions
 - `app-docs/DEPLOYMENT.md`: Update Streamlit Cloud secrets configuration
 - `VERSION_WORKFLOW.md`: Add security credential rotation to release checklist
 - `README.md`: Mention security best practices in "Contributing" section
 
 ### Risks & Mitigation
+
 - **Risk:** Service account key compromised
   - **Mitigation:** Key is stored only in Streamlit Cloud secrets (encrypted at rest), not in git
   - **Mitigation:** Enable Cloud Audit Logs to detect unusual API usage patterns
@@ -141,6 +154,7 @@ google_cloud_tts_credentials = '''
   - **Mitigation:** Include troubleshooting section for common auth errors
 
 ### Success Metrics
+
 - ✅ No API keys in codebase or documentation
 - ✅ Service account has minimal required IAM permissions
 - ✅ Cloud Audit Logs show all TTS API calls with service account identity
@@ -149,12 +163,14 @@ google_cloud_tts_credentials = '''
 - ✅ Zero authentication-related downtime during migration
 
 ## References
+
 - [Google Cloud Service Accounts Best Practices](https://cloud.google.com/iam/docs/best-practices-service-accounts)
 - [Google Cloud TTS Authentication](https://cloud.google.com/text-to-speech/docs/authentication)
 - [API Key Best Practices](https://cloud.google.com/docs/authentication/api-keys)
 - [Streamlit Secrets Management](https://docs.streamlit.io/streamlit-community-cloud/deploy-your-app/secrets-management)
 
 ## Related Issues
+
 - #5 Database-backed maintenance messaging system
 - Future: Implement comprehensive security audit logging
 
