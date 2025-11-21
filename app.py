@@ -1221,6 +1221,152 @@ def save_current_session():
         st.warning("No practices in current session to save")
 
 
+def render_story_reader():
+    """
+    Story Reader tab - Read stories in various formats
+    Modular design allows easy UX refactoring
+    Language-aware: displays story for current target language
+    """
+    # Get material language from session state (affects story display)
+    lang_code = st.session_state.get('material_language', 'fr')
+    
+    # Story titles and paths per language
+    story_config = {
+        'pt': {'title': 'Sophie & Lucas: Uma Jornada aos Alpes', 'setting': 'Brazil'},
+        'fr': {'title': 'Sophie & Lucas: A Journey to the Alps', 'setting': 'French Alps'},
+        'nl': {'title': 'Sophie & Lucas: Een Reis naar de Alpen', 'setting': 'Netherlands'},
+        'de': {'title': 'Sophie & Lucas: Eine Reise in die Alpen', 'setting': 'Black Forest/Alps'},
+        'it': {'title': 'Sophie & Lucas: Un Viaggio sulle Alpi', 'setting': 'Italian Dolomites'},
+        'es': {'title': 'Sophie & Lucas: Un Viaje a Sierra Nevada', 'setting': 'Sierra Nevada, Spain'}
+    }
+    
+    # Check if story materials exist for this language
+    story_md_path = Path(f"language_materials/{lang_code}/story.md")
+    story_scenes_dir = Path(f"language_materials/{lang_code}/story-scenes-json")
+    
+    config = story_config.get(lang_code, {'title': 'Story', 'setting': 'Unknown'})
+    st.header(f"📖 {config['title']}")
+    
+    if not story_md_path.exists():
+        st.warning("Story file not found. Please ensure `language_materials/fr/story.md` exists.")
+        return
+    
+    # Story mode selector
+    story_mode = st.radio(
+        "Choose reading mode:",
+        ["📄 Full Story", "🎬 Scene by Scene"],
+        horizontal=True,
+        help="Read the complete story or explore individual scenes with translations"
+    )
+    
+    if story_mode == "📄 Full Story":
+        render_full_story(story_md_path)
+    elif story_mode == "🎬 Scene by Scene":
+        render_scene_by_scene(story_scenes_dir)
+
+
+def render_full_story(story_path):
+    """Render the complete story from markdown file"""
+    try:
+        with open(story_path, 'r', encoding='utf-8') as f:
+            story_content = f.read()
+        
+        # Display the story
+        st.markdown(story_content, unsafe_allow_html=False)
+        
+        # Optional: Link to GitHub for full formatting
+        st.divider()
+        st.info("💡 **Tip:** For the best reading experience with proper formatting, [view the story on GitHub](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/fr/story.md)")
+        
+    except Exception as e:
+        st.error(f"Error loading story: {e}")
+
+
+def render_scene_by_scene(scenes_dir):
+    """Render individual scenes with French text and English translations"""
+    if not scenes_dir.exists():
+        st.warning("Story scenes not found. Please ensure `language_materials/fr/story-scenes-json/` exists.")
+        return
+    
+    # Get all scene files
+    scene_files = sorted(scenes_dir.glob("scene-*.json"))
+    
+    if not scene_files:
+        st.warning("No scene files found in the story-scenes-json directory.")
+        return
+    
+    # Create scene selector with friendly names
+    scene_options = {}
+    for scene_file in scene_files:
+        # Extract scene number and title from filename
+        # e.g., "scene-01-le-café-du-matin.json" -> "Scene 1: Le Café du Matin"
+        parts = scene_file.stem.split('-', 2)
+        if len(parts) >= 3:
+            scene_num = parts[1]
+            scene_title = parts[2].replace('-', ' ').title()
+            display_name = f"Scene {scene_num}: {scene_title}"
+        else:
+            display_name = scene_file.stem
+        
+        scene_options[display_name] = scene_file
+    
+    # Scene selector
+    selected_scene = st.selectbox(
+        "Select a scene to read:",
+        list(scene_options.keys()),
+        help="Choose a scene from Sophie & Lucas's adventure"
+    )
+    
+    scene_file = scene_options[selected_scene]
+    
+    # Load and display the scene
+    try:
+        with open(scene_file, 'r', encoding='utf-8') as f:
+            scene_data = json.load(f)
+        
+        st.subheader(selected_scene)
+        st.caption(f"📊 {len(scene_data)} phrases in this scene")
+        
+        # Display options
+        col1, col2 = st.columns([3, 1])
+        with col1:
+            show_translations = st.checkbox("Show English translations", value=False)
+        with col2:
+            show_ipa = st.checkbox("Show IPA", value=False)
+        
+        st.divider()
+        
+        # Display each phrase
+        for i, phrase in enumerate(scene_data, 1):
+            french_text = phrase.get('french', '')
+            english_text = phrase.get('english', '[Translation missing]')
+            ipa_text = phrase.get('ipa', '')
+            
+            # French text (always shown)
+            st.markdown(f"**{i}.** {french_text}")
+            
+            # Optional: English translation
+            if show_translations:
+                st.markdown(f"   *{english_text}*")
+            
+            # Optional: IPA
+            if show_ipa and ipa_text:
+                st.caption(f"   🔊 /{ipa_text}/")
+            
+            # Add spacing between phrases
+            if i < len(scene_data):
+                st.markdown("")  # Small gap
+        
+        # Practice transition
+        st.divider()
+        st.info("✏️ **Ready to practice?** Go to the **🎯 Quick Practice** tab and load this scene from the Built-in Library → French → Story Scenes.")
+        
+    except json.JSONDecodeError as e:
+        st.error(f"Error parsing scene file: {e}")
+    except Exception as e:
+        st.error(f"Error loading scene: {e}")
+
+
 def main():
     """Main Streamlit app"""
     initialize_session_state()
@@ -1269,6 +1415,30 @@ def main():
                     "date": datetime.now().isoformat(),
                     "practices": []
                 }
+        
+        # Material Language selection
+        st.markdown("**📚 Materials Language**")
+        from app_language_materials import get_available_languages, format_language_name
+        
+        if 'material_language' not in st.session_state:
+            st.session_state.material_language = 'fr'  # Default to French (has story)
+        
+        available_materials = get_available_languages()
+        if available_materials:
+            # Find current index
+            try:
+                current_idx = available_materials.index(st.session_state.material_language)
+            except ValueError:
+                current_idx = 0
+                st.session_state.material_language = available_materials[0]
+            
+            st.session_state.material_language = st.selectbox(
+                "Material Language",
+                available_materials,
+                index=current_idx,
+                format_func=format_language_name,
+                help="Language of practice materials and stories to display"
+            )
         
         # Get current language config
         lang_config = LANGUAGE_CONFIG[st.session_state.language]
@@ -1416,6 +1586,26 @@ def main():
         - [Testing Guide](https://github.com/fairflow/espeak-ng-pt-br/blob/main/app-docs/TESTING_GUIDE.md) - Report bugs & test
         - [All Documentation](https://github.com/fairflow/espeak-ng-pt-br/tree/main/app-docs)
         
+        **📚 Stories:**
+        """)
+        
+        # Language-aware story links (based on material language)
+        lang_code = st.session_state.get('material_language', 'fr')
+        
+        if lang_code == 'pt':
+            st.markdown("- [Sophie & Lucas: Uma Jornada aos Alpes](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/pt/story.md) (Portuguese - Coming soon)")
+        elif lang_code == 'fr':
+            st.markdown("- [Sophie & Lucas: A Journey to the Alps](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/fr/story.md) (French)")
+        elif lang_code == 'nl':
+            st.markdown("- [Sophie & Lucas: Een Reis naar de Alpen](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/nl/story.md) (Dutch - Coming soon)")
+        elif lang_code == 'de':
+            st.markdown("- [Sophie & Lucas: Eine Reise in die Alpen](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/de/story.md) (German - Coming soon)")
+        elif lang_code == 'it':
+            st.markdown("- [Sophie & Lucas: Un Viaggio sulle Alpi](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/it/story.md) (Italian - Coming soon)")
+        elif lang_code == 'es':
+            st.markdown("- [Sophie & Lucas: Un Viaje a Sierra Nevada](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/es/story.md) (Spanish - Coming soon)")
+        
+        st.markdown("""
         **💬 Support:**
         - Email: io@miolingo.io
         - Discord: [Coming soon]
@@ -1430,8 +1620,9 @@ def main():
                 st.session_state.ccs_test.render_validation_ui()
     
     # Main content - Tabs
-    tab1, tab2, tab3 = st.tabs([
+    tab1, tab2, tab3, tab4 = st.tabs([
         "🎯 Quick Practice",
+        "📖 Story Reader",
         "📊 Statistics",
         "📜 History"
     ])
@@ -1465,22 +1656,16 @@ def main():
             with source_tab1:
                 st.write("Browse curated phrase and word lists by language and level.")
                 
-                # French Story link
-                st.markdown("📖 **[Read the French Story: Sophie & Lucas](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/fr/story.md)** - Advanced learners can follow the full narrative, then practice with scene-based phrases.")
-                st.markdown("---")
-                
                 languages = get_available_languages()
                 
                 if not languages:
                     st.warning("No built-in materials found in `language_materials/` directory.")
                 else:
-                    # Language selection
-                    material_lang = st.selectbox(
-                        "Material Language",
-                        languages,
-                        format_func=format_language_name,
-                        help="Choose the language of practice materials to load"
-                    )
+                    # Use material language from sidebar session state
+                    material_lang = st.session_state.get('material_language', 'fr')
+                    
+                    # Show which material language is active
+                    st.info(f"📚 Loading materials for: **{format_language_name(material_lang)}** (change in sidebar)")
                     
                     structure = get_language_structure(material_lang)
                     
@@ -2001,8 +2186,12 @@ def main():
                                  speed=st.session_state.settings['speed'],
                                  pitch=st.session_state.settings['pitch'])
     
-    # Tab 2: Statistics
+    # Tab 2: Story Reader
     with tab2:
+        render_story_reader()
+    
+    # Tab 3: Statistics
+    with tab3:
         st.header("📊 Practice Statistics")
         
         # Current session stats
@@ -2038,8 +2227,8 @@ def main():
         else:
             st.info("No practice history yet. Start practicing!")
     
-    # Tab 3: History
-    with tab3:
+    # Tab 4: History
+    with tab4:
         st.header("📜 Session History")
         
         if not st.session_state.history:
