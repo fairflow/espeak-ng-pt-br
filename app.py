@@ -1439,20 +1439,21 @@ def render_practice_results(result):
                 st.write(f"**Operations:** {matches} matches, {len(substitutions)} substitutions, {len(insertions)} insertions, {len(deletions)} deletions")
                 
                 # Show specific differences
+                # Note: get_edit_operations returns (operation, position, char1, char2)
                 if substitutions:
                     st.write("**Substitutions:**")
-                    for op, i, j, t_char, u_char in substitutions[:5]:  # Limit to first 5
-                        st.write(f"  Position {i}: `{t_char}` → `{u_char}`")
+                    for op, pos, t_char, u_char in substitutions[:5]:  # Limit to first 5
+                        st.write(f"  Position {pos}: `{t_char}` → `{u_char}`")
                 
                 if insertions:
                     st.write("**Insertions (extra phonemes in your pronunciation):**")
-                    for op, i, j, _, u_char in insertions[:5]:
-                        st.write(f"  Position {j}: `{u_char}`")
+                    for op, pos, _, u_char in insertions[:5]:
+                        st.write(f"  Position {pos}: `{u_char}`")
                 
                 if deletions:
                     st.write("**Deletions (missing phonemes):**")
-                    for op, i, j, t_char, _ in deletions[:5]:
-                        st.write(f"  Position {i}: `{t_char}`")
+                    for op, pos, t_char, _ in deletions[:5]:
+                        st.write(f"  Position {pos}: `{t_char}`")
 
 
 def render_scene_practice_mode(scenes_dir):
