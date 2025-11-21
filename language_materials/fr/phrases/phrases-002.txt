@@ -1,0 +1,2 @@
+# Placeholder for 50 more phrases
+# Add phrases in format: phrase | translation | [ipa]

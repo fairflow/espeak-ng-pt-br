@@ -36,6 +36,9 @@ def get_available_languages(_cache_version: str = CACHE_VERSION) -> List[str]:
 def get_language_structure(language: str, _cache_version: str = CACHE_VERSION) -> Dict[str, List[str]]:
     """Get complete directory structure for a language.
     
+    Aggregates phrases-A/B/C/D into 'phrases' and words-A/B/C/D into 'words'.
+    Story scenes remain separate.
+    
     Args:
         language: Language code (e.g., 'fr', 'pt')
         _cache_version: Version string to bust cache (leading underscore prevents it from being used)
@@ -43,35 +46,72 @@ def get_language_structure(language: str, _cache_version: str = CACHE_VERSION) -
     Returns:
         Dictionary mapping category names to lists of filenames:
         {
-            'phrases-A': ['phr-01.txt', 'phr-02.txt'],
-            'words-A': ['words-01.txt'],
-            ...
+            'phrases': ['phr-01.txt', 'phr-02.txt', ...],  # aggregated from phrases-A/B/C/D
+            'words': ['words-01.txt', ...],                 # aggregated from words-A/B/C/D
+            'story-scenes-json': ['scene-01.json', ...]
         }
     """
     lang_dir = DATA_DIR / language
     if not lang_dir.exists():
         return {}
     
-    structure = {}
-    for category_dir in sorted(lang_dir.iterdir()):
-        if category_dir.is_dir() and not category_dir.name.startswith('.'):
-            # Support both .txt and .json files
-            txt_files = sorted([f.name for f in category_dir.glob("*.txt")])
-            json_files = sorted([f.name for f in category_dir.glob("*.json")])
-            files = txt_files + json_files
-            if files:
-                structure[category_dir.name] = files
+    # Aggregated structure
+    aggregated = {
+        'phrases': [],
+        'words': [],
+    }
     
-    return structure
+    # Directories to exclude from category discovery (backup/deprecated)
+    excluded_dirs = {'phrases-original', 'story-scenes', 'phrasebook-topics'}
+    
+    # Scan all subdirectories
+    for category_dir in sorted(lang_dir.iterdir()):
+        if not category_dir.is_dir() or category_dir.name.startswith('.'):
+            continue
+        
+        # Skip excluded directories
+        if category_dir.name in excluded_dirs or '-original' in category_dir.name or 'backup' in category_dir.name:
+            continue
+        
+        # Collect files
+        txt_files = sorted([f.name for f in category_dir.glob("*.txt")])
+        json_files = sorted([f.name for f in category_dir.glob("*.json")])
+        files = txt_files + json_files
+        
+        if not files:
+            continue
+        
+        # Handle different directory types
+        if category_dir.name == 'phrases':
+            # Direct phrases directory (new consolidated structure)
+            aggregated['phrases'].extend(files)
+        elif category_dir.name == 'words':
+            # Direct words directory (new consolidated structure)
+            aggregated['words'].extend(files)
+        elif category_dir.name.startswith('phrases-'):
+            # Legacy phrases-A/B/C/D structure
+            aggregated['phrases'].extend(files)
+        elif category_dir.name.startswith('words-'):
+            # Legacy words-A/B/C/D structure
+            aggregated['words'].extend(files)
+        else:
+            # Keep other categories as-is (story-scenes-json, etc.)
+            aggregated[category_dir.name] = files
+    
+    # Remove empty aggregated categories
+    return {k: v for k, v in aggregated.items() if v}
 
 
 @st.cache_data
 def get_file_metadata(language: str, category: str, filename: str) -> Dict:
     """Get metadata about a phrase/word file.
     
+    For aggregated categories ('phrases', 'words'), searches across all level subdirectories
+    (phrases-A/B/C/D, words-A/B/C/D) to find the file.
+    
     Args:
         language: Language code (e.g., 'fr', 'pt')
-        category: Category name (e.g., 'phrases-A', 'words-B')
+        category: Category name (e.g., 'phrases', 'words', 'story-scenes-json')
         filename: File name (e.g., 'phr-01.txt')
     
     Returns:
@@ -84,7 +124,10 @@ def get_file_metadata(language: str, category: str, filename: str) -> Dict:
             'preview': ['first', 'few', 'lines']
         }
     """
-    file_path = DATA_DIR / language / category / filename
+    lang_dir = DATA_DIR / language
+    
+    # All categories now point directly to their directories
+    file_path = lang_dir / category / filename
     
     if not file_path.exists():
         return {}
@@ -264,12 +307,16 @@ def format_category_name(category: str) -> str:
     """Format category name for display.
     
     Args:
-        category: Raw category name (e.g., 'phrases-A', 'words-C', 'phrasebook-topics')
+        category: Raw category name (e.g., 'words', 'phrases', 'story-scenes-json')
     
     Returns:
-        Formatted display name (e.g., '📝 Phrases - Level A (Beginner)', '💬 Phrasebook by Topic')
+        Formatted display name with emoji (e.g., '📚 Words', '📖 Story Scenes')
     """
     category_map = {
+        'words': '📚 Words',
+        'phrases': '📝 Phrases',
+        'story-scenes-json': '📖 Story Scenes (Sophie & Lucas)',
+        # Legacy support for old structure (in case some languages haven't been migrated)
         'phrases-A': '📝 Phrases - Level A (Beginner)',
         'phrases-B': '📝 Phrases - Level B (Intermediate)',
         'phrases-C': '📝 Phrases - Level C (Advanced)',
@@ -279,7 +326,6 @@ def format_category_name(category: str) -> str:
         'words-C': '📖 Words - Level C (Advanced)',
         'words-D': '📖 Words - Level D (Expert)',
         'phrasebook-topics': '💬 Phrasebook by Topic',
-        'story-scenes-json': '📖 Story Scenes (Sophie & Lucas)',
     }
     
     return category_map.get(category, category)

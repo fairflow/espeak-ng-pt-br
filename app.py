@@ -1624,14 +1624,24 @@ def render_story_reader():
     config = story_config.get(lang_code, {'title': 'Story', 'setting': 'Unknown'})
     st.header(f"📖 {config['title']}")
     
-    if not story_md_path.exists():
-        st.warning("Story file not found. Please ensure story materials exist for this language.")
+    # Check what story materials are available
+    has_full_story = story_md_path.exists()
+    has_scenes = story_scenes_dir.exists() and list(story_scenes_dir.glob("scene-*.json"))
+    
+    if not has_full_story and not has_scenes:
+        st.warning("Story materials not found. Please ensure story files exist for this language.")
         return
     
-    # Story mode selector - now with Practice Mode option
+    # Story mode selector - show only available modes
+    available_modes = []
+    if has_full_story:
+        available_modes.append("📄 Full Story")
+    if has_scenes:
+        available_modes.extend(["🎬 Scene by Scene", "🎙️ Practice Mode"])
+    
     story_mode = st.radio(
         "Choose reading mode:",
-        ["📄 Full Story", "🎬 Scene by Scene", "🎙️ Practice Mode"],
+        available_modes,
         horizontal=True,
         help="Read the complete story, explore individual scenes, or practice pronunciation"
     )
@@ -1639,7 +1649,7 @@ def render_story_reader():
     if story_mode == "📄 Full Story":
         render_full_story(story_md_path)
     elif story_mode == "🎬 Scene by Scene":
-        render_scene_by_scene(story_scenes_dir)
+        render_scene_by_scene(story_scenes_dir, lang_code)
     elif story_mode == "🎙️ Practice Mode":
         render_scene_practice_mode(story_scenes_dir)
 
@@ -1661,10 +1671,10 @@ def render_full_story(story_path):
         st.error(f"Error loading story: {e}")
 
 
-def render_scene_by_scene(scenes_dir):
-    """Render individual scenes with French text and English translations"""
+def render_scene_by_scene(scenes_dir, lang_code):
+    """Render individual scenes with target language text and English translations"""
     if not scenes_dir.exists():
-        st.warning("Story scenes not found. Please ensure `language_materials/fr/story-scenes-json/` exists.")
+        st.warning(f"Story scenes not found. Please ensure `language_materials/{lang_code}/story-scenes-json/` exists.")
         return
     
     # Get all scene files
