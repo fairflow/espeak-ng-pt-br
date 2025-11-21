@@ -1715,8 +1715,33 @@ def render_scene_by_scene(scenes_dir):
         with open(scene_file, 'r', encoding='utf-8') as f:
             scene_data = json.load(f)
         
+        # Handle two different JSON formats:
+        # Format 1 (Portuguese): {"pt": [...], "scene_number": 1, "scene_title": "..."}
+        # Format 2 (French): [{"french": "...", "english": "...", "ipa": "..."}]
+        
+        if isinstance(scene_data, list):
+            # Format 2: Direct list of phrases
+            phrases = scene_data
+            # Determine language key from phrase keys
+            if phrases and isinstance(phrases[0], dict):
+                phrase_keys = phrases[0].keys()
+                lang_key = next((k for k in phrase_keys if k not in ['english', 'ipa']), 'text')
+            else:
+                lang_key = 'text'
+        elif isinstance(scene_data, dict):
+            # Format 1: Dict with language key
+            lang_keys = [k for k in scene_data.keys() if k not in ['scene_number', 'scene_title']]
+            if not lang_keys:
+                st.error("Invalid scene data format - no language key found")
+                return
+            lang_key = lang_keys[0]
+            phrases = scene_data[lang_key]
+        else:
+            st.error(f"Invalid scene data format - expected list or dict, got {type(scene_data).__name__}")
+            return
+        
         st.subheader(selected_scene)
-        st.caption(f"📊 {len(scene_data)} phrases in this scene")
+        st.caption(f"📊 {len(phrases)} phrases in this scene")
         
         # Display options
         col1, col2 = st.columns([3, 1])
@@ -1728,13 +1753,14 @@ def render_scene_by_scene(scenes_dir):
         st.divider()
         
         # Display each phrase
-        for i, phrase in enumerate(scene_data, 1):
-            french_text = phrase.get('french', '')
+        for i, phrase in enumerate(phrases, 1):
+            # Get text in the target language (french, pt, etc.)
+            target_text = phrase.get(lang_key, '')
             english_text = phrase.get('english', '[Translation missing]')
             ipa_text = phrase.get('ipa', '')
             
-            # French text (always shown)
-            st.markdown(f"**{i}.** {french_text}")
+            # Target language text (always shown)
+            st.markdown(f"**{i}.** {target_text}")
             
             # Optional: English translation
             if show_translations:
