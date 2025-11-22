@@ -1,1402 +1,1842 @@
 # Complete Dutch Dictionary
 # Generated from story and phrases
-# Total words: 1398
+# Format: word | [IPA]
+# Total words: 1837
 
-10
-11
-12
-13
-14
-15
-16
-2024
-aan
-aanbieding
-aanbreken
-aandachtig
-aangeboden
-aangekomen
-aangenaam
-aangestoken
-aankomst
-aanmaken
-aardig
-aarzelend
-aarzeling
-aarzelt
-abrupt
-absorbeert
-accepteert
-achter
-adem
-advies
-af
-afdaalt
-afsluiten
-afspraak
-airconditioning
-akkoord
-al
-albert
-alle
-allebei
-alleen
-allemaal
-allergisch
-alles
-als
-alsjeblieft
-alsof
-alstublieft
-altijd
-amsterdam
-andere
-anders
-angst
-annuleren
-annuleringskosten
-antwoordt
-apart
-apotheek
-appartement
-ardennen
-arriveert
-arriveren
-authentiek
-avond
-avonds
-avontuur
-aːnˈɣenaːm
-bagage
-bakker
-bakkerij
-bakkerin
-bang
-bank
-bankpas
-bankrekening
-bar
-bedankt
-bedrag
-beetje
-beginnen
-begint
-begrijp
-beheersen
-beiden
-bekijken
-bekijkt
-belangrijk
-belangrijkste
-bellen
-belt
-ben
-benaderen
-beneden
-bent
-beproeving
-bereik
-berg
-bergen
-berghut
-bergredding
-bergreddingsdienst
-beschermen
-beschikbaarheid
-beschrijft
-beslissing
-besloten
-besluit
-besneeuwde
-bestaan
-bestellingen
-bestelt
-betalen
-betekenis
-betekent
-beter
-bevestigen
-bevestiging
-bewust
-bieden
-biedt
-bij
-bijna
-binnen
-binnenkort
-blaast
-blaat
-blaft
-blanc
-blauw
-blijf
-blijft
-blijven
-blokkeren
-boek
-boer
-boerderij
-bomen
-boodschappen
-bordeaux
-borden
-borg
-boven
-brandnetels
-brandt
-brengen
-brengt
-broekzak
-bron
-brood
-broodjes
-bruisen
-buikpijn
-buiten
-bureau
-bus
-bushalte
-buurt
-bəˈtekənt
-bəˈɣrɛip
-bɛn
-cadeau
-café
-centraal
-charmant
-charme
-chocoladebroodje
-cirkel
-claim
-compleet
-completer
-conditie
-constant
-contact
-controleert
-controleren
-creditcards
-cuypstraat
-daal
-daalt
-daar
-daarboven
-daarna
-daarom
-dacht
-dag
-dalen
-dan
-dank
-dankbaarheid
-danst
-dat
-daːr
-de
-deel
-deken
-delen
-denk
-denken
-denkt
-der
-des
-deur
-deze
-dezelfde
-dicht
-dichtbij
-dichterbij
-dichtstbijzijnde
-die
-diep
-dieper
-diepgaander
-dier
-dieren
-diergedrag
-dierlijk
-dik
-dikke
-diner
-dingen
-directe
-dit
-documenten
-doen
-doet
-dokter
-dom
-donkere
-door
-doordringend
-doorgaan
-doorgroeimogelijkheden
-doorstaan
-dorp
-dorpje
-draagt
-draait
-dreigende
-drie
-dringt
-drink
-drinken
-drinkt
-drinkwater
-droefheid
-droeg
-dromen
-druk
-durf
-duur
-duurt
-dwingt
-dyːr
-dɑn
-dɑt
-dɑx
-dɑŋk
-də
-dɛs
-dɪt
-e-mail
-e-mailadres
-echt
-een
-eens
-eentonig
-eenvoudig
-eenzaamheden
-eenzaamheid
-eerder
-eerst
-eet
-eetbaar
-eetzaal
-eigen
-eigenaar
-eigenaresse
-einde
-eindelijk
-elementen
-elf
-elk
-elkaar
-elke
-emotie
-en
-engels
-engelse
-engelsman
-enkele
-enthousiast
-er
-eraan
-erg
-ergens
-erin
-erover
-ervaring
-ervoor
-essentiële
-eten
-euro
-even
-excuseer
-eːn
-eːt
-favoriete
-fijne
-fles
-formeel
-foto's
-frans
-franse
-frisse
-frɑns
-ga
-gaan
-gaat
-gauw
-gaven
-geannuleerd
-gebak
-gebakjes
-gebeurt
-geblaat
-geboden
-gebouwen
-gebruikt
-gecontroleerd
-gecreëerd
-gedaan
-gedacht
-gedachten
-gedekt
-gedrag
-geduld
-geeft
-geen
-geest
-gefeliciteerd
-gegraveerd
-geit
-gek
-gekeken
-gekomen
-gekost
-geladen
-geld
-geldautomaat
-geleefd
-geleerd
-geleid
-gelijk
-geluid
-geluiden
-geluk
-gelukkig
-gemaakt
-gemakkelijke
-genietend
-gepakt
-gered
-gerimpelde
-gescheiden
-geschenken
-geserveerd
-geslapen
-gespannen
-gesprek
-gestolen
-gestuurd
-geur
-gevoel
-gevonden
-geweten
-gewone
-gewoon
-gewoond
-gezellig
-gezicht
-gezien
-gezondheid
-gids
-gidsgeit
-gisteravond
-gisteren
-glimlach
-glimlacht
-glutenvrij
-god
-godzijdank
-goed
-goede
-goedenavond
-goedendag
-goedheid
-graag
-groeit
-groene
-groepsreservering
-grootmoeder
-grote
-groter
-grotere
-haalt
-haar
-haard
-had
-hadden
-halen
-half
-hallo
-ham
-hand
-handen
-harder
-hartelijk
-heb
-hebben
-hebt
-heeft
-heel
-heen
-heerlijk
-heet
-heftig
-helder
-hele
-helemaal
-helikopter
-help
-helpen
-hem
-hen
-herberg
-herbergt
-herdershut
-herdersstructuur
-hereniging
-herhalen
-herinneren
-herinneringen
-herken
-herkend
-herkende
-herstel
-hervat
-het
-hetzelfde
-heuvelachtiger
-heuvels
-heːft
-heːt
-hielpen
-hier
-hij
-hiːr
-hoe
-hoek
-hoest
-hoeveel
-hoewel
-hoi
-hond
-honger
-hoofd
-hoofdpijn
-hoop
-hoor
-hoort
-hopelijk
-hopen
-horloge
-hou
-houd
-houden
-hout
-houten
-hoː
-huilend
-huis
-huisje
-huizen
-hulp
-hun
-huren
-hut
-hutje
-huur
-huːˈveːl
-hè
-hɑlo
-hɔi
-hɛp
-hɛrˈhaːlən
-hɛt
-idee
-identiteitsbewijs
-ieder
-iedereen
-iemand
-iets
-ik
-illusie
-in
-inbegrepen
-inclusief
-indienen
-informeel
-ingang
-ingelicht
-ingeslikt
-inpakken
-inscriptie
-instappen
-integendeel
-intentie
-intercity
-interpreteer
-interpreteert
-inzicht
-inzien
-is
-ja
-jammer
-jas
-je
-jeugd
-jij
-jongeman
-jou
-jouw
-jullie
-jə
-kaart
-kaartje
-kaartjes
-kaas
-kalm
-kamer
-kamers
-kan
-kant
-kazen
-keer
-kennen
-kent
-keren
-kerft
-kerk
-kerstfeest
-keuze
-kiezen
-kijk
-kijken
-kijkt
-kilo
-klaar
-klacht
-kleding
-klein
-kleine
-kleiner
-kleintje
-kleren
-kleur
-klinkt
-knus
-koffie
-kom
-komen
-komt
-konden
-kondigt
-kookt
-koopt
-koorts
-koos
-kopen
-kopje
-kost
-kosten
-kouder
-krachten
-krijgen
-kruidenier
-kruidenierswinkel
-kunnen
-kunt
-kwalificaties
-kwamen
-kwetsbaarheid
-kwetsen
-kwijt
-kwijtgeraakt
-kɔm
-kɔst
-kʏnt
-laat
-laatste
-lach
-lacht
-landhuis
-landschap
-landt
-lang
-lange
-langer
-langzaam
-langzamer
-laptop
-laten
-later
-laːt
-leeft
-leeftijd
-leerde
-leert
-leggen
-legt
-leidde
-leider
-lekker
-let
-leven
-levend
-lezen
-lichaam
-licht
-liefde
-liefst
-liepen
-liet
-liever
-lieverd
-lijkt
-lijst
-limiet
-links
-lokale
-loket
-londen
-loopt
-lopen
-lucas
-lucht
-lucifer
-lucifers
-luiken
-luisteren
-luistert
-lɪŋks
-maak
-maakt
-maakte
-maand
-maandelijkse
-maar
-maastricht
-maat
-maken
-makkelijk
-man
-marc
-me
-medewerkster
-mee
-meegenomen
-meenemen
-meer
-melden
-menselijke
-mensen
-menu
-merkt
-met
-meteen
-meter
-metro
-mezelf
-middag
-middags
-middelbare
-mij
-mijn
-minder
-minuten
-mis
-misschien
-missen
-mist
-moe
-moed
-moeilijke
-moet
-moeten
-mogelijke
-moment
-momenten
-mont
-mooi
-morgen
-motorgeluid
-moˈmɛnt
-muren
-muur
-mysterieuze
-mɛi
-mɛt
-na
-naam
-naar
-naartoe
-naast
-nacht
-nachten
-nadert
-nat
-natuur
-natuurlijk
-nauwelijks
-naïviteit
-naːm
-naːr
-naːst
-ne
-nederlandse
-nee
-neem
-neemt
-nemen
-nerveus
-nervositeit
-net
-niet
-niets
-nietwaar
-nieuw
-nieuwe
-nieuwjaar
-nieuws
-nieuwsgierig
-niks
-niət
-niʋˈjar
-noch
-nodig
-nog
-noodzaak
-nooit
-normaal
-normandië
-november
-nu
-nummer
-nutteloos
-ny
-nɔx
-nɪt
-ober
-ochtend
-ochtendcafé
-ochtendlicht
-of
-ogen
-oh
-oké
-om
-oma
-omarmd
-omdraaien
-omgaan
-omgeving
-omhelzen
-omhoog
-omlaag
-omroepbericht
-omzet
-onder
-onderaan
-onderdak
-ondertussen
-onderwijst
-onderwijzen
-ongelovig
-ongeveer
-ongewoon
-onmiddellijk
-onmogelijk
-ons
-onschuld
-ontbijt
-ontdekken
-ontdekking
-ontdekkingen
-ontdekt
-ontmoetingen
-ontvangen
-ontvluchten
-ontwikkeling
-onverschillig
-onverschilligheid
-onverwachte
-onvrijwillige
-onze
-onzekerheid
-ooit
-ook
-op
-open
-openbaar
-openen
-opent
-opgelet
-opgetrokken
-opgewonden
-opkomende
-opluchting
-opnamekosten
-opnemen
-oppakt
-optimistisch
-opwinding
-oriëntatie
-oriënteren
-oude
-over
-overal
-overboeking
-overeind
-overkomt
-overleven
-overleving
-overmaken
-overnachting
-overstappen
-overweldigt
-paar
-pad
-paden
-pakt
-pan
-panikeren
-papier
-pardon
-parijs
-pas
-paspoort
-passen
-per
-perfect
-perron
-personen
-persoon
-petto
-pijn
-pijp
-pincode
-pinda's
-pittoresk
-plaatsen
-planten
-platteland
-plattelandshuis
-plek
-plekje
-plezier
-plots
-plotseling
-plukt
-poging
-politie
-politiebureau
-portemonnee
-praat
-praatgraag
-prachtig
-prachtige
-praten
-precies
-prijs
-prikken
-prima
-probeer
-probeert
-probleem
-professionals
-projecteer
-projecteren
-proost
-proːst
-raadt
-raakt
-raam
-raar
-raast
-raken
-realiseren
-recept
-rechtdoor
-rechtop
-rechts
-rechtsaf
-redde
-redden
-redding
-reddingshelikopter
-reddingspost
-reddingsstation
-reddingswerker
-reddingswerkers
-regelt
-reis
-reizen
-rekening
-rekent
-relatie
-rennen
-rent
-reservering
-retour
-richting
-rijdt
-rilt
-risico
-rode
-roepend
-roept
-rond
-rondje
-rood
-rot
-rotsen
-rugzak
-rugzakken
-rust
-rustig
-rustiger
-ruzie
-ruziën
-rɛxts
-salaris
-saldo
-samen
-samenstellen
-sandwiches
-scheiden
-scheiding
-schijnt
-schikt
-schone
-schouder
-schreeuwt
-schuilplaats
-schuldig
-scène
-scènes
-seconde
-service
-simpel
-situatie
-sla
-slaap
-slapen
-slecht
-sleutel
-slot
-slɛxt
-smakelijk
-smalle
-smaˈkɛlək
-snel
-soep
-solides
-soms
-sophie
-sophie's
-sorry
-soːk
-spijt
-spontaan
-spreek
-spreekt
-spreːk
-spreːkt
-springt
-staan
-staat
-stad
-stappen
-stapt
-station
-steeds
-steek
-steken
-stem
-stenen
-stengels
-sterker
-stevig
-stilte
-stof
-stopt
-stormen
-straat
-straatjes
-strak
-straten
-stromend
-stroomt
-stroopwafel
-stuk
-succes
-suiker
-səˈkɔndə
-tafel
-tas
-tassen
-te
-tegen
-tegenover
-tekenen
-tekens
-telefoon
-telefoonnummer
-telefoons
-telt
-temperatuur
-terug
-terugbetaling
-teruggevonden
-terugkeert
-terugkeren
-terwijl
-tevoorschijn
-thee
-thuis
-tijd
-tip
-toch
-toe
-toekomst
-toekomsten
-toelaat
-toen
-toestemming
-toilet
-tomaten
-tonen
-toonbank
-toont
-toppen
-tot
-tram
-transformatie
-transformeer
-trein
-treinen
-treinstation
-trekt
-trillend
-trilt
-trui
-tuin
-twee
-twijfel
-twijfelde
-twijfels
-twijfelt
-tɔt
-tə
-təˈɣeːnoːvər
-uit
-uitdaging
-uiteindelijk
-uitgeput
-uitgestrekt
-uitgewist
-uitlaat
-uitrusting
-uitstapt
-uitstekend
-uitzicht
-uren
-urenlang
-uur
-uw
-vader
-vallei
-van
-vanavond
-vandaag
-vannacht
-vanochtend
-vast
-vastberadenheid
-vaːr
-veel
-vegetariër
-veilig
-veilige
-veiligheid
-vel
-ver
-veranderd
-veranderen
-verandering
-verbinding
-verder
-verdwaald
-verdwenen
-verdwijnt
-vereist
-vereiste
-vergeef
-vergeeft
-vergeet
-vergeten
-vergoed
-verhaal
-verhalen
-verhogen
-verjaardag
-verkeerd
-verkennen
-verlangen
-verlaten
-verlicht
-verlies
-verliest
-verliezen
-vermengt
-vermoeide
-vermogen
-verrast
-vers
-verschijnt
-verschrikkelijk
-verspreidt
-verte
-vertellen
-vertraagd
-vertrek
-vertrekken
-vertrekt
-vertrokken
-vertrouwen
-vervagen
-vervoer
-vervolgen
-verwelkomt
-verwijt
-verzamel
-verzekering
-vet
-vier
-vierde
-vijf
-vijftien
-vinden
-vindt
-vlam
-vlammetje
-vlucht
-vluchten
-vochtig
-voeden
-voel
-voelen
-voelend
-voelt
-vol
-volg
-volgen
-volgende
-volgt
-volledig
-vond
-voor
-voorbij
-voorbijgaande
-voorbijglijdende
-voorbijlopen
-voordat
-voorheen
-vooruit
-voorwerpen
-voorzichtig
-vorm
-vraag
-vraagt
-vragen
-vreemd
-vreemde
-vreselijk
-vriendelijkheid
-vries
-vrij
-vrije
-vrijwillig
-vrolijk
-vrouw
-vult
-vuur
-vɑnˈdaːx
-vɑt
-vərˈjardax
-vɛr
-waait
-waar
-waarbij
-waarheid
-waarin
-waarom
-waarover
-wacht
-wachten
-wagon
-wandelen
-wandeling
-wandelingen
-wandelroutes
-wanhoop
-wanhopig
-wanneer
-waren
-warm
-warme
-warmere
-warmte
-was
-wat
-water
-wc
-we
-week
-weemoed
-weer
-wees
-weet
-weg
-wegen
-wekken
-wel
-welk
-welke
-welkom
-werd
-werk
-werkt
-weten
-weːseː
-wie
-wij
-wijn
-wijnwinkel
-wijst
-wijzen
-wil
-wild
-wilde
-willen
-wind
-winkel
-winkelen
-winkelier
-winters
-wisselgeld
-wisselkoers
-witheid
-wolken
-wonder
-woon
-woorden
-worden
-wordt
-woːn
-wrijft
-wə
-xut
-zacht
-zachtjes
-zak
-zakken
-zaklamp
-zal
-ze
-zee
-zeg
-zeggen
-zegt
-zei
-zeker
-zekere
-zekerheid
-zelf
-zelfs
-zelfverzekerd
-zestig
-zeven
-zich
-zichzelf
-zie
-ziek
-zien
-ziens
-ziet
-zij
-zijde
-zijn
-zins
-zit
-zitten
-zittend
-zo
-zodra
-zoek
-zoeken
-zoekt
-zoekteam
-zon
-zonder
-zonsopgang
-zorgen
-zou
-zouden
-zoveel
-zozo
-zoˈzo
-zoː
-zucht
-zullen
-zult
-zwaaien
-zwaait
-zwart
-zɛɣ
-één
-œyt
-ɑl
-ɑlstʏˈblift
-ɑˈkort
-ən
-ət
-əˈran
-ɛkskyˈzir
-ɛn
-ɛt
-ɣan
-ɣat
-ɣeːn
-ɣraːx
-ɣraːɣ
-ɣudə
-ɣudənˈɑvɔnt
-ɣut
-ɣɑt
-ɣəfəliˈsitərt
-ɣəˈdan
-ɣəˈlɵkəx
-ɣʌu
-ɦel
-ɪk
-ɪn
-ɪs
-ʝɛi
-ˈavɔnt
-ˈbetər
-ˈbeːtjə
-ˈbɪnənˌkoːrt
-ˈdɪxtbɛi
-ˈfɛinə
-ˈhɛlpən
-ˈjɑmər
-ˈkɛrstfeːst
-ˈlatən
-ˈlaːtər
-ˈlɑŋzamər
-ˈlɔndən
-ˈmɔrɣən
-ˈmɪsxin
-ˈnoːdɪx
-ˈnɑxt
-ˈplizir
-ˈpraːtən
-ˈrɛis
-ˈrɛxtdoːr
-ˈsɔri
-ˈsɵks
-ˈvroːlək
-ˈwɛlkɔm
-ˈɑltɛit
-ˈɑləs
-ˈɑlʃəblift
-ˈɔpxəlɛt
-ˈɛŋəls
-ˈɛŋəlsmɑn
-ˈɛŋəlsə
-ˈɣɪstərən
-ˈʋɪlən
+aan | [ˈaːn]
+aanbieding | [ˈaːnbˌidɪŋ]
+aanbreken | [ˈaːnbrˌeːkən]
+aandachtig | [ˈaːndɑxtəx]
+aangeboden | [ˈaːnɣəbˌoːdən]
+aangekomen | [ˈaːnɣəkˌoːmən]
+aangenaam | [ˈaːnɣənˌaːm]
+aangestoken | [ˈaːnɣəstˌoːkən]
+aankomst | [ˈaːnkˌɔmst]
+aanmaken | [ˈaːnmˌaːkən]
+aardig | [ˈaːrdəx]
+aarzelend | [ˈaːrzələnt]
+aarzeling | [ˈaːrzəlˌɪŋ]
+aarzelt | [ˈaːrzəlt]
+abrupt | [ˈɑbrɵpt]
+absorbeert | [ˌɑbsɔrbˈɪrt]
+accept | [ˈɑksɛpt]
+accepteert | [ˌɑksɛptˈɪrt]
+account | [ˈɑkkʌʊnt]
+achter | [ˈɑxtər]
+address | [ɑdrˈɛss]
+adem | [ˈaːdəm]
+advancement | [ˌɑdvɑnsəmˈɛnt]
+advies | [ɑdvˈis]
+af | [ˈɑf]
+afdaalt | [ˈɑfdˌaːlt]
+afsluiten | [ˈɑfslˌœytən]
+afspraak | [ˈɑfsprˌaːk]
+agreed | [ɑɣrˈeːt]
+ahead | [ˈaːhəˌɑt]
+air | [ˈɛr]
+airconditioning | [ˈɑjrkɔndˌiʃoːnˌɪŋ]
+al | [ˈɑl]
+albert | [ˈɑlbɛrt]
+all | [ˈɑl]
+alle | [ˈɑlə]
+allebei | [ˈɑləbˌɛɪ]
+alleen | [ɑlˈeːn]
+allemaal | [ˌɑləmˈaːl]
+allergic | [ˈɑlərɣˌɪk]
+allergisch | [ɑlˈɛrɣis]
+alles | [ˈɑləs]
+already | [ˈɑlrəˌaːdi]
+als | [ˈɑls]
+alsjeblieft | [ˌɑlʃɛblˈift]
+alsof | [ˈɑlsɔf]
+alstublieft | [ˌɑlstɵblˈift]
+altijd | [ˈɑltɛɪt]
+always | [ˈɑlʋaːjs]
+am | [ˈɑm]
+amount | [ˈaːmʌʊnt]
+amsterdam | [ˈɑmstərdˌɑm]
+an | [ˈɑn]
+and | [ˈɑnt]
+andere | [ˈɑndərə]
+anders | [ˈɑndərs]
+angst | [ˈɑŋst]
+annuleren | [ˌɑnylˈɪːrən]
+annuleringskosten | [ˈɑnylˌɪːrɪŋskˌɔstən]
+another | [ˈaːnɔtər]
+antwoordt | [ˈɑntʋɔːrt]
+apart | [ˈaːpɑrt]
+apartment | [ˌaːpɑrtmˈɛnt]
+apotheek | [ˌaːpɔtˈeːk]
+appartement | [ˌɑpɑrtəmˈɛnt]
+appointment | [ˌɑpoːɪntmˈɛnt]
+ardennen | [ˈɑrdɛnən]
+are | [ˈaːrə]
+arriveert | [ˌɑɾrivˈɪrt]
+arriveren | [ˌɑɾrivˈɪːrən]
+at | [ˈɑt]
+atm | [ˈɑtm]
+authentiek | [ˌʌʊtəntˈik]
+authorization | [ˌʌʊtoːrˌizaːʃˈɔn]
+availability | [ˈaːvɑjlˌaːbilˌiti]
+available | [ˈaːvɑjlˌɑblə]
+avond | [ˈaːvɔnt]
+avonds | [ˈaːvɔnts]
+avontuur | [ˌaːvɔntˈyr]
+bad | [bˈɑt]
+bag | [bˈɑx]
+bagage | [baːɣˈaːʒə]
+bakker | [bˈɑkər]
+bakkerij | [bˌɑkərˈɛɪ]
+bakkerin | [bˈɑkɪːrˌɪn]
+balance | [bˈaːlɑnsə]
+bang | [bˈɑŋ]
+bank | [bˈɑŋk]
+bankpas | [bˈɑŋkpɑs]
+bankrekening | [bˈɑŋkrəkˌeːnɪŋ]
+bar | [bˈɑr]
+baːɣˈaːʒə | [bˈeː ˈaː (en)lˈɛŋθənd ɡˈamə stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd ˈɛʒ ʃwˈɑː(nl)]
+be | [bˌeːˈeː]
+bedankt | [bədˈɑŋkt]
+bedrag | [bədrˈɑx]
+been | [bˈeːn]
+beetje | [bˈeːtʲə]
+beginnen | [bəɣˈɪnən]
+begint | [bəɣˈɪnt]
+begrijp | [bəɣrˈɛɪp]
+beheersen | [bəhˈɪːrsən]
+beiden | [bˈɛɪdən]
+bekijkt | [bəkˈɛɪkt]
+belangrijk | [bəlˈɑŋrɛɪk]
+belangrijkste | [bəlˈɑŋrɛɪkstə]
+bellen | [bˈɛlən]
+belt | [bˈɛlt]
+ben | [bˈɛn]
+benaderen | [bənˈaːdərən]
+beneden | [bənˈeːdən]
+bent | [bˈɛnt]
+beproeving | [bəprˈuvɪŋ]
+bereik | [bərˈɛɪk]
+berg | [bˈɛrx]
+bergen | [bˈɛrɣən]
+berghut | [bərxhˈɵt]
+bergredding | [bərɣrˈɛdɪŋ]
+bergreddingsdienst | [bərɣrˌɛdɪŋzdˈinst]
+beschermen | [bəsxˈɛrmən]
+beschikbaarheid | [bəsxˈɪkbaːrhˌɛɪt]
+beschrijft | [bəsxrˈɛɪft]
+beslissing | [bəslˈɪsɪŋ]
+besloten | [bəslˈoːtən]
+besluit | [bəslˈœyt]
+besneeuwde | [bəsnˈeʊdə]
+bestaan | [bəstˈaːn]
+bestellingen | [bəstˈɛlɪŋən]
+bestelt | [bəstˈɛlt]
+betalen | [bətˈaːlən]
+betekenis | [bətˈeːkənˌɪs]
+betekent | [bətˈeːkənt]
+beter | [bˈeːtər]
+better | [bˈɛtər]
+bevestigen | [bəvˈɛstəɣən]
+bevestiging | [bəvˈɛstiɣˌɪŋ]
+bewust | [bəʋˈɵst]
+bieden | [bˈidən]
+biedt | [bˈit]
+bij | [bˈɛɪ]
+bijna | [bˈɛɪnˌaː]
+bill | [bˈɪl]
+binnen | [bˈɪnən]
+binnenkort | [bˈɪnənkˌɔrt]
+birthday | [bˈɪrtdaːj]
+blaast | [blˈaːst]
+blaat | [blˈaːt]
+blaft | [blˈɑft]
+blanc | [blˈɑnk]
+blauw | [blˈʌʊ]
+bless | [blˈɛss]
+blijf | [blˈɛɪf]
+blijft | [blˈɛɪft]
+blijven | [blˈɛɪvən]
+blokkeren | [blɔkˈɪːrən]
+blɔkˈɪːrən | [bˈeː ˈɛl (en)ˌəʊpənˈɔː(nl) kˈaː (en)stɹˈɛs smˈɔːlkˌapˈaɪ lˈɛŋθənd(nl) ˈɛr (en)ʃwˈɑː(nl) ˈɛn]
+boek | [bˈuk]
+boer | [bˈur]
+boerderij | [bˌurdərˈɛɪ]
+bomen | [bˈoːmən]
+boodschappen | [bˈoːdsxɑpən]
+bordeaux | [bɔrdˈoːks]
+borden | [bˈɔrdən]
+borg | [bˈɔrx]
+boven | [bˈoːvən]
+brandnetels | [brˈɑndnətˌɛls]
+brandt | [brˈɑntt]
+breakfast | [brˈeːɑkfˌɑst]
+brengen | [brˈɛŋən]
+brengt | [brˈɛŋt]
+broekzak | [brˈukzɑk]
+bron | [brˈɔn]
+brood | [brˈoːt]
+broodjes | [brˈoːtjəs]
+bruisen | [brˈœyzən]
+buikpijn | [bœykpˈɛɪn]
+buiten | [bˈœytən]
+bus | [bˈɵs]
+bushalte | [bˈɵshɑltə]
+buurt | [bˈyrt]
+buy | [bˈyi]
+by | [bˈi]
+bye | [bˈiə]
+bədrˈɑx | [bˈeː (en)ʃwˈɑː(nl) dˈeː ˈɛr (en)stɹˈɛs ˈalfə(nl) ˈɪks]
+bəsxˈɪkbaːrhˌɛɪt | [bˈeː (en)ʃwˈɑː(nl) s ˈɪks (en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) kˈaː bˈeː ˈaː (en)lˈɛŋθənd(nl) ˈɛr hˈaː (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) tˈeː]
+bətˈaːlən | [bˈeː (en)ʃwˈɑː(nl) tˈeː (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛl (en)ʃwˈɑː(nl) ˈɛn]
+bətˈeːkən | [bˈeː (en)ʃwˈɑː(nl) tˈeː (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) kˈaː (en)ʃwˈɑː(nl) ˈɛn]
+bəvˈɛstiɣˌɪŋ | [bˈeː (en)ʃwˈɑː(nl) fˈeː (en)stɹˈɛs ˌəʊpənˈɛː(nl) s tˈeː ˈiː (en)ɡˈamə sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+bəvˈɛstəɣən | [bˈeː (en)ʃwˈɑː(nl) fˈeː (en)stɹˈɛs ˌəʊpənˈɛː(nl) s tˈeː (en)ʃwˈɑː ɡˈamə ʃwˈɑː(nl) ˈɛn]
+bəɣrˈɛɪp | [bˈeː (en)ʃwˈɑː ɡˈamə(nl) ˈɛr (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) pˈeː]
+bəɣˈɪnən | [bˈeː (en)ʃwˈɑː ɡˈamə stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn (en)ʃwˈɑː(nl) ˈɛn]
+bɛn | [bˈɛn]
+bˈeːtər | [bˈeː (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) tˈeː (en)ʃwˈɑː(nl) ˈɛr]
+bˈeːtʲə | [bˈeː (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) tˈeː jˈeː (en)ʃwˈɑː(nl)]
+bˈyrt | [bˈeː (en)stɹˈɛs(nl) ˈɛɪ ˈɛr tˈeː]
+bˈɑŋkpɑs | [bˈeː (en)stɹˈɛs ˈalfə(nl) ˈɛn kˈaː pˈeː (en)ˈalfə(nl) s]
+bˈɑŋkrəkˌeːnɪŋ | [bˈeː (en)stɹˈɛs ˈalfə(nl) ˈɛn kˈaː ˈɛr (en)ʃwˈɑː(nl) kˈaː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈeː (en)lˈɛŋθənd(nl) ˈɛn (en)smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+bˈɔrx | [bˈeː (en)stɹˈɛs ˌəʊpənˈɔː(nl) ˈɛr ˈɪks]
+bˈɛlən | [bˈeː (en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛl (en)ʃwˈɑː(nl) ˈɛn]
+bˈɪnənkˌɔrt | [bˈeː (en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn (en)ʃwˈɑː(nl) ˈɛn kˈaː (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɔː(nl) ˈɛr tˈeː]
+bˈɵshɑltə | [bˈeː (en)stɹˈɛs ˌəʊbˈɑː(nl) s hˈaː (en)ˈalfə(nl) ˈɛl tˈeː (en)ʃwˈɑː(nl)]
+cadeau | [kaːdˈoː]
+café | [kaːfˈeː]
+call | [kˈɑl]
+can | [kˈɑn]
+cancel | [kɑnsˈɛl]
+cancellation | [kˌɑnsɛlaːʃˈɔn]
+cancelled | [kˈɑnsɛlˌɛt]
+card | [kˈɑrt]
+cards | [kˈɑrts]
+careful | [kˈaːrəfˌɵl]
+centraal | [sɛntrˈaːl]
+change | [ʃˈɑ̃ʒə]
+charmant | [ʃɑrmˈɑnt]
+charme | [ʃˈɑrmə]
+check | [tʃˈɛk]
+cheers | [ʃˈɪːrs]
+chocoladebroodje | [ʃˈoːkoːlˌaːdɛbrˌoːtjə]
+christmas | [krˈɪstmɑs]
+cirkel | [sˈɪrkəl]
+claim | [klˈɑjm]
+code | [kˈoːdə]
+color | [kˈoːlɔr]
+come | [kˈoːmə]
+coming | [kˈoːmɪŋ]
+complaint | [kˈɔmplɑjnt]
+compleet | [kɔmplˈeːt]
+completer | [kˈɔmplətər]
+conditie | [kɔndˈitsi]
+conditioning | [kˈɔndiʃˌoːnɪŋ]
+confirm | [kˈɔnfɪrm]
+confirmation | [kˌɔnfɪrmaːʃˈɔn]
+congratulations | [kˌɔŋraːtˌylaːʃˈɔns]
+constant | [kɔnstˈɑnt]
+contact | [kˈɔntɑkt]
+controleert | [kˌɔntroːlˈɪrt]
+controleren | [kˌɔntroːlˈɪːrən]
+cost | [kˈɔst]
+coughing | [kˈʌʊxhɪŋ]
+could | [kˈʌʊlt]
+covered | [kˈoːvɪːrˌɛt]
+credit | [krˈeːdɪt]
+creditcards | [krˈeːdɪtkˌɑrts]
+cuypstraat | [kˈyɪpstrˌaːt]
+daal | [dˈaːl]
+daalt | [dˈaːlt]
+daar | [dˈaːr]
+daarboven | [daːrbˈoːvən]
+daarna | [dˈaːrnaː]
+daarom | [dˈaːrɔm]
+dacht | [dˈɑxt]
+dag | [dˈɑx]
+dalen | [dˈaːlən]
+dan | [dˈɑn]
+dank | [dˈɑŋk]
+dankbaarheid | [dˈɑŋkbaːrhˌɛɪt]
+danst | [dˈɑnst]
+dat | [dˈɑt]
+day | [dˈaːj]
+de | [dˈə]
+deductible | [dˈeːdɵktˌɪblə]
+deel | [dˈeːl]
+deken | [dˈeːkən]
+delen | [dˈeːlən]
+denk | [dˈɛŋk]
+denken | [dˈɛŋkən]
+denkt | [dˈɛŋkt]
+deposit | [dˈeːpoːzˌɪt]
+der | [dˈɛr]
+des | [dˈɛs]
+deur | [dˈøːr]
+deze | [dˈeːzə]
+dezelfde | [dəzˈɛlvdə]
+dicht | [dˈɪxt]
+dichtbij | [dɪxtbˈɛɪ]
+dichterbij | [dˌɪxtərbˈɛɪ]
+dichtstbijzijnde | [dˈɪxtstbɛɪzˌɛɪndə]
+didn't | [dˈɪdnt]
+die | [dˈi]
+diep | [dˈip]
+dieper | [dˈipər]
+diepgaander | [dˈipɣaːndər]
+dier | [dˈir]
+dieren | [dˈirən]
+diergedrag | [dˈirɣɛdrˌɑx]
+dierlijk | [dˈirlək]
+dik | [dˈɪk]
+dikke | [dˈɪkə]
+diner | [dinˈeː]
+dingen | [dˈɪŋən]
+direct | [dˈirɛkt]
+directe | [dˈirɛktə]
+dit | [dˈɪt]
+do | [dˈoː]
+doctor | [dˈɔktɔr]
+documenten | [dˌoːkymˈɛntən]
+documents | [dˌoːkymˈɛnts]
+doen | [dˈun]
+does | [dˈus]
+doesn't | [dˈusnt]
+doet | [dˈut]
+dokter | [dˈɔktər]
+dom | [dˈɔm]
+don't | [dˈɔnt]
+donkere | [dˈɔŋkərə]
+door | [dˈoːr]
+doordringend | [dˈɔːrdrɪŋənt]
+doorgaan | [dɔːrɣˈaːn]
+doorgroeimogelijkheden | [dˈɔːrɣrujmˌoːɣələkhˌeːdən]
+doorstaan | [dɔːrstˈaːn]
+dorp | [dˈɔrp]
+dorpje | [dˈɔrpjə]
+doːr | [dˈeː ˈoː (en)lˈɛŋθənd(nl) ˈɛr]
+draagt | [drˈaːxt]
+draait | [drˈaːjt]
+dreigende | [drˈɛɪɣəndə]
+drie | [drˈi]
+dringt | [drˈɪŋt]
+drink | [drˈɪŋk]
+drinken | [drˈɪŋkən]
+drinkt | [drˈɪŋkt]
+drinkwater | [drˈɪŋkʋaːtər]
+droefheid | [drˈufhɛɪt]
+droeg | [drˈux]
+dromen | [drˈoːmən]
+druk | [drˈɵk]
+durf | [dˈɵrf]
+duur | [dˈyr]
+duurt | [dˈyrt]
+dwingt | [dʋˈɪŋt]
+dɑt | [dˈɑt]
+də | [dˈeː]
+dɪt | [dˌeː(en)smˌɔːlkˌapˌaɪ(nl)tˈeː]
+dɪxtbˈɛɪ | [dˈeː (en)smˈɔːlkˌapˈaɪ(nl) ˈɪks tˈeː bˈeː (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl)]
+dˈaːr | [dˈeː (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛr]
+dˈirɛktə | [dˈeː (en)stɹˈɛs(nl) ˈiː ˈɛr (en)ˌəʊpənˈɛː(nl) kˈaː tˈeː (en)ʃwˈɑː(nl)]
+dˈyr | [dˈeː (en)stɹˈɛs(nl) ˈɛɪ ˈɛr]
+dˈyrt | [dˈeː (en)stɹˈɛs(nl) ˈɛɪ ˈɛr tˈeː]
+dˈɑn | [dˈeː (en)stɹˈɛs ˈalfə(nl) ˈɛn]
+dˈɑx | [dˈeː (en)stɹˈɛs ˈalfə(nl) ˈɪks]
+dˈɑŋk | [dˈeː (en)stɹˈɛs ˈalfə(nl) ˈɛn kˈaː]
+dˈɔktər | [dˈeː (en)stɹˈɛs ˌəʊpənˈɔː(nl) kˈaː tˈeː (en)ʃwˈɑː(nl) ˈɛr]
+dˈɔːrɣrujmˌoːɣələkhˌeːdən | [dˈeː (en)stɹˈɛs ˌəʊpənˈɔː lˈɛŋθənd(nl) ˈɛr (en)ɡˈamə(nl) ˈɛr y jˈeː ˈɛm (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈoː (en)lˈɛŋθənd ɡˈamə ʃwˈɑː(nl) ˈɛl (en)ʃwˈɑː(nl) kˈaː hˈaː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈeː (en)lˈɛŋθənd(nl) dˈeː (en)ʃwˈɑː(nl) ˈɛn]
+dˈɛs | [dˈeː (en)stɹˈɛs ˌəʊpənˈɛː(nl) s]
+dˈɪt | [dˌeː(en)stɹˌɛssmˈɔːlkˌapˌaɪ(nl)tˈeː]
+dˈɪxtstbɛɪzˌɛɪndə | [dˈeː (en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɪks tˈeː s tˈeː bˈeː (en)ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) zˈɛt (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) ˈɛn dˈeː (en)ʃwˈɑː(nl)]
+dˌoːkymˈɛntən | [dˈeː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈoː (en)lˈɛŋθənd(nl) kˈaː ˈɛɪ ˈɛm (en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛn tˈeː (en)ʃwˈɑː(nl) ˈɛn]
+e-mail | [ˈiːmeːl]
+e-mailadres | [ˈeːmˌeːɪlɑdrˈɛs]
+echt | [ˈɛxt]
+een | [ˈeːn]
+eens | [ˈeːns]
+eentonig | [eːntˈoːnəx]
+eenvoudig | [eːnvˈʌʊdəx]
+eenzaamheden | [ˈeːnzaːmhˌeːdən]
+eenzaamheid | [ˈeːnzaːmhˌɛɪt]
+eerder | [ˈɪːrdər]
+eerst | [ˈɪːrst]
+eet | [ˈeːt]
+eetbaar | [ˈeːtbaːr]
+eetzaal | [eːtzˈaːl]
+eigen | [ˈɛɪɣən]
+eigenaar | [ˈɛɪɣənˌaːr]
+eigenaresse | [ˈɛɪɣənˌaːrɛsə]
+einde | [ˈɛɪndə]
+eindelijk | [ˈɛɪndələk]
+elementen | [ˌeːləmˈɛntən]
+elf | [ˈɛlf]
+elk | [ˈɛlk]
+elkaar | [ˈɛlkaːr]
+elke | [ˈɛlkə]
+email | [ˈeːmeːˌɪl]
+emotie | [eːmˈoːtsi]
+en | [ˈɛn]
+engels | [ˈɛŋəls]
+engelse | [ˈɛŋɛlsə]
+english | [ˈɛŋlɪʃ]
+enjoy | [ˈɛɲoːˌi]
+enkele | [ˈɛŋkələ]
+enthousiast | [ˌɛntuʒˈɑst]
+er | [ˈər]
+eraan | [ɛrˈaːn]
+erg | [ˈɛrx]
+ergens | [ˈɛrɣəns]
+erin | [ɛrˈɪn]
+erover | [ɛrˈoːvər]
+ervaring | [ɛrvˈaːrɪŋ]
+ervoor | [ɛrvˈɔːr]
+essentiële | [ˌɛsənʃˈeːlə]
+eten | [ˈeːtən]
+euro | [ˈøːroː]
+even | [ˈeːvən]
+evening | [ˈeːvənˌɪŋ]
+exchange | [ˈɛksxɑŋə]
+excuse | [ˈɛkskysə]
+excuseer | [ˌɛkskyzˈɪr]
+expensive | [ˈɛkspənsˌivə]
+far | [fˈɑr]
+favoriete | [fˌaːvoːrˈitə]
+feel | [fˈeːl]
+fees | [fˈeːs]
+fever | [fˈeːvər]
+fijne | [fˈɛɪnə]
+file | [fˈilə]
+fine | [fˈinə]
+fles | [flˈɛs]
+flight | [flˈɪxt]
+for | [fˈɔr]
+formal | [fˈɔrmɑl]
+foto's | [fˈoːtoːs]
+found | [fˈʌʊnt]
+frans | [frˈɑns]
+franse | [frˈɑnsə]
+french | [frˈɛnx]
+frisse | [frˈɪsə]
+from | [frˈɔm]
+frˈɑns | [ˈɛf ˈɛr (en)stɹˈɛs ˈalfə(nl) ˈɛn s]
+fˈɛɪnə | [ˈɛf (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) ˈɛn (en)ʃwˈɑː(nl)]
+ga | [ɣˈaː]
+gaan | [ɣˈaːn]
+gaat | [ɣˈaːt]
+gaven | [ɣˈaːvən]
+geannuleerd | [ɣəˌɑnylˈɪrt]
+gebak | [ɣəbˈɑk]
+gebakjes | [ɣəbˈɑkjəs]
+gebeurt | [ɣəbˈøːrt]
+geblaat | [ɣəblˈaːt]
+geboden | [ɣəbˈoːdən]
+gebouwen | [ɣəbˈʌʊən]
+gebruikt | [ɣəbrˈœykt]
+gecontroleerd | [ɣəkˌɔntroːlˈɪrt]
+gecreëerd | [ɣəkreːˈɪrt]
+gedaan | [ɣədˈaːn]
+gedacht | [ɣədˈɑxt]
+gedachten | [ɣədˈɑxtən]
+gedekt | [ɣədˈɛkt]
+gedrag | [ɣədrˈɑx]
+geduld | [ɣədˈɵlt]
+geeft | [ɣˈeːft]
+geen | [ɣˈeːn]
+geest | [ɣˈeːst]
+gefeliciteerd | [ɣəfˌeːlisitˈɪrt]
+gegraveerd | [ɣəɣraːvˈɪrt]
+geit | [ɣˈɛɪt]
+gek | [ɣˈɛk]
+gekeken | [ɣəkˈeːkən]
+gekomen | [ɣəkˈoːmən]
+gekost | [ɣəkˈɔst]
+geladen | [ɣəlˈaːdən]
+geld | [ɣˈɛlt]
+geldautomaat | [ɣˌɛldʌʊtoːmˈaːt]
+geleefd | [ɣəlˈeːft]
+geleerd | [ɣəlˈɪːrt]
+geleid | [ɣəlˈɛɪt]
+gelijk | [ɣəlˈɛɪk]
+geluid | [ɣəlˈœyt]
+geluiden | [ɣəlˈœydən]
+geluk | [ɣəlˈɵk]
+gelukkig | [ɣəlˈɵkəx]
+gelukkige | [ɣəlˈɵkəɣə]
+gemaakt | [ɣəmˈaːkt]
+gemakkelijke | [ɣəmˈɑkələkə]
+genietend | [ɣənˈitənt]
+gepakt | [ɣəpˈɑkt]
+gered | [ɣərˈɛt]
+gerimpelde | [ɣərˈɪmpəldə]
+gescheiden | [ɣəsxˈɛɪdən]
+geschenken | [ɣəsxˈɛŋkən]
+geserveerd | [ɣəsɛrvˈɪrt]
+geslapen | [ɣəslˈaːpən]
+gespannen | [ɣəspˈɑnən]
+gesprek | [ɣəsprˈɛk]
+gestolen | [ɣəstˈoːlən]
+gestuurd | [ɣəstˈyrt]
+get | [ɣˈɛt]
+geur | [ɣˈøːr]
+gevoel | [ɣəvˈul]
+gevonden | [ɣəvˈɔndən]
+geweten | [ɣəʋˈeːtən]
+gewone | [ɣəʋˈoːnə]
+gewoon | [ɣəʋˈoːn]
+gewoond | [ɣəʋˈoːnt]
+gezellig | [ɣəzˈɛləx]
+gezicht | [ɣəzˈɪxt]
+gezien | [ɣəzˈin]
+gids | [ɣˈɪts]
+gidsgeit | [ɣˈɪdsxɛɪt]
+gift-wrap | [ɣˈɪftvrˈɑp]
+gisteravond | [ɣˈɪstɪːrˌaːvɔnt]
+gisteren | [ɣˈɪstərən]
+gladly | [ɣlˈɑdli]
+glimlach | [ɣlˈɪmlɑx]
+glimlacht | [ɣlˈɪmlɑxt]
+gluten-free | [ɣlˈytənfrˈeː]
+glutenvrij | [ɣlˌytənvrˈɛɪ]
+go | [ɣˈoː]
+god | [ɣˈɔt]
+godzijdank | [ɣˈɔdzɛɪdˌɑŋk]
+goed | [ɣˈut]
+goede | [ɣˈudə]
+goedenavond | [ɣˈudənˌaːvɔnt]
+goedendag | [ɣˈudəndˌɑx]
+goedheid | [ɣˈudhɛɪt]
+good | [ɣˈoːt]
+goodbye | [ɣˈoːdbiə]
+graag | [ɣrˈaːx]
+groeit | [ɣrˈujt]
+groene | [ɣrˈunə]
+groepsreservering | [ɣrˌupsrəzərvˈɪːrɪŋ]
+grootmoeder | [ɣrˈoːtmudər]
+grote | [ɣrˈoːtə]
+groter | [ɣrˈoːtər]
+grotere | [ɣrˈoːtərə]
+haalt | [hˈaːlt]
+haar | [hˈaːr]
+haard | [hˈaːrt]
+had | [hˈɑt]
+hadden | [hˈɑdən]
+halen | [hˈaːlən]
+half | [hˈɑlf]
+hallo | [hˈɑloː]
+ham | [hˈɑm]
+hand | [hˈɑnt]
+handen | [hˈɑndən]
+hang | [hˈɑŋ]
+happy | [hˈɑpi]
+harder | [hˈɑrdər]
+hartelijk | [hˈɑrtələk]
+has | [hˈɑs]
+have | [hˈaːvə]
+haven't | [hˈaːvɛnt]
+headache | [hˌeːaːdˈɑʃ]
+heb | [hˈɛp]
+hebben | [hˈɛbən]
+hebt | [hˈɛpt]
+heeft | [hˈeːft]
+heel | [hˈeːl]
+heen | [hˈeːn]
+heerlijk | [hˈɪːrlək]
+heet | [hˈeːt]
+heftig | [hˈɛftəx]
+helder | [hˈɛldər]
+hele | [hˈeːlə]
+helemaal | [hˌeːləmˈaːl]
+helikopter | [hˈeːlikˌɔptər]
+hello | [hˈɛloː]
+help | [hˈɛlp]
+helpen | [hˈɛlpən]
+hem | [hˈɛm]
+hen | [hˈɛn]
+herberg | [hɛrbˈɛrx]
+herbergt | [hɛrbˈɛrxt]
+herdershut | [hˈɛrdərshˌɵt]
+herdersstructuur | [hˌɛrdərstrɵktˈyr]
+here | [hˈɛrə]
+hereniging | [hˈɪːrənˌiɣɪŋ]
+herhalen | [hɛrhˈaːlən]
+herinneren | [hɛrˈɪnərən]
+herinneringen | [hɛrˈɪnərˌɪŋən]
+herken | [hˈɛrkən]
+herkend | [hɛrkˈɛnt]
+herkende | [hɛrkˈɛndə]
+herstel | [hɛrstˈɛl]
+hervat | [hɛrvˈɑt]
+het | [hˈət]
+hetzelfde | [hˈɛtzɛlvdə]
+heuvelachtiger | [hˌøːvəlˈɑxtəɣər]
+heuvels | [hˈøːvəls]
+heːft | [hˈaː ˈeː (en)lˈɛŋθənd(nl) ˈɛf tˈeː]
+hi | [hˈi]
+hielpen | [hˈilpən]
+hier | [hˈir]
+hij | [hˈɛɪ]
+hoe | [hˈu]
+hoek | [hˈuk]
+hoest | [hˈust]
+hoeveel | [huvˈeːl]
+hoewel | [huʋˈɛl]
+hoi | [hˈoːi]
+hond | [hˈɔnt]
+honger | [hˈɔŋər]
+hoofd | [hˈoːft]
+hoofdpijn | [hoːvdpˈɛɪn]
+hoop | [hˈoːp]
+hoor | [hˈoːr]
+hoort | [hˈɔːrt]
+hopelijk | [hˈoːpələk]
+hopen | [hˈoːpən]
+horloge | [hˈɔrloːxə]
+hot | [hˈɔt]
+hou | [hˈʌʊ]
+houd | [hˈʌʊt]
+houden | [hˈʌʊdən]
+hout | [hˈʌʊt]
+houten | [hˈʌʊtən]
+how | [hˈɔw]
+hoːvdpˈɛɪn | [hˈaː ˈoː (en)lˈɛŋθənd(nl) fˈeː dˈeː pˈeː (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+huilend | [hˈœylənt]
+huis | [hˈœys]
+huisje | [hˈœysjə]
+huizen | [hˈœyzən]
+hulp | [hˈɵlp]
+hun | [hˈɵn]
+huren | [hˈyrən]
+hut | [hˈɵt]
+hutje | [hˈɵtʲə]
+huur | [hˈyr]
+huvˈeːl | [hˈaː y fˈeː (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) ˈɛl]
+hè | [hˈeː]
+hə | [hˈeː]
+hət | [hˈɛt]
+hɛ | [hˈeː]
+hɛp | [hˈɛp]
+hɛrhˈaːlən | [hˈaː (en)ˌəʊpənˈɛː(nl) ˈɛr hˈaː (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛl (en)ʃwˈɑː(nl) ˈɛn]
+hˈeːft | [hˈaː (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) ˈɛf tˈeː]
+hˈeːl | [hˈaː (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) ˈɛl]
+hˈeːt | [hˈaː (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) tˈeː]
+hˈir | [hˈaː (en)stɹˈɛs(nl) ˈiː ˈɛr]
+hˈoːi | [hˈaː (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) ˈiː]
+hˈu | [hˈaː (en)stɹˈɛs(nl) y]
+hˈust | [hˈaː (en)stɹˈɛs(nl) y s tˈeː]
+hˈyr | [hˈaː (en)stɹˈɛs(nl) ˈɛɪ ˈɛr]
+hˈyrən | [hˈaː (en)stɹˈɛs(nl) ˈɛɪ ˈɛr (en)ʃwˈɑː(nl) ˈɛn]
+hˈɑloː | [hˈaː (en)stɹˈɛs ˈalfə(nl) ˈɛl ˈoː (en)lˈɛŋθənd(nl)]
+hˈɛlpən | [hˈaː (en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛl pˈeː (en)ʃwˈɑː(nl) ˈɛn]
+hˈʌʊt | [hˌaː(en)stɹˌɛstˈɜːndvˌiːˌʊpsɪlˌɒn(nl)tˈeː]
+i'm | [ˈim]
+id | [ˈɪt]
+idee | [idˈeː]
+identiteitsbewijs | [ˌidɛntˌitɛɪtzbəʋˈɛɪs]
+ieder | [ˈidər]
+iedereen | [ˌidɪːrˈeːn]
+iemand | [ˈimɑnt]
+iets | [ˈits]
+ik | [ˈɪk]
+illusie | [ɪlˈyzˌi]
+in | [ˈɪn]
+inbegrepen | [ˈɪnbəɣrˌeːpən]
+included | [ˈɪnklˌydɛt]
+inclusief | [ˈɪnklyzˌif]
+increase | [ˈɪnkrˌeːaːzə]
+indienen | [ˈɪndˌinən]
+informal | [ˈɪnfɔrmˌɑl]
+ingang | [ˈɪnɣˌɑŋ]
+ingelicht | [ˈɪnɣəlˌɪxt]
+ingeslikt | [ˈɪnɣəslˌɪkt]
+inpakken | [ˈɪnpˌɑkən]
+inscriptie | [ɪnskrˈɪpsi]
+instappen | [ˈɪnstˌɑpən]
+insurance | [ˈɪnsˌyrɑnsə]
+integendeel | [ˈɪntˌeːɣəndˌeːl]
+intentie | [ˈɪntˌɛntsi]
+intercity | [ˈɪntərsˌiti]
+interpreteer | [ˌɪntərprətˈɪr]
+interpreteert | [ˌɪntərprətˈɪrt]
+inzicht | [ˈɪnzˌɪxt]
+inzien | [ˈɪnzˌin]
+is | [ˈɪs]
+it | [ˈɪt]
+it's | [ˈɪts]
+ja | [jˈaː]
+jammer | [jˈɑmər]
+jas | [jˈɑs]
+je | [jˈə]
+jeugd | [jˈøːxt]
+jij | [jˈɛɪ]
+jongeman | [jˈɔŋəmˌɑn]
+jou | [jˈʌʊ]
+jullie | [jɵlˈi]
+jə | [jˈeː]
+jɛɪ | [jˈeː (en)ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl)]
+jˈaː | [jˈeː (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl)]
+jˈɑmər | [jˈeː (en)stɹˈɛs ˈalfə(nl) ˈɛm (en)ʃwˈɑː(nl) ˈɛr]
+kaart | [kˈaːrt]
+kaartje | [kˈaːrtʲə]
+kaartjes | [kˈaːrtʲəs]
+kaas | [kˈaːs]
+kalm | [kˈɑlm]
+kamer | [kˈaːmər]
+kamers | [kˈaːmərs]
+kan | [kˈɑn]
+kant | [kˈɑnt]
+kantoor | [kɑntˈoːr]
+kazen | [kˈaːzən]
+kaːdˈoː | [kˈaː ˈaː (en)lˈɛŋθənd(nl) dˈeː (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl)]
+keep | [kˈeːp]
+keer | [kˈɪːr]
+kennen | [kˈɛnən]
+kent | [kˈɛnt]
+keren | [kˈɪːrən]
+kerft | [kˈɛrft]
+kerk | [kˈɛrk]
+kerstfeest | [kˈɛrstfeːst]
+keuze | [kˈøːzə]
+key | [kˈeːi]
+kiezen | [kˈizən]
+kijk | [kˈɛɪk]
+kijken | [kˈɛɪkən]
+kijkt | [kˈɛɪkt]
+kilo | [kˈiloː]
+klaar | [klˈaːr]
+klacht | [klˈɑxt]
+kleding | [klˈeːdɪŋ]
+klein | [klˈɛɪn]
+kleine | [klˈɛɪnə]
+kleiner | [klˈɛɪnər]
+kleintje | [klˈɛɪntʲə]
+kleren | [klˈɪːrən]
+kleur | [klˈøːr]
+klinkt | [klˈɪŋkt]
+klˈøːr | [kˈaː ˈɛl (en)stɹˈɛs(nl) ˌoːstrˈeːp (en)lˈɛŋθənd(nl) ˈɛr]
+klˈɑjm | [kˈaː ˈɛl (en)stɹˈɛs ˈalfə(nl) jˈeː ˈɛm]
+klˈɑxt | [kˈaː ˈɛl (en)stɹˈɛs ˈalfə(nl) ˈɪks tˈeː]
+know | [knˈɔw]
+knus | [knˈɵs]
+koffie | [kɔfˈi]
+kom | [kˈɔm]
+komen | [kˈoːmən]
+komt | [kˈɔmt]
+konden | [kˈɔndən]
+kondigt | [kˈɔndɪxt]
+kookt | [kˈoːkt]
+koopt | [kˈoːpt]
+koorts | [kˈɔːrts]
+koos | [kˈoːs]
+kopen | [kˈoːpən]
+kopje | [kˈɔpjə]
+kost | [kˈɔst]
+kosten | [kˈɔstən]
+kouder | [kˈʌʊdər]
+krachten | [krˈɑxtən]
+krijgen | [krˈɛɪɣən]
+kruidenier | [krˌœydənˈir]
+kruidenierswinkel | [krˌœydənˌirsʋɪŋkˈɛl]
+krˈeːdɪtkˌɑrts | [kˈaː ˈɛr (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) dˈeː (en)smˈɔːlkˌapˈaɪ(nl) tˈeː kˈaː (en)sˈɛkəndɹɪstɹˌɛs ˈalfə(nl) ˈɛr tˈeː s]
+krˈɛɪɣən | [kˈaː ˈɛr (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ ɡˈamə ʃwˈɑː(nl) ˈɛn]
+kunnen | [kˈɵnən]
+kunt | [kˈɵnt]
+kwalificaties | [kʋˌaːlifikˈaːtsis]
+kwamen | [kʋˈaːmən]
+kwetsbaarheid | [kʋˈɛtzbaːrhˌɛɪt]
+kwetsen | [kʋˈɛtsən]
+kwijt | [kʋˈɛɪt]
+kwijtgeraakt | [kʋˈɛɪtɣɪːrˌaːkt]
+kɑn | [kˈɑn]
+kɑntˈoːr | [kˈaː (en)ˈalfə(nl) ˈɛn tˈeː (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) ˈɛr]
+kɵnt | [kˌaː(en)ˌəʊbˌɑː(nl)ˈɛntˌeː]
+kʋˈɛɪt | [kˈaː (en)vˌiːhˈʊk stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) tˈeː]
+kʋˌaːlifikˈaːtsis | [kˈaː (en)vˌiːhˈʊk sˈɛkəndɹɪstɹˌɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛl ˈiː ˈɛf ˈiː kˈaː (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) tˈeː s ˈiː s]
+kˈaːmər | [kˈaː (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛm (en)ʃwˈɑː(nl) ˈɛr]
+kˈaːrt | [kˈaː (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛr tˈeː]
+kˈaːrtʲə | [kˈaː (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛr tˈeː jˈeː (en)ʃwˈɑː(nl)]
+kˈoːpən | [kˈaː (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) pˈeː (en)ʃwˈɑː(nl) ˈɛn]
+kˈɔm | [kˈaː (en)stɹˈɛs ˌəʊpənˈɔː(nl) ˈɛm]
+kˈɔntɑkt | [kˈaː (en)stɹˈɛs ˌəʊpənˈɔː(nl) ˈɛn tˈeː (en)ˈalfə(nl) kˈaː tˈeː]
+kˈɔs | [kˈaː (en)stɹˈɛs ˌəʊpənˈɔː(nl) s]
+kˈɔst | [kˈaː (en)stɹˈɛs ˌəʊpənˈɔː(nl) s tˈeː]
+kˈɔstən | [kˈaː (en)stɹˈɛs ˌəʊpənˈɔː(nl) s tˈeː (en)ʃwˈɑː(nl) ˈɛn]
+kˈɔːrts | [kˈaː (en)stɹˈɛs ˌəʊpənˈɔː lˈɛŋθənd(nl) ˈɛr tˈeː s]
+kˈɛrstfeːst | [kˈaː (en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛr s tˈeː ˈɛf ˈeː (en)lˈɛŋθənd(nl) s tˈeː]
+kˌɔntroːlˈɪːrən | [kˈaː (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɔː(nl) ˈɛn tˈeː ˈɛr ˈoː (en)lˈɛŋθənd(nl) ˈɛl (en)stɹˈɛs smˈɔːlkˌapˈaɪ lˈɛŋθənd(nl) ˈɛr (en)ʃwˈɑː(nl) ˈɛn]
+laat | [lˈaːt]
+laatste | [lˈaːtstə]
+lach | [lˈɑx]
+lacht | [lˈɑxt]
+landhuis | [lˈɑndhˌœys]
+landschap | [lˈɑndsxˌɑp]
+landt | [lˈɑnt]
+lang | [lˈɑŋ]
+lange | [lˈɑŋə]
+langer | [lˈɑŋər]
+langzaam | [lˈɑŋzaːm]
+langzamer | [lˈɑŋzaːmər]
+laptop | [(en)lˈaptɒp(nl)]
+larger | [lˈɑrɣər]
+late | [lˈaːtə]
+laten | [lˈaːtən]
+later | [lˈaːtər]
+leave | [lˈeːaːvə]
+leeft | [lˈeːft]
+leeftijd | [lˈeːftɛɪt]
+leerde | [lˈɪːrdə]
+leert | [lˈɪːrt]
+left | [lˈɛft]
+leggen | [lˈɛɣən]
+legt | [lˈɛxt]
+leidde | [lˈɛɪdə]
+leider | [lˈɛɪdər]
+lekker | [lˈɛkər]
+let | [lˈɛt]
+let's | [lˈɛts]
+leven | [lˈeːvən]
+levend | [lˈeːvənt]
+lezen | [lˈeːzən]
+lichaam | [lɪxˈaːm]
+licht | [lˈɪxt]
+liefde | [lˈivdə]
+liefst | [lˈifst]
+liepen | [lˈipən]
+liet | [lˈit]
+liever | [lˈivər]
+lieverd | [lˈivɛrt]
+lijkt | [lˈɛɪkt]
+lijst | [lˈɛɪst]
+like | [lˈikə]
+limiet | [limˈit]
+limit | [lˈimɪt]
+limˈit | [ˈɛl ˈiː ˈɛm (en)stɹˈɛs(nl) ˈiː tˈeː]
+links | [lˈɪŋks]
+little | [lˈɪtlə]
+live | [lˈivə]
+loaded | [lˈoːaːdˌɛt]
+lokale | [loːkˈaːlə]
+loket | [loːkˈɛt]
+londen | [lˈɔndən]
+london | [lɔndˈɔn]
+long | [lˈɔŋ]
+looking | [lˈoːkɪŋ]
+loopt | [lˈoːpt]
+lopen | [lˈoːpən]
+lost | [lˈɔst]
+lot | [lˈɔt]
+lucas | [lˈykɑs]
+lucht | [lˈɵxt]
+lucifer | [lˈysifər]
+lucifers | [lˈysifərs]
+luck | [lˈɵk]
+luggage | [lɵɣˈaːʒə]
+luiken | [lˈœykən]
+luisteren | [lˈœystərən]
+luistert | [lˈœystərt]
+lˈaːt | [ˈɛl (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) tˈeː]
+lˈaːtən | [ˈɛl (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) tˈeː (en)ʃwˈɑː(nl) ˈɛn]
+lˈaːtər | [ˈɛl (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) tˈeː (en)ʃwˈɑː(nl) ˈɛr]
+lˈɑŋ | [ˈɛl (en)stɹˈɛs ˈalfə(nl) ˈɛn]
+lˈɑŋzaːmər | [ˈɛl (en)stɹˈɛs ˈalfə(nl) ˈɛn zˈɛt ˈaː (en)lˈɛŋθənd(nl) ˈɛm (en)ʃwˈɑː(nl) ˈɛr]
+lˈɔndən | [ˈɛl (en)stɹˈɛs ˌəʊpənˈɔː(nl) ˈɛn dˈeː (en)ʃwˈɑː(nl) ˈɛn]
+lˈɪŋks | [ˌɛl(en)stɹˌɛssmˈɔːlkˌapˌaɪ(nl)ˈɛnkˌaːˌɛs]
+maak | [mˈaːk]
+maakt | [mˈaːkt]
+maakte | [mˈaːktə]
+maand | [mˈaːnt]
+maandelijkse | [mˈaːndələksə]
+maar | [mˈaːr]
+maastricht | [mˈaːstrɪxt]
+maat | [mˈaːt]
+make | [mˈaːkə]
+maken | [mˈaːkən]
+makkelijk | [mˈɑkələk]
+man | [mˈɑn]
+many | [mˈaːni]
+marc | [mˈɑrk]
+maybe | [mˈaːjbə]
+me | [mˈə]
+meal | [mˈeːɑl]
+mean | [mˈeːɑn]
+medewerkster | [mˈeːdəʋˌɛrkstər]
+mee | [mˈeː]
+meegenomen | [mˈeːɣənˌoːmən]
+meenemen | [mˈeːnˌeːmən]
+meer | [mˈɪːr]
+meet | [mˈeːt]
+melden | [mˈɛldən]
+menselijke | [mˈɛnsələkə]
+mensen | [mˈɛnsən]
+menu | [mənˈy]
+merkt | [mˈɛrkt]
+merry | [mˈɛɾri]
+met | [mˈɛt]
+meteen | [mɛtˈeːn]
+meter | [mˈeːtər]
+metro | [mˈeːtroː]
+mezelf | [məsˈɛlf]
+middag | [mˈɪdɑx]
+middags | [mˈɪdɑxs]
+middelbare | [mˈɪdəlbˌaːrə]
+mij | [mˈɛɪ]
+mijn | [mˈɛɪn]
+mind | [mˈɪnt]
+minder | [mˈɪndər]
+minuten | [mˈinytən]
+mis | [mˈɪs]
+misschien | [mɪsxˈin]
+missen | [mˈɪsən]
+mist | [mˈɪst]
+moe | [mˈu]
+moed | [mˈut]
+moeilijke | [mˈujləkə]
+moet | [mˈut]
+moeten | [mˈutən]
+mogelijke | [mˈoːɣələkə]
+moment | [moːmˈɛnt]
+momenten | [moːmˈɛntən]
+money | [mˈoːnəˌi]
+mont | [mˈɔnt]
+month | [mˈɔnt]
+monthly | [mˈɔntli]
+mooi | [mˈoːj]
+more | [mˈoːrə]
+morgen | [mˈɔrɣən]
+motorgeluid | [mˈoːtɔrɣˌeːlœyt]
+moːmˈɛnt | [ˈɛm ˈoː (en)lˈɛŋθənd(nl) ˈɛm (en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛn tˈeː]
+much | [mˈɵx]
+muren | [mˈyrən]
+muur | [mˈyr]
+my | [mˈi]
+mysterieuze | [mˌɪstɪːrijˈøːzə]
+mə | [mˈeː]
+mənˈy | [ˈɛm (en)ʃwˈɑː(nl) ˈɛn (en)stɹˈɛs(nl) ˈɛɪ]
+mɛt | [mˈɛt]
+mɛɪn | [ˈɛm (en)ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+mɪsxˈin | [ˈɛm (en)smˈɔːlkˌapˈaɪ(nl) s ˈɪks (en)stɹˈɛs(nl) ˈiː ˈɛn]
+mˈaːkən | [ˈɛm (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) kˈaː (en)ʃwˈɑː(nl) ˈɛn]
+mˈaːndələksə | [ˈɛm (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛn dˈeː (en)ʃwˈɑː(nl) ˈɛl (en)ʃwˈɑː(nl) kˈaː s (en)ʃwˈɑː(nl)]
+mˈaːnt | [ˈɛm (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛn tˈeː]
+mˈaːt | [ˈɛm (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) tˈeː]
+mˈut | [ˈɛm (en)stɹˈɛs(nl) y tˈeː]
+mˈɔrɣən | [ˈɛm (en)stɹˈɛs ˌəʊpənˈɔː(nl) ˈɛr (en)ɡˈamə ʃwˈɑː(nl) ˈɛn]
+mˈɛɪ | [ˈɛm (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl)]
+na | [nˈaː]
+naam | [nˈaːm]
+naar | [nˈaːr]
+naartoe | [nˈaːrtu]
+naast | [nˈaːst]
+nacht | [nˈɑxt]
+nachten | [nˈɑxtən]
+nadert | [nˈaːdərt]
+name | [nˈaːmə]
+nat | [nˈɑt]
+natuur | [naːtˈyr]
+natuurlijk | [naːtˈyrlək]
+nauwelijks | [nˈʌʊələks]
+naïviteit | [nˌaːivitˈɛɪt]
+naːr | [ˈɛn ˈaː (en)lˈɛŋθənd(nl) ˈɛr]
+near | [nˈeːɑr]
+nearby | [nˈeːɑrbˌi]
+nearest | [nˈeːaːrˌɛst]
+nederlandse | [nˈeːdərlˌɑndsə]
+nee | [nˈeː]
+need | [nˈeːt]
+needed | [nˈeːdɛt]
+neem | [nˈeːm]
+neemt | [nˈeːmt]
+neighborhood | [nˌɛɪɣbɔrhˈoːt]
+nemen | [nˈeːmən]
+nerveus | [nˈɛrvøːs]
+nervositeit | [nˌɛrvoːzitˈɛɪt]
+net | [nˈɛt]
+never | [nˈeːvər]
+new | [nˈyʊ]
+next | [nˈɛkst]
+nice | [nˈisə]
+niet | [nˈit]
+niets | [nˈits]
+nietwaar | [nˈitwaːr]
+nieuw | [nˈiw]
+nieuwe | [nˈiwə]
+nieuwjaar | [nˈiwjaːr]
+nieuws | [nˈiws]
+nieuwsgierig | [nˈiwsɣˌirəx]
+night | [nˈɪxt]
+nights | [nˈɪxts]
+niks | [nˈɪks]
+no | [nˈoː]
+noch | [nˈɔx]
+nodig | [nˈoːdəx]
+nog | [nˈɔx]
+noodzaak | [noːdzˈaːk]
+nooit | [nˈoːjt]
+normaal | [nɔrmˈaːl]
+normandië | [nˈɔrmɑndˌiə]
+not | [nˈɔt]
+november | [noːvˈɛmbər]
+now | [nˈɔw]
+nu | [nˈy]
+number | [nˈɵmbər]
+nummer | [nˈɵmər]
+nutteloos | [nˈɵtəlˌoːs]
+nˈaːm | [ˈɛn (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛm]
+nˈaːst | [ˈɛn (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) s tˈeː]
+nˈeː | [ˈɛn (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl)]
+nˈit | [ˈɛn (en)stɹˈɛs(nl) ˈiː tˈeː]
+nˈiwjaːr | [ˈɛn (en)stɹˈɛs(nl) ˈiː vˈeː jˈeː ˈaː (en)lˈɛŋθənd(nl) ˈɛr]
+nˈoːdəx | [ˈɛn (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) dˈeː (en)ʃwˈɑː(nl) ˈɪks]
+nˈy | [ˈɛn (en)stɹˈɛs(nl) ˈɛɪ]
+nˈɑxt | [ˈɛn (en)stɹˈɛs ˈalfə(nl) ˈɪks tˈeː]
+nˈɑxtən | [ˈɛn (en)stɹˈɛs ˈalfə(nl) ˈɪks tˈeː (en)ʃwˈɑː(nl) ˈɛn]
+nˈɔx | [ˈɛn (en)stɹˈɛs ˌəʊpənˈɔː(nl) ˈɪks]
+nˌit | [ˈɛn (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈiː tˈeː]
+o'clock | [ˈoːklɔk]
+ober | [ˈoːbər]
+ochtend | [ˈɔxtənt]
+ochtendcafé | [ˌɔxtəndkaːfˈeː]
+ochtendlicht | [ˈɔxtəndlˌɪxt]
+of | [ˈɔf]
+offered | [ˈɔfɪːrˌɛt]
+office | [ˈɔfəs]
+ogen | [ˈoːɣən]
+oh | [ˈɔh]
+okay | [ˈoːkaːj]
+oké | [oːkˈeː]
+om | [ˈɔm]
+oma | [ˈoːmaː]
+omarmd | [ˈoːmɑrmt]
+omdraaien | [ˈɔmdraːjən]
+omgaan | [ɔmɣˈaːn]
+omgeving | [ɔmɣˈeːvɪŋ]
+omhelzen | [ˈɔmhɛlzən]
+omhoog | [ɔmhˈoːx]
+omlaag | [ɔmlˈaːx]
+omroepbericht | [ˈɔmrupbˌɪːrɪxt]
+omzet | [ˈɔmzɛt]
+on | [ˈɔn]
+onder | [ˈɔndər]
+onderaan | [ˈɔndərˌaːn]
+onderdak | [ˈɔndərdˌɑk]
+ondertussen | [ˈɔndərtˌɵsən]
+onderwijst | [ˈɔndərʋˌɛɪst]
+onderwijzen | [ˈɔndərʋˌɛɪzən]
+one | [ˈoːnə]
+one-way | [ˈoːnəʋˈaːj]
+ongelovig | [ˌɔnɣəlˈoːvəx]
+ongeveer | [ˌɔnɣəvˈɪːr]
+ongewoon | [ˌɔnɣəʋˈoːn]
+onmiddellijk | [ɔnmˈɪdəllək]
+onmogelijk | [ɔnmˈoːɣələk]
+ons | [ˈɔns]
+onschuld | [ɔnsxˈɵlt]
+ontbijt | [ɔntbˈɛɪt]
+ontdekken | [ɔntdˈɛkən]
+ontdekking | [ɔntdˈɛkɪŋ]
+ontdekkingen | [ɔntdˈɛkɪŋən]
+ontdekt | [ɔntdˈɛkt]
+ontmoetingen | [ɔntmˈutɪŋən]
+ontvangen | [ɔntvˈɑŋən]
+ontvluchten | [ɔntvlˈɵxtən]
+ontwikkeling | [ɔntʋˈɪkəlˌɪŋ]
+onverschillig | [ɔnvərsxˈɪləx]
+onverschilligheid | [ɔnvərsxˈɪləxhˌɛɪt]
+onverwachte | [ɔnvərʋˈɑxtə]
+onvrijwillige | [ɔnvrɛɪʋˈɪləɣə]
+onze | [ɔnzˈə]
+onzekerheid | [ɔnzˈeːkərhˌɛɪt]
+ooit | [ˈoːjt]
+ook | [ˈoːk]
+op | [ˈɔp]
+open | [ˈoːpən]
+openbaar | [ˈoːpənbˌaːr]
+openen | [ˈoːpənən]
+opent | [ˈoːpənt]
+opgetrokken | [ˈɔpɣətrˌɔkən]
+opgewonden | [ˈɔpɣəʋˌɔndən]
+opkomende | [ˈɔpkˌoːməndə]
+opluchting | [ˈɔplˌɵxtɪŋ]
+opnamekosten | [ˈɔpnˌaːməkˌɔstən]
+opnemen | [ɔpnˈeːmən]
+oppakt | [ˈɔpɑkt]
+opportunities | [ˈɔppˌɔrtynˌitsis]
+opposite | [ˈɔppˌoːzitə]
+optimistisch | [ˈɔptimˌɪstis]
+opwinding | [ˈɔpʋˌɪndɪŋ]
+or | [ˈɔr]
+oriëntatie | [ˌoːriəntˈaːtsi]
+oriënteren | [ˌoːriəntˈɪːrən]
+oude | [ˈʌʊdə]
+out | [ˈʌʊt]
+over | [ˈoːvər]
+overal | [ˌoːvərˈɑl]
+overboeking | [ˌoːvərbˈukˌɪŋ]
+overeind | [ˌoːvərˈɛɪnt]
+overkomt | [ˌoːvərkˈɔmt]
+overleven | [ˌoːvərlˈeːvən]
+overleving | [ˌoːvərlˈeːvɪŋ]
+overmaken | [ˌoːvərmˈaːkən]
+overnachting | [ˌoːvərnˈɑxtɪŋ]
+overstappen | [ˌoːvərstˈɑpən]
+overweldigt | [ˌoːvərʋˈɛldɪxt]
+oːkˈeː | [ˈoː (en)lˈɛŋθənd(nl) kˈaː (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl)]
+paar | [pˈaːr]
+pad | [pˈɑt]
+paden | [pˈaːdən]
+pakt | [pˈɑkt]
+pan | [pˈɑn]
+panikeren | [pˌaːnikˈɪːrən]
+papier | [paːpˈir]
+pardon | [pɑrdˈɔn]
+parijs | [paːrˈɛɪs]
+paris | [pˈaːrɪs]
+pas | [pˈɑs]
+paspoort | [pˈɑspɔːrt]
+passen | [pˈɑsən]
+passport | [pˈɑspɔrt]
+pay | [pˈaːj]
+paːrˈɛɪs | [pˈeː ˈaː (en)lˈɛŋθənd(nl) ˈɛr (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) s]
+peanuts | [pˈeːaːnˌɵts]
+people | [pˈeːɔplə]
+per | [pˈɛr]
+perfect | [pˈɛrfɛkt]
+perron | [pɛɾrˈɔn]
+personen | [pɛrsˈɔnən]
+persoon | [pɛrsˈoːn]
+petto | [pˈɛtoː]
+pharmacy | [fˈɑrmaːsˌi]
+phone | [fˈoːnə]
+pijn | [pˈɛɪn]
+pijp | [pˈɛɪp]
+pin | [pˈɪn]
+pin-code | [pˈɪnkˈoːdə]
+pinda's | [pˈɪndaːs]
+pittoresk | [pˈɪtoːrˌɛsk]
+plaatsen | [plˈaːtsən]
+planten | [plˈɑntən]
+platteland | [plˈɑtəlˌɑnt]
+plattelandshuis | [plˈɑtəlˌɑndshœys]
+please | [plˈeːaːzə]
+pleasure | [plˌeːaːzˈyrə]
+plek | [plˈɛk]
+plekje | [plˈɛkjə]
+plezier | [pleːzˈir]
+pleːzˈir | [pˈeː ˈɛl ˈeː (en)lˈɛŋθənd(nl) zˈɛt (en)stɹˈɛs(nl) ˈiː ˈɛr]
+plots | [plˈɔts]
+plotseling | [plˈɔtsəlˌɪŋ]
+plukt | [plˈɵkt]
+poging | [pˈoːɣɪŋ]
+police | [pˈoːlisə]
+politie | [poːlˈitsi]
+politiebureau | [poːlˈitsibyrˌoː]
+portemonnee | [pˌɔrtəmɔnˈeː]
+poːlˈitsi | [pˈeː ˈoː (en)lˈɛŋθənd(nl) ˈɛl (en)stɹˈɛs(nl) ˈiː tˈeː s ˈiː]
+poːlˈitsibyrˌoː | [pˈeː ˈoː (en)lˈɛŋθənd(nl) ˈɛl (en)stɹˈɛs(nl) ˈiː tˈeː s ˈiː bˈeː ˈɛɪ ˈɛr (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈoː (en)lˈɛŋθənd(nl)]
+praat | [prˈaːt]
+praatgraag | [praːtɣrˈaːx]
+prachtig | [prˈɑxtəx]
+prachtige | [prˈɑxtəɣə]
+praten | [prˈaːtən]
+precies | [preːsˈis]
+prescription | [prˌɛskrɪpʃˈɔn]
+price | [prˈisə]
+prijs | [prˈɛɪs]
+prikken | [prˈɪkən]
+probeer | [proːbˈɪr]
+probeert | [proːbˈɪrt]
+probleem | [prɔblˈeːm]
+problem | [prˈɔbləm]
+professionals | [prˈoːfɛʃˌoːnɑls]
+projecteer | [prˌoːjɛktˈɪr]
+projecteren | [prˌoːjɛktˈɪːrən]
+proost | [prˈoːst]
+prɔblˈeːm | [pˈeː ˈɛr (en)ˌəʊpənˈɔː(nl) bˈeː ˈɛl (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) ˈɛm]
+prˈoːst | [pˈeː ˈɛr (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) s tˈeː]
+prˈɛɪs | [pˈeː ˈɛr (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) s]
+public | [pˈɵblɪk]
+pœykpˈɛɪn | [pˈeː lˈixaːtˌyroːˌeː ˈɛɪ kˈaː pˈeː (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+pɛrsˈɔnən | [pˈeː (en)ˌəʊpənˈɛː(nl) ˈɛr s (en)stɹˈɛs ˌəʊpənˈɔː(nl) ˈɛn (en)ʃwˈɑː(nl) ˈɛn]
+pˈɑs | [pˈeː (en)stɹˈɛs ˈalfə(nl) s]
+pˈɑspɔːrt | [pˈeː (en)stɹˈɛs ˈalfə(nl) s pˈeː (en)ˌəʊpənˈɔː lˈɛŋθənd(nl) ˈɛr tˈeː]
+pˈɑsən | [pˈeː (en)stɹˈɛs ˈalfə(nl) s (en)ʃwˈɑː(nl) ˈɛn]
+pˈɛr | [pˈeː (en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛr]
+pˈɪndaːs | [pˈeː (en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn dˈeː ˈaː (en)lˈɛŋθənd(nl) s]
+pˌeːˌiːˈɛnkˈoːdə | [pˈeː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈeː (en)lˈɛŋθənd sˈɛkəndɹɪstɹˌɛs(nl) ˈiː (en)lˈɛŋθənd stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛn kˈaː (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) dˈeː (en)ʃwˈɑː(nl)]
+qualifications | [kvˌaːlifˌikaːʃˈɔns]
+raadt | [rˈaːt]
+raakt | [rˈaːkt]
+raam | [rˈaːm]
+raar | [rˈaːr]
+raast | [rˈaːst]
+raken | [rˈaːkən]
+rate | [rˈaːtə]
+realiseren | [rˌeːaːlizˈɪːrən]
+receive | [rˈeːsɛɪvə]
+received | [rˈeːsɛɪvˌɛt]
+recept | [rəsˈɛpt]
+rechtdoor | [rɛxtˈoːr]
+rechtop | [rˈɛxtɔp]
+rechts | [rˈɛxts]
+rechtsaf | [rˈɛxtsɑf]
+recommend | [rˈeːkɔmənt]
+redde | [rˈɛdə]
+redden | [rˈɛdən]
+redding | [rˈɛdɪŋ]
+reddingshelikopter | [rˈɛdɪŋshˌeːlikˌɔptər]
+reddingspost | [rˈɛdɪŋspˌɔst]
+reddingsstation | [rˌɛdɪŋstaːʃˈɔn]
+reddingswerker | [rˈɛdɪŋsʋˌɛrkər]
+reddingswerkers | [rˈɛdɪŋsʋˌɛrkərs]
+refund | [rˈeːfɵnt]
+regelt | [rˈeːɣəlt]
+reimbursed | [rˈɛɪmbɵrsˌɛt]
+reis | [rˈɛɪs]
+reizen | [rˈɛɪzən]
+rekening | [rˈeːkənˌɪŋ]
+rekent | [rˈeːkənt]
+relatie | [reːlˈaːtsi]
+rennen | [rˈɛnən]
+rent | [rˈɛnt]
+repeat | [rˈeːpəˌɑt]
+required | [rˈeːkvirˌɛt]
+reservation | [rˌeːzərvaːʃˈɔn]
+reservering | [rˌeːzərvˈɪːrɪŋ]
+retour | [rˈeːtuːr]
+richting | [rˈɪxtɪŋ]
+right | [rˈɪxt]
+rijdt | [rˈɛɪt]
+rilt | [rˈɪlt]
+risico | [rˈizikˌoː]
+rode | [rˈoːdə]
+roepend | [rˈupənt]
+roept | [rˈupt]
+rond | [rˈɔnt]
+rondje | [rˈɔntjə]
+rood | [rˈoːt]
+room | [rˈoːm]
+rot | [rˈɔt]
+rotsen | [rˈɔtsən]
+round-trip | [rˈʌʊndtrˈɪp]
+rugzak | [rˈɵɣzɑk]
+rugzakken | [rˈɵɣzɑkən]
+rust | [rˈɵst]
+rustig | [rˈɵstəx]
+rustiger | [rˈɵstəɣər]
+ruzie | [ryzˈi]
+ruziën | [ryzˈiən]
+rəsˈɛpt | [ˈɛr (en)ʃwˈɑː(nl) s (en)stɹˈɛs ˌəʊpənˈɛː(nl) pˈeː tˈeː]
+rɛxtˈoːr | [ˈɛr (en)ˌəʊpənˈɛː(nl) ˈɪks tˈeː (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) ˈɛr]
+rˈaːt | [ˈɛr (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) tˈeː]
+rˈeːkənˌɪŋ | [ˈɛr (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) kˈaː (en)ʃwˈɑː(nl) ˈɛn (en)sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+rˈeːtuːr | [ˈɛr (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) tˈeː y (en)lˈɛŋθənd(nl) ˈɛr]
+rˈizikˌoː | [ˈɛr (en)stɹˈɛs(nl) ˈiː zˈɛt ˈiː kˈaː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈoː (en)lˈɛŋθənd(nl)]
+rˈɛxts | [ˈɛr (en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɪks tˈeː s]
+rˈɛɪs | [ˈɛr (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) s]
+rˌeːzərvˈɪːrɪŋ | [ˈɛr (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈeː (en)lˈɛŋθənd(nl) zˈɛt (en)ʃwˈɑː(nl) ˈɛr fˈeː (en)stɹˈɛs smˈɔːlkˌapˈaɪ lˈɛŋθənd(nl) ˈɛr (en)smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+safe | [sˈaːfə]
+salaris | [saːlˈaːrɪs]
+salary | [sˈaːlaːrˌi]
+saldo | [sˈɑldoː]
+sale | [sˈaːlə]
+samen | [sˈaːmən]
+samenstellen | [sˈaːmənstˌɛlən]
+sandwiches | [sˌɑndʋɪxˈɛs]
+say | [sˈaːj]
+saːlˈaːrɪs | [s ˈaː (en)lˈɛŋθənd(nl) ˈɛl (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛr (en)smˈɔːlkˌapˈaɪ(nl) s]
+scheiden | [sxˈɛɪdən]
+scheiding | [sxˈɛɪdɪŋ]
+schijnt | [sxˈɛɪnt]
+schikt | [sxˈɪkt]
+schone | [sxˈoːnə]
+schouder | [sxˈʌʊdər]
+schreeuwt | [sxrˈeʊt]
+schuilplaats | [sxœylplˈaːts]
+schuldig | [sxˈɵldəx]
+scène | [sˈɛnə]
+scènes | [sˈɛnəs]
+second | [səkˈɔnt]
+seconde | [səkˈɔndə]
+see | [sˈeː]
+service | [sˈɵvəs]
+seven | [sˈeːvən]
+show | [ʃˈɔw]
+sick | [sˈɪk]
+simpel | [sˈɪmpəl]
+situatie | [sˌityˈaːtsi]
+size | [sˈizə]
+sla | [slˈaː]
+slaap | [slˈaːp]
+slapen | [slˈaːpən]
+slecht | [slˈɛxt]
+sleutel | [slˈøːtəl]
+slot | [slˈɔt]
+slowly | [slˈɔʋli]
+slˈøːtəl | [s ˈɛl (en)stɹˈɛs(nl) ˌoːstrˈeːp (en)lˈɛŋθənd(nl) tˈeː (en)ʃwˈɑː(nl) ˈɛl]
+slˈɛxt | [s ˈɛl (en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɪks tˈeː]
+slˈɛʃ | [s ˈɛl (en)stɹˈɛs ˌəʊpənˈɛː ˈɛʃ(nl)]
+smakelijk | [smˈaːkələk]
+smalle | [smˈɑlə]
+smˈaːkələk | [s ˈɛm (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) kˈaː (en)ʃwˈɑː(nl) ˈɛl (en)ʃwˈɑː(nl) kˈaː]
+snel | [snˈɛl]
+snˈɛl | [s ˈɛn (en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛl]
+so | [sˈoː]
+so-so | [sˈoːsˈoː]
+soep | [sˈup]
+solides | [sˈoːlidəs]
+someone | [sˈoːməˌoːnə]
+soms | [sˈɔms]
+soon | [sˈoːn]
+sophie | [sɔphˈi]
+sophie's | [sɔphˈis]
+sorry | [sˈɔɾri]
+speak | [(en)spˈiːk(nl)]
+spijt | [spˈɛɪt]
+spontaan | [spɔntˈaːn]
+spreek | [sprˈeːk]
+spreekt | [sprˈeːkt]
+spreken | [sprˈeːkən]
+springt | [sprˈɪŋt]
+sprˈeːk | [s pˈeː ˈɛr (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) kˈaː]
+sprˈeːkt | [s pˈeː ˈɛr (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) kˈaː tˈeː]
+sprˈeːkən | [s pˈeː ˈɛr (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) kˈaː (en)ʃwˈɑː(nl) ˈɛn]
+staan | [stˈaːn]
+staat | [stˈaːt]
+stad | [stˈɑt]
+stappen | [stˈɑpən]
+stapt | [stˈɑpt]
+start | [stˈɑrt]
+station | [staːʃˈɔn]
+steeds | [stˈeːts]
+steek | [stˈeːk]
+steken | [stˈeːkən]
+stem | [stˈɛm]
+stenen | [stˈeːnən]
+stengels | [stˈɛŋəls]
+sterker | [stˈɛrkər]
+stevig | [stˈeːvəx]
+still | [stˈɪl]
+stilte | [stˈɪltə]
+stof | [stˈɔf]
+stolen | [stˈoːlən]
+stomachache | [stˌoːmɑxˈɑʃ]
+stop | [stˈɔp]
+stopt | [stˈɔpt]
+stormen | [stˈɔrmən]
+straat | [strˈaːt]
+straatjes | [strˈaːtʲəs]
+straight | [strˈɑjxt]
+strak | [strˈɑk]
+straten | [strˈaːtən]
+stromend | [strˈoːmənt]
+stroomt | [strˈoːmt]
+stroopwafel | [strˌoːpʋaːfˈɛl]
+stuk | [stˈɵk]
+stˈeːts | [s tˈeː (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) tˈeː s]
+succes | [sɵksˈɛs]
+suiker | [sˈœykər]
+swallowed | [sʋˈɑloːʋˌɛt]
+səkˈɔndə | [s (en)ʃwˈɑː(nl) kˈaː (en)stɹˈɛs ˌəʊpənˈɔː(nl) ˈɛn dˈeː (en)ʃwˈɑː(nl)]
+sɵksˈɛs | [s (en)ˌəʊbˈɑː(nl) kˈaː s (en)stɹˈɛs ˌəʊpənˈɛː(nl) s]
+sˈɑldoː | [s (en)stɹˈɛs ˈalfə(nl) ˈɛl dˈeː ˈoː (en)lˈɛŋθənd(nl)]
+sˈɔɾri | [s (en)stɹˈɛs ˌəʊpənˈɔː ˈɑːtap(nl) ˈɛr ˈiː]
+sˈɵvəs | [s (en)stɹˈɛs ˌəʊbˈɑː(nl) fˈeː (en)ʃwˈɑː(nl) s]
+table | [tˈɑblə]
+tafel | [tˈaːfəl]
+take | [tˈaːkə]
+tas | [tˈɑs]
+tassen | [tˈɑsən]
+te | [tˈə]
+tegen | [tˈeːɣən]
+tegenover | [tˈeːɣənˌoːvər]
+tekenen | [tˈeːkənən]
+tekens | [tˈeːkəns]
+telefoon | [tˌeːləfˈoːn]
+telefoonnummer | [tˌeːləfˈoːnɵmər]
+telefoons | [tˌeːləfˈoːns]
+telt | [tˈɛlt]
+temperatuur | [tˌɛmpɪːraːtˈyr]
+terug | [tərˈɵx]
+terugbetaling | [tərˈɵxbətˌaːlɪŋ]
+teruggevonden | [tərˈɵxəvˌɔndən]
+terugkeert | [tərˈɵxkˌɪːrt]
+terugkeren | [tərˈɵxkˌɪːrən]
+terwijl | [tˈɛrʋɛɪl]
+tevoorschijn | [təvɔːrsxˈɛɪn]
+thank | [tˈɑŋk]
+that | [tˈɑt]
+that's | [tˈɑts]
+the | [ðˈə]
+thee | [tˈeː]
+there | [tˈɪːrə]
+there's | [tˈɪːrəs]
+this | [tˈɪs]
+thuis | [tˈœys]
+ticket | [tˈɪkɛt]
+tijd | [tˈɛɪt]
+time | [(en)tˈaɪm(nl)]
+tip | [tˈɪp]
+to | [tˈoː]
+toch | [tˈɔx]
+today | [tˈoːdaːj]
+toe | [tˈu]
+toekomst | [tˈukˌɔmst]
+toekomsten | [tˈukˌɔmstən]
+toelaat | [tˈulˌaːt]
+toen | [tˈun]
+toestemming | [tˈustˌɛmɪŋ]
+toilet | [tʋɑlˈɛt]
+toilets | [tʋɑlˈɛts]
+tomaten | [toːmˈaːtən]
+tomorrow | [tˈoːmɔɾrˌɔw]
+tonen | [tˈɔnən]
+too | [tˈoː]
+toonbank | [tˈoːnbɑŋk]
+toont | [tˈoːnt]
+toppen | [tˈɔpən]
+tot | [tˈɔt]
+train | [trˈeːn]
+tram | [trˈɑm]
+transfer | [trˌɑnsfˈɛr]
+transformatie | [trˌɑnsfɔrmˈaːtsi]
+transformeer | [trˌɑnsfɔrmˈɪr]
+transport | [trˌɑnspˈɔrt]
+trein | [trˈɛɪn]
+treinen | [trˈɛɪnən]
+treinstation | [trˌɛɪnstaːʃˈɔn]
+trekt | [trˈɛkt]
+trillend | [trˈɪlənt]
+trilt | [trˈɪlt]
+trip | [trˈɪp]
+trui | [trˈœy]
+try | [trˈi]
+trˈɛɪn | [tˈeː ˈɛr (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+trˌɛɪnstaːʃˈɔn | [tˈeː ˈɛr (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) ˈɛn s tˈeː ˈaː (en)lˈɛŋθənd ˈɛʃ stɹˈɛs ˌəʊpənˈɔː(nl) ˈɛn]
+tuin | [tˈœyn]
+twee | [tʋˈeː]
+twijfel | [tʋˈɛɪfəl]
+twijfelde | [tʋˈɛɪfəldə]
+twijfels | [tʋˈɛɪfəls]
+twijfelt | [tʋˈɛɪfəlt]
+two | [tʋˈoː]
+tɑt | [tˈɑt]
+tɔt | [tˈɔt]
+tə | [tˈeː]
+tərˈɵxbətˌaːlɪŋ | [tˈeː (en)ʃwˈɑː(nl) ˈɛr (en)stɹˈɛs ˌəʊbˈɑː(nl) ˈɪks bˈeː (en)ʃwˈɑː(nl) tˈeː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛl (en)smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+tʋɑlˈɛt | [tˈeː (en)vˌiːhˈʊk ˈalfə(nl) ˈɛl (en)stɹˈɛs ˌəʊpənˈɛː(nl) tˈeː]
+tʋˈeː | [tˈeː (en)vˌiːhˈʊk stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl)]
+tˈaːfəl | [tˈeː (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛf (en)ʃwˈɑː(nl) ˈɛl]
+tˈeːɣənˌoːvər | [tˈeː (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd ɡˈamə ʃwˈɑː(nl) ˈɛn (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈoː (en)lˈɛŋθənd(nl) fˈeː (en)ʃwˈɑː(nl) ˈɛr]
+tˈustˌɛmɪŋ | [tˈeː (en)stɹˈɛs(nl) y s tˈeː (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː(nl) ˈɛm (en)smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+tˈɑs | [tˈeː (en)stɹˈɛs ˈalfə(nl) s]
+tˌeːləfˈoːnɵmər | [tˈeː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈeː (en)lˈɛŋθənd(nl) ˈɛl (en)ʃwˈɑː(nl) ˈɛf (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) ˈɛn (en)ˌəʊbˈɑː(nl) ˈɛm (en)ʃwˈɑː(nl) ˈɛr]
+uit | [ˈœyt]
+uitdaging | [ˈœytdˌaːɣɪŋ]
+uiteindelijk | [ˈœytˌɛɪndələk]
+uitgeput | [ˈœytɣəpˌɵt]
+uitgestrekt | [ˈœytɣəstrˌɛkt]
+uitgewist | [ˈœytɣəʋˌɪst]
+uitlaat | [ˈœytlˌaːt]
+uitrusting | [ˈœytrˌɵstɪŋ]
+uitstapt | [ˈœytstˌɑpt]
+uitstekend | [ˈœytstˌeːkənt]
+uitzicht | [ˈœytzˌɪxt]
+understand | [ˈɵndərstˌɑnt]
+uren | [ˈyrən]
+urenlang | [ˈyrənlˌɑŋ]
+used | [ˈyzɛt]
+utilities | [ˌytilˈitsis]
+uur | [ˈyr]
+uw | [ˈyʊ]
+vader | [vˈaːdər]
+vallei | [vˈɑlɛɪ]
+van | [vˈɑn]
+vanavond | [vɑnˈaːvɔnt]
+vandaag | [vɑndˈaːx]
+vannacht | [vɑnnˈɑxt]
+vanochtend | [vɑnˈɔxtənt]
+vast | [vˈɑst]
+vastberadenheid | [vˈɑstbɪːrˌaːdənhˌɛɪt]
+veel | [vˈeːl]
+vegetarian | [vˈeːɣətˌaːriˌɑn]
+vegetariër | [vˈeːɣətˌaːriər]
+veilig | [vˈɛɪləx]
+veilige | [vˈɛɪləɣə]
+veiligheid | [vˈɛɪləxhˌɛɪt]
+ver | [vˈɛr]
+veranderd | [vərˈɑndərt]
+veranderen | [vərˈɑndərən]
+verandering | [vərˈɑndərˌɪŋ]
+verbinding | [vərbˈɪndɪŋ]
+verder | [vˈɛrdər]
+verdwaald | [vərdʋˈaːlt]
+verdwenen | [vərdʋˈeːnən]
+verdwijnt | [vərdʋˈɛɪnt]
+vereist | [vərˈɛɪst]
+vereiste | [vərˈɛɪstə]
+vergeef | [vərɣˈeːf]
+vergeeft | [vərɣˈeːft]
+vergeet | [vərɣˈeːt]
+vergeten | [vərɣˈeːtən]
+vergoed | [vərɣˈut]
+verhaal | [vərhˈaːl]
+verhalen | [vərhˈaːlən]
+verhogen | [vərhˈoːɣən]
+verjaardag | [vərjˈaːrdˌɑx]
+verkeerd | [vərkˈɪːrt]
+verkennen | [vərkˈɛnən]
+verlangen | [vərlˈɑŋən]
+verlaten | [vərlˈaːtən]
+verlicht | [vərlˈɪxt]
+verlies | [vərlˈis]
+verliest | [vərlˈist]
+verliezen | [vərlˈizən]
+vermengt | [vərmˈɛŋt]
+vermoeide | [vərmˈujdə]
+vermogen | [vərmˈoːɣən]
+verrast | [vərrˈɑst]
+vers | [vˈɛrs]
+verschijnt | [vərsxˈɛɪnt]
+verschrikkelijk | [vərsxrˈɪkələk]
+verspreidt | [vərsprˈɛɪt]
+verte | [vˈɛrtə]
+vertellen | [vərtˈɛlən]
+vertraagd | [vərtrˈaːxt]
+vertrek | [vərtrˈɛk]
+vertrekken | [vərtrˈɛkən]
+vertrekt | [vərtrˈɛkt]
+vertrokken | [vərtrˈɔkən]
+vertrouwen | [vərtrˈʌʊən]
+vervagen | [vərvˈaːɣən]
+vervoer | [vərvˈur]
+vervolgen | [vərvˈɔlɣən]
+verwelkomt | [vərʋˈɛlkɔmt]
+verwijt | [vərʋˈɛɪt]
+very | [vərˈɛɪ]
+verzamel | [vərzˈaːməl]
+verzekering | [vərzˈeːkərˌɪŋ]
+vier | [vˈir]
+vierde | [vˈirdə]
+vijf | [vˈɛɪf]
+vijftien | [vɛɪftˈin]
+vinden | [vˈɪndən]
+vindt | [vˈɪnt]
+vlam | [vlˈɑm]
+vlammetje | [vlˈɑmɛtʲə]
+vlucht | [vlˈɵxt]
+vluchten | [vlˈɵxtən]
+vlˈɵxt | [fˌeːˌɛl(en)stɹˈɛsˌəʊbˌɑː(nl)ˈɪkstˌeː]
+vochtig | [vˈɔxtəx]
+voeden | [vˈudən]
+voel | [vˈul]
+voelen | [vˈulən]
+voelend | [vˈulənt]
+voelt | [vˈult]
+vol | [vˈɔl]
+volg | [vˈɔlx]
+volgen | [vˈɔlɣən]
+volgende | [vˈɔlɣəndə]
+volgt | [vˈɔlxt]
+volledig | [vɔlˈeːdəx]
+vond | [vˈɔnt]
+voor | [vˈɔːr]
+voorbij | [vˈɔːrbˌɛɪ]
+voorbijgaande | [vˈɔːrbɛɪɣˌaːndə]
+voorbijglijdende | [vˈɔːrbɛɪɣlˌɛɪdəndə]
+voorbijlopen | [vˈɔːrbɛɪlˌoːpən]
+voordat | [vˈɔːrdɑt]
+voorheen | [vˈɔːrhˌeːn]
+vooruit | [vˈɔːrœyt]
+voorwerpen | [vˈɔːrʋɛrpən]
+voorzichtig | [vˌɔːrzˈɪxtəx]
+vorm | [vˈɔrm]
+vraag | [vrˈaːx]
+vraagt | [vrˈaːxt]
+vragen | [vrˈaːɣən]
+vreemd | [vrˈeːmt]
+vreemde | [vrˈeːmdə]
+vreselijk | [vrˈeːsələk]
+vriendelijkheid | [vrˈindələkhˌɛɪt]
+vries | [vrˈis]
+vrij | [vrˈɛɪ]
+vrije | [vrˈɛɪə]
+vrolijk | [vrˈoːlək]
+vrouw | [vrˈʌʊ]
+vrˈoːlək | [fˈeː ˈɛr (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) ˈɛl (en)ʃwˈɑː(nl) kˈaː]
+vrˈɛɪ | [fˈeː ˈɛr (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl)]
+vult | [vˈɵlt]
+vuur | [vˈyr]
+vɑn | [vˈɑn]
+vɑndˈaːx | [fˈeː (en)ˈalfə(nl) ˈɛn dˈeː (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɪks]
+vɔːr | [fˈeː (en)ˌəʊpənˈɔː lˈɛŋθənd(nl) ˈɛr]
+vərbˈɪndɪŋ | [fˈeː (en)ʃwˈɑː(nl) ˈɛr bˈeː (en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn dˈeː (en)smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+vərdʋˈaːlt | [fˈeː (en)ʃwˈɑː(nl) ˈɛr dˈeː (en)vˌiːhˈʊk stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛl tˈeː]
+vərhˈoːɣən | [fˈeː (en)ʃwˈɑː(nl) ˈɛr hˈaː (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd ɡˈamə ʃwˈɑː(nl) ˈɛn]
+vərjˈaːrdˌɑx | [fˈeː (en)ʃwˈɑː(nl) ˈɛr jˈeː (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛr dˈeː (en)sˈɛkəndɹɪstɹˌɛs ˈalfə(nl) ˈɪks]
+vərtrˈaːxt | [fˈeː (en)ʃwˈɑː(nl) ˈɛr tˈeː ˈɛr (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɪks tˈeː]
+vərtrˈɛk | [fˈeː (en)ʃwˈɑː(nl) ˈɛr tˈeː ˈɛr (en)stɹˈɛs ˌəʊpənˈɛː(nl) kˈaː]
+vərvˈur | [fˈeː (en)ʃwˈɑː(nl) ˈɛr fˈeː (en)stɹˈɛs(nl) y ˈɛr]
+vərzˈeːkərˌɪŋ | [fˈeː (en)ʃwˈɑː(nl) ˈɛr zˈɛt (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) kˈaː (en)ʃwˈɑː(nl) ˈɛr (en)sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+vərɣˈud | [fˈeː (en)ʃwˈɑː(nl) ˈɛr (en)ɡˈamə stɹˈɛs(nl) y dˈeː]
+vərˈɛɪstə | [fˈeː (en)ʃwˈɑː(nl) ˈɛr (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) s tˈeː (en)ʃwˈɑː(nl)]
+vˈeːl | [fˈeː (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) ˈɛl]
+vˈeːɣətˌaːriər | [fˈeː (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd ɡˈamə ʃwˈɑː(nl) tˈeː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛr ˈiː (en)ʃwˈɑː(nl) ˈɛr]
+vˈul | [fˈeː (en)stɹˈɛs(nl) y ˈɛl]
+vˈɔlɣəndə | [fˈeː (en)stɹˈɛs ˌəʊpənˈɔː(nl) ˈɛl (en)ɡˈamə ʃwˈɑː(nl) ˈɛn dˈeː (en)ʃwˈɑː(nl)]
+vˈɔːrʋɛrpən | [fˈeː (en)stɹˈɛs ˌəʊpənˈɔː lˈɛŋθənd(nl) ˈɛr (en)vˌiːhˈʊk ˌəʊpənˈɛː(nl) ˈɛr pˈeː (en)ʃwˈɑː(nl) ˈɛn]
+vˈɛr | [fˈeː (en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛr]
+vˈɛɪləx | [fˈeː (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) ˈɛl (en)ʃwˈɑː(nl) ˈɪks]
+waait | [ʋˈaːjt]
+waar | [ʋˈaːr]
+waarbij | [ʋaːrbˈɛɪ]
+waarheid | [ʋˈaːrhɛɪt]
+waarin | [ʋˈaːrɪn]
+waarom | [ʋˈaːrɔm]
+waarover | [ʋˈaːroːvər]
+wacht | [ʋˈɑxt]
+wachten | [ʋˈɑxtən]
+wagon | [ʋaːɣˈɔn]
+wake | [ʋˈaːkə]
+wandelen | [ʋˈɑndələn]
+wandeling | [ʋˈɑndəlˌɪŋ]
+wandelingen | [ʋˈɑndəlˌɪŋən]
+wandelroutes | [ʋˈɑndɛlrˌutəs]
+wanhoop | [ʋˈɑnhˌoːp]
+wanhopig | [ʋɑnhˈoːpəx]
+wanneer | [ʋɑnˈɪr]
+waren | [ʋˈaːrən]
+warm | [ʋˈɑrm]
+warme | [ʋˈɑrmə]
+warmere | [ʋˈɑrmərə]
+warmte | [ʋˈɑrmtə]
+was | [ʋˈɑs]
+wasn't | [ʋˈɑsnt]
+wat | [ʋˈɑt]
+watch | [ʋˈɑtx]
+water | [ʋˈaːtər]
+way | [ʋˈaːj]
+we | [ʋˈə]
+week | [ʋˈeːk]
+weemoed | [ʋeːmˈut]
+weer | [ʋˈɪːr]
+wees | [ʋˈeːs]
+weet | [ʋˈeːt]
+weg | [ʋˈɛx]
+wegen | [ʋˈeːɣən]
+wekken | [ʋˈɛkən]
+wel | [ʋˈɛl]
+welcome | [ʋɛlkˈoːmə]
+welk | [ʋˈɛlk]
+welke | [ʋˈɛlkə]
+welkom | [ʋˈɛlkɔm]
+well | [ʋˈɛl]
+werd | [ʋˈɛrt]
+werk | [ʋˈɛrk]
+werkt | [ʋˈɛrkt]
+weten | [ʋˈeːtən]
+what | [ʋhˈɑt]
+what's | [ʋhˈɑts]
+when | [ʋhˈɛn]
+where | [ʋhˈɪːrə]
+wie | [ʋˈi]
+wij | [ʋˈɛɪ]
+wijn | [ʋˈɛɪn]
+wijnwinkel | [ʋˌɛɪnʋɪŋkˈɛl]
+wijst | [ʋˈɛɪst]
+wijzen | [ʋˈɛɪzən]
+wil | [ʋˈɪl]
+wild | [ʋˈɪlt]
+wilde | [ʋˈɪldə]
+willen | [ʋˈɪlən]
+willingly | [ʋˈɪlɪŋlˌi]
+wind | [ʋˈɪnt]
+winkel | [ʋˈɪŋkəl]
+winkelen | [ʋˈɪŋkələn]
+winkelier | [ʋˌɪŋkəlˈir]
+winters | [ʋˈɪntərs]
+wisselgeld | [ʋˈɪsɛlɣəlt]
+wisselkoers | [ʋˌɪsɛlkˈurs]
+with | [ʋˈɪt]
+withdrawal | [ʋˈɪtdraːʋˌɑl]
+witheid | [ʋˈɪtɛɪt]
+without | [ʋˈɪtʌʊt]
+wolken | [ʋˈɔlkən]
+wonder | [ʋˈɔndər]
+woon | [ʋˈoːn]
+woorden | [ʋˈɔːrdən]
+worden | [ʋˈɔrdən]
+wordt | [ʋˈɔrt]
+work | [ʋˈɔrk]
+would | [ʋˈʌʊlt]
+wrijft | [vrˈɛɪft]
+year | [jˈeːɑr]
+yes | [jˈeːs]
+yesterday | [jˈɛstərdˌaːj]
+yet | [jˈɛt]
+you | [jˈʌʊ]
+you're | [jˈʌʊrə]
+your | [jˈʌʊr]
+yʊ | [ˈɛɪ (en)ˈʊpsɪlˌɒn(nl)]
+zacht | [zˈɑxt]
+zachtjes | [zˈɑxtʲəs]
+zak | [zˈɑk]
+zakken | [zˈɑkən]
+zaklamp | [zˈɑklɑmp]
+zal | [zˈɑl]
+ze | [zˈə]
+zee | [zˈeː]
+zeg | [zˈɛx]
+zeggen | [zˈɛɣən]
+zegt | [zˈɛxt]
+zei | [zˈɛɪ]
+zeker | [zˈeːkər]
+zekere | [zˈeːkərə]
+zekerheid | [zˈeːkərhˌɛɪt]
+zelf | [zˈɛlf]
+zelfs | [zˈɛlfs]
+zelfverzekerd | [zˈɛlfvərzˌeːkɛrt]
+zestig | [zˈɛstəx]
+zeven | [zˈeːvən]
+zich | [zˈɪx]
+zichzelf | [zɪxsˈɛlf]
+zie | [zˈi]
+ziek | [zˈik]
+zien | [zˈin]
+ziens | [zˈins]
+ziet | [zˈit]
+zij | [zˈɛɪ]
+zijde | [zˈɛɪdə]
+zijn | [zˈɛɪn]
+zit | [zˈɪt]
+zitten | [zˈɪtən]
+zittend | [zˈɪtənt]
+zo | [zˈoː]
+zodra | [zɔdrˈaː]
+zoek | [zˈuk]
+zoeken | [zˈukən]
+zoekt | [zˈukt]
+zoekteam | [zˈuktiːm]
+zon | [zˈɔn]
+zonder | [zˈɔndər]
+zonsopgang | [zˈɔnsɔpɣˌɑŋ]
+zorgen | [zˈɔrɣən]
+zou | [zˈʌʊ]
+zouden | [zˈʌʊdən]
+zoveel | [zoːvˈeːl]
+zozo | [zoːzˈoː]
+zoːzˈoː | [zˈɛt ˈoː (en)lˈɛŋθənd(nl) zˈɛt (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl)]
+zucht | [zˈɵxt]
+zullen | [zˈɵlən]
+zult | [zˈɵlt]
+zwaaien | [zʋˈaːjən]
+zwaait | [zʋˈaːjt]
+zwart | [zʋˈɑrt]
+zɛɪn | [zˈɛt (en)ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+zʌʊ | [zˌɛt(en)tˌɜːndvˌiːˈʊpsɪlˌɒn(nl)]
+zˈeːvən | [zˈɛt (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) fˈeː (en)ʃwˈɑː(nl) ˈɛn]
+zˈik | [zˈɛt (en)stɹˈɛs(nl) ˈiː kˈaː]
+zˈins | [zˈɛt (en)stɹˈɛs(nl) ˈiː ˈɛn s]
+zˈuk | [zˈɛt (en)stɹˈɛs(nl) y kˈaː]
+zˈɔndər | [zˈɛt (en)stɹˈɛs ˌəʊpənˈɔː(nl) ˈɛn dˈeː (en)ʃwˈɑː(nl) ˈɛr]
+zˈɛx | [zˈɛt (en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɪks]
+één | [ˈeːn]
+ɑls | [ˈɑls]
+ɑlˈɛrɣis | [(en)ˈalfə(nl) ˈɛl (en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛr (en)ɡˈamə(nl) ˈiː s]
+ɔf | [ˈɔf]
+ɔm | [ˈɔm]
+ɔntbˈɛɪt | [(en)ˌəʊpənˈɔː(nl) ˈɛn tˈeː bˈeː (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) tˈeː]
+ɔntvˈɑŋən | [(en)ˌəʊpənˈɔː(nl) ˈɛn tˈeː fˈeː (en)stɹˈɛs ˈalfə(nl) ˈɛn (en)ʃwˈɑː(nl) ˈɛn]
+ɔpnˈeːmən | [(en)ˌəʊpənˈɔː(nl) pˈeː ˈɛn (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) ˈɛm (en)ʃwˈɑː(nl) ˈɛn]
+ən | [ˈən]
+ər | [ˈɛr]
+ɛrˈaːn | [(en)ˌəʊpənˈɛː(nl) ˈɛr (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛn]
+ɣlˌytənvrˈɛɪ | [(en)ɡˈamə(nl) ˈɛl (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈɛɪ tˈeː (en)ʃwˈɑː(nl) ˈɛn fˈeː ˈɛr (en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl)]
+ɣrˈaːx | [(en)ɡˈamə(nl) ˈɛr (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɪks]
+ɣrˈoːtərə | [(en)ɡˈamə(nl) ˈɛr (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) tˈeː (en)ʃwˈɑː(nl) ˈɛr (en)ʃwˈɑː(nl)]
+ɣəbrˈœykt | [(en)ɡˈamə ʃwˈɑː(nl) bˈeː ˈɛr (en)stɹˈɛs(nl) lˈixaːtˌyroːˌeː ˈɛɪ kˈaː tˈeː]
+ɣədˈaːn | [(en)ɡˈamə ʃwˈɑː(nl) dˈeː (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛn]
+ɣədˈɛkt | [(en)ɡˈamə ʃwˈɑː(nl) dˈeː (en)stɹˈɛs ˌəʊpənˈɛː(nl) kˈaː tˈeː]
+ɣəfˌeːlisitˈɪrt | [(en)ɡˈamə ʃwˈɑː(nl) ˈɛf (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈeː (en)lˈɛŋθənd(nl) ˈɛl ˈiː s ˈiː tˈeː (en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛr tˈeː]
+ɣəlˈaːdən | [(en)ɡˈamə ʃwˈɑː(nl) ˈɛl (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) dˈeː (en)ʃwˈɑː(nl) ˈɛn]
+ɣəlˈɵkəx | [(en)ɡˈamə ʃwˈɑː(nl) ˈɛl (en)stɹˈɛs ˌəʊbˈɑː(nl) kˈaː (en)ʃwˈɑː(nl) ˈɪks]
+ɣəlˈɵkəɣə | [(en)ɡˈamə ʃwˈɑː(nl) ˈɛl (en)stɹˈɛs ˌəʊbˈɑː(nl) kˈaː (en)ʃwˈɑː ɡˈamə ʃwˈɑː(nl)]
+ɣəstˈoːlən | [(en)ɡˈamə ʃwˈɑː(nl) s tˈeː (en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) ˈɛl (en)ʃwˈɑː(nl) ˈɛn]
+ɣəvˈɔndən | [(en)ɡˈamə ʃwˈɑː(nl) fˈeː (en)stɹˈɛs ˌəʊpənˈɔː(nl) ˈɛn dˈeː (en)ʃwˈɑː(nl) ˈɛn]
+ɣəˌɑnylˈɪrt | [(en)ɡˈamə ʃwˈɑː sˈɛkəndɹɪstɹˌɛs ˈalfə(nl) ˈɛn ˈɛɪ ˈɛl (en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛr tˈeː]
+ɣˈaːn | [(en)ɡˈamə stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛn]
+ɣˈaːt | [(en)ɡˈamə stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) tˈeː]
+ɣˈeːn | [(en)ɡˈamə stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) ˈɛn]
+ɣˈudə | [(en)ɡˈamə stɹˈɛs(nl) y dˈeː (en)ʃwˈɑː(nl)]
+ɣˈudənˌaːvɔnt | [(en)ɡˈamə stɹˈɛs(nl) y dˈeː (en)ʃwˈɑː(nl) ˈɛn (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈaː (en)lˈɛŋθənd(nl) fˈeː (en)ˌəʊpənˈɔː(nl) ˈɛn tˈeː]
+ɣˈut | [(en)ɡˈamə stɹˈɛs(nl) y tˈeː]
+ɣˈɛlt | [(en)ɡˈamə stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛl tˈeː]
+ɣˈɪstərən | [(en)ɡˈamə stɹˈɛs smˈɔːlkˌapˈaɪ(nl) s tˈeː (en)ʃwˈɑː(nl) ˈɛr (en)ʃwˈɑː(nl) ˈɛn]
+ɣˌɛldʌʊtoːmˈaːt | [(en)ɡˈamə sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː(nl) ˈɛl dˈeː (en)tˈɜːndvˈiː ˈʊpsɪlˌɒn(nl) tˈeː ˈoː (en)lˈɛŋθənd(nl) ˈɛm (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) tˈeː]
+ɪk | [(en)smˌɔːlkˌapˌaɪ(nl)kˈaː]
+ɪn | [(en)smˌɔːlkˌapˌaɪ(nl)ˈɛn]
+ɪs | [(en)smˌɔːlkˌapˌaɪ(nl)ˈɛs]
+ʋɑnˈɪr | [(en)vˌiːhˈʊk ˈalfə(nl) ˈɛn (en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛr]
+ʋɑt | [(en)vˌiːhˈʊk ˈalfə(nl) tˈeː]
+ʋə | [(en)vˌiːhˈʊk ʃwˈɑː(nl)]
+ʋɪl | [(en)vˌiːhˌʊksmˌɔːlkˌapˌaɪ(nl)ˈɛl]
+ʋˈaːr | [(en)vˌiːhˈʊk stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛr]
+ʋˈaːtər | [(en)vˌiːhˈʊk stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) tˈeː (en)ʃwˈɑː(nl) ˈɛr]
+ʋˈeːt | [(en)vˌiːhˈʊk stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) tˈeː]
+ʋˈoːn | [(en)vˌiːhˈʊk stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) ˈɛn]
+ʋˈɑrm | [(en)vˌiːhˈʊk stɹˈɛs ˈalfə(nl) ˈɛr ˈɛm]
+ʋˈɛkən | [(en)vˌiːhˈʊk stɹˈɛs ˌəʊpənˈɛː(nl) kˈaː (en)ʃwˈɑː(nl) ˈɛn]
+ʋˈɛlkɔm | [(en)vˌiːhˈʊk stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛl kˈaː (en)ˌəʊpənˈɔː(nl) ˈɛm]
+ʋˈɛlkə | [(en)vˌiːhˈʊk stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛl kˈaː (en)ʃwˈɑː(nl)]
+ʋˈɛrk | [(en)vˌiːhˈʊk stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛr kˈaː]
+ʋˈɛrkt | [(en)vˌiːhˈʊk stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛr kˈaː tˈeː]
+ʋˈɛx | [(en)vˌiːhˈʊk stɹˈɛs ˌəʊpənˈɛː(nl) ˈɪks]
+ʋˈɛɪzən | [(en)vˌiːhˈʊk stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) zˈɛt (en)ʃwˈɑː(nl) ˈɛn]
+ʋˈɪlən | [(en)vˌiːhˈʊk stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛl (en)ʃwˈɑː(nl) ˈɛn]
+ʋˈɪsɛlɣəlt | [(en)vˌiːhˈʊk stɹˈɛs smˈɔːlkˌapˈaɪ(nl) s (en)ˌəʊpənˈɛː(nl) ˈɛl (en)ɡˈamə ʃwˈɑː(nl) ˈɛl tˈeː]
+ʋˌɔrdən | [(en)vˌiːhˈʊk sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɔː(nl) ˈɛr dˈeː (en)ʃwˈɑː(nl) ˈɛn]
+ʋˌɪlən | [(en)vˌiːhˈʊk sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(nl) ˈɛl (en)ʃwˈɑː(nl) ˈɛn]
+ʋˌɪsɛlkˈurs | [(en)vˌiːhˈʊk sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(nl) s (en)ˌəʊpənˈɛː(nl) ˈɛl kˈaː (en)stɹˈɛs(nl) y ˈɛr s]
+ˈaːn | [(en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛn]
+ˈaːnbˌidɪŋ | [(en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛn bˈeː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈiː dˈeː (en)smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+ˈaːnɣəbˌoːdən | [(en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛn (en)ɡˈamə ʃwˈɑː(nl) bˈeː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈoː (en)lˈɛŋθənd(nl) dˈeː (en)ʃwˈɑː(nl) ˈɛn]
+ˈaːnɣənˌaːm | [(en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛn (en)ɡˈamə ʃwˈɑː(nl) ˈɛn (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛm]
+ˈaːvɔnt | [(en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) fˈeː (en)ˌəʊpənˈɔː(nl) ˈɛn tˈeː]
+ˈeːmˌeːɪlɑdrˈɛs | [(en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) ˈɛm (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈeː (en)lˈɛŋθənd smˈɔːlkˌapˈaɪ(nl) ˈɛl (en)ˈalfə(nl) dˈeː ˈɛr (en)stɹˈɛs ˌəʊpənˈɛː(nl) s]
+ˈeːn | [(en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) ˈɛn]
+ˈeːt | [(en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) tˈeː]
+ˈimɑnt | [(en)stɹˈɛs(nl) ˈiː ˈɛm (en)ˈalfə(nl) ˈɛn tˈeː]
+ˈiːmeːl | [(en)stɹˈɛs(nl) ˈiː (en)lˈɛŋθənd(nl) ˈɛm ˈeː (en)lˈɛŋθənd(nl) ˈɛl]
+ˈoːpənbˌaːr | [(en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) pˈeː (en)ʃwˈɑː(nl) ˈɛn bˈeː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛr]
+ˈoːpənən | [(en)stɹˈɛs(nl) ˈoː (en)lˈɛŋθənd(nl) pˈeː (en)ʃwˈɑː(nl) ˈɛn (en)ʃwˈɑː(nl) ˈɛn]
+ˈyr | [(en)stɹˈɛs(nl) ˈɛɪ ˈɛr]
+ˈœyt | [(en)stɹˈɛs(nl) lˈixaːtˌyroːˌeː ˈɛɪ tˈeː]
+ˈɑfslˌœytən | [(en)stɹˈɛs ˈalfə(nl) ˈɛf s ˈɛl (en)sˈɛkəndɹɪstɹˌɛs(nl) lˈixaːtˌyroːˌeː ˈɛɪ tˈeː (en)ʃwˈɑː(nl) ˈɛn]
+ˈɑfsprˌaːk | [(en)stɹˈɛs ˈalfə(nl) ˈɛf s pˈeː ˈɛr (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈaː (en)lˈɛŋθənd(nl) kˈaː]
+ˈɑjrkɔndˌiʃoːnˌɪŋ | [(en)stɹˈɛs ˈalfə(nl) jˈeː ˈɛr kˈaː (en)ˌəʊpənˈɔː(nl) ˈɛn dˈeː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈiː (en)ˈɛʃ(nl) ˈoː (en)lˈɛŋθənd(nl) ˈɛn (en)sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+ˈɑl | [(en)stɹˈɛs ˈalfə(nl) ˈɛl]
+ˈɑltɛɪt | [(en)stɹˈɛs ˈalfə(nl) ˈɛl tˈeː (en)ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) tˈeː]
+ˈɑləs | [(en)stɹˈɛs ˈalfə(nl) ˈɛl (en)ʃwˈɑː(nl) s]
+ˈɑndərə | [(en)stɹˈɛs ˈalfə(nl) ˈɛn dˈeː (en)ʃwˈɑː(nl) ˈɛr (en)ʃwˈɑː(nl)]
+ˈɑnylˌɪːrɪŋskˌɔstən | [(en)stɹˈɛs ˈalfə(nl) ˈɛn ˈɛɪ ˈɛl (en)sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ lˈɛŋθənd(nl) ˈɛr (en)smˈɔːlkˌapˈaɪ(nl) ˈɛn s kˈaː (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɔː(nl) s tˈeː (en)ʃwˈɑː(nl) ˈɛn]
+ˈɔp | [(en)stɹˈɛs ˌəʊpənˈɔː(nl) pˈeː]
+ˈɔpnˌaːməkˌɔstən | [(en)stɹˈɛs ˌəʊpənˈɔː(nl) pˈeː ˈɛn (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈaː (en)lˈɛŋθənd(nl) ˈɛm (en)ʃwˈɑː(nl) kˈaː (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɔː(nl) s tˈeː (en)ʃwˈɑː(nl) ˈɛn]
+ˈɛn | [(en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛn]
+ˈɛŋkələ | [(en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛn kˈaː (en)ʃwˈɑː(nl) ˈɛl (en)ʃwˈɑː(nl)]
+ˈɛŋəls | [(en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛn (en)ʃwˈɑː(nl) ˈɛl s]
+ˈɛŋɛlsə | [(en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛn (en)ˌəʊpənˈɛː(nl) ˈɛl s (en)ʃwˈɑː(nl)]
+ˈɛɪɣən | [(en)stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ ɡˈamə ʃwˈɑː(nl) ˈɛn]
+ˈɪk | [(en)stɹˌɛssmˌɔːlkˌapˌaɪ(nl)kˈaː]
+ˈɪnbəɣrˌeːpən | [(en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn bˈeː (en)ʃwˈɑː ɡˈamə(nl) ˈɛr (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈeː (en)lˈɛŋθənd(nl) pˈeː (en)ʃwˈɑː(nl) ˈɛn]
+ˈɪndˌinən | [(en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn dˈeː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈiː ˈɛn (en)ʃwˈɑː(nl) ˈɛn]
+ˈɪnklyzˌif | [(en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn kˈaː ˈɛl ˈɛɪ zˈɛt (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈiː ˈɛf]
+ˈɪnpˌɑkən | [(en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn pˈeː (en)sˈɛkəndɹɪstɹˌɛs ˈalfə(nl) kˈaː (en)ʃwˈɑː(nl) ˈɛn]
+ˈɪnɣəslˌɪkt | [(en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn (en)ɡˈamə ʃwˈɑː(nl) s ˈɛl (en)sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(nl) kˈaː tˈeː]
+ˌaːpɔtˈeːk | [(en)sˈɛkəndɹɪstɹˌɛs(nl) ˈaː (en)lˈɛŋθənd(nl) pˈeː (en)ˌəʊpənˈɔː(nl) tˈeː (en)stɹˈɛs(nl) ˈeː (en)lˈɛŋθənd(nl) kˈaː]
+ˌidɛntˌitɛɪtzbəʋˈɛɪs | [(en)sˈɛkəndɹɪstɹˌɛs(nl) ˈiː dˈeː (en)ˌəʊpənˈɛː(nl) ˈɛn tˈeː (en)sˈɛkəndɹɪstɹˌɛs(nl) ˈiː tˈeː (en)ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) tˈeː zˈɛt bˈeː (en)ʃwˈɑː vˌiːhˈʊk stɹˈɛs ˌəʊpənˈɛː smˈɔːlkˌapˈaɪ(nl) s]
+ˌoːvərbˈukˌɪŋ | [(en)sˈɛkəndɹɪstɹˌɛs(nl) ˈoː (en)lˈɛŋθənd(nl) fˈeː (en)ʃwˈɑː(nl) ˈɛr bˈeː (en)stɹˈɛs(nl) y kˈaː (en)sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(nl) ˈɛn]
+ˌoːvərmˈaːkən | [(en)sˈɛkəndɹɪstɹˌɛs(nl) ˈoː (en)lˈɛŋθənd(nl) fˈeː (en)ʃwˈɑː(nl) ˈɛr ˈɛm (en)stɹˈɛs(nl) ˈaː (en)lˈɛŋθənd(nl) kˈaː (en)ʃwˈɑː(nl) ˈɛn]
+ˌoːvərstˈɑpən | [(en)sˈɛkəndɹɪstɹˌɛs(nl) ˈoː (en)lˈɛŋθənd(nl) fˈeː (en)ʃwˈɑː(nl) ˈɛr s tˈeː (en)stɹˈɛs ˈalfə(nl) pˈeː (en)ʃwˈɑː(nl) ˈɛn]
+ˌɑksɛptˈɪrt | [(en)sˈɛkəndɹɪstɹˌɛs ˈalfə(nl) kˈaː s (en)ˌəʊpənˈɛː(nl) pˈeː tˈeː (en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛr tˈeː]
+ˌɑlstɵblˈift | [(en)sˈɛkəndɹɪstɹˌɛs ˈalfə(nl) ˈɛl s tˈeː (en)ˌəʊbˈɑː(nl) bˈeː ˈɛl (en)stɹˈɛs(nl) ˈiː ˈɛf tˈeː]
+ˌɑnylˈɪːrən | [(en)sˈɛkəndɹɪstɹˌɛs ˈalfə(nl) ˈɛn ˈɛɪ ˈɛl (en)stɹˈɛs smˈɔːlkˌapˈaɪ lˈɛŋθənd(nl) ˈɛr (en)ʃwˈɑː(nl) ˈɛn]
+ˌɑpɑrtəmˈɛnt | [(en)sˈɛkəndɹɪstɹˌɛs ˈalfə(nl) pˈeː (en)ˈalfə(nl) ˈɛr tˈeː (en)ʃwˈɑː(nl) ˈɛm (en)stɹˈɛs ˌəʊpənˈɛː(nl) ˈɛn tˈeː]
+ˌɛkskyzˈɪr | [(en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː(nl) kˈaː s kˈaː ˈɛɪ zˈɛt (en)stɹˈɛs smˈɔːlkˌapˈaɪ(nl) ˈɛr]

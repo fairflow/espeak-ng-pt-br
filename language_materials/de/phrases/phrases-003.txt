@@ -1,50 +1,51 @@
-Wie geht's dir?
-Wie geht es Ihnen?
-Ich heiße...
-Wie lautet Ihr Name?
-Wie heißt du?
-Ich komme aus...
-Ich bin Engländer.
-Ich bin Engländerin.
-Ich wohne in London.
-Sprechen Sie Englisch?
-Ich spreche ein bisschen Französisch.
-Ich spreche kein Französisch.
-Ich verstehe nicht.
-Können Sie das wiederholen?
-Können Sie langsamer sprechen?
-Wie sagt man... auf Französisch?
-Was ist das?
-Was bedeutet das?
-Wo sind die Toiletten?
-Wo ist...?
-Wo ist es?
-Ist es weit?
-Es ist nah.
-Nach links.
-Nach rechts.
-Geradeaus.
-Hier.
-Dort drüben.
-Gegenüber.
-Neben.
-Wie viel kostet das?
-Wie viel kostet es?
-Das ist zu teuer.
-Haben Sie...?
-Ich möchte...
-Ich suche...
-Ich brauche...
-Können Sie mir helfen?
-Wie spät ist es?
-Wie spät ist es?
-Um wie viel Uhr?
-Heute.
-Morgen.
-Gestern.
-Jetzt.
-Später.
-Bald.
-Schon.
-Noch nicht.
-Immer / Noch.
+Wie geht's? | How are you? (informal) | [viː ɡˈeːts]
+Wie geht es Ihnen? | How are you? (formal) | [viː ɡˈeːt ɛs ˈiːnən]
+Ich heiße... | My name is... | [ɪç hˈaɪsə]
+Wie heißt du? | What's your name? (informal) | [viː hˈaɪst duː]
+Wie heißen Sie? | What is your name? (formal) | [viː hˈaɪsən ziː]
+Ich komme aus... | I come from... | [ɪç kˈɔmə ˈaʊs]
+Ich bin Engländer | I am English (m) | [ɪç bɪn ˈɛŋlɛndɜ]
+Ich bin Engländerin | I am English (f) | [ɪç bɪn ˈɛŋlɛndərˌɪn]
+Ich wohne in London | I live in London | [ɪç vˈoːnə ɪn lˈɔndoːn]
+Sprechen Sie Englisch? | Do you speak English? | [ʃprˈɛçən ziː ˈɛŋlɪʃ]
+Ich spreche ein bisschen Französisch | I speak a little French | [ɪç ʃprˈɛçə aɪn bˈɪsçən frantsˈøːzɪʃ]
+Ich spreche kein Französisch | I don't speak French | [ɪç ʃprˈɛçə kˈaɪn frantsˈøːzɪʃ]
+Ich verstehe nicht | I don't understand | [ɪç fɛɾʃtˈeːə nˈɪçt]
+Können Sie das wiederholen? | Can you repeat? | [kˌœnən ziː das viːdɜhˈoːlən]
+Können Sie langsamer sprechen? | Can you speak more slowly? | [kˌœnən ziː lˈaŋzɑːmɜ ʃprˈɛçən]
+Wie sagt man... auf Französisch? | How do you say... in French? | [viː zˈɑːkt man
+ aʊf frantsˈøːzɪʃ]
+Was ist das? | What is this? | [vˈas ɪst das]
+Was bedeutet das? | What does that mean? | [vˈas bədˈɔøtət das]
+Wo sind die Toiletten? | Where are the toilets? | [vˌoː zɪnt diː tˌoːiːlˈɛtən]
+Wo ist...? | Where is...? | [vˈoː ɪst]
+Wo ist es? | Where is it? | [vˈoː ɪst ɛs]
+Ist es weit? | Is it far? | [ɪst ɛs vˈaɪt]
+Es ist nah | It's near | [ɛsɪst nˈɑː]
+Nach links | To the left | [nɑːx lˈɪŋks]
+Nach rechts | To the right | [nɑːx rˈɛçts]
+Geradeaus | Straight ahead | [ɡərˈɑdeːˌaʊs]
+Hier | Here | [hˈiːɾ]
+Dort | Over there | [dˈɔɾt]
+Gegenüber | Opposite | [ɡˌeːɡənˈyːbɜ]
+Neben | Next to | [nˈeːbən]
+Wie viel kostet das? | How much does it cost? | [viː fˈiːl kˈɔstət das]
+Wie viel kostet es? | How much is it? | [viː fˈiːl kˈɔstət ɛs]
+Das ist zu teuer | It's too expensive | [das ɪst tsuː tˈɔøɜ]
+Haben Sie...? | Do you have...? | [hˈɑːbən ziː]
+Ich möchte... | I would like... | [ɪç mˈœçtə]
+Ich suche... | I'm looking for... | [ɪç zˈuːxə]
+Ich brauche... | I need... | [ɪç brˈaʊxə]
+Können Sie mir helfen? | Can you help me? | [kˌœnən ziː miːɾ hˈɛlfən]
+Wie spät ist es? | What time is it? | [viː ʃpˈɛːt ɪst ɛs]
+Wie spät ist es? | What time is it? (informal) | [viː ʃpˈɛːt ɪst ɛs]
+Um wie viel Uhr? | At what time? | [ʊm viː fˈiːl ˈuːɾ]
+Heute | Today | [hˈɔøtə]
+Morgen | Tomorrow | [mˈɔɾɡən]
+Gestern | Yesterday | [ɡˈɛstɜn]
+Jetzt | Now | [jˈɛtst]
+Später | Later | [ʃpˈɛːtɜ]
+Bald | Soon | [bˈalt]
+Schon | Already | [ʃˈoːn]
+Noch nicht | Not yet | [nˈɔx nˈɪçt]
+Immer | Always / Still | [ˈɪmɜ]

@@ -1,50 +1,50 @@
-Quisiera hacer una cita
-¿Tienen disponibilidad?
-¿Podrían confirmarme por correo electrónico?
-Necesito cancelar mi reserva
-¿Hay algún cargo por cancelación?
-No he recibido mi confirmación
-¿Podrían verificar mi reserva?
-El vuelo ha sido cancelado
-¿Cuándo es el próximo vuelo?
-¿Puedo obtener un reembolso?
-Mi equipaje no fue cargado
-¿Dónde está la oficina de objetos perdidos?
-Quisiera presentar una queja
-¿Cómo puedo contactarlos?
-¿Cuál es su número de teléfono?
-¿Cuál es su dirección de correo electrónico?
-Estoy buscando un apartamento para alquilar
-¿Cuánto es el alquiler mensual?
-¿Están incluidos los servicios?
-¿Hay algún depósito?
-¿Es seguro el barrio?
-¿Hay transporte público cercano?
-Estoy buscando trabajo
-¿Cuáles son las calificaciones requeridas?
-¿Cuál es el salario ofrecido?
-¿Cuándo puedo empezar?
-¿Hay oportunidades de ascenso?
-Necesito abrir una cuenta bancaria
-¿Qué documentos son necesarios?
-¿Hay cuotas mensuales?
-¿Cómo puedo obtener una tarjeta bancaria?
-Quisiera transferir dinero
-¿Cuál es el tipo de cambio?
-¿Cuánto tiempo tarda la transferencia?
-Tengo un problema con mi cuenta
-Mi tarjeta fue tragada por el cajero automático
-Quisiera bloquear mi tarjeta
-Alguien ha usado mi tarjeta sin autorización
-¿Cómo puedo presentar una queja?
-¿Necesitan un documento de identidad?
-Aún no he recibido mi tarjeta
-El código PIN no funciona
-Quisiera aumentar mi límite
-¿Puedo consultar mi saldo?
-¿Hay comisiones por retiro?
-Me gustaría contratar un seguro
-¿Qué cubre el seguro?
-¿Cuál es el monto del deducible?
-¿Cómo puedo hacer un reclamo?
-¿Cuánto tiempo se tarda en ser reembolsado?
+Me gustaría agendar una cita | I would like to make an appointment | [me ɣˌustaɾˈia ˌaxɛndˈaɾ ˈuna θˈita]
+¿Tienen disponibilidad? | Do you have availability? | [tjˈenɛn dˌisponˌiβiliðˈad]
+¿Podría confirmarme por correo electrónico? | Could you confirm by email? | [pɔðɾˈia kˌɔmfiɾmˈaɾme pɔɾ kɔrˈeo ˌelektɾˈɔniko]
+Necesito cancelar mi reserva | I need to cancel my reservation | [nˌeθesˈito kˌanθelˈaɾ mi resˈɛɾβa]
+¿Hay costos de cancelación? | Are there cancellation fees? | [ˈaɪ kˈɔstos ðe kˌanθelaθjˈɔn]
+No he recibido mi confirmación | I didn't receive my confirmation | [nˈo ˈe rˌeθiβˈiðo mi kˌɔmfiɾmaθjˈɔn]
+¿Puede revisar mi reserva? | Can you check my reservation? | [pwˈeðe rˌeβisˈaɾ mi resˈɛɾβa]
+El vuelo ha sido cancelado | The flight has been cancelled | [el βwˈelo ˈa sˈiðo kˌanθelˈaðo]
+¿Cuándo es el próximo vuelo? | When is the next flight? | [kwˈando ˈes el pɾˈɔksimo βwˈelo]
+¿Puedo obtener un reembolso? | Can I get a refund? | [pwˈeðo ˌɔbtenˈɛɾ ˈun rˌeembˈɔlso]
+No cargaron mi equipaje | My luggage wasn't loaded | [nˈo kaɾɣˈaɾɔn mi ˌekipˈaxe]
+¿Dónde está la oficina de objetos perdidos? | Where is the lost and found office? | [dˈɔnde estˈa la ˌofiθˈina ðe ɔβxˈetos pɛɾðˈiðos]
+Quisiera presentar una queja | I would like to file a complaint | [kisjˈɛɾa pɾˌesɛntˈaɾ ˈuna kˈexa]
+¿Cómo puedo contactarlos? | How can I contact you? | [kˈɔmo pwˈeðo kˌɔntaktˈaɾlos]
+¿Cuál es su número de teléfono? | What is your phone number? | [kwˈal ˈes su nˈumɛɾɔ ðe telˈɛfono]
+¿Cuál es su dirección de correo electrónico? | What is your email address? | [kwˈal ˈes su ðˌiɾɛkθjˈɔn de kɔrˈeo ˌelektɾˈɔniko]
+Estoy buscando un apartamento para alquilar | I'm looking for an apartment to rent | [estˈoɪ βuskˈando ˈun ˌapaɾtamˈɛnto pˌaɾa ˌalkilˈaɾ]
+¿Cuánto es el alquiler mensual? | How much is the rent per month? | [kwˈanto ˈes el ˌalkilˈɛɾ mɛnswˈal]
+¿Están incluidos los servicios públicos? | Are utilities included? | [estˈan ˌinkluˈiðos los sɛɾβˈiθjos pˈuβlikos]
+¿Hay algún depósito? | Is there a deposit? | [ˈaɪ alɣˈun depˈɔsito]
+¿Es seguro el barrio? | Is the neighborhood safe? | [ˈes seɣˈuɾɔ el βˈario]
+¿Hay transporte público cercano? | Is there public transport nearby? | [ˈaɪ tɾanspˈɔɾte pˈuβliko θɛɾkˈano]
+Estoy buscando trabajo | I'm looking for work | [estˈoɪ βuskˈando tɾaβˈaxo]
+¿Cuáles son las calificaciones requeridas? | What qualifications are required? | [kwˈales sˈɔn las kˌalifˌikaθjˈones rˌekɛɾˈiðas]
+¿Cuál es el salario ofrecido? | What is the offered salary? | [kwˈal ˈes el salˈaɾjo ˌɔfɾeθˈiðo]
+¿Cuándo puedo empezar? | When can I start? | [kwˈando pwˈeðo ˌempeθˈaɾ]
+¿Hay oportunidades de ascenso? | Are there opportunities for advancement? | [ˈaɪ ˌopɔɾtˌuniðˈaðes ðe asθˈɛnso]
+Necesito abrir una cuenta bancaria | I need to open a bank account | [nˌeθesˈito aβɾˈiɾ ˈuna kwˈɛnta βankˈaɾja]
+¿Qué documentos son necesarios? | What documents are needed? | [kˈɛ ðˌokumˈɛntos sˈɔn nˌeθesˈaɾjos]
+¿Hay tarifas mensuales? | Are there monthly fees? | [ˈaɪ taɾˈifas mɛnswˈales]
+¿Cómo puedo obtener una tarjeta bancaria? | How can I get a bank card? | [kˈɔmo pwˈeðo ˌɔbtenˈɛɾ ˈuna taɾxˈeta βankˈaɾja]
+Quisiera transferir dinero | I would like to transfer money | [kisjˈɛɾa tɾˌansfɛɾˈiɾ ðinˈɛɾɔ]
+¿Cuál es la tasa de cambio? | What is the exchange rate? | [kwˈal ˈes la tˈasa ðe kˈambjo]
+¿Cuánto tarda la transferencia? | How long does the transfer take? | [kwˈanto tˈaɾða la tɾˌansfɛɾˈɛnθja]
+Tengo un problema con mi cuenta | I have a problem with my account | [tˈɛŋɡo ˈum pɾɔβlˈema kɔn mi kwˈɛnta]
+Mi tarjeta fue tragada por el cajero automático | My card was swallowed by the ATM | [mi taɾxˈeta fwˈe tɾaɣˈaða pɔɾ el kaxˈɛɾɔ ˌaʊtomˈatiko]
+Quiero cancelar mi tarjeta | I would like to cancel my card | [kjˈɛɾɔ kˌanθelˈaɾ mi taɾxˈeta]
+Alguien usó mi tarjeta sin autorización | Someone used my card without authorization | [ˈalɣjɛn usˈɔ mi taɾxˈeta sin ˌaʊtɔɾˌiθaθjˈɔn]
+¿Cómo puedo presentar una denuncia? | How can I file a complaint? | [kˈɔmo pwˈeðo pɾˌesɛntˈaɾ ˈuna ðenˈunθja]
+¿Necesitan una identificación? | Do you need an ID? | [nˌeθesˈitan ˈuna ˌiðɛntˌifikaθjˈɔn]
+Aún no he recibido mi tarjeta | I haven't received my card yet | [aˈun nˈo ˈe rˌeθiβˈiðo mi taɾxˈeta]
+El código PIN no funciona | The PIN code doesn't work | [el kˈɔðiɣo pˌeˌiˈɛne nˈo funθjˈona]
+Quisiera aumentar mi límite | I would like to increase my limit | [kisjˈɛɾa ˌaʊmɛntˈaɾ mi lˈimite]
+¿Puedo consultar mi saldo? | Can I check my balance? | [pwˈeðo kˌɔnsultˈaɾ mi sˈalðo]
+¿Hay tarifas por retiro? | Are there withdrawal fees? | [ˈaɪ taɾˈifas pɔɾ retˈiɾɔ]
+Me gustaría contratar un seguro | I would like to take out insurance | [me ɣˌustaɾˈia kˌɔntɾatˈaɾ ˈun seɣˈuɾɔ]
+¿Qué cubre el seguro? | What is covered by the insurance? | [kˈɛ kˈuβɾe el seɣˈuɾɔ]
+¿Cuál es el monto del deducible? | What is the deductible amount? | [kwˈal ˈes el mˈɔnto ðel ðˌeðuθˈiβle]
+¿Cómo puedo hacer una reclamación? | How can I make a claim? | [kˈɔmo pwˈeðo aθˈɛɾ ˈuna rˌeklamaθjˈɔn]
+¿Cuánto tiempo se tarda en ser reembolsado? | How long does it take to be reimbursed? | [kwˈanto tjˈempo se tˈaɾða ɛn sˈɛɾ rˌeembɔlsˈaðo]

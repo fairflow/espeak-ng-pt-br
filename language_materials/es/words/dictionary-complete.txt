@@ -1,1460 +1,2003 @@
 # Complete Spanish Dictionary
 # Generated from story and phrases
-# Total words: 1456
+# Format: word | [IPA]
+# Total words: 1998
 
-10
-11
-12
-13
-14
-15
-16
-2024
-a'i
-a'kwerðo
-a'si
-abajo
-abandonada
-abandonarla
-abrazados
-abrazan
-abre
-abrigada
-abrigado
-abrigador
-abrigo
-abrir
-absorbe
-abuela
-acabamos
-aceptan
-aceptemos
-acerca
-acercan
-aclara
-acogedor
-acondicionado
-aconseja
-acuerdo
-adiós
-admirando
-adoro
-afortunadamente
-afuera
-agita
-agotado
-agua
-ahora
-ahí
-aire
-al
-albergado
-aleja
-algo
-alguien
-alguna
-algunas
-algún
-alimentación
-alimentan
-aliviada
-alivio
-allá
-allí
-alpino
-alquilar
-alquiler
-alrededor
-alrededores
-alérgico
-amabilidad
-amable
-amanecer
-ambos
-amenazante
-amor
-anciano
-andén
-angustia
-animal
-animales
-animarse
-anoche
-anterior
-antes
-antiguos
-anuncia
-anunciación
-anuncio
-aparece
-apartamento
-apenas
-aprendido
-aprendió
-aquí
-arde
-aroma
-arregla
-arreglármelas
-arrepentimientos
-arrepentirnos
-arriba
-arrugadas
-ascenso
-asco
-asi
-asientos
-asta
-asustado
-así
-atentamente
-aterriza
-aterrizó
-atocha
-atraviesa
-atrevo
-atrás
-aumentar
-aunque
-autobús
-automático
-autorización
-auténtica
-auxilios
-avanza
-avanzamos
-ave
-aventura
-avisado
-avisaste
-ayer
-ayuda
-ayudar
-ayudarme
-ayudaron
-ayudará
-ayudó
-azul
-azúcar
-aðjos
-añade
-año
-aún
-aɲo
-ba'mos
-baja
-bajan
-bajando
-bajar
-baje
-bajo
-bala
-balido
-bancaria
-barrio
-base
-baños
-bebe
-beben
-bien
-bienvenido
-bienvenidos
-billete
-billetes
-bjen
-bjenβe'nido
-blanc
-blancura
-bloquear
-bocadillos
-bolsa
-bolsillo
-bolsillos
-bondad
-bonito
-borradas
-botella
-brilla
-brota
-buen
-buena
-buenas
-bueno
-buenos
-bus
-busca
-buscando
-buscar
-buscarla
-buscándome
-bwe'na
-bwen
-bwena
-bwenas
-búsqueda
-cabaña
-cabeza
-cabra
-cacahuetes
-cada
-cafetería
-café
-cajero
-caliente
-calificaciones
-calle
-calles
-calma
-calmado
-calor
-cama
-camarero
-cambia
-cambiado
-cambiando
-cambio
-camina
-caminan
-caminando
-caminata
-camino
-caminos
-campo
-cancelación
-cancelado
-cancelar
-cansada
-cansado
-capaces
-capacidad
-capaz
-cara
-cargado
-cargo
-cariño
-caro
-carteles
-cartera
-casa
-casas
-casi
-caso
-cautela
-cautelosamente
-cazuela
-cena
-cerca
-cercana
-cercano
-cerilla
-cerillas
-cerrado
-cerraste
-chaqueta
-chimenea
-chocolate
-churrera
-churrería
-churro
-churros
-cielo
-cierta
-cinco
-cita
-ciudad
-clara
-claro
-cocinan
-cocinas
-cogemos
-cogen
-cogido
-cogí
-coloca
-color
-comedor
-comen
-comenta
-comer
-comerciante
-comestibles
-comienza
-comienzan
-comisaría
-comisiones
-como
-comparten
-completa
-completamente
-completos
-comportamiento
-compra
-compramos
-comprar
-compras
-comprender
-comprobado
-comprobar
-comprobé
-común
-con
-condición
-confiar
-confirmación
-confirmarme
-confunde
-confunden
-conmigo
-conoce
-conocemos
-conocen
-consciente
-consejo
-constantemente
-consultar
-contactarlos
-contará
-contigo
-continuar
-continuarán
-continúan
-contrario
-contratar
-contraventanas
-controlar
-conversación
-conversadora
-coraje
-corre
-corren
-correo
-cosas
-cosecha
-costado
-creado
-crece
-creo
-creído
-cruzan
-crédito
-cuando
-cuanto
-cuarto
-cuatro
-cubre
-cuenta
-cuerpo
-cuesta
-cuestan
-cuidado
-culpable
-cumbres
-cumpleaños
-cuotas
-curiosidad
-curro
-cuál
-cuáles
-cuándo
-cuántas
-cuánto
-cuántos
-cálida
-círculo
-código
-cómo
-da
-damos
-dando
-danzar
-dar
-daño
-de
-debe
-debemos
-debería
-deberíamos
-debo
-debí
-decide
-decidido
-decidir
-decisión
-decía
-dedo
-deducible
-dejado
-dejarla
-del
-delante
-delicadamente
-deliciosa
-demasiado
-densa
-dentro
-depare
-depósito
-derecha
-desafío
-desarrollo
-desayuno
-descansa
-descender
-descienden
-describe
-descubre
-descubrimiento
-descubrimientos
-descubrir
-deseas
-deseo
-desesperadamente
-desespero
-despacio
-despejado
-despertarme
-después
-detiene
-dia
-dice
-dicen
-diferente
-diferentes
-difícil
-dijo
-dinero
-dios
-dirección
-directo
-dirige
-disculpe
-discusión
-discutir
-disgusto
-disipado
-diskulpe
-disponibilidad
-disponible
-dispuesto
-disputa
-documento
-documentos
-dolor
-donde
-dones
-dormir
-dormiste
-dos
-duda
-dudaba
-dudas
-dudes
-duelen
-dueña
-dueño
-dulce
-dura
-durante
-día
-días
-dónde
-echo
-edad
-edificios
-el
-electrónico
-elegir
-elegí
-elementos
-eligen
-ella
-ello
-embarga
-emocionada
-emoción
-empezaba
-empezamos
-empezar
-empieza
-empiezan
-empleada
-en
-encanta
-encantada
-encantado
-encantador
-encanto
-encender
-encendió
-encima
-encontrado
-encontrar
-encontraremos
-encontré
-encontró
-encuentra
-encuentran
-encuentros
-endereza
-enfrentar
-enfrentarlo
-enfrente
-enkan'taða
-enkan'taðo
-enseña
-enseñando
-entender
-entiendo
-entra
-entrada
-entran
-entrar
-entre
-entusiasmo
-envié
-envolverlo
-equipaje
-equipo
-era
-eres
-es
-esa
-esas
-escena
-escenas
-escucha
-escuchado
-escuchara
-escucho
-esencial
-esfuerza
-eso
-esos
-esparce
-esparcirse
-español
-espera
-esperamos
-esperar
-esperemos
-espero
-espesa
-espontáneamente
-esquina
-esta
-estaba
-estabais
-estabas
-estación
-estamos
-estar
-estaremos
-estaré
-estas
-este
-esto
-estoj
-estos
-estoy
-estrechas
-estructura
-estuve
-está
-estábamos
-están
-estás
-esté
-estómago
-estúpidos
-euros
-evolucionando
-exactamente
-examina
-excelente
-excitación
-exclama
-exige
-existiendo
-existir
-existió
-experiencia
-explica
-explorar
-extendidas
-extiende
-extraña
-extraño
-extraños
-falta
-farmacia
-favor
-favorita
-favorito
-faβor
-fe'liz
-felicidad
-felicidades
-felisi'daðes
-feliz
-fiebre
-fijamente
-fin
-finalmente
-firmeza
-fluye
-fluyendo
-forma
-formal
-fotos
-fragilidad
-francés
-frente
-frenéticamente
-fresco
-frota
-frío
-fue
-fuego
-fuerte
-fuertes
-fuerzas
-fuimos
-funciona
-futuras
-futuro
-futuros
-fácil
-gente
-gira
-gire
-gluten
-golpe
-graba
-grabado
-gracias
-gran
-granada
-grande
-granja
-granjero
-grasjas
-gratitud
-grenoble
-grita
-gritando
-grupo
-guiado
-guió
-gusta
-gustaría
-gusto
-guía
-ha
-haber
-haberle
-haberme
-haberte
-habitaciones
-habitación
-habla
-habladora
-hablar
-hablas
-hablo
-habría
-había
-hace
-hacen
-hacer
-hacerles
-hacerlo
-hacia
-haciendo
-hago
-hambre
-han
-has
-hasta
-hay
-haya
-he
-hecho
-helicóptero
-hemos
-herir
-hermoso
-hesitación
-hice
-hierve
-historia
-historias
-hola
-hombre
-hombro
-hondo
-hora
-horas
-hostal
-hoy
-hubiera
-huir
-humana
-humanas
-húmeda
-ida
-idea
-identidad
-ido
-iglesia
-igual
-ilumina
-ilusión
-implica
-importa
-importante
-imposible
-impresión
-incertidumbre
-incluido
-incluidos
-incluso
-incrédula
-indicarme
-indiferencia
-indiferente
-indiferentes
-inesperado
-infancia
-informal
-ingenuidad
-inglesa
-inglés
-inmediatamente
-inocencia
-inscripción
-insiste
-instantes
-intencionalidad
-intención
-intenta
-intento
-interpreta
-interpretar
-interpreto
-inusual
-inviernos
-involuntaria
-ir
-iremos
-irnos
-izquierda
-ja
-jamón
-jardín
-jefe
-jersey
-joven
-juntas
-junto
-juntos
-justo
-ke
-ki'sas
-kilo
-komo
-kon
-kumple'aɲos
-kwi'ðaðo
-la
-lado
-larga
-largo
-las
-le
-leche
-leer
-lejos
-lentamente
-les
-levanta
-levantado
-leña
-libre
-libres
-libro
-linterna
-lista
-listas
-listo
-llama
-llamar
-llamas
-llamo
-llave
-llega
-llegada
-llegado
-llegamos
-llegan
-llegar
-llegaremos
-llegaron
-llegará
-llena
-lleva
-llevaba
-llevamos
-llevar
-llevemos
-lleven
-llevábamos
-llorando
-lo
-local
-loco
-londres
-los
-lucas
-luego
-lugar
-luz
-límite
-ma'ɲana
-madera
-madrid
-madrileño
-magníficas
-magnífico
-maja
-mal
-mala
-malasaña
-maletas
-manantial
-mano
-manos
-manta
-mantengas
-mapa
-mar
-maravilla
-marc
-marcha
-mañana
-me
-me'xor
-media
-mediana
-mejor
-melancolía
-menos
-mensual
-mensuales
-mente
-menú
-mesa
-metro
-metros
-mezcla
-mi
-miedo
-mientras
-minutos
-mira
-mirado
-miran
-mirando
-misma
-mismos
-misteriosa
-mo'mento
-mochila
-mochilas
-momento
-momentos
-mont
-montaña
-montañas
-montañoso
-monto
-monótona
-moreno
-mostrador
-mostrarme
-mostrándole
-motor
-mucha
-muchas
-mucho
-muchísimo
-muestra
-muestres
-muj
-mujer
-mundo
-muy
-muʧo
-más
-médica
-médico
-mí
-móvil
-nada
-naturaleza
-navidad
-naða
-naβi'ðað
-necesario
-necesarios
-necesidad
-necesita
-necesitamos
-necesitan
-necesito
-negro
-nerviosidad
-nervioso
-nevadas
-nevados
-ni
-niebla
-no
-noche
-noches
-noción
-nombre
-normal
-normandía
-nos
-nota
-notarse
-noviembre
-noʧes
-nubes
-nuestra
-nuestras
-nuestro
-nuestros
-nueva
-nuevo
-nuevos
-nunca
-nweβo
-número
-objetos
-observa
-observan
-obtener
-oferta
-oficina
-ofrece
-ofrecido
-oh
-oigo
-ojalá
-ojos
-ola
-olor
-olvidado
-olvides
-olvidé
-once
-opción
-oportunidades
-optimista
-ordenador
-ordinario
-organiza
-organizar
-orientación
-orientarse
-ortigas
-os
-oscura
-otra
-otro
-oye
-paciencia
-padre
-pagamos
-pagar
-paisaje
-palabras
-palma
-pan
-panadera
-panadería
-papel
-para
-parada
-parece
-pared
-paredes
-parte
-partes
-partida
-partir
-partirá
-parís
-pasa
-pasan
-pasando
-pasaporte
-pase
-pasea
-pasean
-paseo
-pasteles
-pastor
-pedido
-pedidos
-pena
-pensaba
-pensar
-pequeña
-pequeño
-perder
-perderla
-perderte
-perdida
-perdido
-perdidos
-perdona
-perdérsela
-perdón
-perdóname
-perfecto
-permanecen
-permanecido
-permita
-pero
-perro
-persianas
-persona
-personas
-perðon
-picaduras
-pican
-picos
-pide
-piedra
-piensa
-pierde
-pin
-pintoresco
-pirineos
-piso
-plantas
-poco
-podemos
-podido
-podría
-podríamos
-podrían
-podíamos
-policía
-pone
-por
-portátil
-posada
-posibilidades
-posibles
-potable
-precaución
-precio
-preciosas
-precioso
-precisamente
-prefieres
-pregunta
-preguntemos
-preocupación
-preocupas
-prepara
-preparada
-presentar
-pretender
-primero
-pro'βeʧo
-probarlo
-problema
-profesionales
-profunda
-profundamente
-pronto
-propietario
-proteger
-provecho
-proyectamos
-proyectando
-prueba
-próximo
-pueblo
-puede
-puedes
-puedo
-puerta
-puesto
-puro
-pánico
-pérdida
-público
-que
-queda
-quedado
-quedan
-quedarme
-quedarnos
-quedémonos
-queja
-querida
-quería
-querías
-queso
-quesos
-quien
-quienes
-quiere
-quieres
-quiero
-quince
-quisiera
-quita
-quizás
-quién
-qué
-quédese
-randonnée
-raro
-raros
-rato
-razón
-realmente
-receta
-recibe
-recibido
-recibí
-reclamo
-recoge
-recomienda
-reconoció
-reconozco
-recto
-recuerda
-recuerdan
-recuerdos
-recupera
-recuperado
-reembolsado
-reembolso
-reencuentro
-reflexiona
-reflexión
-refugio
-regalo
-regalos
-regresa
-regresan
-relación
-reloj
-repente
-repentino
-repetir
-reprocha
-requeridas
-requiere
-rescate
-rescatista
-rescatistas
-reserva
-respira
-respiración
-responde
-resuena
-retiro
-retoma
-retrasado
-revisa
-rioja
-robado
-rocas
-roja
-ropa
-rostro
-ruido
-ruiz
-ruta
-rutas
-rápidamente
-rápido
-sa'lud
-saben
-sabes
-sabido
-sabré
-saca
-salario
-saldo
-saldrá
-sale
-salir
-salud
-salvo
-salvos
-salvó
-sanos
-se
-se'gundo
-sea
-segovia
-seguir
-seguiremos
-seguirla
-seguirán
-segundo
-segura
-seguridad
-seguro
-seguros
-semana
-sencilla
-senderismo
-sendero
-sentada
-sentir
-sentirme
-sepa
-separación
-separados
-separan
-separemos
-ser
-seremos
-serio
-servicio
-servicios
-será
-serás
-sesenta
-señal
-señala
-señales
-señas
-si
-sido
-siempre
-sienta
-sientan
-siente
-sientes
-siento
-siete
-siga
-significa
-significado
-sigue
-siguen
-siguiente
-silencio
-simple
-simplemente
-sin
-sino
-sintiendo
-sirve
-situación
-sobre
-sobrecoge
-sobrevivido
-sobrevivir
-socorrista
-socorristas
-socorro
-sofá
-sofía
-sois
-sol
-sola
-soledades
-solo
-somos
-son
-sonido
-sonidos
-sonrisa
-sonríe
-sopa
-sophie
-sopla
-sorprendido
-sosteniendo
-soy
-su
-suavemente
-subamos
-sube
-suben
-sucede
-sucediendo
-suerte
-sueño
-sueños
-supervivencia
-surgen
-sus
-suspira
-suéter
-swerte
-sé
-sí
-sólida
-sólido
-tal
-talla
-tallos
-también
-tampoco
-tan
-tantas
-tanto
-tarda
-tarde
-tarjeta
-tarjetas
-tarðe
-te
-tela
-teléfono
-teléfonos
-temblando
-temperatura
-tenemos
-tener
-tengan
-tengas
-tengo
-tenido
-tensa
-tenéis
-tenía
-terminada
-terriblemente
-teŋgas
-ti
-tiempo
-tienda
-tiene
-tienen
-tienes
-tinto
-tipo
-tiritaba
-toca
-tocan
-tocarlas
-toda
-todas
-todavía
-todo
-todos
-toma
-tomamos
-toman
-tomar
-tomates
-tomo
-tontos
-tormentas
-tosiendo
-tostada
-trabajo
-trae
-tragada
-tranquilo
-transbordo
-transferencia
-transferir
-transforma
-transformación
-transformado
-transporte
-traído
-tren
-trenes
-tres
-tristeza
-trozo
-tu
-tuviera
-té
-tú
-un
-una
-unas
-uno
-unos
-us'ted
-usado
-usando
-usted
-ustedes
-va
-vagón
-vale
-valentía
-valle
-vamos
-van
-vas
-ve
-veces
-vegetariana
-vegetariano
-vemos
-vengo
-venido
-venimos
-ventana
-ventanilla
-veo
-ver
-verdad
-verdadero
-verdes
-verificar
-verán
-verás
-vez
-viajar
-viaje
-vida
-vidas
-vieja
-viento
-vinimos
-vino
-vinos
-vinoteca
-vista
-visto
-viva
-vivió
-vivo
-volver
-volverte
-voy
-voz
-vuelo
-vuelta
-vueltas
-vuelve
-vuelvo
-ya
-yergue
-yo
-árboles
-él
-última
-βja'xe
-βjen
-βoj
+abajo | [aβˈaxo]
+abandonada | [ˌaβandonˈaða]
+abandonarla | [ˌaβandonˈaɾla]
+abrazados | [ˌaβɾaθˈaðos]
+abrazan | [aβɾˈaθan]
+abre | [ˈaβɾe]
+abrigada | [ˌaβɾiɣˈaða]
+abrigado | [ˌaβɾiɣˈaðo]
+abrigador | [ˌaβɾiɣaðˈɔɾ]
+abrigo | [aβɾˈiɣo]
+abrir | [aβɾˈiɾ]
+absorbe | [aβsˈɔɾβe]
+abuela | [aβwˈela]
+acabamos | [ˌakaβˈamos]
+accept | [akθˈepːt]
+account | [akkˈownt]
+aceptan | [aθˈepːtan]
+aceptemos | [ˌaθepːtˈemos]
+acerca | [aθˈɛɾka]
+acercan | [aθˈɛɾkan]
+aclara | [aklˈaɾa]
+acogedor | [ˌakoxeðˈɔɾ]
+acondicionado | [ˌakɔndˌiθjonˈaðo]
+aconseja | [ˌakɔnsˈexa]
+acuerdo | [akwˈɛɾðo]
+address | [adðɾˈess]
+adiós | [aðjˈɔs]
+admirando | [ˌadmiɾˈando]
+adoro | [aðˈɔɾɔ]
+advancement | [ˌaðβanθemˈɛnt]
+afortunadamente | [ˌafɔɾtˌunaðamˈɛnte]
+afuera | [afwˈɛɾa]
+agendar | [ˌaxɛndˈaɾ]
+agita | [axˈita]
+agotado | [ˌaɣotˈaðo]
+agreed | [ˌaɣɾeˈed]
+agua | [ˈaɣwa]
+ahead | [ˌaeˈad]
+ahora | [aˈɔɾa]
+ahí | [aˈi]
+air | [ˈaɪɾ]
+aire | [ˈaɪɾɛ]
+ajjˈɛɾ | [ˈa xˈɔta xˈɔta (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(es)]
+akwˈɛɾðo | [ˈa kˈa ˌuβe ðˈɔβle (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(es) dˈe ˈo]
+akˈi | [ˈa kˈa (en)stɹˈɛs(es) ˈi]
+al | [ˈal]
+albergado | [ˌalβɛɾɣˈaðo]
+aleja | [alˈexa]
+algo | [ˈalɣo]
+alguien | [ˈalɣjɛn]
+alguna | [alɣˈuna]
+algunas | [alɣˈunas]
+algún | [alɣˈun]
+alimentación | [ˌalimˌɛntaθjˈɔn]
+alimentan | [ˌalimˈɛntan]
+aliviada | [ˌaliβjˈaða]
+alivio | [alˈiβjo]
+all | [ˈaʎ]
+allergic | [ˌaʎɛɾxˈik]
+allá | [aʎˈa]
+allí | [aʎˈi]
+alpino | [alpˈino]
+alquilar | [ˌalkilˈaɾ]
+alquiler | [ˌalkilˈɛɾ]
+already | [ˌalreˈaði]
+alrededor | [ˌalreðeðˈɔɾ]
+alrededores | [ˌalreðeðˈɔɾɛs]
+always | [alwˈaɪs]
+alérgico | [alˈɛɾxiko]
+alɣˈun | [ˈa ˈɛle (en)ɡˈamə stɹˈɛs(es) ˈu ˈɛne]
+alɣˈuna | [ˈa ˈɛle (en)ɡˈamə stɹˈɛs(es) ˈu ˈɛne ˈa]
+alˈɛɾxiko | [ˈa ˈɛle (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(es) ˈɛkis ˈi kˈa ˈo]
+am | [ˈam]
+amabilidad | [ˌamaβˌiliðˈad]
+amable | [amˈaβle]
+amanecer | [ˌamaneθˈɛɾ]
+ambos | [ˈambos]
+amenazante | [ˌamenaθˈante]
+amor | [amˈɔɾ]
+amount | [amˈownt]
+an | [ˈan]
+anciano | [anθjˈano]
+and | [ˈand]
+andén | [andˈɛn]
+angustia | [aŋɡˈustja]
+animal | [ˌanimˈal]
+animales | [ˌanimˈales]
+animarse | [ˌanimˈaɾse]
+anoche | [anˈotʃe]
+another | [ˌanotˈɛɾ]
+anterior | [ˌantɛɾjˈɔɾ]
+antes | [ˈantes]
+antiguos | [antˈiɣwos]
+anuncia | [anˈunθja]
+anunciación | [ˌanunθjaθjˈɔn]
+anuncio | [anˈunθjo]
+aparece | [ˌapaɾˈɛθe]
+apartamento | [ˌapaɾtamˈɛnto]
+apartment | [ˌapaɾtmˈɛnt]
+apenas | [apˈenas]
+appointment | [ˌappoɪntmˈɛnt]
+aprendido | [ˌapɾɛndˈiðo]
+aprendió | [ˌapɾɛndjˈɔ]
+aquí | [akˈi]
+arde | [ˈaɾðe]
+are | [ˈaɾɛ]
+aroma | [aɾˈɔma]
+arregla | [arˈeɣla]
+arreglármelas | [ˌareɣlˈaɾmelas]
+arrepentimientos | [ˌarepˌɛntimjˈɛntos]
+arrepentirnos | [ˌarepɛntˈiɾnos]
+arriba | [arˈiβa]
+arrugadas | [ˌaruɣˈaðas]
+ascenso | [asθˈɛnso]
+asco | [ˈasko]
+asientos | [asjˈɛntos]
+asustado | [ˌasustˈaðo]
+así | [asˈi]
+asˈi | [ˈa ˈɛse (en)stɹˈɛs(es) ˈi]
+asθˈɛnso | [ˈa ˈɛse (en)θˈiːtə stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne ˈɛse ˈo]
+at | [ˈat]
+atentamente | [ˌatɛntamˈɛnte]
+aterriza | [ˌatɛrˈiθa]
+aterrizó | [ˌatɛriθˈɔ]
+atm | [ˈatm]
+atocha | [atˈotʃa]
+atraviesa | [ˌatɾaβjˈesa]
+atrevo | [atɾˈeβo]
+atrás | [atɾˈas]
+aumentar | [ˌaʊmɛntˈaɾ]
+aunque | [ˈaʊnke]
+authorization | [ˌaʊtɔɾiθˈatjɔn]
+autobús | [ˌaʊtoβˈus]
+automático | [ˌaʊtomˈatiko]
+autorización | [ˌaʊtɔɾˌiθaθjˈɔn]
+auténtica | [aʊtˈɛntika]
+auxilios | [aʊksˈiljos]
+availability | [ˌaβaɪlˌaβilˈiti]
+available | [ˌaβaɪlˈaβle]
+avanza | [aβˈanθa]
+avanzamos | [ˌaβanθˈamos]
+ave | [ˈaβe]
+aventura | [ˌaβɛntˈuɾa]
+avisado | [ˌaβisˈaðo]
+avisaste | [ˌaβisˈaste]
+ayer | [ajjˈɛɾ]
+ayuda | [ajjˈuða]
+ayudar | [ˌajjuðˈaɾ]
+ayudarme | [ˌajjuðˈaɾme]
+ayudaron | [ˌajjuðˈaɾɔn]
+ayudará | [ˌajjuðaɾˈa]
+ayudó | [ˌajjuðˈɔ]
+azul | [aθˈul]
+azúcar | [aθˈukaɾ]
+aðjˈɔs | [ˈa ðˈe xˈɔta (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛse]
+añade | [aɲˈaðe]
+año | [ˈaɲo]
+aún | [aˈun]
+aʎˈa | [ˈa (en)tˈɜːndwˈaɪ stɹˈɛs(es) ˈa]
+aˈi | [ˈa (en)stɹˈɛs(es) ˈi]
+aˈun | [ˈa (en)stɹˈɛs(es) ˈu ˈɛne]
+aˈɔɾa | [ˈa (en)stɹˈɛs ˌəʊpənˈɔː ˈɑːtap(es) ˈa]
+aβlˈaɾ | [ˈa (en)bˈiːtə(es) ˈɛle (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+aβɾˈiɾ | [ˈa (en)bˈiːtə ˈɑːtap stɹˈɛs(es) ˈi (en)ˈɑːtap(es)]
+aθˈepːtan | [ˈa (en)θˈiːtə stɹˈɛs(es) ˈe pˈe (en)lˈɛŋθənd(es) tˈe ˈa ˈɛne]
+aθˈɛɾ | [ˈa (en)θˈiːtə stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(es)]
+bad | [bˈad]
+bag | [bˈaɡ]
+baja | [bˈaxa]
+bajan | [bˈaxan]
+bajando | [baxˈando]
+bajar | [baxˈaɾ]
+baje | [bˈaxe]
+bajo | [bˈaxo]
+bala | [bˈala]
+balance | [balˈanθe]
+balido | [balˈiðo]
+bancaria | [bankˈaɾja]
+bank | [bˈaŋk]
+barrio | [bˈario]
+base | [bˈase]
+baños | [bˈaɲos]
+be | [bˈe]
+bebe | [bˈeβe]
+beben | [bˈeβɛn]
+been | [bˈeɛn]
+better | [bettˈɛɾ]
+bien | [bjˈɛn]
+bienvenido | [bjˌɛmbenˈiðo]
+bienvenidos | [bjˌɛmbenˈiðos]
+bill | [bˈiʎ]
+billete | [biʎˈete]
+billetes | [biʎˈetes]
+birthday | [biɾtðˈaɪ]
+biʎˈete | [bˈe ˈi (en)tˈɜːndwˈaɪ stɹˈɛs(es) ˈe tˈe ˈe]
+bjˈaxe | [bˈe xˈɔta (en)stɹˈɛs(es) ˈa ˈɛkis ˈe]
+bjˈɛn | [bˈe xˈɔta (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne]
+bjˌɛmbenˈiðo | [bˈe xˈɔta (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː(es) ˈɛme βˈe ˈe ˈɛne (en)stɹˈɛs(es) ˈi ðˈe ˈo]
+blanc | [blˈank]
+blancura | [blankˈuɾa]
+bless | [blˈess]
+bocadillos | [bˌokaðˈiʎos]
+bolsillo | [bɔlsˈiʎo]
+bolsillos | [bɔlsˈiʎos]
+bolso | [bˈɔlso]
+bondad | [bɔndˈad]
+bonito | [bonˈito]
+borradas | [bɔrˈaðas]
+botella | [botˈeʎa]
+breakfast | [bɾˌeakfˈast]
+brilla | [bɾˈiʎa]
+brota | [bɾˈota]
+buen | [bwˈɛn]
+buena | [bwˈena]
+buenas | [bwˈenas]
+bueno | [bwˈeno]
+bus | [bˈus]
+busca | [bˈuska]
+buscando | [buskˈando]
+buscar | [buskˈaɾ]
+buscarla | [buskˈaɾla]
+buscándome | [buskˈandome]
+buy | [bˈujj]
+bwˈenas | [bˈe ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈe ˈɛne ˈa ˈɛse]
+bwˈɛm | [bˈe ˌuβe ðˈɔβle (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛme]
+bwˈɛn | [bˈe ˌuβe ðˈɔβle (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne]
+by | [βˈi]
+bye | [bjjˈe]
+búsqueda | [bˈuskeða]
+bˈamos | [bˈe (en)stɹˈɛs(es) ˈa ˈɛme ˈo ˈɛse]
+bˈiβo | [bˈe (en)stɹˈɛs(es) ˈi (en)bˈiːtə(es) ˈo]
+bˈɛŋɡo | [bˈe (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne xˈe ˈo]
+cabaña | [kaβˈaɲa]
+cabeza | [kaβˈeθa]
+cabra | [kˈaβɾa]
+cacahuetes | [kˌakawˈetes]
+cada | [kˈaða]
+cafetería | [kˌafetɛɾˈia]
+café | [kafˈɛ]
+cajero | [kaxˈɛɾɔ]
+caliente | [kaljˈɛnte]
+calificaciones | [kˌalifˌikaθjˈones]
+call | [kˈaʎ]
+calle | [kˈaʎe]
+calles | [kˈaʎes]
+calma | [kˈalma]
+calmado | [kalmˈaðo]
+calor | [kalˈɔɾ]
+cama | [kˈama]
+camarero | [kˌamaɾˈɛɾɔ]
+cambia | [kˈambja]
+cambiado | [kambjˈaðo]
+cambiando | [kambjˈando]
+cambiar | [kambjˈaɾ]
+cambio | [kˈambjo]
+camina | [kamˈina]
+caminan | [kamˈinan]
+caminando | [kˌaminˈando]
+caminata | [kˌaminˈata]
+camino | [kamˈino]
+caminos | [kamˈinos]
+campo | [kˈampo]
+can | [kˈan]
+cancel | [kanθˈel]
+cancelación | [kˌanθelaθjˈɔn]
+cancelado | [kˌanθelˈaðo]
+cancelar | [kˌanθelˈaɾ]
+cancellation | [kˌanθeʎˈatjɔn]
+cancelled | [kˌanθeʎˈed]
+cansada | [kansˈaða]
+cansado | [kansˈaðo]
+capaces | [kapˈaθes]
+capacidad | [kˌapaθiðˈad]
+capaz | [kapˈaθ]
+cara | [kˈaɾa]
+card | [kˈaɾd]
+cards | [kˈaɾds]
+careful | [kˌaɾɛfˈul]
+cargaron | [kaɾɣˈaɾɔn]
+cariño | [kaɾˈiɲo]
+caro | [kˈaɾɔ]
+carteles | [kaɾtˈeles]
+cartera | [kaɾtˈɛɾa]
+casa | [kˈasa]
+casas | [kˈasas]
+casi | [kˈasi]
+caso | [kˈaso]
+cautela | [kaʊtˈela]
+cautelosamente | [kˌaʊtelˌosamˈɛnte]
+cazuela | [kaθwˈela]
+cena | [θˈena]
+cerca | [θˈɛɾka]
+cercana | [θɛɾkˈana]
+cercano | [θɛɾkˈano]
+cerilla | [θɛɾˈiʎa]
+cerillas | [θɛɾˈiʎas]
+cerrado | [θɛrˈaðo]
+cerraste | [θɛrˈaste]
+change | [tʃˈaŋxe]
+chaqueta | [tʃakˈeta]
+check | [tʃˈek]
+cheers | [tʃeˈɛɾs]
+chimenea | [tʃˌimenˈea]
+chocolate | [tʃˌokolˈate]
+christmas | [tʃɾˈistmas]
+churrera | [tʃurˈɛɾa]
+churrería | [tʃˌurɛɾˈia]
+churro | [tʃˈuro]
+churros | [tʃˈuros]
+cielo | [θjˈelo]
+cierta | [θjˈɛɾta]
+cinco | [θˈinko]
+cita | [θˈita]
+ciudad | [θjuðˈad]
+claim | [klˈaɪm]
+clara | [klˈaɾa]
+claro | [klˈaɾɔ]
+cocinan | [koθˈinan]
+cocinas | [koθˈinas]
+code | [kˈoðe]
+cogemos | [koxˈemos]
+cogen | [kˈoxɛn]
+cogido | [koxˈiðo]
+cogí | [koxˈi]
+coloca | [kolˈoka]
+color | [kolˈɔɾ]
+come | [kˈome]
+comedor | [kˌomeðˈɔɾ]
+comen | [kˈomɛn]
+comenta | [komˈɛnta]
+comer | [komˈɛɾ]
+comerciante | [kˌomɛɾθjˈante]
+comestibles | [kˌomestˈiβles]
+comienza | [komjˈɛnθa]
+comienzan | [komjˈɛnθan]
+coming | [kˈomiŋ]
+comisaría | [kˌomisaɾˈia]
+como | [kˈomo]
+comparten | [kɔmpˈaɾtɛn]
+complaint | [kɔmplˈaɪnt]
+completa | [kɔmplˈeta]
+completamente | [kˌɔmpletamˈɛnte]
+completos | [kɔmplˈetos]
+comportamiento | [kˌɔmpɔɾtamjˈɛnto]
+compra | [kˈɔmpɾa]
+compramos | [kɔmpɾˈamos]
+comprar | [kɔmpɾˈaɾ]
+compras | [kˈɔmpɾas]
+comprender | [kˌɔmpɾɛndˈɛɾ]
+comprobado | [kˌɔmpɾoβˈaðo]
+comprobar | [kˌɔmpɾoβˈaɾ]
+comprobé | [kˌɔmpɾoβˈɛ]
+común | [komˈun]
+con | [kˈɔn]
+condición | [kˌɔndiθjˈɔn]
+conditioning | [kˌɔnditjˈoniŋ]
+confiar | [kɔmfjˈaɾ]
+confirm | [kɔmfˈiɾm]
+confirmación | [kˌɔmfiɾmaθjˈɔn]
+confirmarme | [kˌɔmfiɾmˈaɾme]
+confirmation | [kˌɔmfiɾmˈatjɔn]
+confunde | [kɔmfˈunde]
+confunden | [kɔmfˈundɛn]
+congratulations | [kˌɔŋɡɾatulˈatjɔns]
+conmigo | [kɔnmˈiɣo]
+conoce | [konˈoθe]
+conocemos | [kˌonoθˈemos]
+conocen | [konˈoθɛn]
+consciente | [kɔnsθjˈɛnte]
+consejo | [kɔnsˈexo]
+constantemente | [kˌɔnstantemˈɛnte]
+consultar | [kˌɔnsultˈaɾ]
+contact | [kɔntˈakt]
+contactarlos | [kˌɔntaktˈaɾlos]
+contará | [kˌɔntaɾˈa]
+contigo | [kɔntˈiɣo]
+continuar | [kˌɔntinwˈaɾ]
+continuarán | [kˌɔntinwaɾˈan]
+continúan | [kˌɔntinˈuan]
+contrario | [kɔntɾˈaɾjo]
+contratar | [kˌɔntɾatˈaɾ]
+contraventanas | [kˌɔntɾaβɛntˈanas]
+controlar | [kˌɔntɾolˈaɾ]
+conversación | [kˌɔmbɛɾsaθjˈɔn]
+conversadora | [kˌɔmbɛɾsaðˈɔɾa]
+coraje | [kɔɾˈaxe]
+corre | [kˈɔre]
+corren | [kˈɔrɛn]
+correo | [kɔrˈeo]
+cosas | [kˈosas]
+cosecha | [kosˈetʃa]
+cost | [kˈɔst]
+costado | [kɔstˈaðo]
+costos | [kˈɔstos]
+coughing | [kˈowɣiŋ]
+could | [kˈowld]
+covered | [kˌoβɛɾˈɛd]
+creado | [kɾeˈaðo]
+crece | [kɾˈeθe]
+credit | [kɾeðˈit]
+creo | [kɾˈeo]
+creído | [kɾeˈiðo]
+cruzan | [kɾˈuθan]
+crédito | [kɾˈɛðito]
+cuando | [kwˈando]
+cuanto | [kwˈanto]
+cuarto | [kwˈaɾto]
+cuatro | [kwˈatɾo]
+cubre | [kˈuβɾe]
+cuenta | [kwˈɛnta]
+cuerpo | [kwˈɛɾpo]
+cuesta | [kwˈesta]
+cuestan | [kwˈestan]
+cuidado | [kwiðˈaðo]
+culpable | [kulpˈaβle]
+cumbres | [kˈumbɾes]
+cumpleaños | [kˌumpleˈaɲos]
+curiosidad | [kˌuɾjosiðˈad]
+curro | [kˈuro]
+cuál | [kwˈal]
+cuáles | [kwˈales]
+cuándo | [kwˈando]
+cuántas | [kwˈantas]
+cuánto | [kwˈanto]
+cuántos | [kwˈantos]
+cálida | [kˈaliða]
+círculo | [θˈiɾkulo]
+código | [kˈɔðiɣo]
+cómo | [kˈɔmo]
+da | [dˈa]
+damos | [dˈamos]
+dando | [dˈando]
+danzar | [danθˈaɾ]
+dar | [dˈaɾ]
+day | [dˈaɪ]
+daño | [dˈaɲo]
+de | [dˈe]
+debe | [dˈeβe]
+debemos | [deβˈemos]
+debería | [dˌeβɛɾˈia]
+deberíamos | [dˌeβɛɾˈiamos]
+debo | [dˈeβo]
+debí | [deβˈi]
+decide | [deθˈiðe]
+decidido | [dˌeθiðˈiðo]
+decidir | [dˌeθiðˈiɾ]
+decisión | [dˌeθisjˈɔn]
+decía | [deθˈia]
+dedo | [dˈeðo]
+deducible | [dˌeðuθˈiβle]
+deductible | [dˌeðuktˈiβle]
+dejado | [dexˈaðo]
+dejarla | [dexˈaɾla]
+del | [dˈel]
+delante | [delˈante]
+delicadamente | [dˌelikˌaðamˈɛnte]
+deliciosa | [dˌeliθjˈosa]
+demasiado | [dˌemasjˈaðo]
+densa | [dˈɛnsa]
+dentro | [dˈɛntɾo]
+denuncia | [denˈunθja]
+depare | [depˈaɾɛ]
+deposit | [dˌeposˈit]
+depósito | [depˈɔsito]
+depˈɔsito | [dˈe ˈe pˈe (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛse ˈi tˈe ˈo]
+derecha | [dɛɾˈɛtʃa]
+desafío | [dˌesafˈio]
+desarrollo | [dˌesarˈɔʎo]
+desayuno | [dˌesajjˈuno]
+descansa | [deskˈansa]
+descender | [dˌesθɛndˈɛɾ]
+descienden | [desθjˈɛndɛn]
+describe | [deskɾˈiβe]
+descubre | [deskˈuβɾe]
+descubrimiento | [dˌeskuβɾimjˈɛnto]
+descubrimientos | [dˌeskuβɾimjˈɛntos]
+descubrir | [dˌeskuβɾˈiɾ]
+deseas | [desˈeas]
+deseo | [desˈeo]
+desesperadamente | [dˌesespˌɛɾaðamˈɛnte]
+desespero | [dˌesespˈɛɾɔ]
+despacio | [despˈaθjo]
+despejado | [dˌespexˈaðo]
+despertarme | [dˌespɛɾtˈaɾme]
+después | [despwˈɛs]
+detiene | [detjˈene]
+dice | [dˈiθe]
+dicen | [dˈiθɛn]
+didn't | [dˈidnt]
+diferente | [dˌifɛɾˈɛnte]
+diferentes | [dˌifɛɾˈɛntes]
+difícil | [difˈiθil]
+dijo | [dˈixo]
+dinero | [dinˈɛɾɔ]
+dios | [djˈos]
+dirección | [dˌiɾɛkθjˈɔn]
+direct | [diɾˈɛkt]
+directo | [diɾˈɛkto]
+dirige | [diɾˈixe]
+disculpe | [diskˈulpe]
+discusión | [dˌiskusjˈɔn]
+discutir | [dˌiskutˈiɾ]
+disgusto | [disɣˈusto]
+disipado | [dˌisipˈaðo]
+diskˈulpe | [dˈe ˈi ˈɛse kˈa (en)stɹˈɛs(es) ˈu ˈɛle pˈe ˈe]
+disponibilidad | [dˌisponˌiβiliðˈad]
+disponible | [dˌisponˈiβle]
+dispuesto | [dispwˈesto]
+disputa | [dispˈuta]
+do | [dˈo]
+doctor | [dɔktˈɔɾ]
+documentos | [dˌokumˈɛntos]
+documents | [dˌokumˈɛnts]
+does | [dˈoes]
+doesn't | [doˈesnt]
+don't | [dˈɔnt]
+donde | [dˈɔnde]
+dones | [dˈones]
+dormir | [dɔɾmˈiɾ]
+dormiste | [dɔɾmˈiste]
+dos | [dˈos]
+duda | [dˈuða]
+dudaba | [duðˈaβa]
+dudas | [dˈuðas]
+dudes | [dˈuðes]
+duele | [dwˈele]
+duelen | [dwˈelɛn]
+dueña | [dwˈeɲa]
+dueño | [dwˈeɲo]
+dulce | [dˈulθe]
+dura | [dˈuɾa]
+durante | [duɾˈante]
+dwˈele | [dˈe ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈe ˈɛle ˈe]
+día | [dˈia]
+dónde | [dˈɔnde]
+dˈia | [dˈe (en)stɹˈɛs(es) ˈi ˈa]
+dˈɔnde | [dˈe (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne ðˈe ˈe]
+dˌisponˈiβle | [dˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈi ˈɛse pˈe ˈo ˈɛne (en)stɹˈɛs(es) ˈi (en)bˈiːtə(es) ˈɛle ˈe]
+dˌisponˌiβiliðˈad | [dˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈi ˈɛse pˈe ˈo ˈɛne (en)sˈɛkəndɹɪstɹˌɛs(es) ˈi (en)bˈiːtə(es) ˈi ˈɛle ˈi ðˈe (en)stɹˈɛs(es) ˈa ðˈe]
+echo | [ˈetʃo]
+edad | [eðˈad]
+edificios | [ˌeðifˈiθjos]
+el | [ˈel]
+electrónico | [ˌelektɾˈɔniko]
+elegir | [ˌelexˈiɾ]
+elegí | [ˌelexˈi]
+elementos | [ˌelemˈɛntos]
+eligen | [elˈixɛn]
+ella | [ˈeʎa]
+ello | [ˈeʎo]
+email | [emˈaɪl]
+embarga | [embˈaɾɣa]
+emocionada | [ˌemoθjonˈaða]
+emoción | [ˌemoθjˈɔn]
+empezaba | [ˌempeθˈaβa]
+empezamos | [ˌempeθˈamos]
+empezar | [ˌempeθˈaɾ]
+empieza | [empjˈeθa]
+empiezan | [empjˈeθan]
+empleada | [ˌempleˈaða]
+en | [ˈɛn]
+encanta | [ɛnkˈanta]
+encantada | [ˌɛnkantˈaða]
+encantado | [ˌɛnkantˈaðo]
+encantador | [ˌɛnkantaðˈɔɾ]
+encanto | [ɛnkˈanto]
+encender | [ˌɛnθɛndˈɛɾ]
+encendió | [ˌɛnθɛndjˈɔ]
+encima | [ɛnθˈima]
+encontrado | [ˌɛnkɔntɾˈaðo]
+encontrar | [ˌɛnkɔntɾˈaɾ]
+encontraremos | [ˌɛnkɔntɾaɾˈɛmos]
+encontré | [ˌɛnkɔntɾˈɛ]
+encontró | [ˌɛnkɔntɾˈɔ]
+encuentra | [ɛnkwˈɛntɾa]
+encuentran | [ɛnkwˈɛntɾan]
+encuentros | [ɛnkwˈɛntɾos]
+endereza | [ˌɛndɛɾˈɛθa]
+enfrentar | [ˌɛmfɾɛntˈaɾ]
+enfrentarlo | [ˌɛmfɾɛntˈaɾlo]
+enfrente | [ɛmfɾˈɛnte]
+english | [ˈiŋɡliʃ]
+enjoy | [ɛŋxˈoɪ]
+enseña | [ɛnsˈeɲa]
+enseñando | [ˌɛnseɲˈando]
+entender | [ˌɛntɛndˈɛɾ]
+entiendo | [ɛntjˈɛndo]
+entra | [ˈɛntɾa]
+entrada | [ɛntɾˈaða]
+entran | [ˈɛntɾan]
+entrar | [ɛntɾˈaɾ]
+entre | [ˈɛntɾe]
+entusiasmo | [ˌɛntusjˈasmo]
+envié | [ɛmbjˈɛ]
+envolverlo | [ˌɛmbɔlβˈɛɾlo]
+equipaje | [ˌekipˈaxe]
+equipo | [ekˈipo]
+era | [ˈɛɾa]
+eres | [ˈɛɾɛs]
+es | [ˈes]
+esa | [ˈesa]
+esas | [ˈesas]
+escena | [esθˈena]
+escenas | [esθˈenas]
+escucha | [eskˈutʃa]
+escuchado | [ˌeskutʃˈaðo]
+escuchara | [ˌeskutʃˈaɾa]
+escucho | [eskˈutʃo]
+esencial | [ˌesɛnθjˈal]
+esfuerza | [esfwˈɛɾθa]
+eso | [ˈeso]
+esos | [ˈesos]
+esparce | [espˈaɾθe]
+esparcirse | [ˌespaɾθˈiɾse]
+español | [ˌespaɲˈɔl]
+espera | [espˈɛɾa]
+esperamos | [ˌespɛɾˈamos]
+esperar | [ˌespɛɾˈaɾ]
+esperemos | [ˌespɛɾˈɛmos]
+espero | [espˈɛɾɔ]
+espesa | [espˈesa]
+espontáneamente | [ˌespɔntˈaneˌamɛnte]
+esquina | [eskˈina]
+esta | [ˈesta]
+estaba | [estˈaβa]
+estabais | [estˈaβaɪs]
+estabas | [estˈaβas]
+estación | [ˌestaθjˈɔn]
+estamos | [estˈamos]
+estar | [estˈaɾ]
+estaremos | [ˌestaɾˈɛmos]
+estaré | [ˌestaɾˈɛ]
+estas | [ˈestas]
+este | [ˈeste]
+esto | [ˈesto]
+estos | [ˈestos]
+estoy | [estˈoɪ]
+estrechas | [estɾˈetʃas]
+estructura | [ˌestɾuktˈuɾa]
+estuve | [estˈuβe]
+está | [estˈa]
+estábamos | [estˈaβamos]
+están | [estˈan]
+estás | [estˈas]
+esté | [estˈɛ]
+estómago | [estˈɔmaɣo]
+estúpidos | [estˈupiðos]
+estˈa | [ˈe ˈɛse tˈe (en)stɹˈɛs(es) ˈa]
+estˈan | [ˈe ˈɛse tˈe (en)stɹˈɛs(es) ˈa ˈɛne]
+estˈas | [ˈe ˈɛse tˈe (en)stɹˈɛs(es) ˈa ˈɛse]
+estˈoɪ | [ˈe ˈɛse tˈe (en)stɹˈɛs(es) ˈo (en)smˈɔːlkˌapˈaɪ(es)]
+estˈɔmaɣo | [ˈe ˈɛse tˈe (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛme ˈa (en)ɡˈamə(es) ˈo]
+euros | [ˈeʊɾɔs]
+evening | [eβˈeniŋ]
+evolucionando | [ˌeβolˌuθjonˈando]
+exactamente | [ˌeksaktamˈɛnte]
+examina | [ˌeksamˈina]
+excelente | [ˌeksθelˈɛnte]
+exchange | [ekstʃˈaŋxe]
+excitación | [ˌeksθitaθjˈɔn]
+exclama | [eksklˈama]
+excuse | [ekskˈuse]
+exige | [eksˈixe]
+existiendo | [ˌeksistjˈɛndo]
+existir | [ˌeksistˈiɾ]
+existió | [ˌeksistjˈɔ]
+expensive | [ˌekspɛnsˈiβe]
+experiencia | [ˌekspɛɾjˈɛnθja]
+explica | [eksplˈika]
+explorar | [ˌeksplɔɾˈaɾ]
+extendidas | [ˌekstɛndˈiðas]
+extiende | [ekstjˈɛnde]
+extraña | [ekstɾˈaɲa]
+extraño | [ekstɾˈaɲo]
+extraños | [ekstɾˈaɲos]
+falta | [fˈalta]
+far | [fˈaɾ]
+farmacia | [faɾmˈaθja]
+favor | [faβˈɔɾ]
+favorita | [fˌaβɔɾˈita]
+favorito | [fˌaβɔɾˈito]
+faɾmˈaθja | [ˈɛfe ˈa (en)ˈɑːtap(es) ˈɛme (en)stɹˈɛs(es) ˈa (en)θˈiːtə(es) xˈɔta ˈa]
+faβˈɔɾ | [ˈɛfe ˈa (en)bˈiːtə stɹˈɛs ˌəʊpənˈɔː ˈɑːtap(es)]
+feel | [feˈel]
+fees | [fˈees]
+felicidad | [fˌeliθiðˈad]
+felicidades | [fˌeliθiðˈaðes]
+feliz | [felˈiθ]
+felˈiθ | [ˈɛfe ˈe ˈɛle (en)stɹˈɛs(es) ˈi (en)θˈiːtə(es)]
+fever | [feβˈɛɾ]
+fiebre | [fjˈeβɾe]
+fijamente | [fˌixamˈɛnte]
+file | [fˈile]
+fin | [fˈin]
+finalmente | [fˌinalmˈɛnte]
+fine | [fˈine]
+firmeza | [fiɾmˈeθa]
+fjˈeβɾe | [ˈɛfe xˈɔta (en)stɹˈɛs(es) ˈe (en)bˈiːtə ˈɑːtap(es) ˈe]
+flight | [flˈiɣt]
+fluye | [flˈujje]
+fluyendo | [flujjˈɛndo]
+for | [fˈɔɾ]
+forma | [fˈɔɾma]
+formal | [fɔɾmˈal]
+fotos | [fˈotos]
+found | [fˈownd]
+fragilidad | [fɾˌaxiliðˈad]
+francés | [fɾanθˈɛs]
+french | [fɾˈɛntʃ]
+frente | [fɾˈɛnte]
+frenéticamente | [fɾenˈɛtikˌamɛnte]
+fresco | [fɾˈesko]
+from | [fɾˈɔm]
+frota | [fɾˈota]
+frío | [fɾˈio]
+fue | [fwˈe]
+fuego | [fwˈeɣo]
+fuerte | [fwˈɛɾte]
+fuertes | [fwˈɛɾtes]
+fuerzas | [fwˈɛɾθas]
+fuimos | [fwˈimos]
+funciona | [funθjˈona]
+funθjˈona | [ˈɛfe ˈu ˈɛne (en)θˈiːtə(es) xˈɔta (en)stɹˈɛs(es) ˈo ˈɛne ˈa]
+futuras | [futˈuɾas]
+futuro | [futˈuɾɔ]
+futuros | [futˈuɾɔs]
+fwˈe | [ˈɛfe ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈe]
+fácil | [fˈaθil]
+fɾanθˈɛs | [ˈɛfe (en)ˈɑːtap(es) ˈa ˈɛne (en)θˈiːtə stɹˈɛs ˌəʊpənˈɛː(es) ˈɛse]
+fˌeliθiðˈaðes | [ˈɛfe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe ˈɛle ˈi (en)θˈiːtə(es) ˈi ðˈe (en)stɹˈɛs(es) ˈa ðˈe ˈe ˈɛse]
+gente | [xˈɛnte]
+get | [xˈet]
+gift-wrap | [xˈiftˌuβe ðˈɔβlerˈap]
+gira | [xˈiɾa]
+gire | [xˈiɾɛ]
+gladly | [ɡlˈadli]
+gluten | [ɡlˈutɛn]
+gluten-free | [ɡlˈutɛmfɾˈi]
+go | [ɡˈo]
+golpe | [ɡˈɔlpe]
+good | [ɡoˈɔd]
+goodbye | [ɡoˈɔdβjje]
+graba | [ɡɾˈaβa]
+grabado | [ɡɾaβˈaðo]
+gracias | [ɡɾˈaθjas]
+gran | [ɡɾˈan]
+granada | [ɡɾanˈaða]
+grande | [ɡɾˈande]
+granja | [ɡɾˈaŋxa]
+granjero | [ɡɾaŋxˈɛɾɔ]
+gratitud | [ɡɾˌatitˈud]
+grenoble | [ɡɾenˈɔβle]
+grita | [ɡɾˈita]
+gritando | [ɡɾitˈando]
+grupo | [ɡɾˈupo]
+guiado | [ɡjˈaðo]
+guió | [ɡjˈɔ]
+gusta | [ɡˈusta]
+gustaría | [ɡˌustaɾˈia]
+gusto | [ɡˈusto]
+guía | [ɡˈia]
+ha | [ˈa]
+haber | [aβˈɛɾ]
+haberle | [aβˈɛɾle]
+haberme | [aβˈɛɾme]
+haberte | [aβˈɛɾte]
+habitaciones | [ˌaβitaθjˈones]
+habitación | [ˌaβitaθjˈɔn]
+habla | [ˈaβla]
+habladora | [ˌaβlaðˈɔɾa]
+hablar | [aβlˈaɾ]
+hablas | [ˈaβlas]
+hablo | [ˈaβlo]
+habría | [aβɾˈia]
+había | [aβˈia]
+hace | [ˈaθe]
+hacen | [ˈaθɛn]
+hacer | [aθˈɛɾ]
+hacerles | [aθˈɛɾles]
+hacerlo | [aθˈɛɾlo]
+hacia | [ˈaθja]
+haciendo | [aθjˈɛndo]
+hago | [ˈaɣo]
+hambre | [ˈambɾe]
+han | [ˈan]
+hang | [ˈaŋ]
+happy | [ˈappi]
+has | [ˈas]
+hasta | [ˈasta]
+have | [ˈaβe]
+haven't | [aβˈɛnt]
+hay | [ˈaɪ]
+haya | [ˈajja]
+he | [ˈe]
+headache | [ˌeaðˈatʃe]
+hecho | [ˈetʃo]
+helicóptero | [ˌelikˈɔpːtɛɾɔ]
+hello | [ˈeʎo]
+help | [ˈelp]
+hemos | [ˈemos]
+here | [ˈɛɾɛ]
+herir | [ɛɾˈiɾ]
+hermoso | [ɛɾmˈoso]
+hesitación | [ˌesitaθjˈɔn]
+hi | [ˈi]
+hice | [ˈiθe]
+hierve | [jˈɛɾβe]
+historia | [istˈɔɾja]
+historias | [istˈɔɾjas]
+hola | [ˈola]
+hombre | [ˈɔmbɾe]
+hombro | [ˈɔmbɾo]
+hondo | [ˈɔndo]
+hora | [ˈɔɾa]
+horas | [ˈɔɾas]
+hostal | [ɔstˈal]
+hot | [ˈɔt]
+how | [ˈɔw]
+hoy | [ˈoɪ]
+hubiera | [uβjˈɛɾa]
+huir | [wˈiɾ]
+humana | [umˈana]
+humanas | [umˈanas]
+húmeda | [ˈumeða]
+i'm | [ˈim]
+id | [ˈid]
+ida | [ˈiða]
+idea | [iðˈea]
+identificación | [ˌiðɛntˌifikaθjˈɔn]
+ido | [ˈiðo]
+iglesia | [iɣlˈesja]
+igual | [iɣwˈal]
+ilumina | [ˌilumˈina]
+ilusión | [ˌilusjˈɔn]
+implica | [implˈika]
+importa | [impˈɔɾta]
+importante | [ˌimpɔɾtˈante]
+imposible | [ˌimposˈiβle]
+impresión | [ˌimpɾesjˈɔn]
+impˈɔɾta | [ˈi ˈɛme pˈe (en)stɹˈɛs ˌəʊpənˈɔː ˈɑːtap(es) tˈe ˈa]
+in | [ˈin]
+incertidumbre | [ˌinθɛɾtiðˈumbɾe]
+included | [ˌinkluðˈed]
+incluido | [ˌinkluˈiðo]
+incluidos | [ˌinkluˈiðos]
+incluso | [inklˈuso]
+increase | [ˌinkɾeˈase]
+incrédula | [inkɾˈɛðula]
+indicarme | [ˌindikˈaɾme]
+indiferencia | [ˌindifɛɾˈɛnθja]
+indiferente | [ˌindifɛɾˈɛnte]
+indiferentes | [ˌindifɛɾˈɛntes]
+inesperado | [ˌinespɛɾˈaðo]
+infancia | [imfˈanθja]
+informal | [ˌimfɔɾmˈal]
+ingenuidad | [ˌiŋxenwiðˈad]
+inglesa | [iŋɡlˈesa]
+inglés | [iŋɡlˈɛs]
+inmediatamente | [ˌinmeðjˌatamˈɛnte]
+inocencia | [ˌinoθˈɛnθja]
+inscripción | [ˌinskɾipθjˈɔn]
+insiste | [insˈiste]
+instantes | [instˈantes]
+insurance | [ˌinsuɾˈanθe]
+intencionalidad | [ˌintɛnθjˌonaliðˈad]
+intención | [ˌintɛnθjˈɔn]
+intenta | [intˈɛnta]
+intento | [intˈɛnto]
+interpreta | [ˌintɛɾpɾˈeta]
+interpretar | [ˌintɛɾpɾetˈaɾ]
+interpreto | [ˌintɛɾpɾˈeto]
+inusual | [ˌinuswˈal]
+inviernos | [imbjˈɛɾnos]
+involuntaria | [ˌimboluntˈaɾja]
+ir | [ˈiɾ]
+iremos | [iɾˈɛmos]
+irnos | [ˈiɾnos]
+is | [ˈis]
+it | [ˈit]
+it's | [ˈits]
+izquierda | [iθkjˈɛɾða]
+iŋɡlˈesa | [ˈi ˈɛne xˈe ˈɛle (en)stɹˈɛs(es) ˈe ˈɛse ˈa]
+iŋɡlˈɛs | [ˈi ˈɛne xˈe ˈɛle (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛse]
+iθkjˈɛɾða | [ˈi (en)θˈiːtə(es) kˈa xˈɔta (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(es) dˈe ˈa]
+jamón | [xamˈɔn]
+jardín | [xaɾðˈin]
+jefe | [xˈefe]
+jersey | [xɛɾsˈeɪ]
+joven | [xˈoβɛn]
+juntas | [xˈuntas]
+junto | [xˈunto]
+juntos | [xˈuntos]
+justo | [xˈusto]
+kaljˈɛnte | [kˈa ˈa ˈɛle xˈɔta (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne tˈe ˈe]
+kambjˈaɾ | [kˈa ˈa ˈɛme βˈe xˈɔta (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+kamˈino | [kˈa ˈa ˈɛme (en)stɹˈɛs(es) ˈi ˈɛne ˈo]
+kaxˈɛɾɔ | [kˈa ˈa ˈɛkis (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap ˌəʊpənˈɔː(es)]
+kaɾɣˈaɾɔn | [kˈa ˈa (en)ˈɑːtap ɡˈamə stɹˈɛs(es) ˈa (en)ˈɑːtap ˌəʊpənˈɔː(es) ˈɛne]
+kaβˈeθa | [kˈa ˈa (en)bˈiːtə stɹˈɛs(es) ˈe (en)θˈiːtə(es) ˈa]
+ke | [kˈe]
+keep | [keˈep]
+key | [kˈeɪ]
+kilo | [kˈilo]
+kisjˈɛɾa | [kˈa ˈi ˈɛse xˈɔta (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(es) ˈa]
+kiθˈas | [kˈa ˈi (en)θˈiːtə stɹˈɛs(es) ˈa ˈɛse]
+kjˈɛɾɔ | [kˈa xˈɔta (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap ˌəʊpənˈɔː(es)]
+know | [kˈanˈɔw]
+kolˈɔɾ | [kˈa ˈo ˈɛle (en)stɹˈɛs ˌəʊpənˈɔː ˈɑːtap(es)]
+kwiðˈaðo | [kˈa ˌuβe ðˈɔβle ˈi ðˈe (en)stɹˈɛs(es) ˈa ðˈe ˈo]
+kwˈal | [kˈa ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈa ˈɛle]
+kwˈales | [kˈa ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈa ˈɛle ˈe ˈɛse]
+kwˈando | [kˈa ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈa ˈɛne ðˈe ˈo]
+kwˈantas | [kˈa ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈa ˈɛne tˈe ˈa ˈɛse]
+kwˈanto | [kˈa ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈa ˈɛne tˈe ˈo]
+kwˈesta | [kˈa ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈe ˈɛse tˈe ˈa]
+kwˈɛnta | [kˈa ˌuβe ðˈɔβle (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne tˈe ˈa]
+kɔmpɾˈaɾ | [kˈa (en)ˌəʊpənˈɔː(es) ˈɛme pˈe (en)ˈɑːtap stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+kɔn | [kˈɔn]
+kɔrˈeo | [kˈa (en)ˌəʊpənˈɔː(es) ˈɛɾe (en)stɹˈɛs(es) ˈe ˈo]
+kɔŋ | [kˈɔn]
+kɾˈɛðito | [kˈa (en)ˈɑːtap stɹˈɛs ˌəʊpənˈɛː(es) dˈe ˈi tˈe ˈo]
+kˈambjo | [kˈa (en)stɹˈɛs(es) ˈa ˈɛme βˈe xˈɔta ˈo]
+kˈaɾɔ | [kˈa (en)stɹˈɛs(es) ˈa (en)ˈɑːtap ˌəʊpənˈɔː(es)]
+kˈexa | [kˈa (en)stɹˈɛs(es) ˈe ˈɛkis ˈa]
+kˈuβɾe | [kˈa (en)stɹˈɛs(es) ˈu (en)bˈiːtə ˈɑːtap(es) ˈe]
+kˈɔmo | [kˈa (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛme ˈo]
+kˈɔstos | [kˈa (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛse tˈe ˈo ˈɛse]
+kˈɔðiɣo | [kˈa (en)stɹˈɛs ˌəʊpənˈɔː(es) dˈe ˈi (en)ɡˈamə(es) ˈo]
+kˈɛ | [kˈa (en)stɹˈɛs ˌəʊpənˈɛː(es)]
+kˈɛðese | [kˈa (en)stɹˈɛs ˌəʊpənˈɛː(es) dˈe ˈe ˈɛse ˈe]
+kˌakawˈetes | [kˈa (en)sˈɛkəndɹɪstɹˌɛs(es) ˈa kˈa ˈa ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈe tˈe ˈe ˈɛse]
+kˌalifˌikaθjˈones | [kˈa (en)sˈɛkəndɹɪstɹˌɛs(es) ˈa ˈɛle ˈi ˈɛfe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈi kˈa ˈa (en)θˈiːtə(es) xˈɔta (en)stɹˈɛs(es) ˈo ˈɛne ˈe ˈɛse]
+kˌanθelaθjˈɔn | [kˈa (en)sˈɛkəndɹɪstɹˌɛs(es) ˈa ˈɛne (en)θˈiːtə(es) ˈe ˈɛle ˈa (en)θˈiːtə(es) xˈɔta (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne]
+kˌanθelˈaðo | [kˈa (en)sˈɛkəndɹɪstɹˌɛs(es) ˈa ˈɛne (en)θˈiːtə(es) ˈe ˈɛle (en)stɹˈɛs(es) ˈa ðˈe ˈo]
+kˌanθelˈaɾ | [kˈa (en)sˈɛkəndɹɪstɹˌɛs(es) ˈa ˈɛne (en)θˈiːtə(es) ˈe ˈɛle (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+kˌomisaɾˈia | [kˈa (en)sˈɛkəndɹɪstɹˌɛs(es) ˈo ˈɛme ˈi ˈɛse ˈa (en)ˈɑːtap stɹˈɛs(es) ˈi ˈa]
+kˌumpleˈaɲos | [kˈa (en)sˈɛkəndɹɪstɹˌɛs(es) ˈu ˈɛme pˈe ˈɛle ˈe (en)stɹˈɛs(es) ˈa (en)ɲˈɛ(es) ˈo ˈɛse]
+kˌɔmfiɾmaθjˈɔn | [kˈa (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɔː(es) ˈɛme ˈɛfe ˈi (en)ˈɑːtap(es) ˈɛme ˈa (en)θˈiːtə(es) xˈɔta (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne]
+kˌɔmfiɾmˈaɾme | [kˈa (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɔː(es) ˈɛme ˈɛfe ˈi (en)ˈɑːtap(es) ˈɛme (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es) ˈɛme ˈe]
+kˌɔnsultˈaɾ | [kˈa (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɔː(es) ˈɛne ˈɛse ˈu ˈɛle tˈe (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+kˌɔntaktˈaɾlos | [kˈa (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɔː(es) ˈɛne tˈe ˈa kˈa tˈe (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es) ˈɛle ˈo ˈɛse]
+kˌɔntɾatˈaɾ | [kˈa (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɔː(es) ˈɛne tˈe (en)ˈɑːtap(es) ˈa tˈe (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+la | [lˈa]
+lado | [lˈaðo]
+larga | [lˈaɾɣa]
+larger | [laɾxˈɛɾ]
+largo | [lˈaɾɣo]
+las | [lˈas]
+late | [lˈate]
+later | [latˈɛɾ]
+le | [lˈe]
+leave | [leˈaβe]
+leche | [lˈetʃe]
+leer | [leˈɛɾ]
+left | [lˈeft]
+lejos | [lˈexos]
+lentamente | [lˌɛntamˈɛnte]
+les | [lˈes]
+let's | [lˈets]
+levanta | [leβˈanta]
+levantado | [lˌeβantˈaðo]
+leña | [lˈeɲa]
+libre | [lˈiβɾe]
+libres | [lˈiβɾes]
+libro | [lˈiβɾo]
+like | [lˈike]
+limit | [limˈit]
+linterna | [lintˈɛɾna]
+lista | [lˈista]
+listas | [lˈistas]
+listo | [lˈisto]
+little | [lˈittle]
+live | [lˈaɪβ]
+llama | [ʎˈama]
+llamar | [ʎamˈaɾ]
+llamas | [ʎˈamas]
+llamo | [ʎˈamo]
+llave | [ʎˈaβe]
+llega | [ʎˈeɣa]
+llegada | [ʎeɣˈaða]
+llegado | [ʎeɣˈaðo]
+llegamos | [ʎeɣˈamos]
+llegan | [ʎˈeɣan]
+llegar | [ʎeɣˈaɾ]
+llegaremos | [ʎˌeɣaɾˈɛmos]
+llegaron | [ʎeɣˈaɾɔn]
+llegará | [ʎˌeɣaɾˈa]
+llena | [ʎˈena]
+lleva | [ʎˈeβa]
+llevaba | [ʎeβˈaβa]
+llevamos | [ʎeβˈamos]
+llevar | [ʎeβˈaɾ]
+llevemos | [ʎeβˈemos]
+lleven | [ʎˈeβɛn]
+llevábamos | [ʎeβˈaβamos]
+llorando | [ʎɔɾˈando]
+lo | [lˈo]
+loaded | [lˌoaðˈed]
+local | [lokˈal]
+loco | [lˈoko]
+london | [lˈɔndɔn]
+londres | [lˈɔndɾes]
+long | [lˈɔŋ]
+looking | [loˈokiŋ]
+los | [lˈos]
+lost | [lˈɔst]
+lot | [lˈɔt]
+lucas | [lˈukas]
+luck | [lˈuk]
+luego | [luˈeɣo]
+lugar | [luɣˈaɾ]
+luggage | [luɡɣˈaxe]
+luz | [lˈuθ]
+límite | [lˈimite]
+lˈaðo | [ˈɛle (en)stɹˈɛs(es) ˈa ðˈe ˈo]
+lˈexos | [ˈɛle (en)stɹˈɛs(es) ˈe ˈɛkis ˈo ˈɛse]
+lˈimite | [ˈɛle (en)stɹˈɛs(es) ˈi ˈɛme ˈi tˈe ˈe]
+lˈɔndɾes | [ˈɛle (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne ðˈe (en)ˈɑːtap(es) ˈe ˈɛse]
+madera | [maðˈɛɾa]
+madrid | [maðɾˈid]
+madrileño | [mˌaðɾilˈeɲo]
+magníficas | [maɡnˈifikas]
+magnífico | [maɡnˈifiko]
+maja | [mˈaxa]
+make | [mˈake]
+mal | [mˈal]
+mala | [mˈala]
+malasaña | [mˌalasˈaɲa]
+maletas | [malˈetas]
+manantial | [mˌanantjˈal]
+mano | [mˈano]
+manos | [mˈanos]
+manta | [mˈanta]
+mantengas | [mantˈɛŋɡas]
+many | [mˈani]
+mapa | [mˈapa]
+mar | [mˈaɾ]
+maravilla | [mˌaɾaβˈiʎa]
+marc | [mˈaɾk]
+marcha | [mˈaɾtʃa]
+maybe | [mˈaɪβe]
+mañana | [maɲˈana]
+maɲˈana | [ˈɛme ˈa (en)ɲˈɛ stɹˈɛs(es) ˈa ˈɛne ˈa]
+me | [mˈe]
+meal | [meˈal]
+mean | [mˈean]
+media | [mˈeðja]
+mediana | [meðjˈana]
+meet | [meˈet]
+mejor | [mexˈɔɾ]
+melancolía | [mˌelankolˈia]
+menos | [mˈenos]
+mensual | [mɛnswˈal]
+mensuales | [mɛnswˈales]
+mente | [mˈɛnte]
+menu | [mˈenu]
+menú | [menˈu]
+menˈu | [ˈɛme ˈe ˈɛne (en)stɹˈɛs(es) ˈu]
+merry | [mˈɛri]
+mesa | [mˈesa]
+metro | [mˈetɾo]
+metros | [mˈetɾos]
+mexˈɔɾ | [ˈɛme ˈe ˈɛkis (en)stɹˈɛs ˌəʊpənˈɔː ˈɑːtap(es)]
+mezcla | [mˈeθkla]
+mi | [mˈi]
+miedo | [mjˈeðo]
+mientras | [mjˈɛntɾas]
+mind | [mˈind]
+minutos | [minˈutos]
+mira | [mˈiɾa]
+mirado | [miɾˈaðo]
+miran | [mˈiɾan]
+mirando | [miɾˈando]
+misma | [mˈisma]
+mismos | [mˈismos]
+misteriosa | [mˌistɛɾjˈosa]
+mochila | [motʃˈila]
+mochilas | [motʃˈilas]
+moment | [momˈɛnt]
+momento | [momˈɛnto]
+momentos | [momˈɛntos]
+momˈɛnto | [ˈɛme ˈo ˈɛme (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne tˈe ˈo]
+money | [monˈeɪ]
+mont | [mˈɔnt]
+montaña | [mɔntˈaɲa]
+montañas | [mɔntˈaɲas]
+montañoso | [mˌɔntaɲˈoso]
+month | [mˈɔnt]
+monthly | [mˈɔntli]
+monto | [mˈɔnto]
+monótona | [monˈɔtona]
+more | [mˈɔɾɛ]
+moreno | [mɔɾˈɛno]
+mostrador | [mˌɔstɾaðˈɔɾ]
+mostrarme | [mɔstɾˈaɾme]
+mostrándole | [mɔstɾˈandole]
+motor | [motˈɔɾ]
+much | [mˈutʃ]
+mucha | [mˈutʃa]
+muchas | [mˈutʃas]
+mucho | [mˈutʃo]
+muchísimo | [mutʃˈisimo]
+muestra | [mwˈestɾa]
+muestres | [mwˈestɾes]
+mujer | [muxˈɛɾ]
+mundo | [mˈundo]
+muy | [mˈujj]
+my | [mˈi]
+más | [mˈas]
+médica | [mˈɛðika]
+médico | [mˈɛðiko]
+mí | [mˈi]
+móvil | [mˈɔβil]
+mɛnswˈal | [ˈɛme (en)ˌəʊpənˈɛː(es) ˈɛne ˈɛse ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈa ˈɛle]
+mɛnswˈales | [ˈɛme (en)ˌəʊpənˈɛː(es) ˈɛne ˈɛse ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈa ˈɛle ˈe ˈɛse]
+mˈal | [ˈɛme (en)stɹˈɛs(es) ˈa ˈɛle]
+mˈas | [ˈɛme (en)stɹˈɛs(es) ˈa ˈɛse]
+mˈesa | [ˈɛme (en)stɹˈɛs(es) ˈe ˈɛse ˈa]
+mˈujj | [ˈɛme (en)stɹˈɛs(es) ˈu xˈɔta xˈɔta]
+mˈutʃo | [ˈɛme (en)stɹˈɛs(es) ˈu tˈe (en)ˈɛʃ(es) ˈo]
+mˈɔnto | [ˈɛme (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne tˈe ˈo]
+mˈɛðika | [ˈɛme (en)stɹˈɛs ˌəʊpənˈɛː(es) dˈe ˈi kˈa ˈa]
+mˈɛðiko | [ˈɛme (en)stɹˈɛs ˌəʊpənˈɛː(es) dˈe ˈi kˈa ˈo]
+nada | [nˈaða]
+name | [nˈame]
+naturaleza | [nˌatuɾalˈeθa]
+navidad | [nˌaβiðˈad]
+near | [neˈaɾ]
+nearby | [neˈaɾβi]
+nearest | [nˌeaɾˈɛst]
+necesario | [nˌeθesˈaɾjo]
+necesarios | [nˌeθesˈaɾjos]
+necesidad | [nˌeθesiðˈad]
+necesita | [nˌeθesˈita]
+necesitamos | [nˌeθesitˈamos]
+necesitan | [nˌeθesˈitan]
+necesito | [nˌeθesˈito]
+need | [neˈed]
+needed | [nˌeeðˈed]
+negro | [nˈeɣɾo]
+neighborhood | [nˌeɪɣβoɾoˈɔd]
+nerviosidad | [nˌɛɾβjosiðˈad]
+nervioso | [nɛɾβjˈoso]
+nevadas | [neβˈaðas]
+nevados | [neβˈaðos]
+never | [neβˈɛɾ]
+new | [nˈew]
+next | [nˈekst]
+ni | [nˈi]
+nice | [nˈiθe]
+niebla | [njˈeβla]
+night | [nˈiɣt]
+nights | [nˈiɣts]
+no | [nˈo]
+noche | [nˈotʃe]
+noches | [nˈotʃes]
+noción | [noθjˈɔn]
+nombre | [nˈɔmbɾe]
+normal | [nɔɾmˈal]
+normandía | [nˌɔɾmandˈia]
+nos | [nˈos]
+not | [nˈɔt]
+nota | [nˈota]
+notarse | [notˈaɾse]
+noviembre | [noβjˈembɾe]
+now | [nˈɔw]
+nubes | [nˈuβes]
+nuestra | [nwˈestɾa]
+nuestras | [nwˈestɾas]
+nuestro | [nwˈestɾo]
+nuestros | [nwˈestɾos]
+nueva | [nwˈeβa]
+nuevo | [nwˈeβo]
+nuevos | [nwˈeβos]
+number | [numbˈɛɾ]
+nunca | [nˈunka]
+nwˈeβo | [ˈɛne ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈe (en)bˈiːtə(es) ˈo]
+número | [nˈumɛɾɔ]
+nˈaða | [ˈɛne (en)stɹˈɛs(es) ˈa ðˈe ˈa]
+nˈo | [ˈɛne (en)stɹˈɛs(es) ˈo]
+nˈotʃe | [ˈɛne (en)stɹˈɛs(es) ˈo tˈe (en)ˈɛʃ(es) ˈe]
+nˈotʃes | [ˈɛne (en)stɹˈɛs(es) ˈo tˈe (en)ˈɛʃ(es) ˈe ˈɛse]
+nˈumɛɾɔ | [ˈɛne (en)stɹˈɛs(es) ˈu ˈɛme (en)ˌəʊpənˈɛː ˈɑːtap ˌəʊpənˈɔː(es)]
+nˈɔmbɾe | [ˈɛne (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛme βˈe (en)ˈɑːtap(es) ˈe]
+nˌaβiðˈad | [ˈɛne (en)sˈɛkəndɹɪstɹˌɛs(es) ˈa (en)bˈiːtə(es) ˈi ðˈe (en)stɹˈɛs(es) ˈa ðˈe]
+nˌeθesˈaɾjos | [ˈɛne (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe (en)θˈiːtə(es) ˈe ˈɛse (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es) xˈɔta ˈo ˈɛse]
+nˌeθesˈitan | [ˈɛne (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe (en)θˈiːtə(es) ˈe ˈɛse (en)stɹˈɛs(es) ˈi tˈe ˈa ˈɛne]
+nˌeθesˈito | [ˈɛne (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe (en)θˈiːtə(es) ˈe ˈɛse (en)stɹˈɛs(es) ˈi tˈe ˈo]
+o'clock | [oklˈɔk]
+objetos | [ɔβxˈetos]
+observa | [ɔβsˈɛɾβa]
+observan | [ɔβsˈɛɾβan]
+obtener | [ˌɔbtenˈɛɾ]
+oferta | [ofˈɛɾta]
+offered | [ˌɔffɛɾˈɛd]
+office | [ˈofis]
+oficina | [ˌofiθˈina]
+ofrece | [ɔfɾˈeθe]
+ofrecido | [ˌɔfɾeθˈiðo]
+ofˈɛɾta | [ˈo ˈɛfe (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(es) tˈe ˈa]
+oh | [ˈɔ]
+oigo | [ˈoɪɣo]
+ojalá | [ˌoxalˈa]
+ojos | [ˈoxos]
+okay | [okˈaɪ]
+olor | [olˈɔɾ]
+olvidado | [ˌɔlβiðˈaðo]
+olvides | [ɔlβˈiðes]
+olvidé | [ˌɔlβiðˈɛ]
+on | [ˈɔn]
+once | [ˈɔnθe]
+one | [ˈone]
+one-way | [ˈonewˈaɪ]
+opción | [ɔpθjˈɔn]
+open | [ˈopɛn]
+oportunidades | [ˌopɔɾtˌuniðˈaðes]
+opportunities | [ˌɔppɔɾtunˈitjes]
+opposite | [ˌɔpposˈite]
+optimista | [ˌɔpːtimˈista]
+or | [ˈɔɾ]
+ordenador | [ˌɔɾðenaðˈɔɾ]
+ordinario | [ˌɔɾðinˈaɾjo]
+organiza | [ˌɔɾɣanˈiθa]
+organizar | [ˌɔɾɣaniθˈaɾ]
+orientación | [ˌɔɾjɛntaθjˈɔn]
+orientarse | [ˌɔɾjɛntˈaɾse]
+ortigas | [ɔɾtˈiɣas]
+os | [ˈos]
+oscura | [ɔskˈuɾa]
+otra | [ˈɔtɾa]
+otro | [ˈɔtɾo]
+out | [ˈowt]
+over | [oβˈɛɾ]
+oye | [ˈojje]
+paciencia | [paθjˈɛnθja]
+padre | [pˈaðɾe]
+pagamos | [paɣˈamos]
+pagar | [paɣˈaɾ]
+paisaje | [paɪsˈaxe]
+palabras | [palˈaβɾas]
+palma | [pˈalma]
+pan | [pˈan]
+panadera | [pˌanaðˈɛɾa]
+panadería | [pˌanaðɛɾˈia]
+papel | [papˈel]
+para | [pˈaɾa]
+parada | [paɾˈaða]
+pardon | [pˈaɾðɔn]
+parece | [paɾˈɛθe]
+pared | [paɾˈɛd]
+paredes | [paɾˈɛðes]
+paris | [pˈaɾis]
+parte | [pˈaɾte]
+partes | [pˈaɾtes]
+partida | [paɾtˈiða]
+partir | [paɾtˈiɾ]
+partirá | [pˌaɾtiɾˈa]
+parís | [paɾˈis]
+pasa | [pˈasa]
+pasan | [pˈasan]
+pasando | [pasˈando]
+pasaporte | [pˌasapˈɔɾte]
+pase | [pˈase]
+pasea | [pasˈea]
+pasean | [pasˈean]
+paseo | [pasˈeo]
+passport | [passpˈɔɾt]
+pasteles | [pastˈeles]
+pastor | [pastˈɔɾ]
+pay | [pˈaɪ]
+paɣˈaɾ | [pˈe ˈa (en)ɡˈamə stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+paɾˈaða | [pˈe ˈa (en)ˈɑːtap stɹˈɛs(es) ˈa ðˈe ˈa]
+paɾˈis | [pˈe ˈa (en)ˈɑːtap stɹˈɛs(es) ˈi ˈɛse]
+peanuts | [pˌeanˈuts]
+pedido | [peðˈiðo]
+pedidos | [peðˈiðos]
+pensaba | [pɛnsˈaβa]
+pensar | [pɛnsˈaɾ]
+people | [peˈɔple]
+pequeña | [pekˈeɲa]
+pequeño | [pekˈeɲo]
+per | [pˈɛɾ]
+perder | [pɛɾðˈɛɾ]
+perderla | [pɛɾðˈɛɾla]
+perderte | [pɛɾðˈɛɾte]
+perdida | [pɛɾðˈiða]
+perdido | [pɛɾðˈiðo]
+perdidos | [pɛɾðˈiðos]
+perdona | [pɛɾðˈona]
+perdérsela | [pɛɾðˈɛɾsela]
+perdón | [pɛɾðˈɔn]
+perdóname | [pɛɾðˈɔname]
+perfecto | [pɛɾfˈekto]
+permanecen | [pˌɛɾmanˈeθɛn]
+permanecido | [pˌɛɾmaneθˈiðo]
+permita | [pɛɾmˈita]
+pero | [pˈɛɾɔ]
+perro | [pˈɛro]
+persianas | [pɛɾsjˈanas]
+persona | [pɛɾsˈona]
+personas | [pɛɾsˈonas]
+pharmacy | [faɾmˈaθi]
+phone | [fˈone]
+picaduras | [pˌikaðˈuɾas]
+pican | [pˈikan]
+picos | [pˈikos]
+pide | [pˈiðe]
+piedra | [pjˈeðɾa]
+piensa | [pjˈɛnsa]
+pierde | [pjˈɛɾðe]
+pin | [pˈin]
+pintoresco | [pˌintɔɾˈɛsko]
+pirineos | [pˌiɾinˈeos]
+piso | [pˈiso]
+plantas | [plˈantas]
+please | [pleˈase]
+pleasure | [plˌeasˈuɾɛ]
+poco | [pˈoko]
+podemos | [poðˈemos]
+podido | [poðˈiðo]
+podría | [pɔðɾˈia]
+podríamos | [pɔðɾˈiamos]
+podíamos | [poðˈiamos]
+police | [polˈiθe]
+policía | [pˌoliθˈia]
+pone | [pˈone]
+por | [pˈɔɾ]
+portátil | [pɔɾtˈatil]
+posada | [posˈaða]
+posibilidades | [pˌosiβˌiliðˈaðes]
+posibles | [posˈiβles]
+potable | [potˈaβle]
+precaución | [pɾˌekaʊθjˈɔn]
+precio | [pɾˈeθjo]
+preciosas | [pɾeθjˈosas]
+precioso | [pɾeθjˈoso]
+precisamente | [pɾˌeθisamˈɛnte]
+prefieres | [pɾefjˈɛɾɛs]
+pregunta | [pɾeɣˈunta]
+preguntemos | [pɾˌeɣuntˈemos]
+preocupación | [pɾˌeokˌupaθjˈɔn]
+preocupas | [pɾˌeokˈupas]
+prepara | [pɾepˈaɾa]
+preparada | [pɾˌepaɾˈaða]
+prescription | [pɾeskɾˈipːtjɔn]
+presentar | [pɾˌesɛntˈaɾ]
+pretender | [pɾˌetɛndˈɛɾ]
+price | [pɾˈiθe]
+primero | [pɾimˈɛɾɔ]
+probarlo | [pɾoβˈaɾlo]
+problem | [pɾˈɔβlem]
+problema | [pɾɔβlˈema]
+profesionales | [pɾˌofesjonˈales]
+profunda | [pɾofˈunda]
+profundamente | [pɾˌofundamˈɛnte]
+pronto | [pɾˈɔnto]
+propietario | [pɾˌopjetˈaɾjo]
+proteger | [pɾˌotexˈɛɾ]
+provecho | [pɾoβˈetʃo]
+proyectamos | [pɾˌojjektˈamos]
+proyectando | [pɾˌojjektˈando]
+prueba | [pɾuˈeβa]
+próximo | [pɾˈɔksimo]
+public | [puβlˈik]
+pueblo | [pwˈeβlo]
+puede | [pwˈeðe]
+puedes | [pwˈeðes]
+puedo | [pwˈeðo]
+puerta | [pwˈɛɾta]
+puesto | [pwˈesto]
+puro | [pˈuɾɔ]
+pwˈeðe | [pˈe ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈe ðˈe ˈe]
+pwˈeðes | [pˈe ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈe ðˈe ˈe ˈɛse]
+pwˈeðo | [pˈe ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈe ðˈe ˈo]
+pánico | [pˈaniko]
+pérdida | [pˈɛɾðiða]
+público | [pˈuβliko]
+públicos | [pˈuβlikos]
+pɔðɾˈia | [pˈe (en)ˌəʊpənˈɔː(es) dˈe (en)ˈɑːtap stɹˈɛs(es) ˈi ˈa]
+pɔɾ | [pˈe (en)ˌəʊpənˈɔː ˈɑːtap(es)]
+pɛɾsˈonas | [pˈe (en)ˌəʊpənˈɛː ˈɑːtap(es) ˈɛse (en)stɹˈɛs(es) ˈo ˈɛne ˈa ˈɛse]
+pɛɾðˈiða | [pˈe (en)ˌəʊpənˈɛː ˈɑːtap(es) dˈe (en)stɹˈɛs(es) ˈi ðˈe ˈa]
+pɛɾðˈiðo | [pˈe (en)ˌəʊpənˈɛː ˈɑːtap(es) dˈe (en)stɹˈɛs(es) ˈi ðˈe ˈo]
+pɛɾðˈiðos | [pˈe (en)ˌəʊpənˈɛː ˈɑːtap(es) dˈe (en)stɹˈɛs(es) ˈi ðˈe ˈo ˈɛse]
+pɛɾðˈɔn | [pˈe (en)ˌəʊpənˈɛː ˈɑːtap(es) dˈe (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne]
+pɾoβˈaɾlo | [pˈe (en)ˈɑːtap(es) ˈo (en)bˈiːtə stɹˈɛs(es) ˈa (en)ˈɑːtap(es) ˈɛle ˈo]
+pɾoβˈetʃo | [pˈe (en)ˈɑːtap(es) ˈo (en)bˈiːtə stɹˈɛs(es) ˈe tˈe (en)ˈɛʃ(es) ˈo]
+pɾɔβlˈema | [pˈe (en)ˈɑːtap ˌəʊpənˈɔː bˈiːtə(es) ˈɛle (en)stɹˈɛs(es) ˈe ˈɛme ˈa]
+pɾˈeθjo | [pˈe (en)ˈɑːtap stɹˈɛs(es) ˈe (en)θˈiːtə(es) xˈɔta ˈo]
+pɾˈɔksimo | [pˈe (en)ˈɑːtap stɹˈɛs ˌəʊpənˈɔː(es) kˈa ˈɛse ˈi ˈɛme ˈo]
+pɾˈɔnto | [pˈe (en)ˈɑːtap stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne tˈe ˈo]
+pɾˌesɛntˈaɾ | [pˈe (en)ˈɑːtap sˈɛkəndɹɪstɹˌɛs(es) ˈe ˈɛse (en)ˌəʊpənˈɛː(es) ˈɛne tˈe (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+pˈoko | [pˈe (en)stɹˈɛs(es) ˈo kˈa ˈo]
+pˈuβliko | [pˈe (en)stɹˈɛs(es) ˈu (en)bˈiːtə(es) ˈɛle ˈi kˈa ˈo]
+pˈuβlikos | [pˈe (en)stɹˈɛs(es) ˈu (en)bˈiːtə(es) ˈɛle ˈi kˈa ˈo ˈɛse]
+pˌasapˈɔɾte | [pˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈa ˈɛse ˈa pˈe (en)stɹˈɛs ˌəʊpənˈɔː ˈɑːtap(es) tˈe ˈe]
+pˌaɾa | [pˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈa (en)ˈɑːtap(es) ˈa]
+pˌeˌiˈɛne | [pˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈi (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne ˈe]
+pˌoliθˈia | [pˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈo ˈɛle ˈi (en)θˈiːtə stɹˈɛs(es) ˈi ˈa]
+qualifications | [kwˌalifikˈatjɔns]
+que | [kˈe]
+queda | [kˈeða]
+quedado | [keðˈaðo]
+quedan | [kˈeðan]
+quedarme | [keðˈaɾme]
+quedarnos | [keðˈaɾnos]
+quedémonos | [keðˈɛmonos]
+queja | [kˈexa]
+querida | [kɛɾˈiða]
+quería | [kɛɾˈia]
+querías | [kɛɾˈias]
+queso | [kˈeso]
+quesos | [kˈesos]
+quien | [kjˈɛn]
+quienes | [kjˈenes]
+quiere | [kjˈɛɾɛ]
+quieres | [kjˈɛɾɛs]
+quiero | [kjˈɛɾɔ]
+quince | [kˈinθe]
+quisiera | [kisjˈɛɾa]
+quita | [kˈita]
+quizás | [kiθˈas]
+quién | [kjˈɛn]
+qué | [kˈɛ]
+quédese | [kˈɛðese]
+randonnée | [rˌandɔnnˈɛe]
+raro | [rˈaɾɔ]
+raros | [rˈaɾɔs]
+rate | [rˈate]
+rato | [rˈato]
+razón | [raθˈɔn]
+realmente | [rˌealmˈɛnte]
+receive | [reθˈeɪβe]
+received | [rˌeθeɪβˈed]
+receta | [reθˈeta]
+recibe | [reθˈiβe]
+recibido | [rˌeθiβˈiðo]
+recibí | [rˌeθiβˈi]
+reclamación | [rˌeklamaθjˈɔn]
+recoge | [rekˈoxe]
+recomienda | [rˌekomjˈɛnda]
+recommend | [rˌekɔmmˈɛnd]
+reconoció | [rˌekonoθjˈɔ]
+reconozco | [rˌekonˈɔθko]
+recto | [rˈekto]
+recuerda | [rekwˈɛɾða]
+recuerdan | [rekwˈɛɾðan]
+recuerdos | [rekwˈɛɾðos]
+recupera | [rˌekupˈɛɾa]
+recuperado | [rˌekupɛɾˈaðo]
+reembolsado | [rˌeembɔlsˈaðo]
+reembolso | [rˌeembˈɔlso]
+reencuentro | [rˌeɛnkwˈɛntɾo]
+reflexiona | [rˌefleksjˈona]
+reflexión | [rˌefleksjˈɔn]
+refugio | [refˈuxjo]
+refund | [refˈund]
+regalo | [reɣˈalo]
+regalos | [reɣˈalos]
+regresa | [reɣɾˈesa]
+regresan | [reɣɾˈesan]
+reimbursed | [rˌeɪmbuɾsˈed]
+relación | [rˌelaθjˈɔn]
+reloj | [relˈɔx]
+rent | [rˈɛnt]
+repeat | [rˌepeˈat]
+repente | [repˈɛnte]
+repentino | [rˌepɛntˈino]
+repetir | [rˌepetˈiɾ]
+reprocha | [repɾˈotʃa]
+requeridas | [rˌekɛɾˈiðas]
+requiere | [rekjˈɛɾɛ]
+required | [rˌekiɾˈɛd]
+rescate | [reskˈate]
+rescatista | [rˌeskatˈista]
+rescatistas | [rˌeskatˈistas]
+reserva | [resˈɛɾβa]
+reservation | [rˌesɛɾβˈatjɔn]
+respira | [respˈiɾa]
+respiración | [rˌespiɾaθjˈɔn]
+responde | [respˈɔnde]
+resuena | [reswˈena]
+resˈɛɾβa | [ˈɛɾe ˈe ˈɛse (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap bˈiːtə(es) ˈa]
+retiro | [retˈiɾɔ]
+retoma | [retˈoma]
+retrasado | [rˌetɾasˈaðo]
+retˈiɾɔ | [ˈɛɾe ˈe tˈe (en)stɹˈɛs(es) ˈi (en)ˈɑːtap ˌəʊpənˈɔː(es)]
+revisa | [reβˈisa]
+revisar | [rˌeβisˈaɾ]
+reɣˈalo | [ˈɛɾe ˈe (en)ɡˈamə stɹˈɛs(es) ˈa ˈɛle ˈo]
+reθˈeta | [ˈɛɾe ˈe (en)θˈiːtə stɹˈɛs(es) ˈe tˈe ˈa]
+right | [rˈiɣt]
+rioja | [riˈoxa]
+robado | [roβˈaðo]
+rocas | [rˈokas]
+roja | [rˈoxa]
+room | [rˈoɔm]
+ropa | [rˈopa]
+rostro | [rˈɔstɾo]
+round-trip | [rˈowndtɾˈip]
+roβˈaðo | [ˈɛɾe ˈo (en)bˈiːtə stɹˈɛs(es) ˈa ðˈe ˈo]
+ruido | [ruˈiðo]
+ruiz | [ruˈiθ]
+ruta | [rˈuta]
+rutas | [rˈutas]
+rápidamente | [rˈapiðˌamɛnte]
+rápido | [rˈapiðo]
+rˈekto | [ˈɛɾe (en)stɹˈɛs(es) ˈe kˈa tˈe ˈo]
+rˌeembɔlsˈaðo | [ˈɛɾe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe ˈe ˈɛme βˈe (en)ˌəʊpənˈɔː(es) ˈɛle ˈɛse (en)stɹˈɛs(es) ˈa ðˈe ˈo]
+rˌeembˈɔlso | [ˈɛɾe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe ˈe ˈɛme βˈe (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛle ˈɛse ˈo]
+rˌeklamaθjˈɔn | [ˈɛɾe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe kˈa ˈɛle ˈa ˈɛme ˈa (en)θˈiːtə(es) xˈɔta (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne]
+rˌekomjˈɛnda | [ˈɛɾe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe kˈa ˈo ˈɛme xˈɔta (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne ðˈe ˈa]
+rˌekɛɾˈiðas | [ˈɛɾe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe kˈa (en)ˌəʊpənˈɛː ˈɑːtap stɹˈɛs(es) ˈi ðˈe ˈa ˈɛse]
+rˌepetˈiɾ | [ˈɛɾe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe pˈe ˈe tˈe (en)stɹˈɛs(es) ˈi (en)ˈɑːtap(es)]
+rˌetɾasˈaðo | [ˈɛɾe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe tˈe (en)ˈɑːtap(es) ˈa ˈɛse (en)stɹˈɛs(es) ˈa ðˈe ˈo]
+rˌeβisˈaɾ | [ˈɛɾe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe (en)bˈiːtə(es) ˈi ˈɛse (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+rˌeθiβˈiðo | [ˈɛɾe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe (en)θˈiːtə(es) ˈi (en)bˈiːtə stɹˈɛs(es) ˈi ðˈe ˈo]
+saben | [sˈaβɛn]
+sabes | [sˈaβes]
+sabido | [saβˈiðo]
+sabré | [saβɾˈɛ]
+saca | [sˈaka]
+safe | [sˈafe]
+salario | [salˈaɾjo]
+salary | [salˈaɾi]
+saldo | [sˈalðo]
+saldrá | [salðɾˈa]
+sale | [sˈale]
+salir | [salˈiɾ]
+salud | [salˈud]
+salvo | [sˈalβo]
+salvos | [sˈalβos]
+salvó | [salβˈɔ]
+salˈaɾjo | [ˈɛse ˈa ˈɛle (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es) xˈɔta ˈo]
+salˈud | [ˈɛse ˈa ˈɛle (en)stɹˈɛs(es) ˈu ðˈe]
+sanos | [sˈanos]
+say | [sˈaɪ]
+se | [sˈe]
+sea | [sˈea]
+second | [sekˈɔnd]
+see | [sˈee]
+segovia | [seɣˈoβja]
+seguir | [seɣˈiɾ]
+seguiremos | [sˌeɣiɾˈɛmos]
+seguirla | [seɣˈiɾla]
+seguirán | [sˌeɣiɾˈan]
+segundo | [seɣˈundo]
+segura | [seɣˈuɾa]
+seguridad | [sˌeɣuɾiðˈad]
+seguro | [seɣˈuɾɔ]
+seguros | [seɣˈuɾɔs]
+semana | [semˈana]
+sencilla | [sɛnθˈiʎa]
+senderismo | [sˌɛndɛɾˈismo]
+sendero | [sɛndˈɛɾɔ]
+sentada | [sɛntˈaða]
+sentir | [sɛntˈiɾ]
+sentirme | [sɛntˈiɾme]
+sepa | [sˈepa]
+separación | [sˌepaɾaθjˈɔn]
+separados | [sˌepaɾˈaðos]
+separan | [sepˈaɾan]
+separemos | [sˌepaɾˈɛmos]
+ser | [sˈɛɾ]
+seremos | [sɛɾˈɛmos]
+serio | [sˈɛɾjo]
+service | [sˈeɾβis]
+servicio | [sɛɾβˈiθjo]
+servicios | [sɛɾβˈiθjos]
+será | [sɛɾˈa]
+serás | [sɛɾˈas]
+sesenta | [sesˈɛnta]
+seven | [sˈeβɛn]
+señal | [seɲˈal]
+señala | [seɲˈala]
+señales | [seɲˈales]
+señas | [sˈeɲas]
+seɣˈundo | [ˈɛse ˈe (en)ɡˈamə stɹˈɛs(es) ˈu ˈɛne ðˈe ˈo]
+seɣˈuɾɔ | [ˈɛse ˈe (en)ɡˈamə stɹˈɛs(es) ˈu (en)ˈɑːtap ˌəʊpənˈɔː(es)]
+show | [ʃˈɔw]
+si | [sˈi]
+sick | [sˈik]
+sido | [sˈiðo]
+siempre | [sjˈempɾe]
+sienta | [sjˈɛnta]
+sientan | [sjˈɛntan]
+siente | [sjˈɛnte]
+sientes | [sjˈɛntes]
+siento | [sjˈɛnto]
+siete | [sjˈete]
+siga | [sˈiɣa]
+significa | [sˌiɡnifˈika]
+significado | [sˌiɡnifikˈaðo]
+sigue | [sˈiɣe]
+siguen | [sˈiɣɛn]
+siguiente | [siɣjˈɛnte]
+silencio | [silˈɛnθjo]
+simple | [sˈimple]
+simplemente | [sˌimplemˈɛnte]
+sin | [sˈin]
+sino | [sˈino]
+sintiendo | [sintjˈɛndo]
+sirve | [sˈiɾβe]
+situación | [sˌitwaθjˈɔn]
+size | [sˈiθe]
+siŋ | [sˈin]
+sjˈempɾe | [ˈɛse xˈɔta (en)stɹˈɛs(es) ˈe ˈɛme pˈe (en)ˈɑːtap(es) ˈe]
+sjˈete | [ˈɛse xˈɔta (en)stɹˈɛs(es) ˈe tˈe ˈe]
+sjˈɛnto | [ˈɛse xˈɔta (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne tˈe ˈo]
+slowly | [slˈɔwli]
+so | [sˈo]
+so-so | [sˈosˈo]
+sobre | [sˈɔβɾe]
+sobrecoge | [sˌɔβɾekˈoxe]
+sobrevivido | [sˌɔβɾeβiβˈiðo]
+sobrevivir | [sˌɔβɾeβiβˈiɾ]
+socorrista | [sˌokɔrˈista]
+socorristas | [sˌokɔrˈistas]
+socorro | [sokˈɔro]
+sofá | [sofˈa]
+sofía | [sofˈia]
+sois | [sˈoɪs]
+sol | [sˈɔl]
+sola | [sˈola]
+soledades | [sˌoleðˈaðes]
+solo | [sˈolo]
+someone | [sˌomeˈone]
+somos | [sˈomos]
+son | [sˈɔn]
+sonido | [sonˈiðo]
+sonidos | [sonˈiðos]
+sonrisa | [sɔnrˈisa]
+sonríe | [sɔnrˈie]
+soon | [sˈoɔn]
+sopa | [sˈopa]
+sophie | [sˈofje]
+sopla | [sˈɔpla]
+sorprendido | [sˌɔɾpɾɛndˈiðo]
+sorry | [sˈɔri]
+sosteniendo | [sˌɔstenjˈɛndo]
+soy | [sˈoɪ]
+speak | [speˈak]
+start | [stˈaɾt]
+station | [stˈatjɔn]
+still | [stˈiʎ]
+stolen | [stˈolɛn]
+stomachache | [stˌomatʃˈatʃe]
+stop | [stˈɔp]
+straight | [stɾˈaɪɣt]
+su | [sˈu]
+suavemente | [swˌaβemˈɛnte]
+subamos | [suβˈamos]
+sube | [sˈuβe]
+suben | [sˈuβɛn]
+sucede | [suθˈeðe]
+sucediendo | [sˌuθeðjˈɛndo]
+suerte | [swˈɛɾte]
+sueño | [swˈeɲo]
+sueños | [swˈeɲos]
+supervivencia | [sˌupɛɾβiβˈɛnθja]
+surgen | [sˈuɾxɛn]
+sus | [sˈus]
+suspira | [suspˈiɾa]
+suéter | [swˈɛtɛɾ]
+swallowed | [swˌaʎowˈed]
+sé | [sˈɛ]
+sí | [sˈi]
+sólida | [sˈɔliða]
+sólido | [sˈɔliðo]
+sɛɾβˈiθjo | [ˈɛse (en)ˌəʊpənˈɛː ˈɑːtap bˈiːtə stɹˈɛs(es) ˈi (en)θˈiːtə(es) xˈɔta ˈo]
+sɛɾβˈiθjos | [ˈɛse (en)ˌəʊpənˈɛː ˈɑːtap bˈiːtə stɹˈɛs(es) ˈi (en)θˈiːtə(es) xˈɔta ˈo ˈɛse]
+sˈale | [ˈɛse (en)stɹˈɛs(es) ˈa ˈɛle ˈe]
+sˈalðo | [ˈɛse (en)stɹˈɛs(es) ˈa ˈɛle ðˈe ˈo]
+sˈi | [ˈɛse (en)stɹˈɛs(es) ˈi]
+sˈiðo | [ˈɛse (en)stɹˈɛs(es) ˈi ðˈe ˈo]
+sˈoɪ | [ˈɛse (en)stɹˈɛs(es) ˈo (en)smˈɔːlkˌapˈaɪ(es)]
+sˈɔn | [ˈɛse (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne]
+sˈɛ | [ˈɛse (en)stɹˈɛs ˌəʊpənˈɛː(es)]
+sˈɛɾ | [ˈɛse (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(es)]
+sˌiɡnifˈika | [ˈɛse (en)sˈɛkəndɹɪstɹˌɛs(es) ˈi xˈe ˈɛne ˈi ˈɛfe (en)stɹˈɛs(es) ˈi kˈa ˈa]
+table | [tˈaβle]
+take | [tˈake]
+tal | [tˈal]
+talla | [tˈaʎa]
+tallos | [tˈaʎos]
+también | [tambjˈɛn]
+tampoco | [tampˈoko]
+tan | [tˈan]
+tantas | [tˈantas]
+tanto | [tˈanto]
+tarda | [tˈaɾða]
+tarde | [tˈaɾðe]
+tarifas | [taɾˈifas]
+tarjeta | [taɾxˈeta]
+tarjetas | [taɾxˈetas]
+tasa | [tˈasa]
+taɾxˈeta | [tˈe ˈa (en)ˈɑːtap(es) ˈɛkis (en)stɹˈɛs(es) ˈe tˈe ˈa]
+taɾxˈetas | [tˈe ˈa (en)ˈɑːtap(es) ˈɛkis (en)stɹˈɛs(es) ˈe tˈe ˈa ˈɛse]
+taɾˈifas | [tˈe ˈa (en)ˈɑːtap stɹˈɛs(es) ˈi ˈɛfe ˈa ˈɛse]
+te | [tˈe]
+tela | [tˈela]
+teléfono | [telˈɛfono]
+teléfonos | [telˈɛfonos]
+telˈɛfono | [tˈe ˈe ˈɛle (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛfe ˈo ˈɛne ˈo]
+temblando | [temblˈando]
+temperatura | [tˌempɛɾatˈuɾa]
+tenemos | [tenˈemos]
+tener | [tenˈɛɾ]
+tengan | [tˈɛŋɡan]
+tengas | [tˈɛŋɡas]
+tengo | [tˈɛŋɡo]
+tenido | [tenˈiðo]
+tensa | [tˈɛnsa]
+tenéis | [tenˈɛis]
+tenía | [tenˈia]
+terminada | [tˌɛɾminˈaða]
+terriblemente | [tˌɛriβlemˈɛnte]
+thank | [tˈaŋk]
+that | [tˈat]
+that's | [tˈats]
+the | [tˈe]
+there | [tˈɛɾɛ]
+there's | [tˈɛɾɛs]
+this | [tˈis]
+ti | [tˈi]
+ticket | [tikˈet]
+tiempo | [tjˈempo]
+tienda | [tjˈɛnda]
+tiene | [tjˈene]
+tienen | [tjˈenɛn]
+tienes | [tjˈenes]
+time | [tˈime]
+tinto | [tˈinto]
+tiritaba | [tˌiɾitˈaβa]
+tjˈempo | [tˈe xˈɔta (en)stɹˈɛs(es) ˈe ˈɛme pˈe ˈo]
+tjˈene | [tˈe xˈɔta (en)stɹˈɛs(es) ˈe ˈɛne ˈe]
+tjˈenes | [tˈe xˈɔta (en)stɹˈɛs(es) ˈe ˈɛne ˈe ˈɛse]
+tjˈenɛn | [tˈe xˈɔta (en)stɹˈɛs(es) ˈe ˈɛne (en)ˌəʊpənˈɛː(es) ˈɛne]
+to | [tˈo]
+toca | [tˈoka]
+tocan | [tˈokan]
+tocarlas | [tokˈaɾlas]
+toda | [tˈoða]
+todas | [tˈoðas]
+todavía | [tˌoðaβˈia]
+today | [toðˈaɪ]
+todo | [tˈoðo]
+todos | [tˈoðos]
+toilets | [toɪlˈets]
+toma | [tˈoma]
+tomamos | [tomˈamos]
+toman | [tˈoman]
+tomar | [tomˈaɾ]
+tomates | [tomˈates]
+tomo | [tˈomo]
+tomorrow | [tˌomɔrˈɔw]
+tontos | [tˈɔntos]
+too | [tˈoo]
+tormentas | [tɔɾmˈɛntas]
+tosiendo | [tosjˈɛndo]
+tosjˈɛndo | [tˈe ˈo ˈɛse xˈɔta (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne ðˈe ˈo]
+tostada | [tɔstˈaða]
+trabajo | [tɾaβˈaxo]
+trae | [tɾˈae]
+tragada | [tɾaɣˈaða]
+train | [tɾˈaɪn]
+tranquilo | [tɾankˈilo]
+transfer | [tɾansfˈɛɾ]
+transferencia | [tɾˌansfɛɾˈɛnθja]
+transferir | [tɾˌansfɛɾˈiɾ]
+transforma | [tɾansfˈɔɾma]
+transformación | [tɾˌansfɔɾmaθjˈɔn]
+transformado | [tɾˌansfɔɾmˈaðo]
+transport | [tɾanspˈɔɾt]
+transporte | [tɾanspˈɔɾte]
+traído | [tɾaˈiðo]
+tren | [tɾˈɛn]
+trenes | [tɾˈenes]
+tres | [tɾˈes]
+trip | [tɾˈip]
+tristeza | [tɾistˈeθa]
+trozo | [tɾˈoθo]
+try | [tˌeˌɛɾeˌiɣɾiˈeɣa]
+tu | [tˈu]
+tuviera | [tuβjˈɛɾa]
+two | [tˌeˌuβe ðˌɔβleˈo]
+té | [tˈɛ]
+tú | [tˈu]
+tɾanspˈɔɾte | [tˈe (en)ˈɑːtap(es) ˈa ˈɛne ˈɛse pˈe (en)stɹˈɛs ˌəʊpənˈɔː ˈɑːtap(es) tˈe ˈe]
+tɾaɣˈaða | [tˈe (en)ˈɑːtap(es) ˈa (en)ɡˈamə stɹˈɛs(es) ˈa ðˈe ˈa]
+tɾaβˈaxo | [tˈe (en)ˈɑːtap(es) ˈa (en)bˈiːtə stɹˈɛs(es) ˈa ˈɛkis ˈo]
+tɾˈɛn | [tˈe (en)ˈɑːtap stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne]
+tɾˌansfɛɾˈiɾ | [tˈe (en)ˈɑːtap sˈɛkəndɹɪstɹˌɛs(es) ˈa ˈɛne ˈɛse ˈɛfe (en)ˌəʊpənˈɛː ˈɑːtap stɹˈɛs(es) ˈi (en)ˈɑːtap(es)]
+tɾˌansfɛɾˈɛnθja | [tˈe (en)ˈɑːtap sˈɛkəndɹɪstɹˌɛs(es) ˈa ˈɛne ˈɛse ˈɛfe (en)ˌəʊpənˈɛː ˈɑːtap stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne (en)θˈiːtə(es) xˈɔta ˈa]
+tˈasa | [tˈe (en)stɹˈɛs(es) ˈa ˈɛse ˈa]
+tˈaɾða | [tˈe (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es) dˈe ˈa]
+tˈaɾðe | [tˈe (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es) dˈe ˈe]
+tˈaʎa | [tˈe (en)stɹˈɛs(es) ˈa (en)tˈɜːndwˈaɪ(es) ˈa]
+tˈoðo | [tˈe (en)stɹˈɛs(es) ˈo ðˈe ˈo]
+tˈu | [tˈe (en)stɹˈɛs(es) ˈu]
+tˈɛŋɡas | [tˈe (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne xˈe ˈa ˈɛse]
+tˈɛŋɡo | [tˈe (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne xˈe ˈo]
+tˌoðaβˈia | [tˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈo ðˈe ˈa (en)bˈiːtə stɹˈɛs(es) ˈi ˈa]
+un | [ˈun]
+una | [ˈuna]
+unas | [ˈunas]
+understand | [ˌundɛɾstˈand]
+uno | [ˈuno]
+unos | [ˈunos]
+usando | [usˈando]
+used | [usˈed]
+usted | [ustˈed]
+ustedes | [ustˈeðes]
+ustˈed | [ˈu ˈɛse tˈe (en)stɹˈɛs(es) ˈe ðˈe]
+usó | [usˈɔ]
+usˈɔ | [ˈu ˈɛse (en)stɹˈɛs ˌəʊpənˈɔː(es)]
+utilities | [ˌutilˈitjes]
+va | [bˈa]
+vagón | [baɣˈɔn]
+vale | [bˈale]
+valentía | [bˌalɛntˈia]
+valle | [bˈaʎe]
+vamos | [bˈamos]
+van | [bˈan]
+vas | [bˈas]
+ve | [bˈe]
+veces | [bˈeθes]
+vegetarian | [bˌexetˈaɾjan]
+vegetariana | [bˌexetaɾjˈana]
+vegetariano | [bˌexetaɾjˈano]
+vemos | [bˈemos]
+vengo | [bˈɛŋɡo]
+venido | [benˈiðo]
+venimos | [benˈimos]
+ventana | [bɛntˈana]
+ventanilla | [bˌɛntanˈiʎa]
+veo | [bˈeo]
+ver | [bˈɛɾ]
+verdad | [bɛɾðˈad]
+verdadero | [bˌɛɾðaðˈɛɾɔ]
+verdes | [bˈɛɾðes]
+verificar | [bˌɛɾifikˈaɾ]
+very | [bˈɛɾi]
+verán | [bɛɾˈan]
+verás | [bɛɾˈas]
+vez | [bˈeθ]
+viajar | [bjaxˈaɾ]
+viaje | [bjˈaxe]
+vida | [bˈiða]
+vidas | [bˈiðas]
+vieja | [bjˈexa]
+viento | [bjˈɛnto]
+vinimos | [binˈimos]
+vino | [bˈino]
+vinos | [bˈinos]
+vinoteca | [bˌinotˈeka]
+vista | [bˈista]
+visto | [bˈisto]
+viva | [bˈiβa]
+vivió | [biβjˈɔ]
+vivo | [bˈiβo]
+volver | [bɔlβˈɛɾ]
+volverte | [bɔlβˈɛɾte]
+voy | [bˈoɪ]
+voz | [bˈɔθ]
+vuelo | [bwˈelo]
+vuelta | [bwˈelta]
+vueltas | [bwˈeltas]
+vuelve | [bwˈelβe]
+vuelvo | [bwˈelβo]
+wake | [wˈake]
+was | [wˈas]
+wasn't | [wˈasnt]
+watch | [wˈattʃ]
+water | [watˈɛɾ]
+way | [wˈaɪ]
+welcome | [welkˈome]
+well | [wˈeʎ]
+what | [wˈat]
+what's | [wˈats]
+when | [wˈɛn]
+where | [wˈɛɾɛ]
+willingly | [wiʎˈiŋɡli]
+with | [wˈit]
+withdrawal | [wˌitðɾawˈal]
+without | [witˈowt]
+work | [wˈɔɾk]
+would | [wˈowld]
+ya | [ʝˈa]
+year | [ʝeˈaɾ]
+yergue | [ʝˈɛɾɣe]
+yes | [ʝˈes]
+yesterday | [ʝˌestɛɾðˈaɪ]
+yet | [ʝˈet]
+yo | [ʝˈo]
+you | [ʝˈow]
+you're | [ʝˈowɾe]
+your | [ʝˈowɾ]
+ánimo | [ˈanimo]
+árboles | [ˈaɾβoles]
+él | [ˈɛl]
+ðe | [dˈe]
+ðel | [dˈel]
+ðenˈunθja | [dˈe ˈe ˈɛne (en)stɹˈɛs(es) ˈu ˈɛne (en)θˈiːtə(es) xˈɔta ˈa]
+ðespˈaθjo | [dˈe ˈe ˈɛse pˈe (en)stɹˈɛs(es) ˈa (en)θˈiːtə(es) xˈɔta ˈo]
+ðinˈɛɾɔ | [dˈe ˈi ˈɛne (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap ˌəʊpənˈɔː(es)]
+ðiɾˈɛkto | [dˈe ˈi (en)ˈɑːtap stɹˈɛs ˌəʊpənˈɛː(es) kˈa tˈe ˈo]
+ðɛɾˈɛtʃa | [dˈe (en)ˌəʊpənˈɛː ˈɑːtap stɹˈɛs ˌəʊpənˈɛː(es) tˈe (en)ˈɛʃ(es) ˈa]
+ðˈe | [dˈe (en)stɹˈɛs(es) ˈe]
+ðˈiθe | [dˈe (en)stɹˈɛs(es) ˈi (en)θˈiːtə(es) ˈe]
+ðˈos | [dˈe (en)stɹˈɛs(es) ˈo ˈɛse]
+ðˌemasjˈaðo | [dˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe ˈɛme ˈa ˈɛse xˈɔta (en)stɹˈɛs(es) ˈa ðˈe ˈo]
+ðˌesajjˈuno | [dˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe ˈɛse ˈa xˈɔta xˈɔta (en)stɹˈɛs(es) ˈu ˈɛne ˈo]
+ðˌespɛɾtˈaɾme | [dˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe ˈɛse pˈe (en)ˌəʊpənˈɛː ˈɑːtap(es) tˈe (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es) ˈɛme ˈe]
+ðˌeðuθˈiβle | [dˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈe ðˈe ˈu (en)θˈiːtə stɹˈɛs(es) ˈi (en)bˈiːtə(es) ˈɛle ˈe]
+ðˌiɾɛkθjˈɔn | [dˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈi (en)ˈɑːtap ˌəʊpənˈɛː(es) kˈa (en)θˈiːtə(es) xˈɔta (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne]
+ðˌokumˈɛntos | [dˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈo kˈa ˈu ˈɛme (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne tˈe ˈo ˈɛse]
+última | [ˈultima]
+ɔβxˈetos | [(en)ˌəʊpənˈɔː bˈiːtə(es) ˈɛkis (en)stɹˈɛs(es) ˈe tˈe ˈo ˈɛse]
+ɛm | [ˈem]
+ɛmfɾˈɛnte | [(en)ˌəʊpənˈɛː(es) ˈɛme ˈɛfe (en)ˈɑːtap stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne tˈe ˈe]
+ɛn | [ˈɛn]
+ɛntjˈɛndo | [(en)ˌəʊpənˈɛː(es) ˈɛne tˈe xˈɔta (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne ðˈe ˈo]
+ɡlˈutɛn | [xˈe ˈɛle (en)stɹˈɛs(es) ˈu tˈe (en)ˌəʊpənˈɛː(es) ˈɛne]
+ɡɾˈaθjas | [xˈe (en)ˈɑːtap stɹˈɛs(es) ˈa (en)θˈiːtə(es) xˈɔta ˈa ˈɛse]
+ɡˈusto | [xˈe (en)stɹˈɛs(es) ˈu ˈɛse tˈe ˈo]
+ɣɾˈande | [(en)ɡˈamə ˈɑːtap stɹˈɛs(es) ˈa ˈɛne ðˈe ˈe]
+ɣˌustaɾˈia | [(en)ɡˈamə sˈɛkəndɹɪstɹˌɛs(es) ˈu ˈɛse tˈe ˈa (en)ˈɑːtap stɹˈɛs(es) ˈi ˈa]
+ʎamˈaɾ | [(en)tˈɜːndwˈaɪ(es) ˈa ˈɛme (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+ʎˈamas | [(en)tˈɜːndwˈaɪ stɹˈɛs(es) ˈa ˈɛme ˈa ˈɛse]
+ʎˈamo | [(en)tˈɜːndwˈaɪ stɹˈɛs(es) ˈa ˈɛme ˈo]
+ʎˈaβe | [(en)tˈɜːndwˈaɪ stɹˈɛs(es) ˈa (en)bˈiːtə(es) ˈe]
+ʝˈa | [(en)dʒˌeɪkˈɜːl stɹˈɛs(es) ˈa]
+ˈa | [(en)stɹˈɛs(es) ˈa]
+ˈalɣjɛn | [(en)stɹˈɛs(es) ˈa ˈɛle (en)ɡˈamə(es) xˈɔta (en)ˌəʊpənˈɛː(es) ˈɛne]
+ˈan | [(en)stɹˈɛs(es) ˈa ˈɛne]
+ˈanimo | [(en)stɹˈɛs(es) ˈa ˈɛne ˈi ˈɛme ˈo]
+ˈaɣwa | [(en)stɹˈɛs(es) ˈa (en)ɡˈamə(es) ˌuβe ðˈɔβle ˈa]
+ˈaɪ | [(en)stɹˈɛs(es) ˈa (en)smˈɔːlkˌapˈaɪ(es)]
+ˈaɪɾɛ | [(en)stɹˈɛs(es) ˈa (en)smˈɔːlkˌapˈaɪ ˈɑːtap ˌəʊpənˈɛː(es)]
+ˈaɲo | [(en)stɹˈɛs(es) ˈa (en)ɲˈɛ(es) ˈo]
+ˈaβlas | [(en)stɹˈɛs(es) ˈa (en)bˈiːtə(es) ˈɛle ˈa ˈɛse]
+ˈaβlo | [(en)stɹˈɛs(es) ˈa (en)bˈiːtə(es) ˈɛle ˈo]
+ˈe | [(en)stɹˈɛs(es) ˈe]
+ˈes | [(en)stɹˈɛs(es) ˈe ˈɛse]
+ˈeso | [(en)stɹˈɛs(es) ˈe ˈɛse ˈo]
+ˈesto | [(en)stɹˈɛs(es) ˈe ˈɛse tˈe ˈo]
+ˈiða | [(en)stɹˈɛs(es) ˈi ðˈe ˈa]
+ˈola | [(en)stɹˈɛs(es) ˈo ˈɛle ˈa]
+ˈoɪ | [(en)stɹˈɛs(es) ˈo (en)smˈɔːlkˌapˈaɪ(es)]
+ˈum | [(en)stɹˈɛs(es) ˈu ˈɛme]
+ˈun | [(en)stɹˈɛs(es) ˈu ˈɛne]
+ˈuna | [(en)stɹˈɛs(es) ˈu ˈɛne ˈa]
+ˈɔtɾo | [(en)stɹˈɛs ˌəʊpənˈɔː(es) tˈe (en)ˈɑːtap(es) ˈo]
+ˈɔɾa | [(en)stɹˈɛs ˌəʊpənˈɔː ˈɑːtap(es) ˈa]
+ˌajjuðˈaɾme | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈa xˈɔta xˈɔta ˈu ðˈe (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es) ˈɛme ˈe]
+ˌakɔndˌiθjonˈaðo | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈa kˈa (en)ˌəʊpənˈɔː(es) ˈɛne ðˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈi (en)θˈiːtə(es) xˈɔta ˈo ˈɛne (en)stɹˈɛs(es) ˈa ðˈe ˈo]
+ˌalkilˈaɾ | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈa ˈɛle kˈa ˈi ˈɛle (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+ˌalkilˈɛɾ | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈa ˈɛle kˈa ˈi ˈɛle (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(es)]
+ˌapaɾtamˈɛnto | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈa pˈe ˈa (en)ˈɑːtap(es) tˈe ˈa ˈɛme (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne tˈe ˈo]
+ˌasta | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈa ˈɛse tˈe ˈa]
+ˌaxɛndˈaɾ | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈa ˈɛkis (en)ˌəʊpənˈɛː(es) ˈɛne ðˈe (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+ˌaʊmɛntˈaɾ | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈa (en)ˈʊpsɪlˌɒn(es) ˈɛme (en)ˌəʊpənˈɛː(es) ˈɛne tˈe (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+ˌaʊtomˈatiko | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈa (en)ˈʊpsɪlˌɒn(es) tˈe ˈo ˈɛme (en)stɹˈɛs(es) ˈa tˈe ˈi kˈa ˈo]
+ˌaʊtoβˈus | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈa (en)ˈʊpsɪlˌɒn(es) tˈe ˈo (en)bˈiːtə stɹˈɛs(es) ˈu ˈɛse]
+ˌaʊtɔɾˌiθaθjˈɔn | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈa (en)ˈʊpsɪlˌɒn(es) tˈe (en)ˌəʊpənˈɔː ˈɑːtap sˈɛkəndɹɪstɹˌɛs(es) ˈi (en)θˈiːtə(es) ˈa (en)θˈiːtə(es) xˈɔta (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne]
+ˌaβitaθjˈɔn | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈa (en)bˈiːtə(es) ˈi tˈe ˈa (en)θˈiːtə(es) xˈɔta (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne]
+ˌekipˈaxe | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈe kˈa ˈi pˈe (en)stɹˈɛs(es) ˈa ˈɛkis ˈe]
+ˌelektɾˈɔniko | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈe ˈɛle ˈe kˈa tˈe (en)ˈɑːtap stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne ˈi kˈa ˈo]
+ˌempeθˈaɾ | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈe ˈɛme pˈe ˈe (en)θˈiːtə stɹˈɛs(es) ˈa (en)ˈɑːtap(es)]
+ˌestaθjˈɔn | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈe ˈɛse tˈe ˈa (en)θˈiːtə(es) xˈɔta (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne]
+ˌindikˈaɾme | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈi ˈɛne ðˈe ˈi kˈa (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es) ˈɛme ˈe]
+ˌinkluˈiðo | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈi ˈɛne kˈa ˈɛle ˈu (en)stɹˈɛs(es) ˈi ðˈe ˈo]
+ˌinkluˈiðos | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈi ˈɛne kˈa ˈɛle ˈu (en)stɹˈɛs(es) ˈi ðˈe ˈo ˈɛse]
+ˌiðɛntˌifikaθjˈɔn | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈi ðˈe (en)ˌəʊpənˈɛː(es) ˈɛne tˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈi ˈɛfe ˈi kˈa ˈa (en)θˈiːtə(es) xˈɔta (en)stɹˈɛs ˌəʊpənˈɔː(es) ˈɛne]
+ˌofiθˈina | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈo ˈɛfe ˈi (en)θˈiːtə stɹˈɛs(es) ˈi ˈɛne ˈa]
+ˌopɔɾtˌuniðˈaðes | [(en)sˈɛkəndɹɪstɹˌɛs(es) ˈo pˈe (en)ˌəʊpənˈɔː ˈɑːtap(es) tˈe (en)sˈɛkəndɹɪstɹˌɛs(es) ˈu ˈɛne ˈi ðˈe (en)stɹˈɛs(es) ˈa ðˈe ˈe ˈɛse]
+ˌɔbtenˈɛɾ | [(en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɔː(es) bˈe tˈe ˈe ˈɛne (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(es)]
+ˌɔfɾeθˈiðo | [(en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɔː(es) ˈɛfe (en)ˈɑːtap(es) ˈe (en)θˈiːtə stɹˈɛs(es) ˈi ðˈe ˈo]
+ˌɛmbɔlβˈɛɾlo | [(en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː(es) ˈɛme βˈe (en)ˌəʊpənˈɔː(es) ˈɛle (en)bˈiːtə stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(es) ˈɛle ˈo]
+ˌɛnkantˈaða | [(en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː(es) ˈɛne kˈa ˈa ˈɛne tˈe (en)stɹˈɛs(es) ˈa ðˈe ˈa]
+ˌɛnkantˈaðo | [(en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː(es) ˈɛne kˈa ˈa ˈɛne tˈe (en)stɹˈɛs(es) ˈa ðˈe ˈo]
+βankˈaɾja | [(en)bˈiːtə(es) ˈa ˈɛne kˈa (en)stɹˈɛs(es) ˈa (en)ˈɑːtap(es) xˈɔta ˈa]
+βjˈɛn | [(en)bˈiːtə(es) xˈɔta (en)stɹˈɛs ˌəʊpənˈɛː(es) ˈɛne]
+βuskˈando | [(en)bˈiːtə(es) ˈu ˈɛse kˈa (en)stɹˈɛs(es) ˈa ˈɛne ðˈe ˈo]
+βwˈelo | [(en)bˈiːtə(es) ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈe ˈɛle ˈo]
+βwˈelta | [(en)bˈiːtə(es) ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈe ˈɛle tˈe ˈa]
+βwˈena | [(en)bˈiːtə(es) ˌuβe ðˈɔβle (en)stɹˈɛs(es) ˈe ˈɛne ˈa]
+βˈario | [(en)bˈiːtə stɹˈɛs(es) ˈa ˈɛɾe ˈi ˈo]
+βˈaɲos | [(en)bˈiːtə stɹˈɛs(es) ˈa (en)ɲˈɛ(es) ˈo ˈɛse]
+βˈoɪ | [(en)bˈiːtə stɹˈɛs(es) ˈo (en)smˈɔːlkˌapˈaɪ(es)]
+βˈɔlso | [(en)bˈiːtə stɹˈɛs ˌəʊpənˈɔː(es) ˈɛle ˈɛse ˈo]
+βˌexetaɾjˈana | [(en)bˈiːtə sˈɛkəndɹɪstɹˌɛs(es) ˈe ˈɛkis ˈe tˈe ˈa (en)ˈɑːtap(es) xˈɔta (en)stɹˈɛs(es) ˈa ˈɛne ˈa]
+βˌexetaɾjˈano | [(en)bˈiːtə sˈɛkəndɹɪstɹˌɛs(es) ˈe ˈɛkis ˈe tˈe ˈa (en)ˈɑːtap(es) xˈɔta (en)stɹˈɛs(es) ˈa ˈɛne ˈo]
+θɛɾkˈana | [(en)θˈiːtə ˌəʊpənˈɛː ˈɑːtap(es) kˈa (en)stɹˈɛs(es) ˈa ˈɛne ˈa]
+θɛɾkˈano | [(en)θˈiːtə ˌəʊpənˈɛː ˈɑːtap(es) kˈa (en)stɹˈɛs(es) ˈa ˈɛne ˈo]
+θˈita | [(en)θˈiːtə stɹˈɛs(es) ˈi tˈe ˈa]
+θˈɛɾka | [(en)θˈiːtə stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(es) kˈa ˈa]

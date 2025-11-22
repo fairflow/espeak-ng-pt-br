@@ -45,6 +45,7 @@ A function signature change was made to enable caching, but call sites were not 
 ## Root Cause Analysis
 
 ### Primary Cause: Incomplete Refactoring
+
 When changing a function signature that's part of an API contract, ALL call sites must be updated atomically. The commit ad252a6f changed the definition but missed 3 call sites at lines 1594, 1665, 1767.
 
 ### Contributing Factors
@@ -80,17 +81,20 @@ When changing a function signature that's part of an API contract, ALL call site
 This is a **Level 1 meta-issue** in the type-theoretic hierarchy:
 
 ### Level 0: The Application Code
+
 - Function: `generate_target_audio(text, settings)`
 - Purpose: Generate TTS audio
 - Issue: Works or doesn't work
 
 ### Level 1: The Development Process (This Bug)
+
 - Process: How we change function signatures
 - Issue: Incomplete refactoring broke the contract
 - Meta-git issue: Local state diverged from committed state
 - Type system issue: No static verification of API contracts
 
 ### Level 2: Development Methodology (Potential Future Analysis)
+
 - Question: Why don't we have safeguards against Level 1 issues?
 - Analysis: Missing CI/CD checks, test coverage, type checking
 - Philosophy: Trade-off between velocity and safety in a hobby project
@@ -98,13 +102,16 @@ This is a **Level 1 meta-issue** in the type-theoretic hierarchy:
 ## Lessons Learned
 
 ### 1. Function Signature Changes Are Breaking Changes
+
 **Rule:** Any change to a function's parameters is a breaking change requiring:
+
 - Find all call sites (use `grep`, LSP "find references", or IDE tools)
 - Update call sites BEFORE or in the SAME commit as the signature change
 - Test at least one code path through each call site
 - Consider deprecation path if public API (not applicable here)
 
 ### 2. Cache Keys Don't Require Parameter Expansion
+
 **Streamlit Caching:** Streamlit's `@st.cache_data` can hash complex objects:
 ```python
 # ✅ GOOD: Keep simple signature, Streamlit hashes the Dict
@@ -121,7 +128,9 @@ def generate_target_audio(text: str, tts_engine: str, voice: str, ...) -> tuple[
 ```
 
 ### 3. Git Revert Leaves Local State Dirty
+
 **Workflow issue:**
+
 ```bash
 # Commit with bug
 git commit -m "Change function signature"  # ad252a6f
@@ -134,6 +143,7 @@ git revert HEAD  # fc7ffb17
 ```
 
 **Better workflow:**
+
 ```bash
 # After discovering bug, check working directory state
 git status  # Any uncommitted changes?
@@ -146,7 +156,9 @@ git stash      # Save them for later review
 ```
 
 ### 4. Python Type Hints Are Not Enforced
+
 **Current state:** Type hints are documentation only
+
 ```python
 def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
     ...
@@ -156,18 +168,22 @@ generate_target_audio("hello", "gtts", "pt-br", 140, 35, False, False)
 ```
 
 **Solutions:**
+
 - Add `mypy` to check types statically
 - Add runtime validation with `typeguard` or `pydantic`
 - Add unit tests that would catch signature mismatches
 
 ### 5. IDE/LSP Could Have Caught This
+
 Modern Python LSPs (Pylance, Pyright, MyPy) would show errors:
-```
+
+```bug
 Expected 2 positional arguments (text, settings)
 Got 7 positional arguments
 ```
 
 **Why didn't this show up?**
+
 - Possibly LSP not running during editing
 - Possibly errors ignored/not visible in terminal workflow
 - No CI/CD gate to block commits with type errors
@@ -175,20 +191,25 @@ Got 7 positional arguments
 ## Recommendations
 
 ### Immediate (Prevent This Specific Bug)
+
 1. ✅ **Keep function signature stable:** Use `(text: str, settings: Dict)` - already reverted
 2. ✅ **Verify caching works with Dict:** Streamlit can hash it - confirmed working
 3. ✅ **Search for all call sites before merging:** Done manually, found 3 instances
 4. ⏳ **Add regression test:** Create unit test for `generate_target_audio()` signature
 
 ### Short Term (Prevent Similar Bugs)
+
 1. **Add static type checking:**
+
    ```bash
    pip install mypy
    mypy app.py --strict
    ```
+
    Add to pre-commit hook or CI/CD
 
 2. **Add basic unit tests:**
+
    ```python
    def test_generate_target_audio_signature():
        """Ensure generate_target_audio accepts (text, settings)"""
@@ -204,6 +225,7 @@ Got 7 positional arguments
    - Don't ignore red squiggles!
 
 4. **Git hygiene after reverts:**
+
    ```bash
    # After reverting a commit, clean working directory
    git status && git diff
@@ -211,6 +233,7 @@ Got 7 positional arguments
    ```
 
 ### Long Term (Development Process)
+
 1. **Function signature changes = new major version:**
    - Document breaking changes in CHANGELOG
    - Consider deprecation warnings for public APIs
@@ -229,6 +252,7 @@ Got 7 positional arguments
    - [ ] Breaking changes documented?
 
 4. **Smaller files / modular architecture:**
+
    - Split `app.py` into modules: `tts.py`, `audio.py`, `ui.py`, `scoring.py`
    - Easier to track function usage within a module
    - Better LSP performance on smaller files
@@ -237,7 +261,7 @@ Got 7 positional arguments
 
 This bug reveals a fundamental issue with git + local state:
 
-```
+```bug
 Timeline:
 1. Working directory: Clean, matches HEAD
 2. Edit files, make changes (signature change)
@@ -249,6 +273,7 @@ Timeline:
 ```
 
 **Solution:** Treat `git revert` as "fix the history, then fix the working directory":
+
 ```bash
 git revert HEAD          # Fix commit history
 git status               # Check for leftover changes
@@ -257,6 +282,7 @@ git checkout . || git stash  # Clean up working directory
 ```
 
 **Alternative:** Use branches for experiments:
+
 ```bash
 git checkout -b experiment/cache-optimization
 # Make breaking changes, test thoroughly
@@ -270,6 +296,7 @@ This bug was a **textbook incomplete refactoring** - a function signature was ch
 **Key Insight:** In dynamically-typed languages without runtime enforcement, API contracts are social agreements, not compiler-enforced invariants. Manual discipline (grep for call sites, update all at once, test thoroughly) is required, OR we add tooling (mypy, tests, CI/CD) to enforce the contracts automatically.
 
 **Action Items:**
+
 - [ ] Add mypy to pre-commit hook
 - [ ] Create unit test for `generate_target_audio()`
 - [ ] Document "Function Signature Change Protocol" in DEVELOPER_GUIDE.md

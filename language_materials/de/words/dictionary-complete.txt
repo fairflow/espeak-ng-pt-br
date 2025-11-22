@@ -1,1600 +1,2022 @@
 # Complete German Dictionary
 # Generated from story and phrases
-# Total words: 1596
+# Format: word | [IPA]
+# Total words: 2017
 
-10
-11
-12
-13
-14
-15
-16
-2024
-ab
-abend
-abendessen
-abends
-abenteuer
-aber
-abfragen
-abgedeckt
-abgeschlossen
-abhebungsgebühren
-abrupt
-abschließen
-absicht
-abzusteigen
-achtung
-agreed
-akzeptieren
-akzeptiert
-all
-alle
-allein
-alleine
-allergisch
-alles
-alpen
-alpendorf
-als
-alte
-alten
-altes
-am
-an
-and
-andere
-anderer
-anderes
-anders
-anfangen
-angebot
-angebotene
-angekommen
-angeschaut
-angespannt
-angespannter
-angestellte
-angezündet
-angst
-ankunft
-anprobieren
-ans
-anspruch
-antwortet
-anzufassen
-anzünden
-anzündet
-apotheke
-appetit
-arbeit
-arbeitsstelle
-arrangiert
-arzt
-atmet
-auch
-auf
-aufbricht
-aufgehende
-aufgehenden
-aufgeregt
-aufmerksam
-aufnimmt
-aufrecht
-aufregung
-aufstiegsmöglichkeiten
-aufzogen
-augen
-augenblicke
-aus
-ausbreitet
-ausdrücke
-ausführt
-ausgestreckt
-ausgezeichnete
-ausrüstung
-aussicht
-aussteigt
-ausweis
-authentisch
-aʊf
-aˈpeːtiːt
-bad
-bahnhof
-bahnsteig
-bald
-bankkarte
-bankkonto
-bauchschmerzen
-bauern
-bauernhof
-bedeutet
-bedeutung
-bedingung
-begegnen
-begegnungen
-begeistert
-beginnen
-beginnt
-behalten
-beherbergt
-bei
-beide
-beim
-bekomme
-bekommen
-beleben
-bemerkt
-benutzt
-benötigen
-benötigt
-beobachtet
-bereit
-bereitet
-bereitgestellt
-bereithält
-bereits
-berg
-bergab
-bergdorf
-berge
-bergen
-berghütte
-bergrettung
-bergwacht
-berlin
-berlin-kreuzberg
-berät
-berühren
-berührt
-bescheid
-beschlossen
-beschreibt
-beschwerde
-besitzer
-besonders
-besser
-bestehen
-besteht
-bestellt
-bestellungen
-bestätigen
-bestätigung
-betrachtet
-betreten
-betritt
-better
-bevor
-bevorzugst
-bewegung
-bewundern
-bewusst
-bewusster
-beziehung
-biege
-biegen
-bieten
-bin
-birthday
-bis
-bisschen
-bist
-bitte
-blanc
-blau
-bleiben
-bleibst
-bleibt
-bless
-blicken
-blickt
-bläst
-blöken
-blökt
-bordeaux
-brauche
-brauchen
-braucht
-breitet
-brennnesseln
-brennt
-bringen
-bringt
-brot
-brötchen
-buch
-bus
-bushaltestelle
-bye
-bäckerei
-bäckerin
-bäume
-böse
-bɪs
-café
-careful
-charmant
-charme
-cheers
-christmas
-coming
-condition
-congratulations
-da
-dabei
-dachte
-dahin
-damit
-dank
-dankbarkeit
-danke
-dann
-daran
-darauf
-darüber
-das
-dass
-dauert
-day
-dazu
-daŋkə
-decke
-deinem
-deinen
-deiner
-dem
-den
-denen
-denke
-denken
-denkt
-denn
-der
-deren
-des
-deshalb
-deuten
-deutsche
-dich
-dicht
-dichten
-die
-diese
-dieselbe
-diesem
-diesen
-dieser
-dieses
-dinge
-dir
-direkt
-direkte
-direkten
-direktverbindung
-direktzug
-diːr
-doch
-dokumente
-don't
-dorf
-dorfes
-dort
-draußen
-dreht
-drei
-dreimal
-drohenden
-drüben
-du
-duft
-dumm
-dunkle
-durch
-durchquert
-durchsage
-dürfen
-e-mail
-e-mail-adresse
-echt
-ecke
-egal
-ein
-eine
-einem
-einen
-einer
-einfach
-einfache
-eingang
-eingangstür
-eingezogen
-eingraviert
-einige
-einigen
-einkäufe
-einmal
-einreichen
-einsamkeiten
-einsteigen
-eintreffen
-eintönig
-einverstanden
-elemente
-elf
-emotion
-empfehlen
-empfängt
-ende
-endlich
-engen
-englisch
-engländer
-engländerin
-enjoy
-entdecken
-entdeckt
-entdeckung
-entdeckungen
-entfacht
-entfernt
-entfliehen
-entlang
-entscheiden
-entscheidet
-entscheidung
-entschieden
-entschlossenheit
-entschuldige
-entschuldigen
-entschuldigung
-entzündet
-er
-erdnüsse
-erfahrung
-erforderlich
-erfordert
-erhalten
-erhöhen
-erinnern
-erinnerungen
-erkannt
-erkenne
-erkennen
-erklärt
-erkunden
-erlaubnis
-erleichtert
-erleuchtet
-erreichen
-erreicht
-erschallt
-erscheint
-erschöpft
-erst
-erstattung
-ertönt
-erzählen
-erzählt
-eröffnen
-es
-essbar
-essen
-etwa
-etwas
-euch
-euro
-evening
-excuse
-existieren
-existiert
-fahren
-fahrt
-faltigen
-farbe
-farm
-fast
-fehlt
-felder
-felsen
-fenster
-fensterläden
-ferne
-fertig
-fest
-festes
-feucht
-feuer
-fieber
-finde
-finden
-findet
-fine
-finger
-fiːl
-fiːɐ
-flamme
-flasche
-fließendes
-fließt
-flug
-folge
-folgen
-folgt
-form
-formal
-fort
-fotos
-frage
-fragen
-fragilität
-fragt
-französisch
-französischen
-frau
-frei
-freie
-freies
-freundlich
-freut
-frisch
-frische
-frischem
-frohe
-frohes
-fröstelt
-früher
-frühstück
-fundbüro
-funktioniert
-furchtbar
-fähig
-fähigkeit
-fährt
-fällt
-fängt
-fühle
-fühlen
-fühlst
-fühlt
-führer
-führt
-führungsziege
-füllt
-fünf
-fünfzehn
-für
-fɛɐ
-fʁɔɪ
-gaben
-ganz
-ganze
-ganzes
-garten
-gassen
-geben
-geburtstag
-gebäck
-gebäude
-gebühren
-gecheckt
-gedacht
-gedanken
-geduld
-gefunden
-gefühl
-geführt
-gegangen
-gegen
-gegend
-gegenteil
-gegenüber
-geh
-gehalt
-gehe
-geheimnisvolle
-gehen
-gehoben
-geholfen
-geholt
-geht
-geht's
-gekocht
-gekommen
-gekostet
-geld
-geldautomaten
-gelebt
-gelernt
-geltend
-gelüftet
-gemacht
-gemeinsam
-gemütliche
-genau
-genauso
-genommen
-gepackt
-gepäck
-gerade
-geradeaus
-gerettet
-gerne
-geräusch
-geräusche
-gesagt
-geschenk
-geschichte
-geschichten
-geschickt
-geschlafen
-gesehen
-gesicht
-gespräch
-gesprächig
-gestalt
-gestern
-gestohlen
-getan
-getrennt
-gewissen
-gewohnt
-gewusst
-gewöhnliche
-gewöhnliches
-gezeigt
-gibt
-gipfel
-gladly
-gleich
-gleiche
-gleichgültig
-gleichgültigkeit
-gleis
-glutenfrei
-glück
-glückwunsch
-go
-good
-goodbye
-gott
-großartige
-große
-großen
-großmutter
-großstadt
-gruppenreservierung
-größe
-größer
-größere
-grünen
-gut
-gute
-guten
-guthaben
-güte
-hab
-habe
-haben
-habt
-halbe
-hallo
-halo
-halten
-hand
-handy
-handys
-hang
-happy
-hast
-hat
-hatte
-hauptbahnhof
-haus
-hause
-have
-heil
-heiße
-heißen
-heißes
-heißt
-helfen
-hello
-herabzusteigen
-heraus
-herausforderung
-herausgehen
-herberge
-here
-herrlich
-herum
-herunter
-herzlichen
-heute
-hi
-hier
-hierher
-hilfe
-hilfsbereit
-himmel
-hin
-hinaus
-hinein
-hinfahrt
-hinunter
-hinuntergehe
-hinuntergeht
-hinuntersteigt
-hinunterzusteigen
-hoch
-hoffe
-hoffentlich
-holen
-holt
-holz
-holzläden
-hubschrauber
-hund
-hunger
-huste
-hält
-hände
-händen
-hätte
-hätten
-häusern
-hölzernen
-höre
-hören
-hört
-hübsch
-hügeliger
-hütte
-hɛʁt
-i'm
-ice
-ich
-idee
-ihm
-ihn
-ihnen
-ihr
-ihre
-ihrem
-ihren
-ihrer
-ihres
-illusion
-im
-immer
-in
-inbegriffen
-indem
-informal
-inhaber
-inne
-ins
-inschrift
-interpretiere
-interpretiert
-irgendwohin
-is
-ist
-it
-it's
-ja
-jacke
-jahr
-je
-jede
-jedem
-jeden
-jeder
-jegliches
-jemand
-jemanden
-jener
-jetzt
-job
-junge
-kaffee
-kamin
-kann
-kannst
-karte
-kaufen
-kauft
-kaum
-kaution
-kein
-keine
-keinen
-kellner
-kenne
-kennen
-kennt
-kiez
-kilo
-kindheit
-kirche
-klar
-klares
-kleidung
-kleine
-kleinen
-kleiner
-kleines
-klimaanlage
-know
-kochen
-kocht
-komisch
-komme
-kommen
-kommt
-konnte
-kontaktieren
-konto
-kontrollieren
-kopf
-kopfschmerzen
-kosten
-kostet
-kreditkarten
-kreis
-kreuzberg
-kräfte
-kälter
-käse
-können
-könnte
-könnten
-körper
-köstlich
-laden
-ladenbesitzerin
-ladens
-landet
-landhauses
-landschaft
-lang
-lange
-langen
-langsam
-langsamer
-laptop
-lass
-lassen
-laufen
-lauscht
-lauter
-lautet
-leben
-lebendig
-lebensmittelladen
-lebst
-legen
-legt
-lehren
-lehrt
-leid
-leise
-leiter
-lesen
-let's
-letzte
-letztes
-leute
-licht
-lichtung
-liebe
-lieben
-lieblingscafé
-liefern
-ließ
-limit
-links
-liste
-lokalen
-london
-los
-losziehen
-lucas
-luck
-luft
-lächeln
-lächelt
-läuft
-mache
-machen
-machst
-macht
-mag
-magst
-mal
-male
-malerisch
-man
-manchmal
-mann
-marc
-maxt
-maybe
-me
-meal
-meer
-meet
-mehr
-mein
-meine
-meinem
-meinen
-meiner
-melancholie
-menschen
-menschliche
-menschlichen
-merkwürdige
-merry
-meter
-mich
-miete
-milchkaffee
-mind
-minuten
-mir
-mischt
-mit
-miteinander
-mitgebracht
-mitgenommen
-mitnehmen
-mittelalte
-moment
-monat
-monatliche
-mont
-morgen
-morgencafé
-morgenlicht
-motorengeräusch
-moˈmɛnt
-much
-muss
-mut
-möchte
-möchten
-möchtest
-möglichen
-mögt
-müde
-müden
-müller
-münchen
-müssen
-mɪt
-mɪç
-nach
-nachdem
-nachgecheckt
-nachgeprüft
-nachmittag
-nacht
-nachzudenken
-nah
-nahe
-naivität
-name
-namen
-nass
-natur
-natürlich
-naɪn
-naχt
-nebel
-neben
-nebenkosten
-nehme
-nehmen
-nehmt
-nein
-nervosität
-nervös
-nett
-netz
-neu
-neuen
-neues
-neugierig
-never
-new
-nice
-nicht
-nichts
-nie
-niemals
-night
-nimm
-nimmt
-no
-noch
-normal
-normales
-normandie
-not
-notwendig
-notwendigkeit
-november
-nummer
-nur
-nutzt
-nächste
-nächsten
-nächte
-nähe
-nähert
-nähren
-nötig
-nötigste
-nützt
-nən
-nɪçt
-nɪçts
-ob
-oben
-obwohl
-oder
-oh
-ohne
-okay
-one
-optimistisch
-oranienstraße
-ordnung
-organisieren
-orientieren
-orientierung
-out
-paar
-paniken
-papier
-pardon
-paris
-pass
-passiert
-pension
-per
-perfekt
-person
-personen
-pfad
-pflanzen
-pflückt
-phrasen
-pin-code
-please
-pleasure
-plätze
-plötzlich
-polizei
-polizeistation
-portemonnaie
-pro
-problem
-profis
-projiziere
-projizieren
-prost
-prüft
-prüfung
-pullover
-pʁoːst
-qualifikationen
-quelle
-rast
-rat
-rechnung
-recht
-rechts
-reden
-reflektierte
-reflexion
-reibt
-reise
-reisen
-rennt
-reservierung
-rettung
-rettungshubschrauber
-rettungskraft
-rettungskräfte
-rettungsstation
-rettungsstelle
-reue
-rezept
-richtet
-richtig
-richtiges
-richtung
-ritzt
-robust
-rolle
-rote
-rotwein
-rucksack
-rucksäcke
-rufen
-ruft
-ruh
-ruhen
-ruhig
-ruhiger
-runde
-runter
-runtergehe
-runzligen
-rückerstattung
-rückfahrt
-sagen
-sagt
-sagte
-sammeln
-sammle
-sandwiches
-sanft
-sanitäter
-satz
-schalter
-schatz
-schau
-schauen
-schaut
-scheint
-schilder
-schinken
-schlaf
-schlafen
-schlecht
-schlendern
-schließlich
-schluckt
-schlüssel
-schmidt
-schneebedeckten
-schnell
-schokoladenbrötchen
-schon
-schrecklich
-schreit
-schreiten
-schuldig
-schulter
-schutzhütte
-schwarz
-schweigend
-schwenkt
-schwierige
-schäferhütte
-schäferstruktur
-schön
-schönen
-schöner
-schönes
-schüttelt
-schützen
-sechzehn
-sechzig
-second
-see
-sehe
-sehen
-sehr
-seht
-sei
-seid
-sein
-seine
-seinem
-seinen
-seiner
-seite
-selbst
-selbstbehalt
-selbstsicher
-seltsam
-seltsame
-seltsamen
-service
-serviert
-setzen
-setzt
-seufzt
-sich
-sicher
-sichere
-sicheren
-sicherheit
-sie
-sieben
-sieht
-sind
-situation
-sitzen
-sitzend
-so
-so-so
-sobald
-sofa
-sofort
-solche
-sollen
-sollte
-sollten
-sondern
-sonne
-sonnenaufgang
-soon
-sophie
-sophies
-sorge
-sorgen
-sorry
-spazieren
-spaziergang
-speisekarte
-speisesaal
-sperren
-spezifischen
-spielt
-spontan
-spreche
-sprechen
-spricht
-sprudelt
-spät
-später
-spürt
-stabil
-stadt
-starrt
-starten
-startet
-stechen
-stehen
-steht
-steigen
-steigt
-steinernen
-steinhäusern
-steinwände
-stellt
-stich
-stiche
-stille
-stimme
-stoff
-stornieren
-storniert
-stornogebühren
-straße
-straßen
-streichholz
-streichhölzer
-streiten
-streitigkeiten
-streits
-stunde
-stunden
-stundenlang
-ständig
-stängel
-stärker
-stück
-stürme
-suche
-suchen
-sucht
-suchteam
-suppe
-szene
-szenen
-süßes
-sʊm
-sˈlɪçn
-tag
-tagesanbruch
-tal
-tanzt
-tasche
-taschen
-taschenlampe
-tauchen
-taucht
-taːk
-tee
-teil
-teile
-teilen
-telefon
-telefonnummer
-temperatur
-termin
-termine
-teuer
-thank
-that's
-the
-there
-ticket
-tickets
-tief
-tiefer
-tier
-tiere
-tierisches
-tipp
-tisch
-to
-toiletten
-tomaten
-tomorrow
-too
-topf
-traum
-traurigkeit
-treffen
-trennen
-trennung
-tresen
-trifft
-trinkbares
-trinke
-trinken
-trinkt
-trinkwasser
-trip
-tritt
-trug
-trägt
-träume
-tschüss
-tun
-tut
-tür
-tʃʏs
-u-bahn
-uhr
-um
-umarmen
-umgebung
-umgehen
-umkehren
-umschlungen
-umso
-umsteigen
-unbeschwerte
-und
-unerwartete
-unfreiwillige
-ungefähr
-ungewissen
-ungewissheit
-ungewöhnliches
-ungläubig
-unmöglich
-uns
-unschuld
-unser
-unsere
-unserem
-unserer
-unsicherheit
-unten
-unter
-unterdessen
-unterhalten
-unterschied
-unterschlupf
-unterwegs
-ursache
-vater
-vaɪs
-vaɪˈnaxtn
-vegetarier
-vegetarierin
-vereinbaren
-vereint
-verfehlen
-vergessen
-vergibt
-vergiss
-vergnügen
-verhalten
-verirrt
-verkehrsmittel
-verkündet
-verladen
-verlassen
-verlassene
-verletzen
-verlieren
-verliert
-verloren
-verlust
-verlässt
-vermischen
-vermisse
-verpacken
-verreisen
-verrückt
-verschluckt
-verschneiten
-verschwimmt
-verschwunden
-versicherung
-verspätet
-verstehe
-versuch
-versuche
-versucht
-vertrauen
-verwandelt
-verwandlung
-verwendet
-verwitterter
-very
-verzeih
-verzieht
-verzweifelt
-verzweiflung
-verändern
-verändert
-veränderung
-viel
-viele
-vielen
-vielleicht
-vier
-viertel
-viertels
-vierten
-voll
-vollständig
-vollständiger
-vom
-von
-vor
-voran
-vorbeigehen
-vorbeigehenden
-vorbeiziehende
-vorbeiziehenden
-vorgeben
-vorher
-vorne
-vorsichtig
-vorwürfe
-völlig
-vɪlˈkɔmən
-wachsen
-wage
-wagen
-waggon
-wahl
-wahnsinnig
-wahr
-wahrheit
-wand
-wandel
-wandermöglichkeiten
-wandern
-wanderung
-wanderungen
-wann
-war
-waren
-warme
-warmen
-wart
-warte
-warten
-wartet
-warum
-was
-wasser
-watch
-wechsel
-wechselgeld
-wechselkurs
-wecken
-weder
-weg
-wege
-wegen
-weht
-wehtun
-weihnachten
-weile
-wein
-weinend
-weinladen
-weit
-weiter
-weiterexistieren
-weitergehen
-weiterhin
-weitermachen
-weiß
-weiße
-weißt
-welche
-welchem
-welchen
-welcome
-well
-wendet
-wenige
-weniger
-wenn
-wer
-werde
-werden
-werdet
-westentasche
-wetter
-wichtig
-wichtigste
-widerfährt
-wie
-wieder
-wiedergefunden
-wiederholen
-wiedersehen
-wiener
-wild
-will
-willingly
-willkommen
-willst
-wind
-winter
-wir
-wird
-wirklich
-wirst
-wirtin
-wissen
-with
-wo
-woche
-wohin
-wohne
-wohnung
-wolken
-wolle
-wollte
-wolltest
-worte
-worüber
-wunder
-wunderschön
-wunsch
-wurde
-wurden
-wächst
-während
-wälder
-wände
-wäre
-wärme
-wärmeren
-year
-yes
-you
-you're
-your
-zahlen
-zaχə
-zeichen
-zeigen
-zeigt
-zeit
-zerbrechlichkeit
-zeːɐ
-ziege
-zieht
-zimmer
-zitternd
-ziː
-zoː
-zu
-zucker
-zuerst
-zug
-zukunft
-zukünfte
-zulässt
-zum
-zunehmend
-zur
-zurechtkommen
-zurück
-zurückkehrt
-zusammen
-zusammenbleiben
-zusammenstellen
-zuvor
-zwei
-zweifel
-zweifelst
-zweifelte
-zweimal
-zwingt
-zwischenzeit
-zählt
-zärtlich
-zögerlich
-zögernd
-zögert
-züge
-zə
-ändern
-ändert
-ängstlich
-öffentliche
-öffnet
-über
-überall
-überleben
-überlebt
-überlegt
-übernachtung
-überprüfen
-überprüft
-überrascht
-übersetzt
-übersetzung
-übersetzungen
-überstanden
-überweisen
-überweisung
-überwältigt
-əs
-ɛntˈʃʊldɪɡn
-ɛntˈʃʊldɪɡʊŋ
-ɛs
-ɡeːt
-ɡeːts
-ɡlʏk
-ɡuːt
-ɡəˈbʊʁtstaːk
-ɪst
-ɪç
-ʃlɛçt
-ʊnt
-ˈaləs
-ˈaxtʊŋ
-ˈaɪ
-ˈaɪnfɛɐ
-ˈaːbənt
-ˈbɛsɐ
-ˈbɪtə
-ˈfʁoːə
-ˈfʁoːəs
-ˈiːnən
-ˈjaːɐ
-ˈkaɪnə
-ˈkɔmə
-ˈlaɪçt
-ˈmɔrɡn
-ˈnɔɪ
-ˈviːdɐˌzeːən
-ˈɡlʏkˌvʊnʃ
-ˈɡnyːɡn
-ˈɡuːtn
-ˈɡuːtə
-ˈɡɛʁnə
-ˈʁaɪ
-ˈʃøːnən
-ˈʊmzoː
-ˈʊɐ
-ˌʃtantən
+ab | [ˈap]
+abend | [ˈɑːbənt]
+abendessen | [ˈɑːbəndˌɛsən]
+abends | [ˈɑːbənts]
+abenteuer | [ˈɑbəntˌɔøɜ]
+aber | [ˈɑːbɜ]
+abfragen | [ˈapfrˌɑːɡən]
+abgedeckt | [ˈapɡədˌɛkt]
+abgeschlossen | [ˈapɡəʃlˌɔsən]
+abhebungsgebühren | [ˈaphˌeːbʊŋsɡəbˌyːrən]
+abrupt | [ˈaprˌʊpt]
+abschließen | [ˈapʃlˌiːsən]
+absicht | [ˈapzˌɪçt]
+abzusteigen | [ˈaptsuːʃtˌaɪɡən]
+accept | [akˈɛpt]
+account | [(en)ɐkˈaʊnt(de)]
+achtung | [ˈaxtʊŋ]
+address | [ˈadrɛs]
+advancement | [ˌadvankeːmˈɛnt]
+agreed | [ˈaɡreːt]
+ahead | [ˈɑːeːˌɑːt]
+air | [ˈɛːɾ]
+akzeptiert | [ˌaktsɛptˈiːɾt]
+all | [ˈal]
+alle | [ˈalə]
+allein | [alˈaɪn]
+alleine | [alˈaɪnə]
+allergic | [ˈalɜɡˌiːk]
+allergisch | [ˈalɜɡˌɪʃ]
+alles | [ˈaləs]
+alpen | [ˈalpən]
+alpendorf | [ˈalpəndˌɔɾf]
+already | [ˈalreːˌɑdiː]
+als | [ˈals]
+alte | [ˈaltə]
+alten | [ˈaltən]
+altes | [ˈaltəs]
+always | [ˈalvaɪs]
+am | [ˈam]
+amount | [ˈɑmuːnt]
+an | [ˈan]
+and | [ˈant]
+andere | [ˈandərə]
+anderer | [ˈandərɜ]
+anderes | [ˈandərəs]
+anders | [ˈandɜs]
+anfangen | [ˈanfˌaŋən]
+angebot | [ˈanɡəbˌoːt]
+angebotene | [ˈanɡəbˌoːtənə]
+angekommen | [ˈanɡəkˌɔmən]
+angeschaut | [ˈanɡəʃˌaʊt]
+angespannt | [ˈanɡəʃpˌant]
+angespannter | [ˈanɡəʃpˌantɜ]
+angestellte | [ˈanɡəʃtˌɛltə]
+angezündet | [ˈanɡətsˌʏndət]
+angst | [ˈaŋst]
+ankunft | [ˈankˌʊnft]
+another | [ˈanˌɔtɜ]
+anprobieren | [ˈanproːbˌiːrən]
+ans | [ˈans]
+anspruch | [ˈanʃprˌʊx]
+antwortet | [ˈantvɔɾtət]
+anzufassen | [ˈantsuːfˌasən]
+anzünden | [ˈantsˌʏndən]
+anzündet | [ˈantsˌʏndət]
+apartment | [ˌɑpaɾtmˈɛnt]
+apotheke | [ˈɑpɔthˌeːkə]
+appetit | [ˌapeːtˈɪt]
+appointment | [ˌapoːɪntmˈɛnt]
+arbeit | [ˈaɾbaɪt]
+are | [ˈɑːrə]
+arrangiert | [ˌaraŋʒˈiːət]
+arzt | [ˈaɾtst]
+at | [ˈɑːt]
+atm | [ˈatm]
+atmet | [ˈatmət]
+auch | [ˈaʊx]
+auf | [ˈaʊf]
+aufbricht | [ˈaʊfbrˌɪçt]
+aufgehende | [ˈaʊfɡˌeːəndə]
+aufgehenden | [ˈaʊfɡˌeːəndən]
+aufgeregt | [ˈaʊfɡərˌeːkt]
+aufmerksam | [ˈaʊfmˌɛɾkzɑːm]
+aufnimmt | [ˈaʊfnˌɪmt]
+aufrecht | [ˈaʊfrˌɛçt]
+aufregung | [ˈaʊfrˌeːɡʊŋ]
+aufstiegsmöglichkeiten | [ˈaʊfʃtˌiːksmœklˌɪçkaɪtən]
+aufzogen | [ˈaʊftsˌoːɡən]
+augen | [ˈaʊɡən]
+augenblicke | [ˈaʊɡənblˌɪkə]
+aus | [ˈaʊs]
+ausbreitet | [ˈaʊsbrˌaɪtət]
+ausführt | [ˈaʊsfˌyːɾt]
+ausgestreckt | [ˈaʊsɡəʃtɾˌɛkt]
+ausgezeichnete | [ˈaʊsɡətsˌaɪçnətə]
+ausrüstung | [ˈaʊsrˌʏstʊŋ]
+aussicht | [ˈaʊszˌɪçt]
+aussteigt | [ˈaʊsʃtˌaɪkt]
+ausweis | [ˈaʊsvˌaɪs]
+authentisch | [aʊtˈɛntɪʃ]
+authorization | [ˌaʊthoːrˌiːtsatsɪˈoːn]
+availability | [(en)ɐvˌeɪləbˈɪlɪti(de)]
+available | [ˌɑvaɪlˈɑːblə]
+aɪn | [ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn]
+aʊf | [ˈɑː (en)ˈʊpsɪlˌɒn(de) ˈɛf]
+bad | [bˈɑːt]
+bag | [bˈɑːk]
+bahnhof | [bˈɑːnhoːf]
+bahnsteig | [bˈɑːnstaɪk]
+balance | [(en)bˈaləns(de)]
+bald | [bˈalt]
+bank | [bˈaŋk]
+bankkarte | [bˈaŋkaɾtə]
+bankkonto | [baŋkˈɔntoː]
+bauchschmerzen | [bˈaʊxʃmɜtsən]
+bauern | [bˈaʊɜn]
+bauernhof | [bˈaʊɛɾnhˌoːf]
+baŋkˈɔntoː | [bˈeː ˈɑː ˈɛn kˈɑː (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈɛn tˈeː ˈoː (en)lˈɛŋθənd(de)]
+be | [bˈeː]
+bedeutet | [bədˈɔøtət]
+bedeutung | [bədˈɔøtʊŋ]
+bedingung | [bədˈɪŋʊŋ]
+been | [bˈeːən]
+begegnen | [bəɡˈeːɡnən]
+begegnungen | [bəɡˈeːɡnʊŋən]
+begeistert | [bəɡˈaɪstɜt]
+beginnen | [bəɡˈɪnən]
+beginnt | [bəɡˈɪnt]
+behalten | [bəhˈaltən]
+beherbergt | [bəhˈɛɾbɜkt]
+bei | [bˈaɪ]
+beide | [bˈaɪdə]
+beim | [bˈaɪm]
+bekommen | [bəkˈɔmən]
+beleben | [bəlˈeːbən]
+bemerkt | [bəmˈɛɾkt]
+benutzt | [bənˈʊtst]
+benötigen | [bənˈøːtɪɡən]
+benötigt | [bənˈøːtɪçt]
+beobachtet | [bˌəoːbˈaxtət]
+bereit | [bərˈaɪt]
+bereitet | [bərˈaɪtət]
+bereithält | [bərˈaɪthɛlt]
+bereits | [bərˈaɪts]
+berg | [bˈɛɾk]
+bergab | [bˈɛɾɡɑːp]
+bergdorf | [bˈɛɾɡdɔɾf]
+berge | [bˈɛɾɡə]
+bergen | [bˈɛɾɡən]
+berghütte | [bˈɛɾkhʏtə]
+bergrettung | [bˈɛɾɡrɛtˌʊŋ]
+bergwacht | [bˈɛɾɡvaxt]
+berlin | [bɛɾlˈiːn]
+berlin-kreuzberg | [bɛɾlˈiːnkrˈɔøtsbɜk]
+berät | [bərˈɛːt]
+berühren | [bərˈyːrən]
+berührt | [bərˈyːɾt]
+bescheid | [bəʃˈaɪt]
+beschlossen | [bəʃlˈɔsən]
+beschreibt | [bəʃrˈaɪpt]
+beschwerde | [bəʃvˈeːɾdə]
+besitzer | [bəzˈɪtsɜ]
+besonders | [bəzˈɔndɜs]
+besser | [bˈɛsɜ]
+bestehen | [bəʃtˈeːən]
+besteht | [bəʃtˈeːt]
+bestellt | [bəʃtˈɛlt]
+bestellungen | [bəʃtˈɛlʊŋən]
+bestätigen | [bəʃtˈɛːtɪɡən]
+bestätigung | [bəʃtˈɛːtɪɡˌʊŋ]
+betrachtet | [bətɾˈaxtət]
+betreten | [bətɾˈeːtən]
+betritt | [bətɾˈɪt]
+better | [bˈɛtɜ]
+bevor | [bəfˈoːɾ]
+bevorzugst | [bəfˈoːɾtsˌuːkst]
+bewegung | [bəvˈeːɡʊŋ]
+bewundern | [bəvˈʊndɜn]
+bewusst | [bəvˈʊst]
+bewusster | [bəvˈʊstɜ]
+beziehung | [bətsˈiːʊŋ]
+biege | [bˈiːɡə]
+biegen | [bˈiːɡən]
+bieten | [bˈiːtən]
+bill | [bˈɪl]
+bin | [bˈɪn]
+birthday | [bˈɪɾtdɛɪ]
+bis | [bˈɪs]
+bisschen | [bˈɪsçən]
+bist | [bˈɪst]
+bitte | [bˈɪtə]
+blanc | [blˈank]
+blau | [blˈaʊ]
+bleiben | [blˈaɪbən]
+bleibst | [blˈaɪpst]
+bleibt | [blˈaɪpt]
+bless | [blˈɛs]
+blicken | [blˈɪkən]
+blickt | [blˈɪkt]
+bläst | [blˈɛst]
+blöken | [blˈøːkən]
+blökt | [blˈœkt]
+bordeaux | [bˈɔɾdeːˌaʊks]
+brauche | [brˈaʊxə]
+brauchen | [brˈaʊxən]
+braucht | [brˈaʊxt]
+breakfast | [brˈeːakfˌast]
+breitet | [brˈaɪtət]
+brennnesseln | [brˈɛnɛsəln]
+brennt | [brˈɛnt]
+bringen | [brˈɪŋən]
+bringt | [brˈɪŋt]
+brot | [brˈoːt]
+brötchen | [brˈøːtçən]
+brˈaʊxə | [bˈeː ˈɛɾ (en)stɹˈɛs(de) ˈɑː (en)ˈʊpsɪlˌɒn(de) ˈɪks (en)ʃwˈɑː(de)]
+buch | [bˈʊx]
+bus | [bˈʊs]
+bushaltestelle | [bˈʊshaltˌɛʃtɛlə]
+buy | [bˈuːiː]
+by | [bˈyː]
+bye | [bˈyːə]
+bäckerei | [bˌɛkeːrˈaɪ]
+bäckerin | [bˈɛkərˌɪn]
+bäume | [bˈɔømə]
+böse | [bˈøːzə]
+bədˈɔøtət | [bˈeː (en)ʃwˈɑː(de) dˈeː (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈœ tˈeː (en)ʃwˈɑː(de) tˈeː]
+bəhˈaltən | [bˈeː (en)ʃwˈɑː(de) hˈɑː (en)stɹˈɛs(de) ˈɑː ˈɛl tˈeː (en)ʃwˈɑː(de) ˈɛn]
+bəkˈɔmən | [bˈeː (en)ʃwˈɑː(de) kˈɑː (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈɛm (en)ʃwˈɑː(de) ˈɛn]
+bənˈøːtɪçt | [bˈeː (en)ʃwˈɑː(de) ˈɛn (en)stɹˈɛs(de) ˈœ (en)lˈɛŋθənd(de) tˈeː (en)smˈɔːlkˌapˈaɪ(de) sˌeːseːdˈiːj tˈeː]
+bənˈøːtɪɡən | [bˈeː (en)ʃwˈɑː(de) ˈɛn (en)stɹˈɛs(de) ˈœ (en)lˈɛŋθənd(de) tˈeː (en)smˈɔːlkˌapˈaɪ(de) ɡˈeː (en)ʃwˈɑː(de) ˈɛn]
+bənˈʊtst | [bˈeː (en)ʃwˈɑː(de) ˈɛn (en)stɹˈɛs ˈʊpsɪlˌɒn(de) tˈeː ˈɛs tˈeː]
+bəʃtˈɛːtɪɡən | [bˈeː (en)ʃwˈɑː ˈɛʃ(de) tˈeː (en)stɹˈɛs ˌəʊpənˈɛː lˈɛŋθənd(de) tˈeː (en)smˈɔːlkˌapˈaɪ(de) ɡˈeː (en)ʃwˈɑː(de) ˈɛn]
+bəʃtˈɛːtɪɡˌʊŋ | [bˈeː (en)ʃwˈɑː ˈɛʃ(de) tˈeː (en)stɹˈɛs ˌəʊpənˈɛː lˈɛŋθənd(de) tˈeː (en)smˈɔːlkˌapˈaɪ(de) ɡˈeː (en)sˈɛkəndɹɪstɹˌɛs ˈʊpsɪlˌɒn(de) ˈɛn]
+bəʃvˈeːɾdə | [bˈeː (en)ʃwˈɑː ˈɛʃ(de) fˈaʊ (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd ˈɑːtap(de) dˈeː (en)ʃwˈɑː(de)]
+bɪn | [bˌeː(en)smˌɔːlkˌapˌaɪ(de)ˈɛn]
+bɪs | [bˌeː(en)smˌɔːlkˌapˌaɪ(de)ˈɛs]
+bˈalt | [bˈeː (en)stɹˈɛs(de) ˈɑː ˈɛl tˈeː]
+bˈaŋkaɾtə | [bˈeː (en)stɹˈɛs(de) ˈɑː ˈɛn kˈɑː ˈɑː (en)ˈɑːtap(de) tˈeː (en)ʃwˈɑː(de)]
+bˈaʊxʃmɜtsən | [bˈeː (en)stɹˈɛs(de) ˈɑː (en)ˈʊpsɪlˌɒn(de) ˈɪks (en)ˈɛʃ(de) ˈɛm (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de) tˈeː ˈɛs (en)ʃwˈɑː(de) ˈɛn]
+bˈɑːnhoːf | [bˈeː (en)stɹˈɛs ˈalfə lˈɛŋθənd(de) ˈɛn hˈɑː ˈoː (en)lˈɛŋθənd(de) ˈɛf]
+bˈɛsɜ | [bˈeː (en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛs (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de)]
+bˈɪsçən | [bˌeː(en)stɹˌɛssmˌɔːlkˌapˈaɪ(de)skˈeːn]
+bˈɪtə | [bˌeː(en)stɹˌɛssmˌɔːlkˌapˈaɪ(de)tˈeː]
+bˈʊshaltˌɛʃtɛlə | [bˈeː (en)stɹˈɛs ˈʊpsɪlˌɒn(de) ˈɛs hˈɑː ˈɑː ˈɛl tˈeː (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː ˈɛʃ(de) tˈeː (en)ˌəʊpənˈɛː(de) ˈɛl (en)ʃwˈɑː(de)]
+café | [kafˈeː]
+call | [kˈal]
+can | [kˈɑːn]
+cancel | [kˈankəl]
+cancellation | [kˌankəlˌatsɪˈoːn]
+cancelled | [kˈankəlˌeːt]
+card | [kˈaɾt]
+cards | [kˈaɾts]
+careful | [kˈɑreːfˌuːl]
+change | [(en)tʃˈeɪndʒ(de)]
+charmant | [ʃaɾmˈant]
+charme | [ʃˈaɾmə]
+check | [çˈɛk]
+cheers | [çˈeːɾs]
+christmas | [krˈɪstmɑːs]
+claim | [klˈaɪm]
+code | [kˈoːt]
+color | [kˈoːloːɾ]
+come | [kˈoːmə]
+coming | [kˈoːmɪŋ]
+complaint | [kˈɔmplaɪnt]
+condition | [kˌɔndiːtsɪˈoːn]
+conditioning | [kˈɔndiːtsɪˌoːnɪŋ]
+confirm | [kˈɔnfɪɾm]
+confirmation | [kˌɔnfɪɾmˌatsɪˈoːn]
+congratulations | [kˌɔŋɡratˌuːlatsɪˈoːns]
+contact | [kˈɔntakt]
+cost | [kˈɔst]
+coughing | [kˈuːkhɪŋ]
+could | [kˈuːlt]
+covered | [kˈoːveːrˌeːt]
+credit | [kreːdˈɪt]
+da | [dˈɑː]
+dabei | [dɑːbˈaɪ]
+dachte | [dˈaxtə]
+dahin | [dɑːhˈɪn]
+damit | [dɑːmˈɪt]
+dank | [dˈaŋk]
+dankbarkeit | [dˈaŋkbaɾkˌaɪt]
+danke | [dˈaŋkə]
+dann | [dˈan]
+daran | [dɑːrˈan]
+darauf | [dɑːrˈaʊf]
+darüber | [dɑːrˈyːbɜ]
+das | [dˈas]
+dass | [dˈas]
+dauert | [dˈaʊɜt]
+day | [dˈɛɪ]
+dazu | [dɑːtsˈuː]
+de | [dˈeː]
+decke | [dˈɛkə]
+deductible | [dˌeːdʊktˈiːblə]
+deinem | [dˈaɪnəm]
+deinen | [dˈaɪnən]
+deiner | [dˈaɪnɜ]
+dem | [dˈeːm]
+den | [dˈeːn]
+denen | [dˈeːnən]
+denke | [dˈɛŋkə]
+denken | [dˈɛŋkən]
+denkt | [dˈɛŋkt]
+denn | [dˈɛn]
+deposit | [dˌeːpoːzˈɪt]
+der | [dˈɛɾ]
+deren | [dˈeːrən]
+des | [dˈɛs]
+deshalb | [dɛshˈalp]
+deuten | [dˈɔøtən]
+deutsche | [dˈɔøtʃə]
+deːn | [dˈeː ˈeː (en)lˈɛŋθənd(de) ˈɛn]
+dich | [dˈɪç]
+dicht | [dˈɪçt]
+dichten | [dˈɪçtən]
+didn't | [dˈɪdnt]
+die | [dˈiː]
+diese | [dˈiːzə]
+dieselbe | [diːzˈɛlbə]
+diesem | [dˈiːzəm]
+diesen | [dˈiːzən]
+dieser | [dˈiːzɜ]
+dieses | [dˈiːzəs]
+dinge | [dˈɪŋə]
+dir | [dˈiːɾ]
+direct | [dˈiːrɛkt]
+direkt | [diːrˈɛkt]
+direkte | [diːrˈɛktə]
+direktverbindung | [dˈiːrɛktfɛɾbˌɪndʊŋ]
+direktzug | [dˈiːrɛktsˌuːk]
+diː | [dˈeː ˈiː (en)lˈɛŋθənd(de)]
+do | [dˈoː]
+doch | [dˈɔx]
+doctor | [dˈɔktoːɾ]
+documents | [dˌoːkuːmˈɛnts]
+does | [dˈøːs]
+doesn't | [dˈœsnt]
+dokumente | [dˌoːkuːmˈɛntə]
+don't | [dˈoːnt]
+dorf | [dˈɔɾf]
+dorfes | [dˈɔɾfəs]
+dort | [dˈɔɾt]
+draußen | [drˈaʊsən]
+dreht | [drˈeːt]
+drei | [drˈaɪ]
+dreimal | [drˈaɪmɑːl]
+drohenden | [drˈoːəndən]
+drüben | [drˈyːbən]
+du | [dˈuː]
+duft | [dˈʊft]
+dumm | [dˈʊm]
+dunkle | [dˈʊŋklə]
+durch | [dˈʊɐç]
+durchquert | [dʊɐçkvˈeːɾt]
+durchsage | [dˈʊɐçzˌɑːɡə]
+duː | [dˈeː ˈuː (en)lˈɛŋθənd(de)]
+dürfen | [dˈʏɾfən]
+dɑː | [dˈeː (en)ˈalfə lˈɛŋθənd(de)]
+dɛɾ | [dˈeː (en)ˌəʊpənˈɛː ˈɑːtap(de)]
+dʊɐç | [dˈeː (en)ˈʊpsɪlˌɒn tˈɜːndˈeɪ(de) sˌeːseːdˈiːj]
+dˈaŋkə | [dˈeː (en)stɹˈɛs(de) ˈɑː ˈɛn kˈɑː (en)ʃwˈɑː(de)]
+dˈaʊɜt | [dˈeː (en)stɹˈɛs(de) ˈɑː (en)ˈʊpsɪlˌɒn ɹɪvˈɜːsdˈəʊpənˈɛː(de) tˈeː]
+dˈiːrɛktfɛɾbˌɪndʊŋ | [dˈeː (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd(de) ˈɛɾ (en)ˌəʊpənˈɛː(de) kˈɑː tˈeː ˈɛf (en)ˌəʊpənˈɛː ˈɑːtap(de) bˈeː (en)sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(de) ˈɛn dˈeː (en)ˈʊpsɪlˌɒn(de) ˈɛn]
+dˈiːɾ | [dˈeː (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd ˈɑːtap(de)]
+dˈɔɾt | [dˈeː (en)stɹˈɛs ˌəʊpənˈɔː ˈɑːtap(de) tˈeː]
+dˌoːkuːmˈɛntə | [dˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈoː (en)lˈɛŋθənd(de) kˈɑː ˈuː (en)lˈɛŋθənd(de) ˈɛm (en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛn tˈeː (en)ʃwˈɑː(de)]
+e-mail | [ˈeː(en)mˈeɪl(de)]
+e-mail-adresse | [ˈeː(en)mˈeɪl(de)ˈadrɛsə]
+echt | [ˈɛçt]
+ecke | [ˈɛkə]
+egal | [eːɡˈɑːl]
+ein | [ˈaɪn]
+eine | [ˈaɪnə]
+einem | [ˈaɪnəm]
+einen | [ˈaɪnən]
+einer | [ˈaɪnɜ]
+einfach | [ˈaɪnfˌax]
+einfache | [ˈaɪnfˌaxə]
+eingang | [ˈaɪnɡˌaŋ]
+eingangstür | [ˈaɪnɡˌaŋʃtyːɾ]
+eingezogen | [ˈaɪnɡətsˌoːɡən]
+eingraviert | [ˈaɪnɡravˌiːɾt]
+einige | [ˈaɪnɪɡə]
+einigen | [ˈaɪnɪɡən]
+einkäufe | [ˈaɪnkˌɔøfə]
+einmal | [ˈaɪnmˌɑːl]
+einreichen | [ˈaɪnrˌaɪçən]
+einsamkeiten | [ˈaɪnzˌɑːmkaɪtən]
+einsteigen | [ˈaɪnʃtˌaɪɡən]
+eintreffen | [ˈaɪntɾˌɛfən]
+eintönig | [ˈaɪntˌøːnɪç]
+einverstanden | [ˈaɪnfɛɾʃtˌandən]
+elemente | [ˌeːleːmˈɛntə]
+elf | [ˈɛlf]
+email | [(en)ˈiːmeɪl(de)]
+emotion | [ˌeːmoːtsɪˈoːn]
+empfehlen | [ɛmpfˈeːlən]
+empfängt | [ɛmpfˈɛŋt]
+en | [ˈeːn]
+ende | [ˈɛndə]
+endlich | [ˈɛntlɪç]
+engen | [ˈɛŋən]
+englisch | [ˈɛŋlɪʃ]
+english | [ˈɛŋlɪʃ]
+engländer | [ˈɛŋlɛndɜ]
+engländerin | [ˈɛŋlɛndərˌɪn]
+enjoy | [ˈɛnjɔø]
+entdecken | [ɛntdˈɛkən]
+entdeckt | [ɛntdˈɛkt]
+entdeckung | [ɛntdˈɛkʊŋ]
+entdeckungen | [ɛntdˈɛkʊŋən]
+entfacht | [ɛntfˈaxt]
+entfernt | [ɛntfˈɛɾnt]
+entfliehen | [ɛntflˈiːən]
+enthalten | [ɛnthˈaltən]
+entlang | [ɛntlˈaŋ]
+entscheiden | [ɛntʃˈaɪdən]
+entscheidet | [ɛntʃˈaɪdət]
+entscheidung | [ɛntʃˈaɪdʊŋ]
+entschieden | [ɛntʃˈiːdən]
+entschlossenheit | [ɛntʃlˈɔsənhˌaɪt]
+entschuldige | [ɛntʃˈʊldɪɡə]
+entschuldigen | [ɛntʃˈʊldɪɡən]
+entschuldigung | [ɛntʃˈʊldɪɡˌʊŋ]
+entzündet | [ɛnttsˈʏndət]
+er | [ˈɛɾ]
+erdnüsse | [ɛɾdnˈʏsə]
+erfahrung | [ɛɾfˈɑːrʊŋ]
+erforderlich | [ɛɾfˈɔɾdɜlˌɪç]
+erfordert | [ɛɾfˈɔɾdɜt]
+erhalten | [ɛɾhˈaltən]
+erhöhen | [ɛɾhˈøːən]
+erinnern | [ɛɾˈɪnɜn]
+erinnerungen | [ɛɾˈɪnərˌʊŋən]
+erkannt | [ɛɾkˈant]
+erkenne | [ɛɾkˈɛnə]
+erkennen | [ɛɾkˈɛnən]
+erklärt | [ɛɾklˈɛɾt]
+erkunden | [ɛɾkˈʊndən]
+erlaubnis | [ɛɾlˈaʊbnɪs]
+erleichtert | [ɛɾlˈaɪçtɜt]
+erleuchtet | [ɛɾlˈɔøçtət]
+erreichen | [ɛɾrˈaɪçən]
+erreicht | [ɛɾrˈaɪçt]
+erschallt | [ɛɾʃˈalt]
+erscheint | [ɛɾʃˈaɪnt]
+erschöpft | [ɛɾʃˈœpft]
+erst | [ˈeːɾst]
+erstattung | [ɛɾʃtˈatʊŋ]
+ertönt | [ɛɾtˈœnt]
+erzählen | [ɛɾtsˈɛːlən]
+erzählt | [ɛɾtsˈɛːlt]
+eröffnen | [ɛɾˈœfnən]
+es | [ˈɛs]
+essbar | [ˈɛsbɑːɾ]
+essen | [ˈɛsən]
+etwa | [ˈɛtvɑː]
+etwas | [ˈɛtvɑːs]
+euch | [ˈɔøç]
+euro | [ˈɔøroː]
+evening | [ˈeːveːnˌɪŋ]
+exchange | [ˈɛksçaŋə]
+excuse | [ˈɛkskʊsə]
+existieren | [ˌɛksɪstˈiːrən]
+existiert | [ˌɛksɪstˈiːɾt]
+expensive | [ˌɛkspɛnzˈiːvə]
+fahren | [fˈɑːrən]
+fahrt | [fˈɑːɾt]
+faltigen | [fˈaltɪɡən]
+far | [fˈɑːɾ]
+farbe | [fˈaɾbə]
+farm | [fˈaɾm]
+fast | [fˈast]
+feel | [fˈeːl]
+fees | [fˈeːs]
+fehlt | [fˈeːlt]
+felder | [fˈɛldɜ]
+felsen | [fˈɛlzən]
+fenster | [fˈeːnstɜ]
+fensterläden | [fˈɛnstɜlˌɛːdən]
+ferne | [fˈɛɾnə]
+fertig | [fˈɛɾtɪç]
+fest | [fˈɛst]
+festes | [fˈɛstəs]
+feucht | [fˈɔøçt]
+feuer | [fˈɔøɜ]
+fever | [fˈeːvɜ]
+fieber | [fˈiːbɜ]
+file | [fˈiːlə]
+finde | [fˈɪndə]
+finden | [fˈɪndən]
+findet | [fˈɪndət]
+fine | [fˈiːnə]
+finger | [fˈɪŋɜ]
+fiːllˈaɪçt | [ˈɛf ˈiː (en)lˈɛŋθənd(de) ˈɛl ˈɛl (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) sˌeːseːdˈiːj tˈeː]
+flamme | [flˈamə]
+flasche | [flˈaʃə]
+fließendes | [flˈiːsəndəs]
+fließt | [flˈiːst]
+flight | [(en)flˈaɪt(de)]
+flug | [flˈuːk]
+flˈuːk | [ˈɛf ˈɛl (en)stɹˈɛs(de) ˈuː (en)lˈɛŋθənd(de) kˈɑː]
+folge | [fˈɔlɡə]
+folgen | [fˈɔlɡən]
+folgt | [fˈɔlkt]
+for | [fˈoːɾ]
+form | [fˈɔɾm]
+formal | [fˈɔɾmɑːl]
+fort | [fˈɔɾt]
+fotos | [fˈoːtoːs]
+found | [fˈuːnt]
+frage | [frˈɑːɡə]
+fragen | [frˈɑːɡən]
+fragilität | [fraɡˈiːliːtˈɛːt]
+fragt | [frˈɑːkt]
+frantsˈøːzɪʃ | [ˈɛf ˈɛɾ ˈɑː ˈɛn tˈeː ˈɛs (en)stɹˈɛs(de) ˈœ (en)lˈɛŋθənd(de) tsˈɛt (en)smˈɔːlkˌapˈaɪ ˈɛʃ(de)]
+französisch | [frantsˈøːzɪʃ]
+frau | [frˈaʊ]
+frei | [frˈaɪ]
+freie | [frˈaɪə]
+freies | [frˈaɪəs]
+french | [frˈɛnç]
+freundlich | [frˈɔøntlɪç]
+freut | [frˈɔøt]
+frisch | [frˈɪʃ]
+frische | [frˈɪʃə]
+frischem | [frˈɪʃəm]
+frohe | [frˈoːə]
+frohes | [frˈoːəs]
+from | [frˈoːm]
+fröstelt | [frˈœstəlt]
+früher | [frˈyːɜ]
+frühstück | [frˈyːʃtʏk]
+frˈaɪəs | [ˈɛf ˈɛɾ (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ ʃwˈɑː(de) ˈɛs]
+frˈoːə | [ˈɛf ˈɛɾ (en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd ʃwˈɑː(de)]
+frˈoːəs | [ˈɛf ˈɛɾ (en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd ʃwˈɑː(de) ˈɛs]
+frˈyːʃtʏk | [ˈɛf ˈɛɾ (en)stɹˈɛs(de) ˈʏpsɪlˌɔn (en)lˈɛŋθənd ˈɛʃ(de) tˈeː (en)smˈɔːlkˌapwˈaɪ(de) kˈɑː]
+frˈɔøt | [ˈɛf ˈɛɾ (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈœ tˈeː]
+fundbüro | [fˈʊndbyːrˌoː]
+funktioniert | [fˌʊŋktsɪˌoːnˈiːɾt]
+furchtbar | [fˈʊɐçtbɑːɾ]
+fyːɾ | [ˈɛf ˈʏpsɪlˌɔn (en)lˈɛŋθənd ˈɑːtap(de)]
+fähig | [fˈɛːɪç]
+fähigkeit | [fˈɛːɪçkˌaɪt]
+fährt | [fˈɛːɾt]
+fällt | [fˈɛlt]
+fängt | [fˈɛŋt]
+fühle | [fˈyːlə]
+fühlen | [fˈyːlən]
+fühlst | [fˈyːlst]
+fühlt | [fˈyːlt]
+führer | [fˈyːrɜ]
+führt | [fˈyːɾt]
+führungsziege | [fˈyːrʊŋstsˌiːɡə]
+füllt | [fˈʏlt]
+fünf | [fˈʏnf]
+fünfzehn | [fˈʏnftseːn]
+für | [fˈyːɾ]
+fɔm | [fˈoːm]
+fɛrˈaɪnbɑːrən | [ˈɛf (en)ˌəʊpənˈɛː(de) ˈɛɾ (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn bˈeː (en)ˈalfə lˈɛŋθənd(de) ˈɛɾ (en)ʃwˈɑː(de) ˈɛn]
+fɛɾfˈʏɡbaɾkˌaɪtən | [ˈɛf (en)ˌəʊpənˈɛː ˈɑːtap(de) ˈɛf (en)stɹˈɛs smˈɔːlkˌapwˈaɪ(de) ɡˈeː bˈeː ˈɑː (en)ˈɑːtap(de) kˈɑː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) tˈeː (en)ʃwˈɑː(de) ˈɛn]
+fɛɾkˈeːɾsmɪtəl | [ˈɛf (en)ˌəʊpənˈɛː ˈɑːtap(de) kˈɑː (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd ˈɑːtap(de) ˈɛs ˈɛm (en)smˈɔːlkˌapˈaɪ(de) tˈeː (en)ʃwˈɑː(de) ˈɛl]
+fɛɾlˈoːrən | [ˈɛf (en)ˌəʊpənˈɛː ˈɑːtap(de) ˈɛl (en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛɾ (en)ʃwˈɑː(de) ˈɛn]
+fɛɾlˈɑːdən | [ˈɛf (en)ˌəʊpənˈɛː ˈɑːtap(de) ˈɛl (en)stɹˈɛs ˈalfə lˈɛŋθənd(de) dˈeː (en)ʃwˈɑː(de) ˈɛn]
+fɛɾpˈakən | [ˈɛf (en)ˌəʊpənˈɛː ˈɑːtap(de) pˈeː (en)stɹˈɛs(de) ˈɑː kˈɑː (en)ʃwˈɑː(de) ˈɛn]
+fɛɾzˈɪçərˌʊŋ | [ˈɛf (en)ˌəʊpənˈɛː ˈɑːtap(de) tsˈɛt (en)stɹˈɛs smˈɔːlkˌapˈaɪ(de) sˌeːseːdˈiːj (en)ʃwˈɑː(de) ˈɛɾ (en)sˈɛkəndɹɪstɹˌɛs ˈʊpsɪlˌɒn(de) ˈɛn]
+fɛɾɡənˈyːɡən | [ˈɛf (en)ˌəʊpənˈɛː ˈɑːtap(de) ɡˈeː (en)ʃwˈɑː(de) ˈɛn (en)stɹˈɛs(de) ˈʏpsɪlˌɔn (en)lˈɛŋθənd(de) ɡˈeː (en)ʃwˈɑː(de) ˈɛn]
+fɛɾʃpˈɛːtət | [ˈɛf (en)ˌəʊpənˈɛː ˈɑːtap ˈɛʃ(de) pˈeː (en)stɹˈɛs ˌəʊpənˈɛː lˈɛŋθənd(de) tˈeː (en)ʃwˈɑː(de) tˈeː]
+fɛɾʃtˈeːə | [ˈɛf (en)ˌəʊpənˈɛː ˈɑːtap ˈɛʃ(de) tˈeː (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd ʃwˈɑː(de)]
+fɛɾˈɪɾt | [ˈɛf (en)ˌəʊpənˈɛː ˈɑːtap stɹˈɛs smˈɔːlkˌapˈaɪ ˈɑːtap(de) tˈeː]
+fˈaɾbə | [ˈɛf (en)stɹˈɛs(de) ˈɑː (en)ˈɑːtap(de) bˈeː (en)ʃwˈɑː(de)]
+fˈiːbɜ | [ˈɛf (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd(de) bˈeː (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de)]
+fˈiːl | [ˈɛf (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd(de) ˈɛl]
+fˈiːlə | [ˈɛf (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd(de) ˈɛl (en)ʃwˈɑː(de)]
+fˈiːɾtəl | [ˈɛf (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd ˈɑːtap(de) tˈeː (en)ʃwˈɑː(de) ˈɛl]
+fˈyːlə | [ˈɛf (en)stɹˈɛs(de) ˈʏpsɪlˌɔn (en)lˈɛŋθənd(de) ˈɛl (en)ʃwˈɑː(de)]
+fˈɑːɾt | [ˈɛf (en)stɹˈɛs ˈalfə lˈɛŋθənd ˈɑːtap(de) tˈeː]
+fˈɛːɾt | [ˈɛf (en)stɹˈɛs ˌəʊpənˈɛː lˈɛŋθənd ˈɑːtap(de) tˈeː]
+fˈʊndbyːrˌoː | [ˈɛf (en)stɹˈɛs ˈʊpsɪlˌɒn(de) ˈɛn dˈeː bˈeː ˈʏpsɪlˌɔn (en)lˈɛŋθənd(de) ˈɛɾ (en)sˈɛkəndɹɪstɹˌɛs(de) ˈoː (en)lˈɛŋθənd(de)]
+fˌʊŋktsɪˌoːnˈiːɾt | [ˈɛf (en)sˈɛkəndɹɪstɹˌɛs ˈʊpsɪlˌɒn(de) ˈɛn kˈɑː tˈeː ˈɛs (en)smˈɔːlkˌapˈaɪ sˈɛkəndɹɪstɹˌɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛn (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd ˈɑːtap(de) tˈeː]
+gaben | [ɡˈɑːbən]
+ganz | [ɡˈants]
+ganze | [ɡˈantsə]
+ganzes | [ɡˈantsəs]
+garten | [ɡˈaɾtən]
+gassen | [ɡˈasən]
+geben | [ɡˈeːbən]
+geburtstag | [ɡəbˈʊɐtstɑːk]
+gebäck | [ɡəbˈɛk]
+gebäude | [ɡəbˈɔødə]
+gebühren | [ɡəbˈyːrən]
+gecheckt | [ɡəçˈɛkt]
+gedacht | [ɡədˈaxt]
+gedanken | [ɡədˈaŋkən]
+geduld | [ɡədˈʊlt]
+gefunden | [ɡəfˈʊndən]
+gefühl | [ɡəfˈyːl]
+geführt | [ɡəfˈyːɾt]
+gegangen | [ɡəɡˈaŋən]
+gegen | [ɡˈeːɡən]
+gegenteil | [ɡeːɡəntˈaɪl]
+gegenüber | [ɡˌeːɡənˈyːbɜ]
+geh | [ɡˈeː]
+gehalt | [ɡəhˈalt]
+gehe | [ɡˈeːə]
+geheimnisvolle | [ɡəhˈaɪmnɪsfˌɔlə]
+gehen | [ɡˈeːən]
+gehoben | [ɡəhˈoːbən]
+geholfen | [ɡəhˈɔlfən]
+geholt | [ɡəhˈɔlt]
+geht | [ɡˈeːt]
+geht's | [ɡˈeːts]
+gekocht | [ɡəkˈɔxt]
+gekommen | [ɡəkˈɔmən]
+gekostet | [ɡəkˈɔstət]
+geld | [ɡˈɛlt]
+geldautomaten | [ɡˌɛldaʊtoːmˈɑːtən]
+gelebt | [ɡəlˈeːpt]
+gelernt | [ɡəlˈɛɾnt]
+geltend | [ɡˈɛltənt]
+gelüftet | [ɡəlˈʏftət]
+gemacht | [ɡəmˈaxt]
+gemeinsam | [ɡəmˈaɪnzɑːm]
+gemütliche | [ɡəmˈyːtlɪçə]
+genau | [ɡənˈaʊ]
+genauso | [ɡənˈaʊzoː]
+genommen | [ɡənˈɔmən]
+gepackt | [ɡəpˈakt]
+gepäck | [ɡəpˈɛk]
+gerade | [ɡərˈɑːdə]
+geradeaus | [ɡərˈɑdeːˌaʊs]
+gerettet | [ɡərˈɛtət]
+gerne | [ɡˈɛɾnə]
+geräusch | [ɡərˈɔøʃ]
+geräusche | [ɡərˈɔøʃə]
+gesagt | [ɡəzˈɑːkt]
+geschenk | [ɡəʃˈɛŋk]
+geschichte | [ɡəʃˈɪçtə]
+geschichten | [ɡəʃˈɪçtən]
+geschickt | [ɡəʃˈɪkt]
+geschlafen | [ɡəʃlˈɑːfən]
+gesehen | [ɡəzˈeːən]
+gesicht | [ɡəzˈɪçt]
+gespräch | [ɡəʃprˈɛç]
+gesprächig | [ɡəʃprˈɛçɪç]
+gestalt | [ɡəʃtˈalt]
+gestern | [ɡˈɛstɜn]
+gestohlen | [ɡəʃtˈoːlən]
+get | [ɡˈeːt]
+getan | [ɡətˈɑːn]
+getrennt | [ɡətɾˈɛnt]
+gewissen | [ɡəvˈɪsən]
+gewohnt | [ɡəvˈoːnt]
+gewusst | [ɡəvˈʊst]
+gewöhnliche | [ɡəvˈøːnlɪçə]
+gewöhnliches | [ɡəvˈøːnlɪçəs]
+gezeigt | [ɡətsˈaɪkt]
+gibt | [ɡˈiːpt]
+gift-wrap | [ɡˈɪftvrˈɑːp]
+gipfel | [ɡˈɪpfəl]
+gladly | [ɡlˈadliː]
+gleich | [ɡlˈaɪç]
+gleiche | [ɡlˈaɪçə]
+gleichgültig | [ɡlˈaɪçɡʏltˌɪç]
+gleichgültigkeit | [ɡlˈaɪçɡʏltˌɪçkaɪt]
+gleis | [ɡlˈaɪs]
+gluten-free | [ɡlˈuːtən(en)fɹˈiː(de)]
+glutenfrei | [ɡlˈuːtənfrˌaɪ]
+glück | [ɡlˈʏk]
+glückwunsch | [ɡlˈʏkvʊnʃ]
+go | [ɡˈoː]
+good | [ɡˈoːt]
+goodbye | [ɡˈoːdbiːə]
+gott | [ɡˈɔt]
+großartige | [ɡrˈoːsaɾtˌɪɡə]
+große | [ɡrˈoːsə]
+großen | [ɡrˈoːsən]
+großmutter | [ɡrˈɔsmʊtɜ]
+großstadt | [ɡrˈɔsstat]
+gruppenreservierung | [ɡrˌʊpənrˌeːzɛɾvˈiːrʊŋ]
+größe | [ɡrˈøːsə]
+größer | [ɡrˈøːsɜ]
+größere | [ɡrˈøːsərə]
+grünen | [ɡrˈyːnən]
+gut | [ɡˈuːt]
+gute | [ɡˈuːtə]
+guten | [ɡˈuːtən]
+güte | [ɡˈyːtə]
+hab | [hˈɑːp]
+habe | [hˈɑːbə]
+haben | [hˈɑːbən]
+habt | [hˈɑːpt]
+halbe | [hˈalbə]
+hallo | [hˈaloː]
+halten | [hˈaltən]
+hand | [hˈant]
+handy | [hˈɛndiː]
+handys | [hˈandyːs]
+hang | [hˈaŋ]
+happy | [hˈapiː]
+has | [hˈɑːs]
+hast | [hˈast]
+hat | [hˈat]
+hatte | [hˈatə]
+hauptbahnhof | [hˈaʊptbˌɑːnhoːf]
+haus | [hˈaʊs]
+hause | [hˈaʊzə]
+have | [hˈɑːvə]
+haven't | [hˈɑveːnt]
+headache | [hˈeːadˌaxə]
+heil | [hˈaɪl]
+heiße | [hˈaɪsə]
+heißen | [hˈaɪsən]
+heißes | [hˈaɪsəs]
+heißt | [hˈaɪst]
+helfen | [hˈɛlfən]
+hello | [hˈɛloː]
+help | [hˈɛlp]
+herabzusteigen | [hɛrˈabtsuːʃtˌaɪɡən]
+heraus | [hɛrˈaʊs]
+herausforderung | [hɛrˈaʊsfˌɔɾdərˌʊŋ]
+herausgehen | [hɛrˈaʊsɡˌeːən]
+herberge | [hˈɛɾbɛɾɡə]
+here | [hˈeːrə]
+herrlich | [hˈɛɾlɪç]
+herum | [hɛrˈʊm]
+herunter | [hɛrˈʊntɜ]
+herzlichen | [hˈɛɾtslɪçən]
+heute | [hˈɔøtə]
+hi | [hˈaɪ]
+hier | [hˈiːɾ]
+hierher | [hˈiːɾhɜ]
+hilfe | [hˈɪlfə]
+hilfsbereit | [hˈɪlfsbərˌaɪt]
+himmel | [hˈɪməl]
+hin | [hˈɪn]
+hinaus | [hɪnˈaʊs]
+hinein | [hɪnˈaɪn]
+hinfahrt | [hˈɪnfɑːɾt]
+hinunter | [hɪnˈʊntɜ]
+hinuntergehe | [hɪnˈʊntɜɡˌeːə]
+hinuntergeht | [hɪnˈʊntɜɡˌeːt]
+hinuntersteigt | [hɪnˈʊntɜʃtˌaɪkt]
+hinunterzusteigen | [hɪnˈʊntɜtsuːʃtˌaɪɡən]
+hoch | [hˈoːx]
+hoffe | [hˈɔfə]
+hoffentlich | [hˈɔfəntlɪç]
+holen | [hˈoːlən]
+holt | [hˈɔlt]
+holz | [hˈɔlts]
+holzläden | [hˈɔltslɛːdən]
+hot | [hˈoːt]
+how | [hˈoːf]
+hubschrauber | [hˈʊpʃraʊbɜ]
+hund | [hˈʊnt]
+hunger | [hˈʊŋɜ]
+huste | [hˈʊstə]
+hält | [hˈɛlt]
+hände | [hˈɛndə]
+händen | [hˈɛndən]
+hätte | [hˈɛtə]
+hätten | [hˈɛtən]
+häusern | [hˈɔøzɜn]
+hölzernen | [hˈœltsɜnən]
+höre | [hˈøːrə]
+hören | [hˈøːrən]
+hört | [hˈœɾt]
+hübsch | [hˈʏpʃ]
+hügeliger | [hˈyːɡəlˌɪɡɜ]
+hütte | [hˈʏtə]
+hɑːbə | [hˈɑː (en)ˈalfə lˈɛŋθənd(de) bˈeː (en)ʃwˈɑː(de)]
+hˈaloː | [hˈɑː (en)stɹˈɛs(de) ˈɑː ˈɛl ˈoː (en)lˈɛŋθənd(de)]
+hˈaɪst | [hˈɑː (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛs tˈeː]
+hˈaɪsə | [hˈɑː (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛs (en)ʃwˈɑː(de)]
+hˈaɪsən | [hˈɑː (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛs (en)ʃwˈɑː(de) ˈɛn]
+hˈaɪsəs | [hˈɑː (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛs (en)ʃwˈɑː(de) ˈɛs]
+hˈiːɾ | [hˈɑː (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd ˈɑːtap(de)]
+hˈoːx | [hˈɑː (en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɪks]
+hˈɑːbən | [hˈɑː (en)stɹˈɛs ˈalfə lˈɛŋθənd(de) bˈeː (en)ʃwˈɑː(de) ˈɛn]
+hˈɔøtə | [hˈɑː (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈœ tˈeː (en)ʃwˈɑː(de)]
+hˈɛlfən | [hˈɑː (en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛl ˈɛf (en)ʃwˈɑː(de) ˈɛn]
+hˈɛɾtslɪçən | [hˈɑː (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(de) tˈeː ˈɛs ˈɛl (en)smˈɔːlkˌapˈaɪ(de) sˌeːseːdˈiːj (en)ʃwˈɑː(de) ˈɛn]
+hˈɪn | [hˌɑː(en)stɹˌɛssmˈɔːlkˌapˌaɪ(de)ˈɛn]
+hˈʊstə | [hˌɑː(en)stɹˌɛsˈʊpsɪlˌɒn(de)ʃtˈeː]
+hˌɑːbən | [hˈɑː (en)sˈɛkəndɹɪstɹˌɛs ˈalfə lˈɛŋθənd(de) bˈeː (en)ʃwˈɑː(de) ˈɛn]
+i'm | [ˈiːm]
+ice | [ˈiːkə]
+ich | [ˈɪç]
+id | [ˈiːt]
+idee | [iːdˈeː]
+ihm | [ˈiːm]
+ihn | [ˈiːn]
+ihnen | [ˈiːnən]
+ihr | [ˈiːɾ]
+ihre | [ˈiːrə]
+ihrem | [ˈiːrəm]
+ihren | [ˈiːrən]
+ihrer | [ˈiːrɜ]
+ihres | [ˈiːrəs]
+illusion | [ɪluːzjˈoːn]
+im | [ˈɪm]
+immer | [ˈɪmɜ]
+in | [ˈɪn]
+inbegriffen | [ˈɪnbɛɡrˌɪfən]
+included | [ˈɪnkluːdˌeːt]
+increase | [ˈɪnkreːˌɑːzə]
+indem | [ɪndˈeːm]
+informal | [ˈɪnfɔɾmˌɑːl]
+inhaber | [ˈɪnhɑːbɜ]
+inne | [ˈɪnə]
+inschrift | [ˈɪnʃrɪft]
+insurance | [(en)ɪnʃˈʊəɹəns(de)]
+interpretiere | [ˌɪntɜpreːtˈiːrə]
+interpretiert | [ˌɪntɜpreːtˈiːɾt]
+irgendwohin | [ˈɪɾɡəndvˌoːɪn]
+is | [ˈiːs]
+ist | [ˈɪst]
+it | [ˈiːt]
+it's | [ˈiːts]
+ja | [jˈɑː]
+jacke | [jˈakə]
+jahr | [jˈɑːɾ]
+je | [jˈeː]
+jede | [jˈeːdə]
+jedem | [jˈeːdəm]
+jeden | [jˈeːdən]
+jeder | [jˈeːdɜ]
+jegliches | [jˈeːklɪçəs]
+jemand | [jˈeːmant]
+jemanden | [jˈeːmandən]
+jener | [jˈeːnɜ]
+jetzt | [jˈɛtst]
+job | [(en)dʒˈɒb(de)]
+junge | [jˈʊŋə]
+jˈeːmant | [jˈɔt (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd(de) ˈɛm ˈɑː ˈɛn tˈeː]
+jˈɑː | [jˈɔt (en)stɹˈɛs ˈalfə lˈɛŋθənd(de)]
+jˈɑːɾ | [jˈɔt (en)stɹˈɛs ˈalfə lˈɛŋθənd ˈɑːtap(de)]
+jˈɛtst | [jˈɔt (en)stɹˈɛs ˌəʊpənˈɛː(de) tˈeː ˈɛs tˈeː]
+kaffee | [kˈafeː]
+kamin | [kamˈiːn]
+kann | [kˈan]
+kannst | [kˈanst]
+karte | [kˈaɾtə]
+kaufen | [kˈaʊfən]
+kauft | [kˈaʊft]
+kaum | [kˈaʊm]
+kaution | [kˌaʊtsɪˈoːn]
+keep | [kˈeːp]
+kein | [kˈaɪn]
+keine | [kˈaɪnə]
+keinen | [kˈaɪnən]
+kellner | [kˈɛlnɜ]
+kenne | [kˈɛnə]
+kennen | [kˈɛnən]
+kennt | [kˈɛnt]
+key | [kˈeː]
+kiez | [kˈiːts]
+kilo | [kˈiːloː]
+kindheit | [kˈɪnthaɪt]
+kirche | [kˈɪɾçə]
+klar | [klˈɑːɾ]
+klares | [klˈɑːrəs]
+kleidung | [klˈaɪdʊŋ]
+kleine | [klˈaɪnə]
+kleinen | [klˈaɪnən]
+kleiner | [klˈaɪnɜ]
+kleines | [klˈaɪnəs]
+klimaanlage | [klˈiːmɑːnlˌɑːɡə]
+klˈiːmɑːnlˌɑːɡə | [kˈɑː ˈɛl (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd(de) ˈɛm (en)ˈalfə lˈɛŋθənd(de) ˈɛn ˈɛl (en)sˈɛkəndɹɪstɹˌɛs ˈalfə lˈɛŋθənd(de) ɡˈeː (en)ʃwˈɑː(de)]
+know | [knˈoːf]
+kochen | [kˈɔxən]
+kocht | [kˈɔxt]
+komisch | [kˈoːmɪʃ]
+komme | [kˈɔmə]
+kommen | [kˈɔmən]
+kommt | [kˈɔmt]
+konnte | [kˈɔntə]
+kontaktieren | [kɔntaktˈiːrən]
+konto | [kɔntˈoː]
+kontostand | [kɔntˈɔstant]
+kontrollieren | [kɔntɾɔlˈiːrən]
+kopf | [kˈɔpf]
+kopfschmerzen | [kˈɔpfʃmɜtsən]
+kosten | [kˈɔstən]
+kostet | [kˈɔstət]
+kreditkarten | [krˈeːdɪtkˌaɾtən]
+kreis | [krˈaɪs]
+kreuzberg | [krˈɔøtsbɜk]
+kräfte | [krˈɛftə]
+krˈeːdɪtkˌaɾtən | [kˈɑː ˈɛɾ (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd(de) dˈeː (en)smˈɔːlkˌapˈaɪ(de) tˈeː kˈɑː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)ˈɑːtap(de) tˈeː (en)ʃwˈɑː(de) ˈɛn]
+kvˌɑliːfˌiːkatsɪˈoːnən | [kˈɑː fˈaʊ (en)sˈɛkəndɹɪstɹˌɛs ˈalfə(de) ˈɛl ˈiː (en)lˈɛŋθənd(de) ˈɛf (en)sˈɛkəndɹɪstɹˌɛs(de) ˈiː (en)lˈɛŋθənd(de) kˈɑː ˈɑː tˈeː ˈɛs (en)smˈɔːlkˌapˈaɪ stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛn (en)ʃwˈɑː(de) ˈɛn]
+kälter | [kˈɛltɜ]
+käse | [kˈɛːzə]
+können | [kˈœnən]
+könnte | [kˈœntə]
+könnten | [kˈœntən]
+körper | [kˈœɾpɜ]
+köstlich | [kˈœstlɪç]
+kɔntaktˈiːrən | [kˈɑː (en)ˌəʊpənˈɔː(de) ˈɛn tˈeː ˈɑː kˈɑː tˈeː (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd(de) ˈɛɾ (en)ʃwˈɑː(de) ˈɛn]
+kɔntˈoː | [kˈɑː (en)ˌəʊpənˈɔː(de) ˈɛn tˈeː (en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de)]
+kɔntˈɔstant | [kˈɑː (en)ˌəʊpənˈɔː(de) ˈɛn tˈeː (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈɛs tˈeː ˈɑː ˈɛn tˈeː]
+kˈan | [kˈɑː (en)stɹˈɛs(de) ˈɑː ˈɛn]
+kˈaɪn | [kˈɑː (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn]
+kˈaɪnə | [kˈɑː (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn (en)ʃwˈɑː(de)]
+kˈaɾtə | [kˈɑː (en)stɹˈɛs(de) ˈɑː (en)ˈɑːtap(de) tˈeː (en)ʃwˈɑː(de)]
+kˈaʊfən | [kˈɑː (en)stɹˈɛs(de) ˈɑː (en)ˈʊpsɪlˌɒn(de) ˈɛf (en)ʃwˈɑː(de) ˈɛn]
+kˈɔmə | [kˈɑː (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈɛm (en)ʃwˈɑː(de)]
+kˈɔpfʃmɜtsən | [kˈɑː (en)stɹˈɛs ˌəʊpənˈɔː(de) pˈeː ˈɛf (en)ˈɛʃ(de) ˈɛm (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de) tˈeː ˈɛs (en)ʃwˈɑː(de) ˈɛn]
+kˈɔstət | [kˈɑː (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈɛs tˈeː (en)ʃwˈɑː(de) tˈeː]
+kˌan | [kˈɑː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː ˈɛn]
+kˌaʊtsɪˈoːn | [kˈɑː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)ˈʊpsɪlˌɒn(de) tˈeː ˈɛs (en)smˈɔːlkˌapˈaɪ stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛn]
+kˌœnən | [kˈɑː (en)sˈɛkəndɹɪstɹˌɛs(de) lˈiːɡatˌuːɜoːˈeː ˈɛn (en)ʃwˈɑː(de) ˈɛn]
+laden | [lˈɑːdən]
+ladenbesitzerin | [lˈɑdənbəzˌɪtsərˌɪn]
+ladens | [lˈɑdəns]
+landet | [lˈandət]
+landhauses | [lˈanthˌaʊzəs]
+landschaft | [lˈandʃaft]
+lang | [lˈaŋ]
+lange | [lˈaŋə]
+langen | [lˈaŋən]
+langsam | [lˈaŋzɑːm]
+langsamer | [lˈaŋzɑːmɜ]
+laptop | [(en)lˈaptɒp(de)]
+larger | [lˈaɾɡɜ]
+lass | [lˈas]
+lassen | [lˈasən]
+late | [lˈɑːtə]
+later | [lˈɑːtɜ]
+laufen | [lˈaʊfən]
+lauscht | [lˈaʊʃt]
+lauter | [lˈaʊtɜ]
+leave | [lˈeːɑːvə]
+leben | [lˈeːbən]
+lebendig | [leːbˈɛndɪç]
+lebensmittelladen | [lˈeːbənsmˌɪtəlˌɑːdən]
+lebst | [lˈeːpst]
+left | [lˈɛft]
+legen | [lˈeːɡən]
+legt | [lˈeːkt]
+lehren | [lˈeːrən]
+lehrt | [lˈeːɾt]
+leid | [lˈaɪt]
+leise | [lˈaɪzə]
+leiter | [lˈaɪtɜ]
+lesen | [lˈeːzən]
+let's | [lˈeːts]
+letzte | [lˈɛtstə]
+letztes | [lˈɛtstəs]
+leute | [lˈɔøtə]
+licht | [lˈɪçt]
+lichtung | [lˈɪçtʊŋ]
+liebe | [lˈiːbə]
+lieben | [lˈiːbən]
+lieblingscafé | [lˌiːblɪŋskafˈeː]
+ließ | [lˈiːs]
+like | [lˈiːkə]
+limit | [liːmˈɪt]
+links | [lˈɪŋks]
+liste | [lˈɪstə]
+little | [lˈɪtlə]
+live | [lˈiːvə]
+liːmˈɪt | [ˈɛl ˈiː (en)lˈɛŋθənd(de) ˈɛm (en)stɹˈɛs smˈɔːlkˌapˈaɪ(de) tˈeː]
+loaded | [lˈoːadˌeːt]
+lokalen | [loːkˈɑːlən]
+london | [lˈɔndoːn]
+long | [lˈɔŋ]
+looking | [lˈoːkɪŋ]
+los | [lˈoːs]
+lost | [lˈɔst]
+losziehen | [lˈɔstsiːən]
+lot | [lˈoːt]
+lucas | [lˈuːkɑːs]
+luck | [lˈʊk]
+luft | [lˈʊft]
+luggage | [lˈʊɡɑːɡə]
+lächeln | [lˈɛçəln]
+lächelt | [lˈɛçəlt]
+läuft | [lˈɔøft]
+lˈasən | [ˈɛl (en)stɹˈɛs(de) ˈɑː ˈɛs (en)ʃwˈɑː(de) ˈɛn]
+lˈaŋzɑːmɜ | [ˈɛl (en)stɹˈɛs(de) ˈɑː ˈɛn tsˈɛt (en)ˈalfə lˈɛŋθənd(de) ˈɛm (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de)]
+lˈaŋə | [ˈɛl (en)stɹˈɛs(de) ˈɑː ˈɛn (en)ʃwˈɑː(de)]
+lˈɔndoːn | [ˈɛl (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈɛn dˈeː ˈoː (en)lˈɛŋθənd(de) ˈɛn]
+lˈɪŋks | [ˌɛl(en)stɹˌɛssmˈɔːlkˌapˌaɪ(de)ˌɛnkˌɑːˈɛs]
+mache | [mˈaxə]
+machen | [mˈaxən]
+machst | [mˈaxst]
+macht | [mˈaxt]
+mag | [mˈɑːk]
+magst | [mˈɑːkst]
+make | [mˈɑːkə]
+mal | [mˈɑːl]
+male | [mˈɑːlə]
+malerisch | [mˈɑlərˌɪʃ]
+man | [mˈan]
+manchmal | [mˈançmɑːl]
+mann | [mˈan]
+many | [mˈɑniː]
+marc | [mˈaɾk]
+maybe | [mˈaɪbə]
+maɪn | [ˈɛm ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn]
+me | [mˈeː]
+meal | [meːˈɑːl]
+mean | [meːˈɑːn]
+meer | [mˈeːɾ]
+meet | [mˈeːt]
+mehr | [mˈeːɾ]
+mein | [mˈaɪn]
+meine | [mˈaɪnə]
+meinem | [mˈaɪnəm]
+meinen | [mˈaɪnən]
+meiner | [mˈaɪnɜ]
+melancholie | [mˌeːlançoːlˈiː]
+menschen | [mˈɛnʃən]
+menschliche | [mˈɛnʃlɪçə]
+menschlichen | [mˈɛnʃlɪçən]
+menu | [mˈeːnuː]
+merkwürdige | [mˈɛɾkvʏɾdˌɪɡə]
+merry | [mˈɛriː]
+meter | [mˈeːtɜ]
+mich | [mˈɪç]
+miete | [mˈiːtə]
+milchkaffee | [mˈɪlçkafˌeː]
+mind | [mˈɪnt]
+minuten | [miːnˈuːtən]
+mir | [mˈiːɾ]
+mischt | [mˈɪʃt]
+mit | [mˈɪt]
+miteinander | [mˈɪtˌaɪnandɜ]
+mitgebracht | [mˈɪtɡəbrˌaxt]
+mitgenommen | [mˈɪtɡənˌɔmən]
+mitnehmen | [mˈɪtnˌeːmən]
+mittelalte | [mˈɪtəlˌaltə]
+miːɾ | [ˈɛm ˈiː (en)lˈɛŋθənd ˈɑːtap(de)]
+moment | [moːmˈɛnt]
+monat | [moːnˈɑːt]
+monatliche | [moːnˈɑːtlɪçə]
+money | [mˈoːneː]
+mont | [mˈɔnt]
+month | [mˈɔnt]
+monthly | [mˈɔntliː]
+more | [mˈoːrə]
+morgen | [mˈɔɾɡən]
+morgencafé | [mˌɔɾɡənkafˈeː]
+morgenlicht | [mˈɔɾɡənlˌɪçt]
+motorengeräusch | [mˈoːtoːrˌɛnɡeːrˌɔøʃ]
+moːmˈɛnt | [ˈɛm ˈoː (en)lˈɛŋθənd(de) ˈɛm (en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛn tˈeː]
+moːnˈɑːt | [ˈɛm ˈoː (en)lˈɛŋθənd(de) ˈɛn (en)stɹˈɛs ˈalfə lˈɛŋθənd(de) tˈeː]
+moːnˈɑːtlɪçə | [ˈɛm ˈoː (en)lˈɛŋθənd(de) ˈɛn (en)stɹˈɛs ˈalfə lˈɛŋθənd(de) tˈeː ˈɛl (en)smˈɔːlkˌapˈaɪ(de) sˌeːseːdˈiːj (en)ʃwˈɑː(de)]
+much | [mˈʊx]
+muss | [mˈʊs]
+mut | [mˈuːt]
+my | [(en)mˈaɪ(de)]
+möchte | [mˈœçtə]
+möchtest | [mˈœçtəst]
+möglichen | [mˈøːklɪçən]
+mögt | [mˈœkt]
+müde | [mˈyːdə]
+müden | [mˈyːdən]
+müller | [mˈʏlɜ]
+münchen | [mˈyːnçən]
+müssen | [mˈʏsən]
+mɪt | [ˌɛm(en)smˌɔːlkˌapˌaɪ(de)tˈeː]
+mɪç | [ˌɛm(en)smˌɔːlkˌapˌaɪ(de)sˌeːseːdˈiːj]
+mˈaxən | [ˈɛm (en)stɹˈɛs(de) ˈɑː ˈɪks (en)ʃwˈɑː(de) ˈɛn]
+mˈeɪl | [ˈɛm (en)stɹˈɛs(de) ˈeː (en)smˈɔːlkˌapˈaɪ(de) ˈɛl]
+mˈiːtə | [ˈɛm (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd(de) tˈeː (en)ʃwˈɑː(de)]
+mˈœçtə | [ˈɛm (en)stɹˈɛs(de) lˈiːɡatˌuːɜoːˈeː sˌeːseːdˈiːj tˈeː (en)ʃwˈɑː(de)]
+mˈɔɾɡən | [ˈɛm (en)stɹˈɛs ˌəʊpənˈɔː ˈɑːtap(de) ɡˈeː (en)ʃwˈɑː(de) ˈɛn]
+mˈʊs | [ˌɛm(en)stɹˌɛsˌʊpsɪlˌɒn(de)ˈɛs]
+mˌaɪnə | [ˈɛm (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn (en)ʃwˈɑː(de)]
+mˌaɪnəm | [ˈɛm (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn (en)ʃwˈɑː(de) ˈɛm]
+mˌaɪnən | [ˈɛm (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn (en)ʃwˈɑː(de) ˈɛn]
+nach | [nˈɑːx]
+nachdem | [naxdˈeːm]
+nachgecheckt | [nˈaxɡɛçˌɛkt]
+nachgeprüft | [nˈaxɡɛprˌʏft]
+nachmittag | [nˈaxmɪtˌɑːk]
+nacht | [nˈaxt]
+nachzudenken | [nˈaxtsuːdˌɛŋkən]
+nah | [nˈɑː]
+nahe | [nˈɑːə]
+naivität | [nˌaɪviːtˈɛːt]
+name | [nˈɑːmə]
+namen | [nˈɑːmən]
+nass | [nˈas]
+natur | [nˈɑtuːɾ]
+natürlich | [nɑːtˈyːɾlɪç]
+near | [nˈeːɑːɾ]
+nearby | [nˈeːaɾbˌiː]
+nearest | [nˈeːɑːrəst]
+nebel | [nˈeːbəl]
+neben | [nˈeːbən]
+nebenkosten | [nˈeːbənkˌɔstən]
+need | [nˈeːt]
+needed | [nˈeːdeːt]
+nehme | [nˈeːmə]
+nehmen | [nˈeːmən]
+nehmt | [nˈeːmt]
+neighborhood | [nˈaɪkhbɔɾhˌoːt]
+nein | [nˈaɪn]
+nervosität | [nˌɛɾvoːziːtˈɛːt]
+nervös | [nˈɛɾvøːs]
+nett | [nˈɛt]
+netz | [nˈɛts]
+neu | [nˈɔø]
+neuen | [nˈɔøən]
+neues | [nˈɔøəs]
+neugierig | [nˈɔøɡiːrˌɪç]
+never | [nˈeːvɜ]
+new | [nˈeːf]
+next | [nˈɛkst]
+nice | [nˈiːkə]
+nicht | [nˈɪçt]
+nichts | [nˈɪçts]
+nie | [nˈiː]
+niemals | [nˈiːmɑːls]
+night | [(en)nˈaɪt(de)]
+nights | [(en)nˈaɪts(de)]
+nimm | [nˈɪm]
+nimmt | [nˈɪmt]
+no | [nˈoː]
+noch | [nˈɔx]
+normal | [nˈɔɾmɑːl]
+normales | [nˈɔɾmɑːləs]
+normandie | [nˌɔɾmandˈiː]
+not | [nˈoːt]
+notwendig | [nˈɔtvəndˌɪç]
+notwendigkeit | [nˈɔtvəndˌɪçkaɪt]
+november | [nˈoːvɛmbɜ]
+now | [nˈoːf]
+number | [nˈʊmbɜ]
+nummer | [nˈʊmɜ]
+nur | [nˈuːɾ]
+nutzt | [nˈʊtst]
+nächste | [nˈɛçstə]
+nächsten | [nˈɛçstən]
+nächte | [nˈɛçtə]
+nähe | [nˈɛːə]
+nähert | [nˈɛːɜt]
+nähren | [nˈɛːrən]
+nötig | [nˈøːtɪç]
+nötigste | [nˈøːtɪçstə]
+nützt | [nˈʏtst]
+nɑːx | [ˈɛn (en)ˈalfə lˈɛŋθənd(de) ˈɪks]
+nˈaxt | [ˈɛn (en)stɹˈɛs(de) ˈɑː ˈɪks tˈeː]
+nˈaɪn | [ˈɛn (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn]
+nˈeːbən | [ˈɛn (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd(de) bˈeː (en)ʃwˈɑː(de) ˈɛn]
+nˈeːbənkˌɔstən | [ˈɛn (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd(de) bˈeː (en)ʃwˈɑː(de) ˈɛn kˈɑː (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɔː(de) ˈɛs tˈeː (en)ʃwˈɑː(de) ˈɛn]
+nˈeːmən | [ˈɛn (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd(de) ˈɛm (en)ʃwˈɑː(de) ˈɛn]
+nˈɑː | [ˈɛn (en)stɹˈɛs ˈalfə lˈɛŋθənd(de)]
+nˈɔx | [ˈɛn (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈɪks]
+nˈɔøəs | [ˈɛn (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈœ (en)ʃwˈɑː(de) ˈɛs]
+nˈɛçstə | [ˈɛn (en)stɹˈɛs ˌəʊpənˈɛː(de) sˌeːseːdˈiːj ˈɛs tˈeː (en)ʃwˈɑː(de)]
+nˈɛçtə | [ˈɛn (en)stɹˈɛs ˌəʊpənˈɛː(de) sˌeːseːdˈiːj tˈeː (en)ʃwˈɑː(de)]
+nˈɛːə | [ˈɛn (en)stɹˈɛs ˌəʊpənˈɛː lˈɛŋθənd ʃwˈɑː(de)]
+nˈɪçt | [ˌɛn(en)stɹˌɛssmˈɔːlkˌapˌaɪ(de)sˌeːseːdˌiːjtˈeː]
+o'clock | [ˈoːklɔk]
+ob | [ˈɔp]
+oben | [ˈoːbən]
+obwohl | [ɔpvˈoːl]
+oder | [ˈoːdɜ]
+offered | [ˈɔfeːrˌeːt]
+office | [ˈɔfiːkə]
+oh | [ˈoː]
+ohne | [ˈoːnə]
+okay | [ˈoːkɛɪ]
+on | [ˈoːn]
+one | [ˈoːnə]
+one-way | [ˈoːnəvˈɛɪ]
+open | [ˈoːpən]
+opportunities | [ˈɔpɔɾtˌuːniːtˌiːs]
+opposite | [ˌɔpoːzˈiːtə]
+optimistisch | [ˌɔptiːmˈɪstɪʃ]
+or | [ˈoːɾ]
+oranienstraße | [ˈoːranˌɪənstɾˌɑːsə]
+ordnung | [ˈɔɾdnʊŋ]
+organisieren | [ˌɔɾɡaniːzˈiːrən]
+orientieren | [ˌoːrɪɛntˈiːrən]
+orientierung | [ˌoːrɪɛntˈiːrʊŋ]
+out | [(en)ˈaʊt(de)]
+over | [ˈoːvɜ]
+paar | [pˈɑːɾ]
+paniken | [pˈɑniːkən]
+papier | [papˈiːɾ]
+pardon | [pˈaɾdoːn]
+paris | [pˈɑrɪs]
+pass | [pˈas]
+passiert | [pasˈiːɾt]
+passport | [pˈaspɔɾt]
+pay | [pˈɛɪ]
+peanuts | [pˈeːanˌuːts]
+pension | [pɛnzjˈoːn]
+people | [pˈeːɔplə]
+per | [pˈɛɾ]
+perfekt | [pɛɾfˈɛkt]
+person | [pɛɾzˈoːn]
+personen | [pɛɾzˈoːnən]
+pfad | [pfˈɑːt]
+pflanzen | [pflˈantsən]
+pflückt | [pflˈʏkt]
+pharmacy | [fˈaɾmasˌiː]
+phone | [fˈoːnə]
+pin | [pˈiːn]
+pin-code | [pˈiːnkˈoːt]
+please | [plˈeːɑːzə]
+pleasure | [plˈeːazˌuːrə]
+plätze | [plˈɛtsə]
+plötzlich | [plˈœtslɪç]
+police | [pˈoːliːkə]
+polizei | [pˌoːliːtsˈaɪ]
+polizeistation | [pˌoːliːtsˌaɪstatsɪˈoːn]
+portemonnaie | [pˈɔɾteːmˌɔnaɪə]
+prescription | [prˌɛskrɪptsɪˈoːn]
+price | [prˈiːkə]
+pro | [prˈoː]
+problem | [proːblˈeːm]
+profis | [proːfˈɪs]
+projiziere | [proːjiːtsˈiːrə]
+projizieren | [proːjiːtsˈiːrən]
+prost | [prˈɔst]
+proːblˈeːm | [pˈeː ˈɛɾ ˈoː (en)lˈɛŋθənd(de) bˈeː ˈɛl (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd(de) ˈɛm]
+prüft | [prˈʏft]
+prüfung | [prˈyːfʊŋ]
+prˈɔst | [pˈeː ˈɛɾ (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈɛs tˈeː]
+prˌoː | [pˈeː ˈɛɾ (en)sˈɛkəndɹɪstɹˌɛs(de) ˈoː (en)lˈɛŋθənd(de)]
+public | [pˈʊbliːk]
+pullover | [pˈʊloːvɜ]
+pɛɾ | [pˈeː (en)ˌəʊpənˈɛː ˈɑːtap(de)]
+pɛɾzˈoːnən | [pˈeː (en)ˌəʊpənˈɛː ˈɑːtap(de) tsˈɛt (en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛn (en)ʃwˈɑː(de) ˈɛn]
+pˈas | [pˈeː (en)stɹˈɛs(de) ˈɑː ˈɛs]
+pˈɑrɪs | [pˈeː (en)stɹˈɛs ˈalfə(de) ˈɛɾ (en)smˈɔːlkˌapˈaɪ(de) ˈɛs]
+pˌeːˌiːˈɛnkˈoːt | [pˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈeː (en)lˈɛŋθənd sˈɛkəndɹɪstɹˌɛs(de) ˈiː (en)lˈɛŋθənd stɹˈɛs ˌəʊpənˈɛː(de) ˈɛn kˈɑː (en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de) tˈeː]
+pˌoːliːtsˈaɪ | [pˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛl ˈiː (en)lˈɛŋθənd(de) tˈeː ˈɛs (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de)]
+pˌoːliːtsˌaɪstatsɪˈoːn | [pˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛl ˈiː (en)lˈɛŋθənd(de) tˈeː ˈɛs (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛs tˈeː ˈɑː tˈeː ˈɛs (en)smˈɔːlkˌapˈaɪ stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛn]
+qualifications | [kvˌɑliːfˌiːkatsɪˈoːns]
+qualifikationen | [kvˌɑliːfˌiːkatsɪˈoːnən]
+quelle | [kvˈɛlə]
+rast | [rˈast]
+rat | [rˈɑːt]
+rate | [rˈɑːtə]
+receive | [rˈeːkaɪvə]
+received | [rˈeːkaɪvˌeːt]
+rechnung | [rˈɛçnʊŋ]
+recht | [rˈɛçt]
+rechts | [rˈɛçts]
+recommend | [rˈeːkɔmənt]
+reden | [rˈeːdən]
+reflektierte | [rˌɛflɛktˈiːɾtə]
+reflexion | [rˌɛflɛksjˈoːn]
+refund | [rˈeːfʊnt]
+reibt | [rˈaɪpt]
+reimbursed | [rˈaɪmbʊɐzˌeːt]
+reise | [rˈaɪzə]
+reisen | [rˈaɪzən]
+rennt | [rˈɛnt]
+rent | [rˈɛnt]
+repeat | [rˌeːpeːˈɑːt]
+required | [rˈeːkviːrˌeːt]
+reservation | [rˌeːzɛɾvˌatsɪˈoːn]
+reservierung | [rˌeːzɛɾvˈiːrʊŋ]
+rettung | [rˈɛtʊŋ]
+rettungshubschrauber | [rˈɛtʊŋshˌʊpʃraʊbɜ]
+rettungskraft | [rˈɛtʊŋskrˌaft]
+rettungskräfte | [rˈɛtʊŋskrˌɛftə]
+rettungsstation | [rˌɛtʊŋsʃtˌatsɪˈoːn]
+rettungsstelle | [rˌɛtʊŋsʃtˈɛlə]
+reue | [rˈɔøə]
+rezept | [reːtsˈɛpt]
+reːtsˈɛpt | [ˈɛɾ ˈeː (en)lˈɛŋθənd(de) tˈeː ˈɛs (en)stɹˈɛs ˌəʊpənˈɛː(de) pˈeː tˈeː]
+richtet | [rˈɪçtət]
+richtig | [rˈɪçtɪç]
+richtiges | [rˈɪçtɪɡəs]
+richtung | [rˈɪçtʊŋ]
+right | [(en)ɹˈaɪt(de)]
+ritzt | [rˈɪtst]
+robust | [rˈoːbʊst]
+rolle | [rˈɔlə]
+room | [rˈuːm]
+rote | [rˈoːtə]
+rotwein | [rˈɔtvaɪn]
+round-trip | [rˈuːnt(en)tɹˈɪp(de)]
+rucksack | [rˈʊkzak]
+rucksäcke | [rˈʊkzɛkə]
+rufen | [rˈuːfən]
+ruft | [rˈʊft]
+ruh | [rˈuː]
+ruhen | [rˈuːən]
+ruhig | [rˈuːɪç]
+ruhiger | [rˈuːɪɡɜ]
+runde | [rˈʊndə]
+runter | [rˈʊntɜ]
+runtergehe | [rˈʊntɜɡˌeːə]
+runzligen | [rˈʊntslɪɡən]
+rückerstattung | [rˈʏkɜstˌatʊŋ]
+rückfahrt | [rˈʏkfɑːɾt]
+rˈaɪzə | [ˈɛɾ (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) tsˈɛt (en)ʃwˈɑː(de)]
+rˈuːfən | [ˈɛɾ (en)stɹˈɛs(de) ˈuː (en)lˈɛŋθənd(de) ˈɛf (en)ʃwˈɑː(de) ˈɛn]
+rˈɛçnʊŋ | [ˈɛɾ (en)stɹˈɛs ˌəʊpənˈɛː(de) sˌeːseːdˈiːj ˈɛn (en)ˈʊpsɪlˌɒn(de) ˈɛn]
+rˈɛçts | [ˈɛɾ (en)stɹˈɛs ˌəʊpənˈɛː(de) sˌeːseːdˈiːj tˈeː ˈɛs]
+rˈʏkfɑːɾt | [ˈɛɾ (en)stɹˈɛs smˈɔːlkˌapwˈaɪ(de) kˈɑː ˈɛf (en)ˈalfə lˈɛŋθənd ˈɑːtap(de) tˈeː]
+rˈʏkɜstˌatʊŋ | [ˈɛɾ (en)stɹˈɛs smˈɔːlkˌapwˈaɪ(de) kˈɑː (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de) ˈɛs tˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː tˈeː (en)ˈʊpsɪlˌɒn(de) ˈɛn]
+rˌeːzɛɾvˈiːrʊŋ | [ˈɛɾ (en)sˈɛkəndɹɪstɹˌɛs(de) ˈeː (en)lˈɛŋθənd(de) tsˈɛt (en)ˌəʊpənˈɛː ˈɑːtap(de) fˈaʊ (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd(de) ˈɛɾ (en)ˈʊpsɪlˌɒn(de) ˈɛn]
+safe | [(en)sˈeɪf(de)]
+sagen | [zˈɑːɡən]
+sagt | [zˈɑːkt]
+sagte | [zˈɑːɡtə]
+salary | [zˈɑlarˌiː]
+sale | [zˈɑːlə]
+sammeln | [zˈaməln]
+sammle | [zˈamlə]
+sandwiches | [zˈandvɪçəs]
+sanft | [zˈanft]
+sanitäter | [zˌɑniːtˈɛːtɜ]
+satz | [zˈats]
+say | [zˈɛɪ]
+schade | [ʃˈɑːdə]
+schalter | [ʃˈaltɜ]
+schatz | [ʃˈats]
+schau | [ʃˈaʊ]
+schauen | [ʃˈaʊən]
+schaut | [ʃˈaʊt]
+scheint | [ʃˈaɪnt]
+schilder | [ʃˈɪldɜ]
+schinken | [ʃˈɪŋkən]
+schlaf | [ʃlˈɑːf]
+schlafen | [ʃlˈɑːfən]
+schlecht | [ʃlˈɛçt]
+schlendern | [ʃlˈɛndɜn]
+schließlich | [ʃlˈiːslɪç]
+schluckt | [ʃlˈʊkt]
+schlüssel | [ʃlˈʏsəl]
+schmidt | [ʃmˈɪt]
+schneebedeckten | [ʃnˈeːbeːdˌɛktən]
+schnell | [ʃnˈɛl]
+schokoladenbrötchen | [ʃˈoːkoːlˌɑdənbrˌøːtçən]
+schon | [ʃˈoːn]
+schrecklich | [ʃrˈɛklɪç]
+schreit | [ʃrˈaɪt]
+schreiten | [ʃrˈaɪtən]
+schuldig | [ʃˈʊldɪç]
+schulter | [ʃˈuːltɜ]
+schutzhütte | [ʃˈʊtshʏtə]
+schwarz | [ʃvˈaɾts]
+schweigend | [ʃvˈaɪɡənt]
+schwenkt | [ʃvˈɛŋkt]
+schwierige | [ʃvˈiːrɪɡə]
+schäferhütte | [ʃˈɛːfɜhˌʏtə]
+schäferstruktur | [ʃˈɛːfɜstɾˌʊktuːɾ]
+schön | [ʃˈøːn]
+schönen | [ʃˈøːnən]
+schöner | [ʃˈøːnɜ]
+schönes | [ʃˈøːnəs]
+schüttelt | [ʃˈʏtəlt]
+schützen | [ʃˈʏtsən]
+sechzehn | [zˈɛçtseːn]
+sechzig | [zˈɛçtsɪç]
+second | [zˈeːkɔnt]
+see | [zˈeː]
+sehe | [zˈeːə]
+sehen | [zˈeːən]
+sehr | [zˈeːɾ]
+seht | [zˈeːt]
+sei | [zˈaɪ]
+seid | [zˈaɪt]
+sein | [zˈaɪn]
+seine | [zˈaɪnə]
+seinem | [zˈaɪnəm]
+seinen | [zˈaɪnən]
+seiner | [zˈaɪnɜ]
+seite | [zˈaɪtə]
+selbst | [zˈɛlpst]
+selbstbehalt | [zˈɛlpstbəhˌalt]
+selbstsicher | [zˈɛlpstsɪçɜ]
+seltsam | [zˈɛltzɑːm]
+seltsame | [zˈɛltzɑːmə]
+seltsamen | [zˈɛltzɑːmən]
+service | [sˈɛɾvɪs]
+serviert | [zɛɾvˈiːɾt]
+setzen | [zˈɛtsən]
+setzt | [zˈɛtst]
+seufzt | [zˈɔøftst]
+seven | [(en)sˈɛvən(de)]
+show | [(en)ʃˈəʊ(de)]
+sich | [zˈɪç]
+sicher | [zˈɪçɜ]
+sichere | [zˈɪçərə]
+sicheren | [zˈɪçərən]
+sicherheit | [zˈɪçɜhˌaɪt]
+sick | [zˈɪk]
+sie | [zˈiː]
+sieben | [zˈiːbən]
+sieht | [zˈiːt]
+sind | [zˈɪnt]
+situation | [zˌiːtuːˌatsɪˈoːn]
+sitzen | [zˈɪtsən]
+sitzend | [zˈɪtsənt]
+size | [zˈiːtsə]
+slowly | [slˈɔvliː]
+so | [zˈoː]
+so-so | [zoːzˈoː]
+sobald | [zˈoːbalt]
+sofa | [zˈoːfɑː]
+sofort | [zoːfˈɔɾt]
+solche | [zˈɔlçə]
+sollen | [zˈɔlən]
+sollte | [zˈɔltə]
+sollten | [zˈɔltən]
+someone | [zˌoːmeːˈoːnə]
+sondern | [zˈɔndɜn]
+sonne | [zˈɔnə]
+sonnenaufgang | [zˈɔnənˌaʊfɡaŋ]
+soon | [zˈoːn]
+sophie | [zoːfˈiː]
+sophies | [zˈoːfiːs]
+sorge | [zˈɔɾɡə]
+sorgen | [zˈɔɾɡən]
+sorry | [(en)sˈɒɹi(de)]
+spazieren | [ʃpatsˈiːrən]
+spaziergang | [ʃpˈɑtsiːɾɡˌaŋ]
+speak | [ʃpˈeːɑːk]
+speisekarte | [ʃpˈaɪzeːkˌaɾtə]
+speisesaal | [ʃpˈaɪzeːzˌɑːl]
+sperren | [ʃpˈɛrən]
+spielt | [ʃpˈiːlt]
+spontan | [ʃpɔntˈɑːn]
+spreche | [ʃprˈɛçə]
+sprechen | [ʃprˈɛçən]
+spricht | [ʃprˈɪçt]
+sprudelt | [ʃprˈuːdəlt]
+spät | [ʃpˈɛːt]
+später | [ʃpˈɛːtɜ]
+spürt | [ʃpˈʏɾt]
+stabil | [ʃtabˈiːl]
+stadt | [ʃtˈat]
+starrt | [ʃtˈaɾt]
+start | [ʃtˈaɾt]
+starten | [ʃtˈaɾtən]
+startet | [ʃtˈaɾtət]
+station | [ʃtˌatsɪˈoːn]
+stechen | [ʃtˈɛçən]
+stehen | [ʃtˈeːən]
+steht | [ʃtˈeːt]
+steigen | [ʃtˈaɪɡən]
+steigt | [ʃtˈaɪkt]
+steinernen | [ʃtˈaɪnɜnən]
+steinhäusern | [ʃtˈaɪnhɔøzɜn]
+steinwände | [ʃtˈaɪnvɛndə]
+stellt | [ʃtˈɛlt]
+stich | [ʃtˈɪç]
+stiche | [ʃtˈɪçə]
+still | [ʃtˈɪl]
+stille | [ʃtˈɪlə]
+stimme | [ʃtˈɪmə]
+stoff | [ʃtˈɔf]
+stolen | [ʃtˈoːlən]
+stomachache | [ʃtˈoːmaxˌaxə]
+stop | [ʃtˈoːp]
+stornieren | [ʃtɔɾnˈiːrən]
+storniert | [ʃtɔɾnˈiːɾt]
+stornogebühren | [ʃtˈɔɾnoːɡˌeːbyːrən]
+straight | [(en)stɹˈeɪt(de)]
+straße | [ʃtɾˈɑːsə]
+straßen | [ʃtɾˈɑːsən]
+streichholz | [ʃtɾˈaɪçhɔlts]
+streichhölzer | [ʃtɾˈaɪçhœltsɜ]
+streiten | [ʃtɾˈaɪtən]
+streitigkeiten | [ʃtɾˈaɪtɪçkˌaɪtən]
+streits | [ʃtɾˈaɪts]
+stunde | [ʃtˈʊndə]
+stunden | [ʃtˈʊndən]
+stundenlang | [ʃtˈʊndənlˌaŋ]
+ständig | [ʃtˈɛndɪç]
+stängel | [ʃtˈɛŋəl]
+stärker | [ʃtˈɛɾkɜ]
+stück | [ʃtˈʏk]
+stürme | [ʃtˈʏɾmə]
+suche | [zˈuːxə]
+suchen | [zˈuːxən]
+sucht | [zˈuːxt]
+suchteam | [zˈuːxteːˌɑːm]
+suppe | [zˈʊpə]
+swallowed | [svˈaloːvˌeːt]
+szene | [stsˈeːnə]
+szenen | [stsˈeːnən]
+süßes | [zˈyːsəs]
+sˈɛɾvɪs | [ˈɛs (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(de) fˈaʊ (en)smˈɔːlkˌapˈaɪ(de) ˈɛs]
+table | [tˈablə]
+tag | [tˈɑːk]
+tagesanbruch | [tˈɑɡeːzˌanbrʊx]
+take | [tˈɑːkə]
+tal | [tˈɑːl]
+tanzt | [tˈantst]
+tasche | [tˈaʃə]
+taschen | [tˈaʃən]
+taschenlampe | [tˈaʃənlˌampə]
+tauchen | [tˈaʊxən]
+taucht | [tˈaʊxt]
+tee | [tˈeː]
+teil | [tˈaɪl]
+teile | [tˈaɪlə]
+teilen | [tˈaɪlən]
+telefon | [tˌeːleːfˈoːn]
+telefonnummer | [tˌeːleːfˈɔnʊmɜ]
+temperatur | [tˈɛmpeːrˌɑtuːɾ]
+termin | [tɛɾmˈiːn]
+teuer | [tˈɔøɜ]
+thank | [tˈaŋk]
+that | [tˈɑːt]
+that's | [tˈɑts]
+the | [ðˈə]
+there | [tˈeːrə]
+there's | [tˈeːreːs]
+this | [tˈiːs]
+ticket | [tˈɪkət]
+tickets | [tˈɪkəts]
+tief | [tˈiːf]
+tiefer | [tˈiːfɜ]
+tier | [tˈiːɾ]
+tiere | [tˈiːrə]
+tierisches | [tˈiːrɪʃəs]
+time | [(en)tˈaɪm(de)]
+tipp | [tˈɪp]
+tisch | [tˈɪʃ]
+to | [tˈoː]
+today | [tˈoːdɛɪ]
+toilets | [tˈoːiːləts]
+toiletten | [tˌoːiːlˈɛtən]
+tomaten | [toːmˈɑːtən]
+tomorrow | [tˈoːmɔrˌoːf]
+too | [tˈoː]
+topf | [tˈɔpf]
+train | [tɾˈeːn]
+transfer | [tɾˈansfɜ]
+transport | [tɾˈanspɔɾt]
+traum | [tɾˈaʊm]
+traurigkeit | [tɾˈaʊrɪçkˌaɪt]
+treffen | [tɾˈɛfən]
+trennen | [tɾˈɛnən]
+trennung | [tɾˈɛnʊŋ]
+tresen | [tɾˈeːzən]
+trifft | [tɾˈɪft]
+trinkbares | [tɾˈɪŋkbɑːrəs]
+trinke | [tɾˈɪŋkə]
+trinken | [tɾˈɪŋkən]
+trinkt | [tɾˈɪŋkt]
+trinkwasser | [tɾˈɪŋkvasɜ]
+trip | [(en)tɹˈɪp(de)]
+tritt | [tɾˈɪt]
+trug | [tɾˈuːk]
+try | [tɾˈyː]
+trägt | [tɾˈɛːkt]
+träume | [tɾˈɔømə]
+tsuː | [tˈeː ˈɛs ˈuː (en)lˈɛŋθənd(de)]
+tsuːɾ | [tˈeː ˈɛs ˈuː (en)lˈɛŋθənd ˈɑːtap(de)]
+tsvˈaɪ | [tˈeː ˈɛs fˈaʊ (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de)]
+tsʊm | [tˌeːˌɛs(en)ˌʊpsɪlˌɒn(de)ˈɛm]
+tsˈaɪɡən | [tˈeː ˈɛs (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ɡˈeː (en)ʃwˈɑː(de) ˈɛn]
+tsˈuːk | [tˈeː ˈɛs (en)stɹˈɛs(de) ˈuː (en)lˈɛŋθənd(de) kˈɑː]
+tsˈɑːlən | [tˈeː ˈɛs (en)stɹˈɛs ˈalfə lˈɛŋθənd(de) ˈɛl (en)ʃwˈɑː(de) ˈɛn]
+tsˈɪmɜ | [tˌeːˌɛs(en)stɹˈɛssmˌɔːlkˌapˈaɪ(de)mˈeː]
+tun | [tˈuːn]
+tut | [tˈuːt]
+two | [twˈoː]
+tür | [tˈyːɾ]
+tɛɾmˈiːn | [tˈeː (en)ˌəʊpənˈɛː ˈɑːtap(de) ˈɛm (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd(de) ˈɛn]
+tˈaʃə | [tˈeː (en)stɹˈɛs(de) ˈɑː (en)ˈɛʃ ʃwˈɑː(de)]
+tˈɑːk | [tˈeː (en)stɹˈɛs ˈalfə lˈɛŋθənd(de) kˈɑː]
+tˈɔøɜ | [tˈeː (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈœ (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de)]
+tˈɪkət | [tˌeː(en)stɹˌɛssmˌɔːlkˌapˈaɪ(de)kˈeːt]
+tˈɪʃ | [tˌeː(en)stɹˌɛssmˈɔːlkˌapˌaɪˈɛʃ(de)]
+tˌeːleːfˈɔnʊmɜ | [tˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈeː (en)lˈɛŋθənd(de) ˈɛl ˈeː (en)lˈɛŋθənd(de) ˈɛf (en)stɹˈɛs ˌəʊpənˈɔː(de) ˈɛn (en)ˈʊpsɪlˌɒn(de) ˈɛm (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de)]
+tˌoːiːlˈɛtən | [tˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈiː (en)lˈɛŋθənd(de) ˈɛl (en)stɹˈɛs ˌəʊpənˈɛː(de) tˈeː (en)ʃwˈɑː(de) ˈɛn]
+u-bahn | [ˈuːbˈɑːn]
+uhr | [ˈuːɾ]
+um | [ˈʊm]
+umarmen | [ʊmˈaɾmən]
+umgebung | [ʊmɡˈeːbʊŋ]
+umgehen | [ʊmɡˈeːən]
+umkehren | [ʊmkˈeːrən]
+umschlungen | [ʊmʃlˈʊŋən]
+umso | [ˈʊmzoː]
+umsteigen | [ˈʊmʃtˌaɪɡən]
+unbeschwerte | [ˈʊnbəʃvˌeːɾtə]
+und | [ˈʊnt]
+understand | [(en)ˌʌndəstˈand(de)]
+unerwartete | [ˈʊnɛɾvˌaɾtətə]
+unfreiwillige | [ˈʊnfrˌaɪvɪlˌɪɡə]
+ungefähr | [ˈʊnɡəfˌɛːɾ]
+ungewissen | [ˈʊnɡəvˌɪsən]
+ungewissheit | [ˈʊnɡəvˌɪshaɪt]
+ungewöhnliches | [ˈʊnɡəvˌøːnlɪçəs]
+ungläubig | [ˈʊnɡlˌɔøbɪç]
+unmöglich | [ˈʊnmˌøːklɪç]
+uns | [ˈʊns]
+unschuld | [ˈʊnʃˌʊlt]
+unser | [ˈʊnzɜ]
+unsere | [ˈʊnzrə]
+unserem | [ˈʊnsərəm]
+unserer | [ˈʊnzərɜ]
+unsicherheit | [ˈʊnzˌɪçɜhˌaɪt]
+unten | [ˈʊntən]
+unter | [ˈʊntɜ]
+unterdessen | [ˌʊntɜdˈɛsən]
+unterhalten | [ˌʊntɜhˈaltən]
+unterschied | [ˌʊntɜʃˈiːt]
+unterschlupf | [ˌʊntɜʃlˈʊpf]
+unterwegs | [ˌʊntɜvˈeːks]
+ursache | [ˈʊɐzaxə]
+used | [ˈuːzeːt]
+utilities | [ˈuːtiːlˌiːtiːs]
+vater | [fˈɑːtɜ]
+vegetarian | [vˌeːɡeːtˌɑriːˈɑːn]
+vegetarier | [vˌeːɡeːtˈɑːriːɜ]
+vegetarierin | [vˌeːɡeːtˈɑriːərˌɪn]
+vereinbaren | [fɛrˈaɪnbɑːrən]
+vereint | [fɛɾˈaɪnt]
+verfehlen | [fɛɾfˈeːlən]
+verfügbarkeiten | [fɛɾfˈʏɡbaɾkˌaɪtən]
+vergessen | [fɛɾɡˈɛsən]
+vergibt | [fɛɾɡˈiːpt]
+vergiss | [fɛɾɡˈɪs]
+vergnügen | [fɛɾɡənˈyːɡən]
+verhalten | [fɛɾhˈaltən]
+verirrt | [fɛɾˈɪɾt]
+verkehrsmittel | [fɛɾkˈeːɾsmɪtəl]
+verkündet | [fɛɾkˈʏndət]
+verladen | [fɛɾlˈɑːdən]
+verlassen | [fɛɾlˈasən]
+verlassene | [fɛɾlˈasənə]
+verletzen | [fɛɾlˈɛtsən]
+verlieren | [fɛɾlˈiːrən]
+verliert | [fɛɾlˈiːɾt]
+verloren | [fɛɾlˈoːrən]
+verlust | [fɛɾlˈʊst]
+verlässt | [fɛɾlˈɛst]
+vermischen | [fɛɾmˈɪʃən]
+vermisse | [fɛɾmˈɪsə]
+verpacken | [fɛɾpˈakən]
+verreisen | [fɛɾrˈaɪzən]
+verrückt | [fɛɾrˈʏkt]
+verschluckt | [fɛɾʃlˈʊkt]
+verschneiten | [fɛɾʃnˈaɪtən]
+verschwimmt | [fɛɾʃvˈɪmt]
+verschwunden | [fɛɾʃvˈʊndən]
+versicherung | [fɛɾzˈɪçərˌʊŋ]
+verspätet | [fɛɾʃpˈɛːtət]
+verstehe | [fɛɾʃtˈeːə]
+versuch | [fɛɾzˈuːx]
+versuche | [fɛɾzˈuːxə]
+versucht | [fɛɾzˈuːxt]
+vertrauen | [fɛɾtɾˈaʊən]
+verwandelt | [fɛɾvˈandəlt]
+verwandlung | [fɛɾvˈandlʊŋ]
+verwendet | [fɛɾvˈɛndət]
+verwitterter | [fɛɾvˈɪtɜtɜ]
+very | [fɛɾˈʏpsɪlˌɔn]
+verzeih | [fɛɾtsˈaɪ]
+verzieht | [fɛɾtsˈiːt]
+verzweifelt | [fɛɾtsvˈaɪfəlt]
+verzweiflung | [fɛɾtsvˈaɪflʊŋ]
+verändern | [fɛɾˈɛndɜn]
+verändert | [fɛɾˈɛndɜt]
+veränderung | [fɛɾˈɛndərˌʊŋ]
+viel | [fˈiːl]
+viele | [fˈiːlə]
+vielen | [fˈiːlən]
+vielleicht | [fiːllˈaɪçt]
+vier | [fˈiːɾ]
+viertel | [fˈiːɾtəl]
+viertels | [fˈiːɾtəls]
+vierten | [fˈiːɾtən]
+viː | [fˈaʊ ˈiː (en)lˈɛŋθənd(de)]
+viːdɜhˈoːlən | [fˈaʊ ˈiː (en)lˈɛŋθənd(de) dˈeː (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de) hˈɑː (en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛl (en)ʃwˈɑː(de) ˈɛn]
+viːdɜzˈeːən | [fˈaʊ ˈiː (en)lˈɛŋθənd(de) dˈeː (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de) tsˈɛt (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd ʃwˈɑː(de) ˈɛn]
+voll | [fˈɔl]
+vollständig | [fˈɔlʃtˌɛndɪç]
+vollständiger | [fˈɔlʃtˌɛndɪɡɜ]
+vom | [fˈɔm]
+von | [fˈɔn]
+vor | [fˈɔɾ]
+voran | [fˈoːɾˌan]
+vorbeigehen | [foːɾbˈaɪɡˌeːən]
+vorbeigehenden | [foːɾbˈaɪɡˌeːəndən]
+vorbeiziehende | [foːɾbˈaɪtsˌiːəndə]
+vorbeiziehenden | [foːɾbˈaɪtsˌiːəndən]
+vorgeben | [fˈoːɾɡˌeːbən]
+vorher | [foːɾhˈeːɾ]
+vorne | [fˈɔɾnə]
+vorsichtig | [fˈoːɾzˌɪçtɪç]
+vorwürfe | [fˈoːɾvˌʏɾfə]
+völlig | [fˈœlɪç]
+vˈan | [fˈaʊ (en)stɹˈɛs(de) ˈɑː ˈɛn]
+vˈas | [fˈaʊ (en)stɹˈɛs(de) ˈɑː ˈɛs]
+vˈasɜ | [fˈaʊ (en)stɹˈɛs(de) ˈɑː ˈɛs (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de)]
+vˈaɪhnaxtən | [fˈaʊ (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) hˈɑː ˈɛn ˈɑː ˈɪks tˈeː (en)ʃwˈɑː(de) ˈɛn]
+vˈaɪs | [fˈaʊ (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛs]
+vˈaɪt | [fˈaʊ (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) tˈeː]
+vˈeːk | [fˈaʊ (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd(de) kˈɑː]
+vˈoː | [fˈaʊ (en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de)]
+vˈoːnə | [fˈaʊ (en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛn (en)ʃwˈɑː(de)]
+vˈoːnʊŋ | [fˈaʊ (en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛn (en)ˈʊpsɪlˌɒn(de) ˈɛn]
+vˈɛksəlkˌuːɾs | [fˈaʊ (en)stɹˈɛs ˌəʊpənˈɛː(de) kˈɑː ˈɛs (en)ʃwˈɑː(de) ˈɛl kˈɑː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈuː (en)lˈɛŋθənd ˈɑːtap(de) ˈɛs]
+vˈɛksəlɡˌɛlt | [fˈaʊ (en)stɹˈɛs ˌəʊpənˈɛː(de) kˈɑː ˈɛs (en)ʃwˈɑː(de) ˈɛl ɡˈeː (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː(de) ˈɛl tˈeː]
+vˈɛkən | [fˈaʊ (en)stɹˈɛs ˌəʊpənˈɛː(de) kˈɑː (en)ʃwˈɑː(de) ˈɛn]
+vˈɛlçə | [fˈaʊ (en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛl sˌeːseːdˈiːj (en)ʃwˈɑː(de)]
+vˈɪlkɔmən | [fˌaʊ(en)stɹˌɛssmˈɔːlkˌapˌaɪ(de)ˈɛlkˈoːmən]
+vˌeːɡeːtˈɑriːərˌɪn | [fˈaʊ (en)sˈɛkəndɹɪstɹˌɛs(de) ˈeː (en)lˈɛŋθənd(de) ɡˈeː ˈeː (en)lˈɛŋθənd(de) tˈeː (en)stɹˈɛs ˈalfə(de) ˈɛɾ ˈiː (en)lˈɛŋθənd ʃwˈɑː(de) ˈɛɾ (en)sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(de) ˈɛn]
+vˌeːɡeːtˈɑːriːɜ | [fˈaʊ (en)sˈɛkəndɹɪstɹˌɛs(de) ˈeː (en)lˈɛŋθənd(de) ɡˈeː ˈeː (en)lˈɛŋθənd(de) tˈeː (en)stɹˈɛs ˈalfə lˈɛŋθənd(de) ˈɛɾ ˈiː (en)lˈɛŋθənd ɹɪvˈɜːsdˈəʊpənˈɛː(de)]
+vˌoː | [fˈaʊ (en)sˈɛkəndɹɪstɹˌɛs(de) ˈoː (en)lˈɛŋθənd(de)]
+vˌɛɾdən | [fˈaʊ (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː ˈɑːtap(de) dˈeː (en)ʃwˈɑː(de) ˈɛn]
+vˌʊɐdə | [fˈaʊ (en)sˈɛkəndɹɪstɹˌɛs ˈʊpsɪlˌɒn tˈɜːndˈeɪ(de) dˈeː (en)ʃwˈɑː(de)]
+wachsen | [vˈaxzən]
+wage | [vˈɑːɡə]
+wagen | [vˈɑːɡən]
+waggon | [vˈaɡoːn]
+wahl | [vˈɑːl]
+wahnsinnig | [vˈɑːnzɪnˌɪç]
+wahr | [vˈɑːɾ]
+wahrheit | [vˈɑːɾhaɪt]
+wake | [vˈɑːkə]
+wand | [vˈant]
+wandel | [vˈandəl]
+wandermöglichkeiten | [vˈandɜmˌœklɪçkˌaɪtən]
+wandern | [vˈandɜn]
+wanderung | [vˈandərˌʊŋ]
+wanderungen | [vˈandərˌʊŋən]
+wann | [vˈan]
+war | [vˈɑːɾ]
+waren | [vˈɑːrən]
+warme | [vˈaɾmə]
+warmen | [vˈaɾmən]
+wart | [vˈɑːɾt]
+warte | [vˈaɾtə]
+warten | [vˈaɾtən]
+wartet | [vˈaɾtət]
+warum | [vɑːrˈʊm]
+was | [vˈas]
+wasn't | [vˈasnt]
+wasser | [vˈasɜ]
+watch | [vˈatʃ]
+water | [vˈɑːtɜ]
+way | [vˈɛɪ]
+wechsel | [vˈɛksəl]
+wechselgeld | [vˈɛksəlɡˌɛlt]
+wechselkurs | [vˈɛksəlkˌuːɾs]
+wecken | [vˈɛkən]
+weder | [vˈeːdɜ]
+weg | [vˈeːk]
+wege | [vˈeːɡə]
+wegen | [vˈeːɡən]
+weht | [vˈeːt]
+wehtun | [vˈeːtuːn]
+weihnachten | [vˈaɪhnaxtən]
+weile | [vˈaɪlə]
+wein | [vˈaɪn]
+weinend | [vˈaɪnənt]
+weinladen | [vˈaɪnlɑːdən]
+weit | [vˈaɪt]
+weiter | [vˈaɪtɜ]
+weiterexistieren | [vˈaɪtɜˌɛksɪstˌiːrən]
+weitergehen | [vˈaɪtɜɡˌeːən]
+weiterhin | [vˈaɪtɜhˌɪn]
+weitermachen | [vˈaɪtɜmˌaxən]
+weiß | [vˈaɪs]
+weiße | [vˈaɪsə]
+weißt | [vˈaɪst]
+welche | [vˈɛlçə]
+welchem | [vˈɛlçəm]
+welchen | [vˈeːlçən]
+welcome | [vɛlkˈoːmə]
+well | [vˈɛl]
+wendet | [vˈɛndət]
+wenige | [vˈeːnɪɡə]
+weniger | [vˈeːnɪɡɜ]
+wenn | [vˈɛn]
+wer | [vˈeːɾ]
+werde | [vˈɛɾdə]
+werden | [vˈɛɾdən]
+werdet | [vˈɛɾdət]
+westentasche | [vˈɛstɛntˌaʃə]
+wetter | [vˈɛtɜ]
+what | [vˈɑːt]
+what's | [vˈɑts]
+when | [vˈeːn]
+where | [vˈeːrə]
+wichtig | [vˈɪçtɪç]
+wichtigste | [vˈɪçtɪçstə]
+widerfährt | [vˈiːdɜfˌɛːɾt]
+wie | [vˈiː]
+wieder | [vˈiːdɜ]
+wiedergefunden | [viːdɜɡəfˈʊndən]
+wiederholen | [viːdɜhˈoːlən]
+wiedersehen | [viːdɜzˈeːən]
+wiener | [vˈiːnɜ]
+wild | [vˈɪlt]
+will | [vˈɪl]
+willingly | [vˈɪlɪŋlˌiː]
+willkommen | [vˈɪlkɔmən]
+willst | [vˈɪlst]
+wind | [vˈɪnt]
+winter | [vˈɪntɜ]
+wir | [vˈiːɾ]
+wird | [vˈɪɾt]
+wirklich | [vˈɪɾklɪç]
+wirst | [vˈɪɾst]
+wirtin | [vˈɪɾtɪn]
+wissen | [vˈɪsən]
+with | [vˈɪt]
+withdrawal | [vˈɪtdravˌɑːl]
+without | [vˈɪthuːt]
+wo | [vˈoː]
+woche | [vˈɔxə]
+wohin | [voːhˈiːn]
+wohne | [vˈoːnə]
+wohnung | [vˈoːnʊŋ]
+wolken | [vˈɔlkən]
+wolle | [vˈɔlə]
+wollte | [vˈɔltə]
+wolltest | [vˈɔltəst]
+work | [(en)wˈɜːk(de)]
+worte | [vˈɔɾtə]
+worüber | [vˈoːryːbɜ]
+would | [vˈuːlt]
+wunder | [vˈʊndɜ]
+wunderschön | [vˈʊndɜʃˌøːn]
+wunsch | [vˈʊnʃ]
+wurde | [vˈʊɐdə]
+wächst | [vˈɛkst]
+während | [vˈɛːrənt]
+wälder | [vˈɛldɜ]
+wände | [vˈɛndə]
+wäre | [vˈɛːrə]
+wärme | [vˈɛɾmə]
+wärmeren | [vˈɛɾmərən]
+year | [jˈeːɑːɾ]
+yes | [jˈeːs]
+yesterday | [jˈɛstɜdˌɛɪ]
+yet | [jˈeːt]
+you | [jˈuː]
+you're | [jˈuːrə]
+your | [jˈuːɾ]
+zahlen | [tsˈɑːlən]
+zeichen | [tsˈaɪçən]
+zeigen | [tsˈaɪɡən]
+zeigt | [tsˈaɪkt]
+zeit | [tsˈaɪt]
+zerbrechlichkeit | [tsɛɾbrˈɛçlɪçkˌaɪt]
+ziege | [tsˈiːɡə]
+zieht | [tsˈiːt]
+zimmer | [tsˈɪmɜ]
+zitternd | [tsˈɪtɛɾnt]
+ziː | [tsˈɛt ˈiː (en)lˈɛŋθənd(de)]
+zu | [tsˈuː]
+zucker | [tsˈʊkɜ]
+zuerst | [tsuːˈeːɾst]
+zug | [tsˈuːk]
+zukunft | [tsuːkˈʊnft]
+zukünfte | [tsuːkˈʏnftə]
+zulässt | [tsuːlˈɛst]
+zum | [tsˈʊm]
+zunehmend | [tsuːnˈeːmənt]
+zur | [tsˈuːɾ]
+zurechtkommen | [tsuːrˈɛçtkɔmən]
+zurück | [tsuːrˈʏk]
+zurückkehrt | [tsuːrˈʏkkˌeːɾt]
+zusammen | [tsuːzˈamən]
+zusammenbleiben | [tsuːzˈamənblˌaɪbən]
+zusammenstellen | [tsuːzˈamənʃtˌɛlən]
+zuvor | [tsuːfˈɔɾ]
+zwei | [tsvˈaɪ]
+zweifel | [tsvˈaɪfəl]
+zweifelst | [tsvˈaɪfəlst]
+zweifelte | [tsvˈaɪfəltə]
+zweimal | [tsvˈaɪmɑːl]
+zwingt | [tsvˈɪŋt]
+zwischenzeit | [tsvˈɪʃəntsˌaɪt]
+zählt | [tsˈɛːlt]
+zärtlich | [tsˈɛɾtlɪç]
+zögerlich | [tsˈøːɡɜlˌɪç]
+zögernd | [tsˈøːɡɛɾnt]
+zögert | [tsˈøːɡɜt]
+züge | [tsˈyːɡə]
+zɪnt | [tsˌɛt(en)smˌɔːlkˌapˈaɪ(de)ˌɛntˈeː]
+zˈeːɾ | [tsˈɛt (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd ˈɑːtap(de)]
+zˈiːbən | [tsˈɛt (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd(de) bˈeː (en)ʃwˈɑː(de) ˈɛn]
+zˈoː | [tsˈɛt (en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de)]
+zˈuːxə | [tsˈɛt (en)stɹˈɛs(de) ˈuː (en)lˈɛŋθənd(de) ˈɪks (en)ʃwˈɑː(de)]
+zˈɑːkt | [tsˈɛt (en)stɹˈɛs ˈalfə lˈɛŋθənd(de) kˈɑː tˈeː]
+zˈɛlpstbəhˌalt | [tsˈɛt (en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛl pˈeː ˈɛs tˈeː bˈeː (en)ʃwˈɑː(de) hˈɑː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː ˈɛl tˈeː]
+zˈɪçɜ | [tsˌɛt(en)stɹˌɛssmˌɔːlkˌapˈaɪ(de)sˈeː]
+ändern | [ˈɛndɜn]
+ändert | [ˈɛndɜt]
+ängstlich | [ˈɛŋstlɪç]
+öffentliche | [ˈœfəntlɪçə]
+öffnet | [ˈœfnət]
+über | [ˈʏbɜ]
+überall | [ˌyːbɜˈal]
+überleben | [ˌyːbɜlˈeːbən]
+überlebt | [ˌyːbɜlˈeːpt]
+überlegt | [ˌyːbɜlˈeːkt]
+übernachtung | [ˌyːbɜnˈaxtʊŋ]
+überprüfen | [ˌyːbɜprˈyːfən]
+überprüft | [ˌyːbɜprˈʏft]
+überrascht | [ˌyːbɜrˈaʃt]
+überstanden | [ˌyːbɜʃtˈandən]
+überweisen | [ˌyːbɜvˈaɪzən]
+überweisung | [ˌyːbɜvˈaɪzʊŋ]
+überwältigt | [ˌyːbɜvˈɛltɪçt]
+ɛmpfˈeːlən | [(en)ˌəʊpənˈɛː(de) ˈɛm pˈeː ˈɛf (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd(de) ˈɛl (en)ʃwˈɑː(de) ˈɛn]
+ɛnthˈaltən | [(en)ˌəʊpənˈɛː(de) ˈɛn tˈeː hˈɑː (en)stɹˈɛs(de) ˈɑː ˈɛl tˈeː (en)ʃwˈɑː(de) ˈɛn]
+ɛntʃˈʊldɪɡən | [(en)ˌəʊpənˈɛː(de) ˈɛn tˈeː (en)ˈɛʃ stɹˈɛs ˈʊpsɪlˌɒn(de) ˈɛl dˈeː (en)smˈɔːlkˌapˈaɪ(de) ɡˈeː (en)ʃwˈɑː(de) ˈɛn]
+ɛntʃˈʊldɪɡˌʊŋ | [(en)ˌəʊpənˈɛː(de) ˈɛn tˈeː (en)ˈɛʃ stɹˈɛs ˈʊpsɪlˌɒn(de) ˈɛl dˈeː (en)smˈɔːlkˌapˈaɪ(de) ɡˈeː (en)sˈɛkəndɹɪstɹˌɛs ˈʊpsɪlˌɒn(de) ˈɛn]
+ɛs | [ˈeːs]
+ɛsɪst | [(en)ˌəʊpənˈɛː(de) ˈɛs (en)smˈɔːlkˌapˈaɪ(de) ˈɛs tˈeː]
+ɛɾdnˈʏsə | [(en)ˌəʊpənˈɛː ˈɑːtap(de) dˈeː ˈɛn (en)stɹˈɛs smˈɔːlkˌapwˈaɪ(de) ˈɛs (en)ʃwˈɑː(de)]
+ɛɾfˈɔɾdɜlˌɪç | [(en)ˌəʊpənˈɛː ˈɑːtap(de) ˈɛf (en)stɹˈɛs ˌəʊpənˈɔː ˈɑːtap(de) dˈeː (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de) ˈɛl (en)sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(de) sˌeːseːdˈiːj]
+ɛɾhˈaltən | [(en)ˌəʊpənˈɛː ˈɑːtap(de) hˈɑː (en)stɹˈɛs(de) ˈɑː ˈɛl tˈeː (en)ʃwˈɑː(de) ˈɛn]
+ɛɾhˈøːən | [(en)ˌəʊpənˈɛː ˈɑːtap(de) hˈɑː (en)stɹˈɛs(de) ˈœ (en)lˈɛŋθənd ʃwˈɑː(de) ˈɛn]
+ɛɾlˈaʊbnɪs | [(en)ˌəʊpənˈɛː ˈɑːtap(de) ˈɛl (en)stɹˈɛs(de) ˈɑː (en)ˈʊpsɪlˌɒn(de) bˈeː ˈɛn (en)smˈɔːlkˌapˈaɪ(de) ˈɛs]
+ɛɾʃtˈatʊŋ | [(en)ˌəʊpənˈɛː ˈɑːtap ˈɛʃ(de) tˈeː (en)stɹˈɛs(de) ˈɑː tˈeː (en)ˈʊpsɪlˌɒn(de) ˈɛn]
+ɛɾˈœfnən | [(en)ˌəʊpənˈɛː ˈɑːtap stɹˈɛs(de) lˈiːɡatˌuːɜoːˈeː ˈɛf ˈɛn (en)ʃwˈɑː(de) ˈɛn]
+ɡlˈuːtənfrˌaɪ | [ɡˈeː ˈɛl (en)stɹˈɛs(de) ˈuː (en)lˈɛŋθənd(de) tˈeː (en)ʃwˈɑː(de) ˈɛn ˈɛf ˈɛɾ (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de)]
+ɡlˈʏk | [ɡˌeːˌɛl(en)stɹˈɛssmˌɔːlkˌapwˌaɪ(de)kˈɑː]
+ɡlˈʏkvʊnʃ | [ɡˌeːˌɛl(en)stɹˈɛssmˌɔːlkˌapwˌaɪ(de)kˈɑːfˌaʊ(en)ˌʊpsɪlˌɒn(de)ˌɛn(en)ˈɛʃ(de)]
+ɡrˈøːsə | [ɡˈeː ˈɛɾ (en)stɹˈɛs(de) ˈœ (en)lˈɛŋθənd(de) ˈɛs (en)ʃwˈɑː(de)]
+ɡrˈøːsərə | [ɡˈeː ˈɛɾ (en)stɹˈɛs(de) ˈœ (en)lˈɛŋθənd(de) ˈɛs (en)ʃwˈɑː(de) ˈɛɾ (en)ʃwˈɑː(de)]
+ɡəbˈyːrən | [ɡˈeː (en)ʃwˈɑː(de) bˈeː (en)stɹˈɛs(de) ˈʏpsɪlˌɔn (en)lˈɛŋθənd(de) ˈɛɾ (en)ʃwˈɑː(de) ˈɛn]
+ɡəbˈʊɐtstɑːk | [ɡˈeː (en)ʃwˈɑː(de) bˈeː (en)stɹˈɛs ˈʊpsɪlˌɒn tˈɜːndˈeɪ(de) tˈeː ˈɛs tˈeː (en)ˈalfə lˈɛŋθənd(de) kˈɑː]
+ɡəhˈalt | [ɡˈeː (en)ʃwˈɑː(de) hˈɑː (en)stɹˈɛs(de) ˈɑː ˈɛl tˈeː]
+ɡəpˈɛk | [ɡˈeː (en)ʃwˈɑː(de) pˈeː (en)stɹˈɛs ˌəʊpənˈɛː(de) kˈɑː]
+ɡərˈɑdeːˌaʊs | [ɡˈeː (en)ʃwˈɑː(de) ˈɛɾ (en)stɹˈɛs ˈalfə(de) dˈeː ˈeː (en)lˈɛŋθənd sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)ˈʊpsɪlˌɒn(de) ˈɛs]
+ɡəʃtˈoːlən | [ɡˈeː (en)ʃwˈɑː ˈɛʃ(de) tˈeː (en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛl (en)ʃwˈɑː(de) ˈɛn]
+ɡəʃˈɛŋk | [ɡˈeː (en)ʃwˈɑː ˈɛʃ stɹˈɛs ˌəʊpənˈɛː(de) ˈɛn kˈɑː]
+ɡˈeːt | [ɡˈeː (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd(de) tˈeː]
+ɡˈeːts | [ɡˈeː (en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd(de) tˈeː ˈɛs]
+ɡˈiːpt | [ɡˈeː (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd(de) pˈeː tˈeː]
+ɡˈuːt | [ɡˈeː (en)stɹˈɛs(de) ˈuː (en)lˈɛŋθənd(de) tˈeː]
+ɡˈuːtə | [ɡˈeː (en)stɹˈɛs(de) ˈuː (en)lˈɛŋθənd(de) tˈeː (en)ʃwˈɑː(de)]
+ɡˈuːtən | [ɡˈeː (en)stɹˈɛs(de) ˈuː (en)lˈɛŋθənd(de) tˈeː (en)ʃwˈɑː(de) ˈɛn]
+ɡˈɛlt | [ɡˈeː (en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛl tˈeː]
+ɡˈɛltənt | [ɡˈeː (en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛl tˈeː (en)ʃwˈɑː(de) ˈɛn tˈeː]
+ɡˈɛstɜn | [ɡˈeː (en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛs tˈeː (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de) ˈɛn]
+ɡˈɛɾnə | [ɡˈeː (en)stɹˈɛs ˌəʊpənˈɛː ˈɑːtap(de) ˈɛn (en)ʃwˈɑː(de)]
+ɡˌeːɡən | [ɡˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈeː (en)lˈɛŋθənd(de) ɡˈeː (en)ʃwˈɑː(de) ˈɛn]
+ɡˌeːɡənˈyːbɜ | [ɡˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈeː (en)lˈɛŋθənd(de) ɡˈeː (en)ʃwˈɑː(de) ˈɛn (en)stɹˈɛs(de) ˈʏpsɪlˌɔn (en)lˈɛŋθənd(de) bˈeː (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de)]
+ɡˌɛldaʊtoːmˈɑːtən | [ɡˈeː (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː(de) ˈɛl dˈeː ˈɑː (en)ˈʊpsɪlˌɒn(de) tˈeː ˈoː (en)lˈɛŋθənd(de) ˈɛm (en)stɹˈɛs ˈalfə lˈɛŋθənd(de) tˈeː (en)ʃwˈɑː(de) ˈɛn]
+ɪm | [(en)smˌɔːlkˌapˌaɪ(de)ˈɛm]
+ɪn | [(en)smˌɔːlkˌapˌaɪ(de)ˈɛn]
+ɪst | [(en)smˌɔːlkˌapˌaɪ(de)ˌɛstˈeː]
+ɪç | [(en)smˌɔːlkˌapˌaɪ(de)sˌeːseːdˈiːj]
+ʃlˈɛçt | [(en)ˈɛʃ(de) ˈɛl (en)stɹˈɛs ˌəʊpənˈɛː(de) sˌeːseːdˈiːj tˈeː]
+ʃlˈʏsəl | [(en)ˌɛʃ(de)ˌɛl(en)stɹˈɛssmˌɔːlkˌapwˈaɪ(de)zˈeːl]
+ʃprˈɛçə | [(en)ˈɛʃ(de) pˈeː ˈɛɾ (en)stɹˈɛs ˌəʊpənˈɛː(de) sˌeːseːdˈiːj (en)ʃwˈɑː(de)]
+ʃprˈɛçən | [(en)ˈɛʃ(de) pˈeː ˈɛɾ (en)stɹˈɛs ˌəʊpənˈɛː(de) sˌeːseːdˈiːj (en)ʃwˈɑː(de) ˈɛn]
+ʃpˈaɪzeːkˌaɾtə | [(en)ˈɛʃ(de) pˈeː (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) tsˈɛt ˈeː (en)lˈɛŋθənd(de) kˈɑː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)ˈɑːtap(de) tˈeː (en)ʃwˈɑː(de)]
+ʃpˈɛrən | [(en)ˈɛʃ(de) pˈeː (en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛɾ (en)ʃwˈɑː(de) ˈɛn]
+ʃpˈɛːt | [(en)ˈɛʃ(de) pˈeː (en)stɹˈɛs ˌəʊpənˈɛː lˈɛŋθənd(de) tˈeː]
+ʃpˈɛːtɜ | [(en)ˈɛʃ(de) pˈeː (en)stɹˈɛs ˌəʊpənˈɛː lˈɛŋθənd(de) tˈeː (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de)]
+ʃtɔɾnˈiːrən | [(en)ˈɛʃ(de) tˈeː (en)ˌəʊpənˈɔː ˈɑːtap(de) ˈɛn (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd(de) ˈɛɾ (en)ʃwˈɑː(de) ˈɛn]
+ʃtɔɾnˈiːɾt | [(en)ˈɛʃ(de) tˈeː (en)ˌəʊpənˈɔː ˈɑːtap(de) ˈɛn (en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd ˈɑːtap(de) tˈeː]
+ʃtˈɔɾnoːɡˌeːbyːrən | [(en)ˈɛʃ(de) tˈeː (en)stɹˈɛs ˌəʊpənˈɔː ˈɑːtap(de) ˈɛn ˈoː (en)lˈɛŋθənd(de) ɡˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈeː (en)lˈɛŋθənd(de) bˈeː ˈʏpsɪlˌɔn (en)lˈɛŋθənd(de) ˈɛɾ (en)ʃwˈɑː(de) ˈɛn]
+ʃˈoːn | [(en)ˈɛʃ stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛn]
+ʃˈøːnən | [(en)ˈɛʃ stɹˈɛs(de) ˈœ (en)lˈɛŋθənd(de) ˈɛn (en)ʃwˈɑː(de) ˈɛn]
+ʃˈɑːdə | [(en)ˈɛʃ stɹˈɛs ˈalfə lˈɛŋθənd(de) dˈeː (en)ʃwˈɑː(de)]
+ʊm | [(en)ˌʊpsɪlˌɒn(de)ˈɛm]
+ʊmzoː | [(en)ˈʊpsɪlˌɒn(de) ˈɛm tsˈɛt ˈoː (en)lˈɛŋθənd(de)]
+ʊnt | [(en)ˌʊpsɪlˌɒn(de)ˌɛntˈeː]
+ˈadrɛsə | [(en)stɹˈɛs(de) ˈɑː dˈeː ˈɛɾ (en)ˌəʊpənˈɛː(de) ˈɛs (en)ʃwˈɑː(de)]
+ˈaləs | [(en)stɹˈɛs(de) ˈɑː ˈɛl (en)ʃwˈɑː(de) ˈɛs]
+ˈalɜɡˌɪʃ | [(en)stɹˈɛs(de) ˈɑː ˈɛl (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de) ɡˈeː (en)sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ ˈɛʃ(de)]
+ˈandərə | [(en)stɹˈɛs(de) ˈɑː ˈɛn dˈeː (en)ʃwˈɑː(de) ˈɛɾ (en)ʃwˈɑː(de)]
+ˈanfˌaŋən | [(en)stɹˈɛs(de) ˈɑː ˈɛn ˈɛf (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː ˈɛn (en)ʃwˈɑː(de) ˈɛn]
+ˈanproːbˌiːrən | [(en)stɹˈɛs(de) ˈɑː ˈɛn pˈeː ˈɛɾ ˈoː (en)lˈɛŋθənd(de) bˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈiː (en)lˈɛŋθənd(de) ˈɛɾ (en)ʃwˈɑː(de) ˈɛn]
+ˈanɡəbˌoːt | [(en)stɹˈɛs(de) ˈɑː ˈɛn ɡˈeː (en)ʃwˈɑː(de) bˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈoː (en)lˈɛŋθənd(de) tˈeː]
+ˈanɡəbˌoːtənə | [(en)stɹˈɛs(de) ˈɑː ˈɛn ɡˈeː (en)ʃwˈɑː(de) bˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈoː (en)lˈɛŋθənd(de) tˈeː (en)ʃwˈɑː(de) ˈɛn (en)ʃwˈɑː(de)]
+ˈanʃprˌʊx | [(en)stɹˈɛs(de) ˈɑː ˈɛn (en)ˈɛʃ(de) pˈeː ˈɛɾ (en)sˈɛkəndɹɪstɹˌɛs ˈʊpsɪlˌɒn(de) ˈɪks]
+ˈap | [(en)stɹˈɛs(de) ˈɑː pˈeː]
+ˈapfrˌɑːɡən | [(en)stɹˈɛs(de) ˈɑː pˈeː ˈɛf ˈɛɾ (en)sˈɛkəndɹɪstɹˌɛs ˈalfə lˈɛŋθənd(de) ɡˈeː (en)ʃwˈɑː(de) ˈɛn]
+ˈaphˌeːbʊŋsɡəbˌyːrən | [(en)stɹˈɛs(de) ˈɑː pˈeː hˈɑː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈeː (en)lˈɛŋθənd(de) bˈeː (en)ˈʊpsɪlˌɒn(de) ˈɛn ˈɛs ɡˈeː (en)ʃwˈɑː(de) bˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈʏpsɪlˌɔn (en)lˈɛŋθənd(de) ˈɛɾ (en)ʃwˈɑː(de) ˈɛn]
+ˈapɡədˌɛkt | [(en)stɹˈɛs(de) ˈɑː pˈeː ɡˈeː (en)ʃwˈɑː(de) dˈeː (en)sˈɛkəndɹɪstɹˌɛs ˌəʊpənˈɛː(de) kˈɑː tˈeː]
+ˈapʃlˌiːsən | [(en)stɹˈɛs(de) ˈɑː pˈeː (en)ˈɛʃ(de) ˈɛl (en)sˈɛkəndɹɪstɹˌɛs(de) ˈiː (en)lˈɛŋθənd(de) ˈɛs (en)ʃwˈɑː(de) ˈɛn]
+ˈaxtʊŋ | [(en)stɹˈɛs(de) ˈɑː ˈɪks tˈeː (en)ˈʊpsɪlˌɒn(de) ˈɛn]
+ˈaɪnfɛɾʃtˌandən | [(en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn ˈɛf (en)ˌəʊpənˈɛː ˈɑːtap ˈɛʃ(de) tˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː ˈɛn dˈeː (en)ʃwˈɑː(de) ˈɛn]
+ˈaɪnfˌaxə | [(en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn ˈɛf (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː ˈɪks (en)ʃwˈɑː(de)]
+ˈaɪnrˌaɪçən | [(en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn ˈɛɾ (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) sˌeːseːdˈiːj (en)ʃwˈɑː(de) ˈɛn]
+ˈaɪnɡətsˌoːɡən | [(en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn ɡˈeː (en)ʃwˈɑː(de) tˈeː ˈɛs (en)sˈɛkəndɹɪstɹˌɛs(de) ˈoː (en)lˈɛŋθənd(de) ɡˈeː (en)ʃwˈɑː(de) ˈɛn]
+ˈaɾbaɪt | [(en)stɹˈɛs(de) ˈɑː (en)ˈɑːtap(de) bˈeː ˈɑː (en)smˈɔːlkˌapˈaɪ(de) tˈeː]
+ˈaɾtst | [(en)stɹˈɛs(de) ˈɑː (en)ˈɑːtap(de) tˈeː ˈɛs tˈeː]
+ˈaʊfʃtˌiːksmœklˌɪçkaɪtən | [(en)stɹˈɛs(de) ˈɑː (en)ˈʊpsɪlˌɒn(de) ˈɛf (en)ˈɛʃ(de) tˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈiː (en)lˈɛŋθənd(de) kˈɑː ˈɛs ˈɛm lˈiːɡatˌuːɜoːˈeː kˈɑː ˈɛl (en)sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(de) sˌeːseːdˈiːj kˈɑː ˈɑː (en)smˈɔːlkˌapˈaɪ(de) tˈeː (en)ʃwˈɑː(de) ˈɛn]
+ˈaʊs | [(en)stɹˈɛs(de) ˈɑː (en)ˈʊpsɪlˌɒn(de) ˈɛs]
+ˈaʊsvˌaɪs | [(en)stɹˈɛs(de) ˈɑː (en)ˈʊpsɪlˌɒn(de) ˈɛs fˈaʊ (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛs]
+ˈeː | [(en)stɹˈɛs(de) ˈeː (en)lˈɛŋθənd(de)]
+ˈiːnən | [(en)stɹˈɛs(de) ˈiː (en)lˈɛŋθənd(de) ˈɛn (en)ʃwˈɑː(de) ˈɛn]
+ˈoːnə | [(en)stɹˈɛs(de) ˈoː (en)lˈɛŋθənd(de) ˈɛn (en)ʃwˈɑː(de)]
+ˈuːɾ | [(en)stɹˈɛs(de) ˈuː (en)lˈɛŋθənd ˈɑːtap(de)]
+ˈœfəntlɪçə | [(en)stɹˈɛs(de) lˈiːɡatˌuːɜoːˈeː ˈɛf (en)ʃwˈɑː(de) ˈɛn tˈeː ˈɛl (en)smˈɔːlkˌapˈaɪ(de) sˌeːseːdˈiːj (en)ʃwˈɑː(de)]
+ˈɑpɔthˌeːkə | [(en)stɹˈɛs ˈalfə(de) pˈeː (en)ˌəʊpənˈɔː(de) tˈeː hˈɑː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈeː (en)lˈɛŋθənd(de) kˈɑː (en)ʃwˈɑː(de)]
+ˈɑːbənt | [(en)stɹˈɛs ˈalfə lˈɛŋθənd(de) bˈeː (en)ʃwˈɑː(de) ˈɛn tˈeː]
+ˈɛs | [(en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛs]
+ˈɛŋlɛndərˌɪn | [(en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛn ˈɛl (en)ˌəʊpənˈɛː(de) ˈɛn dˈeː (en)ʃwˈɑː(de) ˈɛɾ (en)sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(de) ˈɛn]
+ˈɛŋlɛndɜ | [(en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛn ˈɛl (en)ˌəʊpənˈɛː(de) ˈɛn dˈeː (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de)]
+ˈɛŋlɪʃ | [(en)stɹˈɛs ˌəʊpənˈɛː(de) ˈɛn ˈɛl (en)smˈɔːlkˌapˈaɪ ˈɛʃ(de)]
+ˈɪmɜ | [(en)stɹˌɛssmˌɔːlkˌapˈaɪ(de)mˈeː]
+ˈɪnbɛɡrˌɪfən | [(en)stɹˈɛs smˈɔːlkˌapˈaɪ(de) ˈɛn bˈeː (en)ˌəʊpənˈɛː(de) ɡˈeː ˈɛɾ (en)sˈɛkəndɹɪstɹˌɛs smˈɔːlkˌapˈaɪ(de) ˈɛf (en)ʃwˈɑː(de) ˈɛn]
+ˈʊmʃtˌaɪɡən | [(en)stɹˈɛs ˈʊpsɪlˌɒn(de) ˈɛm (en)ˈɛʃ(de) tˈeː (en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ɡˈeː (en)ʃwˈɑː(de) ˈɛn]
+ˈʊɐzaxə | [(en)stɹˈɛs ˈʊpsɪlˌɒn tˈɜːndˈeɪ(de) tsˈɛt ˈɑː ˈɪks (en)ʃwˈɑː(de)]
+ˌapeːtˈɪt | [(en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː pˈeː ˈeː (en)lˈɛŋθənd(de) tˈeː (en)stɹˈɛs smˈɔːlkˌapˈaɪ(de) tˈeː]
+ˌaɪnə | [(en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn (en)ʃwˈɑː(de)]
+ˌaɪnən | [(en)sˈɛkəndɹɪstɹˌɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) ˈɛn (en)ʃwˈɑː(de) ˈɛn]
+ˌiːrə | [(en)sˈɛkəndɹɪstɹˌɛs(de) ˈiː (en)lˈɛŋθənd(de) ˈɛɾ (en)ʃwˈɑː(de)]
+ˌoːdɜ | [(en)sˈɛkəndɹɪstɹˌɛs(de) ˈoː (en)lˈɛŋθənd(de) dˈeː (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de)]
+ˌyːbɜprˈyːfən | [(en)sˈɛkəndɹɪstɹˌɛs(de) ˈʏpsɪlˌɔn (en)lˈɛŋθənd(de) bˈeː (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de) pˈeː ˈɛɾ (en)stɹˈɛs(de) ˈʏpsɪlˌɔn (en)lˈɛŋθənd(de) ˈɛf (en)ʃwˈɑː(de) ˈɛn]
+ˌyːbɜvˈaɪzən | [(en)sˈɛkəndɹɪstɹˌɛs(de) ˈʏpsɪlˌɔn (en)lˈɛŋθənd(de) bˈeː (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de) fˈaʊ (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) tsˈɛt (en)ʃwˈɑː(de) ˈɛn]
+ˌyːbɜvˈaɪzʊŋ | [(en)sˈɛkəndɹɪstɹˌɛs(de) ˈʏpsɪlˌɔn (en)lˈɛŋθənd(de) bˈeː (en)ɹɪvˈɜːsdˈəʊpənˈɛː(de) fˈaʊ (en)stɹˈɛs(de) ˈɑː (en)smˈɔːlkˌapˈaɪ(de) tsˈɛt (en)ˈʊpsɪlˌɒn(de) ˈɛn]

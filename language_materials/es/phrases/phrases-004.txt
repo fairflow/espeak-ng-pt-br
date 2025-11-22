@@ -1,50 +1,53 @@
-Estoy perdido
-Estoy perdida
-¿Puede indicarme el camino?
-Estoy buscando la estación de tren
-¿Dónde está la parada de autobús?
-Un billete para París, por favor
-¿Ida o ida y vuelta?
-¿A qué hora sale el tren?
-El tren está retrasado
-¿Es directo?
-¿Dónde tengo que hacer transbordo?
-¿Tiene alguna habitación disponible?
-¿Para cuántas noches?
-¿Cuál es el precio por noche?
-¿El desayuno está incluido?
-¿A qué hora es el desayuno?
-¿Puede despertarme a las siete?
-La llave no funciona
-No hay agua caliente
-El aire acondicionado no funciona
-Una mesa para dos personas
-¿Tiene un menú en inglés?
-¿Qué recomienda?
-Soy vegetariano
-Soy vegetariana
-Soy alérgico a los cacahuetes
-Sin gluten, por favor
-La cuenta, por favor
-¿El servicio está incluido?
-¿Puedo pagar con tarjeta?
-Quédese con el cambio
-¿Dónde puedo comprar...?
-¿Puedo probarlo?
-¿Tiene una talla más grande?
-¿Tiene otro color?
-¿Está en oferta?
-¿Aceptan tarjetas de crédito?
-¿Puede envolverlo para regalo?
-Necesito un médico
-¿Dónde está la farmacia más cercana?
-Tengo dolor de cabeza
-Tengo dolor de estómago
-Tengo fiebre
-Estoy tosiendo mucho
-Me siento mal
-Necesito una receta médica
-¿Dónde está la comisaría?
-Me han robado la bolsa
-He perdido mi pasaporte
-¿Puede llamar a la policía?
+Estoy perdido | I'm lost (m) | [estˈoɪ pɛɾðˈiðo]
+Estoy perdida | I'm lost (f) | [estˈoɪ pɛɾðˈiða]
+¿Puede indicarme el camino? | Can you show me the way? | [pwˈeðe ˌindikˈaɾme el kamˈino]
+Estoy buscando la estación de tren | I'm looking for the train station | [estˈoɪ βuskˈando la ˌestaθjˈɔn de tɾˈɛn]
+¿Dónde está la parada de autobús? | Where is the bus stop? | [dˈɔnde estˈa la paɾˈaða ðe ˌaʊtoβˈus]
+Un billete para París, por favor | A ticket to Paris, please | [ˈum biʎˈete pˌaɾa paɾˈis
+ pɔɾ faβˈɔɾ]
+¿Ida o ida y vuelta? | One-way or round-trip? | [ˈiða o ˈiða i βwˈelta]
+¿A qué hora sale el tren? | What time does the train leave? | [a kˈɛ ˈɔɾa sˈale el tɾˈɛn]
+El tren está retrasado | The train is late | [el tɾˈɛn estˈa rˌetɾasˈaðo]
+¿Es directo? | Is it direct? | [ˈes ðiɾˈɛkto]
+¿Dónde tengo que cambiar? | Where do I need to change? | [dˈɔnde tˈɛŋɡo ke kambjˈaɾ]
+¿Tiene alguna habitación disponible? | Do you have a room available? | [tjˈene alɣˈuna ˌaβitaθjˈɔn dˌisponˈiβle]
+¿Para cuántas noches? | For how many nights? | [pˌaɾa kwˈantas nˈotʃes]
+¿Cuál es el precio por noche? | What is the price per night? | [kwˈal ˈes el pɾˈeθjo pɔɾ nˈotʃe]
+¿El desayuno está incluido? | Is breakfast included? | [el ðˌesajjˈuno estˈa ˌinkluˈiðo]
+¿A qué hora es el desayuno? | What time is breakfast? | [a kˈɛ ˈɔɾa ˈes el ðˌesajjˈuno]
+¿Puede despertarme a las siete? | Can you wake me at seven o'clock? | [pwˈeðe ðˌespɛɾtˈaɾme a las sjˈete]
+La llave no funciona | The key doesn't work | [la ʎˈaβe nˈo funθjˈona]
+No hay agua caliente | There's no hot water | [nˈo ˈaɪ ˈaɣwa kaljˈɛnte]
+El aire acondicionado no funciona | The air conditioning doesn't work | [el ˈaɪɾɛ ˌakɔndˌiθjonˈaðo nˈo funθjˈona]
+Una mesa para dos personas | A table for two people | [ˈuna mˈesa pˌaɾa ðˈos pɛɾsˈonas]
+¿Tiene un menú en inglés? | Do you have a menu in English? | [tjˈene ˈun menˈu ɛn iŋɡlˈɛs]
+¿Qué recomienda? | What do you recommend? | [kˈɛ rˌekomjˈɛnda]
+Soy vegetariano | I'm vegetarian (m) | [sˈoɪ βˌexetaɾjˈano]
+Soy vegetariana | I'm vegetarian (f) | [sˈoɪ βˌexetaɾjˈana]
+Soy alérgico a los cacahuetes | I'm allergic to peanuts | [sˈoɪ alˈɛɾxiko a los kˌakawˈetes]
+Sin gluten, por favor | Gluten-free, please | [siŋ ɡlˈutɛn
+ pɔɾ faβˈɔɾ]
+La cuenta, por favor | The bill, please | [la kwˈɛnta
+ pɔɾ faβˈɔɾ]
+¿Está incluido el servicio? | Is service included? | [estˈa ˌinkluˈiðo el sɛɾβˈiθjo]
+¿Puedo pagar con tarjeta? | Can I pay by card? | [pwˈeðo paɣˈaɾ kɔn taɾxˈeta]
+Quédese con el cambio | Keep the change | [kˈɛðese kɔn el kˈambjo]
+¿Dónde puedo comprar...? | Where can I buy...? | [dˈɔnde pwˈeðo kɔmpɾˈaɾ]
+¿Puedo probarlo? | Can I try it on? | [pwˈeðo pɾoβˈaɾlo]
+¿Tiene una talla más grande? | Do you have a larger size? | [tjˈene ˈuna tˈaʎa mˈas ɣɾˈande]
+¿Tiene otro color? | Do you have another color? | [tjˈene ˈɔtɾo kolˈɔɾ]
+¿Está en oferta? | Is it on sale? | [estˈa ɛn ofˈɛɾta]
+¿Aceptan tarjetas de crédito? | Do you accept credit cards? | [aθˈepːtan taɾxˈetas ðe kɾˈɛðito]
+¿Puede envolverlo para regalo? | Can you gift-wrap it? | [pwˈeðe ˌɛmbɔlβˈɛɾlo pˌaɾa reɣˈalo]
+Necesito un médico | I need a doctor | [nˌeθesˈito ˈun mˈɛðiko]
+¿Dónde está la farmacia más cercana? | Where is the nearest pharmacy? | [dˈɔnde estˈa la faɾmˈaθja mˈas θɛɾkˈana]
+Me duele la cabeza | I have a headache | [me dwˈele la kaβˈeθa]
+Me duele el estómago | I have a stomachache | [me dwˈele el estˈɔmaɣo]
+Tengo fiebre | I have a fever | [tˈɛŋɡo fjˈeβɾe]
+Estoy tosiendo mucho | I'm coughing a lot | [estˈoɪ tosjˈɛndo mˈutʃo]
+Me siento mal | I feel sick | [me sjˈɛnto mˈal]
+Necesito una receta médica | I need a prescription | [nˌeθesˈito ˈuna reθˈeta mˈɛðika]
+¿Dónde está la comisaría? | Where is the police station? | [dˈɔnde estˈa la kˌomisaɾˈia]
+Me han robado el bolso | My bag was stolen | [me ˈan roβˈaðo el βˈɔlso]
+He perdido mi pasaporte | I lost my passport | [ˈe pɛɾðˈiðo mi pˌasapˈɔɾte]
+¿Puede llamar a la policía? | Can you call the police? | [pwˈeðe ʎamˈaɾ a la pˌoliθˈia]

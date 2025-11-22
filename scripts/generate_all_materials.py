@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 """
-Generate phrase files and comprehensive dictionaries for all languages.
-- Translates French phrase files to target languages
-- Creates sorted dictionary from all story and phrase content
+Complete materials generation for all 6 languages.
+Generates phrases (with IPA) and dictionaries (with translations and IPA) for all languages.
 """
 
 import os
@@ -15,12 +14,12 @@ from openai import OpenAI
 import re
 
 LANGUAGE_CONFIGS = {
-    'es': {'name': 'Spanish', 'native': 'Español', 'espeak_voice': 'es'},
-    'de': {'name': 'German', 'native': 'Deutsch', 'espeak_voice': 'de'},
-    'nl': {'name': 'Dutch', 'native': 'Nederlands', 'espeak_voice': 'nl'},
-    'it': {'name': 'Italian', 'native': 'Italiano', 'espeak_voice': 'it'},
-    'pt': {'name': 'Portuguese', 'native': 'Português', 'espeak_voice': 'pt'},
-    'fr': {'name': 'French', 'native': 'Français', 'espeak_voice': 'fr'}
+    'fr': {'name': 'French', 'native': 'Français', 'espeak_voice': 'fr', 'source': True},
+    'pt': {'name': 'Portuguese', 'native': 'Português', 'espeak_voice': 'pt-br', 'source': True},
+    'es': {'name': 'Spanish', 'native': 'Español', 'espeak_voice': 'es', 'source': False},
+    'de': {'name': 'German', 'native': 'Deutsch', 'espeak_voice': 'de', 'source': False},
+    'nl': {'name': 'Dutch', 'native': 'Nederlands', 'espeak_voice': 'nl', 'source': False},
+    'it': {'name': 'Italian', 'native': 'Italiano', 'espeak_voice': 'it', 'source': False}
 }
 
 def get_ipa_with_espeak(text: str, lang_code: str) -> str:
@@ -38,11 +37,11 @@ def get_ipa_with_espeak(text: str, lang_code: str) -> str:
             return f"[{ipa}]" if ipa else ""
         return ""
     except Exception as e:
-        print(f"      ⚠️  IPA generation error: {e}")
         return ""
 
+
 def translate_phrases(client: OpenAI, lang_code: str, fr_phrases_dir: Path, output_dir: Path):
-    """Translate French phrase files to target language."""
+    """Translate French phrase files to target language with IPA."""
     
     config = LANGUAGE_CONFIGS[lang_code]
     fr_files = sorted(fr_phrases_dir.glob('phrases-*.txt'))
@@ -53,7 +52,7 @@ def translate_phrases(client: OpenAI, lang_code: str, fr_phrases_dir: Path, outp
     
     output_dir.mkdir(parents=True, exist_ok=True)
     
-    print(f"\n📝 Translating {len(fr_files)} phrase files to {config['name']}...")
+    print(f"\n📝 Translating phrase files to {config['name']}...")
     
     for fr_file in fr_files:
         output_file = output_dir / fr_file.name
@@ -66,7 +65,7 @@ def translate_phrases(client: OpenAI, lang_code: str, fr_phrases_dir: Path, outp
         with open(fr_file, 'r', encoding='utf-8') as f:
             fr_content = f.read()
         
-        # Check if file has actual content (not just comments/blank lines)
+        # Check if file has actual content
         actual_lines = [line for line in fr_content.split('\n') 
                        if line.strip() and not line.strip().startswith('#')]
         if not actual_lines:
@@ -112,12 +111,11 @@ Return ONLY the translated phrases in format: {config['name']} | English"""
             translated = response.choices[0].message.content.strip()
             
             # Add IPA to each line
-            print(f"      → Generating IPA with espeak...")
+            print(f"      → Generating IPA...")
             lines_with_ipa = []
             for line in translated.split('\n'):
                 line = line.strip()
                 if line and not line.startswith('#'):
-                    # Parse the phrase
                     parts = line.split('|')
                     if len(parts) >= 2:
                         target_phrase = parts[0].strip()
@@ -136,18 +134,58 @@ Return ONLY the translated phrases in format: {config['name']} | English"""
             with open(output_file, 'w', encoding='utf-8') as f:
                 f.write('\n'.join(lines_with_ipa))
             
-            print(f"      ✓ {fr_file.name} translated with IPA")
+            print(f"      ✓ {fr_file.name} complete")
             
         except Exception as e:
             print(f"      ❌ Error: {e}")
             continue
 
 
+def add_ipa_to_existing_phrases(lang_code: str, phrases_dir: Path):
+    """Add IPA to existing phrase files that may be missing it."""
+    
+    config = LANGUAGE_CONFIGS[lang_code]
+    phrase_files = sorted(phrases_dir.glob('phrases-*.txt'))
+    
+    if not phrase_files:
+        return
+    
+    print(f"\n📝 Checking IPA in {config['name']} phrase files...")
+    
+    for phrase_file in phrase_files:
+        needs_update = False
+        updated_lines = []
+        
+        with open(phrase_file, 'r', encoding='utf-8') as f:
+            for line in f:
+                line = line.rstrip('\n')
+                if line.strip() and not line.startswith('#'):
+                    parts = line.split('|')
+                    if len(parts) == 2:
+                        # Missing IPA
+                        needs_update = True
+                        target_phrase = parts[0].strip()
+                        english = parts[1].strip()
+                        ipa = get_ipa_with_espeak(target_phrase, lang_code)
+                        if ipa:
+                            updated_lines.append(f"{target_phrase} | {english} | {ipa}")
+                        else:
+                            updated_lines.append(line)
+                    else:
+                        updated_lines.append(line)
+                else:
+                    updated_lines.append(line)
+        
+        if needs_update:
+            print(f"   → Adding IPA to {phrase_file.name}...")
+            with open(phrase_file, 'w', encoding='utf-8') as f:
+                f.write('\n'.join(updated_lines))
+            print(f"      ✓ {phrase_file.name} updated")
+
+
 def extract_words_from_text(text: str) -> set:
     """Extract unique words from text, removing punctuation and numbers."""
-    # Remove punctuation and split into words
     words = re.findall(r'\b[\w\'-]+\b', text.lower())
-    # Filter short words and pure numbers
     return set(w for w in words if len(w) > 1 and not w.isdigit())
 
 
@@ -176,7 +214,6 @@ Return ONLY the English translations, one per line."""
         )
         
         translations = response.choices[0].message.content.strip().split('\n')
-        # Map words to translations
         word_map = {}
         for i, word in enumerate(words):
             if i < len(translations):
@@ -189,47 +226,35 @@ Return ONLY the English translations, one per line."""
         return {word: "" for word in words}
 
 
-def generate_dictionary(lang_code: str, materials_dir: Path, client: OpenAI = None):
-    """Generate comprehensive dictionary from story and phrases."""
+def generate_dictionary(lang_code: str, materials_dir: Path, client: OpenAI):
+    """Generate comprehensive dictionary with translations and IPA."""
     
     config = LANGUAGE_CONFIGS[lang_code]
     print(f"\n📚 Generating dictionary for {config['name']}...")
     
     all_words = set()
-    word_contexts = defaultdict(list)  # word -> [example sentences]
     
-    # 1. Extract from story.md
+    # Extract from story.md
     story_file = materials_dir / "story.md"
     if story_file.exists():
         with open(story_file, 'r', encoding='utf-8') as f:
-            story_text = f.read()
-        
-        # Extract words
-        story_words = extract_words_from_text(story_text)
+            story_words = extract_words_from_text(f.read())
         all_words.update(story_words)
-        print(f"   → Extracted {len(story_words)} unique words from story.md")
+        print(f"   → Extracted {len(story_words)} words from story.md")
     
-    # 2. Extract from phrase files
+    # Extract from phrase files
     phrases_dir = materials_dir / "phrases"
     if phrases_dir.exists():
         phrase_count = 0
         for phrase_file in phrases_dir.glob('phrases-*.txt'):
             with open(phrase_file, 'r', encoding='utf-8') as f:
                 for line in f:
-                    line = line.strip()
-                    if line and not line.startswith('#'):
-                        phrase_words = extract_words_from_text(line)
-                        all_words.update(phrase_words)
+                    if line.strip() and not line.startswith('#'):
+                        all_words.update(extract_words_from_text(line))
                         phrase_count += 1
-                        
-                        # Store example contexts for some words
-                        for word in phrase_words:
-                            if len(word_contexts[word]) < 3:  # Keep max 3 examples
-                                word_contexts[word].append(line[:80])
-        
         print(f"   → Extracted words from {phrase_count} phrases")
     
-    # 3. Extract from story scenes JSON
+    # Extract from story scenes
     scenes_dir = materials_dir / "story-scenes-json"
     if scenes_dir.exists():
         scene_count = 0
@@ -237,42 +262,37 @@ def generate_dictionary(lang_code: str, materials_dir: Path, client: OpenAI = No
             try:
                 with open(scene_file, 'r', encoding='utf-8') as f:
                     data = json.load(f)
-                
-                # Get phrases for this language
                 if lang_code in data and isinstance(data[lang_code], list):
                     for item in data[lang_code]:
                         text = item.get(lang_code, '')
                         if text:
-                            scene_words = extract_words_from_text(text)
-                            all_words.update(scene_words)
+                            all_words.update(extract_words_from_text(text))
                     scene_count += 1
-            except Exception as e:
-                print(f"      ⚠️  Error reading {scene_file.name}: {e}")
-        
+            except Exception:
+                pass
         print(f"   → Extracted words from {scene_count} story scenes")
     
     # Sort words
     sorted_words = sorted(all_words)
-    
-    output_file = materials_dir / "words" / "dictionary-complete.txt"
-    output_file.parent.mkdir(parents=True, exist_ok=True)
+    print(f"   → Total unique words: {len(sorted_words)}")
     
     # Translate words in batches
-    print(f"   → Translating {len(sorted_words)} words to English...")
+    print(f"   → Translating words to English...")
     word_translations = {}
     batch_size = 50
     
-    if client:
-        for i in range(0, len(sorted_words), batch_size):
-            batch = sorted_words[i:i + batch_size]
-            batch_trans = translate_words_batch(client, batch, lang_code)
-            word_translations.update(batch_trans)
+    for i in range(0, len(sorted_words), batch_size):
+        batch = sorted_words[i:i + batch_size]
+        batch_trans = translate_words_batch(client, batch, lang_code)
+        word_translations.update(batch_trans)
+        if (i + batch_size) % 200 == 0 or i + batch_size >= len(sorted_words):
             print(f"      {min(i + batch_size, len(sorted_words))}/{len(sorted_words)} words translated...")
-    else:
-        print(f"      ⚠️  No API client - skipping translations")
     
-    # Generate IPA and write dictionary
-    print(f"   → Generating IPA for {len(sorted_words)} words...")
+    # Generate IPA
+    print(f"   → Generating IPA...")
+    
+    output_file = materials_dir / "words" / "dictionary-complete.txt"
+    output_file.parent.mkdir(parents=True, exist_ok=True)
     
     with open(output_file, 'w', encoding='utf-8') as f:
         f.write(f"# Complete {config['name']} Dictionary\n")
@@ -293,58 +313,53 @@ def generate_dictionary(lang_code: str, materials_dir: Path, client: OpenAI = No
             else:
                 f.write(f"{word}\n")
             
-            # Progress indicator
             if i % 200 == 0:
                 print(f"      {i}/{len(sorted_words)} IPA generated...")
     
-    print(f"   ✓ Dictionary created: {len(sorted_words)} words")
+    print(f"   ✓ Dictionary complete: {len(sorted_words)} words")
     print(f"   📁 {output_file}")
 
 
 def main():
-    if len(sys.argv) < 2:
-        print("Usage: python generate_phrases_and_dictionary.py <lang_code> [--phrases-only|--dict-only]")
-        print(f"Supported: {', '.join(k for k in LANGUAGE_CONFIGS.keys() if k not in ['fr', 'pt'])}")
-        sys.exit(1)
-    
-    lang_code = sys.argv[1]
-    mode = sys.argv[2] if len(sys.argv) > 2 else 'both'
-    
-    if lang_code not in LANGUAGE_CONFIGS:
-        print(f"❌ Error: Language '{lang_code}' not supported")
-        sys.exit(1)
-    
-    config = LANGUAGE_CONFIGS[lang_code]
     base_dir = Path(__file__).parent.parent
     
-    print(f"\n{'='*60}")
-    print(f"🌍 {config['name']} Materials Generation")
-    print(f"{'='*60}")
+    # Check for API key
+    api_key = os.getenv('OPENAI_API_KEY')
+    if not api_key:
+        print("❌ Error: OPENAI_API_KEY not set")
+        sys.exit(1)
     
-    # Phrases translation (only for new languages)
-    if mode in ['both', '--phrases-only'] and lang_code in ['es', 'de', 'nl', 'it']:
-        api_key = os.getenv('OPENAI_API_KEY')
-        if not api_key:
-            print("❌ Error: OPENAI_API_KEY not set (needed for phrase translation)")
-            if mode == '--phrases-only':
-                sys.exit(1)
-        else:
-            client = OpenAI(api_key=api_key)
-            fr_phrases_dir = base_dir / "language_materials" / "fr" / "phrases"
-            output_dir = base_dir / "language_materials" / lang_code / "phrases"
-            translate_phrases(client, lang_code, fr_phrases_dir, output_dir)
+    client = OpenAI(api_key=api_key)
     
-    # Dictionary generation (all languages)
-    if mode in ['both', '--dict-only']:
-        # Get API client if available
-        api_key = os.getenv('OPENAI_API_KEY')
-        dict_client = OpenAI(api_key=api_key) if api_key else None
+    print("="*60)
+    print("🌍 Complete Materials Generation for All Languages")
+    print("="*60)
+    
+    # Process all languages
+    for lang_code, config in LANGUAGE_CONFIGS.items():
+        print(f"\n{'='*60}")
+        print(f"Processing: {config['name']} ({config['native']})")
+        print(f"{'='*60}")
         
         materials_dir = base_dir / "language_materials" / lang_code
-        generate_dictionary(lang_code, materials_dir, dict_client)
+        
+        # 1. Handle phrases
+        if config['source']:
+            # Source languages (FR, PT) - just add IPA if missing
+            phrases_dir = materials_dir / "phrases"
+            if phrases_dir.exists():
+                add_ipa_to_existing_phrases(lang_code, phrases_dir)
+        else:
+            # Target languages (ES, DE, NL, IT) - translate from French
+            fr_phrases_dir = base_dir / "language_materials" / "fr" / "phrases"
+            output_dir = materials_dir / "phrases"
+            translate_phrases(client, lang_code, fr_phrases_dir, output_dir)
+        
+        # 2. Generate dictionary with translations and IPA
+        generate_dictionary(lang_code, materials_dir, client)
     
     print(f"\n{'='*60}")
-    print(f"✅ {config['name']} Materials Complete!")
+    print("✅ All Materials Complete!")
     print(f"{'='*60}\n")
 
 

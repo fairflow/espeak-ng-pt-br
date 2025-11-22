@@ -8,13 +8,13 @@ This guide is for developers who want to contribute to, modify, or understand th
 
 ## 📋 Table of Contents
 
-- [Project Overview](#project-overview)
+- [Project Overview](#-project-overview)
 - [Getting Started](#getting-started)
 - [Architecture](#architecture)
-- [Development Workflow](#development-workflow)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Contributing](#contributing)
+- [Development Workflow](#-development-workflow)
+- [Testing](#-testing)
+- [Deployment](#-deployment)
+- [Contributing](#-contributing)
 
 ---
 
