@@ -1860,8 +1860,7 @@ def main():
                 key="material_language_selector"
             )
             
-            # Auto-sync Training Language to match Materials Language
-            # Map material language codes to LANGUAGE_CONFIG keys
+            # Map material language codes to LANGUAGE_CONFIG keys for training
             material_to_training = {
                 'de': 'German',
                 'es': 'Spanish',
@@ -1871,24 +1870,25 @@ def main():
                 'pt': 'Portuguese'
             }
             
-            # Only auto-sync if material language changed (not manual training language change)
+            # Set training language directly from material language (simple and clean)
+            if st.session_state.material_language in material_to_training:
+                training_language = material_to_training[st.session_state.material_language]
+            else:
+                training_language = 'French'  # Fallback
+            
+            # Update session_state.language for compatibility with existing code
             if previous_material_language != st.session_state.material_language:
-                if st.session_state.material_language in material_to_training:
-                    new_training_lang = material_to_training[st.session_state.material_language]
-                    if new_training_lang in LANGUAGE_CONFIG:
-                        # Mark that we're doing auto-sync to prevent Training Language dropdown from interfering
-                        st.session_state._auto_syncing = True
-                        st.session_state.language = new_training_lang
-                        # Ensure session exists for new language
-                        if new_training_lang not in st.session_state.current_sessions:
-                            st.session_state.current_sessions[new_training_lang] = {
-                                "date": datetime.now().isoformat(),
-                                "practices": []
-                            }
-                        # Rerun to update banner and Training Language dropdown
-                        st.rerun()
+                st.session_state.language = training_language
+                # Ensure session exists for new language
+                if training_language not in st.session_state.current_sessions:
+                    st.session_state.current_sessions[training_language] = {
+                        "date": datetime.now().isoformat(),
+                        "practices": []
+                    }
+                # Rerun to update banner
+                st.rerun()
         
-        # Get current language config
+        # Get current language config from the derived training language
         lang_config = LANGUAGE_CONFIG[st.session_state.language]
         
         # TTS Engine selection
@@ -2059,39 +2059,19 @@ def main():
         - Discord: [Coming soon]
         """)
         
-        # Fun section - hidden advanced features
+        # Fun section - hidden advanced features (currently disabled)
         st.markdown("---")
         st.header("🎉 Fun")
         
         st.markdown("**Mix up the spoken language**")
+        st.info("🚧 Feature temporarily disabled - Training language automatically matches material language for now.")
         
-        # Clear auto-sync flag after rerun
-        if st.session_state.get('_auto_syncing', False):
-            st.session_state._auto_syncing = False
+        # Display current training language (read-only)
+        st.text(f"Current training language: {st.session_state.language}")
         
-        # Reorder LANGUAGE_CONFIG to match material language order (de, es, fr, it, nl, pt)
-        training_lang_order = ['German', 'Spanish', 'French', 'Italian', 'Dutch', 'Portuguese']
-        
-        # Use the selectbox return value but don't immediately assign to session_state
-        # This prevents overwriting the auto-sync value
-        training_lang_selected = st.selectbox(
-            "Training Language",
-            training_lang_order,
-            index=training_lang_order.index(st.session_state.language) if st.session_state.language in training_lang_order else 0,
-            help="Change which language speaks the current material (for fun experimentation!)",
-            key="training_language_selector"
-        )
-        
-        # Only update if user manually changed it (different from current session state) and not during auto-sync
-        if training_lang_selected != st.session_state.language and not st.session_state.get('_auto_syncing', False):
-            st.session_state.language = training_lang_selected
-            # Ensure session exists for new language
-            if training_lang_selected not in st.session_state.current_sessions:
-                st.session_state.current_sessions[training_lang_selected] = {
-                    "date": datetime.now().isoformat(),
-                    "practices": []
-                }
-            st.rerun()
+        # TODO: Re-enable training language override after fixing widget state synchronization issues
+        # The challenge is that Streamlit widgets maintain their own state that can conflict
+        # with programmatic session_state updates during auto-sync
         
         # CCS Testing Framework Controls
         if CCS_AVAILABLE:
