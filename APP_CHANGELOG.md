@@ -6,6 +6,21 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2.0.5] - 2025-11-22
+
+### Added
+
+- **Fun Section**: New "Fun" section in sidebar with experimental features
+- **Mix Up Languages**: Hidden feature to speak one language's materials in a different language's voice (easter egg)
+
+### Changed
+
+- **Language Selection**: Simplified main language selector - now just "Language" (previously "Materials Language")
+- **Auto-sync**: Training language automatically syncs with main language selection
+- **Language Order**: Reordered training languages to match materials (German, Spanish, French, Italian, Dutch, Portuguese)
+- **Sidebar Layout**: Improved version display at top, better visual hierarchy
+
+
 ## [2.0.4] - 2025-11-22
 
 ### Changed

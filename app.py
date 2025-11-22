@@ -9,7 +9,7 @@ Run with: streamlit run app.py
 """
 
 # VERSION MARKER - Update this when releasing new version
-__version__ = "2.0.4"
+__version__ = "2.0.5"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -1834,27 +1834,8 @@ def main():
         st.markdown("---")
         st.header("⚙️ Settings")
         
-        # Language selection
-        st.markdown("**🌍 Language**")
-        
-        previous_language = st.session_state.language
-        st.session_state.language = st.selectbox(
-            "Training Language",
-            list(LANGUAGE_CONFIG.keys()),
-            index=list(LANGUAGE_CONFIG.keys()).index(st.session_state.language),
-            help="Select the language you want to practice"
-        )
-        
-        # If language changed, ensure session exists for new language
-        if previous_language != st.session_state.language:
-            if st.session_state.language not in st.session_state.current_sessions:
-                st.session_state.current_sessions[st.session_state.language] = {
-                    "date": datetime.now().isoformat(),
-                    "practices": []
-                }
-        
         # Material Language selection
-        st.markdown("**📚 Materials Language**")
+        st.markdown("**🌍 Language**")
         from app_language_materials import get_available_languages, format_language_name
         
         if 'material_language' not in st.session_state:
@@ -1869,13 +1850,39 @@ def main():
                 current_idx = 0
                 st.session_state.material_language = available_materials[0]
             
+            previous_material_language = st.session_state.material_language
             st.session_state.material_language = st.selectbox(
-                "Material Language",
+                "Language",
                 available_materials,
                 index=current_idx,
                 format_func=format_language_name,
-                help="Language of practice materials and stories to display"
+                help="Language of practice materials and stories to display",
+                key="material_language_selector"
             )
+            
+            # Auto-sync Training Language to match Materials Language
+            # Map material language codes to LANGUAGE_CONFIG keys
+            material_to_training = {
+                'de': 'German',
+                'es': 'Spanish',
+                'fr': 'French',
+                'it': 'Italian',
+                'nl': 'Dutch',
+                'pt': 'Portuguese'
+            }
+            
+            # Only auto-sync if material language changed (not manual training language change)
+            if previous_material_language != st.session_state.material_language:
+                if st.session_state.material_language in material_to_training:
+                    new_training_lang = material_to_training[st.session_state.material_language]
+                    if new_training_lang in LANGUAGE_CONFIG:
+                        st.session_state.language = new_training_lang
+                        # Ensure session exists for new language
+                        if new_training_lang not in st.session_state.current_sessions:
+                            st.session_state.current_sessions[new_training_lang] = {
+                                "date": datetime.now().isoformat(),
+                                "practices": []
+                            }
         
         # Get current language config
         lang_config = LANGUAGE_CONFIG[st.session_state.language]
@@ -2047,6 +2054,32 @@ def main():
         - Email: io@miolingo.io
         - Discord: [Coming soon]
         """)
+        
+        # Fun section - hidden advanced features
+        st.markdown("---")
+        st.header("🎉 Fun")
+        
+        st.markdown("**Mix up the spoken language**")
+        
+        # Reorder LANGUAGE_CONFIG to match material language order (de, es, fr, it, nl, pt)
+        training_lang_order = ['German', 'Spanish', 'French', 'Italian', 'Dutch', 'Portuguese']
+        
+        previous_language = st.session_state.language
+        st.session_state.language = st.selectbox(
+            "Training Language",
+            training_lang_order,
+            index=training_lang_order.index(st.session_state.language) if st.session_state.language in training_lang_order else 0,
+            help="Change which language speaks the current material (for fun experimentation!)",
+            key="training_language_selector"
+        )
+        
+        # If language changed manually, ensure session exists for new language
+        if previous_language != st.session_state.language:
+            if st.session_state.language not in st.session_state.current_sessions:
+                st.session_state.current_sessions[st.session_state.language] = {
+                    "date": datetime.now().isoformat(),
+                    "practices": []
+                }
         
         # CCS Testing Framework Controls
         if CCS_AVAILABLE:
