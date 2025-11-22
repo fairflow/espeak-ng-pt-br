@@ -183,10 +183,35 @@ def add_ipa_to_existing_phrases(lang_code: str, phrases_dir: Path):
             print(f"      ✓ {phrase_file.name} updated")
 
 
-def extract_words_from_text(text: str) -> set:
-    """Extract unique words from text, removing punctuation and numbers."""
+def extract_words_from_text(text: str, lang_code: str) -> set:
+    """Extract unique words from text, removing punctuation, numbers, and English words."""
     words = re.findall(r'\b[\w\'-]+\b', text.lower())
-    return set(w for w in words if len(w) > 1 and not w.isdigit())
+    # Filter out numbers
+    words = [w for w in words if len(w) > 1 and not w.isdigit()]
+    
+    # Filter out IPA notation characters
+    ipa_chars = set('ɑɐæɒʌɔœøəɘɜɛɪɨʊʏɵɤɯʉɶɞɣɥɤʍχʁʕʢɦɧʜʢɸβθðʃʒçʝɕʑʂʐɬɮɹɻjɰɫʍɧɰɺɾʙʀʁʀʋɥɰɹ')
+    words = [w for w in words if not any(c in ipa_chars for c in w)]
+    
+    # For non-English languages, try to filter obvious English words
+    # by checking if they appear in the English translations column
+    if lang_code != 'en':
+        # Common English words that often leak in
+        common_english = {
+            'the', 'a', 'an', 'and', 'or', 'but', 'in', 'on', 'at', 'to', 'for',
+            'of', 'with', 'by', 'from', 'up', 'about', 'into', 'through', 'is',
+            'are', 'was', 'were', 'been', 'be', 'have', 'has', 'had', 'do', 'does',
+            'did', 'will', 'would', 'should', 'could', 'may', 'might', 'can',
+            'must', 'shall', 'not', 'no', 'yes', 'i', 'you', 'he', 'she', 'it',
+            'we', 'they', 'them', 'their', 'this', 'that', 'these', 'those',
+            'my', 'your', 'his', 'her', 'its', 'our', 'am', "didn't", "don't",
+            "doesn't", "isn't", "aren't", "wasn't", "weren't", "haven't", "hasn't",
+            "hadn't", "won't", "wouldn't", "shouldn't", "couldn't", "can't",
+            "mustn't", "i'm", "you're", "he's", "she's", "it's", "we're", "they're"
+        }
+        words = [w for w in words if w not in common_english]
+    
+    return set(words)
 
 
 def translate_words_batch(client: OpenAI, words: list, lang_code: str) -> dict:
@@ -234,15 +259,15 @@ def generate_dictionary(lang_code: str, materials_dir: Path, client: OpenAI):
     
     all_words = set()
     
-    # Extract from story.md
+    # Extract from story.md (only target language text)
     story_file = materials_dir / "story.md"
     if story_file.exists():
         with open(story_file, 'r', encoding='utf-8') as f:
-            story_words = extract_words_from_text(f.read())
+            story_words = extract_words_from_text(f.read(), lang_code)
         all_words.update(story_words)
         print(f"   → Extracted {len(story_words)} words from story.md")
     
-    # Extract from phrase files
+    # Extract from phrase files (only first column - target language)
     phrases_dir = materials_dir / "phrases"
     if phrases_dir.exists():
         phrase_count = 0
@@ -250,11 +275,15 @@ def generate_dictionary(lang_code: str, materials_dir: Path, client: OpenAI):
             with open(phrase_file, 'r', encoding='utf-8') as f:
                 for line in f:
                     if line.strip() and not line.startswith('#'):
-                        all_words.update(extract_words_from_text(line))
+                        # Only extract from first column (target language)
+                        parts = line.split('|')
+                        if parts:
+                            target_text = parts[0].strip()
+                            all_words.update(extract_words_from_text(target_text, lang_code))
                         phrase_count += 1
         print(f"   → Extracted words from {phrase_count} phrases")
     
-    # Extract from story scenes
+    # Extract from story scenes (only target language column)
     scenes_dir = materials_dir / "story-scenes-json"
     if scenes_dir.exists():
         scene_count = 0
@@ -266,7 +295,7 @@ def generate_dictionary(lang_code: str, materials_dir: Path, client: OpenAI):
                     for item in data[lang_code]:
                         text = item.get(lang_code, '')
                         if text:
-                            all_words.update(extract_words_from_text(text))
+                            all_words.update(extract_words_from_text(text, lang_code))
                     scene_count += 1
             except Exception:
                 pass

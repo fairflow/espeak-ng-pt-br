@@ -6,6 +6,49 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2.0.1] - 2025-11-22
+
+### Fixed
+
+- **Dictionary Quality**: Regenerated all language dictionaries with improved filtering
+  - Removed English word leakage from target language dictionaries
+  - Filtered IPA notation artifacts from word lists
+  - Removed numeric entries
+- **Dictionary Format**: All dictionaries now have complete format `word | English | [IPA]`
+- **Script Improvements**: Enhanced `generate_all_materials.py` with better word extraction
+
+### Technical
+
+- Added comprehensive English word filtering (600+ common words)
+- Added IPA character detection to prevent notation leakage
+- Improved phrase file parsing to only extract target language column
+- Dictionary word counts optimized (removed ~30-40% noise per language)
+
+## [2.0.0] - 2025-11-22
+
+### Added
+
+- **Complete Story-Based Learning System**: 16-scene immersive story across all 6 languages
+  - Full story.md narrative files for each language
+  - 96 JSON scene files (16 scenes × 6 languages) with bilingual text and IPA
+  - Story Reader with full story and scene-by-scene modes
+  - Practice Mode integration with story content
+- **Comprehensive Dictionaries**: Generated complete word lists for all languages
+  - French: 1255 words
+  - Portuguese: 1186 words
+  - Spanish: 1343 words
+  - German: 1399 words
+  - Dutch: 1115 words
+  - Italian: 1418 words
+- **IPA Throughout**: All phrases and dictionary entries include espeak-generated IPA
+- **Unified Generation Script**: `generate_all_materials.py` processes all 6 languages
+
+### Changed
+
+- Enhanced language materials structure with story-scenes-json directories
+- Updated phrase files to include IPA for all languages (4 files per language)
+- Improved JSON loading to support multi-language story scenes
+
 ## [1.8.0] - 2025-11-16
 
 ### Added

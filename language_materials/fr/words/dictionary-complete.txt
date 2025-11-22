@@ -1,1879 +1,1260 @@
 # Complete French Dictionary
 # Generated from story and phrases
-# Total words: 1875
+# Format: word | English | [IPA]
+# Total words: 1255
 
-10
-11
-12
-13
-14
-15
-16
-2024
-a-t-elle
-a-t-il
-abandonnée
-abri
-abritées
-absorbe
-accept
-accepte
-acceptez-vous
-account
-accueille
-achats
-acheter
-achevée
-achète
-address
-admirant
-adorons
-adresse
-advancement
-adʁɛs
-agreed
-ahead
-ai-je
-aide
-aider
-aidera
-aidé
-aimez
-ainsi
-air
-ait
-aksɛpte
-ale
-all
-aller
-aller-retour
-allergic
-allergique
-allez-vous
-allons
-allons-nous
-allons-y
-allumer
-allumette
-allumettes
-allumé
-alpes
-alpin
-already
-always
-alɔ
-alɛʁʒik
-am
-amount
-amour
-an
-and
-ane
-anglais
-anglaise
-animal
-animaux
-anivɛʁsɛʁ
-anniversaire
-annonce
-annonce-t-il
-annuler
-annulé
-année
-another
-anyle
-apartment
-apaʁtəmɑ
-apeti
-aple
-apparaît
-appartement
-appeler
-appelle
-appointment
-apporte
-apporté
-appris
-appétit
-après
-arachides
-arbres
-are
-arrange
-arrive
-arrivent
-arrivée
-arrivés
-as
-as-tu
-assise
-assurance
-asyʁɑ
-at
-atm
-attend
-attendant
-attendons
-attendre
-attends
-attention
-attentivement
-atterrit
-atɑ
-au
-au-dessus
-auberge
-augmenter
-aujourd'hui
-aurais
-aurait
-aussi
-authentique
-authorization
-autorisation
-autour
-autre
-aux
-availability
-available
-avait
-avale
-avalée
-avance
-avant
-avançons
-ave
-avec
-avenir
-aventure
-avez
-avez-vous
-avons
-avɛk
-aʁaʃid
-aʃte
-bad
-bag
-bagages
-balance
-bancaire
-bancaires
-bank
-bas
-bavarde
-baɡaʒ
-be
-beau
-beaucoup
-been
-belle
-berger
-besoin
-better
-bien
-bientôt
-bienvenue
-bijɛ
-bill
-billet
-billets
-birthday
-bizarre
-bjɛ
-blanc
-blancheur
-bless
-blesser
-bleu
-bois
-boit
-boivent
-boku
-bon
-bonheur
-bonjour
-bonne
-bonsoir
-bonté
-bordeaux
-bouillir
-boulangerie
-boulangère
-boulot
-bout
-bouteille
-breakfast
-brille
-brouillard
-bruit
-brusquement
-brûle
-bureau
-bus
-buy
-buʁse
-by
-bye
-bys
-byʁo
-bâtiments
-bêle
-bêlement
-bɑ
-bɔ
-bɔn
-bəzwɛ
-bʁ
-c'est
-cabane
-café
-call
-calme
-calmement
-campagne
-can
-canapé
-cancel
-cancellation
-cancelled
-capable
-capables
-capacité
-card
-cards
-careful
-carte
-cartes
-casserole
-caution
-ce
-cela
-cercle
-certaine
-ces
-cette
-ceux
-chacun
-chaleur
-chaleureux
-chambre
-chambres
-chance
-change
-changement
-changer
-changés
-chaque
-charges
-chargés
-charmant
-charme
-chaud
-chaude
-chauds
-check
-cheers
-chef
-chemin
-chemins
-cheminée
-cher
-cherche
-cherchent
-chercher
-chez
-chien
-chocolat
-choisi
-choisir
-choisissent
-choix
-chose
-choses
-christmas
-chute
-chèvre
-chérie
-ci
-ciel
-cinq
-claim
-clair
-claire
-clairière
-climatisation
-clé
-code
-coin
-color
-combien
-come
-comestibles
-coming
-commande
-commandes
-comme
-commence
-commencent
-commencer
-comment
-commerçante
-commissariat
-commun
-complaint
-complètement
-complètes
-comportement
-comprendre
-comprends
-compris
-comprises
-compte
-comptoir
-condition
-conditioning
-confiance
-confirm
-confirmation
-confirmer
-confond
-confondent
-congratulations
-connaissent
-connaissons
-connaît
-conscient
-conseil
-conseille
-constamment
-consulter
-contact
-contacter
-continue
-continuent
-continuer
-continuerons
-continueront
-contraire
-contrôler
-conversation
-corps
-cost
-coughing
-could
-coule
-couleur
-coupable
-courage
-courent
-court
-couvert
-couverture
-covered
-coûte
-coûtent
-coûté
-credit
-criant
-crie
-croisent
-croissant
-cru
-créé
-cueille
-cuire
-curiosité
-côté
-côtés
-d'abord
-d'accord
-d'affronter
-d'aide
-d'angoisse
-d'annulation
-d'arriver
-d'aucune
-d'autre
-d'autres
-d'avant
-d'avoir
-d'eau
-d'elle
-d'elle-même
-d'exister
-d'hier
-d'hivers
-d'ici
-d'identité
-d'importance
-d'inquiétude
-d'un
-d'une
-d'âge
-d'évolution
-d'être
-dakɔʁ
-dans
-danser
-danylasjɔ
-day
-de
-deductible
-dehors
-demain
-demande
-demande-t-elle
-demandons
-demi-heure
-demi-tour
-dense
-deposit
-deposé
-depuis
-dernière
-des
-descend
-descende
-descendent
-descendre
-descends
-deux
-devant
-devenir
-devient
-devons
-devrais-je
-devrait
-devrions
-devu
-devɔlysjɔ
-dez
-deʒa
-deʒøne
-di
-didn't
-didɑ
-dieu
-difficile
-différent
-différents
-dike
-dire
-direct
-direction
-disait
-disent-ils
-disponibilité
-disponible
-dispute
-disputer
-dispɔnibilite
-dispɔnibl
-distributeur
-distʁibytœʁ
-dit
-dit-on
-diʁ
-diʁɛkt
-do
-doctor
-documents
-dodo
-does
-doesn't
-doigt
-dois
-doit
-don't
-donne
-dons
-dont
-dormi
-dormir
-dos
-douce
-doucement
-doutait
-doute
-droit
-droite
-du
-dubois
-dure
-dwa
-dy
-dyn
-dès
-débrouiller
-décide
-décidé
-décision
-découverte
-découvertes
-découvre
-découvrir
-décrit
-défi
-défile
-déjà
-délicatement
-délicieuse
-démarre
-départ
-déposer
-désespoir
-désespérément
-désir
-désolé
-dîner
-dø
-dû
-dœ
-dɔkymɑ
-də
-dəmɛ
-dʁ
-dʁwa
-dʁwat
-eau
-effacés
-effrayé
-elle
-elles
-email
-emporte
-en
-enchanté
-enchantée
-encore
-endroit
-enfance
-enfin
-english
-enjoy
-enlacés
-enlève
-enneigés
-enseigne
-ensemble
-entend
-enthousiasme
-entière
-entre
-entrent
-environ
-environs
-envoyé
-es
-es-tu
-esprit
-essaie
-essayer
-est
-est-ce
-est-il
-et
-ete
-euros
-evening
-exactement
-examine
-excellente
-exchange
-excitée
-excuse
-excusez-moi
-exige
-exister
-existé
-expensive
-explique
-explorer
-expérience
-face
-facile
-faim
-faire
-fais
-faisait
-fait
-fallu
-far
-fas
-fasse
-fatigué
-faudrait
-faut
-faut-il
-faʁmasi
-feel
-fees
-felisitasjɔ
-femme
-fenêtre
-ferme
-fermeté
-fermier
-fermé
-feu
-fever
-file
-fin
-finalement
-fine
-fixement
-fièvre
-fiʁmasjɔ
-fiʁme
-fjɛvʁ
-flamme
-flight
-fois
-fonctionne
-font
-for
-force
-forces
-formal
-forme
-fort
-forte
-fortes
-fotil
-fou
-found
-fragilité
-frais
-franchise
-français
-française
-french
-frissonne
-froid
-from
-fromage
-fromages
-frotte
-frénétiquement
-fuir
-futur
-futurs
-félicitations
-fɔ
-fɛʁ
-fʁɑ
-fʁɛ
-gardez
-gare
-gauche
-gens
-gentillesse
-gentils
-get
-gift-wrap
-gladly
-gluten
-gluten-free
-go
-good
-goodbye
-grand-chose
-grand-mère
-grande
-grandit
-gratitude
-grave
-gravé
-grenoble
-grimace
-groupe
-guichet
-guide
-guidé
-hang
-happy
-has
-haut
-have
-haven't
-headache
-hello
-help
-here
-heure
-heures
-heureusement
-hi
-hier
-histoire
-histoires
-homme
-hot
-how
-humaine
-humaines
-humide
-hélicoptère
-hésitation
-hésite
-i'm
-ici
-id
-idée
-il
-illumine
-ils
-immédiatement
-implique
-important
-importe
-impossible
-imɛl
-in
-inattendu
-incertitude
-included
-inclus
-increase
-incrédule
-indifférence
-indifférent
-indifférentes
-informal
-inhabituel
-innocence
-insiste
-instants
-insurance
-intentionnalité
-interprète
-involontaire
-irons
-is
-isi
-it
-it's
-j'adore
-j'ai
-j'aime
-j'allume
-j'arrive
-j'aurais
-j'avais
-j'entends
-j'espère
-j'essaie
-j'habite
-j'ose
-jaillit
-jamais
-jambon
-jardin
-je
-jeune
-joli
-jour
-journée
-joyeux
-juste
-jɛʁ
-kado
-kalifikasjɔ
-kaʁt
-kaʁtje
-keep
-key
-ki
-kilo
-kle
-klimatizasjɔ
-kly
-know
-kosjɔ
-kote
-ksjɔn
-kulœʁ
-kut
-kuvɛʁ
-kuʁaʒ
-kɑ
-kɔ
-kɔd
-kɔm
-kɔmisaʁja
-kɔmœ
-kɔmɑ
-kɔʁ
-kə
-kɛl
-kɛlkœ
-kɛs
-kɛʁ
-l'a
-l'abandonner
-l'addition
-l'ai
-l'aide
-l'air
-l'animal
-l'appartement
-l'après-midi
-l'argent
-l'arrêt
-l'assurance
-l'auberge
-l'aventure
-l'avons
-l'eau
-l'employée
-l'entrée
-l'essentiel
-l'excitation
-l'heure
-l'homme
-l'hélicoptère
-l'illusion
-l'important
-l'impression
-l'incertitude
-l'inscription
-l'intérieur
-l'odeur
-l'orientation
-l'écouter
-l'église
-l'émotion
-l'épaule
-l'équipement
-la
-laba
-ladisjɔ
-laisser
-laissée
-lait
-lampe
-larger
-lasyʁɑ
-late
-later
-laʁɛ
-laʁʒɑ
-le
-leave
-left
-lendemain
-lentement
-les
-let's
-leur
-leurs
-lever
-levé
-libre
-libres
-like
-limit
-lire
-liste
-little
-live
-livre
-loaded
-local
-loin
-london
-londres
-long
-longue
-looking
-lost
-lot
-louer
-loyer
-lucas
-luck
-luggage
-lui
-lumière
-lwaje
-lwe
-lwɛ
-lyon
-là
-là-bas
-là-haut
-lève
-lɑ
-lɔ
-lə
-m'a
-m'aider
-m'appelle
-m'apprend
-m'indiquer
-m'offre
-m'ont
-ma
-magasin
-magnifique
-magnifiques
-main
-mains
-maintenant
-mais
-maison
-maisons
-make
-mal
-mangent
-manger
-manque
-manquer
-many
-mapɛl
-marais
-marc
-marche
-marchent
-marchions
-matin
-mauvaise
-maybe
-maʁʃ
-me
-meal
-mean
-medsɛ
-meet
-menaçant
-mensuels
-menu
-mer
-merci
-merry
-merveille
-mes
-met
-mieux
-mind
-minutes
-mjø
-moi
-moi-même
-moins
-mois
-moment
-mon
-monde
-money
-monnaie
-monotone
-mont
-montagne
-montagnes
-montant
-monte
-montent
-month
-monthly
-montons
-montrant
-montre
-montrer
-montriez
-more
-moreau
-moteur
-mots
-moyen
-much
-mur
-murs
-mwa
-my
-mystérieuse
-mètres
-médecin
-mélancolie
-métro
-météo
-mêle
-même
-mɑ
-mɔ
-mɔmɑ
-mɔnɛ
-mə
-məny
-mɛ
-mɛde
-mɛʁsi
-n'a
-n'ai
-n'aie
-n'aurais
-n'avais
-n'entends
-n'est
-n'est-ce
-n'ont
-n'oublie
-n'y
-name
-nature
-naïveté
-ne
-near
-nearby
-nearest
-need
-needed
-neighborhood
-nerveux
-nervosité
-never
-new
-next
-ni
-nice
-night
-nights
-no
-noir
-nom
-non
-normal
-normandie
-nos
-not
-notion
-notre
-nourrissent
-nous
-nouveaux
-nouvelle
-novembre
-now
-noël
-nuages
-nuit
-nuit-là
-nuits
-number
-numéro
-nymeʁo
-nécessaire
-nɔ
-nɔɛl
-nə
-nɛ
-nɥi
-o'clock
-objets
-observe
-obtenir
-offered
-office
-oh
-okay
-on
-one
-one-way
-ont
-onze
-open
-opportunities
-opportunités
-opposite
-opposition
-optimiste
-or
-ordinaire
-ordinateur
-ordonnance
-organisions
-orties
-otoʁizasjɔ
-otʁ
-ou
-oublié
-oui
-out
-ouvre
-ouvrir
-over
-où
-oɡmɑ
-oʒuʁdɥi
-pa
-pain
-pakɛ
-paniquer
-panneaux
-papier
-paquet-cadeau
-par
-pardon
-pardonne
-pardonne-moi
-pareil
-parfait
-parfois
-paris
-parle
-parler
-parlez-vous
-part
-partagent
-parti
-partie
-parties
-partir
-partira
-partons
-partons-nous
-partout
-pas
-paspɔʁ
-passent
-passeport
-passer
-passport
-patience
-patronne
-pay
-payer
-payons
-paysage
-paʁ
-paʁdɔ
-paʁi
-paʁl
-paʁle
-peanuts
-peine
-peje
-pendant
-pensais
-pense
-people
-per
-perd
-perdre
-perdu
-perdue
-permettra
-personne
-personnes
-perte
-petit
-petit-déjeuner
-petite
-peu
-peur
-peut
-peut-être
-peux
-pharmacie
-pharmacy
-phone
-photos
-pi
-pierre
-pin
-piquent
-piqûres
-pis
-pittoresque
-pièce
-pjɛs
-pl
-places
-plafond
-plafɔ
-plainte
-plaisir
-plantes
-plaît
-please
-pleasure
-pleurant
-plus
-ply
-plɛ
-plɛziʁ
-poche
-poches
-pointe
-police
-portable
-portait
-porte
-portefeuille
-porter
-pose
-possibles
-poste
-potable
-pour
-pourquoi
-pourrait
-pourriez-vous
-pourvu
-pouvez
-pouvez-vous
-pouvions
-prend
-prendre
-prends
-prenez
-prennent
-prenons
-prescription
-presque
-price
-pris
-prix
-problem
-problème
-prochain
-proche
-professionnels
-profond
-profonde
-profondément
-projetons
-projette
-promenade
-promène
-promènent
-proposé
-propriétaire
-protéger
-proximité
-prudemment
-près
-précaution
-préfères
-préféré
-prépare
-prétendre
-prévenu
-prêt
-prête
-prêts
-pu
-public
-puis
-puis-je
-pull
-pur
-puve
-puʁ
-puʁje
-pâtisseries
-père
-pø
-pøtɛtʁ
-pɔlis
-pɔʁte
-pəti
-pɛʁdy
-pɛʁsɔn
-pɥiʒ
-pʁi
-pʁiz
-pʁopoze
-pʁɑ
-pʁɔblɛm
-pʁɔksimite
-pʁɔʃ
-pʁɔʃɛ
-pʁɛ
-qu'avant
-qu'avons-nous
-qu'elle
-qu'est-ce
-qu'il
-qu'on
-qu'à
-quai
-qualifications
-quand
-quartier
-quatre
-quatrième
-que
-quel
-quelle
-quelles
-quelqu'un
-quelque
-quelques
-quels
-question
-qui
-quinze
-quitté
-quoi
-racontera
-raison
-randonnée
-randonnées
-rapide
-rapidement
-rappellent
-rapproche
-rate
-receive
-received
-recherche
-recommandez
-recommend
-reconnais
-reconnues
-redescendent
-redresse
-refuge
-refund
-regardant
-regarde
-regardent
-regardez
-regardé
-regrets
-reimbursed
-relation
-remarque
-remboursé
-remplit
-rencontres
-rend
-rendent
-rendez-vous
-rent
-rentre
-repartent
-repeat
-reposez-vous
-reprend
-reprenez
-reproche
-required
-requises
-reservation
-respire
-ressens
-reste
-reste-t-il
-restent
-rester
-restiez
-restons
-retard
-retour
-retourne
-retrait
-retrouverons
-retrouvé
-reviennent
-reviens
-revoir
-revoit
-reçu
-ridées
-rien
-right
-risque
-rochers
-rond
-room
-rosiers
-rouge
-round-trip
-rue
-rues
-réalise
-réclamation
-réflexion
-réfléchir
-réfléchit
-répand
-répandre
-répond
-répéter
-réseau
-réservation
-réserve
-résonne
-réunion
-réunis
-réveiller
-rêve
-rêves
-s'adresse
-s'animer
-s'approche
-s'approchent
-s'arrête
-s'asseoir
-s'assoient
-s'assoit
-s'embrassent
-s'en
-s'est
-s'exclame
-s'il
-s'ils
-s'orienter
-s'éloigne
-sa
-sac
-sacs
-safe
-sains
-sais
-sak
-salaire
-salary
-sale
-salle
-salut
-saly
-salɛʁ
-sandwichs
-sans
-santé
-saufs
-saurai
-sauvé
-sauvée
-savent
-say
-scène
-scènes
-se
-second
-seconde
-secoue
-secouriste
-secouristes
-secours
-see
-seize
-semaine
-semble
-sens
-sent
-sentant
-sentier
-sentir
-sept
-sera
-serai
-serez
-serons
-sert
-serveur
-servi
-service
-ses
-seule
-seulement
-seven
-sfeʁe
-show
-si
-sick
-signe
-signes
-signification
-signifie
-sil
-silence
-simple
-simplement
-situation
-size
-sjɔ
-slowly
-so
-so-so
-soir
-soirée
-soit
-soixante
-solde
-soleil
-solide
-solitudes
-sombre
-someone
-sommes
-sommets
-son
-sons
-sont
-sont-elles
-soon
-sophie
-sorry
-sort
-sortant
-soudain
-souffle
-souhaiterais
-soulagée
-soupe
-soupire
-source
-sourire
-sourit
-sous
-souscrire
-souvenirs
-soyons
-speak
-spontanément
-spɔʁ
-start
-station
-still
-stolen
-stomachache
-stop
-straight
-structure
-stupides
-su
-submerge
-sucre
-suis
-suis-je
-suit
-suive
-suivent
-suivre
-sur
-surgissent
-surpris
-surprise
-survie
-survivre
-survécu
-suskʁiʁ
-swallowed
-swaʁ
-swaʁe
-swɛtʁɛ
-sylte
-syʁ
-sécurité
-séparation
-séparent
-séparons
-séparés
-sûr
-sûrs
-sɑ
-sɔ
-sɔld
-səɡɔ
-sɛ
-sɛt
-sɛʁvis
-sɥi
-sɥɛl
-t'appelles
-t'avoir
-t'inquiètes
-t'écouter
-tabl
-table
-taille
-taj
-take
-takte
-tant
-tapɛl
-tard
-taux
-taʁ
-te
-telefɔn
-tellement
-temps
-température
-tempêtes
-tenant
-tendue
-tendues
-tentative
-terriblement
-tgv
-thank
-that
-that's
-the
-there
-there's
-this
-thé
-ticket
-tiennent
-tiges
-til
-time
-tissu
-tite
-tje
-tnɑ
-to
-today
-toi
-toilets
-toilettes
-tomates
-tomorrow
-ton
-too
-touche
-touchent
-toucher
-toujours
-tourne
-tourner
-tournez
-tous
-tousse
-tout
-toute
-toutes
-train
-trains
-tranquille
-transfer
-transformation
-transforme
-transformée
-transférer
-transport
-transports
-travail
-travers
-tremblant
-tremblants
-trip
-tristesse
-trois
-trop
-trouve
-trouvent
-trouver
-trouvé
-trouvée
-trouvés
-try
-très
-tu
-tus
-tuʒuʁ
-twa
-twalɛt
-two
-ty
-téléphone
-téléphones
-tête
-tɑ
-tɔ
-təmɑ
-tɛt
-tʁ
-tʁavaj
-tʁo
-tʁuve
-tʁɑ
-tʁɛ
-un
-understand
-une
-used
-utilisant
-utilisé
-utilities
-uvʁiʁ
-va
-vallonné
-vallée
-vegetarian
-venons
-vent
-ventre
-venus
-verrez
-vers
-vertes
-very
-veste
-veut
-veux
-veux-tu
-veʁifje
-veʒetaʁjɛ
-veʒetaʁjɛn
-vie
-vieil
-vieille
-viens
-vient
-vies
-vieux
-village
-ville
-vin
-vins
-virement
-visage
-vite
-vivante
-viʁmɑ
-vjɛ
-voici
-voilà
-vois
-voit
-voix
-vol
-volets
-volontiers
-volé
-votre
-voudrais
-voulais
-voulait
-vous
-voyage
-voyager
-voyons
-vrai
-vraiment
-vu
-vudʁɛ
-vue
-vwajaʒ
-vwala
-vécu
-végétarien
-végétarienne
-vérifie
-vérifier
-vérifié
-vérité
-vêtements
-vø
-vɑ
-vɔl
-vɔle
-vɔlɔ
-vɔtʁə
-vəny
-wagon
-wake
-was
-wasn't
-watch
-water
-way
-welcome
-well
-what
-what's
-when
-where
-wi
-willingly
-with
-withdrawal
-without
-work
-would
-year
-yes
-yesterday
-yet
-yeux
-yn
-you
-you're
-your
-ytilize
-zi
-ça
-écoute
-éléments
-épais
-épaisse
-épicerie
-épreuve
-épuisé
-équipe
-était
-était-ce
-étiez
-étions
-étrange
-étranges
-étroites
-été
-êtes
-être
-œʁ
-ɔbtəniʁ
-ɔbʒɛ
-ɔpozisjɔ
-ɔpɔʁtynite
-ɔʁdɔnɑ
-ɛkskyze
-ɛl
-ɛs
-ɛseje
-ɛt
-ɛtil
-ɛtʁ
-ɡaʁ
-ɡaʁde
-ɡlytɛn
-ɡlɛ
-ɡlɛz
-ɡoʃ
-ɡʁɑ
-ʁeklamasjɔ
-ʁepete
-ʁeveje
-ʁezɛʁvasjɔ
-ʁjɛ
-ʁɑ
-ʁəkiz
-ʁəkɔmɑ
-ʁəsy
-ʁətaʁ
-ʁətuʁ
-ʁətʁɛ
-ʁəvwaʁ
-ʃaʁʒ
-ʃaʁʒe
-ʃiz
-ʃod
-ʃɑ
-ʃəmɛ
-ʃɛʁ
-ʃɛʁʃ
-ʒabit
-ʒaʁiv
-ʒe
-ʒuʁ
-ʒuʁne
-ʒwajø
-ʒə
-ʒɛ
+a-t-elle | does she | [atˈɛl]
+a-t-il | does he | [atˈil]
+abandonnée | abandoned | [abɑ̃dɔnˈe]
+abri | shelter | [abʁˈi]
+abritées | sheltered | [abʁitˈe]
+absorbe | absorbs | [absˈɔʁb]
+accepte | accepts | [aksˈɛpt]
+acceptez-vous | do you accept | [aksɛptˈevˈu]
+accueille | welcomes | [akˈœj]
+achats | purchases | [aʃˈa]
+acheter | buy | [aʃtˈe]
+achevée | completed | [aʃvˈe]
+achète | buys | [aʃˈɛt]
+admirant | admiring | [admiʁˈɑ̃]
+adorons | adore | [adɔʁˈɔ̃]
+adresse | address | [adʁˈɛs]
+aide | help | [ˈɛd]
+aider | help | [ɛdˈe]
+aidera | will help | [ɛdʁˈa]
+aidé | helped | [ɛdˈe]
+aimez | like | [ɛmˈe]
+ainsi | thus | [ɛ̃sˈi]
+ait | has | [ˈɛ]
+aller | go | [alˈe]
+aller-retour | round trip | [alˈeʁətˈuʁ]
+allergique | allergic | [alɛʁʒˈik]
+allez-vous | are you going | [alˈevˈu]
+allons | let's go | [alˈɔ̃]
+allons-nous | shall we go | [alˈɔ̃nˈu]
+allons-y | let's go | [alˈɔ̃ziɡʁˈɛk]
+allumer | light | [alymˈe]
+allumette | match | [alymˈɛt]
+allumettes | matches | [alymˈɛt]
+allumé | lit | [alymˈe]
+alpes | alps | [ˈalp]
+alpin | alpine | [alpˈɛ̃]
+amour | love | [amˈuʁ]
+anglais | English | [ɑ̃ɡlˈɛ]
+anglaise | English | [ɑ̃ɡlˈɛz]
+animal | animal | [animˈal]
+animaux | animals | [animˈo]
+anniversaire | birthday | [anivɛʁsˈɛʁ]
+annonce | announcement | [anˈɔ̃s]
+annonce-t-il | does he announce | [anˈɔ̃stˈil]
+annuler | cancel | [anylˈe]
+annulé | canceled | [anylˈe]
+année | year | [anˈe]
+apparaît | appears | [apaʁˈɛ]
+appartement | apartment | [apaʁtəmˈɑ̃]
+appeler | call | [aplˈe]
+appelle | calls | [apˈɛl]
+apporte | brings | [apˈɔʁt]
+apporté | brought | [apɔʁtˈe]
+appris | learned | [apʁˈi]
+appétit | appetite | [apetˈi]
+après | after | [apʁˈɛ]
+arachides | peanuts | [aʁaʃˈid]
+arbres | trees | [ˈaʁbʁ]
+arrange | arrange | [aʁˈɑ̃ʒ]
+arrive | arrives | [aʁˈiv]
+arrivent | arrive | [aʁˈiv]
+arrivée | arrival | [aʁivˈe]
+arrivés | arrived | [aʁivˈe]
+as | have | [ˈas]
+as-tu | have you | [atˈy]
+assise | seated | [asˈiz]
+assurance | insurance | [asyʁˈɑ̃s]
+attend | waits | [atˈɑ̃]
+attendant | waiting | [atɑ̃dˈɑ̃]
+attendons | we wait | [atɑ̃dˈɔ̃]
+attendre | wait | [atˈɑ̃dʁ]
+attends | wait | [atˈɑ̃]
+attention | attention | [atɑ̃sjˈɔ̃]
+attentivement | attentively | [atɑ̃tivmˈɑ̃]
+atterrit | lands | [atɛʁˈi]
+au | to the | [ˈo]
+au-dessus | above | [odəsˈy]
+auberge | inn | [obˈɛʁʒ]
+augmenter | increase | [oɡmɑ̃tˈe]
+aurais | would have | [oʁˈɛ]
+aurait | would | [oʁˈɛ]
+aussi | also | [osˈi]
+authentique | authentic | [ɔːθɛntˈiːk]
+autorisation | authorization | [otoʁizasjˈɔ̃]
+autour | around | [otˈuʁ]
+autre | other | [ˈotʁ]
+aux | to the | [ˈo]
+avait | had | [avˈɛ]
+avalée | swallowed | [avalˈe]
+avance | advance | [avˈɑ̃s]
+avant | before | [avˈɑ̃]
+avec | with | [avˈɛk]
+avenir | future | [avnˈiʁ]
+aventure | adventure | [avɑ̃tˈyʁ]
+avez | have | [avˈe]
+avez-vous | have you | [avˈevˈu]
+avons | we have | [avˈɔ̃]
+bagages | luggage | [baɡˈaʒ]
+bancaire | bank | [bɑ̃kˈɛʁ]
+bancaires | banking | [bɑ̃kˈɛʁ]
+bas | low | [bˈa]
+bavarde | talkative | [bavˈaʁd]
+beau | beautiful | [bˈo]
+beaucoup | a lot | [bokˈu]
+belle | beautiful | [bˈɛl]
+berger | shepherd | [bɛʁʒˈe]
+besoin | need | [bəzwˈɛ̃]
+bien | well | [bjˈɛ̃]
+bientôt | soon | [bjɛ̃tˈo]
+bienvenue | welcome | [bjɛ̃vnˈy]
+billet | ticket | [bijˈɛ]
+billets | tickets | [bijˈɛ]
+bizarre | strange | [bizˈaʁ]
+blanc | white | [blˈɑ̃]
+blancheur | whiteness | [blɑ̃ʃˈœʁ]
+blesser | hurt | [blɛsˈe]
+bleu | blue | [blˈø]
+bois | wood | [bwˈa]
+boit | drinks | [bwˈa]
+boivent | drink | [bwˈav]
+bon | good | [bˈɔ̃]
+bonheur | happiness | [bɔnˈœʁ]
+bonne | good | [bˈɔn]
+bonsoir | good evening | [bɔ̃swˈaʁ]
+bonté | kindness | [bɔ̃tˈe]
+bordeaux | Bordeaux | [bɔʁdˈo]
+bouillir | boil | [bujˈiʁ]
+boulangerie | bakery | [bulɑ̃ʒʁˈi]
+boulangère | female baker | [bulɑ̃ʒˈɛʁ]
+boulot | job | [bulˈo]
+bout | end | [bˈu]
+bouteille | bottle | [butˈɛj]
+brille | shines | [bʁˈij]
+brouillard | fog | [bʁujˈaʁ]
+bruit | noise | [bʁyˈi]
+brusquement | suddenly | [bʁyskəmˈɑ̃]
+brûle | burns | [bʁˈyːl]
+bureau | office | [byʁˈo]
+bus | bus | [bˈys]
+bâtiments | buildings | [batimˈɑ̃]
+bêle | bleats | [bˈɛl]
+bêlement | bleating | [bɛlmˈɑ̃]
+c'est | it is | [sˈɛ]
+cabane | cabin | [kabˈan]
+café | coffee | [kafˈe]
+calme | calm | [kˈalm]
+calmement | calmly | [kalməmˈɑ̃]
+campagne | countryside | [kɑ̃pˈaɲ]
+canapé | sofa | [kanapˈe]
+capable | capable | [kapˈabl]
+capables | capable | [kapˈabl]
+capacité | capacity | [kapasitˈe]
+carte | map | [kˈaʁt]
+cartes | maps | [kˈaʁt]
+casserole | pan | [kasʁˈɔl]
+caution | bail | [kosjˈɔ̃]
+ce | this | [sˈə-]
+cela | that | [səlˈa]
+cercle | circle | [sˈɛʁkl]
+certaine | certain | [sɛʁtˈɛn]
+ces | these | [sˈe]
+cette | this | [sˈɛt]
+ceux | those | [sˈø]
+chacun | each | [ʃakˈœ̃]
+chaleur | heat | [ʃalˈœʁ]
+chaleureux | warm | [ʃaløʁˈø]
+chambre | room | [ʃˈɑ̃bʁ]
+chambres | rooms | [ʃˈɑ̃bʁ]
+chance | chance | [ʃˈɑ̃s]
+change | change | [ʃˈɑ̃ʒ]
+changement | change | [ʃɑ̃ʒmˈɑ̃]
+changer | change | [ʃɑ̃ʒˈe]
+changés | changed | [ʃɑ̃ʒˈe]
+chaque | each | [ʃˈak]
+charges | charges | [ʃˈaʁʒ]
+chargés | charged | [ʃaʁʒˈe]
+charmant | charming | [ʃaʁmˈɑ̃]
+charme | charm | [ʃˈaʁm]
+chaud | hot | [ʃˈo]
+chaude | hot | [ʃˈod]
+chauds | hot | [ʃˈo]
+chef | chief | [ʃˈɛf]
+chemin | path | [ʃəmˈɛ̃]
+chemins | paths | [ʃəmˈɛ̃]
+cheminée | chimney | [ʃəminˈe]
+cher | expensive | [ʃˈɛʁ]
+cherche | search | [ʃˈɛʁʃ]
+cherchent | search | [ʃˈɛʁʃ]
+chercher | search | [ʃɛʁʃˈe]
+chez | at | [ʃˈe]
+chien | dog | [ʃjˈɛ̃]
+chocolat | chocolate | [ʃɔkɔlˈa]
+choisi | chosen | [ʃwazˈi]
+choisir | choose | [ʃwazˈiʁ]
+choisissent | choose | [ʃwazˈis]
+choix | choice | [ʃwˈa]
+chose | thing | [ʃˈoz]
+choses | things | [ʃˈoz]
+chute | fall | [ʃˈyt]
+chèvre | goat | [ʃˈɛvʁ]
+chérie | darling | [ʃeʁˈi]
+ci | here | [sˈi]
+ciel | sky | [sjˈɛl]
+cinq | five | [sˈɛ̃k]
+clair | clear | [klˈɛʁ]
+claire | clear | [klˈɛʁ]
+clairière | glade | [klɛʁjˈɛʁ]
+climatisation | air conditioning | [klimatizasjˈɔ̃]
+clé | key | [klˈe]
+code | code | [kˈɔd]
+coin | corner | [kwˈɛ̃]
+combien | how much | [kɔ̃bjˈɛ̃]
+comestibles | edibles | [kɔmɛstˈibl]
+commande | order | [kɔmˈɑ̃d]
+commandes | orders | [kɔmˈɑ̃d]
+comme | like | [kˈɔm]
+commence | begins | [kɔmˈɑ̃s]
+commencent | begin | [kɔmˈɑ̃s]
+commencer | to start | [kɔmɑ̃sˈe]
+comment | how | [kɔmˈɑ̃]
+commissariat | police station | [kɔmisaʁjˈa]
+commun | common | [kɔmˈœ̃]
+complètement | completely | [kɔ̃plɛtmˈɑ̃]
+complètes | complete | [kɔ̃plˈɛt]
+comportement | behavior | [kɔ̃pɔʁtəmˈɑ̃]
+comprendre | understand | [kɔ̃pʁˈɑ̃dʁ]
+comprends | understand | [kɔ̃pʁˈɑ̃]
+compris | included | [kɔ̃pʁˈi]
+comprises | included | [kɔ̃pʁˈiz]
+compte | account | [kˈɔ̃t]
+comptoir | counter | [kɔ̃twˈaʁ]
+condition | condition | [kɔ̃disjˈɔ̃]
+confiance | trust | [kɔ̃fjˈɑ̃s]
+confirmation | confirmation | [kɔ̃fiʁmasjˈɔ̃]
+confirmer | confirm | [kɔ̃fiʁmˈe]
+confond | confuses | [kɔ̃fˈɔ̃]
+confondent | confuse | [kɔ̃fˈɔ̃d]
+connaissent | know | [kɔnˈɛs]
+connaissons | know | [kɔnɛsˈɔ̃]
+connaît | knows | [kɔnˈɛ]
+conscient | aware | [kɔ̃sjˈɑ̃]
+conseil | advice | [kɔ̃sˈɛj]
+conseille | advise | [kɔ̃sˈɛj]
+constamment | constantly | [kɔ̃stamˈɑ̃]
+consulter | consult | [kɔ̃syltˈe]
+contacter | contact | [kɔ̃taktˈe]
+continue | continues | [kɔ̃tinˈy]
+continuent | continue | [kɔ̃tinˈy]
+continuer | continue | [kɔ̃tinyˈe]
+continuerons | will continue | [kɔ̃tinyʁˈɔ̃]
+continueront | will continue | [kɔ̃tinyʁˈɔ̃]
+contraire | opposite | [kɔ̃tʁˈɛʁ]
+contrôler | control | [kɔ̃tʁolˈe]
+conversation | conversation | [kɔ̃vɛʁsasjˈɔ̃]
+corps | body | [kˈɔʁ]
+coule | flows | [kˈul]
+couleur | color | [kulˈœʁ]
+coupable | guilty | [kupˈabl]
+courage | courage | [kuʁˈaʒ]
+courent | run | [kˈuʁ]
+court | short | [kˈuʁ]
+couvert | covered | [kuvˈɛʁ]
+couverture | coverage | [kuvɛʁtˈyʁ]
+coûte | costs | [kˈut]
+coûtent | cost | [kˈut]
+coûté | cost | [kutˈe]
+criant | screaming | [kʁiˈɑ̃]
+crie | shouts | [kʁˈi]
+croisent | cross | [kʁwˈaz]
+croissant | croissant | [kʁwasˈɑ̃]
+cru | raw | [kʁˈy]
+créé | created | [kʁeˈe]
+cueille | picks | [kˈœj]
+cuire | cook | [kyˈiʁ]
+curiosité | curiosity | [kyʁjozitˈe]
+côté | side | [kotˈe]
+côtés | sides | [kotˈe]
+d'abord | first | [dabˈɔʁ]
+d'accord | okay | [dakˈɔʁ]
+d'affronter | to face | [dafʁɔ̃tˈe]
+d'aide | of help | [dˈɛd]
+d'angoisse | of anxiety | [dɑ̃ɡwˈas]
+d'annulation | of cancellation | [danylasjˈɔ̃]
+d'arriver | of arriving | [daʁivˈe]
+d'aucune | of none | [dokˈyn]
+d'autre | of another | [dˈotʁ]
+d'autres | of others | [dˈotʁ]
+d'avant | of before | [davˈɑ̃]
+d'avoir | of having | [davwˈaʁ]
+d'eau | of water | [dˈo]
+d'elle | of her | [dˈɛl]
+d'elle-même | of herself | [dɛlmˈɛm]
+d'exister | of existing | [dɛɡzistˈe]
+d'hier | of yesterday | [djˈɛʁ]
+d'hivers | of winters | [divˈɛʁ]
+d'ici | from here | [disˈi]
+d'identité | of identity | [didɑ̃titˈe]
+d'importance | of importance | [dɛ̃pɔʁtˈɑ̃s]
+d'inquiétude | of worry | [dɛ̃kjetˈyd]
+d'un | of one | [dˈœ̃]
+d'une | of a | [dˈyn]
+d'âge | of age | [dˈaːʒ]
+d'évolution | of evolution | [devɔlysjˈɔ̃]
+d'être | of being | [dˈɛtʁ]
+dans | in | [dˈɑ̃]
+danser | to dance | [dɑ̃sˈe]
+de | of | [dˈə-]
+dehors | outside | [dəˈɔʁ]
+demain | tomorrow | [dəmˈɛ̃]
+demande | request | [dəmˈɑ̃d]
+demande-t-elle | does she ask | [dəmˈɑ̃dtˈɛl]
+demandons | we ask | [dəmɑ̃dˈɔ̃]
+demi-heure | half-hour | [dəmjˈœʁ]
+demi-tour | U-turn | [dəmˈitˈuʁ]
+dense | dense | [dˈɑ̃s]
+depuis | since | [dəpyˈi]
+dernière | last | [dɛʁnjˈɛʁ]
+des | of the | [dˈe-]
+descend | descends | [dɛsˈɑ̃]
+descende | descend | [dɛsˈɑ̃d]
+descendent | descend | [dɛsˈɑ̃d]
+descendre | to descend | [dɛsˈɑ̃dʁ]
+descends | descend | [dɛsˈɑ̃]
+deux | two | [dˈø]
+devant | in front of | [dəvˈɑ̃]
+devenir | to become | [dəvnˈiʁ]
+devient | becomes | [dəvjˈɛ̃]
+devons | we must | [dəvˈɔ̃]
+devrait | should | [dəvʁˈɛ]
+devrions | we should | [dəvʁiˈɔ̃]
+dieu | god | [djˈø]
+difficile | difficult | [difisˈil]
+différent | different | [difeʁˈɑ̃]
+différents | different | [difeʁˈɑ̃]
+dire | to say | [dˈiʁ]
+direct | direct | [diʁˈɛkt]
+direction | direction | [diʁɛksjˈɔ̃]
+disait | said | [dizˈɛ]
+disent-ils | do they say | [dˈiztˈil]
+disponibilité | availability | [dispɔnibilitˈe]
+disponible | available | [dispɔnˈibl]
+dispute | argument | [dispˈyt]
+disputer | to argue | [dispytˈe]
+distributeur | distributor | [distʁibytˈœʁ]
+dit | says | [dˈi]
+dit-on | is it said | [dˈitˈɔ̃]
+documents | documents | [dɔkymˈɑ̃]
+dodo | sleep | [dɔdˈo]
+doigt | finger | [dwˈa]
+dois | must | [dwˈa]
+doit | must | [dwˈa]
+donne | gives | [dˈɔn]
+dons | gifts | [dˈɔ̃]
+dont | whose | [dˈɔ̃]
+dormi | slept | [dɔʁmˈi]
+dormir | to sleep | [dɔʁmˈiʁ]
+dos | back | [dˈɔs]
+douce | sweet | [dˈus]
+doucement | gently | [dusmˈɑ̃]
+doutait | doubted | [dutˈɛ]
+doute | doubt | [dˈut]
+droit | right | [dʁwˈa]
+droite | right | [dʁwˈat]
+du | of the | [dˈy-]
+dubois | Dubois | [dybwˈa]
+dure | hard | [dˈyʁ]
+dès | from | [dˈɛ]
+débrouiller | manage | [debʁujˈe]
+décide | decides | [desˈid]
+décidé | decided | [desidˈe]
+décision | decision | [desizjˈɔ̃]
+découverte | discovery | [dekuvˈɛʁt]
+découvertes | discoveries | [dekuvˈɛʁt]
+découvre | discovers | [dekˈuvʁ]
+découvrir | to discover | [dekuvʁˈiʁ]
+décrit | described | [dekʁˈi]
+défi | challenge | [defˈi]
+défile | parade | [defˈil]
+délicatement | delicately | [delikatmˈɑ̃]
+délicieuse | delicious | [delisjˈøz]
+démarre | starts | [demˈaʁ]
+départ | departure | [depˈaʁ]
+déposer | to deposit | [depozˈe]
+désespoir | despair | [dezɛspwˈaʁ]
+désespérément | desperately | [dezɛspeʁemˈɑ̃]
+désir | desire | [dezˈiʁ]
+désolé | sorry | [dezɔlˈe]
+dîner | dinner | [dinˈe]
+dû | owed | [dˈyː]
+eau | water | [ˈo]
+effacés | erased | [efasˈe]
+effrayé | scared | [efʁɛjˈe]
+elle | she | [ˈɛl]
+elles | they | [ˈɛl]
+email | email | [ˈiːmɛːjl]
+emporte | takes | [ɑ̃pˈɔʁt]
+en | in | [ˈɑ̃]
+enchanté | delighted | [ɑ̃ʃɑ̃tˈe]
+enchantée | delighted | [ɑ̃ʃɑ̃tˈe]
+encore | still | [ɑ̃kˈɔʁ]
+endroit | place | [ɑ̃dʁwˈa]
+enfance | childhood | [ɑ̃fˈɑ̃s]
+enfin | finally | [ɑ̃fˈɛ̃]
+enlacés | entwined | [ɑ̃lasˈe]
+enlève | removes | [ɑ̃lˈɛv]
+enneigés | snowy | [ɛnɛʒˈe]
+enseigne | sign | [ɑ̃sˈɛɲ]
+ensemble | together | [ɑ̃sˈɑ̃bl]
+entend | hears | [ɑ̃tˈɑ̃]
+enthousiasme | enthusiasm | [ɛnθˈawzɪˌazmɪ]
+entière | entire | [ɑ̃tjˈɛʁ]
+entre | between | [ˈɑ̃tʁ]
+entrent | enter | [ˈɑ̃tʁ]
+environ | about | [ɑ̃viʁˈɔ̃]
+environs | surroundings | [ɑ̃viʁˈɔ̃]
+envoyé | sent | [ɑ̃vwajˈe]
+es | are | [ˈɛ]
+es-tu | are you | [ɛtˈy]
+esprit | mind | [ɛspʁˈi]
+essaie | tries | [esˈɛ]
+essayer | try | [esɛjˈe]
+est | is | [ˈɛ]
+est-ce | is it | [ˈɛs]
+est-il | is he | [ɛtˈil]
+et | and | [ˈe]
+euros | euros | [øʁˈo]
+exactement | exactly | [ɛɡzaktəmˈɑ̃]
+examine | examines | [ɛɡzamˈin]
+excellente | excellent | [ɛksɛlˈɑ̃t]
+excitée | excited | [ɛksitˈe]
+excusez-moi | excuse me | [ɛkskyzˈemwˈa]
+exige | demands | [ɛɡzˈiʒ]
+exister | exist | [ɛɡzistˈe]
+existé | existed | [ɛɡzistˈe]
+explique | explains | [ɛksplˈik]
+explorer | explore | [ɛksplɔʁˈe]
+expérience | experience | [ɛkspeʁjˈɑ̃s]
+face | face | [fˈas]
+facile | easy | [fasˈil]
+faim | hunger | [fˈɛ̃]
+faire | do | [fˈɛʁ]
+fais | do | [fˈɛ]
+faisait | was doing | [fəzˈɛ]
+fait | done | [fˈɛ]
+fallu | had to | [falˈy]
+fasse | do | [fˈas]
+fatigué | tired | [fatiɡˈe]
+faudrait | should | [fodʁˈɛ]
+faut | must | [fˈo]
+faut-il | should he | [fotˈil]
+femme | woman | [fˈam]
+fenêtre | window | [fənˈɛtʁ]
+ferme | farm | [fˈɛʁm]
+fermeté | firmness | [fɛʁmətˈe]
+fermier | farmer | [fɛʁmjˈe]
+fermé | closed | [fɛʁmˈe]
+feu | fire | [fˈø]
+file | line | [fˈil]
+fin | end | [fˈɛ̃]
+finalement | finally | [finalmˈɑ̃]
+fixement | intently | [fiksmˈɑ̃]
+fièvre | fever | [fjˈɛvʁ]
+flamme | flame | [flˈam]
+fois | time | [fwˈa]
+fonctionne | works | [fɔ̃ksjˈɔn]
+font | do | [fˈɔ̃]
+force | strength | [fˈɔʁs]
+forces | forces | [fˈɔʁs]
+forme | shape | [fˈɔʁm]
+fort | strong | [fˈɔʁ]
+forte | strong | [fˈɔʁt]
+fortes | strong | [fˈɔʁt]
+fou | crazy | [fˈu]
+fragilité | fragility | [fʁaʒilitˈe]
+frais | fresh | [fʁˈɛ]
+franchise | frankness | [fʁɑ̃ʃˈiz]
+frissonne | shivers | [fʁisˈɔn]
+froid | cold | [fʁwˈa]
+fromage | cheese | [fʁɔmˈaʒ]
+fromages | cheeses | [fʁɔmˈaʒ]
+frotte | rubs | [fʁˈɔt]
+frénétiquement | frantically | [fʁenetikmˈɑ̃]
+fuir | flee | [fyˈiʁ]
+futur | future | [fytˈyʁ]
+futurs | futures | [fytˈyʁ]
+félicitations | congratulations | [felisitasjˈɔ̃]
+gardez | keep | [ɡaʁdˈe]
+gare | station | [ɡˈaʁ]
+gauche | left | [ɡˈoʃ]
+gens | people | [ʒˈɑ̃]
+gentillesse | kindness | [ʒɑ̃tijˈɛs]
+gentils | kind | [ʒɑ̃tˈi]
+gluten | gluten | [ɡlytˈɛn]
+grand-chose | not much | [ɡʁˈɑ̃ʃˈoz]
+grand-mère | grandmother | [ɡʁˈɑ̃mˈɛʁ]
+grande | large | [ɡʁˈɑ̃d]
+grandit | grows | [ɡʁɑ̃dˈi]
+gratitude | gratitude | [ɡʁatitˈyd]
+grave | serious | [ɡʁˈav]
+gravé | engraved | [ɡʁavˈe]
+grenoble | Grenoble | [ɡʁənˈɔbl]
+grimace | grimace | [ɡʁimˈas]
+groupe | group | [ɡʁˈup]
+guichet | counter | [ɡiʃˈɛ]
+guide | guide | [ɡˈid]
+guidé | guided | [ɡidˈe]
+haut | high | [ˈo]
+heure | hour | [ˈœʁ]
+heures | hours | [ˈœʁ]
+heureusement | fortunately | [øʁøzmˈɑ̃]
+hier | yesterday | [jˈɛʁ]
+histoire | story | [istwˈaʁ]
+histoires | stories | [istwˈaʁ]
+homme | man | [ˈɔm]
+humaine | human | [ymˈɛn]
+humaines | humans | [ymˈɛn]
+humide | humid | [ymˈid]
+hélicoptère | helicopter | [elikɔptˈɛʁ]
+hésitation | hesitation | [ezitasjˈɔ̃]
+hésite | hesitates | [ezˈit]
+ici | here | [isˈi]
+idée | idea | [idˈe]
+il | he | [ˈil]
+illumine | illuminates | [ilymˈin]
+ils | they | [ˈil]
+immédiatement | immediately | [immedjatmˈɑ̃]
+implique | involves | [ɛ̃plˈik]
+important | important | [ɛ̃pɔʁtˈɑ̃]
+importe | matters | [ɛ̃pˈɔʁt]
+impossible | impossible | [ɛ̃pɔsˈibl]
+inattendu | unexpected | [inatɑ̃dˈy]
+incertitude | uncertainty | [ɛ̃sɛʁtitˈyd]
+inclus | included | [ɛ̃klˈy]
+incrédule | incredulous | [ɛ̃kʁedˈyl]
+indifférence | indifference | [ɛ̃difeʁˈɑ̃s]
+indifférent | indifferent | [ɛ̃difeʁˈɑ̃]
+indifférentes | indifferent | [ɛ̃difeʁˈɑ̃t]
+inhabituel | unusual | [inabityˈɛl]
+innocence | innocence | [inɔsˈɑ̃s]
+insiste | insists | [ɛ̃sˈist]
+instants | moments | [ɛ̃stˈɑ̃]
+intentionnalité | intentionality | [ɛ̃tɑ̃sjɔnalitˈe]
+interprète | interpreter | [ɛ̃tɛʁpʁˈɛt]
+involontaire | involuntary | [ɛ̃vɔlɔ̃tˈɛʁ]
+irons | will go | [iʁˈɔ̃]
+kilo | kilo | [kilˈo]
+l'a | the | [lˈa]
+l'abandonner | abandon | [labɑ̃dɔnˈe]
+l'addition | the bill | [ladisjˈɔ̃]
+l'ai | have | [lˈe]
+l'aide | help | [lˈɛd]
+l'air | air | [lˈɛʁ]
+l'animal | animal | [lanimˈal]
+l'appartement | apartment | [lapaʁtəmˈɑ̃]
+l'après-midi | afternoon | [lapʁˌɛmidˈi]
+l'argent | money | [laʁʒˈɑ̃]
+l'arrêt | stop | [laʁˈɛ]
+l'assurance | insurance | [lasyʁˈɑ̃s]
+l'auberge | inn | [lobˈɛʁʒ]
+l'aventure | adventure | [lavɑ̃tˈyʁ]
+l'avons | we have | [lavˈɔ̃]
+l'eau | water | [lˈo]
+l'employée | employee | [lɑ̃plwajˈe]
+l'entrée | entrance | [lɑ̃tʁˈe]
+l'essentiel | the essential | [lesɑ̃sjˈɛl]
+l'excitation | excitement | [lɛksitasjˈɔ̃]
+l'heure | hour | [lˈœʁ]
+l'homme | man | [lˈɔm]
+l'hélicoptère | helicopter | [lelikɔptˈɛʁ]
+l'illusion | illusion | [lilyzjˈɔ̃]
+l'important | important | [lɛ̃pɔʁtˈɑ̃]
+l'impression | impression | [lɛ̃pʁɛsjˈɔ̃]
+l'incertitude | uncertainty | [lɛ̃sɛʁtitˈyd]
+l'inscription | registration | [lɛ̃skʁipsjˈɔ̃]
+l'intérieur | interior | [lɛ̃teʁjˈœʁ]
+l'odeur | smell | [lɔdˈœʁ]
+l'orientation | orientation | [lɔʁjɑ̃tasjˈɔ̃]
+l'écouter | listen | [lekutˈe]
+l'église | church | [leɡlˈiz]
+l'émotion | emotion | [lemɔsjˈɔ̃]
+l'épaule | shoulder | [lepˈol]
+l'équipement | equipment | [lekipmˈɑ̃]
+la | the | [lˈa-]
+laisser | let | [lɛsˈe]
+laissée | left | [lɛsˈe]
+lait | milk | [lˈɛ]
+lampe | lamp | [lˈɑ̃p]
+le | the | [lˈə-]
+lendemain | next day | [lɑ̃dmˈɛ̃]
+lentement | slowly | [lɑ̃tmˈɑ̃]
+les | the | [lˈe-]
+leur | their | [lˈœʁ]
+leurs | theirs | [lˈœʁ]
+lever | raise | [ləvˈe]
+levé | raised | [ləvˈe]
+libre | free | [lˈibʁ]
+libres | free | [lˈibʁ]
+lire | read | [lˈiʁ]
+liste | list | [lˈist]
+livre | book | [lˈivʁ]
+local | local | [lɔkˈal]
+loin | far | [lwˈɛ̃]
+londres | London | [lˈɔ̃dʁ]
+long | long | [lˈɔ̃]
+longue | long | [lˈɔ̃ɡ]
+louer | rent | [luˈe]
+loyer | rent | [lwajˈe]
+lucas | Lucas | [lykˈa]
+lui | him | [lyˈi]
+lumière | light | [lymjˈɛʁ]
+lyon | Lyon | [ljˈɔ̃]
+là | there | [lˈa]
+là-bas | over there | [lˈabˈa]
+là-haut | up there | [lˈaˈo]
+lève | lifts | [lˈɛv]
+m'a | has | [mˈa]
+m'aider | help me | [mɛdˈe]
+m'appelle | calls me | [mapˈɛl]
+m'apprend | teaches me | [mapʁˈɑ̃]
+m'indiquer | show me | [mɛ̃dikˈe]
+m'offre | offers me | [mˈɔfʁ]
+m'ont | have | [mˈɔ̃]
+ma | my | [mˈa-]
+magasin | store | [maɡazˈɛ̃]
+magnifique | magnificent | [maɲifˈik]
+magnifiques | magnificent | [maɲifˈik]
+main | hand | [mˈɛ̃]
+mains | hands | [mˈɛ̃]
+maintenant | now | [mɛ̃tnˈɑ̃]
+mais | but | [mˈɛ]
+maison | house | [mɛzˈɔ̃]
+maisons | houses | [mɛzˈɔ̃]
+mal | bad | [mˈal]
+mangent | eat | [mˈɑ̃ʒ]
+manger | eat | [mɑ̃ʒˈe]
+manque | lack | [mˈɑ̃k]
+manquer | miss | [mɑ̃kˈe]
+marais | marsh | [maʁˈɛ]
+marc | Marc | [mˈaʁk]
+marche | walk | [mˈaʁʃ]
+marchent | walk | [mˈaʁʃ]
+marchions | walked | [maʁʃjˈɔ̃]
+matin | morning | [matˈɛ̃]
+mauvaise | bad | [movˈɛz]
+me | me | [mˈə-]
+mensuels | monthly | [mɑ̃syˈɛl]
+menu | menu | [mənˈy]
+mer | sea | [mˈɛʁ]
+merci | thank you | [mɛʁsˈi]
+merveille | wonder | [mɛʁvˈɛj]
+mes | my | [mˈe-]
+met | puts | [mˈɛ]
+mieux | better | [mjˈø]
+minutes | minutes | [minˈyt]
+moi | me | [mwˈa]
+moi-même | myself | [mwˌamˈɛm]
+moins | less | [mwˈɛ̃]
+mois | month | [mwˈa]
+moment | moment | [mɔmˈɑ̃]
+mon | my | [mˈɔ̃]
+monde | world | [mˈɔ̃d]
+monnaie | currency | [mɔnˈɛ]
+monotone | monotonous | [mɔnɔtˈɔn]
+mont | hill | [mˈɔ̃]
+montagne | mountain | [mɔ̃tˈaɲ]
+montagnes | mountains | [mɔ̃tˈanj]
+montant | amount | [mɔ̃tˈɑ̃]
+monte | goes up | [mˈɔ̃t]
+montent | go up | [mˈɔ̃t]
+montons | we go up | [mɔ̃tˈɔ̃]
+montrant | showing | [mɔ̃tʁˈɑ̃]
+montre | watch | [mˈɔ̃tʁ]
+montrer | show | [mɔ̃tʁˈe]
+montriez | you would show | [mɔ̃tʁiˈe]
+moreau | Moreau | [mɔʁˈo]
+moteur | engine | [mɔtˈœʁ]
+mots | words | [mˈo]
+moyen | means | [mwajˈɛ̃]
+mur | wall | [mˈyʁ]
+murs | walls | [mˈyʁ]
+mystérieuse | mysterious | [misteʁjˈøz]
+mètres | meters | [mˈɛtʁ]
+médecin | doctor | [medəsˈɛ̃]
+mélancolie | melancholy | [melɑ̃kɔlˈi]
+métro | subway | [metʁˈo]
+météo | weather | [meteˈo]
+mêle | mixes | [mˈɛl]
+même | same | [mˈɛm]
+n'a | has not | [nˈa]
+n'ai | have not | [nˈe]
+n'aie | do not have | [nˈɛ]
+n'aurais | would not have | [noʁˈɛ]
+n'avais | had not | [navˈɛ]
+n'entends | do not hear | [nɑ̃tˈɑ̃]
+n'est | is not | [nˈɛ]
+n'est-ce | isn't it | [nˈɛs]
+n'ont | have not | [nˈɔ̃]
+n'oublie | do not forget | [nublˈi]
+n'y | there isn't | [nˈi]
+nature | nature | [natˈyʁ]
+naïveté | naivety | [naivtˈe]
+ne | not | [nˈə-]
+nerveux | nervous | [nɛʁvˈø]
+nervosité | nervousness | [nɛʁvozitˈe]
+ni | nor | [nˈi]
+noir | black | [nwˈaʁ]
+nom | name | [nˈɔ̃]
+non | no | [nˈɔ̃]
+normal | normal | [nɔʁmˈal]
+normandie | Normandy | [nɔʁmɑ̃dˈi]
+nos | our | [nˈo]
+notion | notion | [nɔsjˈɔ̃]
+notre | our | [nˈɔtʁ]
+nourrissent | nourish | [nuʁˈis]
+nous | we | [nˈu]
+nouveaux | new | [nuvˈo]
+nouvelle | new | [nuvˈɛl]
+novembre | November | [nɔvˈɑ̃bʁ]
+noël | Christmas | [nɔˈɛl]
+nuages | clouds | [nyˈaʒ]
+nuit | night | [nyˈi]
+nuit-là | that night | [nyˈilˈa]
+nuits | nights | [nyˈi]
+numéro | number | [nymeʁˈo]
+nécessaire | necessary | [nesɛsˈɛʁ]
+observe | observe | [ɔbsˈɛʁv]
+obtenir | obtain | [ɔbtnˈiʁ]
+oh | oh | [ˈɔ]
+ont | have | [ˈɔ̃]
+onze | eleven | [ˈɔ̃z]
+opportunités | opportunities | [ɔpɔʁtynitˈe]
+opposition | opposition | [ɔpozisjˈɔ̃]
+optimiste | optimistic | [ɔptimˈist]
+ordinaire | ordinary | [ɔʁdinˈɛʁ]
+ordinateur | computer | [ɔʁdinatˈœʁ]
+ordonnance | prescription | [ɔʁdɔnˈɑ̃s]
+organisions | organized | [ɔʁɡanizjˈɔ̃]
+orties | nettles | [ɔʁtˈi]
+ou | or | [ˈu]
+oublié | forgotten | [ubliˈe]
+oui | yes | [wˈi]
+ouvre | opens | [ˈuvʁ]
+ouvrir | open | [uvʁˈiʁ]
+où | where | [ˈu]
+pain | bread | [pˈɛ̃]
+paniquer | panic | [panikˈe]
+panneaux | panels | [panˈo]
+papier | paper | [papjˈe]
+paquet-cadeau | gift package | [pakˈɛkadˈo]
+par | by | [pˈaʁ]
+pardon | sorry | [paʁdˈɔ̃]
+pardonne | forgives | [paʁdˈɔn]
+pardonne-moi | forgive me | [paʁdˈɔnmwˈa]
+pareil | same | [paʁˈɛj]
+parfait | perfect | [paʁfˈɛ]
+parfois | sometimes | [paʁfwˈa]
+paris | Paris | [paʁˈi]
+parle | speaks | [pˈaʁl]
+parler | to speak | [paʁlˈe]
+parlez-vous | do you speak | [paʁlˈevˈu]
+part | part | [pˈaʁ]
+partagent | share | [paʁtˈaʒ]
+parti | party | [paʁtˈi]
+partie | part | [paʁtˈi]
+parties | parts | [paʁtˈi]
+partir | to leave | [paʁtˈiʁ]
+partira | will leave | [paʁtiʁˈa]
+partons | let's leave | [paʁtˈɔ̃]
+partons-nous | shall we leave? | [paʁtˈɔ̃nˈu]
+partout | everywhere | [paʁtˈu]
+pas | not | [pˈa]
+passent | pass | [pˈas]
+passeport | passport | [paspˈɔʁ]
+passer | to pass | [pasˈe]
+patience | patience | [pasjˈɑ̃s]
+patronne | female boss | [patʁˈɔn]
+payer | to pay | [pɛjˈe]
+payons | we pay | [pɛjˈɔ̃]
+paysage | landscape | [pɛizˈaʒ]
+peine | trouble | [pˈɛn]
+pendant | during | [pɑ̃dˈɑ̃]
+pensais | thought | [pɑ̃sˈɛ]
+pense | think | [pˈɑ̃s]
+perd | loses | [pˈɛʁ]
+perdre | to lose | [pˈɛʁdʁ]
+perdu | lost | [pɛʁdˈy]
+perdue | lost (feminine) | [pɛʁdˈy]
+permettra | will allow | [pɛʁmɛtʁˈa]
+personne | nobody | [pɛʁsˈɔn]
+personnes | people | [pɛʁsˈɔn]
+perte | loss | [pˈɛʁt]
+petit | small | [pətˈi]
+petite | small (feminine) | [pətˈit]
+peu | little | [pˈø]
+peur | fear | [pˈœʁ]
+peut | can | [pˈø]
+peut-être | maybe | [pˈøtˈɛtʁ]
+peux | can | [pˈø]
+pharmacie | pharmacy | [faʁmasˈi]
+photos | photos | [fɔtˈo]
+pierre | stone | [pjˈɛʁ]
+pin | pine | [pˈɛ̃]
+piquent | sting | [pˈik]
+piqûres | stings | [pikˈyːʁ]
+pis | worse | [pˈi]
+pittoresque | picturesque | [pitɔʁˈɛsk]
+pièce | room | [pjˈɛs]
+places | seats | [plˈas]
+plafond | ceiling | [plafˈɔ̃]
+plainte | complaint | [plˈɛ̃t]
+plaisir | pleasure | [plɛzˈiʁ]
+plantes | plants | [plˈɑ̃t]
+plaît | pleases | [plˈɛ]
+pleurant | crying | [pløʁˈɑ̃]
+plus | more | [plˈy]
+poche | pocket | [pˈɔʃ]
+poches | pockets | [pˈɔʃ]
+pointe | tip | [pwˈɛ̃t]
+police | police | [pɔlˈis]
+portable | portable | [pɔʁtˈabl]
+portait | wore | [pɔʁtˈɛ]
+porte | door | [pˈɔʁt]
+portefeuille | wallet | [pɔʁtəfˈœj]
+porter | carry | [pɔʁtˈe]
+pose | pose | [pˈoz]
+possibles | possible | [pɔsˈibl]
+poste | post | [pˈɔst]
+potable | drinkable | [pɔtˈabl]
+pour | for | [pˈuʁ]
+pourquoi | why | [puʁkwˈa]
+pourrait | could | [puʁˈɛ]
+pourriez-vous | could you | [puʁjˈevˈu]
+pourvu | provided | [puʁvˈy]
+pouvez | can | [puvˈe]
+pouvez-vous | can you | [puvˈevˈu]
+pouvions | could | [puvjˈɔ̃]
+prend | takes | [pʁˈɑ̃]
+prendre | take | [pʁˈɑ̃dʁ]
+prends | take | [pʁˈɑ̃]
+prenez | take | [pʁənˈe]
+prennent | take | [pʁˈɛn]
+prenons | take | [pʁənˈɔ̃]
+presque | almost | [pʁˈɛskə]
+pris | taken | [pʁˈi]
+prix | price | [pʁˈi]
+problème | problem | [pʁɔblˈɛm]
+prochain | next | [pʁɔʃˈɛ̃]
+proche | near | [pʁˈɔʃ]
+professionnels | professionals | [pʁɔfɛsjɔnˈɛl]
+profond | deep | [pʁɔfˈɔ̃]
+profonde | deep | [pʁɔfˈɔ̃d]
+profondément | deeply | [pʁɔfɔ̃demˈɑ̃]
+promenade | walk | [pʁɔmnˈad]
+promène | walks | [pʁɔmˈɛn]
+promènent | walk | [pʁɔmˈɛn]
+proposé | proposed | [pʁɔpozˈe]
+propriétaire | owner | [pʁɔpʁietˈɛʁ]
+protéger | protect | [pʁɔteʒˈe]
+proximité | proximity | [pʁɔksimitˈe]
+prudemment | carefully | [pʁydamˈɑ̃]
+près | near | [pʁˈɛ]
+précaution | precaution | [pʁekosjˈɔ̃]
+préfères | prefer | [pʁefˈɛʁ]
+préféré | favorite | [pʁefeʁˈe]
+prépare | prepares | [pʁepˈaʁ]
+prétendre | pretend | [pʁetˈɑ̃dʁ]
+prévenu | warned | [pʁevnˈy]
+prêt | ready | [pʁˈɛ]
+prête | ready | [pʁˈɛt]
+prêts | ready | [pʁˈɛ]
+pu | could | [pˈy]
+puis | then | [pyˈi]
+pull | sweater | [pˈul]
+pur | pure | [pˈyʁ]
+pâtisseries | pastries | [patisəʁˈi]
+père | father | [pˈɛʁ]
+qu'avant | than before | [kavˈɑ̃]
+qu'avons-nous | what have we | [kavˈɔ̃nˈu]
+qu'elle | that she | [kˈɛl]
+qu'est-ce | what is | [kˈɛs]
+qu'il | that he | [kˈil]
+qu'on | that we | [kˈɔ̃]
+qu'à | than | [kˈa]
+quai | platform | [kˈe]
+qualifications | qualifications | [kalifikasjˈɔ̃]
+quand | when | [kˈɑ̃]
+quartier | neighborhood | [kaʁtjˈe]
+quatre | four | [kˈatʁ]
+quatrième | fourth | [katʁiˈɛm]
+que | that | [kˈə]
+quel | which | [kˈɛl]
+quelle | which | [kˈɛl]
+quelles | which | [kˈɛl]
+quelqu'un | someone | [kɛlkˈœ̃]
+quelque | some | [kˈɛlkə]
+quelques | some | [kˈɛlkə]
+quels | which | [kˈɛl]
+question | question | [kɛstjˈɔ̃]
+qui | who | [kˈi]
+quinze | fifteen | [kˈɛ̃z]
+quitté | left | [kitˈe]
+quoi | what | [kwˈa]
+racontera | will tell | [ʁakɔ̃tʁˈa]
+raison | reason | [ʁɛzˈɔ̃]
+randonnée | hike | [ʁɑ̃dɔnˈe]
+randonnées | hikes | [ʁɑ̃dɔnˈe]
+rapide | fast | [ʁapˈid]
+rapidement | quickly | [ʁapidmˈɑ̃]
+rappellent | remind | [ʁapˈɛl]
+rapproche | approaches | [ʁapʁˈɔʃ]
+recherche | research | [ʁəʃˈɛʁʃ]
+recommandez | recommend | [ʁəkɔmɑ̃dˈe]
+reconnais | recognize | [ʁəkɔnˈɛ]
+reconnues | recognized | [ʁəkɔnˈy]
+redescendent | descend | [ʁədɛsˈɑ̃d]
+redresse | straightens up | [ʁədʁˈɛs]
+refuge | refuge | [ʁəfˈyʒ]
+regardant | watching | [ʁəɡaʁdˈɑ̃]
+regarde | looks | [ʁəɡˈaʁd]
+regardent | look | [ʁəɡˈaʁd]
+regardez | look | [ʁəɡaʁdˈe]
+regardé | looked | [ʁəɡaʁdˈe]
+regrets | regrets | [ʁəɡʁˈɛ]
+relation | relationship | [ʁəlasjˈɔ̃]
+remarque | remark | [ʁəmˈaʁk]
+remboursé | refunded | [ʁɑ̃buʁsˈe]
+remplit | fills | [ʁɑ̃plˈi]
+rencontres | meetings | [ʁɑ̃kˈɔ̃tʁ]
+rend | gives | [ʁˈɑ̃]
+rendent | make | [ʁˈɑ̃d]
+rendez-vous | appointment | [ʁɑ̃dˈevˈu]
+rentre | returns | [ʁˈɑ̃tʁ]
+repartent | leave | [ʁəpˈaʁt]
+reposez-vous | rest | [ʁəpozˈevˈu]
+reprend | resumes | [ʁəpʁˈɑ̃]
+reprenez | take up | [ʁəpʁənˈe]
+reproche | reproach | [ʁəpʁˈɔʃ]
+requises | required | [ʁəkˈiz]
+respire | breathe | [ʁɛspˈiʁ]
+ressens | feel | [ʁəsˈɛn]
+reste | remains | [ʁˈɛst]
+reste-t-il | is there any left | [ʁˈɛsttˈil]
+restent | remain | [ʁˈɛst]
+rester | stay | [ʁɛstˈe]
+restiez | stayed | [ʁɛstjˈe]
+restons | let's stay | [ʁɛstˈɔ̃]
+retard | delay | [ʁətˈaʁ]
+retour | return | [ʁətˈuʁ]
+retourne | returns | [ʁətˈuʁn]
+retrait | withdrawal | [ʁətʁˈɛ]
+retrouverons | will find again | [ʁətʁuvʁˈɔ̃]
+retrouvé | found | [ʁətʁuvˈe]
+reviennent | come back | [ʁəvjˈɛn]
+reviens | come back | [ʁəvjˈɛ̃]
+revoir | goodbye | [ʁəvwˈaʁ]
+revoit | sees again | [ʁəvwˈa]
+ridées | wrinkled | [ʁidˈe]
+rien | nothing | [ʁiˈɛ̃]
+risque | risk | [ʁˈisk]
+rochers | rocks | [ʁɔʃˈe]
+rond | round | [ʁˈɔ̃]
+rosiers | rose bushes | [ʁozjˈe]
+rouge | red | [ʁˈuʒ]
+rue | street | [ʁˈy]
+rues | streets | [ʁˈy]
+réalise | realizes | [ʁealˈiz]
+réclamation | claim | [ʁeklamasjˈɔ̃]
+réflexion | reflection | [ʁeflɛksjˈɔ̃]
+réfléchir | to think | [ʁefleʃˈiʁ]
+réfléchit | thinks | [ʁefleʃˈi]
+répand | spreads | [ʁepˈɑ̃]
+répandre | to spread | [ʁepˈɑ̃dʁ]
+répond | answers | [ʁepˈɔ̃]
+répéter | repeat | [ʁepetˈe]
+réseau | network | [ʁezˈo]
+réservation | reservation | [ʁezɛʁvasjˈɔ̃]
+réserve | reserve | [ʁezˈɛʁv]
+résonne | resonates | [ʁezˈɔn]
+réunion | meeting | [ʁeynjˈɔ̃]
+réunis | gathered | [ʁeynˈi]
+réveiller | wake up | [ʁevɛjˈe]
+rêve | dream | [ʁˈɛv]
+rêves | dreams | [ʁˈɛv]
+s'adresse | addresses | [sadʁˈɛs]
+s'animer | comes to life | [sanimˈe]
+s'approche | approaches | [sapʁˈɔʃ]
+s'approchent | approach | [sapʁˈɔʃ]
+s'arrête | stops | [saʁˈɛt]
+s'asseoir | sit down | [saswˈaʁ]
+s'assoient | sit | [saswˈa]
+s'assoit | sits | [saswˈa]
+s'embrassent | kiss each other | [sɑ̃bʁˈas]
+s'en | of it | [sˈɑ̃]
+s'est | has | [sˈɛ]
+s'exclame | exclaims | [sɛksklˈam]
+s'il | if | [sˈil]
+s'ils | if | [sˈil]
+s'orienter | orient | [sɔʁjɑ̃tˈe]
+s'éloigne | moves away | [selwˈaɲ]
+sa | her | [sˈa-]
+sac | bag | [sˈak]
+sacs | bags | [sˈak]
+sains | healthy | [sˈɛ̃]
+sais | know | [sˈɛ]
+salaire | salary | [salˈɛʁ]
+salle | room | [sˈal]
+salut | hi | [salˈy]
+sandwichs | sandwiches | [sɑ̃dwˈitʃ]
+sans | without | [sˈɑ̃]
+santé | health | [sɑ̃tˈe]
+saufs | safe | [sˈof]
+saurai | will know | [soʁˈe]
+sauvé | saved | [sovˈe]
+sauvée | saved | [sovˈe]
+savent | know | [sˈav]
+scène | scene | [sˈɛn]
+scènes | scenes | [sˈɛn]
+se | himself/herself/itself | [sˈə-]
+seconde | second | [səɡˈɔ̃d]
+secoue | shakes | [səkˈu]
+secouriste | paramedic | [səkuʁˈist]
+secouristes | paramedics | [səkuʁˈist]
+secours | help | [səkˈuʁ]
+seize | sixteen | [sˈɛz]
+semaine | week | [səmˈɛn]
+semble | seems | [sˈɑ̃bl]
+sens | sense | [sˈɑ̃s]
+sent | feels | [sˈɑ̃]
+sentant | feeling | [sɑ̃tˈɑ̃]
+sentier | path | [sɑ̃tjˈe]
+sentir | to feel | [sɑ̃tˈiʁ]
+sept | seven | [sˈɛt]
+sera | will be | [səʁˈa]
+serai | will be | [səʁˈe]
+serez | will be | [səʁˈe]
+serons | will be | [səʁˈɔ̃]
+sert | serves | [sˈɛʁ]
+serveur | waiter | [sɛʁvˈœʁ]
+servi | served | [sɛʁvˈi]
+service | service | [sɛʁvˈis]
+ses | his/her/its | [sˈe-]
+seule | only | [sˈœl]
+seulement | only | [sølmˈɑ̃]
+si | if | [sˈi]
+signe | sign | [sˈiɲ]
+signes | signs | [sˈinj]
+signification | meaning | [siɲifikasjˈɔ̃]
+signifie | means | [siɲifˈi]
+silence | silence | [silˈɑ̃s]
+simple | simple | [sˈɛ̃pl]
+simplement | simply | [sɛ̃pləmˈɑ̃]
+situation | situation | [sityasjˈɔ̃]
+soir | evening | [swˈaʁ]
+soirée | party | [swaʁˈe]
+soit | either | [swˈa]
+soixante | sixty | [swasˈɑ̃t]
+solde | balance | [sˈɔld]
+soleil | sun | [sɔlˈɛj]
+solide | solid | [sɔlˈid]
+solitudes | solitudes | [sɔlitˈyd]
+sombre | dark | [sˈɔ̃bʁ]
+sommes | are | [sˈɔm]
+sommets | summits | [sɔmˈɛ]
+son | his | [sˈɔ̃]
+sons | sounds | [sˈɔ̃]
+sont | are | [sˈɔ̃]
+sont-elles | are they | [sˈɔ̃tˈɛl]
+sophie | Sophie | [sɔfˈi]
+sort | fate | [sˈɔʁ]
+sortant | leaving | [sɔʁtˈɑ̃]
+soudain | sudden | [sudˈɛ̃]
+souffle | breath | [sˈufl]
+souhaiterais | would like | [suɛtʁˈɛ]
+soulagée | relieved | [sulaʒˈe]
+soupe | soup | [sˈup]
+soupire | sighs | [supˈiʁ]
+source | source | [sˈuʁs]
+sourire | smile | [suʁˈiʁ]
+sourit | smiles | [suʁˈi]
+sous | under | [sˈu]
+souscrire | subscribe | [suskʁˈiʁ]
+souvenirs | memories | [suvnˈiʁ]
+soyons | let's be | [swajˈɔ̃]
+spontanément | spontaneously | [spɔ̃tanemˈɑ̃]
+structure | structure | [stʁyktˈyʁ]
+stupides | stupid | [stypˈid]
+su | knew | [sˈy]
+submerge | overwhelms | [sybmˈɛʁʒ]
+sucre | sugar | [sˈykʁ]
+suis | am | [syˈi]
+suit | follows | [syˈi]
+suive | follow | [syˈiv]
+suivent | follow | [syˈiv]
+suivre | follow | [syˈivʁ]
+sur | on | [sˈyʁ]
+surgissent | arise | [syʁʒˈis]
+surpris | surprised | [syʁpʁˈi]
+surprise | surprise | [syʁpʁˈiz]
+survie | survival | [syʁvˈi]
+survivre | survive | [syʁvˈivʁ]
+survécu | survived | [syʁvekˈy]
+sécurité | security | [sekyʁitˈe]
+séparation | separation | [sepaʁasjˈɔ̃]
+séparent | separate | [sepˈaʁ]
+séparons | separate | [sepaʁˈɔ̃]
+séparés | separated | [sepaʁˈe]
+sûr | sure | [sˈyːʁ]
+sûrs | sure | [sˈyːʁ]
+t'appelles | call yourself | [tapˈɛl]
+t'avoir | to have you | [tavwˈaʁ]
+t'inquiètes | worry | [tɛ̃kjˈɛt]
+t'écouter | listen to you | [tekutˈe]
+table | table | [tˈabl]
+taille | size | [tˈaj]
+tant | so much | [tˈɑ̃]
+tard | late | [tˈaʁ]
+taux | rate | [tˈo]
+te | you | [tˈə-]
+tellement | so much | [tɛlmˈɑ̃]
+temps | time | [tˈɑ̃]
+température | temperature | [tɑ̃peʁatˈyʁ]
+tempêtes | storms | [tɑ̃pˈɛt]
+tenant | holding | [tənˈɑ̃]
+tendue | tense | [tɑ̃dˈy]
+tendues | tense | [tɑ̃dˈy]
+tentative | attempt | [tɑ̃tatˈiv]
+terriblement | terribly | [tɛʁibləmˈɑ̃]
+tgv | high-speed train | [tˌeʒˌevˈe]
+thé | tea | [tˈe]
+tiennent | hold | [tjˈɛn]
+tiges | stems | [tˈiʒ]
+tissu | fabric | [tisˈy]
+toi | you | [twˈa]
+toilettes | toilets | [twalˈɛt]
+tomates | tomatoes | [tɔmˈat]
+ton | your | [tˈɔ̃]
+touche | touch | [tˈuʃ]
+touchent | touch | [tˈuʃ]
+toucher | touch | [tuʃˈe]
+tourne | turns | [tˈuʁn]
+tourner | turn | [tuʁnˈe]
+tournez | turn | [tuʁnˈe]
+tous | all | [tˈus]
+tousse | cough | [tˈus]
+tout | all | [tˈu]
+toute | all | [tˈut]
+toutes | all | [tˈut]
+train | train | [tʁˈɛ̃]
+trains | trains | [tʁˈɛ̃]
+tranquille | quiet | [tʁɑ̃kˈil]
+transformation | transformation | [tʁɑ̃sfɔʁmasjˈɔ̃]
+transforme | transforms | [tʁɑ̃sfˈɔʁm]
+transformée | transformed | [tʁɑ̃sfɔʁmˈe]
+transférer | transfer | [tʁɑ̃sfeʁˈe]
+transports | transports | [tʁɑ̃spˈɔʁ]
+travail | work | [tʁavˈaj]
+travers | across | [tʁavˈɛʁ]
+tremblant | trembling | [tʁɑ̃blˈɑ̃]
+tremblants | trembling | [tʁɑ̃blˈɑ̃]
+tristesse | sadness | [tʁistˈɛs]
+trois | three | [tʁwˈa]
+trop | too | [tʁˈo]
+trouve | finds | [tʁˈuv]
+trouvent | find | [tʁˈuv]
+trouver | find | [tʁuvˈe]
+trouvé | found | [tʁuvˈe]
+trouvée | found | [tʁuvˈe]
+trouvés | found | [tʁuvˈe]
+très | very | [tʁˈɛ]
+tu | you | [tˈy]
+téléphone | phone | [telefˈɔn]
+téléphones | phones | [telefˈɔn]
+tête | head | [tˈɛt]
+un | a | [ˈœ̃]
+une | a | [ˈyn]
+utilisant | using | [ytilizˈɑ̃]
+utilisé | used | [ytilizˈe]
+va | goes | [vˈa]
+vallonné | hilly | [valɔnˈe]
+vallée | valley | [valˈe]
+venons | come | [vənˈɔ̃]
+vent | wind | [vˈɑ̃]
+ventre | stomach | [vˈɑ̃tʁ]
+venus | came | [vənˈy]
+verrez | will see | [vɛʁˈe]
+vers | towards | [vˈɛʁ]
+vertes | green | [vˈɛʁt]
+veste | jacket | [vˈɛst]
+veut | wants | [vˈø]
+veux | want | [vˈø]
+veux-tu | do you want | [vˈøtˈy]
+vie | life | [vˈi]
+vieil | old | [vjˈɛj]
+vieille | old | [vjˈɛj]
+viens | come | [vjˈɛ̃]
+vient | comes | [vjˈɛ̃]
+vies | lives | [vˈi]
+vieux | old | [vjˈø]
+village | village | [vilˈaʒ]
+ville | city | [vˈil]
+vin | wine | [vˈɛ̃]
+vins | wines | [vˈɛ̃]
+virement | transfer | [viʁmˈɑ̃]
+visage | face | [vizˈaʒ]
+vite | quickly | [vˈit]
+vivante | alive | [vivˈɑ̃t]
+voici | here is | [vwasˈi]
+voilà | there is | [vwalˈa]
+vois | see | [vwˈa]
+voit | sees | [vwˈa]
+voix | voice | [vwˈa]
+vol | theft | [vˈɔl]
+volets | shutters | [vɔlˈɛ]
+volontiers | gladly | [vɔlɔ̃tjˈe]
+volé | stolen | [vɔlˈe]
+votre | your | [vˈɔtʁ]
+voudrais | would like | [vudʁˈɛ]
+voulais | wanted | [vulˈɛ]
+voulait | wanted | [vulˈɛ]
+vous | you | [vˈu]
+voyage | trip | [vwajˈaʒ]
+voyager | to travel | [vwajaʒˈe]
+voyons | let's see | [vwajˈɔ̃]
+vrai | true | [vʁˈɛ]
+vraiment | really | [vʁɛmˈɑ̃]
+vu | seen | [vˈy]
+vue | view | [vˈy]
+vécu | lived | [vekˈy]
+végétarien | vegetarian | [veʒetaʁjˈɛ̃]
+végétarienne | vegetarian | [veʒetaʁjˈɛn]
+vérifie | check | [veʁifˈi]
+vérifier | to check | [veʁifjˈe]
+vérifié | checked | [veʁifjˈe]
+vérité | truth | [veʁitˈe]
+vêtements | clothes | [vɛtmˈɑ̃]
+wagon | wagon | [vaɡˈɔ̃]
+yeux | eyes | [jˈø]
+écoute | listen | [ekˈut]
+éléments | elements | [elemˈɑ̃]
+épais | thick | [epˈɛ]
+épaisse | thick | [epˈɛs]
+épicerie | grocery | [episʁˈi]
+épreuve | test | [epʁˈøv]
+épuisé | exhausted | [epyizˈe]
+équipe | team | [ekˈip]
+était | was | [etˈɛ]
+était-ce | was it | [etˈɛs]
+étiez | were | [etjˈe]
+étions | were | [etjˈɔ̃]
+étrange | strange | [etʁˈɑ̃ʒ]
+étranges | strange | [etʁˈɑ̃ʒ]
+étroites | narrow | [etʁwˈat]
+été | summer | [etˈe]
+êtes | are | [ˈɛt]
+être | to be | [ˈɛtʁ]
