@@ -4,632 +4,632 @@
 
 ### CENA 1: O Café da Manhã
 
-O sol nasce suavemente sobre São Paulo. As ruas da Vila Madalena começam a ganhar vida. Sophie Moreira entra em seu café preferido, um lugar acolhedor na esquina da rua Aspicuelta.
+O sol nasce suavemente sobre São Paulo. As ruas de Vila Madalena começam a ganhar vida. Sophie Moreira entra em seu café preferido, um lugarzinho aconchegante na esquina da Rua Harmonia.
 
-«Bom dia Sophie, tudo bem?» pergunta Marco, o garçom que a conhece bem.
+"Bom dia, Sophie, tudo bem?" pergunta Marc, o garçom que a conhece bem.
 
-«Sim, tudo bem obrigada. E você?» responde Sophie com um sorriso cansado.
+"Sim, bem, obrigada. E você?" responde Sophie com um sorriso cansado.
 
-«Tudo certo. O que você vai querer hoje?»
+"Tudo bem. O que você vai querer hoje de manhã?"
 
-«Um café e um pão na chapa, por favor.»
+"Um café e um pão na chapa, por favor."
 
-Sophie senta perto da janela. Ela observa as pessoas que passam na rua. Alguns minutos depois, Lucas Duarte chega, sua mochila nas costas.
+Sophie senta-se perto da janela. Ela observa as pessoas passando na rua. Poucos minutos depois, Lucas Duarte chega, com sua mochila no ombro.
 
-«Bom dia Lucas!» diz Sophie.
+"Bom dia, Lucas!" diz Sophie.
 
-«Oi! Você dormiu bem?»
+"E aí! Dormiu bem?"
 
-«Não, não muito bem. Tive sonhos estranhos.»
+"Não, não muito. Tive sonhos estranhos."
 
-Lucas faz o pedido no balcão. «Um café com leite e um pão de queijo, por favor.»
+Lucas faz seu pedido no balcão. "Um café com leite e um pão de chocolate, por favor."
 
-Ele vem sentar na frente de Sophie. Marco traz os pedidos.
+Ele se senta em frente a Sophie. Marc traz os pedidos deles.
 
-«Aqui está para vocês. Bom apetite!»
+"Aqui estão. Bom apetite!"
 
-«Obrigado,» dizem eles juntos.
+"Obrigado," dizem eles juntos.
 
-Lucas olha Sophie atentamente. «Você quer açúcar no seu café?»
+Lucas olha para Sophie atentamente. "Quer açúcar no seu café?"
 
-«Não obrigada, eu tomo sem açúcar.»
+"Não, obrigada, eu tomo puro."
 
-«Está um dia bonito hoje,» observa Lucas olhando pela janela.
+"Está um dia bonito hoje," observa Lucas olhando pela janela.
 
-«Sim, é um dia lindo.»
+"Sim, está um dia lindo."
 
-Eles bebem o café em silêncio por alguns instantes. Sophie suspira profundamente.
+Eles bebem seus cafés em silêncio por alguns momentos. Sophie suspira profundamente.
 
-«Sabe Lucas, a vida é tão monótona aqui.»
+"Sabe, Lucas, a vida é tão monótona aqui."
 
-«Concordo com você. Todo dia é igual.»
+"Concordo contigo. Todo dia é igual."
 
-«A gente deveria viajar,» diz Sophie espontaneamente.
+"A gente devia fazer uma viagem," diz Sophie espontaneamente.
 
-Lucas a olha com surpresa, então um sorriso aparece em seu rosto. «Você tem razão! Por que não?»
+Lucas a olha surpreso, depois um sorriso surge em seu rosto. "Você tem razão! Por que não?"
 
-### CENA 2: As Compras na Cidade
+### CENA 2: Compras na Cidade
 
-À tarde, Sophie e Lucas passeiam pelas ruas da Vila Madalena. Eles entram em uma pequena mercearia.
+À tarde, Sophie e Lucas passeiam pelas ruas de Vila Madalena. Eles entram em uma pequena mercearia.
 
-«Bom dia,» diz a comerciante. «O que posso fazer por vocês?»
+"Bom dia," diz a comerciante. "O que posso fazer por vocês?"
 
-«Precisamos de pão,» responde Sophie.
+"Precisamos de pão," responde Sophie.
 
-«O pão está ali, perto da entrada.»
+"O pão está ali, perto da entrada."
 
-Lucas examina os queijos no balcão. «O queijo está fresco?»
+Lucas examina os queijos no balcão. "O queijo está fresco?"
 
-«Sim, está muito bom. Recebi hoje de manhã.»
+"Sim, está ótimo. Chegou esta manhã."
 
-«Perfeito. E quanto custam os tomates?»
+"Perfeito. E quanto custam os tomates?"
 
-«Seis reais o quilo.»
+"Três reais o quilo."
 
-Sophie faz uma cara de desaprovação. «Está muito caro para mim.»
+Sophie faz uma careta. "Está caro para mim."
 
-«Olha,» diz a comerciante, «tenho tomates de ontem. Quatro reais o quilo.»
+"Olha," diz a comerciante, "tenho tomates de ontem. Dois reais o quilo."
 
-«Tá bom, a gente leva um quilo.»
+"Ok, vamos levar um quilo."
 
-Eles continuam as compras. Lucas pergunta: «Onde fica a padaria?»
+Eles continuam as compras. Lucas pergunta: "Onde fica a padaria?"
 
-«É na esquina, depois da igreja.»
+"É na esquina, depois da igreja."
 
-Saindo da loja, Sophie respira o ar fresco. «Eu adoro esse bairro.»
+Ao sair da loja, Sophie respira o ar fresco. "Eu adoro esse bairro."
 
-«Eu também, é muito bonito. Os prédios antigos têm charme.»
+"Eu também, é muito bonito. Os prédios antigos têm seu charme."
 
-Eles caminham em direção à padaria. Lucas tem uma ideia. «A gente compra vinho?»
+Eles caminham em direção à padaria. Lucas tem uma ideia. "A gente compra vinho?"
 
-«Boa ideia! Podemos pegar uma garrafa para hoje à noite.»
+"Boa ideia! Podemos pegar uma garrafa para esta noite."
 
-«Que vinho você prefere?»
+"Qual vinho você prefere?"
 
-«Tinto, sempre tinto.»
+"O tinto, sempre o tinto."
 
-«Perfeito, vamos pegar uma garrafa.»
+"Perfeito, vamos pegar uma garrafa."
 
-Eles entram em uma pequena adega. O dono os aconselha e eles saem com um bom vinho brasileiro.
+Eles entram em uma pequena loja de vinhos. O dono os aconselha e eles saem com um bom vinho tinto.
 
 ### CENA 3: Conversa sobre o Sonho
 
-À noite, no apartamento de Sophie, eles compartilham o vinho e queijo. A conversa fica mais profunda.
+À noite, no apartamento da Sophie, eles compartilham vinho e queijo. A conversa fica mais profunda.
 
-«Sabe Lucas, estou cansada desta vida,» começa Sophie.
+"Você sabe, Lucas, estou cansada dessa vida," começa Sophie.
 
-«Eu também, tudo é igual todo dia. Trânsito, trabalho, casa.»
+"Eu também, todo dia é a mesma coisa. Metrô, trabalho, dormir."
 
-«A gente poderia viajar para algum lugar. De verdade, não só falar.»
+"A gente podia viajar para algum lugar. Pra valer, não só falar sobre isso."
 
-Lucas se endireita no sofá. «Onde você quer ir?»
+Lucas se ajeita no sofá. "Para onde você quer ir?"
 
-«Ainda não sei. Mas longe daqui.»
+"Ainda não sei. Mas longe daqui."
 
-«Montanha ou praia?» pergunta Lucas.
+"Montanha ou mar?" pergunta Lucas.
 
-«Montanha, eu adoro a natureza. As árvores, o ar puro, o silêncio.»
+"Montanha, eu adoro a natureza. As árvores, o ar puro, o silêncio."
 
-«A Serra da Mantiqueira?»
+"A Serra da Mantiqueira?"
 
-«Sim! É uma ideia excelente!»
+"Sim! É uma ótima ideia!"
 
-Lucas se levanta com entusiasmo. «Quando vamos partir?»
+Lucas se levanta empolgado. "Quando a gente vai?"
 
-«Logo, muito logo.»
+"Logo, muito logo."
 
-Sophie hesita um momento. «Estou com um pouco de medo, sabe.»
+Sophie hesita um momento. "Estou um pouco com medo, sabe."
 
-Lucas pega a mão dela. «Não tenha medo, vai dar tudo certo.»
+Lucas pega na mão dela. "Não tenha medo, vai dar tudo certo."
 
-«Você tem razão, vamos! O que a gente tem a perder?»
+"Você tem razão, vamos nessa! O que a gente tem a perder?"
 
 ### CENA 4: A Decisão
 
-Na manhã seguinte, Lucas chega na casa de Sophie com seu laptop.
+Na manhã seguinte, Lucas chega na casa da Sophie com seu laptop.
 
-«Está decidido, vamos viajar!» anuncia ele.
+"Está decidido, vamos embora!" anuncia ele.
 
-«Daqui a quanto tempo?»
+"Em quanto tempo?"
 
-«Uma semana. Olhei os ônibus ontem à noite.»
+"Em uma semana. Eu olhei os trens essa noite."
 
-«Uma semana? É tão rápido!»
+"Uma semana? É tão rápido!"
 
-«Sim, mas é melhor assim. Se a gente esperar muito, nunca vai sair.»
+"Sim, mas é melhor assim. Se a gente esperar demais, nunca vamos."
 
-Sophie pensa. «Você tem razão. O que a gente leva?»
+Sophie pensa. "Você tem razão. O que a gente leva?"
 
-«Não muita coisa, só o essencial. Roupas quentes, uma lanterna...»
+"Só o essencial. Roupas quentes, uma lanterna..."
 
-«Uma mochila cada,» decide Sophie.
+"Uma mochila para cada um," decide Sophie.
 
-«E nossos celulares?»
+"E nossos telefones?"
 
-«Claro, para as fotos. E para segurança.»
+"Claro, para as fotos. E para a segurança."
 
-Sophie começa a fazer uma lista. «Estou empolgada! Isso realmente vai acontecer!»
+Sophie começa a fazer uma lista. "Estou animada! Está realmente acontecendo!"
 
-Lucas sorri. «Eu também. Uma nova aventura começa.»
+Lucas sorri. "Eu também. Uma nova aventura começa."
 
-### CENA 5: Na Rodoviária
+### CENA 5: Na Estação
 
-Uma semana depois, Sophie e Lucas estão na frente da Rodoviária do Tietê. Suas mochilas estão prontas. A empolgação se mistura com o nervosismo.
+Uma semana depois, Sophie e Lucas estão em frente à Estação da Luz em São Paulo. Eles estão com suas mochilas prontas. A excitação se mistura com a nervosidade.
 
-Eles se aproximam do guichê. «Duas passagens para Campos do Jordão, por favor,» diz Lucas.
+Eles se aproximam do guichê. "Dois bilhetes para São José dos Campos, por favor," diz Lucas.
 
-«Só ida ou ida e volta?» pergunta a atendente.
+"Ida ou ida e volta?" pergunta a atendente.
 
-«Só ida.»
+"Ida."
 
-«O ônibus sai que horas?» pergunta Sophie.
+"O trem sai a que horas?" pergunta Sophie.
 
-«Às onze e quinze. Vocês têm sorte, é o direto.»
+"Às onze e quinze. Vocês têm sorte, é o direto."
 
-Lucas olha o relógio. «Temos tempo de tomar um café?»
+Lucas olha para o relógio. "Temos tempo para tomar um café?"
 
-«Sim, temos meia hora.»
+"Sim, temos meia hora."
 
-Eles encontram uma lanchonete na rodoviária. Sophie pergunta ao atendente: «Qual plataforma para o ônibus de Campos do Jordão?»
+Eles encontram um café na estação. Sophie pergunta ao garçom: "Qual plataforma para o trem de São José dos Campos?"
 
-«Plataforma número sete. Você vai ver os painéis.»
+"Plataforma número sete. Vocês verão as placas."
 
-Lucas verifica sua mochila. «Não esqueça sua mochila!»
+Lucas verifica sua mochila. "Não esquece tua mochila!"
 
-«Já peguei. E você, tem as passagens?»
+"Já peguei. E você, pegou os bilhetes?"
 
-«Sim, no meu bolso.»
+"Sim, estão no meu bolso."
 
-Sophie respira fundo. «Você está pronto para a aventura?»
+Sophie respira fundo. "Tudo pronto para a aventura?"
 
-«Sim, mais do que nunca!»
+"Sim, mais do que nunca!"
 
-Um anúncio ressoa na rodoviária. «O ônibus vai chegar logo.»
+Um anúncio soa na estação. "O trem vai chegar em breve."
 
-«Vamos rápido, tem muita gente,» diz Lucas.
+"Vamos subir logo, está cheio," diz Lucas.
 
-Eles encontram seus assentos no ônibus. «Aqui estão nossos lugares. Perto da janela!»
+Eles encontram seus lugares no vagão. "Aqui estão nossos lugares. Perto da janela!"
 
-O ônibus parte. Sophie olha São Paulo ficando para trás. «Lá vamos nós para uma nova vida!»
+O trem parte. Sophie olha São Paulo se afastando. "É o começo de uma nova vida!"
 
-### CENA 6: No Ônibus
+### CENA 6: No Trem
 
-O ônibus viaja pela rodovia Dutra. Sophie e Lucas olham a paisagem que passa pela janela.
+O trem atravessa a paisagem do interior. Sophie e Lucas observam o cenário passando pela janela.
 
-«Finalmente saímos de São Paulo,» diz Sophie, quase incrédula.
+"Finalmente deixamos São Paulo," diz Sophie, quase incrédula.
 
-Lucas verifica seu celular. «Você trancou a porta direito?»
+Lucas verifica seu celular. "Você trancou a porta?"
 
-«Sim, verifiquei três vezes. E você, avisou seu trabalho?»
+"Sim, chequei três vezes. E você, avisou seu trabalho?"
 
-«Sim, mandei um email ontem à noite.»
+"Sim, mandei um email ontem à noite."
 
-Sophie se vira para Lucas. «O que você está sentindo?»
+Sophie se vira para Lucas. "Como você está se sentindo?"
 
-«Me sinto livre e um pouco nervoso. É estranho, né?»
+"Me sinto livre e um pouco nervoso. É estranho, né?"
 
-«Eu também, é normal. A gente está mudando toda nossa vida.»
+"Eu também, é normal. Estamos mudando toda a nossa vida."
 
-A paisagem fica cada vez mais montanhosa. «Olha a paisagem, está linda!»
+A paisagem fica cada vez mais montanhosa. "Olha a paisagem, é linda!"
 
-Sophie abre sua mochila. «Trouxe sanduíches. Queijo e presunto.»
+Sophie abre sua mochila. "Trouxe sanduíches. Queijo e presunto."
 
-«Ótima ideia, estou com fome.»
+"Ótima ideia, estou com fome."
 
-Eles comem em silêncio, admirando a vista. Lucas pergunta: «Quanto tempo dura a viagem?»
+Eles comem em silêncio, admirando a vista. Lucas pergunta: "Quanto tempo dura a viagem?"
 
-«Umas cinco horas. Chegamos por volta das quatro.»
+"Cerca de cinco horas. Chegamos por volta das quatro."
 
-Sophie procura em sua mochila. «Ah não! Esqueci meu livro!»
+Sophie mexe em sua mochila. "Ah não! Esqueci meu livro!"
 
-«Não tem problema, a gente pode conversar.»
+"Não faz mal, podemos conversar."
 
-«Sobre o que você quer falar?»
+"Sobre o que você quer falar?"
 
-Lucas pensa. «Sobre nossos sonhos e nosso futuro. O que você realmente quer na vida?»
+Lucas pensa. "Sobre nossos sonhos e nosso futuro. O que você realmente quer na vida?"
 
-Sophie sorri. «É uma grande pergunta. Eu quero me sentir viva, eu acho.»
+Sophie sorri. "Essa é uma grande pergunta. Eu quero me sentir viva, acho."
 
-### CENA 7: Chegada no Vilarejo
+### CENA 7: Chegada ao Vilarejo
 
-O ônibus chega na rodoviária de Campos do Jordão. Sophie e Lucas descem e pegam um ônibus local para um pequeno vilarejo nas montanhas.
+O trem chega à estação de São Paulo. Sophie e Lucas descem e pegam um ônibus local para um pequeno vilarejo na Serra da Mantiqueira.
 
-«Finalmente chegamos!» exclama Sophie saindo do ônibus.
+"Finalmente chegamos!" exclama Sophie ao sair do ônibus.
 
-Lucas olha ao redor. «É menor do que eu pensava.»
+Lucas olha ao redor. "É menor do que eu imaginava."
 
-«Mas é encantador e tranquilo. Olha essas montanhas!»
+"Mas é charmoso e tranquilo. Olha essas montanhas!"
 
-O vilarejo é pitoresco com suas casas de madeira e janelas coloridas. «Onde vamos dormir hoje à noite?»
+O vilarejo é pitoresco, com suas casas de pedra e persianas de madeira. "Onde vamos dormir esta noite?"
 
-Sophie aponta. «Tem uma pousada ali. "Pousada da Serra."»
+Sophie aponta. "Tem uma pousada ali. 'Pousada Mont Blanc.'"
 
-«Vamos perguntar se tem quartos.»
+"Vamos perguntar se têm quartos."
 
 Eles entram na pousada. Uma mulher de meia-idade os recebe com um sorriso caloroso.
 
-«Bom dia, vocês têm dois quartos disponíveis?»
+"Bom dia, vocês têm dois quartos disponíveis?"
 
-«Sim, mas só para hoje à noite. Amanhã tenho uma reserva de grupo.»
+"Sim, mas só para esta noite. Amanhã tenho uma reserva de grupo."
 
-«Perfeito, a gente quer.»
+"Perfeito, nós ficamos com eles."
 
-«Quanto custa a diária?»
+"Quanto custa a diária?"
 
-«Cento e vinte reais por quarto, com café da manhã.»
+"Sessenta euros por quarto, com café da manhã incluído."
 
-Lucas tira sua carteira. «Tá bom, vamos pagar agora.»
+Lucas tira a carteira. "Ok, vamos pagar agora."
 
-«O jantar é servido às sete horas na sala de jantar,» explica a dona da pousada.
+"O jantar é servido às sete horas no salão de jantar," explica a dona.
 
-«Muito obrigada pela ajuda.»
+"Muito obrigado pela sua ajuda."
 
-Sophie e Lucas sobem com as mochilas para os quartos, depois descem. «Vamos explorar o vilarejo!»
+Sophie e Lucas levam suas malas para os quartos, depois descem. "Vamos explorar o vilarejo!"
 
 ### CENA 8: Encontros e Descobertas
 
-Sophie e Lucas passeiam pelas ruas estreitas do vilarejo. Eles encontram um senhor idoso que passeia com seu cachorro.
+Sophie e Lucas caminham pelas ruas estreitas do vilarejo. Eles encontram um senhor que passeia com seu cachorro.
 
-«Com licença, onde fica a padaria?» pergunta Sophie.
+"Com licença, onde fica a padaria?" pergunta Sophie.
 
-«Vira à direita depois da igreja. Não tem como errar.»
+"Dobre à direita depois da igreja. Você não vai perder."
 
-O homem os observa com curiosidade. «Vocês são novos aqui?»
+O homem os observa com curiosidade. "Vocês são novos aqui?"
 
-«Sim, viemos de São Paulo,» responde Lucas.
+"Sim, viemos de São Paulo," responde Lucas.
 
-«São Paulo! Bem-vindos ao nosso vilarejo! Aqui é mais calmo que em São Paulo.»
+"São Paulo! Bem-vindos ao nosso vilarejo! Aqui é mais calmo que em São Paulo."
 
-Eles continuam o passeio. Sophie observa: «As pessoas são muito gentis aqui.»
+Eles continuam a caminhada. Sophie comenta: "As pessoas são muito simpáticas aqui."
 
-«Sim, é diferente da cidade grande. Todo mundo conversa.»
+"É, é diferente da grande cidade. Todo mundo se fala."
 
-Eles chegam na frente da padaria. O cheiro de pão fresco os recebe. A padeira é falante.
+Chegam em frente à padaria. O cheiro de pão fresco os recepciona. A padeira é conversadeira.
 
-«O que dá para fazer aqui?» pergunta Lucas.
+"O que podemos fazer por aqui?" pergunta Lucas.
 
-«Tem muitas trilhas. As montanhas são lindas.»
+"Tem muitas trilhas. As montanhas são lindas."
 
-«Vocês gostam de montanha?» ela pergunta.
+"Vocês gostam de montanha?" ela pergunta.
 
-«Sim, adoramos a natureza. É por isso que viemos.»
+"Sim, adoramos a natureza. É por isso que viemos."
 
-Sophie compra pão e bolos. Ao sair, ela diz: «Amanhã vamos fazer uma trilha.»
+Sophie compra pão e alguns doces. Ao sair, diz: "Amanhã, vamos fazer uma trilha."
 
-A padeira os acompanha até a porta. «Cuidado, o tempo muda rápido aqui. Sempre levem roupas quentes.»
+A padeira os segue até a porta. "Cuidado, o tempo muda rápido aqui. Levem sempre roupas quentes."
 
-«Obrigado pelo conselho,» diz Lucas.
+"Obrigado pelo conselho," diz Lucas.
 
-«Boa noite e boa sorte!»
+"Boa noite e boa sorte!"
 
-### CENA 9: A Trilha Difícil
+### CENA 9: A Caminhada Difícil
 
-Na manhã seguinte, Sophie e Lucas começam sua trilha. O tempo está bonito, o céu está azul. Eles seguem uma trilha que sobe em direção a um refúgio na montanha.
+Na manhã seguinte, Sophie e Lucas começam sua caminhada. O tempo está bom, o céu está azul. Eles seguem uma trilha que sobe em direção a um refúgio de montanha.
 
-«Estávamos caminhando há três horas quando as nuvens chegaram,» contará Sophie mais tarde.
+"Nós caminhamos por três horas quando as nuvens chegaram," contará mais tarde Sophie.
 
-A mudança é repentina. «Estava ficando cada vez mais frio.»
+A mudança é súbita. "Ficou cada vez mais frio."
 
-Sophie treme. «Se eu soubesse, teria trazido um casaco mais quente.»
+Sophie treme. "Se eu soubesse, teria trazido um suéter mais quente."
 
-Lucas olha o céu ameaçador. «Talvez a gente devesse voltar.»
+Lucas olha para o céu ameaçador. "Talvez devêssemos voltar."
 
-«Não, o refúgio não está longe. Olha o mapa.»
+"Não, o refúgio não está longe. Olha o mapa."
 
-«Você é otimista demais às vezes!» diz Sophie, a voz tensa.
+"Você é otimista demais às vezes!" diz Sophie, com a voz tensa.
 
-«E você sempre se preocupa demais.»
+"E você sempre se preocupa demais."
 
-Sophie para bruscamente. «Não é hora de brigar.»
+Sophie para bruscamente. "Não é hora de discutir."
 
-Lucas pega a mão dela. «Desculpa, estou com medo.»
+Lucas segura sua mão. "Desculpa, estou com medo."
 
-«Eu também, mas temos que continuar. Não podemos ficar aqui.»
+"Eu também, mas temos que continuar. Não podemos ficar aqui."
 
-A neblina começa a descer da montanha. «A neblina está ficando muito densa.»
+A neblina começa a descer da montanha. "A neblina está ficando muito densa."
 
-Lucas avança com cuidado. «Quase não consigo ver a trilha.»
+Lucas avança com cautela. "Quase não consigo mais ver a trilha."
 
-«Vamos ficar juntos, não nos separemos,» insiste Sophie.
+"Vamos ficar juntos, não nos separemos," insiste Sophie.
 
-De repente, Sophie para. «Espera, perdi minha mochila! Estava aqui!»
+De repente, Sophie para. "Espera, perdi minha mochila! Estava bem aqui!"
 
-«Vou voltar para procurar, você continua! Segue a trilha!»
+"Eu volto para pegá-la, você continua! Siga a trilha!"
 
-«Não Lucas, vamos esperar juntos!»
+"Não, Lucas, vamos esperar juntos!"
 
-Mas Lucas já foi embora na neblina.
+Mas Lucas já tinha ido embora na neblina.
 
 ### CENA 10: A Separação Involuntária
 
 Sophie espera alguns minutos, depois começa a entrar em pânico.
 
-«Lucas? Lucas, onde você está?»
+"Lucas? Lucas, onde você está?"
 
 O vento leva sua voz. Ela grita mais alto, mas nada.
 
-«Não ouço mais a voz dele.»
+"Não consigo mais ouvir sua voz."
 
-Ela procura o celular no bolso. Sem sinal.
+Ela procura seu telefone no bolso. Sem sinal.
 
-«Se eu ao menos tivesse meu celular! Mas não serve para nada aqui.»
+"Se ao menos eu tivesse meu telefone! Mas aqui não serve para nada."
 
-A neblina está tão densa que ela não consegue ver a três metros à frente.
+A neblina é tão densa que ela não consegue ver a três metros à frente.
 
-«Não sei mais onde estou.»
+"Não sei mais onde estou."
 
-Ela se culpa pela briga. «A gente deveria ter ficado junto. Fomos estúpidos.»
+Ela se culpa pela discussão. "Devíamos ter ficado juntos. Fomos estúpidos."
 
-«Agora estou completamente sozinha.»
+"Agora, estou completamente sozinha."
 
 O vento sopra cada vez mais forte. A temperatura cai.
 
-«Eu deveria ter escutado ele antes. Ele queria voltar.»
+"Devia ter ouvido ele mais cedo. Ele queria voltar."
 
-«Mas é tarde demais para arrependimentos.»
+"Mas agora é tarde demais para arrependimentos."
 
-Sophie se força a pensar com calma. «Preciso encontrar um abrigo. Não posso ficar aqui fora esta noite.»
+Sophie se esforça para pensar com calma. "Preciso encontrar um abrigo. Não posso ficar ao relento esta noite."
 
-Ela avança com cuidado, as mãos estendidas à frente. Em sua cabeça, lembranças surgem. Seu pai sempre dizia: «Na dúvida, desce. A água corre para baixo.» Mas agora, nesta neblina, o alto e o baixo se confundem.
+Ela avança cautelosamente, com as mãos estendidas à frente. Em sua cabeça, memórias surgem. Seu pai sempre dizia: "Em caso de dúvida, desça. A água corre para baixo." Mas agora, nessa neblina, o alto e o baixo se confundem.
 
-«Onde estou realmente? Quem sou eu sem Lucas ao meu lado?»
+"Onde estou, afinal? Quem sou eu sem o Lucas ao meu lado?"
 
-De repente, suas mãos tocam algo sólido. «Ali tem alguma coisa!»
+De repente, suas mãos tocam algo sólido. "Ali, tem algo!"
 
-É uma forma escura na neblina. «Uma pequena cabana abandonada. Graças a Deus!»
+É uma forma escura na neblina. "Uma pequena cabana abandonada. Graças a Deus!"
 
 ### CENA 11: O Desafio de Sophie - Os Quatro Elementos
 
-Sophie entra na cabana. É uma velha estrutura de pastor, simples mas sólida. Tem uma lareira. Na parede, alguém gravou palavras quase apagadas: «...não perdoa...ensina.»
+Sophie entra na cabana. É uma velha estrutura de pastor, simples mas sólida. Há uma lareira. Na parede, alguém gravou palavras quase apagadas: "...não perdoa... ensina."
 
-«Quem morou aqui antes de mim? Quantas solidões esta cabana abrigou?»
+"Quem viveu aqui antes de mim? Quantas solidões esta cabana já abrigou?"
 
-Ela toca as paredes de pedra. «Estas paredes sobreviveram a quantas tempestades, a quantos invernos?»
+Ela toca as paredes de pedra. "Essas paredes sobreviveram a quantas tempestades, a quantos invernos?"
 
-«Preciso acender um fogo.»
+"Eu deveria acender um fogo."
 
-Ela procura nos bolsos. «Felizmente tenho fósforos no bolso.»
+Ela procura em seus bolsos. "Felizmente, tenho fósforos no bolso."
 
-Ela encontra lenha dentro da cabana, mas está úmida. «A lenha está úmida, não vai ser fácil.»
+Ela encontra madeira dentro da cabana, mas está úmida. "A madeira está úmida, não vai ser fácil."
 
-Ela arruma a lenha, coloca papel, pega um fósforo. Ela risca. Nada. «Tento uma vez, duas vezes, três vezes...»
+Ela arruma a madeira, coloca papel, pega um fósforo. Ela esfrega. Nada. "Tento uma vez, duas vezes, três vezes..."
 
-Em sua mente, ela revê sua avó mostrando à pequena Sophie como acender fogo na lareira da casa de campo. «Paciência, minha querida. O fogo vem para quem sabe esperar.»
+Em sua mente, ela revê sua avó mostrando à pequena Sophie como acender um fogo na lareira de sua casa de campo. "Paciência, querida. O fogo vem para aqueles que sabem esperar."
 
-Na quarta tentativa, uma pequena chama aparece. «Finalmente! Uma pequena chama que cresce!»
+Na quarta tentativa, uma pequena chama aparece. "Finalmente! Uma pequena chama que cresce!"
 
-Ela sopra suavemente e a chama cresce. Logo, um fogo de verdade queima na lareira.
+Ela sopra suavemente e a chama cresce. Logo, um verdadeiro fogo queima na lareira.
 
-«Este fogo... fui eu quem criei. Só eu.»
+"Este fogo... fui eu que criei. Sozinha."
 
-O calor se espalha pela pequena cabana. «O fogo me dá calor e coragem.»
+O calor se espalha pela pequena cabana. "O fogo me dá calor e coragem."
 
-Mas depois de algumas horas, a fome se faz sentir. «Agora estou com muita fome, mas não tenho nada para comer.»
+Mas após algumas horas, a fome se faz sentir. "Agora estou com muita fome, mas não tenho nada para comer."
 
 Ela sai da cabana para explorar os arredores. Perto da porta, ela nota algumas plantas.
 
-«Espera... essas plantas perto da cabana, eu reconheço!»
+"Espera... essas plantas perto da cabana, eu as reconheço!"
 
-Lembranças da infância voltam. Ela revê sua avó no jardim do interior, suas mãos enrugadas segurando delicadamente os talos verdes.
+Memórias de sua infância voltam. Ela revê sua avó no jardim na Normandia, suas mãos enrugadas segurando delicadamente os caules verdes.
 
-«Olha Sophie. As urtigas picam primeiro, mas depois te alimentam. É como a vida, minha pequena. As coisas que machucam nos tornam mais fortes.»
+"Olha, Sophie. As urtigas primeiro te picam, mas depois, te alimentam. É como a vida, minha pequena. As coisas que doem nos tornam mais fortes."
 
-«São urtigas! Elas são comestíveis se cozinhar.»
+"São urtigas! Elas são comestíveis se cozidas."
 
-Ela as olha com hesitação. «Mal ouso tocá-las, elas picam.»
+Ela as olha com hesitação. "Mal consigo tocá-las, elas picam."
 
-«Mas preciso se quero sobreviver. Toda verdade exige que aceitemos primeiro sua capacidade de ferir.»
+"Mas é necessário se quero sobreviver. Toda verdade exige que primeiro aceitemos sua capacidade de ferir."
 
-Ela colhe as urtigas com cuidado, usando um pedaço de pano para proteger as mãos. As picadas lembram que a natureza não é boa nem má—ela é simplesmente autêntica.
+Ela colhe as urtigas com cuidado, usando um pedaço de tecido para proteger suas mãos. As picadas a lembram que a natureza não é nem boa nem má—ela é simplesmente autêntica.
 
-Agora ela precisa de água. «Onde posso encontrar água potável?»
+Agora, ela precisa de água. "Onde posso encontrar água potável?"
 
-Ela escuta atentamente. «Ouço um barulho... como água correndo!»
+Ela escuta atentamente. "Ouço um barulho... como de água correndo!"
 
-Ela segue o som e descobre uma maravilha. «Uma nascente! Água clara, doce, que brota das pedras!»
+Ela segue o som e descobre uma maravilha. "Uma fonte! Água clara, doce, que jorra das rochas!"
 
-Ela enche uma panelinha que encontrou na cabana. De volta perto do fogo, ela ferve a água e coloca as urtigas.
+Ela enche uma pequena panela que encontrou na cabana. De volta perto do fogo, ela ferve a água e coloca as urtigas.
 
-«Com o fogo, a água da nascente e as urtigas, faço uma sopa.»
+"Com o fogo, a água da fonte, e as urtigas, faço uma sopa."
 
-A sopa é simples mas deliciosa. Ela bebe devagar, sentindo o calor se espalhar em seu corpo.
+A sopa é simples, mas deliciosa. Ela a bebe lentamente, sentindo o calor se espalhar pelo seu corpo.
 
-«A natureza me dá exatamente o que preciso. Ou será... sou eu quem interpreta seus dons?»
+"A natureza me dá exatamente o que preciso. Ou será... sou eu que interpreto seus dons?"
 
-Ela olha o fogo dançar na lareira. O fogo que ela acendeu. A água que ela encontrou. As urtigas que ela reconheceu. «A montanha me oferece esses elementos, mas sou eu quem os transforma em sobrevivência.»
+Ela olha para o fogo dançar na lareira. O fogo que ela acendeu. A água que ela encontrou. As urtigas que ela reconheceu. "A montanha me oferece esses elementos, mas sou eu que os transformo em sobrevivência."
 
-Naquela noite, sentada perto do fogo, Sophie reflete sobre sua vida. «Esta prova me ensina que sou mais forte do que pensava.»
+Naquela noite, sentada perto do fogo, Sophie reflete sobre sua vida. "Esta prova me ensina que sou mais forte do que pensei."
 
-Ela pensa em todos os futuros possíveis. Um futuro onde volta para São Paulo e retoma sua vida de antes. Um futuro onde fica nas montanhas. Um futuro onde ela e Lucas se separam. Um futuro onde ficam juntos mas diferentes.
+Ela pensa em todos os futuros possíveis. Um futuro onde ela volta a São Paulo e retoma sua vida anterior. Um futuro onde ela fica nas montanhas. Um futuro onde ela e Lucas se separam. Um futuro onde eles permanecem juntos, mas diferentes.
 
-«Quem sou eu realmente? Talvez eu nunca saiba completamente. Talvez seja normal.»
+"Quem sou eu realmente? Talvez eu nunca saiba completamente. Talvez isso seja normal."
 
 ### CENA 12: O Desafio de Lucas - O Guia Inesperado
 
-Enquanto isso, Lucas procura desesperadamente Sophie na neblina.
+Enquanto isso, Lucas busca desesperadamente Sophie no nevoeiro.
 
-«Como pude perdê-la? Como?»
+"Como pude perdê-la? Como?"
 
-Ele se sente terrivelmente culpado. «Nunca deveria tê-la deixado continuar sozinha. Deveria ter ficado com ela.»
+Ele se sente terrivelmente culpado. "Eu nunca deveria ter deixado ela continuar sozinha. Eu deveria ter ficado com ela."
 
-Ele caminha por horas, gritando o nome dela, mas a neblina absorve todos os sons. Nesta brancura espessa, ele perde toda noção de direção. O alto, o baixo, a esquerda, a direita—tudo se confunde.
+Ele caminha por horas, gritando seu nome, mas o nevoeiro absorve todos os sons. Nessa brancura densa, ele perde toda noção de direção. O alto, o baixo, a esquerda, a direita—tudo se confunde.
 
-«Quase não vejo mais a trilha. Não é esta nossa condição humana? Todos avançamos na incerteza.»
+"Quase não vejo mais o caminho. Não é essa nossa condição humana? Todos nós avançamos na incerteza."
 
-Finalmente, ele precisa tomar uma decisão. «Preciso encontrar ajuda.»
+Finalmente, ele precisa tomar uma decisão. "Preciso encontrar ajuda."
 
-Ele tenta se orientar. «O vilarejo não pode estar muito longe. Se eu descer, é por ali.»
+Ele tenta se orientar. "A vila não pode estar muito longe. Se eu descer, é por ali."
 
-«Mas em qual direção exatamente?»
+"Mas em que direção exatamente?"
 
-A neblina torna a orientação impossível. Ele poderia ficar andando em círculos por horas.
+O nevoeiro torna a orientação impossível. Ele poderia andar em círculos por horas.
 
-De repente, ele ouve um balido. Uma forma aparece na neblina.
+De repente, ele ouve um balido. Uma forma aparece no nevoeiro.
 
-«Uma cabra! Ela está me olhando fixamente.»
+"Uma cabra! Ela está me olhando fixamente."
 
-O animal não parece assustado. Pelo contrário, ela se aproxima, depois se vira e começa a descer por uma trilha.
+O animal não parece assustado. Ao contrário, ela se aproxima, depois se vira e começa a descer um caminho.
 
-«Ela está começando a descer por uma trilha que eu não tinha visto.»
+"Elle começa a descer um caminho que eu não tinha visto."
 
-Lucas hesita. «Devo segui-la? Os animais conhecem os caminhos seguros.»
+Lucas hesita. "Devo segui-la? Os animais conhecem os caminhos seguros."
 
-«Ou será... é simplesmente uma cabra voltando para sua fazenda? Estou projetando intenção em um comportamento animal comum?»
+"Ou será... apenas uma cabra voltando para sua fazenda? Estou projetando uma intencionalidade em um comportamento animal comum?"
 
-A cabra para e se vira, como para verificar se ele está seguindo.
+A cabra para e se vira, como se verificasse se ele a segue.
 
-«Tenho a impressão de que ela quer me mostrar algo.»
+"Tenho a impressão de que ela quer me mostrar algo."
 
-«Talvez no nosso desespero vejamos sinais em todo lugar. Mas não importa—preciso escolher confiar.»
+"Talvez, em nosso desespero, vejamos sinais em tudo. Mas não importa—preciso escolher confiar."
 
-«Mesmo sendo estranho, preciso confiar nela. Não tenho outra escolha.»
+"Mesmo que seja estranho, devo confiar nela. Não tenho outra escolha."
 
-Ele segue a cabra que desce a trilha com segurança. «Ela para e espera que eu a siga.»
+Ele segue a cabra que desce o caminho com segurança. "Ela para e espera que eu a siga."
 
-Eles descem assim por uma hora. Lucas pensa constantemente em Sophie. «Sophie conta comigo, não posso abandoná-la.»
+Eles descem assim por uma hora. Lucas pensa constantemente em Sophie. "Sophie conta comigo, não posso abandoná-la."
 
-De repente, a neblina fica menos densa. Embaixo, ele vê algo.
+De repente, o nevoeiro se torna menos denso. Em baixo, ele vê algo.
 
-«Tem uma luz lá embaixo! A cabra me guiou!»
+"Lá está uma luz ao longe! A cabra me guiou!"
 
-É uma fazenda. A cabra bale uma última vez e vai embora.
+É uma fazenda. A cabra bale uma última vez e se vai.
 
-Lucas corre para a casa. «Socorro! Preciso de ajuda!»
+Lucas corre em direção à casa. "Socorro! Preciso de ajuda!"
 
-Um homem sai da casa, surpreso mas pronto para ajudar.
+Um homem sai da casa, surpreso, mas pronto para ajudar.
 
-### CENA 13: Os Socorros
+### CENA 13: O Resgate
 
-Lucas explica a situação ao fazendeiro, que imediatamente liga para os socorros de montanha. Eles chegam rapidamente ao posto de resgate do vilarejo.
+Lucas explica a situação ao fazendeiro, que imediatamente chama o resgate da montanha. Eles chegam rapidamente ao posto de socorro do vilarejo.
 
-«Precisamos organizar uma equipe de busca,» diz o chefe dos socorristas.
+"Precisamos organizar uma equipe de busca," diz o chefe dos socorristas.
 
-«Embora seja noite, precisamos partir agora. Cada hora conta.»
+"Apesar de ser noite, precisamos partir agora. Cada hora é crucial."
 
-Lucas mostra o mapa tremendo. «Estávamos aqui, perto deste refúgio.»
+Lucas mostra o mapa, tremendo. "Estávamos aqui, perto desse abrigo."
 
-«Tomara que ela tenha encontrado abrigo!» diz um dos socorristas.
+"Tomara que ela tenha encontrado um abrigo!" diz um dos socorristas.
 
-Lucas descreve Sophie. «O rapaz disse que ela estava com uma jaqueta vermelha. Isso vai ajudar.»
+Lucas descreve Sophie. "O rapaz disse que ela estava com uma jaqueta vermelha. Isso vai nos ajudar."
 
-Outro socorrista prepara o equipamento. «Espero que ela esteja segura.»
+Outro socorrista prepara o equipamento. "Espero que ela esteja segura."
 
-O chefe se dirige a Lucas com firmeza mas gentileza. «Precisamos que você nos mostre no mapa exatamente onde vocês estavam.»
+O chefe se dirige a Lucas com firmeza, mas gentileza. "Precisamos que você nos mostre no mapa exatamente onde vocês estavam."
 
-«É importante que você fique calmo. Somos profissionais.»
+"É importante que você fique calmo. Somos profissionais."
 
-Lucas respira fundo. «Aconteça o que acontecer, vamos encontrá-la, não vamos?»
+Lucas respira fundo. "Aconteça o que acontecer, vamos encontrá-la, não é?"
 
-«Sim. Conhecemos essas montanhas como a palma da mão.»
+"Sim. Conhecemos essas montanhas como a palma da nossa mão."
 
-«O helicóptero vai partir assim que o tempo permitir. Ao amanhecer.»
+"O helicóptero partirá assim que o tempo permitir. Ao amanhecer."
 
-«Enquanto isso, descanse e recupere as forças. Você não vai ajudá-la se estiver exausto.»
+"Enquanto isso, descanse e recupere suas forças. Você não será útil para ela se estiver exausto."
 
 ### CENA 14: A Reflexão de Sophie
 
-Ao amanhecer, Sophie ainda está na cabana. O fogo ainda queima suavemente. Ela sai e olha o sol nascendo.
+Ao amanhecer, Sophie ainda está na cabana. O fogo ainda queima suavemente. Ela sai e observa o sol nascer.
 
-«Esta prova me fez compreender algo sobre mim mesma.»
+"Esta provação me fez entender algo sobre mim mesma."
 
 Ela pensa em todas as vezes que teve medo, que duvidou de si mesma.
 
-«Nunca pensei ser capaz de sobreviver sozinha. Nunca.»
+"Eu nunca teria acreditado que poderia sobreviver sozinha. Nunca."
 
-Ela olha as montanhas ao redor, lindas na luz da manhã. Mas agora ela vê também sua indiferença. A montanha não a salvou por bondade—ela simplesmente existiu, e Sophie aprendeu a ler seus sinais.
+Ela olha para as montanhas ao seu redor, magníficas na luz da manhã. Mas agora, ela também vê a indiferença delas. A montanha não a salvou por bondade—ela simplesmente existiu, e Sophie aprendeu a ler seus sinais.
 
-«Seja o que for que a vida me reserva, saberei lidar melhor. Mas nunca estarei "completamente" pronta.»
+"Seja o que a vida me reservar, estarei melhor preparada. Mas nunca estarei 'completamente' pronta."
 
-Ela pensa em Lucas, em seu relacionamento. «Não é necessário ter sempre alguém ao lado.»
+Ela pensa em Lucas, em seu relacionamento. "Não é necessário ter sempre alguém ao lado."
 
-«Embora Lucas me faça muita falta, me sinto mais completa do que antes. Mas "completa" não significa "acabada"—significa "em devir".»
+"Embora Lucas me faça uma falta terrível, sinto-me mais completa do que antes. Mas 'completa' não significa 'acabada'—significa 'em transformação'."
 
-«É como se tivesse encontrado uma parte de mim que tinha perdido. Mas quantas outras partes ainda há para descobrir?»
+"É como se eu tivesse reencontrado uma parte de mim que havia perdido. Mas quantas outras partes ainda há para descobrir?"
 
-O sol ilumina agora todo o vale. «O sol finalmente nasce depois desta longa noite.»
+O sol agora ilumina todo o vale. "O sol finalmente nasce após esta longa noite."
 
-Ela toma sua decisão. «É hora de descer para procurar ajuda.»
+Ela toma sua decisão. "É hora de eu descer para buscar ajuda."
 
-«Esta noite me transformou. Mas toda transformação implica também uma perda—perdi minha inocência, minha ingenuidade. Não posso mais fingir que a vida é simples.»
+"Esta noite me transformou. Mas toda transformação também implica uma perda—perdi minha inocência, minha ingenuidade. Não posso mais fingir que a vida é simples."
 
-Ela toca a parede da cabana com gratidão e uma estranha melancolia. «Esta cabana, esta montanha... continuarão existindo depois da minha partida, indiferentes à minha história.»
+Ela toca a parede da cabana com gratidão e uma estranha melancolia. "Esta cabana, esta montanha... elas continuarão a existir depois da minha partida, indiferentes à minha história."
 
-Antes de partir, ela grava algumas palavras na parede, logo abaixo da inscrição misteriosa: «Sophie, novembro 2024. A montanha ensina.»
+Antes de partir, ela grava algumas palavras na parede, logo abaixo da inscrição misteriosa: "Sophie, novembro de 2024. A montanha ensina."
 
 ### CENA 15: A Descoberta
 
-Sophie começa a descer com cuidado. A neblina se levantou, o céu está claro.
+Sophie começa a descer cautelosamente. O nevoeiro dissipou-se, o céu está limpo.
 
-De repente, ela ouve um barulho incomum. «Ouço um barulho de motor acima de mim.»
+De repente, ela ouve um barulho incomum. "Estou ouvindo um barulho de motor acima de mim."
 
-Ela levanta os olhos e vê algo no céu. «É um helicóptero de resgate!»
+Ela olha para cima e vê algo no céu. "É um helicóptero de resgate!"
 
-«Eles estão me procurando, preciso fazer sinal!»
+"Eles estão me procurando, tenho que fazer sinal para eles!"
 
 Ela tira sua jaqueta vermelha e a balança freneticamente acima da cabeça.
 
-«Aqui em cima! Estou aqui! Aqui!»
+"Lá em cima! Estou aqui! Aqui!"
 
-O helicóptero faz um círculo, depois se aproxima. «Eles me viram, estão descendo!»
+O helicóptero faz um círculo, depois se aproxima. "Eles me viram, estão descendo!"
 
-A emoção a domina. «Que alívio!»
+A emoção a sobrecarrega. "Que alívio!"
 
-Enquanto o helicóptero pousa em uma pequena clareira, ela pensa em Lucas.
+Enquanto o helicóptero pousa numa pequena clareira, ela pensa em Lucas.
 
-«Lucas deve estar louco de preocupação.»
+"Lucas deve estar louco de preocupação."
 
-Os socorristas correm em direção a ela com um cobertor. «Logo estaremos reunidos.»
+Os socorristas correm em direção a ela com um cobertor. "Logo estaremos reunidos."
 
 ### CENA 16: O Reencontro
 
-O helicóptero pousa no posto de resgate. Lucas espera do lado de fora, louco de angústia.
+O helicóptero pousa no posto de resgate. Lucas espera do lado de fora, angustiado.
 
-Quando Sophie desce, ele corre em direção a ela. «Sophie! Graças a Deus você está viva!»
+Quando Sophie desce, ele corre em direção a ela. "Sophie! Graças a Deus, você está viva!"
 
-Eles se abraçam, chorando os dois. «Lucas! Estava com tanto medo por você!»
+Eles se abraçam, chorando ambos. "Lucas! Eu estava tão preocupada com você!"
 
-«Me perdoa por ter deixado você ir sozinha. Sinto muito.»
+"Me perdoe por ter deixado você ir sozinha. Estou muito arrependido."
 
-«Não, fui eu quem deveria ter te escutado. Você queria voltar.»
+"Não, sou eu que deveria ter te ouvido. Você queria voltar."
 
-Eles ficam abraçados por um longo momento. «O importante é que estamos os dois bem.»
+Eles permanecem abraçados por um longo tempo. "O importante é que estamos os dois bem."
 
-Um socorrista lhes traz chá quente. Eles sentam juntos, ainda tremendo.
+Um socorrista traz para eles chá quente. Eles se sentam juntos, ainda tremendo.
 
-«Esta experiência nos mudou,» diz Sophie suavemente. «Mas também nos custou algo.»
+"Essa experiência nos mudou," diz Sophie suavemente. "Mas também nos custou algo."
 
-«O que nos custou?» pergunta Lucas.
+"O que ela nos custou?" pergunta Lucas.
 
-«Nossa inocência, talvez. A ilusão de que podíamos controlar nossas vidas. A felicidade fácil.»
+"Nossa inocência, talvez. A ilusão de que podíamos controlar nossas vidas. A felicidade fácil."
 
-«Não sou mais a mesma pessoa de antes. Esta noite na montanha...»
+"Eu não sou mais a mesma pessoa de antes. Aquela noite na montanha..."
 
-«Eu também, aprendi tantas coisas. A cabra que me guiou, as pessoas que me ajudaram...»
+"Eu também, aprendi tantas coisas. A cabra que me guiou, as pessoas que me ajudaram..."
 
-Sophie o olha com olhos novos, mas também com certa tristeza. «Era realmente uma cabra guia, ou apenas uma cabra comum? Projetamos tanto significado no que nos acontece.»
+Sophie o olha com novos olhos, mas também com uma certa tristeza. "Será que era realmente uma cabra guia, ou apenas uma cabra comum? Nós projetamos tanto significado nas coisas que nos acontecem."
 
-Lucas reflete. «Talvez não importe. Escolhi confiar nela, e isso me salvou.»
+Lucas reflete. "Talvez isso não tenha importância. Eu escolhi confiar nela, e isso me salvou."
 
-«Quando estamos separados, percebemos o que realmente importa.»
+"Quando estamos separados, percebemos o que realmente importa."
 
-Lucas pega a mão dela. «Não quero nunca mais te perder.»
+Lucas segura sua mão. "Eu nunca mais quero te perder."
 
-«Mas agora sei que posso me virar sozinha se necessário. Acendi fogo, encontrei água, fiz sopa com urtigas.»
+"Mas agora, eu sei que posso me virar sozinha, se necessário. Eu fiz fogo, encontrei água, fiz uma sopa com urtigas."
 
-«E é exatamente isso que torna nossa relação mais forte. Somos duas pessoas que escolhem estar juntas—não por necessidade, mas por desejo.»
+"E é exatamente isso que torna nossa relação mais forte. Somos duas pessoas que escolhem estar juntas — não por necessidade, mas por desejo."
 
-«Mas nunca seremos "completos", Lucas. Continuaremos sempre mudando, nos tornando. E está bom assim.»
+"Mas nunca seremos 'completos', Lucas. Continuaremos sempre mudando, evoluindo. E está tudo bem assim."
 
-Eles olham as montanhas juntos, de mãos dadas. O sol brilha nos picos, indiferente às suas histórias humanas.
+Eles olham para as montanhas juntos, de mãos dadas. O sol brilha nos picos nevados, indiferente às suas histórias humanas.
 
-«Não viemos aqui para fugir de São Paulo,» diz Sophie. «Viemos para descobrir algo. E encontramos.»
+"Não viemos aqui para fugir de São Paulo," diz Sophie. "Viemos para descobrir algo. E encontramos."
 
-«O que encontramos exatamente?» pergunta Lucas.
+"O que encontramos exatamente?" pergunta Lucas.
 
-Sophie sorri, mas é um sorriso diferente agora—mais profundo, mais consciente da fragilidade das coisas. «Talvez simplesmente que somos capazes de enfrentar a incerteza. E que nosso amor pode existir mesmo nesta incerteza.»
+Sophie sorri, mas é um sorriso diferente agora — mais profundo, mais consciente da fragilidade das coisas. "Talvez simplesmente que somos capazes de enfrentar a incerteza. E que nosso amor pode existir mesmo nessa incerteza."
 
-«Já é muito,» diz Lucas.
+"Isso já é muito," diz Lucas.
 
-«Sim. Já é muito.»
+"Sim. Isso já é muito."
 
 --- FIM ---

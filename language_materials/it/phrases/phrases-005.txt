@@ -1,0 +1,50 @@
+Vorrei prendere un appuntamento
+C'è disponibilità?
+Potrebbe confermarmi via email?
+Devo annullare la mia prenotazione
+Ci sono delle spese di cancellazione?
+Non ho ricevuto la mia conferma
+Può controllare la mia prenotazione?
+Il volo è stato cancellato
+Quando è il prossimo volo?
+Posso essere rimborsato?
+I miei bagagli non sono stati caricati
+Dove si trova l'ufficio oggetti smarriti?
+Vorrei presentare un reclamo
+Come posso contattarvi?
+Qual è il vostro numero di telefono?
+Qual è il vostro indirizzo email?
+Sto cercando un appartamento in affitto
+Quanto costa l'affitto al mese?
+Le spese sono incluse?
+C'è una cauzione?
+Il quartiere è sicuro?
+Ci sono trasporti pubblici nelle vicinanze?
+Sto cercando lavoro
+Quali sono le qualifiche richieste?
+Quale è lo stipendio offerto?
+Quando posso iniziare?
+Ci sono opportunità di avanzamento?
+Devo aprire un conto bancario
+Quali documenti sono necessari?
+Ci sono delle spese mensili?
+Come posso ottenere una carta bancaria?
+Vorrei trasferire dei soldi
+Qual è il tasso di cambio?
+Quanto tempo ci vuole per il trasferimento?
+Ho un problema con il mio conto
+La mia carta è stata inghiottita dal bancomat
+Vorrei bloccare la mia carta
+Qualcuno ha usato la mia carta senza autorizzazione
+Come posso sporgere denuncia?
+Avete bisogno di un documento di identità?
+Non ho ancora ricevuto la mia carta
+Il codice PIN non funziona
+Vorrei aumentare il mio limite
+Posso controllare il mio saldo?
+Ci sono delle commissioni di prelievo?
+Vorrei sottoscrivere un'assicurazione
+Cosa copre l'assicurazione?
+Qual è l'importo della franchigia?
+Come posso fare un reclamo?
+Quanto tempo ci vuole per essere rimborsato?

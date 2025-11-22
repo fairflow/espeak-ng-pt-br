@@ -1,0 +1,50 @@
+Quisiera hacer una cita
+¿Tienen disponibilidad?
+¿Podrían confirmarme por correo electrónico?
+Necesito cancelar mi reserva
+¿Hay algún cargo por cancelación?
+No he recibido mi confirmación
+¿Podrían verificar mi reserva?
+El vuelo ha sido cancelado
+¿Cuándo es el próximo vuelo?
+¿Puedo obtener un reembolso?
+Mi equipaje no fue cargado
+¿Dónde está la oficina de objetos perdidos?
+Quisiera presentar una queja
+¿Cómo puedo contactarlos?
+¿Cuál es su número de teléfono?
+¿Cuál es su dirección de correo electrónico?
+Estoy buscando un apartamento para alquilar
+¿Cuánto es el alquiler mensual?
+¿Están incluidos los servicios?
+¿Hay algún depósito?
+¿Es seguro el barrio?
+¿Hay transporte público cercano?
+Estoy buscando trabajo
+¿Cuáles son las calificaciones requeridas?
+¿Cuál es el salario ofrecido?
+¿Cuándo puedo empezar?
+¿Hay oportunidades de ascenso?
+Necesito abrir una cuenta bancaria
+¿Qué documentos son necesarios?
+¿Hay cuotas mensuales?
+¿Cómo puedo obtener una tarjeta bancaria?
+Quisiera transferir dinero
+¿Cuál es el tipo de cambio?
+¿Cuánto tiempo tarda la transferencia?
+Tengo un problema con mi cuenta
+Mi tarjeta fue tragada por el cajero automático
+Quisiera bloquear mi tarjeta
+Alguien ha usado mi tarjeta sin autorización
+¿Cómo puedo presentar una queja?
+¿Necesitan un documento de identidad?
+Aún no he recibido mi tarjeta
+El código PIN no funciona
+Quisiera aumentar mi límite
+¿Puedo consultar mi saldo?
+¿Hay comisiones por retiro?
+Me gustaría contratar un seguro
+¿Qué cubre el seguro?
+¿Cuál es el monto del deducible?
+¿Cómo puedo hacer un reclamo?
+¿Cuánto tiempo se tarda en ser reembolsado?

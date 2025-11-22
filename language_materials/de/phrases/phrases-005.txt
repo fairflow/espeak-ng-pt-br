@@ -1,0 +1,50 @@
+Ich möchte einen Termin vereinbaren
+Haben Sie freie Termine?
+Können Sie mir das per E-Mail bestätigen?
+Ich muss meine Reservierung stornieren
+Gibt es Stornogebühren?
+Ich habe meine Bestätigung nicht erhalten
+Können Sie meine Reservierung überprüfen?
+Der Flug wurde storniert
+Wann ist der nächste Flug?
+Kann ich eine Rückerstattung erhalten?
+Mein Gepäck wurde nicht verladen
+Wo ist das Fundbüro?
+Ich möchte eine Beschwerde einreichen
+Wie kann ich Sie kontaktieren?
+Wie lautet Ihre Telefonnummer?
+Was ist Ihre E-Mail-Adresse?
+Ich suche eine Wohnung zur Miete
+Wie hoch ist die Miete pro Monat?
+Sind Nebenkosten inbegriffen?
+Gibt es eine Kaution?
+Ist die Gegend sicher?
+Gibt es öffentliche Verkehrsmittel in der Nähe?
+Ich suche eine Arbeitsstelle
+Welche Qualifikationen sind erforderlich?
+Wie hoch ist das angebotene Gehalt?
+Wann kann ich anfangen?
+Gibt es Aufstiegsmöglichkeiten?
+Ich muss ein Bankkonto eröffnen
+Welche Dokumente werden benötigt?
+Gibt es monatliche Gebühren?
+Wie bekomme ich eine Bankkarte?
+Ich möchte Geld überweisen
+Wie ist der Wechselkurs?
+Wie lange dauert die Überweisung?
+Ich habe ein Problem mit meinem Konto
+Meine Karte wurde vom Geldautomaten eingezogen
+Ich möchte meine Karte sperren lassen
+Jemand hat meine Karte ohne Erlaubnis benutzt
+Wie kann ich eine Beschwerde einreichen?
+Benötigen Sie einen Ausweis?
+Ich habe meine Karte noch nicht erhalten
+Der PIN-Code funktioniert nicht
+Ich möchte mein Limit erhöhen
+Kann ich mein Guthaben abfragen?
+Gibt es Abhebungsgebühren?
+Ich möchte eine Versicherung abschließen
+Was ist durch die Versicherung abgedeckt?
+Wie hoch ist der Selbstbehalt?
+Wie kann ich einen Anspruch geltend machen?
+Wie lange dauert die Erstattung?

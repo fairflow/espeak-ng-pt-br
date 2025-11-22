@@ -1,0 +1,50 @@
+Estoy perdido
+Estoy perdida
+¿Puede indicarme el camino?
+Estoy buscando la estación de tren
+¿Dónde está la parada de autobús?
+Un billete para París, por favor
+¿Ida o ida y vuelta?
+¿A qué hora sale el tren?
+El tren está retrasado
+¿Es directo?
+¿Dónde tengo que hacer transbordo?
+¿Tiene alguna habitación disponible?
+¿Para cuántas noches?
+¿Cuál es el precio por noche?
+¿El desayuno está incluido?
+¿A qué hora es el desayuno?
+¿Puede despertarme a las siete?
+La llave no funciona
+No hay agua caliente
+El aire acondicionado no funciona
+Una mesa para dos personas
+¿Tiene un menú en inglés?
+¿Qué recomienda?
+Soy vegetariano
+Soy vegetariana
+Soy alérgico a los cacahuetes
+Sin gluten, por favor
+La cuenta, por favor
+¿El servicio está incluido?
+¿Puedo pagar con tarjeta?
+Quédese con el cambio
+¿Dónde puedo comprar...?
+¿Puedo probarlo?
+¿Tiene una talla más grande?
+¿Tiene otro color?
+¿Está en oferta?
+¿Aceptan tarjetas de crédito?
+¿Puede envolverlo para regalo?
+Necesito un médico
+¿Dónde está la farmacia más cercana?
+Tengo dolor de cabeza
+Tengo dolor de estómago
+Tengo fiebre
+Estoy tosiendo mucho
+Me siento mal
+Necesito una receta médica
+¿Dónde está la comisaría?
+Me han robado la bolsa
+He perdido mi pasaporte
+¿Puede llamar a la policía?

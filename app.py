@@ -1663,10 +1663,6 @@ def render_full_story(story_path):
         # Display the story
         st.markdown(story_content, unsafe_allow_html=False)
         
-        # Optional: Link to GitHub for full formatting
-        st.divider()
-        st.info("💡 **Tip:** For the best reading experience with proper formatting, [view the story on GitHub](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/fr/story.md)")
-        
     except Exception as e:
         st.error(f"Error loading story: {e}")
 

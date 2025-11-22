@@ -1,0 +1,2 @@
+# Placeholder para 50 traducciones más
+# Añadir frases en formato: frase | traducción | [ipa]

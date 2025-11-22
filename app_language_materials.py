@@ -262,11 +262,32 @@ def load_phrase_file(file_path_str: str) -> List[Dict]:
         with open(file_path, 'r', encoding='utf-8') as f:
             data = json.load(f)
         
+        # Determine language code from file path or data
+        # Story scenes have structure: {"es": [...], "scene_number": N, "scene_title": "..."}
+        lang_code = None
+        phrases_data = None
+        
+        # Try to find the language-specific phrase list
+        for key in ['fr', 'pt', 'es', 'de', 'nl', 'it']:
+            if key in data and isinstance(data[key], list):
+                lang_code = key
+                phrases_data = data[key]
+                break
+        
+        # Fallback: if data is already a list, use it directly
+        if phrases_data is None:
+            if isinstance(data, list):
+                phrases_data = data
+            else:
+                raise ValueError("Could not find phrase list in JSON file")
+        
         # Convert JSON format to phrase dict format
         phrases = []
-        for item in data:
+        for item in phrases_data:
+            # Handle both old format (french/english) and new format (lang_code/english)
+            text = item.get(lang_code) if lang_code else item.get('french', item.get('text', ''))
             phrases.append({
-                'text': item.get('french', item.get('text', '')),
+                'text': text,
                 'translation': item.get('english', item.get('translation')),
                 'ipa': item.get('ipa')
             })
