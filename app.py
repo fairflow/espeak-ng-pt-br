@@ -2066,8 +2066,9 @@ def main():
         # Reorder LANGUAGE_CONFIG to match material language order (de, es, fr, it, nl, pt)
         training_lang_order = ['German', 'Spanish', 'French', 'Italian', 'Dutch', 'Portuguese']
         
-        previous_language = st.session_state.language
-        st.session_state.language = st.selectbox(
+        # Use the selectbox return value but don't immediately assign to session_state
+        # This prevents overwriting the auto-sync value
+        training_lang_selected = st.selectbox(
             "Training Language",
             training_lang_order,
             index=training_lang_order.index(st.session_state.language) if st.session_state.language in training_lang_order else 0,
@@ -2075,13 +2076,16 @@ def main():
             key="training_language_selector"
         )
         
-        # If language changed manually, ensure session exists for new language
-        if previous_language != st.session_state.language:
-            if st.session_state.language not in st.session_state.current_sessions:
-                st.session_state.current_sessions[st.session_state.language] = {
+        # Only update if user manually changed it (different from current session state)
+        if training_lang_selected != st.session_state.language:
+            st.session_state.language = training_lang_selected
+            # Ensure session exists for new language
+            if training_lang_selected not in st.session_state.current_sessions:
+                st.session_state.current_sessions[training_lang_selected] = {
                     "date": datetime.now().isoformat(),
                     "practices": []
                 }
+            st.rerun()
         
         # CCS Testing Framework Controls
         if CCS_AVAILABLE:
