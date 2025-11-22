@@ -8,7 +8,8 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "2.0.2"
+# VERSION MARKER - Update this when releasing new version
+__version__ = "2.0.3"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -1668,10 +1669,15 @@ def render_story_reader():
     if has_scenes:
         available_modes.extend(["🎬 Scene by Scene", "🎙️ Practice Mode"])
     
+    # Initialize story_mode in session state if not present
+    if 'story_mode' not in st.session_state:
+        st.session_state.story_mode = "🎬 Scene by Scene"
+    
     story_mode = st.radio(
         "Choose reading mode:",
         available_modes,
         horizontal=True,
+        key='story_mode',
         help="Read the complete story, explore individual scenes, or practice pronunciation"
     )
     

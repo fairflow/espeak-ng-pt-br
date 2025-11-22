@@ -6,6 +6,19 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2.0.3] - 2025-11-22
+
+### Fixed
+
+- **Story Practice Mode Session State**: Fixed radio button reverting to "Scene by Scene" after saving session - now maintains "Practice Mode" selection correctly
+- Added session state persistence for story mode selection to prevent UI state desync on rerun
+
+### Added
+
+- **VERSION_CHECKLIST.md**: Comprehensive documentation of all files containing version numbers
+- Version markers in key files (app.py, VERSION_WORKFLOW.md) for easier version management
+
+
 ## [2.0.2] - 2025-11-22
 
 ### Fixed

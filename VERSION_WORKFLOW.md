@@ -2,7 +2,8 @@
 
 ## Quick Reference
 
-**Current Version:** 1.8.0
+<!-- VERSION MARKER - Update this when releasing new version -->
+**Current Version:** 2.0.3
 **App File:** `app.py`
 **Versioning:** Semantic Versioning (MAJOR.MINOR.PATCH)
 **Git Tags:** Match versions (`v0.9.0`, `v1.0.0`, etc.)
