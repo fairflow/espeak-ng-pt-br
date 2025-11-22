@@ -287,10 +287,15 @@ check_authentication()
 
 # If we get here, user is authenticated! Show logout button in sidebar
 with st.sidebar:
+    # Version at very top
+    st.markdown(f"### 🎯 Miolingo v{__version__}")
     st.markdown("---")
+    
+    # User info below divider
     st.markdown(f"👤 **{st.session_state['user']['username']}**")
     st.markdown(f"📧 {st.session_state['user']['email']}")
     
+    # Logout button at bottom of this section
     if st.button("🚪 Logout"):
         # Delete session
         if 'session_id' in st.session_state:
@@ -1826,10 +1831,7 @@ def main():
     
     # Sidebar - Settings and Navigation
     with st.sidebar:
-        # Version display at top
-        st.markdown(f"### 🎯 Miolingo v{__version__}")
         st.markdown("---")
-        
         st.header("⚙️ Settings")
         
         # Language selection
