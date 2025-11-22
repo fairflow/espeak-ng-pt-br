@@ -6,6 +6,22 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2.0.2] - 2025-11-22
+
+### Fixed
+
+- **IPA Typography**: Standardized IPA formatting across all display locations with consistent fonts, sizes, and delimiters
+- **Layout**: Fixed phoneme analysis section to span full width instead of being constrained to column layout
+- **Font Consistency**: Applied IPA-optimized fonts (Doulos SIL, Charis SIL, Gentium Plus, DejaVu Sans) throughout app
+- **Display Formatting**: Normalized phoneme display uses consistent 1.05em sizing and standard weight
+
+### Changed
+
+- Created `format_ipa()` function for centralized IPA typography management
+- Moved detailed phoneme analysis outside two-column layout for better readability
+- Standardized IPA delimiters to square brackets `[ipa]` format consistently
+
+
 ## [2.0.1] - 2025-11-22
 
 ### Fixed

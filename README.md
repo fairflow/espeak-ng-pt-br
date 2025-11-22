@@ -1,6 +1,6 @@
 # Miolingo - Multi-Language Pronunciation Trainer + eSpeak NG
 
-**Version 2.0.1** | Web-based multi-language pronunciation practice with instant AI feedback
+**Version 2.0.2** | Web-based multi-language pronunciation practice with instant AI feedback
 
 ---
 

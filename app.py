@@ -8,7 +8,7 @@ with real-time feedback using speech recognition and phonetic analysis.
 Run with: streamlit run app.py
 """
 
-__version__ = "2.0.1"
+__version__ = "2.0.2"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -1426,64 +1426,64 @@ def render_practice_results(result, key_prefix="practice"):
         elif score_is_high and not text_matches:
             # High score but text differs (e.g., punctuation) - show positive message
             st.info("ℹ️ Excellent pronunciation! (Minor text differences ignored)")
+    
+    # Close the two-column layout before the detailed analysis
+    # Show detailed phoneme analysis (works with edit distance!) - full width
+    if st.checkbox("🔍 Show detailed phoneme analysis", key=f"{key_prefix}_show_detail"):
+        st.markdown("---")
         
-        # Show detailed phoneme analysis (works with edit distance!)
-        if st.checkbox("🔍 Show detailed phoneme analysis", key=f"{key_prefix}_show_detail"):
-            # Span analysis across both columns for better readability
-            st.markdown("---")
+        st.markdown("#### Phoneme Analysis")
+        st.write(f"**Algorithm:** {st.session_state.settings.get('comparison_algorithm', 'edit_distance')}")
+        
+        if result.get('edit_distance') is not None:
+            st.write(f"**Edit Distance:** {result['edit_distance']} edit(s) needed")
+        
+        st.write("**Normalised phonemes (spaces removed for comparison):**")
+        col_a, col_b = st.columns(2)
+        with col_a:
+            # Use IPA (not eIPA) for user-friendly display
+            correct_ipa_normalized = result.get('correct_ipa', '').replace(" ", "")
+            st.markdown(format_ipa(correct_ipa_normalized, size="1.05em", weight=400, brackets=False), unsafe_allow_html=True)
+            st.caption(f"Target ({len(correct_ipa_normalized)} chars)")
+        with col_b:
+            user_ipa_normalized = result.get('user_ipa', '').replace(" ", "")
+            st.markdown(format_ipa(user_ipa_normalized, size="1.05em", weight=400, brackets=False), unsafe_allow_html=True)
+            st.caption(f"Your Pronunciation ({len(user_ipa_normalized)} chars)")
+        
+        # Visual comparison - full width for better readability
+        target_norm = result.get('correct_phonemes_normalized', correct_phonemes_no_space)
+        user_norm = result.get('user_phonemes_normalized', user_phonemes_no_space)
+        
+        if target_norm == user_norm:
+            st.success("🎯 Phonemes are identical!")
+        else:
+            # Use edit distance operations for accurate difference analysis
+            operations = get_edit_operations(target_norm, user_norm)
             
-            st.markdown("#### Phoneme Analysis")
-            st.write(f"**Algorithm:** {st.session_state.settings.get('comparison_algorithm', 'edit_distance')}")
+            # Count operation types
+            matches = sum(1 for op in operations if op[0] == 'match')
+            substitutions = [op for op in operations if op[0] == 'substitute']
+            insertions = [op for op in operations if op[0] == 'insert']
+            deletions = [op for op in operations if op[0] == 'delete']
             
-            if result.get('edit_distance') is not None:
-                st.write(f"**Edit Distance:** {result['edit_distance']} edit(s) needed")
+            st.write(f"**Operations:** {matches} matches, {len(substitutions)} substitutions, {len(insertions)} insertions, {len(deletions)} deletions")
             
-            st.write("**Normalised phonemes (spaces removed for comparison):**")
-            col_a, col_b = st.columns(2)
-            with col_a:
-                # Use IPA (not eIPA) for user-friendly display
-                correct_ipa_normalized = result.get('correct_ipa', '').replace(" ", "")
-                st.markdown(format_ipa(correct_ipa_normalized, size="1.05em", weight=400, brackets=False), unsafe_allow_html=True)
-                st.caption(f"Target ({len(correct_ipa_normalized)} chars)")
-            with col_b:
-                user_ipa_normalized = result.get('user_ipa', '').replace(" ", "")
-                st.markdown(format_ipa(user_ipa_normalized, size="1.05em", weight=400, brackets=False), unsafe_allow_html=True)
-                st.caption(f"Your Pronunciation ({len(user_ipa_normalized)} chars)")
+            # Show specific differences using IPA font
+            # Note: get_edit_operations returns (operation, position, char1, char2)
+            if substitutions:
+                st.write("**Substitutions:**")
+                for op, pos, t_char, u_char in substitutions[:5]:  # Limit to first 5
+                    st.markdown(f"  Position {pos}: {format_ipa(t_char, size='1.05em', weight=400, brackets=False)} → {format_ipa(u_char, size='1.05em', weight=400, brackets=False)}", unsafe_allow_html=True)
             
-            # Visual comparison - full width for better readability
-            target_norm = result.get('correct_phonemes_normalized', correct_phonemes_no_space)
-            user_norm = result.get('user_phonemes_normalized', user_phonemes_no_space)
+            if insertions:
+                st.write("**Insertions (extra phonemes in your pronunciation):**")
+                for op, pos, _, u_char in insertions[:5]:
+                    st.markdown(f"  Position {pos}: {format_ipa(u_char, size='1.05em', weight=400, brackets=False)}", unsafe_allow_html=True)
             
-            if target_norm == user_norm:
-                st.success("🎯 Phonemes are identical!")
-            else:
-                # Use edit distance operations for accurate difference analysis
-                operations = get_edit_operations(target_norm, user_norm)
-                
-                # Count operation types
-                matches = sum(1 for op in operations if op[0] == 'match')
-                substitutions = [op for op in operations if op[0] == 'substitute']
-                insertions = [op for op in operations if op[0] == 'insert']
-                deletions = [op for op in operations if op[0] == 'delete']
-                
-                st.write(f"**Operations:** {matches} matches, {len(substitutions)} substitutions, {len(insertions)} insertions, {len(deletions)} deletions")
-                
-                # Show specific differences using IPA font
-                # Note: get_edit_operations returns (operation, position, char1, char2)
-                if substitutions:
-                    st.write("**Substitutions:**")
-                    for op, pos, t_char, u_char in substitutions[:5]:  # Limit to first 5
-                        st.markdown(f"  Position {pos}: {format_ipa(t_char, size='1.05em', weight=400, brackets=False)} → {format_ipa(u_char, size='1.05em', weight=400, brackets=False)}", unsafe_allow_html=True)
-                
-                if insertions:
-                    st.write("**Insertions (extra phonemes in your pronunciation):**")
-                    for op, pos, _, u_char in insertions[:5]:
-                        st.markdown(f"  Position {pos}: {format_ipa(u_char, size='1.05em', weight=400, brackets=False)}", unsafe_allow_html=True)
-                
-                if deletions:
-                    st.write("**Deletions (missing phonemes):**")
-                    for op, pos, t_char, _ in deletions[:5]:
-                        st.markdown(f"  Position {pos}: {format_ipa(t_char, size='1.05em', weight=400, brackets=False)}", unsafe_allow_html=True)
+            if deletions:
+                st.write("**Deletions (missing phonemes):**")
+                for op, pos, t_char, _ in deletions[:5]:
+                    st.markdown(f"  Position {pos}: {format_ipa(t_char, size='1.05em', weight=400, brackets=False)}", unsafe_allow_html=True)
 
 
 def render_scene_practice_mode(scenes_dir):
