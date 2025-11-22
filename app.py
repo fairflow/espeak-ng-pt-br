@@ -2067,7 +2067,7 @@ def main():
         st.header("Quick Practice")
         
         # Language announcement banner
-        st.info("🎉 **Now supporting 6 languages!** Practice pronunciation in Portuguese, French, Dutch, German, Italian, and Spanish.")
+        # st.info("🎉 **Now supporting 6 languages!** Practice pronunciation in Portuguese, French, Dutch, German, Italian, and Spanish.")
         
         # Help info for new users
         current_session = st.session_state.current_sessions[st.session_state.language]
