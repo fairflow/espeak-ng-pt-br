@@ -472,12 +472,18 @@ def get_ipa(text: str, voice: str = "pt-br") -> str:
         return "[IPA unavailable]"
 
 
-def format_ipa(ipa_text: str) -> str:
+def format_ipa(ipa_text: str, size: str = "1.0em", weight: int = 400, brackets: bool = True) -> str:
     """
     Format IPA text with consistent delimiters and styling.
     
-    Returns HTML-formatted IPA in small, light font with square brackets.
-    Example: <span style="font-size: 0.9em; font-weight: 300;">[ipˈa]</span>
+    Args:
+        ipa_text: The IPA transcription text
+        size: Font size (default "1.0em" for standard, "0.9em" for smaller)
+        weight: Font weight (default 400 for normal, 300 for light)
+        brackets: Whether to include square brackets (default True)
+    
+    Returns HTML-formatted IPA with consistent styling.
+    Example: <span style="font-size: 1.0em; font-weight: 400;">[ipˈa]</span>
     """
     if not ipa_text:
         return ""
@@ -485,8 +491,11 @@ def format_ipa(ipa_text: str) -> str:
     # Remove any existing delimiters
     ipa_clean = ipa_text.strip().strip('[]/()')
     
-    # Return formatted HTML with square brackets
-    return f'<span style="font-size: 0.9em; font-weight: 300; font-family: \'Doulos SIL\', \'Charis SIL\', \'Gentium Plus\', \'DejaVu Sans\', sans-serif;">[{ipa_clean}]</span>'
+    # Add brackets if requested
+    display_text = f"[{ipa_clean}]" if brackets else ipa_clean
+    
+    # Return formatted HTML
+    return f'<span style="font-size: {size}; font-weight: {weight}; font-family: \'Doulos SIL\', \'Charis SIL\', \'Gentium Plus\', \'DejaVu Sans\', sans-serif;">{display_text}</span>'
 
 
 def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 40) -> tuple[bytes, str]:
@@ -1420,6 +1429,9 @@ def render_practice_results(result, key_prefix="practice"):
         
         # Show detailed phoneme analysis (works with edit distance!)
         if st.checkbox("🔍 Show detailed phoneme analysis", key=f"{key_prefix}_show_detail"):
+            # Span analysis across both columns for better readability
+            st.markdown("---")
+            
             st.markdown("#### Phoneme Analysis")
             st.write(f"**Algorithm:** {st.session_state.settings.get('comparison_algorithm', 'edit_distance')}")
             
@@ -1431,14 +1443,14 @@ def render_practice_results(result, key_prefix="practice"):
             with col_a:
                 # Use IPA (not eIPA) for user-friendly display
                 correct_ipa_normalized = result.get('correct_ipa', '').replace(" ", "")
-                st.markdown(f"`{correct_ipa_normalized}`")
+                st.markdown(format_ipa(correct_ipa_normalized, size="1.05em", weight=400, brackets=False), unsafe_allow_html=True)
                 st.caption(f"Target ({len(correct_ipa_normalized)} chars)")
             with col_b:
                 user_ipa_normalized = result.get('user_ipa', '').replace(" ", "")
-                st.markdown(f"`{user_ipa_normalized}`")
+                st.markdown(format_ipa(user_ipa_normalized, size="1.05em", weight=400, brackets=False), unsafe_allow_html=True)
                 st.caption(f"Your Pronunciation ({len(user_ipa_normalized)} chars)")
             
-            # Visual comparison
+            # Visual comparison - full width for better readability
             target_norm = result.get('correct_phonemes_normalized', correct_phonemes_no_space)
             user_norm = result.get('user_phonemes_normalized', user_phonemes_no_space)
             
@@ -1456,22 +1468,22 @@ def render_practice_results(result, key_prefix="practice"):
                 
                 st.write(f"**Operations:** {matches} matches, {len(substitutions)} substitutions, {len(insertions)} insertions, {len(deletions)} deletions")
                 
-                # Show specific differences
+                # Show specific differences using IPA font
                 # Note: get_edit_operations returns (operation, position, char1, char2)
                 if substitutions:
                     st.write("**Substitutions:**")
                     for op, pos, t_char, u_char in substitutions[:5]:  # Limit to first 5
-                        st.write(f"  Position {pos}: `{t_char}` → `{u_char}`")
+                        st.markdown(f"  Position {pos}: {format_ipa(t_char, size='1.05em', weight=400, brackets=False)} → {format_ipa(u_char, size='1.05em', weight=400, brackets=False)}", unsafe_allow_html=True)
                 
                 if insertions:
                     st.write("**Insertions (extra phonemes in your pronunciation):**")
                     for op, pos, _, u_char in insertions[:5]:
-                        st.write(f"  Position {pos}: `{u_char}`")
+                        st.markdown(f"  Position {pos}: {format_ipa(u_char, size='1.05em', weight=400, brackets=False)}", unsafe_allow_html=True)
                 
                 if deletions:
                     st.write("**Deletions (missing phonemes):**")
                     for op, pos, t_char, _ in deletions[:5]:
-                        st.write(f"  Position {pos}: `{t_char}`")
+                        st.markdown(f"  Position {pos}: {format_ipa(t_char, size='1.05em', weight=400, brackets=False)}", unsafe_allow_html=True)
 
 
 def render_scene_practice_mode(scenes_dir):
