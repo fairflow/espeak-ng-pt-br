@@ -1883,6 +1883,8 @@ def main():
                                 "date": datetime.now().isoformat(),
                                 "practices": []
                             }
+                        # Rerun to update banner and Training Language dropdown
+                        st.rerun()
         
         # Get current language config
         lang_config = LANGUAGE_CONFIG[st.session_state.language]
