@@ -472,6 +472,23 @@ def get_ipa(text: str, voice: str = "pt-br") -> str:
         return "[IPA unavailable]"
 
 
+def format_ipa(ipa_text: str) -> str:
+    """
+    Format IPA text with consistent delimiters and styling.
+    
+    Returns HTML-formatted IPA in small, light font with square brackets.
+    Example: <span style="font-size: 0.9em; font-weight: 300;">[ipˈa]</span>
+    """
+    if not ipa_text:
+        return ""
+    
+    # Remove any existing delimiters
+    ipa_clean = ipa_text.strip().strip('[]/()')
+    
+    # Return formatted HTML with square brackets
+    return f'<span style="font-size: 0.9em; font-weight: 300; font-family: \'Doulos SIL\', \'Charis SIL\', \'Gentium Plus\', \'DejaVu Sans\', sans-serif;">[{ipa_clean}]</span>'
+
+
 def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 40) -> tuple[bytes, str]:
     """
     Generate speech using eSpeak NG (returns audio bytes, does not auto-play)
@@ -1363,7 +1380,7 @@ def render_practice_results(result, key_prefix="practice"):
         st.write(f"**Text:** {result['target']}")
         st.write(f"**eIPA:** {result['correct_phonemes']}")
         if result.get('correct_ipa'):
-            st.write(f"**IPA:** {result['correct_ipa']}")
+            st.markdown(f"**IPA:** {format_ipa(result['correct_ipa'])}", unsafe_allow_html=True)
         
         # Show target audio directly
         tts_label = "Google TTS" if st.session_state.settings.get('tts_engine', 'gtts') == 'gtts' else "eSpeak"
@@ -1376,7 +1393,7 @@ def render_practice_results(result, key_prefix="practice"):
         st.write(f"**Recognized:** {result['recognized']}")
         st.write(f"**eIPA:** {result['user_phonemes']}")
         if result.get('user_ipa'):
-            st.write(f"**IPA:** {result['user_ipa']}")
+            st.markdown(f"**IPA:** {format_ipa(result['user_ipa'])}", unsafe_allow_html=True)
         
         # Show comparison note
         # Normalize text by removing punctuation for comparison
@@ -1580,7 +1597,7 @@ def render_scene_practice_mode(scenes_dir):
                 if phrase_translation:
                     st.markdown(f"**🇬🇧 English:** {phrase_translation}")
                 if phrase_ipa:
-                    st.markdown(f"**📚 Reference IPA:** {phrase_ipa}")
+                    st.markdown(f"**📚 Reference IPA:** {format_ipa(phrase_ipa)}", unsafe_allow_html=True)
                     st.caption("Compare with eSpeak IPA generated below")
         
         st.markdown(f"#### 🎯 **{current_phrase}**")
@@ -1751,7 +1768,7 @@ def render_scene_by_scene(scenes_dir, lang_code):
             
             # Optional: IPA
             if show_ipa and ipa_text:
-                st.caption(f"   🔊 /{ipa_text}/")
+                st.markdown(f"   🔊 {format_ipa(ipa_text)}", unsafe_allow_html=True)
             
             # Add spacing between phrases
             if i < len(scene_data):
@@ -2308,7 +2325,7 @@ def main():
                         if phrase_translation:
                             st.markdown(f"**🇬🇧 English:** {phrase_translation}")
                         if phrase_ipa:
-                            st.markdown(f"**📚 Reference IPA:** {phrase_ipa}")
+                            st.markdown(f"**📚 Reference IPA:** {format_ipa(phrase_ipa)}", unsafe_allow_html=True)
                             st.caption("Compare with eSpeak IPA generated below")
                 
                 # Display phrase - mobile-friendly with emoji inline
