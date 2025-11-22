@@ -6,6 +6,26 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2.1.0] - 2025-11-22
+
+### Changed
+
+- **Language Selection Simplified**: Training language now directly derived from material language selection
+- **Unified Language Control**: Single language dropdown controls both materials and speech
+- **Sidebar Reorganization**: Improved layout with version at top, cleaner hierarchy
+- **Removed Complexity**: Eliminated auto-sync race conditions and widget state conflicts
+
+### Removed
+
+- **Training Language Dropdown**: Temporarily disabled in Fun section (marked as TODO for future enhancement)
+- Complex auto-sync logic that caused synchronization issues
+
+### Fixed
+
+- Language selection now updates banner, materials, and speech consistently
+- Eliminated widget state conflicts between multiple language selectors
+
+
 ## [2.0.5] - 2025-11-22
 
 ### Added
