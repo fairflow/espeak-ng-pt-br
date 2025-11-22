@@ -9,7 +9,7 @@ Run with: streamlit run app.py
 """
 
 # VERSION MARKER - Update this when releasing new version
-__version__ = "2.0.3"
+__version__ = "2.0.4"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -2028,17 +2028,17 @@ def main():
         lang_code = st.session_state.get('material_language', 'fr')
         
         if lang_code == 'pt':
-            st.markdown("- [Sophie & Lucas: Uma Jornada aos Alpes](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/pt/story.md) (Portuguese - Coming soon)")
+            st.markdown("- [Sophie & Lucas: Uma Jornada aos Alpes](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/pt/story.md) (Portuguese)")
         elif lang_code == 'fr':
             st.markdown("- [Sophie & Lucas: A Journey to the Alps](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/fr/story.md) (French)")
         elif lang_code == 'nl':
-            st.markdown("- [Sophie & Lucas: Een Reis naar de Alpen](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/nl/story.md) (Dutch - Coming soon)")
+            st.markdown("- [Sophie & Lucas: Een Reis naar de Alpen](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/nl/story.md) (Dutch)")
         elif lang_code == 'de':
-            st.markdown("- [Sophie & Lucas: Eine Reise in die Alpen](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/de/story.md) (German - Coming soon)")
+            st.markdown("- [Sophie & Lucas: Eine Reise in die Alpen](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/de/story.md) (German)")
         elif lang_code == 'it':
-            st.markdown("- [Sophie & Lucas: Un Viaggio sulle Alpi](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/it/story.md) (Italian - Coming soon)")
+            st.markdown("- [Sophie & Lucas: Un Viaggio sulle Alpi](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/it/story.md) (Italian)")
         elif lang_code == 'es':
-            st.markdown("- [Sophie & Lucas: Un Viaje a Sierra Nevada](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/es/story.md) (Spanish - Coming soon)")
+            st.markdown("- [Sophie & Lucas: Un Viaje a Sierra Nevada](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/es/story.md) (Spanish)")
         
         st.markdown("""
         **💬 Support:**

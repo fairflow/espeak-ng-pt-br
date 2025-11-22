@@ -1,6 +1,6 @@
 # Version Number Update Checklist
 
-**CURRENT VERSION: 2.0.3** <!-- UPDATE THIS MARKER -->
+**CURRENT VERSION: 2.0.4** <!-- UPDATE THIS MARKER -->
 
 This document lists all files that contain version numbers and must be updated when releasing a new version.
 
