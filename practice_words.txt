@@ -1,0 +1,10 @@
+casa
+água
+tempo
+pessoa
+obrigado
+por favor
+bom dia
+boa noite
+sim
+não

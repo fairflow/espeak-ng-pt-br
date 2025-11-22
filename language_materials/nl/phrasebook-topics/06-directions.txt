@@ -1,0 +1,13 @@
+# Dutch Phrasebook - Directions
+# Level distribution: A, B
+# Format: dutch | english | [ipa]
+
+Ik zoek... | I'm looking for... | [ɪk zˈuk]
+Is het dichtbij? | Is it near here? | [ɪs hə tɪxtbˈɛɪ]
+Is het ver hier vandaan? | Is it far from here? | [ɪs hət vˈɛr hˈir vɑndˈaːn]
+Naar links | To the left | [naːr lˈɪŋks]
+Naar rechts | To the right | [naːr rˈɛxts]
+Rechtdoor | Straight ahead | [rɛxtˈoːr]
+Waar is het toilet? | Where is the bathroom? | [ʋˈaːr ɪs hə tʋɑlˈɛt]
+Waar is...? | Where is...? | [ʋˈaːr ɪs]
+Waar vind ik...? | Where is...? | [ʋˈaːr vˈɪnt ɪk]

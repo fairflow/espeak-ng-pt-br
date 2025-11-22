@@ -1,0 +1,11 @@
+# German Phrasebook - Introductions
+# Level distribution: A, B
+# Format: german | english | [ipa]
+
+Angenehm | Nice to meet you | [ˈanɡənˌeːm]
+Angenehm | Nice to meet you | [ˈanɡənˌeːm]
+Ich heiße... | My name is... | [ɪç hˈaɪsə]
+Ich komme aus... | I come from... | [ɪç kˈɔmə ˈaʊs]
+Wie heißen Sie? | What is your name? | [viː hˈaɪsən ziː]
+Woher kommen Sie? | Where are you from? | [voːhˈeːɾ kˈɔmən ziː]
+Freut mich, Sie kennenzulernen | Pleased to meet you | [frˈɔøt mɪç ziː kˈɛnəntsˌuːlɜnən]

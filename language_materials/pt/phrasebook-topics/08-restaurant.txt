@@ -1,0 +1,14 @@
+# Portuguese Phrasebook - Restaurant
+# Level distribution: B, A
+# Format: portuguese | english | [ipa]
+
+A conta, por favor | The bill, please | [a kˈoŋtæ  por favˈor]
+Estava delicioso | It was delicious | [estˌavæ dˌelisiˈozʊ]
+Eu gostaria de... | I would like... | [eʊ ɡˌostaɾˈiæ dʒy]
+Eu sou vegetariano | I'm vegetarian | [eʊ sow vˌeʒetˌaɾiˈɐ̃nʊ]
+O cardápio, por favor | The menu, please | [ʊ kˌaɾədˈapjʊ  por favˈor]
+Um café, por favor | A coffee, please | [ũŋ kafˈɛ  por favˈor]
+Uma jarra de água, por favor | A carafe of water, please | [ˌumæ ʒˈaxæ dʒj ˈaɡwæ  por favˈor]
+Uma mesa para dois, por favor | A table for two, please | [ˌumæ mˈezæ pˌaɾæ dˈoɪs  por favˈor]
+Eu sou alérgico a... | I'm allergic to... | [eʊ sow ˌalˈɛɾəʒikw ˈa]
+O que você recomenda? | What do you recommend? | [ʊ ky vosˌe xˌekomˈeɪŋdæ]

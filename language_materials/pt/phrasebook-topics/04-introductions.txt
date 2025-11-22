@@ -1,0 +1,11 @@
+# Portuguese Phrasebook - Introductions
+# Level distribution: B, A
+# Format: portuguese | english | [ipa]
+
+Como você se chama? | What is your name? | [kˌomʊ vosˌe sy ʃˈɐ̃mæ]
+De onde você é? | Where are you from? | [dʒj ˌoŋdʒy vosˈe ɛ]
+Eu sou de... | I come from... | [eʊ sow dʒˈy]
+Meu nome é... | My name is... | [meʊ nˈomj ɛ]
+Prazer em conhecer | Nice to meet you | [prazˈeɾ ˈeɪŋ kˌoɲesˈer]
+Prazer em conhecer | Nice to meet you | [prazˈeɾ ˈeɪŋ kˌoɲesˈer]
+Prazer em conhecê-lo | Pleased to meet you | [prazˈeɾ ˈeɪŋ kˌoɲesˈelʊ]

@@ -1,0 +1,14 @@
+# Portuguese Phrasebook - Conversation
+# Level distribution: C, B
+# Format: portuguese | english | [ipa]
+
+Como está o trabalho? | How's work? | [kˌomʊ estˌa ʊ trˌabˈaljʊ]
+Como está sua família? | How's your family? | [kˌomʊ estˌa sˌuæ fˌæmˈiljæ]
+Como você está? | How are you? | [kˌomʊ vosˌe estˈa]
+Estou com vontade de... | I feel like... | [estˌow koŋ vˌoŋtˈadʒy dʒy]
+O que você está fazendo? | What are you doing? | [ʊ ky vosˌe estˌa fˌazˈeɪŋdʊ]
+O que você faz? | What are you doing? | [ʊ ky vosˌe fˈas]
+Que tal? | How about it? | [ky tˈaʊ]
+Você quer tomar algo? | Want to get a drink? | [vosˌe kˈɛr tomˈaɾ ˈaʊɡʊ]
+Me mantenha informado | Keep me updated | [my mˌɐ̃ŋtˈeɲæ ˌiŋfoɾəmˈadʊ]
+Você está dando conta? | Are you managing? | [vosˌe estˌa dˈɐ̃ŋdʊ kˈoŋtæ]

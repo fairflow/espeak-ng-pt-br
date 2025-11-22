@@ -1,0 +1,12 @@
+# French Phrasebook - Introductions
+# Practical phrases for real-world situations
+# Difficulty levels: A:6, B:1
+# Format: french | english | [ipa]
+
+Je m'appelle... | My name is... | [ʒə- mapˈɛl]
+Comment vous appelez-vous? | What is your name? | [kɔmˌɑ̃ vuz aplˈevˈu]
+Enchanté | Nice to meet you | [ɑ̃ʃɑ̃tˈe]
+Enchantée | Nice to meet you | [ɑ̃ʃɑ̃tˈe]
+D'où venez-vous? | Where are you from? | [du vənˈevˈu]
+Je viens de... | I come from... | [ʒə- vjˈɛ̃ də-]
+Ravi de faire votre connaissance | Pleased to meet you | [ʁavˈi də- fˈɛʁ vɔtʁ kɔnɛsˈɑ̃s]

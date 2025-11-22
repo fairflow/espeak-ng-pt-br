@@ -1,0 +1,16 @@
+# German Phrasebook - Feelings
+# Level distribution: A, B, C
+# Format: german | english | [ipa]
+
+Ich habe Durst | I'm thirsty | [ɪç hɑːbə dˈuːɾst]
+Ich habe Hunger | I'm hungry | [ɪç hɑːbə hˈʊŋɜ]
+Mir ist kalt | I'm cold | [miːɾ ɪst kˈalt]
+Mir ist warm | I'm hot | [miːɾ ɪst vˈaɾm]
+Ich bin glücklich | I'm happy | [ɪç bɪn ɡlˈʏklɪç]
+Ich bin glücklich | I'm happy | [ɪç bɪn ɡlˈʏklɪç]
+Ich bin müde | I'm tired | [ɪç bɪn mˈyːdə]
+Ich bin müde | I'm tired | [ɪç bɪn mˈyːdə]
+Ich kann es kaum erwarten | I can't wait | [ɪç kˌan ɛs kˈaʊm ɛɾvˈaɾtən]
+Mir ist langweilig | I'm bored | [miːɾ ɪst lˈaŋvˌaɪlɪç]
+Ich bin erschöpft | I'm exhausted | [ɪç bɪn ɛɾʃˈœpft]
+Mir ist nicht gut | I'm feeling down | [miːɾ ɪst nˈɪçt ɡˈuːt]

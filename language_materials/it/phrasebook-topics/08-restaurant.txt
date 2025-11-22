@@ -1,0 +1,14 @@
+# Italian Phrasebook - Restaurant
+# Level distribution: A, B
+# Format: italian | english | [ipa]
+
+Era delizioso | It was delicious | [ˌɛra dˌɛlitsiˈoːzo]
+Il conto, per favore | The bill, please | [ˌil kˈonto pˌɛr favˈoːre]
+Il menu, per favore | The menu, please | [ˌil menˈu pˌɛr favˈoːre]
+Sono vegetariano | I'm vegetarian | [sˌono vˌedʒetˌariˈaːno]
+Un caffè, per favore | A coffee, please | [ˌʊn kaffˈɛ pˌɛr favˈoːre]
+Un tavolo per due, per favore | A table for two, please | [ˌʊn tˈavolo pˌɛr dˈuːe pˌɛr favˈoːre]
+Una caraffa d'acqua, per favore | A carafe of water, please | [ˌʊna karˈaffa dˈakːwa pˌɛr favˈoːre]
+Vorrei... | I would like... | [vorɾˈeːɪ]
+Cosa consiglia? | What do you recommend? | [kˈɔːza konsˈiːʎa]
+Sono allergico a... | I'm allergic to... | [sˌono allˈɛrdʒiko ˈaː]

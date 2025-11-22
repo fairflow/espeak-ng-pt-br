@@ -1,0 +1,14 @@
+# Portuguese Phrasebook - Asking For Help
+# Level distribution: B, A
+# Format: portuguese | english | [ipa]
+
+Eu falo um pouco de português | I speak a little French | [eʊ fˈalw ũŋ pˈowkʊ dʒy pˌoɾətuɡˈes]
+Eu não entendo | I don't understand | [eʊ nˌɐ̃ʊ̃ ˌeɪŋtˈeɪŋdʊ]
+Eu não falo português | I don't speak French | [eʊ nˌɐ̃ʊ̃ fˈalʊ pˌoɾətuɡˈes]
+Eu preciso de ajuda | I need help | [eʊ prˌesˈizʊ dʒj ˌaʒˈudæ]
+Mais devagar, por favor | Slower, please | [mˈaɪz dˌevaɡˈar  por favˈor]
+Pode repetir? | Can you repeat? | [pˌɔdʒy xˌepetʃˈir]
+Você fala inglês? | Do you speak English? | [vosˌe fˈalæ iŋɡlˈes]
+Você pode me ajudar? | Can you help me? | [vosˌe pˌɔdʒy mj ˌaʒudˈar]
+Como se diz... em português? | How do you say... in French? | [kˌomʊ sy dʒˈis  ˈeɪŋ pˌoɾətuɡˈes]
+O que isso quer dizer? | What does that mean? | [ʊ ky ˈisʊ kˈɛr dʒizˈer]

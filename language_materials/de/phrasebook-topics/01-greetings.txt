@@ -1,0 +1,13 @@
+# German Phrasebook - Greetings
+# Level distribution: A
+# Format: german | english | [ipa]
+
+Es geht | I'm fine | [ɛs ɡˈeːt]
+Guten Abend | Good evening | [ɡˈuːtən ˈɑːbənt]
+Guten Tag | Hello | [ɡˈuːtən tˈɑːk]
+Hallo | Hi | [hˈaloː]
+Mir geht es gut | I'm doing well | [miːɾ ɡˈeːt ɛs ɡˈuːt]
+Mir geht es gut, danke | I'm fine, thank you | [miːɾ ɡˈeːt ɛs ɡˈuːt dˈaŋkə]
+Und Ihnen? | And you? | [ʊnt ˈiːnən]
+Wie geht es Ihnen? | How are you? | [viː ɡˈeːt ɛs ˈiːnən]
+Wie geht's? | How are you? | [viː ɡˈeːts]

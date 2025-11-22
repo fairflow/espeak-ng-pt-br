@@ -1,0 +1,12 @@
+# Dutch Phrasebook - Courtesy
+# Level distribution: A
+# Format: dutch | english | [ipa]
+
+Alsjeblieft | Please | [ˌɑlʃɛblˈift]
+Alstublieft | Please | [ˌɑlstɵblˈift]
+Dank je | Thank you | [dˈɑŋk jə]
+Dank je wel | Thank you very much | [dˈɑŋk jə ʋˈɛl]
+Graag gedaan | You're welcome | [ɣrˈaːx ɣədˈaːn]
+Pardon | Excuse me | [pɑrdˈɔn]
+Pardon | Pardon | [pɑrdˈɔn]
+Sorry | Sorry | [sˈɔɾri]

@@ -3,6 +3,7 @@
 *~
 .*.swp
 *.bat
+.DS_Store
 
 # Eclipse project files:
 
@@ -163,8 +164,7 @@ src/pcaudiolib/
 *.cache
 *.user
 
-*.txt
-*.wixobj
+.wixobj
 *.wixpdb
 *.cab
 /src/windows/Release
@@ -230,3 +230,44 @@ espeak-ng-data/mbrola_ph/*_phtrans
 
 # fastlane metadata
 !fastlane/metadata/android/*/*.txt
+
+# local installation directory
+local/
+!local/README.md
+
+# Python virtual environment
+venv/
+*.pyc
+__pycache__/
+!requirements.txt
+
+# Practice app audio files
+# not *.txt as I am using those
+# Only ignore wav files in root and practice_audio, not phsource (those are espeak data)
+/*.wav
+practice_audio/*.wav
+temp_*.wav
+*.bak # really not needed
+
+# Practice app data files (user-specific)
+practice_config.json
+practice_history.json
+practice_audio/
+ccs_test_session*.json
+app-docs/mega_chat.md
+language_materials/*/.DS_Store
+language_materials/fr/phrases-original/
+.streamlit/secrets.toml
+test_krystal_connection.py
+deploy_schema.py
+test_mysql_connection.py
+test_app_mysql.py
+query_all_data.py
+query_test_user.py
+test_ssh_tunnel.py
+test_ssh_simple.py
+test_key_content.py
+generate_phrasebook_ipa.py.old
+language_materials/.DS_Store
+language_materials/.DS_Store
+language_materials/fr/.DS_Store

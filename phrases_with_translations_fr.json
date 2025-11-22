@@ -1,0 +1,1735 @@
+{
+  "metadata": {
+    "total_phrases": 215,
+    "distribution": {
+      "A": 69,
+      "B": 129,
+      "C": 12,
+      "D": 5
+    },
+    "format": "french | english | [ipa]",
+    "status": "English translations need manual review"
+  },
+  "phrases": [
+    {
+      "french": "Bonjour Sophie, ça va?",
+      "english": "[TO TRANSLATE: Bonjour Sophie, ça va?...]",
+      "ipa": "bɔ̃ʒˈuʁ sofˈi sa vˈa",
+      "level": "A",
+      "score": 22,
+      "scene": 0
+    },
+    {
+      "french": "Ça va. Qu'est-ce que tu prends ce matin?",
+      "english": "[TO TRANSLATE: Ça va. Qu'est-ce que tu prends ce matin?...]",
+      "ipa": "sa vˈa kɛskˌə ty pʁˈɑ̃ sə- matˈɛ̃",
+      "level": "B",
+      "score": 43,
+      "scene": 0
+    },
+    {
+      "french": "Salut! Tu as bien dormi?",
+      "english": "[TO TRANSLATE: Salut! Tu as bien dormi?...]",
+      "ipa": "salˈy ty a bjˈɛ̃ dɔʁmˈi",
+      "level": "A",
+      "score": 27,
+      "scene": 0
+    },
+    {
+      "french": "Non, pas très bien. J'ai fait des rêves étranges.",
+      "english": "[TO TRANSLATE: Non, pas très bien. J'ai fait des rêves étranges....]",
+      "ipa": "nˈɔ̃ pa tʁɛ bjˈɛ̃ ʒe fˈɛ de- ʁˈɛvz etʁˈɑ̃ʒ",
+      "level": "B",
+      "score": 47,
+      "scene": 0
+    },
+    {
+      "french": "Tu veux du sucre dans ton café?",
+      "english": "[TO TRANSLATE: Tu veux du sucre dans ton café?...]",
+      "ipa": "ty vˈø dy- sˈykʁ dɑ̃ tɔ̃ kafˈe",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Il fait beau aujourd'hui,",
+      "english": "[TO TRANSLATE: Il fait beau aujourd'hui,...]",
+      "ipa": "il fˈɛ bˈo oʒuʁdyˈi",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Oui, c'est une belle journée.",
+      "english": "[TO TRANSLATE: Oui, c'est une belle journée....]",
+      "ipa": "wˈi sɛt yn bˈɛl ʒuʁnˈe",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Tu sais, Lucas, la vie est si monotone ici.",
+      "english": "[TO TRANSLATE: Tu sais, Lucas, la vie est si monotone ici....]",
+      "ipa": "ty sˈɛ lykˈa la- vˈi ɛ sˈi monotˈɔn isˈi",
+      "level": "B",
+      "score": 48,
+      "scene": 0
+    },
+    {
+      "french": "Je suis d'accord avec toi. Chaque jour est pareil.",
+      "english": "[TO TRANSLATE: Je suis d'accord avec toi. Chaque jour est pareil....]",
+      "ipa": "ʒə- syˌi dakˈɔʁ avˌɛk twˈa ʃak ʒˈuʁ ɛ paʁˈɛj",
+      "level": "B",
+      "score": 41,
+      "scene": 0
+    },
+    {
+      "french": "Tu as raison! Pourquoi pas?",
+      "english": "[TO TRANSLATE: Tu as raison! Pourquoi pas?...]",
+      "ipa": "ty a ʁɛzˈɔ̃ puʁkwˌa pˈa",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Les rues du Marais commencent à s'animer",
+      "english": "[TO TRANSLATE: Les rues du Marais commencent à s'animer...]",
+      "ipa": "le- ʁˈy dy- maʁˈɛ kɔmˈɑ̃st a sanimˈe",
+      "level": "B",
+      "score": 43,
+      "scene": 0
+    },
+    {
+      "french": "Qu'est-ce que je peux faire pour vous?",
+      "english": "[TO TRANSLATE: Qu'est-ce que je peux faire pour vous?...]",
+      "ipa": "kɛskˌə ʒə- pˈø fˈɛʁ puʁ vˈu",
+      "level": "B",
+      "score": 41,
+      "scene": 0
+    },
+    {
+      "french": "Nous avons besoin de pain,",
+      "english": "[TO TRANSLATE: Nous avons besoin de pain,...]",
+      "ipa": "nuz avˈɔ̃ bəzwˈɛ̃ də- pˈɛ̃",
+      "level": "A",
+      "score": 35,
+      "scene": 0
+    },
+    {
+      "french": "Le pain est là-bas, près de l'entrée.",
+      "english": "[TO TRANSLATE: Le pain est là-bas, près de l'entrée....]",
+      "ipa": "lə- pˈɛ̃ ɛ lˈabˈa pʁɛ də- lɑ̃tʁˈe",
+      "level": "B",
+      "score": 39,
+      "scene": 0
+    },
+    {
+      "french": "Le fromage est frais?",
+      "english": "[TO TRANSLATE: Le fromage est frais?...]",
+      "ipa": "lə- fʁomˈaʒ ɛ fʁˈɛ",
+      "level": "B",
+      "score": 42,
+      "scene": 0
+    },
+    {
+      "french": "Oui, il est très bon. Je l'ai reçu ce matin.",
+      "english": "[TO TRANSLATE: Oui, il est très bon. Je l'ai reçu ce matin....]",
+      "ipa": "wˈi il ɛ tʁɛ bˈɔ̃ ʒə- le ʁəsˈy sə- matˈɛ̃",
+      "level": "A",
+      "score": 32,
+      "scene": 0
+    },
+    {
+      "french": "C'est trop cher pour moi.",
+      "english": "[TO TRANSLATE: C'est trop cher pour moi....]",
+      "ipa": "sɛ tʁo ʃˈɛʁ puʁ mwˈa",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "j'ai des tomates d'hier. Deux euros le kilo.",
+      "english": "[TO TRANSLATE: j'ai des tomates d'hier. Deux euros le kilo....]",
+      "ipa": "ʒe de- tomˈat djˈɛʁ dˈøz øʁˈo lə- kilˈo",
+      "level": "B",
+      "score": 39,
+      "scene": 0
+    },
+    {
+      "french": "Où est la boulangerie?",
+      "english": "[TO TRANSLATE: Où est la boulangerie?...]",
+      "ipa": "u ɛ la- bulɑ̃ʒʁˈi",
+      "level": "A",
+      "score": 29,
+      "scene": 0
+    },
+    {
+      "french": "Elle est au coin de la rue, après l'église.",
+      "english": "[TO TRANSLATE: Elle est au coin de la rue, après l'église....]",
+      "ipa": "ɛl ɛt o kwˈɛ̃ də- la- ʁˈy apʁˌɛ leɡlˈiz",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "J'aime ce quartier.",
+      "english": "[TO TRANSLATE: J'aime ce quartier....]",
+      "ipa": "ʒˈɛm sə- kaʁtjˈe",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Moi aussi, c'est très joli. Les vieux bâtiments ont du charme.",
+      "english": "[TO TRANSLATE: Moi aussi, c'est très joli. Les vieux bâtiments ont du charm...]",
+      "ipa": "mwˌa osˈi sɛ tʁɛ ʒolˈi le- vjˈø batimˈɑ̃z ˈɔ̃ dy- ʃˈaʁm",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Bonne idée! On peut prendre une bouteille pour ce soir.",
+      "english": "[TO TRANSLATE: Bonne idée! On peut prendre une bouteille pour ce soir....]",
+      "ipa": "bˈɔn idˈe ɔ̃ pˈø pʁˈɑ̃dʁ yn butˈɛj puʁ sə- swˈaʁ",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Sophie fait la grimace",
+      "english": "[TO TRANSLATE: Sophie fait la grimace...]",
+      "ipa": "sofˈi fˈɛ la- ɡʁimˈas",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Lucas a une idée",
+      "english": "[TO TRANSLATE: Lucas a une idée...]",
+      "ipa": "lykˈaz a yn idˈe",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Tu sais, Lucas, je suis fatigué de cette vie,",
+      "english": "[TO TRANSLATE: Tu sais, Lucas, je suis fatigué de cette vie,...]",
+      "ipa": "ty sˈɛ lykˈa ʒə- syˌi fatiɡˈe də- sɛt vˈi",
+      "level": "B",
+      "score": 46,
+      "scene": 0
+    },
+    {
+      "french": "Moi aussi, tout est pareil chaque jour. Métro, boulot, dodo.",
+      "english": "[TO TRANSLATE: Moi aussi, tout est pareil chaque jour. Métro, boulot, dodo....]",
+      "ipa": "mwˌa osˈi tut ɛ paʁˈɛj ʃak ʒˈuʁ metʁˈo bulˈo dodˈo",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "On pourrait voyager quelque part. Pour de vrai, pas juste en parler.",
+      "english": "[TO TRANSLATE: On pourrait voyager quelque part. Pour de vrai, pas juste en...]",
+      "ipa": "ɔ̃ puʁˈɛ vwajaʒˈe kˌɛlkə pˈaʁ puʁ də- vʁˈɛ pa ʒˈyst ɑ̃ paʁlˈe",
+      "level": "B",
+      "score": 48,
+      "scene": 0
+    },
+    {
+      "french": "Où veux-tu aller?",
+      "english": "[TO TRANSLATE: Où veux-tu aller?...]",
+      "ipa": "u vˈøty alˈe",
+      "level": "A",
+      "score": 22,
+      "scene": 0
+    },
+    {
+      "french": "Je ne sais pas encore. Mais loin d'ici.",
+      "english": "[TO TRANSLATE: Je ne sais pas encore. Mais loin d'ici....]",
+      "ipa": "ʒə- nə- sˈɛ paz ɑ̃kˈɔʁ mɛ lwˌɛ̃ disˈi",
+      "level": "B",
+      "score": 48,
+      "scene": 0
+    },
+    {
+      "french": "La montagne ou la mer?",
+      "english": "[TO TRANSLATE: La montagne ou la mer?...]",
+      "ipa": "la- mɔ̃tˈaɲ u la- mˈɛʁ",
+      "level": "A",
+      "score": 27,
+      "scene": 0
+    },
+    {
+      "french": "Oui! C'est une excellente idée!",
+      "english": "[TO TRANSLATE: Oui! C'est une excellente idée!...]",
+      "ipa": "wˈi sɛt yn ɛksɛlˈɑ̃t idˈe",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "J'ai un peu peur, tu sais.",
+      "english": "[TO TRANSLATE: J'ai un peu peur, tu sais....]",
+      "ipa": "ʒe œ̃ pø pˈœʁ ty sˈɛ",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "N'aie pas peur, ça va bien se passer.",
+      "english": "[TO TRANSLATE: N'aie pas peur, ça va bien se passer....]",
+      "ipa": "nɛ pa pˈœʁ sa vˈa bjˈɛ̃ sə- pasˈe",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Tu as raison, allons-y! Qu'est-ce qu'on risque?",
+      "english": "[TO TRANSLATE: Tu as raison, allons-y! Qu'est-ce qu'on risque?...]",
+      "ipa": "ty a ʁɛzˈɔ̃ alˈɔ̃ziɡʁˈɛk kɛs kɔ̃ ʁˈisk",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "C'est décidé, nous partons!",
+      "english": "[TO TRANSLATE: C'est décidé, nous partons!...]",
+      "ipa": "sɛ desidˈe nu paʁtˈɔ̃",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Dans une semaine. J'ai regardé les trains cette nuit.",
+      "english": "[TO TRANSLATE: Dans une semaine. J'ai regardé les trains cette nuit....]",
+      "ipa": "dɑ̃z yn səmˈɛn ʒe ʁəɡaʁdˈe le- tʁˈɛ̃ sɛt nyˈi",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Une semaine? C'est si rapide!",
+      "english": "[TO TRANSLATE: Une semaine? C'est si rapide!...]",
+      "ipa": "yn səmˈɛn sɛ sˈi ʁapˈid",
+      "level": "B",
+      "score": 36,
+      "scene": 0
+    },
+    {
+      "french": "Oui, mais c'est mieux comme ça. Si on attend trop, on ne partira jamais.",
+      "english": "[TO TRANSLATE: Oui, mais c'est mieux comme ça. Si on attend trop, on ne par...]",
+      "ipa": "wˈi mɛ sɛ mjˌø kɔm sˈa sˈi ɔ̃n atˈɑ̃ tʁˈo ɔ̃ nə- paʁtiʁˈa ʒamˈɛ",
+      "level": "C",
+      "score": 57,
+      "scene": 0
+    },
+    {
+      "french": "Tu as raison. Qu'est-ce qu'on emporte?",
+      "english": "[TO TRANSLATE: Tu as raison. Qu'est-ce qu'on emporte?...]",
+      "ipa": "ty a ʁɛzˈɔ̃ kɛs kɔ̃n ɑ̃pˈɔʁt",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Je suis excité! C'est vraiment en train d'arriver!",
+      "english": "[TO TRANSLATE: Je suis excité! C'est vraiment en train d'arriver!...]",
+      "ipa": "ʒə- syˌiz ɛksitˈe sɛ vʁɛmˈɑ̃ ɑ̃ tʁˈɛ̃ daʁivˈe",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Aller simple ou aller-retour?",
+      "english": "[TO TRANSLATE: Aller simple ou aller-retour?...]",
+      "ipa": "alˈe sˈɛ̃pl u alˈeʁətˈuʁ",
+      "level": "A",
+      "score": 28,
+      "scene": 0
+    },
+    {
+      "french": "À onze heures quinze. Vous avez de la chance, c'est le TGV direct.",
+      "english": "[TO TRANSLATE: À onze heures quinze. Vous avez de la chance, c'est le TGV d...]",
+      "ipa": "a ˈɔ̃z ˈœʁ kˈɛ̃z vuz avˈe də- la- ʃˈɑ̃s sɛ lə- tˌeʒˌevˈe diʁˈɛkt",
+      "level": "B",
+      "score": 46,
+      "scene": 0
+    },
+    {
+      "french": "Nous avons le temps de prendre un café?",
+      "english": "[TO TRANSLATE: Nous avons le temps de prendre un café?...]",
+      "ipa": "nuz avˈɔ̃ lə- tˈɑ̃ də- pʁˈɑ̃dʁ œ̃ kafˈe",
+      "level": "A",
+      "score": 28,
+      "scene": 0
+    },
+    {
+      "french": "Oui, nous avons une demi-heure.",
+      "english": "[TO TRANSLATE: Oui, nous avons une demi-heure....]",
+      "ipa": "wˈi nuz avˈɔ̃z yn dəmjˈœʁ",
+      "level": "A",
+      "score": 28,
+      "scene": 0
+    },
+    {
+      "french": "Je l'ai déjà pris. Et toi, tu as les billets?",
+      "english": "[TO TRANSLATE: Je l'ai déjà pris. Et toi, tu as les billets?...]",
+      "ipa": "ʒə- le deʒˈa pʁˈi e twˈa ty a le- bijˈɛ",
+      "level": "B",
+      "score": 39,
+      "scene": 0
+    },
+    {
+      "french": "Tu es prêt pour l'aventure?",
+      "english": "[TO TRANSLATE: Tu es prêt pour l'aventure?...]",
+      "ipa": "ty ɛ pʁˈɛ puʁ lavɑ̃tˈyʁ",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Montons vite, il y a du monde,",
+      "english": "[TO TRANSLATE: Montons vite, il y a du monde,...]",
+      "ipa": "mɔ̃tˈɔ̃ vˈit il i a dy- mˈɔ̃d",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "C'est parti pour une nouvelle vie!",
+      "english": "[TO TRANSLATE: C'est parti pour une nouvelle vie!...]",
+      "ipa": "sɛ paʁtˈi puʁ yn nuvˈɛl vˈi",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Leurs sacs à dos sont prêts",
+      "english": "[TO TRANSLATE: Leurs sacs à dos sont prêts...]",
+      "ipa": "lœʁ sˈakz a (en)dˈɒs(fr) sˈɔ̃ pʁˈɛ",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Nous avons finalement quitté Paris,",
+      "english": "[TO TRANSLATE: Nous avons finalement quitté Paris,...]",
+      "ipa": "nuz avˈɔ̃ finalmˈɑ̃ kitˈe paʁˈi",
+      "level": "A",
+      "score": 35,
+      "scene": 0
+    },
+    {
+      "french": "As-tu fermé la porte à clé?",
+      "english": "[TO TRANSLATE: As-tu fermé la porte à clé?...]",
+      "ipa": "atˈy fɛʁmˈe la- pˈɔʁt a klˈe",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Oui, j'ai vérifié trois fois. Et toi, tu as prévenu ton travail?",
+      "english": "[TO TRANSLATE: Oui, j'ai vérifié trois fois. Et toi, tu as prévenu ton trav...]",
+      "ipa": "wˈi ʒe veʁifjˈe tʁwˈa fwˈa e twˈa ty a pʁevnˈy tɔ̃ tʁavˈaj",
+      "level": "B",
+      "score": 46,
+      "scene": 0
+    },
+    {
+      "french": "Oui, j'ai envoyé un email hier soir.",
+      "english": "[TO TRANSLATE: Oui, j'ai envoyé un email hier soir....]",
+      "ipa": "wˈi ʒe ɑ̃vwajˈe œ̃ (en)ˈiːmeɪl(fr) jˈɛʁ swˈaʁ",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Qu'est-ce que tu ressens?",
+      "english": "[TO TRANSLATE: Qu'est-ce que tu ressens?...]",
+      "ipa": "kɛskˌə ty ʁəsˈɛn",
+      "level": "B",
+      "score": 36,
+      "scene": 0
+    },
+    {
+      "french": "Je me sens libre et un peu nerveux. C'est bizarre, non?",
+      "english": "[TO TRANSLATE: Je me sens libre et un peu nerveux. C'est bizarre, non?...]",
+      "ipa": "ʒə- mə- sˈɑ̃ lˈibʁ e œ̃ pø nɛʁvˈø sɛ bizˈaʁ nˈɔ̃",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Moi aussi, c'est normal. On change toute notre vie.",
+      "english": "[TO TRANSLATE: Moi aussi, c'est normal. On change toute notre vie....]",
+      "ipa": "mwˌa osˈi sɛ nɔʁmˈal ɔ̃ ʃˈɑ̃ʒ tut notʁ vˈi",
+      "level": "B",
+      "score": 39,
+      "scene": 0
+    },
+    {
+      "french": "Regarde le paysage, il est magnifique!",
+      "english": "[TO TRANSLATE: Regarde le paysage, il est magnifique!...]",
+      "ipa": "ʁəɡˈaʁd lə- pɛizˈaʒ il ɛ maɲifˈik",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "J'ai apporté des sandwichs. Fromage et jambon.",
+      "english": "[TO TRANSLATE: J'ai apporté des sandwichs. Fromage et jambon....]",
+      "ipa": "ʒe apɔʁtˈe de- sɑ̃dwˈitʃ fʁomˈaʒ e ʒɑ̃bˈɔ̃",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Excellente idée, j'ai faim.",
+      "english": "[TO TRANSLATE: Excellente idée, j'ai faim....]",
+      "ipa": "ɛksɛlˈɑ̃t idˈe ʒe fˈɛ̃",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Oh non! J'ai oublié mon livre!",
+      "english": "[TO TRANSLATE: Oh non! J'ai oublié mon livre!...]",
+      "ipa": "ˈɔ nˈɔ̃ ʒe ubliˈe mɔ̃ lˈivʁ",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Ce n'est pas grave, on peut parler.",
+      "english": "[TO TRANSLATE: Ce n'est pas grave, on peut parler....]",
+      "ipa": "sə- nɛ pa ɡʁˈav ɔ̃ pˈø paʁlˈe",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "De quoi veux-tu parler?",
+      "english": "[TO TRANSLATE: De quoi veux-tu parler?...]",
+      "ipa": "də- kwˌa vˈøty paʁlˈe",
+      "level": "A",
+      "score": 27,
+      "scene": 0
+    },
+    {
+      "french": "De nos rêves et de notre avenir. Qu'est-ce que tu veux vraiment dans la vie?",
+      "english": "[TO TRANSLATE: De nos rêves et de notre avenir. Qu'est-ce que tu veux vraim...]",
+      "ipa": "də- no ʁˈɛvz e də- notʁ avnˈiʁ kɛskˌə ty vˈø vʁɛmˈɑ̃ dɑ̃ la- vˈi",
+      "level": "B",
+      "score": 49,
+      "scene": 0
+    },
+    {
+      "french": "C'est une grande question. Je veux me sentir vivante, je pense.",
+      "english": "[TO TRANSLATE: C'est une grande question. Je veux me sentir vivante, je pen...]",
+      "ipa": "sɛt yn ɡʁˈɑ̃d kɛstjˈɔ̃ ʒə- vˈø mə- sɑ̃tˈiʁ vivˈɑ̃t ʒə- pˈɑ̃s",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "C'est plus petit que je pensais.",
+      "english": "[TO TRANSLATE: C'est plus petit que je pensais....]",
+      "ipa": "sɛ ply pətˈi kə ʒə- pɑ̃sˈɛ",
+      "level": "B",
+      "score": 43,
+      "scene": 0
+    },
+    {
+      "french": "Mais c'est charmant et tranquille. Regarde ces montagnes!",
+      "english": "[TO TRANSLATE: Mais c'est charmant et tranquille. Regarde ces montagnes!...]",
+      "ipa": "mɛ sɛ ʃaʁmˈɑ̃ e tʁɑ̃kˈil ʁəɡˈaʁd se mɔ̃tˈanj",
+      "level": "B",
+      "score": 47,
+      "scene": 0
+    },
+    {
+      "french": "Il y a une auberge là-bas.",
+      "english": "[TO TRANSLATE: Il y a une auberge là-bas....]",
+      "ipa": "il i a yn obˈɛʁʒ lˈabˈa",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Demandons s'ils ont des chambres.",
+      "english": "[TO TRANSLATE: Demandons s'ils ont des chambres....]",
+      "ipa": "dəmɑ̃dˈɔ̃ silz ɔ̃ de- ʃˈɑ̃bʁ",
+      "level": "A",
+      "score": 35,
+      "scene": 0
+    },
+    {
+      "french": "Bonjour, avez-vous deux chambres libres?",
+      "english": "[TO TRANSLATE: Bonjour, avez-vous deux chambres libres?...]",
+      "ipa": "bɔ̃ʒˈuʁ avˈevu dˈø ʃˈɑ̃bʁ lˈibʁ",
+      "level": "A",
+      "score": 35,
+      "scene": 0
+    },
+    {
+      "french": "Oui, mais seulement pour ce soir. Demain, j'ai une réservation de groupe.",
+      "english": "[TO TRANSLATE: Oui, mais seulement pour ce soir. Demain, j'ai une réservati...]",
+      "ipa": "wˈi mɛ sølmˈɑ̃ puʁ sə- swˈaʁ dəmˈɛ̃ ʒe yn ʁezɛʁvasjˈɔ̃ də- ɡʁˈup",
+      "level": "B",
+      "score": 53,
+      "scene": 0
+    },
+    {
+      "french": "C'est parfait, nous les prenons.",
+      "english": "[TO TRANSLATE: C'est parfait, nous les prenons....]",
+      "ipa": "sɛ paʁfˈɛ nu le- pʁənˈɔ̃",
+      "level": "B",
+      "score": 41,
+      "scene": 0
+    },
+    {
+      "french": "Soixante euros par chambre, avec le petit-déjeuner.",
+      "english": "[TO TRANSLATE: Soixante euros par chambre, avec le petit-déjeuner....]",
+      "ipa": "swasˈɑ̃t øʁˈo paʁ ʃˈɑ̃bʁ avˌɛk lə- pətˈideʒønˈe",
+      "level": "A",
+      "score": 35,
+      "scene": 0
+    },
+    {
+      "french": "Le dîner est servi à sept heures dans la salle à manger,",
+      "english": "[TO TRANSLATE: Le dîner est servi à sept heures dans la salle à manger,...]",
+      "ipa": "lə- dinˈe ɛ sɛʁvˈi a sˈɛt ˈœʁ dɑ̃ la- sˈal a mɑ̃ʒˈe",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Allons explorer le village!",
+      "english": "[TO TRANSLATE: Allons explorer le village!...]",
+      "ipa": "alˈɔ̃z ɛksploʁˈe lə- vilˈaʒ",
+      "level": "B",
+      "score": 37,
+      "scene": 0
+    },
+    {
+      "french": "Le village est pittoresque avec ses maisons en pierre et ses volets en bois",
+      "english": "[TO TRANSLATE: Le village est pittoresque avec ses maisons en pierre et ses...]",
+      "ipa": "lə- vilˈaʒ ɛ pitoʁˈɛsk avˌɛk se- mɛzˈɔ̃z ɑ̃ pjˈɛʁ e se- volˈɛz ɑ̃ bwˈa",
+      "level": "B",
+      "score": 47,
+      "scene": 0
+    },
+    {
+      "french": "Excusez-moi, où est la boulangerie?",
+      "english": "[TO TRANSLATE: Excusez-moi, où est la boulangerie?...]",
+      "ipa": "ɛkskyzˈemwˈa u ɛ la- bulɑ̃ʒʁˈi",
+      "level": "B",
+      "score": 36,
+      "scene": 0
+    },
+    {
+      "french": "Tournez à droite après l'église. Vous ne pouvez pas la manquer.",
+      "english": "[TO TRANSLATE: Tournez à droite après l'église. Vous ne pouvez pas la manqu...]",
+      "ipa": "tuʁnˈez a dʁwˈat apʁˌɛ leɡlˈiz vu nə- puvˈe pa la- mɑ̃kˈe",
+      "level": "B",
+      "score": 41,
+      "scene": 0
+    },
+    {
+      "french": "Paris! Bienvenue dans notre village! Ici, c'est plus calme qu'à Paris.",
+      "english": "[TO TRANSLATE: Paris! Bienvenue dans notre village! Ici, c'est plus calme q...]",
+      "ipa": "paʁˈi bjɛ̃vnˈy dɑ̃ notʁ vilˈaʒ isˈi sɛ ply kˈalm ka paʁˈi",
+      "level": "B",
+      "score": 46,
+      "scene": 0
+    },
+    {
+      "french": "Les gens sont très gentils ici.",
+      "english": "[TO TRANSLATE: Les gens sont très gentils ici....]",
+      "ipa": "le- ʒˈɑ̃ sˈɔ̃ tʁɛ ʒɑ̃tˈiz isˈi",
+      "level": "A",
+      "score": 35,
+      "scene": 0
+    },
+    {
+      "french": "Oui, c'est différent de la grande ville. Tout le monde se parle.",
+      "english": "[TO TRANSLATE: Oui, c'est différent de la grande ville. Tout le monde se pa...]",
+      "ipa": "wˈi sɛ difeʁˈɑ̃ də- la- ɡʁˈɑ̃d vˈil tulmˈɔ̃d sə- pˈaʁl",
+      "level": "B",
+      "score": 46,
+      "scene": 0
+    },
+    {
+      "french": "Qu'est-ce qu'on peut faire ici?",
+      "english": "[TO TRANSLATE: Qu'est-ce qu'on peut faire ici?...]",
+      "ipa": "kɛs kɔ̃ pˈø fˈɛʁ isˈi",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Il y a beaucoup de randonnées. Les montagnes sont magnifiques.",
+      "english": "[TO TRANSLATE: Il y a beaucoup de randonnées. Les montagnes sont magnifique...]",
+      "ipa": "il i a bokˌu də- ʁɑ̃dɔnˈe le- mɔ̃tˈanj sˈɔ̃ maɲifˈik",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Oui, nous adorons la nature. C'est pour ça qu'on est venus.",
+      "english": "[TO TRANSLATE: Oui, nous adorons la nature. C'est pour ça qu'on est venus....]",
+      "ipa": "wˈi nuz adoʁˈɔ̃ la- natˈyʁ sɛ puʁ sa kɔ̃n ɛ vənˈy",
+      "level": "B",
+      "score": 50,
+      "scene": 0
+    },
+    {
+      "french": "La boulangère est bavarde",
+      "english": "[TO TRANSLATE: La boulangère est bavarde...]",
+      "ipa": "la- bulɑ̃ʒˈɛʁ ɛ bavˈaʁd",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Nous marchions depuis trois heures quand les nuages sont arrivés,",
+      "english": "[TO TRANSLATE: Nous marchions depuis trois heures quand les nuages sont arr...]",
+      "ipa": "nu maʁʃjˈɔ̃ dəpyˌi tʁwˈaz ˈœʁ kɑ̃ le- nyˈaʒ sˈɔ̃t aʁivˈe",
+      "level": "B",
+      "score": 50,
+      "scene": 0
+    },
+    {
+      "french": "Nous devrions peut-être faire demi-tour.",
+      "english": "[TO TRANSLATE: Nous devrions peut-être faire demi-tour....]",
+      "ipa": "nu dəvʁiˈɔ̃ pˈøtˈɛtʁ fˈɛʁ dəmˈitˈuʁ",
+      "level": "B",
+      "score": 36,
+      "scene": 0
+    },
+    {
+      "french": "Non, le refuge n'est pas loin. Regarde la carte.",
+      "english": "[TO TRANSLATE: Non, le refuge n'est pas loin. Regarde la carte....]",
+      "ipa": "nˈɔ̃ lə- ʁəfˈyʒ nɛ pa lwˈɛ̃ ʁəɡˈaʁd la- kˈaʁt",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Tu es trop optimiste parfois!",
+      "english": "[TO TRANSLATE: Tu es trop optimiste parfois!...]",
+      "ipa": "ty ɛ tʁop ɔptimˈist paʁfwˈa",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Ce n'est pas le moment de se disputer.",
+      "english": "[TO TRANSLATE: Ce n'est pas le moment de se disputer....]",
+      "ipa": "sə- nɛ pa lə- momˈɑ̃ də- sə- dispytˈe",
+      "level": "B",
+      "score": 39,
+      "scene": 0
+    },
+    {
+      "french": "Je suis désolé, j'ai juste peur.",
+      "english": "[TO TRANSLATE: Je suis désolé, j'ai juste peur....]",
+      "ipa": "ʒə- syˌi dezolˈe ʒe ʒˈyst pˈœʁ",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Moi aussi, mais il faut continuer. On ne peut pas rester ici.",
+      "english": "[TO TRANSLATE: Moi aussi, mais il faut continuer. On ne peut pas rester ici...]",
+      "ipa": "mwˌa osˈi mɛz il fo kɔ̃tinyˈe ɔ̃ nə- pˈø pa ʁɛstˈe isˈi",
+      "level": "B",
+      "score": 50,
+      "scene": 0
+    },
+    {
+      "french": "Je ne vois presque plus le sentier.",
+      "english": "[TO TRANSLATE: Je ne vois presque plus le sentier....]",
+      "ipa": "ʒə- nə- vwˈa pʁˌɛskə ply lə- sɑ̃tjˈe",
+      "level": "B",
+      "score": 36,
+      "scene": 0
+    },
+    {
+      "french": "Attends, j'ai perdu mon sac! Il était juste là!",
+      "english": "[TO TRANSLATE: Attends, j'ai perdu mon sac! Il était juste là!...]",
+      "ipa": "atˈɑ̃ ʒe pɛʁdˈy mɔ̃ sˈak il etˈɛ ʒˈyst lˈa",
+      "level": "B",
+      "score": 46,
+      "scene": 0
+    },
+    {
+      "french": "Je reviens le chercher, toi, continue! Suis le sentier!",
+      "english": "[TO TRANSLATE: Je reviens le chercher, toi, continue! Suis le sentier!...]",
+      "ipa": "ʒə- ʁəvjˈɛ̃ lə- ʃɛʁʃˈe twˈa kɔ̃tinˈy syˈi lə- sɑ̃tjˈe",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Le temps est beau, le ciel est bleu",
+      "english": "[TO TRANSLATE: Le temps est beau, le ciel est bleu...]",
+      "ipa": "lə- tˈɑ̃ ɛ bˈo lə- sjˈɛl ɛ blˈø",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Ils suivent un sentier qui monte vers un refuge de montagne",
+      "english": "[TO TRANSLATE: Ils suivent un sentier qui monte vers un refuge de montagne...]",
+      "ipa": "il syˈivt œ̃ sɑ̃tjˈe ki mˈɔ̃t vɛʁ œ̃ ʁəfˈyʒ də- mɔ̃tˈaɲ",
+      "level": "B",
+      "score": 43,
+      "scene": 0
+    },
+    {
+      "french": "Le changement est soudain",
+      "english": "[TO TRANSLATE: Le changement est soudain...]",
+      "ipa": "lə- ʃɑ̃ʒmˈɑ̃ ɛ sudˈɛ̃",
+      "level": "A",
+      "score": 35,
+      "scene": 0
+    },
+    {
+      "french": "Mais Lucas est déjà parti dans le brouillard.",
+      "english": "[TO TRANSLATE: Mais Lucas est déjà parti dans le brouillard....]",
+      "ipa": "mɛ lykˈaz ɛ deʒˈa paʁtˈi dɑ̃ lə- bʁujˈaʁ",
+      "level": "B",
+      "score": 42,
+      "scene": 0
+    },
+    {
+      "french": "Lucas? Lucas, où es-tu?",
+      "english": "[TO TRANSLATE: Lucas? Lucas, où es-tu?...]",
+      "ipa": "lykˈa lykˈa u ɛtˈy",
+      "level": "A",
+      "score": 29,
+      "scene": 0
+    },
+    {
+      "french": "Je ne sais plus où je suis.",
+      "english": "[TO TRANSLATE: Je ne sais plus où je suis....]",
+      "ipa": "ʒə- nə- sˈɛ plyz u ʒə- syˈi",
+      "level": "B",
+      "score": 45,
+      "scene": 0
+    },
+    {
+      "french": "Il aurait fallu rester ensemble. Nous avons été stupides.",
+      "english": "[TO TRANSLATE: Il aurait fallu rester ensemble. Nous avons été stupides....]",
+      "ipa": "il oʁˈɛ falˈy ʁɛstˈe ɑ̃sˈɑ̃bl nuz avˈɔ̃z etˈe stypˈid",
+      "level": "B",
+      "score": 49,
+      "scene": 0
+    },
+    {
+      "french": "Maintenant, je suis complètement seule.",
+      "english": "[TO TRANSLATE: Maintenant, je suis complètement seule....]",
+      "ipa": "mɛ̃tnˈɑ̃ ʒə- syˌi kɔ̃plɛtmˈɑ̃ sˈœl",
+      "level": "A",
+      "score": 35,
+      "scene": 0
+    },
+    {
+      "french": "J'aurais dû l'écouter tout à l'heure. Il voulait faire demi-tour.",
+      "english": "[TO TRANSLATE: J'aurais dû l'écouter tout à l'heure. Il voulait faire demi-...]",
+      "ipa": "ʒoʁˈɛ dˈyː lekutˈe tut a lˈœʁ il vulˈɛ fˈɛʁ dəmˈitˈuʁ",
+      "level": "B",
+      "score": 54,
+      "scene": 0
+    },
+    {
+      "french": "Mais il est trop tard pour les regrets.",
+      "english": "[TO TRANSLATE: Mais il est trop tard pour les regrets....]",
+      "ipa": "mɛz il ɛ tʁo tˈaʁ puʁ le- ʁəɡʁˈɛ",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Je dois trouver un abri. Je ne peux pas rester dehors cette nuit.",
+      "english": "[TO TRANSLATE: Je dois trouver un abri. Je ne peux pas rester dehors cette ...]",
+      "ipa": "ʒə- dwˈa tʁuvˈe œ̃n abʁˈi ʒə- nə- pˈø pa ʁɛstˈe dəˈɔʁ sɛt nyˈi",
+      "level": "B",
+      "score": 47,
+      "scene": 0
+    },
+    {
+      "french": "Là-bas, il y a quelque chose!",
+      "english": "[TO TRANSLATE: Là-bas, il y a quelque chose!...]",
+      "ipa": "lˈabˈa il i a kˌɛlkə ʃˈɔz",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "La Séparation Involontaire\n\nSophie attend quelques minutes, puis commence à paniquer",
+      "english": "[TO TRANSLATE: La Séparation Involontaire\n\nSophie attend quelques minutes, ...]",
+      "ipa": "la- sepaʁasjˈɔ̃ ɛ̃volɔ̃tˈɛʁ sofˈi atˈɑ̃ kˌɛlkə minˈyt pyˈi kɔmˈɑ̃s a panikˈe",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Le brouillard est si dense qu'elle ne voit pas à trois mètres devant elle",
+      "english": "[TO TRANSLATE: Le brouillard est si dense qu'elle ne voit pas à trois mètre...]",
+      "ipa": "lə- bʁujˈaʁ ɛ sˈi dˈɑ̃s kɛl nə- vwˈa paz a tʁwˈa mˈɛtʁ dəvˈɑ̃ ˈɛl",
+      "level": "B",
+      "score": 50,
+      "scene": 0
+    },
+    {
+      "french": "C'est une forme sombre dans le brouillard",
+      "english": "[TO TRANSLATE: C'est une forme sombre dans le brouillard...]",
+      "ipa": "sɛt yn fˈɔʁm sˈɔ̃bʁ dɑ̃ lə- bʁujˈaʁ",
+      "level": "A",
+      "score": 35,
+      "scene": 0
+    },
+    {
+      "french": "Heureusement, j'ai des allumettes dans ma poche.",
+      "english": "[TO TRANSLATE: Heureusement, j'ai des allumettes dans ma poche....]",
+      "ipa": "øʁøzmˈɑ̃ ʒe de-z alymˈɛt dɑ̃ ma- pˈɔʃ",
+      "level": "A",
+      "score": 35,
+      "scene": 0
+    },
+    {
+      "french": "Le bois est humide, ce ne sera pas facile.",
+      "english": "[TO TRANSLATE: Le bois est humide, ce ne sera pas facile....]",
+      "ipa": "lə- bwˈaz ɛt ymˈid sə- nə- səʁˈa pa fasˈil",
+      "level": "B",
+      "score": 41,
+      "scene": 0
+    },
+    {
+      "french": "Si Lucas était là, il serait fier de moi.",
+      "english": "[TO TRANSLATE: Si Lucas était là, il serait fier de moi....]",
+      "ipa": "sˈi lykˈaz etˈɛ lˈa il səʁˈɛ fjˈɛʁ də- mwˈa",
+      "level": "B",
+      "score": 49,
+      "scene": 0
+    },
+    {
+      "french": "Maintenant, j'ai très faim, mais je n'ai rien à manger.",
+      "english": "[TO TRANSLATE: Maintenant, j'ai très faim, mais je n'ai rien à manger....]",
+      "ipa": "mɛ̃tnˈɑ̃ ʒe tʁɛ fˈɛ̃ mɛ ʒə- ne ʁjˌɛ̃n a mɑ̃ʒˈe",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Ce sont des orties! Elles sont comestibles si on les fait cuire.",
+      "english": "[TO TRANSLATE: Ce sont des orties! Elles sont comestibles si on les fait cu...]",
+      "ipa": "sə- sˈɔ̃ de-z ɔʁtˈi ɛl sɔ̃ komɛstˈibl sˈi ɔ̃ le- fˈɛ kyˈiʁ",
+      "level": "B",
+      "score": 49,
+      "scene": 0
+    },
+    {
+      "french": "J'ose à peine les toucher, elles piquent.",
+      "english": "[TO TRANSLATE: J'ose à peine les toucher, elles piquent....]",
+      "ipa": "ʒˈɔz a pˈɛn le- tuʃˈe ɛl pˈik",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Mais il le faut si je veux survivre.",
+      "english": "[TO TRANSLATE: Mais il le faut si je veux survivre....]",
+      "ipa": "mɛz il lə- fo sˈi ʒə- vˈø syʁvˈivʁ",
+      "level": "A",
+      "score": 29,
+      "scene": 0
+    },
+    {
+      "french": "Où puis-je trouver de l'eau potable?",
+      "english": "[TO TRANSLATE: Où puis-je trouver de l'eau potable?...]",
+      "ipa": "u pyˈiʒ tʁuvˈe də- lˈo potˈabl",
+      "level": "A",
+      "score": 29,
+      "scene": 0
+    },
+    {
+      "french": "Avec le feu, l'eau de la source, et les orties, je fais une soupe.",
+      "english": "[TO TRANSLATE: Avec le feu, l'eau de la source, et les orties, je fais une ...]",
+      "ipa": "avˌɛk lə- fˈø lˈo də- la- sˈuʁs e le-z ɔʁtˈi ʒə- fˈɛz yn sˈup",
+      "level": "B",
+      "score": 45,
+      "scene": 0
+    },
+    {
+      "french": "La nature me donne exactement ce dont j'ai besoin.",
+      "english": "[TO TRANSLATE: La nature me donne exactement ce dont j'ai besoin....]",
+      "ipa": "la- natˈyʁ mə- dˈɔn ɛɡzaktəmˈɑ̃ sə- dɔ̃ ʒe bəzwˈɛ̃",
+      "level": "B",
+      "score": 42,
+      "scene": 0
+    },
+    {
+      "french": "Cette épreuve m'apprend que je suis plus forte que je ne pensais.",
+      "english": "[TO TRANSLATE: Cette épreuve m'apprend que je suis plus forte que je ne pen...]",
+      "ipa": "sɛt epʁˈøv mapʁˈɑ̃ kə ʒə- syˌi ply fˈɔʁt kə ʒə- nə- pɑ̃sˈɛ",
+      "level": "C",
+      "score": 57,
+      "scene": 0
+    },
+    {
+      "french": "C'est une vieille structure de berger, simple mais solide",
+      "english": "[TO TRANSLATE: C'est une vieille structure de berger, simple mais solide...]",
+      "ipa": "sɛt yn vjˈɛj stʁyktˈyʁ də- bɛʁʒˈe sˈɛ̃pl mɛ solˈid",
+      "level": "B",
+      "score": 47,
+      "scene": 0
+    },
+    {
+      "french": "Il y a une cheminée",
+      "english": "[TO TRANSLATE: Il y a une cheminée...]",
+      "ipa": "il i a yn ʃəminˈe",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Elle trouve du bois à l'intérieur de la cabane, mais il est humide",
+      "english": "[TO TRANSLATE: Elle trouve du bois à l'intérieur de la cabane, mais il est ...]",
+      "ipa": "ɛl tʁˈuv dy- bwˈaz a lɛ̃teʁjˈœʁ də- la- kabˈan mɛz il ɛt ymˈid",
+      "level": "B",
+      "score": 53,
+      "scene": 0
+    },
+    {
+      "french": "Elle arrange le bois, met du papier, prend une allumette",
+      "english": "[TO TRANSLATE: Elle arrange le bois, met du papier, prend une allumette...]",
+      "ipa": "ɛl aʁˈɑ̃ʒ lə- bwˈa mˈɛ dy- papjˈe pʁˈɑ̃t yn alymˈɛt",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Mais après quelques heures, la faim se fait sentir",
+      "english": "[TO TRANSLATE: Mais après quelques heures, la faim se fait sentir...]",
+      "ipa": "mɛz apʁˌɛ kˌɛlkəz ˈœʁ la- fˈɛ̃ sə- fˈɛ sɑ̃tˈiʁ",
+      "level": "B",
+      "score": 47,
+      "scene": 0
+    },
+    {
+      "french": "Elle sort de la cabane pour explorer les environs",
+      "english": "[TO TRANSLATE: Elle sort de la cabane pour explorer les environs...]",
+      "ipa": "ɛl sˈɔʁ də- la- kabˈan puʁ ɛksploʁˈe le-z ɑ̃viʁˈɔ̃",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Elle cueille les orties avec précaution, en utilisant un bout de tissu pour protéger ses mains",
+      "english": "[TO TRANSLATE: Elle cueille les orties avec précaution, en utilisant un bou...]",
+      "ipa": "ɛl kˈœj le-z ɔʁtˈi avˌɛk pʁekosjˈɔ̃ ɑ̃n ytilizˈɑ̃ œ̃ bˈu də- tisˈy puʁ pʁoteʒˈe se- mˈɛ̃",
+      "level": "B",
+      "score": 47,
+      "scene": 0
+    },
+    {
+      "french": "Maintenant, elle a besoin d'eau",
+      "english": "[TO TRANSLATE: Maintenant, elle a besoin d'eau...]",
+      "ipa": "mɛ̃tnˈɑ̃ ɛl a bəzwˈɛ̃ dˈo",
+      "level": "A",
+      "score": 28,
+      "scene": 0
+    },
+    {
+      "french": "Elle remplit une petite casserole qu'elle a trouvée dans la cabane",
+      "english": "[TO TRANSLATE: Elle remplit une petite casserole qu'elle a trouvée dans la ...]",
+      "ipa": "ɛl ʁɑ̃plˈit yn pətˈit kasʁˈɔl kɛl a tʁuvˈe dɑ̃ la- kabˈan",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "De retour près du feu, elle fait bouillir l'eau et y met les orties",
+      "english": "[TO TRANSLATE: De retour près du feu, elle fait bouillir l'eau et y met les...]",
+      "ipa": "də- ʁətˈuʁ pʁɛ dy- fˈø ɛl fˈɛ bujˈiʁ lˈo e i mˈɛ le-z ɔʁtˈi",
+      "level": "B",
+      "score": 53,
+      "scene": 0
+    },
+    {
+      "french": "La soupe est simple mais délicieuse",
+      "english": "[TO TRANSLATE: La soupe est simple mais délicieuse...]",
+      "ipa": "la- sˈup ɛ sˈɛ̃pl mɛ delisjˈøz",
+      "level": "B",
+      "score": 41,
+      "scene": 0
+    },
+    {
+      "french": "Comment ai-je pu la perdre? Comment?",
+      "english": "[TO TRANSLATE: Comment ai-je pu la perdre? Comment?...]",
+      "ipa": "kɔmˌɑ̃ ɛʒ pˈy la- pˈɛʁdʁ kɔmˈɑ̃",
+      "level": "A",
+      "score": 28,
+      "scene": 0
+    },
+    {
+      "french": "Je n'aurais jamais dû la laisser continuer seule. J'aurais dû rester avec elle.",
+      "english": "[TO TRANSLATE: Je n'aurais jamais dû la laisser continuer seule. J'aurais d...]",
+      "ipa": "ʒə- noʁˈɛ ʒamˌɛ dˈyː la- lɛsˈe kɔ̃tinyˈe sˈœl ʒoʁˈɛ dˈyː ʁɛstˈe avˌɛk ˈɛl",
+      "level": "B",
+      "score": 54,
+      "scene": 0
+    },
+    {
+      "french": "Il faut que je trouve de l'aide.",
+      "english": "[TO TRANSLATE: Il faut que je trouve de l'aide....]",
+      "ipa": "il fo kə ʒə- tʁˈuv də- lˈɛd",
+      "level": "B",
+      "score": 38,
+      "scene": 0
+    },
+    {
+      "french": "Le village ne peut pas être très loin. Si je descends, c'est par là.",
+      "english": "[TO TRANSLATE: Le village ne peut pas être très loin. Si je descends, c'est...]",
+      "ipa": "lə- vilˈaʒ nə- pˈø paz ˈɛtʁ tʁɛ lwˈɛ̃ sˈi ʒə- dɛsˈɑ̃ sɛ paʁ lˈa",
+      "level": "B",
+      "score": 50,
+      "scene": 0
+    },
+    {
+      "french": "Elle commence à descendre un sentier que je n'avais pas vu.",
+      "english": "[TO TRANSLATE: Elle commence à descendre un sentier que je n'avais pas vu....]",
+      "ipa": "ɛl kɔmˈɑ̃s a dɛsˈɑ̃dʁ œ̃ sɑ̃tjˈe kə ʒə- navˈɛ pa vˈy",
+      "level": "B",
+      "score": 49,
+      "scene": 0
+    },
+    {
+      "french": "J'ai l'impression qu'elle veut me montrer quelque chose.",
+      "english": "[TO TRANSLATE: J'ai l'impression qu'elle veut me montrer quelque chose....]",
+      "ipa": "ʒe lɛ̃pʁɛsjˈɔ̃ kɛl vˈø mə- mɔ̃tʁˈe kˌɛlkə ʃˈɔz",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Même si c'est étrange, je dois lui faire confiance. Je n'ai pas d'autre choix.",
+      "english": "[TO TRANSLATE: Même si c'est étrange, je dois lui faire confiance. Je n'ai ...]",
+      "ipa": "mˈɛm sˈi sɛt etʁˈɑ̃ʒ ʒə- dwˈa lyˌi fˈɛʁ kɔ̃fjˈɑ̃s ʒə- ne pa dotʁ ʃwˈa",
+      "level": "B",
+      "score": 48,
+      "scene": 0
+    },
+    {
+      "french": "Sophie compte sur moi, je ne peux pas l'abandonner.",
+      "english": "[TO TRANSLATE: Sophie compte sur moi, je ne peux pas l'abandonner....]",
+      "ipa": "sofˈi kˈɔ̃t syʁ mwˈa ʒə- nə- pˈø pa labɑ̃dɔnˈe",
+      "level": "B",
+      "score": 41,
+      "scene": 0
+    },
+    {
+      "french": "Voilà une lumière au loin! La chèvre m'a guidé!",
+      "english": "[TO TRANSLATE: Voilà une lumière au loin! La chèvre m'a guidé!...]",
+      "ipa": "vwalˌa yn lymjˈɛʁ o lwˈɛ̃ la- ʃˈɛvʁ ma ɡidˈe",
+      "level": "B",
+      "score": 39,
+      "scene": 0
+    },
+    {
+      "french": "À l'aide! J'ai besoin d'aide!",
+      "english": "[TO TRANSLATE: À l'aide! J'ai besoin d'aide!...]",
+      "ipa": "a lˈɛd ʒe bəzwˈɛ̃ dˈɛd",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Il essaie de s'orienter",
+      "english": "[TO TRANSLATE: Il essaie de s'orienter...]",
+      "ipa": "il esˈɛ də- soʁjɑ̃tˈe",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Il pourrait tourner en rond pendant des heures",
+      "english": "[TO TRANSLATE: Il pourrait tourner en rond pendant des heures...]",
+      "ipa": "il puʁˈɛ tuʁnˈe ɑ̃ ʁˈɔ̃ pɑ̃dˈɑ̃ de-z ˈœʁ",
+      "level": "B",
+      "score": 44,
+      "scene": 0
+    },
+    {
+      "french": "Au contraire, elle s'approche, puis se retourne et commence à descendre un sentier",
+      "english": "[TO TRANSLATE: Au contraire, elle s'approche, puis se retourne et commence ...]",
+      "ipa": "o kɔ̃tʁˈɛʁ ɛl sapʁˈɔʃ pyˈi sə- ʁətˈuʁn e kɔmˈɑ̃s a dɛsˈɑ̃dʁ œ̃ sɑ̃tjˈe",
+      "level": "B",
+      "score": 46,
+      "scene": 0
+    },
+    {
+      "french": "La chèvre s'arrête et se retourne, comme pour vérifier s'il suit",
+      "english": "[TO TRANSLATE: La chèvre s'arrête et se retourne, comme pour vérifier s'il ...]",
+      "ipa": "la- ʃˈɛvʁ saʁˈɛt e sə- ʁətˈuʁn kɔm puʁ veʁifjˈe sil syˈi",
+      "level": "B",
+      "score": 46,
+      "scene": 0
+    },
+    {
+      "french": "Il suit la chèvre qui descend le sentier avec assurance",
+      "english": "[TO TRANSLATE: Il suit la chèvre qui descend le sentier avec assurance...]",
+      "ipa": "il syˈi la- ʃˈɛvʁ ki dɛsˈɑ̃ lə- sɑ̃tjˈe avˌɛk asyʁˈɑ̃s",
+      "level": "B",
+      "score": 42,
+      "scene": 0
+    },
+    {
+      "french": "C'est une ferme",
+      "english": "[TO TRANSLATE: C'est une ferme...]",
+      "ipa": "sɛt yn fˈɛʁm",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "La chèvre bêle une dernière fois et s'en va",
+      "english": "[TO TRANSLATE: La chèvre bêle une dernière fois et s'en va...]",
+      "ipa": "la- ʃˈɛvʁ bˈɛl yn dɛʁnjˈɛʁ fwˈaz e sɑ̃ vˈa",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Un homme sort de la maison, surpris mais prêt à aider.",
+      "english": "[TO TRANSLATE: Un homme sort de la maison, surpris mais prêt à aider....]",
+      "ipa": "œ̃n ˈɔm sˈɔʁ də- la- mɛzˈɔ̃ syʁpʁˈi mɛ pʁˈɛ a ɛdˈe",
+      "level": "B",
+      "score": 47,
+      "scene": 0
+    },
+    {
+      "french": "Il faut que nous organisions une équipe de recherche,",
+      "english": "[TO TRANSLATE: Il faut que nous organisions une équipe de recherche,...]",
+      "ipa": "il fo kə nuz ɔʁɡanizjˈɔ̃z yn ekˈip də- ʁəʃˈɛʁʃ",
+      "level": "B",
+      "score": 50,
+      "scene": 0
+    },
+    {
+      "french": "Pourvu qu'elle ait trouvé un abri!",
+      "english": "[TO TRANSLATE: Pourvu qu'elle ait trouvé un abri!...]",
+      "ipa": "puʁvˈy kɛl ɛ tʁuvˈe œ̃n abʁˈi",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Le jeune homme a dit qu'elle portait une veste rouge. Ça nous aidera.",
+      "english": "[TO TRANSLATE: Le jeune homme a dit qu'elle portait une veste rouge. Ça nou...]",
+      "ipa": "lə- ʒˈøn ˈɔm a dˈi kɛl pɔʁtˈɛt yn vˈɛst ʁˈuʒ sa nuz ɛdʁˈa",
+      "level": "B",
+      "score": 46,
+      "scene": 0
+    },
+    {
+      "french": "Nous avons besoin que vous nous montriez sur la carte exactement où vous étiez.",
+      "english": "[TO TRANSLATE: Nous avons besoin que vous nous montriez sur la carte exacte...]",
+      "ipa": "nuz avˈɔ̃ bəzwˈɛ̃ kə vu nu mɔ̃tʁiˈe syʁ la- kˈaʁt ɛɡzaktəmˈɑ̃ u vuz etjˈe",
+      "level": "C",
+      "score": 60,
+      "scene": 0
+    },
+    {
+      "french": "Il est important que vous restiez calme. Nous sommes des professionnels.",
+      "english": "[TO TRANSLATE: Il est important que vous restiez calme. Nous sommes des pro...]",
+      "ipa": "il ɛt ɛ̃pɔʁtˈɑ̃ kə vu ʁɛstjˈe kˈalm nu sɔm de- pʁofɛsjɔnˈɛl",
+      "level": "B",
+      "score": 50,
+      "scene": 0
+    },
+    {
+      "french": "Quoi qu'il arrive, nous la retrouverons, n'est-ce pas?",
+      "english": "[TO TRANSLATE: Quoi qu'il arrive, nous la retrouverons, n'est-ce pas?...]",
+      "ipa": "kwˌa kil aʁˈiv nu la- ʁətʁuvʁˈɔ̃ nˈɛs pˈa",
+      "level": "B",
+      "score": 41,
+      "scene": 0
+    },
+    {
+      "french": "L'hélicoptère partira dès que le temps le permettra. Au lever du jour.",
+      "english": "[TO TRANSLATE: L'hélicoptère partira dès que le temps le permettra. Au leve...]",
+      "ipa": "lelikɔptˈɛʁ paʁtiʁˈa dɛ kə lə- tˈɑ̃ lə- pɛʁmɛtʁˈa o ləvˈe dy- ʒˈuʁ",
+      "level": "B",
+      "score": 48,
+      "scene": 0
+    },
+    {
+      "french": "Les Secours\n\nLucas explique la situation au fermier, qui appelle immédiatement les secours de montagne",
+      "english": "[TO TRANSLATE: Les Secours\n\nLucas explique la situation au fermier, qui app...]",
+      "ipa": "le- səkˈuʁ lykˈaz ɛksplˈik la- sityasjˈɔ̃ o fɛʁmjˈe ki apˈɛl imedjatmˈɑ̃ le- səkˈuʁ də- mɔ̃tˈaɲ",
+      "level": "B",
+      "score": 49,
+      "scene": 0
+    },
+    {
+      "french": "Cette épreuve m'a fait comprendre qui je suis vraiment.",
+      "english": "[TO TRANSLATE: Cette épreuve m'a fait comprendre qui je suis vraiment....]",
+      "ipa": "sɛt epʁˈøv ma fˈɛ kɔ̃pʁˈɑ̃dʁ ki ʒə- syˌi vʁɛmˈɑ̃",
+      "level": "B",
+      "score": 49,
+      "scene": 0
+    },
+    {
+      "french": "Quoi que la vie me réserve, je saurai y faire face. J'en suis sûre maintenant.",
+      "english": "[TO TRANSLATE: Quoi que la vie me réserve, je saurai y faire face. J'en sui...]",
+      "ipa": "kwˌa kə la- vˈi mə- ʁezˈɛʁv ʒə- soʁˈe i fˈɛʁ fˈas ʒɑ̃ syˌi sˈyːʁ mɛ̃tnˈɑ̃",
+      "level": "B",
+      "score": 48,
+      "scene": 0
+    },
+    {
+      "french": "Il n'est pas nécessaire d'avoir toujours quelqu'un à ses côtés.",
+      "english": "[TO TRANSLATE: Il n'est pas nécessaire d'avoir toujours quelqu'un à ses côt...]",
+      "ipa": "il nɛ pa nesɛsˈɛʁ davwˈaʁ tuʒˌuʁ kɛlkˌœ̃ a se- kotˈe",
+      "level": "B",
+      "score": 46,
+      "scene": 0
+    },
+    {
+      "french": "C'est comme si j'avais retrouvé une partie de moi-même que j'avais perdue.",
+      "english": "[TO TRANSLATE: C'est comme si j'avais retrouvé une partie de moi-même que j...]",
+      "ipa": "sɛ kɔm sˈi ʒavˈɛ ʁətʁuvˈe yn paʁtˈi də- mwˌamˈɛm kə ʒavˈɛ pɛʁdˈy",
+      "level": "C",
+      "score": 57,
+      "scene": 0
+    },
+    {
+      "french": "Il est temps que je descende chercher de l'aide.",
+      "english": "[TO TRANSLATE: Il est temps que je descende chercher de l'aide....]",
+      "ipa": "il ɛ tˈɑ̃ kə ʒə- dɛsˈɑ̃d ʃɛʁʃˈe də- lˈɛd",
+      "level": "B",
+      "score": 42,
+      "scene": 0
+    },
+    {
+      "french": "Cette montagne m'a donné un cadeau inestimable: la confiance en moi.",
+      "english": "[TO TRANSLATE: Cette montagne m'a donné un cadeau inestimable: la confiance...]",
+      "ipa": "sɛt mɔ̃tˈaɲ ma dɔnˈe œ̃ kadˈo inɛstimˈabl la- kɔ̃fjˈɑ̃s ɑ̃ mwˈa",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "La Réflexion de Sophie\n\nAu lever du jour, Sophie est toujours dans la cabane",
+      "english": "[TO TRANSLATE: La Réflexion de Sophie\n\nAu lever du jour, Sophie est toujour...]",
+      "ipa": "la- ʁeflɛksjˈɔ̃ də- sofˈi o ləvˈe dy- ʒˈuʁ sofˈi ɛ tuʒˌuʁ dɑ̃ la- kabˈan",
+      "level": "B",
+      "score": 46,
+      "scene": 0
+    },
+    {
+      "french": "C'est un hélicoptère de secours!",
+      "english": "[TO TRANSLATE: C'est un hélicoptère de secours!...]",
+      "ipa": "sɛt œ̃n elikɔptˈɛʁ də- səkˈuʁ",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Ils me cherchent, il faut que je leur fasse signe!",
+      "english": "[TO TRANSLATE: Ils me cherchent, il faut que je leur fasse signe!...]",
+      "ipa": "il mə- ʃˈɛʁʃ il fo kə ʒə- lœʁ fˈas sˈiɲ",
+      "level": "B",
+      "score": 43,
+      "scene": 0
+    },
+    {
+      "french": "Là-haut! Je suis ici! Ici!",
+      "english": "[TO TRANSLATE: Là-haut! Je suis ici! Ici!...]",
+      "ipa": "lˈaˈo ʒə- syˌiz isˈi isˈi",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Ils m'ont vue, ils descendent!",
+      "english": "[TO TRANSLATE: Ils m'ont vue, ils descendent!...]",
+      "ipa": "il mɔ̃ vˈy il dɛsˈɑ̃d",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Que je suis soulagée!",
+      "english": "[TO TRANSLATE: Que je suis soulagée!...]",
+      "ipa": "kə ʒə- syˌi sulaʒˈe",
+      "level": "B",
+      "score": 36,
+      "scene": 0
+    },
+    {
+      "french": "Le brouillard s'est levé, le ciel est clair",
+      "english": "[TO TRANSLATE: Le brouillard s'est levé, le ciel est clair...]",
+      "ipa": "lə- bʁujˈaʁ sɛ ləvˈe lə- sjˈɛl ɛ klˈɛʁ",
+      "level": "B",
+      "score": 39,
+      "scene": 0
+    },
+    {
+      "french": "L'hélicoptère fait un cercle, puis se rapproche",
+      "english": "[TO TRANSLATE: L'hélicoptère fait un cercle, puis se rapproche...]",
+      "ipa": "lelikɔptˈɛʁ fˈɛt œ̃ sˈɛʁkl pyˈi sə- ʁapʁˈɔʃ",
+      "level": "B",
+      "score": 42,
+      "scene": 0
+    },
+    {
+      "french": "Sophie! Dieu merci, tu es vivante!",
+      "english": "[TO TRANSLATE: Sophie! Dieu merci, tu es vivante!...]",
+      "ipa": "sofˈi djˈø mɛʁsˈi ty ɛ vivˈɑ̃t",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Pardonne-moi de t'avoir laissée partir seule. Je suis tellement désolé.",
+      "english": "[TO TRANSLATE: Pardonne-moi de t'avoir laissée partir seule. Je suis tellem...]",
+      "ipa": "paʁdˈɔnmwˌa də- tavwˈaʁ lɛsˈe paʁtˈiʁ sˈœl ʒə- syˌi tɛlmˈɑ̃ dezolˈe",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Non, c'est moi qui aurais dû t'écouter. Tu voulais faire demi-tour.",
+      "english": "[TO TRANSLATE: Non, c'est moi qui aurais dû t'écouter. Tu voulais faire dem...]",
+      "ipa": "nˈɔ̃ sɛ mwˌa ki oʁˈɛ dˈyː tekutˈe ty vulˈɛ fˈɛʁ dəmˈitˈuʁ",
+      "level": "C",
+      "score": 56,
+      "scene": 0
+    },
+    {
+      "french": "L'important, c'est que nous soyons tous les deux sains et saufs.",
+      "english": "[TO TRANSLATE: L'important, c'est que nous soyons tous les deux sains et sa...]",
+      "ipa": "lɛ̃pɔʁtˈɑ̃ sɛ kə nu swajˈɔ̃ tu le- dˈø sˈɛ̃z e sˈof",
+      "level": "D",
+      "score": 62,
+      "scene": 0
+    },
+    {
+      "french": "Cette expérience nous a changés,",
+      "english": "[TO TRANSLATE: Cette expérience nous a changés,...]",
+      "ipa": "sɛt ɛkspeʁjˈɑ̃s nuz a ʃɑ̃ʒˈe",
+      "level": "A",
+      "score": 35,
+      "scene": 0
+    },
+    {
+      "french": "Je ne suis plus la même personne qu'avant. Cette nuit dans la montagne...",
+      "english": "[TO TRANSLATE: Je ne suis plus la même personne qu'avant. Cette nuit dans l...]",
+      "ipa": "ʒə- nə- syˌi ply la- mˈɛm pɛʁsˈɔn kavˈɑ̃ sɛt nyˈi dɑ̃ la- mɔ̃tˈaɲ",
+      "level": "B",
+      "score": 48,
+      "scene": 0
+    },
+    {
+      "french": "Moi non plus, j'ai appris tellement de choses. La chèvre qui m'a guidé, les gens qui m'ont aidé...",
+      "english": "[TO TRANSLATE: Moi non plus, j'ai appris tellement de choses. La chèvre qui...]",
+      "ipa": "mwˌa nɔ̃ plˈy ʒe apʁˈi tɛlmˈɑ̃ də- ʃˈoz la- ʃˈɛvʁ ki ma ɡidˈe le- ʒˈɑ̃ ki mɔ̃t ɛdˈe",
+      "level": "B",
+      "score": 55,
+      "scene": 0
+    },
+    {
+      "french": "Quand on est séparés, on réalise ce qui compte vraiment.",
+      "english": "[TO TRANSLATE: Quand on est séparés, on réalise ce qui compte vraiment....]",
+      "ipa": "kɑ̃t ɔ̃n ɛ sepaʁˈe ɔ̃ ʁealˈiz sə- ki kˈɔ̃t vʁɛmˈɑ̃",
+      "level": "B",
+      "score": 45,
+      "scene": 0
+    },
+    {
+      "french": "Je ne veux plus jamais te perdre.",
+      "english": "[TO TRANSLATE: Je ne veux plus jamais te perdre....]",
+      "ipa": "ʒə- nə- vˈø ply ʒamˌɛ tə- pˈɛʁdʁ",
+      "level": "B",
+      "score": 42,
+      "scene": 0
+    },
+    {
+      "french": "Et c'est exactement ce qui rend notre relation plus forte. Nous sommes deux personnes complètes qui choisissent d'être ensemble.",
+      "english": "[TO TRANSLATE: Et c'est exactement ce qui rend notre relation plus forte. N...]",
+      "ipa": "e sɛt ɛɡzaktəmˈɑ̃ sə- ki ʁˈɑ̃ notʁ ʁəlasjˈɔ̃ ply fˈɔʁt nu sɔm dˈø pɛʁsˈɔn kɔ̃plˈɛt ki ʃwazˈis dˈɛtʁ ɑ̃sˈɑ̃bl",
+      "level": "B",
+      "score": 55,
+      "scene": 0
+    },
+    {
+      "french": "Nous sommes venus pour nous trouver nous-mêmes.",
+      "english": "[TO TRANSLATE: Nous sommes venus pour nous trouver nous-mêmes....]",
+      "ipa": "nu sɔm vənˈy puʁ nu tʁuvˈe numˈɛm",
+      "level": "B",
+      "score": 38,
+      "scene": 0
+    },
+    {
+      "french": "Et nous avons réussi,",
+      "english": "[TO TRANSLATE: Et nous avons réussi,...]",
+      "ipa": "e nuz avˈɔ̃ ʁeysˈi",
+      "level": "A",
+      "score": 28,
+      "scene": 0
+    },
+    {
+      "french": "Je ne vois presque plus le sentier.",
+      "english": "[TO TRANSLATE: Je ne vois presque plus le sentier....]",
+      "ipa": "ʒə- nə- vwˈa pʁˌɛskə ply lə- sɑ̃tjˈe",
+      "level": "B",
+      "score": 36,
+      "scene": 0
+    },
+    {
+      "french": "Cette cabane a survécu à combien de tempêtes, à combien de solitudes?",
+      "english": "[TO TRANSLATE: Cette cabane a survécu à combien de tempêtes, à combien de s...]",
+      "ipa": "sɛt kabˈan a syʁvekˈy a kɔ̃bjˈɛ̃ də- tɑ̃pˈɛt a kɔ̃bjˈɛ̃ də- solitˈyd",
+      "level": "B",
+      "score": 40,
+      "scene": 0
+    },
+    {
+      "french": "Et c'est exactement ce qui rend notre relation plus forte.",
+      "english": "[TO TRANSLATE: Et c'est exactement ce qui rend notre relation plus forte....]",
+      "ipa": "e sɛt ɛɡzaktəmˈɑ̃ sə- ki ʁˈɑ̃ notʁ ʁəlasjˈɔ̃ ply fˈɔʁt",
+      "level": "B",
+      "score": 43,
+      "scene": 0
+    },
+    {
+      "french": "Cette épreuve m'a fait comprendre qui je suis vraiment.",
+      "english": "[TO TRANSLATE: Cette épreuve m'a fait comprendre qui je suis vraiment....]",
+      "ipa": "sɛt epʁˈøv ma fˈɛ kɔ̃pʁˈɑ̃dʁ ki ʒə- syˌi vʁɛmˈɑ̃",
+      "level": "B",
+      "score": 49,
+      "scene": 0
+    },
+    {
+      "french": "La nature me donne exactement ce dont j'ai besoin.",
+      "english": "[TO TRANSLATE: La nature me donne exactement ce dont j'ai besoin....]",
+      "ipa": "la- natˈyʁ mə- dˈɔn ɛɡzaktəmˈɑ̃ sə- dɔ̃ ʒe bəzwˈɛ̃",
+      "level": "B",
+      "score": 42,
+      "scene": 0
+    },
+    {
+      "french": "ici, c'est dans l'absence que se cristallise non pas l'idéalisation de l'autre, mais la découverte de soi",
+      "english": "[TO TRANSLATE: ici, c'est dans l'absence que se cristallise non pas l'idéal...]",
+      "ipa": "isˈi sɛ dɑ̃ labsˈɑ̃s kə sə- kʁistalˈiz nɔ̃ pa lidealizasjˈɔ̃ də- lˈotʁ mɛ la- dekuvˈɛʁt də- swˈa",
+      "level": "C",
+      "score": 59,
+      "scene": 0
+    },
+    {
+      "french": "Les orties piquantes incarnent cette dialectique fondamentale où toute vérité nutritive exige d'abord qu'on accepte sa capacité à blesser",
+      "english": "[TO TRANSLATE: Les orties piquantes incarnent cette dialectique fondamental...]",
+      "ipa": "le-z ɔʁtˈi pikˈɑ̃tz ɛ̃kˈaʁn sɛt djalɛktˈik fɔ̃damɑ̃tˈal u tut veʁitˈe nytʁitˈiv ɛɡzˈiʒ dabˈɔʁ kɔ̃n aksˈɛpt sa- kapasitˈe a blɛsˈe",
+      "level": "C",
+      "score": 58,
+      "scene": 0
+    },
+    {
+      "french": "Était-ce véritablement un hasard, ou Lucas projette-t-il rétrospectivement une intentionnalité sur un comportement animal ordinaire",
+      "english": "[TO TRANSLATE: Était-ce véritablement un hasard, ou Lucas projette-t-il rét...]",
+      "ipa": "etˈɛs veʁitabləmˈɑ̃ œ̃ azˈaʁ u lykˈa pʁoʒˈɛttil ʁetʁɔspɛktivmˈɑ̃t yn ɛ̃tɑ̃sjɔnalitˈe syʁ œ̃ kɔ̃pɔʁtəmˈɑ̃ animˈal ɔʁdinˈɛʁ",
+      "level": "B",
+      "score": 54,
+      "scene": 0
+    },
+    {
+      "french": "N'est-ce pas précisément notre condition existentielle",
+      "english": "[TO TRANSLATE: N'est-ce pas précisément notre condition existentielle...]",
+      "ipa": "nˈɛs pˈa pʁesizemˈɑ̃ notʁ kɔ̃disjˈɔ̃ ɛɡzistɑ̃sjˈɛl",
+      "level": "B",
+      "score": 36,
+      "scene": 0
+    },
+    {
+      "french": "Votre récit suit une linéarité classique, mais l'épreuve de Sophie dans la cabane—cette longue nuit de l'âme—pourrait bénéficier d'une fragmentation temporelle",
+      "english": "[TO TRANSLATE: Votre récit suit une linéarité classique, mais l'épreuve de ...]",
+      "ipa": "votʁ ʁesˈi syˈi yn lineaʁitˈe klasˈik mɛ lepʁˈøv də- sofˈi dɑ̃ la- kabˈan sɛt lˈɔ̃ɡ nyˈi də- lˈaːm puʁˈɛ benefisjˈe dyn fʁaɡmɑ̃tasjˈɔ̃ tɑ̃poʁˈɛl",
+      "level": "D",
+      "score": 69,
+      "scene": 0
+    },
+    {
+      "french": "qui l'a construite",
+      "english": "[TO TRANSLATE: qui l'a construite...]",
+      "ipa": "ki la kɔ̃stʁyˈit",
+      "level": "B",
+      "score": 36,
+      "scene": 0
+    },
+    {
+      "french": "Quel berger solitaire a jadis trouvé refuge ici",
+      "english": "[TO TRANSLATE: Quel berger solitaire a jadis trouvé refuge ici...]",
+      "ipa": "kɛl bɛʁʒˈe solitˈɛʁ a ʒadˈi tʁuvˈe ʁəfˈyʒ isˈi",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Sophie pourrait s'interroger ainsi, inscrivant sa propre épreuve dans une continuité humaine millénaire",
+      "english": "[TO TRANSLATE: Sophie pourrait s'interroger ainsi, inscrivant sa propre épr...]",
+      "ipa": "sofˈi puʁˈɛ sɛ̃tɛʁoʒˈe ɛ̃sˈi ɛ̃skʁivˈɑ̃ sa- pʁˈɔpʁ epʁˈøv dɑ̃z yn kɔ̃tinyitˈe ymˈɛn milenˈɛʁ",
+      "level": "C",
+      "score": 64,
+      "scene": 0
+    },
+    {
+      "french": "Qu'ont-ils perdu dans cette épreuve",
+      "english": "[TO TRANSLATE: Qu'ont-ils perdu dans cette épreuve...]",
+      "ipa": "kˈɔ̃til pɛʁdˈy dɑ̃ sɛt epʁˈøv",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "Magnifique affirmation, mais peut-être trop définitive",
+      "english": "[TO TRANSLATE: Magnifique affirmation, mais peut-être trop définitive...]",
+      "ipa": "maɲifˈik afiʁmasjˈɔ̃ mɛ pˈøtˈɛtʁ tʁo definitˈiv",
+      "level": "A",
+      "score": 34,
+      "scene": 0
+    },
+    {
+      "french": "L'identité n'est pas découverte une fois pour toutes",
+      "english": "[TO TRANSLATE: L'identité n'est pas découverte une fois pour toutes...]",
+      "ipa": "lidɑ̃titˈe nɛ pa dekuvˈɛʁt yn fwˈa puʁ tˈut",
+      "level": "B",
+      "score": 39,
+      "scene": 0
+    },
+    {
+      "french": "n'est-ce pas l'exacte définition de toute vérité difficile mais nécessaire",
+      "english": "[TO TRANSLATE: n'est-ce pas l'exacte définition de toute vérité difficile m...]",
+      "ipa": "nˈɛs pˈa lɛɡzˈakt definisjˈɔ̃ də- tut veʁitˈe difisˈil mɛ nesɛsˈɛʁ",
+      "level": "B",
+      "score": 54,
+      "scene": 0
+    },
+    {
+      "french": "Bien qu'elle eût préféré éviter l'épreuve, celle-ci s'était révélée indispensable à sa transformation",
+      "english": "[TO TRANSLATE: Bien qu'elle eût préféré éviter l'épreuve, celle-ci s'était ...]",
+      "ipa": "bjˈɛ̃ kɛl y pʁefeʁˈe evitˈe lepʁˈøv sɛl sˌi setˈɛ ʁevelˈe ɛ̃dispɑ̃sˈabl a sa- tʁɑ̃sfɔʁmasjˈɔ̃",
+      "level": "B",
+      "score": 53,
+      "scene": 0
+    },
+    {
+      "french": "Si seulement Lucas avait été plus attentif aux signes avant-coureurs, peut-être auraient-ils pu éviter la séparation",
+      "english": "[TO TRANSLATE: Si seulement Lucas avait été plus attentif aux signes avant-...]",
+      "ipa": "sˈi sølmˈɑ̃ lykˈaz avˈɛt etˈe plyz atɑ̃tˈif o sˈinjz avˌɑ̃kuʁˈœʁ pˈøtˈɛtʁ oʁˈɛtil pˈy evitˈe la- sepaʁasjˈɔ̃",
+      "level": "C",
+      "score": 61,
+      "scene": 0
+    },
+    {
+      "french": "Pourtant, il était essentiel qu'ils vécussent cette expérience pour qu'ils pussent véritablement se connaître",
+      "english": "[TO TRANSLATE: Pourtant, il était essentiel qu'ils vécussent cette expérien...]",
+      "ipa": "puʁtˈɑ̃ il etˈɛt esɑ̃sjˈɛl kil vekˈys sɛt ɛkspeʁjˈɑ̃s puʁ kil pˈys veʁitabləmˈɑ̃ sə- kɔnˈɛtʁ",
+      "level": "B",
+      "score": 54,
+      "scene": 0
+    },
+    {
+      "french": "Le guide de montagne suggère qu'il faille toujours emporter des provisions supplémentaires afin que les randonneurs puissent survivre en cas d'urgence imprévue",
+      "english": "[TO TRANSLATE: Le guide de montagne suggère qu'il faille toujours emporter ...]",
+      "ipa": "lə- ɡˈid də- mɔ̃tˈaɲ syɡʒˈɛʁ kil fˈaj tuʒˌuʁz ɑ̃pɔʁtˈe de- pʁovizjˈɔ̃ syplemɑ̃tˈɛʁ afˌɛ̃ kə le- ʁɑ̃dɔnˈœʁ pyˈis syʁvˈivʁ ɑ̃ kˈa dyʁʒˈɑ̃s ɛ̃pʁevˈy",
+      "level": "C",
+      "score": 60,
+      "scene": 0
+    },
+    {
+      "french": "Il est impératif que chacun sache allumer un feu sans allumettes, pourvu qu'il y ait du bois sec disponible",
+      "english": "[TO TRANSLATE: Il est impératif que chacun sache allumer un feu sans allume...]",
+      "ipa": "il ɛt ɛ̃peʁatˈif kə ʃakˈœ̃ sˈaʃ alymˈe œ̃ fˈø sɑ̃z alymˈɛt puʁvˈy kil i ɛ dy- bwˈa sˈɛk disponˈibl",
+      "level": "B",
+      "score": 53,
+      "scene": 0
+    },
+    {
+      "french": "Il est peu probable que Lucas oublie la terreur de cette nuit où il croyait avoir perdu sa compagne",
+      "english": "[TO TRANSLATE: Il est peu probable que Lucas oublie la terreur de cette nui...]",
+      "ipa": "il ɛ pø pʁobˈabl kə lykˈaz ublˈi la- tɛʁˈœʁ də- sɛt nyˈi u il kʁwajˈɛt avwˈaʁ pɛʁdˈy sa- kɔ̃pˈaɲ",
+      "level": "D",
+      "score": 67,
+      "scene": 0
+    },
+    {
+      "french": "Ils regrettent que leur aventure ait pris une tournure si dangereuse, bien que ce fût précisément cette dangerosité qui les ait transformés",
+      "english": "[TO TRANSLATE: Ils regrettent que leur aventure ait pris une tournure si da...]",
+      "ipa": "il ʁəɡʁˈɛt kə lœʁ avɑ̃tˈyʁ ˈɛ pʁˈi yn tuʁnˈyʁ sˈi dɑ̃ʒʁˈøz bjˈɛ̃ kə sə- fˈyː pʁesizemˈɑ̃ sɛt dɑ̃ʒʁozitˈe ki le-z ɛ tʁɑ̃sfɔʁmˈe",
+      "level": "D",
+      "score": 72,
+      "scene": 0
+    },
+    {
+      "french": "Pour que la relation survive aux épreuves futures, il faudra qu'ils apprennent à communiquer avant que les malentendus ne deviennent insurmontables",
+      "english": "[TO TRANSLATE: Pour que la relation survive aux épreuves futures, il faudra...]",
+      "ipa": "puʁ kə la- ʁəlasjˈɔ̃ syʁvˈiv oz epʁˈøv fytˈyʁ il fodʁˈa kilz apʁˈɛnt a kɔmynikˈe avˌɑ̃ kə le- malɑ̃tɑ̃dˈy nə- dəvjˈɛnt ɛ̃syʁmɔ̃tˈabl",
+      "level": "B",
+      "score": 55,
+      "scene": 0
+    },
+    {
+      "french": "Afin que chacun puisse s'épanouir pleinement, il est nécessaire qu'ils acceptent l'autonomie de l'autre",
+      "english": "[TO TRANSLATE: Afin que chacun puisse s'épanouir pleinement, il est nécessa...]",
+      "ipa": "afˌɛ̃ kə ʃakˈœ̃ pyˈis sepanwˈiʁ plɛnmˈɑ̃ il ɛ nesɛsˈɛʁ kilz aksˈɛpt lotonomˈi də- lˈotʁ",
+      "level": "D",
+      "score": 62,
+      "scene": 0
+    },
+    {
+      "french": "Il eût été préférable qu'ils eussent discuté davantage avant de s'aventurer dans les montagnes",
+      "english": "[TO TRANSLATE: Il eût été préférable qu'ils eussent discuté davantage avant...]",
+      "ipa": "il yt etˈe pʁefeʁˈabl kilz ys diskytˈe davɑ̃tˈaʒ avˌɑ̃ də- savɑ̃tyʁˈe dɑ̃ le- mɔ̃tˈanj",
+      "level": "B",
+      "score": 47,
+      "scene": 0
+    },
+    {
+      "french": "Si Sophie avait su qu'elle pût compter sur sa propre résilience, elle n'aurait pas eu tant d'appréhension",
+      "english": "[TO TRANSLATE: Si Sophie avait su qu'elle pût compter sur sa propre résilie...]",
+      "ipa": "sˈi sofˈi avˈɛ sˈy kɛl pˈyː kɔ̃tˈe syʁ sa- pʁˈɔpʁ ʁeziljˈɑ̃s ɛl noʁˈɛ paz y tɑ̃ dapʁeɑ̃sjˈɔ̃",
+      "level": "C",
+      "score": 61,
+      "scene": 0
+    },
+    {
+      "french": "Il est rare qu'on ait la lucidité nécessaire dans le moment présent, jusqu'à ce que le recul temporel permette la compréhension",
+      "english": "[TO TRANSLATE: Il est rare qu'on ait la lucidité nécessaire dans le moment ...]",
+      "ipa": "il ɛ ʁˈaʁ kɔ̃n ɛ la- lysiditˈe nesɛsˈɛʁ dɑ̃ lə- momˈɑ̃ pʁezˈɑ̃ ʒyska sə- kə lə- ʁəkˈyl tɑ̃poʁˈɛl pɛʁmˈɛt la- kɔ̃pʁeɑ̃sjˈɔ̃",
+      "level": "B",
+      "score": 52,
+      "scene": 0
+    },
+    {
+      "french": "En admettant que leur histoire inspire d'autres couples, il serait souhaitable qu'elle les encourageât à cultiver leur indépendance mutuelle",
+      "english": "[TO TRANSLATE: En admettant que leur histoire inspire d'autres couples, il ...]",
+      "ipa": "ɑ̃n admɛtˈɑ̃ kə lœʁ istwˈaʁ ɛ̃spˈiʁ dotʁ kˈupl il səʁˈɛ suɛtˈabl kɛl le-z ɑ̃kuʁaʒˈaː a kyltivˈe lœʁ ɛ̃depɑ̃dˈɑ̃s mytyˈɛl",
+      "level": "C",
+      "score": 61,
+      "scene": 0
+    },
+    {
+      "french": "Sans que l'un doive renoncer à sa personnalité pour que l'autre puisse exister, ils peuvent créer une synergie enrichissante",
+      "english": "[TO TRANSLATE: Sans que l'un doive renoncer à sa personnalité pour que l'au...]",
+      "ipa": "sɑ̃ kə lœ̃ dwˈav ʁənɔ̃sˈe a sa- pɛʁsɔnalitˈe puʁ kə lotʁ pyˈis ɛɡzistˈe il pˈøv kʁeˈe yn sinɛʁʒˈi ɑ̃ʁiʃisˈɑ̃t",
+      "level": "B",
+      "score": 55,
+      "scene": 0
+    }
+  ]
+}

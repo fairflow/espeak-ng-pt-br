@@ -1,0 +1,7 @@
+# French Phrasebook - Basics
+# Practical phrases for real-world situations
+# Difficulty levels: A:2
+# Format: french | english | [ipa]
+
+Oui | Yes | [wˈi]
+Non | No | [nˈɔ̃]

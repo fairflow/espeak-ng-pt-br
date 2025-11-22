@@ -1,0 +1,6 @@
+# Italian Phrasebook - Basics
+# Level distribution: A
+# Format: italian | english | [ipa]
+
+No | No | [nˈɔ]
+Sì | Yes | [sˈi]

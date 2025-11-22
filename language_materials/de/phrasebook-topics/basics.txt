@@ -1,0 +1,6 @@
+# German Phrasebook - Basics
+# Level distribution: A
+# Format: german | english | [ipa]
+
+Ja | Yes | [jˈɑː]
+Nein | No | [nˈaɪn]

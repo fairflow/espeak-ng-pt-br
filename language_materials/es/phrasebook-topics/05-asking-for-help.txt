@@ -1,0 +1,14 @@
+# Spanish Phrasebook - Asking For Help
+# Level distribution: A, B
+# Format: spanish | english | [ipa]
+
+Hablo un poco de español | I speak a little Spanish | [ˈaβlo ˈum pˈoko ðe ˌespaɲˈɔl]
+Más despacio, por favor | Slower, please | [mˈas ðespˈaθjo pɔɾ faβˈɔɾ]
+Necesito ayuda | I need help | [nˌeθesˈito ajjˈuða]
+No entiendo | I don't understand | [nˈo ɛntjˈɛndo]
+No hablo español | I don't speak Spanish | [nˈo ˈaβlo ˌespaɲˈɔl]
+¿Habla inglés? | Do you speak English? | [ˈaβla iŋɡlˈɛs]
+¿Puede ayudarme? | Can you help me? | [pwˈeðe ˌajjuðˈaɾme]
+¿Puede repetir? | Can you repeat? | [pwˈeðe rˌepetˈiɾ]
+¿Cómo se dice... en español? | How do you say... in Spanish? | [kˈɔmo se ðˈiθe ɛn ˌespaɲˈɔl]
+¿Qué significa eso? | What does that mean? | [kˈɛ sˌiɡnifˈika ˈeso]

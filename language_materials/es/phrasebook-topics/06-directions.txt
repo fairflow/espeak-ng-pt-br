@@ -1,0 +1,13 @@
+# Spanish Phrasebook - Directions
+# Level distribution: A, B
+# Format: spanish | english | [ipa]
+
+A la derecha | To the right | [a la ðɛɾˈɛtʃa]
+A la izquierda | To the left | [a la iθkjˈɛɾða]
+Estoy buscando... | I'm looking for... | [estˈoɪ βuskˈando]
+Todo recto | Straight ahead | [tˈoðo rˈekto]
+¿Dónde está el baño? | Where is the bathroom? | [dˈɔnde estˈa el βˈaɲo]
+¿Dónde está...? | Where is...? | [dˈɔnde estˈa]
+¿Está cerca? | Is it near here? | [estˈa θˈɛɾka]
+¿Está lejos de aquí? | Is it far from here? | [estˈa lˈexos ðe akˈi]
+¿Dónde se encuentra...? | Where is...? | [dˈɔnde se ɛnkwˈɛntɾa]

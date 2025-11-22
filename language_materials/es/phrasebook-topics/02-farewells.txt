@@ -1,0 +1,10 @@
+# Spanish Phrasebook - Farewells
+# Level distribution: A
+# Format: spanish | english | [ipa]
+
+Adiós | Goodbye | [aðjˈɔs]
+Buenas noches | Good night | [bwˈenas nˈotʃes]
+Hasta mañana | See you tomorrow | [ˌasta maɲˈana]
+Hasta pronto | See you soon | [ˌasta pɾˈɔnto]
+Que tengas un buen día | Have a good day | [ke tˈɛŋɡas ˈum bwˈɛn dˈia]
+Que tengas una buena tarde | Have a good evening | [ke tˈɛŋɡas ˈuna βwˈena tˈaɾðe]

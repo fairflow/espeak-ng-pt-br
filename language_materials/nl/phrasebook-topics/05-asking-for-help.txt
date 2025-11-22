@@ -1,0 +1,14 @@
+# Dutch Phrasebook - Asking For Help
+# Level distribution: A, B
+# Format: dutch | english | [ipa]
+
+Ik begrijp het niet | I don't understand | [ɪk bəɣrˈɛɪp hət nˈit]
+Ik heb hulp nodig | I need help | [ɪk hɛp hˈɵlp nˈoːdəx]
+Ik spreek een beetje Nederlands | I speak a little Dutch | [ɪk sprˈeːk ən bˈeːtʲə nˈeːdərlˌɑnts]
+Ik spreek geen Nederlands | I don't speak Dutch | [ɪk sprˈeːk ɣˈeːn nˈeːdərlˌɑnts]
+Kun je dat herhalen? | Can you repeat? | [kˈɵn jə dɑt hɛrhˈaːlən]
+Kun je me helpen? | Can you help me? | [kˈɵn jə mə hˈɛlpən]
+Langzamer, alstublieft | Slower, please | [lˈɑŋzaːmər ˌɑlstɵblˈift]
+Spreek je Engels? | Do you speak English? | [sprˈeːk jə ˈɛŋəls]
+Hoe zeg je... in het Nederlands? | How do you say... in Dutch? | [hˈu zˈɛx jə ɪn hət nˈeːdərlˌɑnts]
+Wat betekent dat? | What does that mean? | [ʋɑt bətˈeːkən tɑt]

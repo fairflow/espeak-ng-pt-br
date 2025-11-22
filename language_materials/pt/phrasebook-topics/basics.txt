@@ -1,0 +1,6 @@
+# Portuguese Phrasebook - Basics
+# Level distribution: A
+# Format: portuguese | english | [ipa]
+
+Não | No | [nˈɐ̃ʊ̃]
+Sim | Yes | [sˈiŋ]

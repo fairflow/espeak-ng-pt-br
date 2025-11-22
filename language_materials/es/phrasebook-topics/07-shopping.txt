@@ -1,0 +1,14 @@
+# Spanish Phrasebook - Shopping
+# Level distribution: A, B
+# Format: spanish | english | [ipa]
+
+Es demasiado caro | It's too expensive | [ˈes ðˌemasjˈaðo kˈaɾɔ]
+Estoy buscando... | I'm looking for... | [estˈoɪ βuskˈando]
+Me lo llevo | I'll take this | [me lo ʎˈeβo]
+Quisiera... | I would like... | [kisjˈɛɾa]
+¿Cuánto cuesta? | How much does it cost? | [kwˈanto kwˈesta]
+¿Cuánto es? | How much is it? | [kwˈanto ˈes]
+¿Puedo pagar con tarjeta? | Can I pay by card? | [pwˈeðo paɣˈaɾ kɔn taɾxˈeta]
+¿Qué talla? | What size? | [kˈɛ tˈaʎa]
+¿Tiene...? | Do you have...? | [tjˈene]
+¿Puedo probármelo? | Can I try it? | [pwˈeðo pɾoβˈaɾmelo]

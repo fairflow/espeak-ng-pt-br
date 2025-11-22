@@ -1,0 +1,17 @@
+# French Phrasebook - Feelings
+# Practical phrases for real-world situations
+# Difficulty levels: A:4, B:6, C:2
+# Format: french | english | [ipa]
+
+J'ai faim | I'm hungry | [ʒe fˈɛ̃]
+J'ai soif | I'm thirsty | [ʒe swˈaf]
+J'ai chaud | I'm hot | [ʒe ʃˈo]
+J'ai froid | I'm cold | [ʒe fʁwˈa]
+Je suis content | I'm happy | [ʒə- syˌi kɔ̃tˈɑ̃]
+Je suis contente | I'm happy | [ʒə- syˌi kɔ̃tˈɑ̃t]
+Je suis fatigué | I'm tired | [ʒə- syˌi fatiɡˈe]
+Je suis fatiguée | I'm tired | [ʒə- syˌi fatiɡˈe]
+J'ai hâte | I can't wait | [ʒe ˈaːt]
+Je m'ennuie | I'm bored | [ʒə- mɑ̃nyˈi]
+Je suis crevé | I'm exhausted | [ʒə- syˌi kʁəvˈe]
+J'ai le cafard | I'm feeling down | [ʒe lə- kafˈaʁ]

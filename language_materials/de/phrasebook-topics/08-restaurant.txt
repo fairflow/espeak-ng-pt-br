@@ -1,0 +1,14 @@
+# German Phrasebook - Restaurant
+# Level distribution: A, B
+# Format: german | english | [ipa]
+
+Die Rechnung, bitte | The bill, please | [diː rˈɛçnʊŋ bˈɪtə]
+Die Speisekarte, bitte | The menu, please | [diː ʃpˈaɪzeːkˌaɾtə bˈɪtə]
+Eine Karaffe Wasser, bitte | A carafe of water, please | [ˌaɪnə kˈɑrafə vˈasɜ bˈɪtə]
+Einen Kaffee, bitte | A coffee, please | [ˌaɪnən kˈafeː bˈɪtə]
+Einen Tisch für zwei, bitte | A table for two, please | [ˌaɪnən tˈɪʃ fyːɾ tsvˈaɪ bˈɪtə]
+Es war köstlich | It was delicious | [ɛs vɑːɾ kˈœstlɪç]
+Ich bin Vegetarier | I'm vegetarian | [ɪç bɪn vˌeːɡeːtˈɑːriːɜ]
+Ich hätte gern... | I would like... | [ɪç hˌɛtə ɡˈɛɾn]
+Ich bin allergisch gegen... | I'm allergic to... | [ɪç bɪn ˈalɜɡˌɪʃ ɡˈeːɡən]
+Was empfehlen Sie? | What do you recommend? | [vˈas ɛmpfˈeːlən ziː]

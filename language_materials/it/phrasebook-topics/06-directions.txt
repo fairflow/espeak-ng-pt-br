@@ -1,0 +1,13 @@
+# Italian Phrasebook - Directions
+# Level distribution: A, B
+# Format: italian | english | [ipa]
+
+A destra | To the right | [ˌa dˈɛstra]
+A sinistra | To the left | [ˌa sinˈistra]
+Dov'è...? | Where is...? | [dovˈɛ]
+Dove sono i bagni? | Where is the bathroom? | [dˈoːve sˌono ˌɪ bˈaɲɲɪ]
+Dritto | Straight ahead | [drˈitːo]
+Sto cercando... | I'm looking for... | [stˈo tʃerkˈando]
+È lontano da qui? | Is it far from here? | [ˌɛ lontˈaːno dˌa kwˈi]
+È vicino? | Is it near here? | [ˌɛ vitʃˈiːno]
+Dove si trova...? | Where is...? | [dˈoːve sˌɪ trˈɔːva]

@@ -1,0 +1,635 @@
+# Une Aventure dans les Alpes
+
+## SCÈNES
+
+### SCÈNE 1: Le Café du Matin
+
+Le soleil se lève doucement sur Paris. Les rues du Marais commencent à s'animer. Sophie Moreau entre dans son café préféré, un petit endroit chaleureux au coin de la rue des Rosiers.
+
+«Bonjour Sophie, ça va?» demande Marc, le serveur qui la connaît bien.
+
+«Oui, bien merci. Et toi?» répond Sophie avec un sourire fatigué.
+
+«Ça va. Qu'est-ce que tu prends ce matin?»
+
+«Un café et un croissant, s'il vous plaît.»
+
+Sophie s'assoit près de la fenêtre. Elle regarde les gens qui passent dans la rue. Quelques minutes plus tard, Lucas Dubois arrive, son sac à dos sur l'épaule.
+
+«Bonjour Lucas!» dit Sophie.
+
+«Salut! Tu as bien dormi?»
+
+«Non, pas très bien. J'ai fait des rêves étranges.»
+
+Lucas commande au comptoir. «Un café au lait et un pain au chocolat, s'il vous plaît.»
+
+Il vient s'asseoir en face de Sophie. Marc apporte leurs commandes.
+
+«Voilà pour vous. Bon appétit!»
+
+«Merci,» disent-ils ensemble.
+
+Lucas regarde Sophie attentivement. «Tu veux du sucre dans ton café?»
+
+«Non merci, je le prends noir.»
+
+«Il fait beau aujourd'hui,» remarque Lucas en regardant par la fenêtre.
+
+«Oui, c'est une belle journée.»
+
+Ils boivent leur café en silence pendant quelques instants. Sophie soupire profondément.
+
+«Tu sais, Lucas, la vie est si monotone ici.»
+
+«Je suis d'accord avec toi. Chaque jour est pareil.»
+
+«On devrait partir en voyage,» dit Sophie spontanément.
+
+Lucas la regarde avec surprise, puis un sourire apparaît sur son visage. «Tu as raison! Pourquoi pas?»
+
+### SCÈNE 2: Les Achats en Ville
+
+L'après-midi, Sophie et Lucas se promènent dans les rues du Marais. Ils entrent dans une petite épicerie.
+
+«Bonjour,» dit la commerçante. «Qu'est-ce que je peux faire pour vous?»
+
+«Nous avons besoin de pain,» répond Sophie.
+
+«Le pain est là-bas, près de l'entrée.»
+
+Lucas examine les fromages sur le comptoir. «Le fromage est frais?»
+
+«Oui, il est très bon. Je l'ai reçu ce matin.»
+
+«Parfait. Et combien coûtent les tomates?»
+
+«Trois euros le kilo.»
+
+Sophie fait la grimace. «C'est trop cher pour moi.»
+
+«Regardez,» dit la commerçante, «j'ai des tomates d'hier. Deux euros le kilo.»
+
+«D'accord, nous prenons un kilo.»
+
+Ils continuent leurs achats. Lucas demande: «Où est la boulangerie?»
+
+«Elle est au coin de la rue, après l'église.»
+
+En sortant du magasin, Sophie respire l'air frais. «J'aime ce quartier.»
+
+«Moi aussi, c'est très joli. Les vieux bâtiments ont du charme.»
+
+Ils marchent vers la boulangerie. Lucas a une idée. «On achète du vin?»
+
+«Bonne idée! On peut prendre une bouteille pour ce soir.»
+
+«Quel vin tu préfères?»
+
+«Le rouge, toujours le rouge.»
+
+«Parfait, prenons une bouteille.»
+
+Ils entrent dans un petit magasin de vins. Le propriétaire les conseille et ils repartent avec un bon bordeaux.
+
+### SCÈNE 3: Conversation sur le Rêve
+
+Le soir, dans l'appartement de Sophie, ils partagent le vin et du fromage. La conversation devient plus profonde.
+
+«Tu sais, Lucas, je suis fatigué de cette vie,» commence Sophie.
+
+«Moi aussi, tout est pareil chaque jour. Métro, boulot, dodo.»
+
+«On pourrait voyager quelque part. Pour de vrai, pas juste en parler.»
+
+Lucas se redresse sur le canapé. «Où veux-tu aller?»
+
+«Je ne sais pas encore. Mais loin d'ici.»
+
+«La montagne ou la mer?» demande Lucas.
+
+«La montagne, j'adore la nature. Les arbres, l'air pur, le silence.»
+
+«Les Alpes?»
+
+«Oui! C'est une excellente idée!»
+
+Lucas se lève avec enthousiasme. «Quand partons-nous?»
+
+«Bientôt, très bientôt.»
+
+Sophie hésite un moment. «J'ai un peu peur, tu sais.»
+
+Lucas lui prend la main. «N'aie pas peur, ça va bien se passer.»
+
+«Tu as raison, allons-y! Qu'est-ce qu'on risque?»
+
+### SCÈNE 4: La Décision
+
+Le lendemain matin, Lucas arrive chez Sophie avec son ordinateur portable.
+
+«C'est décidé, nous partons!» annonce-t-il.
+
+«Dans combien de temps?»
+
+«Dans une semaine. J'ai regardé les trains cette nuit.»
+
+«Une semaine? C'est si rapide!»
+
+«Oui, mais c'est mieux comme ça. Si on attend trop, on ne partira jamais.»
+
+Sophie réfléchit. «Tu as raison. Qu'est-ce qu'on emporte?»
+
+«Pas grand-chose, juste l'essentiel. Des vêtements chauds, une lampe de poche...»
+
+«Un sac à dos chacun,» décide Sophie.
+
+«Et nos téléphones?»
+
+«Bien sûr, pour les photos. Et pour la sécurité.»
+
+Sophie commence à faire une liste. «Je suis excitée! C'est vraiment en train d'arriver!»
+
+Lucas sourit. «Moi aussi. Une nouvelle aventure commence.»
+
+### SCÈNE 5: À la Gare
+
+Une semaine plus tard, Sophie et Lucas se tiennent devant la Gare de Lyon. Leurs sacs à dos sont prêts. L'excitation se mêle à la nervosité.
+
+Ils s'approchent du guichet. «Deux billets pour Grenoble, s'il vous plaît,» dit Lucas.
+
+«Aller simple ou aller-retour?» demande l'employée.
+
+«Aller simple.»
+
+«Le train part à quelle heure?» demande Sophie.
+
+«À onze heures quinze. Vous avez de la chance, c'est le TGV direct.»
+
+Lucas regarde sa montre. «Nous avons le temps de prendre un café?»
+
+«Oui, nous avons une demi-heure.»
+
+Ils trouvent un café dans la gare. Sophie demande au serveur: «Quel quai pour le train de Grenoble?»
+
+«Le quai numéro sept. Vous verrez les panneaux.»
+
+Lucas vérifie son sac. «N'oublie pas ton sac!»
+
+«Je l'ai déjà pris. Et toi, tu as les billets?»
+
+«Oui, dans ma poche.»
+
+Sophie respire profondément. «Tu es prêt pour l'aventure?»
+
+«Oui, plus que jamais!»
+
+Une annonce résonne dans la gare. «Le train arrive bientôt.»
+
+«Montons vite, il y a du monde,» dit Lucas.
+
+Ils trouvent leurs places dans le wagon. «Voici nos places. Près de la fenêtre!»
+
+Le train démarre. Sophie regarde Paris qui s'éloigne. «C'est parti pour une nouvelle vie!»
+
+### SCÈNE 6: Dans le Train
+
+Le train file à travers la campagne française. Sophie et Lucas regardent le paysage qui défile par la fenêtre.
+
+«Nous avons finalement quitté Paris,» dit Sophie, presque incrédule.
+
+Lucas vérifie son téléphone. «As-tu fermé la porte à clé?»
+
+«Oui, j'ai vérifié trois fois. Et toi, tu as prévenu ton travail?»
+
+«Oui, j'ai envoyé un email hier soir.»
+
+Sophie se tourne vers Lucas. «Qu'est-ce que tu ressens?»
+
+«Je me sens libre et un peu nerveux. C'est bizarre, non?»
+
+«Moi aussi, c'est normal. On change toute notre vie.»
+
+Le paysage devient de plus en plus vallonné. «Regarde le paysage, il est magnifique!»
+
+Sophie ouvre son sac. «J'ai apporté des sandwichs. Fromage et jambon.»
+
+«Excellente idée, j'ai faim.»
+
+Ils mangent en silence, admirant la vue. Lucas demande: «Combien de temps dure le voyage?»
+
+«Environ cinq heures. On arrive vers seize heures.»
+
+Sophie cherche dans son sac. «Oh non! J'ai oublié mon livre!»
+
+«Ce n'est pas grave, on peut parler.»
+
+«De quoi veux-tu parler?»
+
+Lucas réfléchit. «De nos rêves et de notre avenir. Qu'est-ce que tu veux vraiment dans la vie?»
+
+Sophie sourit. «C'est une grande question. Je veux me sentir vivante, je pense.»
+
+### SCÈNE 7: Arrivée au Village
+
+Le train arrive en gare de Grenoble. Sophie et Lucas descendent et prennent un bus local vers un petit village alpin.
+
+«Nous sommes enfin arrivés!» s'exclame Sophie en sortant du bus.
+
+Lucas regarde autour de lui. «C'est plus petit que je pensais.»
+
+«Mais c'est charmant et tranquille. Regarde ces montagnes!»
+
+Le village est pittoresque avec ses maisons en pierre et ses volets en bois. «Où allons-nous dormir ce soir?»
+
+Sophie pointe du doigt. «Il y a une auberge là-bas. "Auberge du Mont Blanc."»
+
+«Demandons s'ils ont des chambres.»
+
+Ils entrent dans l'auberge. Une femme d'âge moyen les accueille avec un sourire chaleureux.
+
+«Bonjour, avez-vous deux chambres libres?»
+
+«Oui, mais seulement pour ce soir. Demain, j'ai une réservation de groupe.»
+
+«C'est parfait, nous les prenons.»
+
+«Combien coûte la nuit?»
+
+«Soixante euros par chambre, avec le petit-déjeuner.»
+
+Lucas sort son portefeuille. «D'accord, nous payons maintenant.»
+
+«Le dîner est servi à sept heures dans la salle à manger,» explique la patronne.
+
+«Merci beaucoup pour votre aide.»
+
+Sophie et Lucas montent leurs sacs dans les chambres, puis redescendent. «Allons explorer le village!»
+
+### SCÈNE 8: Rencontres et Découvertes
+
+Sophie et Lucas se promènent dans les rues étroites du village. Ils croisent un vieil homme qui promène son chien.
+
+«Excusez-moi, où est la boulangerie?» demande Sophie.
+
+«Tournez à droite après l'église. Vous ne pouvez pas la manquer.»
+
+L'homme les observe avec curiosité. «Vous êtes nouveaux ici?»
+
+«Oui, nous venons de Paris,» répond Lucas.
+
+«Paris! Bienvenue dans notre village! Ici, c'est plus calme qu'à Paris.»
+
+Ils continuent leur promenade. Sophie remarque: «Les gens sont très gentils ici.»
+
+«Oui, c'est différent de la grande ville. Tout le monde se parle.»
+
+Ils arrivent devant la boulangerie. L'odeur du pain frais les accueille. La boulangère est bavarde.
+
+«Qu'est-ce qu'on peut faire ici?» demande Lucas.
+
+«Il y a beaucoup de randonnées. Les montagnes sont magnifiques.»
+
+«Vous aimez la montagne?» demande-t-elle.
+
+«Oui, nous adorons la nature. C'est pour ça qu'on est venus.»
+
+Sophie achète du pain et des pâtisseries. En sortant, elle dit: «Demain, nous irons faire une randonnée.»
+
+La boulangère les suit sur le pas de la porte. «Attention, la météo change vite ici. Prenez toujours des vêtements chauds.»
+
+«Merci pour le conseil,» dit Lucas.
+
+«Bonne soirée et bonne chance!»
+
+### SCÈNE 9: La Randonnée Difficile
+
+Le lendemain matin, Sophie et Lucas commencent leur randonnée. Le temps est beau, le ciel est bleu. Ils suivent un sentier qui monte vers un refuge de montagne.
+
+«Nous marchions depuis trois heures quand les nuages sont arrivés,» racontera plus tard Sophie.
+
+Le changement est soudain. «Il faisait de plus en plus froid.»
+
+Sophie frissonne. «Si j'avais su, j'aurais apporté un pull plus chaud.»
+
+Lucas regarde le ciel menaçant. «Nous devrions peut-être faire demi-tour.»
+
+«Non, le refuge n'est pas loin. Regarde la carte.»
+
+«Tu es trop optimiste parfois!» dit Sophie, la voix tendue.
+
+«Et toi, tu t'inquiètes toujours trop.»
+
+Sophie s'arrête brusquement. «Ce n'est pas le moment de se disputer.»
+
+Lucas prend sa main. «Je suis désolé, j'ai juste peur.»
+
+«Moi aussi, mais il faut continuer. On ne peut pas rester ici.»
+
+Le brouillard commence à descendre de la montagne. «Le brouillard devient très épais.»
+
+Lucas avance prudemment. «Je ne vois presque plus le sentier.»
+
+«Restons ensemble, ne nous séparons pas,» insiste Sophie.
+
+Soudain, Sophie s'arrête. «Attends, j'ai perdu mon sac! Il était juste là!»
+
+«Je reviens le chercher, toi, continue! Suis le sentier!»
+
+«Non, Lucas, attendons ensemble!»
+
+Mais Lucas est déjà parti dans le brouillard.
+
+### SCÈNE 10: La Séparation Involontaire
+
+Sophie attend quelques minutes, puis commence à paniquer.
+
+«Lucas? Lucas, où es-tu?»
+
+Le vent emporte sa voix. Elle crie plus fort, mais rien.
+
+«Je n'entends plus sa voix.»
+
+Elle cherche son téléphone dans sa poche. Pas de réseau.
+
+«Si seulement j'avais mon téléphone! Mais il ne sert à rien ici.»
+
+Le brouillard est si dense qu'elle ne voit pas à trois mètres devant elle.
+
+«Je ne sais plus où je suis.»
+
+Elle se reproche leur dispute. «Il aurait fallu rester ensemble. Nous avons été stupides.»
+
+«Maintenant, je suis complètement seule.»
+
+Le vent souffle de plus en plus fort. La température chute.
+
+«J'aurais dû l'écouter tout à l'heure. Il voulait faire demi-tour.»
+
+«Mais il est trop tard pour les regrets.»
+
+Sophie se force à réfléchir calmement. «Je dois trouver un abri. Je ne peux pas rester dehors cette nuit.»
+
+Elle avance prudemment, les mains tendues devant elle. Dans sa tête, des souvenirs surgissent. Son père lui disait toujours: «Dans le doute, descends. L'eau coule vers le bas.» Mais maintenant, dans ce brouillard, le haut et le bas se confondent.
+
+«Où suis-je vraiment? Qui suis-je sans Lucas à mes côtés?»
+
+Soudain, ses mains touchent quelque chose de solide. «Là-bas, il y a quelque chose!»
+
+C'est une forme sombre dans le brouillard. «Une petite cabane abandonnée. Dieu merci!»
+
+### SCÈNE 11: Le Défi de Sophie - Les Quatre Éléments
+
+Sophie entre dans la cabane. C'est une vieille structure de berger, simple mais solide. Il y a une cheminée. Sur le mur, quelqu'un a gravé des mots presque effacés: «...ne pardonne pas...enseigne.»
+
+«Qui a vécu ici avant moi? Combien de solitudes cette cabane a-t-elle abritées?»
+
+Elle touche les murs de pierre. «Ces murs ont survécu à combien de tempêtes, à combien d'hivers?»
+
+«Il faudrait que j'allume un feu.»
+
+Elle cherche dans ses poches. «Heureusement, j'ai des allumettes dans ma poche.»
+
+Elle trouve du bois à l'intérieur de la cabane, mais il est humide. «Le bois est humide, ce ne sera pas facile.»
+
+Elle arrange le bois, met du papier, prend une allumette. Elle frotte. Rien. «J'essaie une fois, deux fois, trois fois...»
+
+Dans son esprit, elle revoit sa grand-mère montrant à la petite Sophie comment allumer un feu dans la cheminée de leur maison de campagne. «Patience, ma chérie. Le feu vient à ceux qui savent attendre.»
+
+À la quatrième tentative, une petite flamme apparaît. «Enfin! Une petite flamme qui grandit!»
+
+Elle souffle doucement et la flamme grandit. Bientôt, un vrai feu brûle dans la cheminée.
+
+«Ce feu... c'est moi qui l'ai créé. Moi seule.»
+
+La chaleur se répand dans la petite cabane. «Le feu me donne de la chaleur et du courage.»
+
+Mais après quelques heures, la faim se fait sentir. «Maintenant, j'ai très faim, mais je n'ai rien à manger.»
+
+Elle sort de la cabane pour explorer les environs. Près de la porte, elle remarque des plantes.
+
+«Attends... ces plantes près de la cabane, je les reconnais!»
+
+Des souvenirs de son enfance reviennent. Elle revoit sa grand-mère dans le jardin de Normandie, ses mains ridées tenant délicatement les tiges vertes.
+
+«Regarde, Sophie. Les orties te piquent d'abord, mais après, elles te nourrissent. C'est comme la vie, ma petite. Les choses qui font mal nous rendent plus fortes.»
+
+«Ce sont des orties! Elles sont comestibles si on les fait cuire.»
+
+Elle les regarde avec hésitation. «J'ose à peine les toucher, elles piquent.»
+
+«Mais il le faut si je veux survivre. Toute vérité exige qu'on accepte d'abord sa capacité à blesser.»
+
+Elle cueille les orties avec précaution, en utilisant un bout de tissu pour protéger ses mains. Les piqûres lui rappellent que la nature n'est ni bonne ni mauvaise—elle est simplement authentique.
+
+Maintenant, elle a besoin d'eau. «Où puis-je trouver de l'eau potable?»
+
+Elle écoute attentivement. «J'entends un bruit... comme de l'eau qui coule!»
+
+Elle suit le son et découvre une merveille. «Une source! Une eau claire, douce, qui jaillit des rochers!»
+
+Elle remplit une petite casserole qu'elle a trouvée dans la cabane. De retour près du feu, elle fait bouillir l'eau et y met les orties.
+
+«Avec le feu, l'eau de la source, et les orties, je fais une soupe.»
+
+La soupe est simple mais délicieuse. Elle la boit lentement, sentant la chaleur se répandre dans son corps.
+
+«La nature me donne exactement ce dont j'ai besoin. Ou bien... est-ce moi qui interprète ses dons?»
+
+Elle regarde le feu danser dans la cheminée. Le feu qu'elle a allumé. L'eau qu'elle a trouvée. Les orties qu'elle a reconnues. «La montagne m'offre ces éléments, mais c'est moi qui les transforme en survie.»
+
+Cette nuit-là, assise près du feu, Sophie réfléchit à sa vie. «Cette épreuve m'apprend que je suis plus forte que je ne pensais.»
+
+Elle pense à tous les futurs possibles. Un futur où elle retourne à Paris et reprend sa vie d'avant. Un futur où elle reste dans les montagnes. Un futur où elle et Lucas se séparent. Un futur où ils restent ensemble mais différents.
+
+«Qui suis-je vraiment? Peut-être que je ne le saurai jamais complètement. Peut-être que c'est normal.»
+
+### SCÈNE 12: Le Défi de Lucas - Le Guide Inattendu
+
+Pendant ce temps, Lucas cherche désespérément Sophie dans le brouillard.
+
+«Comment ai-je pu la perdre? Comment?»
+
+Il se sent terriblement coupable. «Je n'aurais jamais dû la laisser continuer seule. J'aurais dû rester avec elle.»
+
+Il marche pendant des heures, criant son nom, mais le brouillard absorbe tous les sons. Dans cette blancheur épaisse, il perd toute notion de direction. Le haut, le bas, la gauche, la droite—tout se confond.
+
+«Je ne vois presque plus le sentier. N'est-ce pas notre condition humaine? Nous avançons tous dans l'incertitude.»
+
+Finalement, il doit prendre une décision. «Il faut que je trouve de l'aide.»
+
+Il essaie de s'orienter. «Le village ne peut pas être très loin. Si je descends, c'est par là.»
+
+«Mais dans quelle direction exactement?»
+
+Le brouillard rend l'orientation impossible. Il pourrait tourner en rond pendant des heures.
+
+Soudain, il entend un bêlement. Une forme apparaît dans le brouillard.
+
+«Une chèvre! Elle me regarde fixement.»
+
+L'animal ne semble pas effrayé. Au contraire, elle s'approche, puis se retourne et commence à descendre un sentier.
+
+«Elle commence à descendre un sentier que je n'avais pas vu.»
+
+Lucas hésite. «Devrais-je la suivre? Les animaux connaissent les chemins sûrs.»
+
+«Ou bien... est-ce simplement une chèvre qui rentre à sa ferme? Est-ce que je projette une intentionnalité sur un comportement animal ordinaire?»
+
+La chèvre s'arrête et se retourne, comme pour vérifier s'il suit.
+
+«J'ai l'impression qu'elle veut me montrer quelque chose.»
+
+«Peut-être que dans notre désespoir, nous voyons des signes partout. Mais peu importe—je dois choisir de faire confiance.»
+
+«Même si c'est étrange, je dois lui faire confiance. Je n'ai pas d'autre choix.»
+
+Il suit la chèvre qui descend le sentier avec assurance. «Elle s'arrête et attend que je la suive.»
+
+Ils descendent ainsi pendant une heure. Lucas pense constamment à Sophie. «Sophie compte sur moi, je ne peux pas l'abandonner.»
+
+Soudain, le brouillard devient moins dense. En bas, il voit quelque chose.
+
+«Voilà une lumière au loin! La chèvre m'a guidé!»
+
+C'est une ferme. La chèvre bêle une dernière fois et s'en va.
+
+Lucas court vers la maison. «À l'aide! J'ai besoin d'aide!»
+
+Un homme sort de la maison, surpris mais prêt à aider.
+
+### SCÈNE 13: Les Secours
+
+Lucas explique la situation au fermier, qui appelle immédiatement les secours de montagne. Ils arrivent rapidement au poste de secours du village.
+
+«Il faut que nous organisions une équipe de recherche,» dit le chef des secouristes.
+
+«Bien qu'il fasse nuit, nous devons partir maintenant. Chaque heure compte.»
+
+Lucas montre la carte en tremblant. «Nous étions ici, vers ce refuge.»
+
+«Pourvu qu'elle ait trouvé un abri!» dit un des secouristes.
+
+Lucas décrit Sophie. «Le jeune homme a dit qu'elle portait une veste rouge. Ça nous aidera.»
+
+Un autre secouriste prépare l'équipement. «J'espère qu'elle soit en sécurité.»
+
+Le chef s'adresse à Lucas avec fermeté mais gentillesse. «Nous avons besoin que vous nous montriez sur la carte exactement où vous étiez.»
+
+«Il est important que vous restiez calme. Nous sommes des professionnels.»
+
+Lucas respire profondément. «Quoi qu'il arrive, nous la retrouverons, n'est-ce pas?»
+
+«Oui. Nous connaissons ces montagnes comme notre poche.»
+
+«L'hélicoptère partira dès que le temps le permettra. Au lever du jour.»
+
+«En attendant, reposez-vous et reprenez des forces. Vous ne lui serez d'aucune aide si vous êtes épuisé.»
+
+### SCÈNE 14: La Réflexion de Sophie
+
+Au lever du jour, Sophie est toujours dans la cabane. Le feu brûle encore doucement. Elle sort et regarde le soleil qui se lève.
+
+«Cette épreuve m'a fait comprendre quelque chose sur moi-même.»
+
+Elle pense à toutes les fois où elle avait peur, où elle doutait d'elle-même.
+
+«Je n'aurais jamais cru être capable de survivre seule. Jamais.»
+
+Elle regarde les montagnes autour d'elle, magnifiques dans la lumière du matin. Mais maintenant, elle voit aussi leur indifférence. La montagne ne l'a pas sauvée par bonté—elle a simplement existé, et Sophie a appris à lire ses signes.
+
+«Quoi que la vie me réserve, je saurai mieux y faire face. Mais je ne serai jamais "complètement" prête.»
+
+Elle pense à Lucas, à leur relation. «Il n'est pas nécessaire d'avoir toujours quelqu'un à ses côtés.»
+
+«Bien que Lucas me manque terriblement, je me sens plus entière qu'avant. Mais "entière" ne signifie pas "achevée"—cela signifie "en devenir".»
+
+«C'est comme si j'avais retrouvé une partie de moi-même que j'avais perdue. Mais combien d'autres parties reste-t-il à découvrir?»
+
+Le soleil illumine maintenant toute la vallée. «Le soleil se lève enfin après cette longue nuit.»
+
+Elle prend sa décision. «Il est temps que je descende chercher de l'aide.»
+
+«Cette nuit m'a transformée. Mais toute transformation implique aussi une perte—j'ai perdu mon innocence, ma naïveté. Je ne peux plus prétendre que la vie est simple.»
+
+Elle touche le mur de la cabane avec gratitude et une étrange mélancolie. «Cette cabane, cette montagne... elles continueront d'exister après mon départ, indifférentes à mon histoire.»
+
+Avant de partir, elle grave quelques mots sur le mur, juste sous l'inscription mystérieuse: «Sophie, novembre 2024. La montagne enseigne.»
+
+### SCÈNE 15: La Découverte
+
+Sophie commence à descendre prudemment. Le brouillard s'est levé, le ciel est clair.
+
+Soudain, elle entend un bruit inhabituel. «J'entends un bruit de moteur au-dessus de moi.»
+
+Elle lève les yeux et voit quelque chose dans le ciel. «C'est un hélicoptère de secours!»
+
+«Ils me cherchent, il faut que je leur fasse signe!»
+
+Elle enlève sa veste rouge et la secoue frénétiquement au-dessus de sa tête.
+
+«Là-haut! Je suis ici! Ici!»
+
+L'hélicoptère fait un cercle, puis se rapproche. «Ils m'ont vue, ils descendent!»
+
+L'émotion la submerge. «Que je suis soulagée!»
+
+Pendant que l'hélicoptère se pose dans une petite clairière, elle pense à Lucas.
+
+«Lucas doit être fou d'inquiétude.»
+
+Les secouristes courent vers elle avec une couverture. «Bientôt, nous serons réunis.»
+
+### SCÈNE 16: La Réunion
+
+L'hélicoptère atterrit au poste de secours. Lucas attend dehors, fou d'angoisse.
+
+Quand Sophie descend, il court vers elle. «Sophie! Dieu merci, tu es vivante!»
+
+Ils s'embrassent, pleurant tous les deux. «Lucas! J'avais tellement peur pour toi!»
+
+«Pardonne-moi de t'avoir laissée partir seule. Je suis tellement désolé.»
+
+«Non, c'est moi qui aurais dû t'écouter. Tu voulais faire demi-tour.»
+
+Ils restent enlacés un long moment. «L'important, c'est que nous soyons tous les deux sains et saufs.»
+
+Un secouriste leur apporte du thé chaud. Ils s'assoient ensemble, encore tremblants.
+
+«Cette expérience nous a changés,» dit Sophie doucement. «Mais elle nous a aussi coûté quelque chose.»
+
+«Qu'est-ce qu'elle nous a coûté?» demande Lucas.
+
+«Notre innocence, peut-être. L'illusion que nous pouvions contrôler nos vies. Le bonheur facile.»
+
+«Je ne suis plus la même personne qu'avant. Cette nuit dans la montagne...»
+
+«Moi non plus, j'ai appris tellement de choses. La chèvre qui m'a guidé, les gens qui m'ont aidé...»
+
+Sophie le regarde avec des yeux nouveaux, mais aussi avec une certaine tristesse. «Était-ce vraiment une chèvre guide, ou juste une chèvre ordinaire? Nous projetons tant de signification sur ce qui nous arrive.»
+
+Lucas réfléchit. «Peut-être que cela n'a pas d'importance. J'ai choisi de lui faire confiance, et cela m'a sauvé.»
+
+«Quand on est séparés, on réalise ce qui compte vraiment.»
+
+Lucas prend sa main. «Je ne veux plus jamais te perdre.»
+
+«Mais maintenant, je sais que je peux me débrouiller seule si nécessaire. J'ai fait du feu, j'ai trouvé de l'eau, j'ai fait une soupe avec des orties.»
+
+«Et c'est exactement ce qui rend notre relation plus forte. Nous sommes deux personnes qui choisissent d'être ensemble—pas par besoin, mais par désir.»
+
+«Mais nous ne serons jamais "complètes", Lucas. Nous continuerons toujours de changer, de devenir. Et c'est bien comme ça.»
+
+Ils regardent les montagnes ensemble, main dans la main. Le soleil brille sur les sommets enneigés, indifférent à leurs histoires humaines.
+
+«Nous ne sommes pas venus ici pour fuir Paris,» dit Sophie. «Nous sommes venus pour découvrir quelque chose. Et nous l'avons trouvé.»
+
+«Qu'avons-nous trouvé exactement?» demande Lucas.
+
+Sophie sourit, mais c'est un sourire différent maintenant—plus profond, plus conscient de la fragilité des choses. «Peut-être simplement que nous sommes capables d'affronter l'incertitude. Et que notre amour peut exister même dans cette incertitude.»
+
+«C'est déjà beaucoup,» dit Lucas.
+
+«Oui. C'est déjà beaucoup.»
+
+--- FIN ---

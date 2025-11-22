@@ -1,0 +1,49 @@
+{
+  "language_code": "fr",
+  "language_name": "French",
+  "structure": {
+    "difficulty_levels": 4,
+    "files_per_level": 5,
+    "phrases_per_file": 50,
+    "total_capacity": 1000
+  },
+  "current_content": {
+    "total_phrases": 200,
+    "populated_files": [
+      "phrases-A/phr-01.txt",
+      "phrases-B/phr-01.txt",
+      "phrases-C/phr-01.txt",
+      "phrases-D/phr-01.txt"
+    ]
+  },
+  "levels": {
+    "A": {
+      "description": "Absolute basics - survival phrases",
+      "current_phrases": 50,
+      "max_phrases": 250,
+      "files": ["phr-01.txt", "phr-02.txt (empty)", "phr-03.txt (empty)", "phr-04.txt (empty)", "phr-05.txt (empty)"]
+    },
+    "B": {
+      "description": "Basic communication - introductions, directions, shopping",
+      "current_phrases": 50,
+      "max_phrases": 250,
+      "files": ["phr-01.txt", "phr-02.txt (empty)", "phr-03.txt (empty)", "phr-04.txt (empty)", "phr-05.txt (empty)"]
+    },
+    "C": {
+      "description": "Intermediate - Travel, hotels, restaurants, health",
+      "current_phrases": 50,
+      "max_phrases": 250,
+      "files": ["phr-01.txt", "phr-02.txt (empty)", "phr-03.txt (empty)", "phr-04.txt (empty)", "phr-05.txt (empty)"]
+    },
+    "D": {
+      "description": "Advanced - Banking, housing, work, complex situations",
+      "current_phrases": 50,
+      "max_phrases": 250,
+      "files": ["phr-01.txt", "phr-02.txt (empty)", "phr-03.txt (empty)", "phr-04.txt (empty)", "phr-05.txt (empty)"]
+    }
+  },
+  "format": "phrase | translation | [ipa]",
+  "ipa_source": "Manual approximations (verified with espeak-ng)",
+  "generated_date": "2025-11-12",
+  "version": "2.0"
+}

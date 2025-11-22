@@ -1,0 +1,16 @@
+# Dutch Phrasebook - Feelings
+# Level distribution: A, B, C
+# Format: dutch | english | [ipa]
+
+Ik heb dorst | I'm thirsty | [ɪk hɛp dˈɔrst]
+Ik heb het koud | I'm cold | [ɪk hɛp hət kˈʌʊt]
+Ik heb het warm | I'm hot | [ɪk hɛp hət ʋˈɑrm]
+Ik heb honger | I'm hungry | [ɪk hɛp hˈɔŋər]
+Ik ben blij | I'm happy | [ɪk bɛn blˈɛɪ]
+Ik ben blij | I'm happy | [ɪk bɛn blˈɛɪ]
+Ik ben moe | I'm tired | [ɪk bɛn mˈu]
+Ik ben moe | I'm tired | [ɪk bɛn mˈu]
+Ik kan niet wachten | I can't wait | [ɪk kɑn nˌit ʋˈɑxtən]
+Ik verveel me | I'm bored | [ɪk vərvˈeːl mə]
+Ik ben uitgeput | I'm exhausted | [ɪk bɛn ˈœytɣəpˌɵt]
+Ik voel me rot | I'm feeling down | [ɪk vˈul mə rˈɔt]

@@ -1,0 +1,14 @@
+# French Phrasebook - Directions
+# Practical phrases for real-world situations
+# Difficulty levels: A:8, B:1
+# Format: french | english | [ipa]
+
+Où est...? | Where is...? | [u ˈɛ]
+Où sont les toilettes? | Where is the bathroom? | [u sˈɔ̃ le- twalˈɛt]
+C'est loin d'ici? | Is it far from here? | [sɛ lwˌɛ̃ disˈi]
+C'est près d'ici? | Is it near here? | [sɛ pʁɛ disˈi]
+À gauche | To the left | [a ɡˈoʃ]
+À droite | To the right | [a dʁwˈat]
+Tout droit | Straight ahead | [tu dʁwˈa]
+Je cherche... | I'm looking for... | [ʒə- ʃˈɛʁʃ]
+Où se trouve...? | Where is...? | [u sə- tʁˈuv]

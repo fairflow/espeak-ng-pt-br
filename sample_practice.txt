@@ -1,0 +1,31 @@
+# Sample Practice Words - Brazilian Portuguese
+
+# Basic words
+casa
+gato
+água
+pão
+café
+sol
+lua
+flor
+
+# Common phrases
+bom dia
+boa tarde
+boa noite
+muito obrigado
+por favor
+com licença
+tudo bem
+até logo
+
+# Useful sentences
+eu gosto de café
+minha mãe está em casa
+o gato está dormindo
+onde fica o mercado
+quanto custa isso
+eu estou aprendendo português
+você fala inglês
+qual é o seu nome

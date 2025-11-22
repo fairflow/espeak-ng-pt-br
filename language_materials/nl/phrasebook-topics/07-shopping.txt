@@ -1,0 +1,14 @@
+# Dutch Phrasebook - Shopping
+# Level distribution: A, B
+# Format: dutch | english | [ipa]
+
+Dat is te duur | It's too expensive | [dɑt ɪs tə dˈyr]
+Heeft u...? | Do you have...? | [hˈeːft y]
+Hoeveel is het? | How much is it? | [huvˈeːl ɪs hət]
+Hoeveel kost dit? | How much does it cost? | [huvˈeːl kˈɔs tɪt]
+Ik neem dit | I'll take this | [ɪk nˈeːm dɪt]
+Ik wil graag... | I would like... | [ɪk ʋɪl ɣrˈaːx]
+Ik zoek... | I'm looking for... | [ɪk zˈuk]
+Kan ik met kaart betalen? | Can I pay by card? | [kɑn ɪk mɛt kˈaːrt bətˈaːlən]
+Welke maat? | What size? | [ʋˈɛlkə mˈaːt]
+Mag ik dit passen? | Can I try it? | [mɑx ɪk dɪt pˈɑsən]

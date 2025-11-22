@@ -1,0 +1,11 @@
+# Dutch Phrasebook - Introductions
+# Level distribution: A, B
+# Format: dutch | english | [ipa]
+
+Aangenaam | Nice to meet you | [ˈaːnɣənˌaːm]
+Aangenaam | Nice to meet you | [ˈaːnɣənˌaːm]
+Hoe heet je? | What is your name? | [hˈu hˈeːt jə]
+Ik heet... | My name is... | [ɪk hˈeːt]
+Ik kom uit... | I come from... | [ɪk kˈɔm ˈœyt]
+Waar kom je vandaan? | Where are you from? | [ʋˈaːr kˈɔm jə vɑndˈaːn]
+Aangenaam kennis te maken | Pleased to meet you | [ˈaːnɣənˌaːm kˈɛnɪs tə mˈaːkən]

@@ -1,0 +1,14 @@
+# Dutch Phrasebook - Restaurant
+# Level distribution: A, B
+# Format: dutch | english | [ipa]
+
+De menukaart, alstublieft | The menu, please | [də mˈeːnykˌaːrt ˌɑlstɵblˈift]
+De rekening, alstublieft | The bill, please | [də rˈeːkənˌɪŋ ˌɑlstɵblˈift]
+Een karaf water, alstublieft | A carafe of water, please | [ən kˈaːrɑf ʋˈaːtər ˌɑlstɵblˈift]
+Een koffie, alstublieft | A coffee, please | [ən kɔfˈi ˌɑlstɵblˈift]
+Een tafel voor twee, alstublieft | A table for two, please | [ən tˈaːfəl vɔːr tʋˈeː ˌɑlstɵblˈift]
+Het was heerlijk | It was delicious | [hət ʋˈɑs hˈɪːrlək]
+Ik ben vegetariër | I'm vegetarian | [ɪk bɛn vˈeːɣətˌaːriər]
+Ik wil graag... | I would like... | [ɪk ʋɪl ɣrˈaːx]
+Ik ben allergisch voor... | I'm allergic to... | [ɪk bɛn ɑlˈɛrɣis vˈɔːr]
+Wat raadt u aan? | What do you recommend? | [ʋɑt rˈaːt y ˈaːn]

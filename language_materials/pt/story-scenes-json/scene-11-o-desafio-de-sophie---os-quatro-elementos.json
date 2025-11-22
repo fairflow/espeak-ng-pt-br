@@ -1,0 +1,411 @@
+{
+  "pt": [
+    {
+      "pt": "Sophie entra na cabana.",
+      "english": "Sophie enters the cabin.",
+      "ipa": "[sˌofˈij ˈeɪŋtræ na kˌabˈɐ̃næ]"
+    },
+    {
+      "pt": "É uma velha estrutura de pastor, simples mas sólida.",
+      "english": "It's an old shepherd's structure, simple but solid.",
+      "ipa": "[ɛ ˌumæ vˈɛljæ ˌestrutˈuɾæ dʒy pastˈor\n sˈimplyz mas sˈɔlidæ]"
+    },
+    {
+      "pt": "Tem uma lareira.",
+      "english": "There's a fireplace.",
+      "ipa": "[teɪŋ ˌumæ lˌaɾˈeɪɾæ]"
+    },
+    {
+      "pt": "Na parede, alguém gravou palavras quase apagadas: ...não perdoa...ensina.",
+      "english": "On the wall, someone carved nearly faded words: ...doesn't forgive...teaches.",
+      "ipa": "[na pˌaɾˈedʒy\n aʊɡˈeɪŋ ɡravˈow pˌalˈavræs kwˈazj ˌapaɡˈadæs\n nˌɐ̃ʊ̃ pˌeɾədˈoæ\n ˌeɪŋsˈinæ]"
+    },
+    {
+      "pt": "Quem morou aqui antes de mim?",
+      "english": "Who lived here before me?",
+      "ipa": "[kˈeɪŋ moɾˈow akˈi ˈɐ̃ŋtʃyz dʒy mˈiŋ]"
+    },
+    {
+      "pt": "Quantas solidões esta cabana abrigou?",
+      "english": "How many solitudes has this cabin sheltered?",
+      "ipa": "[kwˈɐ̃ŋtæs sˌolidˈõjz ˌɛstæ kˌabˈɐ̃næ ˌabriɡˈow]"
+    },
+    {
+      "pt": "Ela toca as paredes de pedra.",
+      "english": "She touches the stone walls.",
+      "ipa": "[ˌɛlæ tˈɔkæ as pˌaɾˈedʒyz dʒy pˈɛdræ]"
+    },
+    {
+      "pt": "Estas paredes sobreviveram a quantas tempestades, a quantos invernos?",
+      "english": "How many storms have these walls survived, how many winters?",
+      "ipa": "[ˌɛstæs pˌaɾˈedʒys sobɾevˌivˈeɾɐ̃ʊ̃ a kwˈɐ̃ŋtæs tˌeɪmpestˈadʒys\n a kwˈɐ̃ŋtʊz ˌiŋvˈɛɾənʊs]"
+    },
+    {
+      "pt": "Preciso acender um fogo.",
+      "english": "I need to light a fire.",
+      "ipa": "[prˌesˈizw ˌaseɪŋdˈeɾ ũŋ fˈoɡʊ]"
+    },
+    {
+      "pt": "Ela procura nos bolsos.",
+      "english": "She searches in her pockets.",
+      "ipa": "[ˌɛlæ prˌokˈuɾæ nʊz bˈowsʊs]"
+    },
+    {
+      "pt": "Felizmente tenho fósforos no bolso.",
+      "english": "Luckily I have matches in my pocket.",
+      "ipa": "[fˌelizmˈeɪŋtʃy tˌeɲʊ fˈɔsfoɾʊz nʊ bˈowsʊ]"
+    },
+    {
+      "pt": "Ela encontra lenha dentro da cabana, mas está úmida.",
+      "english": "She finds firewood inside the cabin, but it's damp.",
+      "ipa": "[ˌɛlæ ˌeɪŋkˈoŋtræ lˈeɲæ dˈeɪŋtrʊ da kˌabˈɐ̃næ\n maz estˌa ˈũmidæ]"
+    },
+    {
+      "pt": "A lenha está úmida, não vai ser fácil.",
+      "english": "The wood is damp, this won't be easy.",
+      "ipa": "[a lˈeɲæ estˌa ˈũmidæ\n nˌɐ̃ʊ̃ vaɪ ser fˈasiʊ]"
+    },
+    {
+      "pt": "Ela arruma a lenha, coloca papel, pega um fósforo.",
+      "english": "She arranges the wood, places paper, takes a match.",
+      "ipa": "[ˌɛlæ ˌaxˈumæ a lˈeɲæ\n kˌolˈɔkæ papˈɛʊ\n pˈɛɡæ ũŋ fˈɔsfoɾʊ]"
+    },
+    {
+      "pt": "Ela risca.",
+      "english": "She strikes it.",
+      "ipa": "[ˌɛlæ xˈiskæ]"
+    },
+    {
+      "pt": "Nada.",
+      "english": "Nothing.",
+      "ipa": "[nˈadæ]"
+    },
+    {
+      "pt": "Tento uma vez, duas vezes, três vezes...",
+      "english": "I try once, twice, three times...",
+      "ipa": "[tˈeɪŋtw ˌumæ vˈes\n dˈuæz vˈezys\n trˈez vˈezys]"
+    },
+    {
+      "pt": "Em sua mente, ela revê sua avó mostrando à pequena Sophie como acender fogo na lareira da casa de campo.",
+      "english": "In her mind, she sees her grandmother showing little Sophie how to light a fire in the country house fireplace.",
+      "ipa": "[ˈeɪŋ sˌuæ mˈeɪŋtʃy\n ˌɛlæ xevˈe sˌuæ avˈɔ mˌostrˈɐ̃ŋdw ˌaː pˌekˈenæ sˌofˈiy kˌomʊ ˌaseɪŋdˈer fˈoɡʊ na lˌaɾˈeɪɾæ da kˈazæ dʒy kˈɐ̃mpʊ]"
+    },
+    {
+      "pt": "Paciência, minha querida.",
+      "english": "Patience, my dear.",
+      "ipa": "[pˌasjˈeɪŋsjæ\n mˌiɲæ kˌeɾˈidæ]"
+    },
+    {
+      "pt": "O fogo vem para quem sabe esperar.",
+      "english": "Fire comes to those who know how to wait.",
+      "ipa": "[ʊ fˈoɡʊ vˈeɪŋ pˌaɾæ kˈeɪŋ sˈabj ˌespeɾˈar]"
+    },
+    {
+      "pt": "Na quarta tentativa, uma pequena chama aparece.",
+      "english": "On the fourth try, a small flame appears.",
+      "ipa": "[na kwˈaɾətæ tˌeɪŋtatʃˈivæ\n ˌumæ pˌekˈenæ ʃˈɐ̃mæ ˌapaɾˈɛsy]"
+    },
+    {
+      "pt": "Finalmente!",
+      "english": "Finally!",
+      "ipa": "[fˌinaʊmˈeɪŋtʃy]"
+    },
+    {
+      "pt": "Uma pequena chama que cresce!",
+      "english": "A small flame that's growing!",
+      "ipa": "[ˌumæ pˌekˈenæ ʃˈɐ̃mæ ky krˈɛsy]"
+    },
+    {
+      "pt": "Ela sopra suavemente e a chama cresce.",
+      "english": "She blows gently and the flame grows.",
+      "ipa": "[ˌɛlæ sˈɔpræ sˌuavemˈeɪŋtʃj i a ʃˈɐ̃mæ krˈɛsy]"
+    },
+    {
+      "pt": "Logo, um fogo de verdade queima na lareira.",
+      "english": "Soon, a real fire burns in the fireplace.",
+      "ipa": "[lˈɔɡʊ\n ũŋ fˈoɡʊ dʒy vˌeɾədˈadʒy kˈeɪmæ na lˌaɾˈeɪɾæ]"
+    },
+    {
+      "pt": "Este fogo...",
+      "english": "This fire...",
+      "ipa": "[ˌestʃy fˈoɡʊ]"
+    },
+    {
+      "pt": "fui eu quem criei.",
+      "english": "I created it.",
+      "ipa": "[fuɪ eʊ kˈeɪŋ kriˈeɪ]"
+    },
+    {
+      "pt": "Só eu.",
+      "english": "Just me.",
+      "ipa": "[sˈɔ ˈeʊ]"
+    },
+    {
+      "pt": "O calor se espalha pela pequena cabana.",
+      "english": "The warmth spreads through the small cabin.",
+      "ipa": "[ʊ kalˈor sj ˌespˈaljæ pˈelæ pˌekˈenæ kˌabˈɐ̃næ]"
+    },
+    {
+      "pt": "O fogo me dá calor e coragem.",
+      "english": "The fire gives me warmth and courage.",
+      "ipa": "[ʊ fˈoɡʊ my dˈa kalˈoɾ i kˌoɾˈaʒeɪŋ]"
+    },
+    {
+      "pt": "Mas depois de algumas horas, a fome se faz sentir.",
+      "english": "But after a few hours, hunger makes itself felt.",
+      "ipa": "[maz depˈoɪz dʒj aʊɡˌumæs ˈɔɾæs\n a fˈomy sy fas seɪŋtʃˈir]"
+    },
+    {
+      "pt": "Agora estou com muita fome, mas não tenho nada para comer.",
+      "english": "Now I'm very hungry, but I have nothing to eat.",
+      "ipa": "[ˌaɡˈɔɾæ estˌow koŋ mwˈiŋtæ fˈomy\n maz nˌɐ̃ʊ̃ tˌeɲʊ nˈadæ pˌaɾæ komˈer]"
+    },
+    {
+      "pt": "Ela sai da cabana para explorar os arredores.",
+      "english": "She leaves the cabin to explore the surroundings.",
+      "ipa": "[ˌɛlæ sˈaɪ da kˌabˈɐ̃næ pˌaɾæ ˌesploɾˈaɾ ʊz ˌaxedˈɔɾys]"
+    },
+    {
+      "pt": "Perto da porta, ela nota algumas plantas.",
+      "english": "Near the door, she notices some plants.",
+      "ipa": "[pˈɛɾətʊ da pˈɔɾətæ\n ˌɛlæ nˈɔtæ ˌaʊɡˈumæs plˈɐ̃ŋtæs]"
+    },
+    {
+      "pt": "Espera...",
+      "english": "Wait...",
+      "ipa": "[ˌespˈɛɾæ]"
+    },
+    {
+      "pt": "essas plantas perto da cabana, eu reconheço!",
+      "english": "these plants near the cabin, I recognize them!",
+      "ipa": "[ˈɛsæs plˈɐ̃ŋtæs pˈɛɾətʊ da kˌabˈɐ̃næ\n eʊ xˌekoɲˈesʊ]"
+    },
+    {
+      "pt": "Lembranças da infância voltam.",
+      "english": "Childhood memories return.",
+      "ipa": "[lˌeɪmbrˈɐ̃ŋsæz da ˌiŋfˈɐ̃ŋsjæ vˈɔltɐ̃ʊ̃]"
+    },
+    {
+      "pt": "Ela revê sua avó no jardim do interior, suas mãos enrugadas segurando delicadamente os talos verdes.",
+      "english": "She sees her grandmother in the country garden, her wrinkled hands delicately holding the green stems.",
+      "ipa": "[ˌɛlæ xevˈe sˌuæ avˈɔ nʊ ʒaɾədʒˈiŋ dʊ ˌiŋteɾiˈor\n sˌuæz mˈɐ̃ʊ̃z ˌeɪŋxuɡˈadæs sˌeɡuɾˈɐ̃ŋdʊ dˌelikˌadæmˈeɪŋtʃj ʊs tˈalʊz vˈeɾədʒys]"
+    },
+    {
+      "pt": "Olha Sophie.",
+      "english": "Look Sophie.",
+      "ipa": "[ˈɔljæ sˌofˈiy]"
+    },
+    {
+      "pt": "As urtigas picam primeiro, mas depois te alimentam.",
+      "english": "Nettles sting first, but then they feed you.",
+      "ipa": "[az ˌuɾətʃˈiɡæs pˈikɐ̃ʊ̃ prˌimˈeɪɾʊ\n maz depˈoɪs tʃj ˌalimˈeɪŋtɐ̃ʊ̃]"
+    },
+    {
+      "pt": "É como a vida, minha pequena.",
+      "english": "It's like life, my little one.",
+      "ipa": "[ɛ kˌomʊ a vˈidæ\n mˌiɲæ pˌekˈenæ]"
+    },
+    {
+      "pt": "As coisas que machucam nos tornam mais fortes.",
+      "english": "The things that hurt us make us stronger.",
+      "ipa": "[as kˈoɪzæs ky mˌaʃˈukɐ̃ʊ̃ nʊs tˈɔɾənɐ̃ʊ̃ mˈaɪs fˈɔɾətʃys]"
+    },
+    {
+      "pt": "São urtigas!",
+      "english": "They're nettles!",
+      "ipa": "[sɐ̃ʊ̃ ˌuɾətʃˈiɡæs]"
+    },
+    {
+      "pt": "Elas são comestíveis se cozinhar.",
+      "english": "They're edible if you cook them.",
+      "ipa": "[ˌɛlæs sɐ̃ʊ̃ kˌomestʃˈiveɪs sy kˌoziɲˈar]"
+    },
+    {
+      "pt": "Ela as olha com hesitação.",
+      "english": "She looks at them with hesitation.",
+      "ipa": "[ˌɛlæ az ˈɔljæ koŋ ˌezitasˈɐ̃ʊ̃]"
+    },
+    {
+      "pt": "Mal ouso tocá-las, elas picam.",
+      "english": "I barely dare touch them, they sting.",
+      "ipa": "[mˈaʊ ˈowzʊ tokˈalæs\n ˌɛlæs pˈikɐ̃ʊ̃]"
+    },
+    {
+      "pt": "Mas preciso se quero sobreviver.",
+      "english": "But I must if I want to survive.",
+      "ipa": "[mas prˌesˈizʊ sy kˈɛɾʊ sobɾevivˈer]"
+    },
+    {
+      "pt": "Toda verdade exige que aceitemos primeiro sua capacidade de ferir.",
+      "english": "Every truth demands that we first accept its capacity to wound.",
+      "ipa": "[tˈodæ vˌeɾədˈadʒj ˌezˈiʒy ky ˌaseɪtˈemʊs prˌimˈeɪɾʊ sˌuæ kˌapasidˈadʒy dʒy feɾˈir]"
+    },
+    {
+      "pt": "Ela colhe as urtigas com cuidado, usando um pedaço de pano para proteger as mãos.",
+      "english": "She picks the nettles carefully, using a piece of cloth to protect her hands.",
+      "ipa": "[ˌɛlæ kˈɔljj az ˌuɾətʃˈiɡæs koŋ kˌuɪdˈadʊ\n ˌuzˈɐ̃ŋdw ũŋ pˌedˈasʊ dʒy pˈɐ̃nʊ pˌaɾæ prˌoteʒˈeɾ az mˈɐ̃ʊ̃s]"
+    },
+    {
+      "pt": "As picadas lembram que a natureza não é boa nem má—ela é simplesmente autêntica.",
+      "english": "The stings remind her that nature is neither good nor bad—it is simply authentic.",
+      "ipa": "[as pˌikˈadæz lˈeɪmbrɐ̃ʊ̃ ky a nˌatuɾˈezæ nˌɐ̃ʊ̃ ɛ bˈoæ nˈeɪŋ mˈa ˌɛlæ ɛ sˌimplezmˈeɪŋtʃj ˌaʊtˈeɪŋtʃikæ]"
+    },
+    {
+      "pt": "Agora ela precisa de água.",
+      "english": "Now she needs water.",
+      "ipa": "[ˌaɡˈɔɾæ ˌɛlæ prˌesˈizæ dʒj ˈaɡwæ]"
+    },
+    {
+      "pt": "Onde posso encontrar água potável?",
+      "english": "Where can I find drinking water?",
+      "ipa": "[ˌoŋdʒy pˌɔsʊ ˌeɪŋkoŋtrˈaɾ ˈaɡwæ pˌotˈaveʊ]"
+    },
+    {
+      "pt": "Ela escuta atentamente.",
+      "english": "She listens carefully.",
+      "ipa": "[ˌɛlæ ˌeskˈutæ ˌateɪŋtæmˈeɪŋtʃy]"
+    },
+    {
+      "pt": "Ouço um barulho...",
+      "english": "I hear a sound...",
+      "ipa": "[ˈowsw ũŋ bˌaɾˈuljʊ]"
+    },
+    {
+      "pt": "como água correndo!",
+      "english": "like running water!",
+      "ipa": "[kˌomʊ ˈaɡwæ kˌoxˈeɪŋdʊ]"
+    },
+    {
+      "pt": "Ela segue o som e descobre uma maravilha.",
+      "english": "She follows the sound and discovers a marvel.",
+      "ipa": "[ˌɛlæ sˈɛɡj ʊ sˈoŋ i dˌeskˈɔbri ˌumæ mˌaɾavˈiljæ]"
+    },
+    {
+      "pt": "Uma nascente!",
+      "english": "A spring!",
+      "ipa": "[ˌumæ nˌasˈeɪŋtʃy]"
+    },
+    {
+      "pt": "Água clara, doce, que brota das pedras!",
+      "english": "Clear, fresh water, gushing from the rocks!",
+      "ipa": "[ˈaɡwæ klˈaɾæ\n dˈosy\n ky brˈɔtæ das pˈɛdræs]"
+    },
+    {
+      "pt": "Ela enche uma panelinha que encontrou na cabana.",
+      "english": "She fills a small pot she found in the cabin.",
+      "ipa": "[ˌɛlæ ˈeɪŋʃj ˌumæ pˌænelˈiɲæ ky ˌeɪŋkoŋtrˈow na kˌabˈɐ̃næ]"
+    },
+    {
+      "pt": "De volta perto do fogo, ela ferve a água e coloca as urtigas.",
+      "english": "Back by the fire, she boils the water and adds the nettles.",
+      "ipa": "[dʒy vˈɔltæ pˈɛɾətʊ dʊ fˈoɡʊ\n ˌɛlæ fˈɛɾəvj a ˈaɡwæ i kˌolˈɔkæ az ˌuɾətʃˈiɡæs]"
+    },
+    {
+      "pt": "Com o fogo, a água da nascente e as urtigas, faço uma sopa.",
+      "english": "With the fire, the spring water and the nettles, I make a soup.",
+      "ipa": "[koŋ ʊ fˈoɡʊ\n a ˈaɡwæ da nˌasˈeɪŋtʃj i az ˌuɾətʃˈiɡæs\n fˌasʊ ˌumæ sˈopæ]"
+    },
+    {
+      "pt": "A sopa é simples mas deliciosa.",
+      "english": "The soup is simple but delicious.",
+      "ipa": "[a sˈopæ ɛ sˈimplyz maz dˌelisiˈɔzæ]"
+    },
+    {
+      "pt": "Ela bebe devagar, sentindo o calor se espalhar em seu corpo.",
+      "english": "She drinks slowly, feeling the warmth spread through her body.",
+      "ipa": "[ˌɛlæ bˈɛby dˌevaɡˈar\n sˌeɪŋtʃˈiŋdw ʊ kalˈor sj ˌespaljˈaɾ ˈeɪŋ seʊ kˈoɾəpʊ]"
+    },
+    {
+      "pt": "A natureza me dá exatamente o que preciso.",
+      "english": "Nature gives me exactly what I need.",
+      "ipa": "[a nˌatuɾˈezæ my dˈa ˌezatæmˈeɪŋtʃj ʊ ky prˌesˈizʊ]"
+    },
+    {
+      "pt": "Ou será...",
+      "english": "Or is it...",
+      "ipa": "[ow seɾˈa]"
+    },
+    {
+      "pt": "sou eu quem interpreta seus dons?",
+      "english": "am I the one interpreting its gifts?",
+      "ipa": "[sow eʊ kˈeɪŋ ˌiŋteɾəprˈɛtæ seʊz dˈoŋs]"
+    },
+    {
+      "pt": "Ela olha o fogo dançar na lareira.",
+      "english": "She watches the fire dance in the fireplace.",
+      "ipa": "[ˌɛlæ ˈɔljæ ʊ fˈoɡʊ dɐ̃ŋsˈar na lˌaɾˈeɪɾæ]"
+    },
+    {
+      "pt": "O fogo que ela acendeu.",
+      "english": "The fire she lit.",
+      "ipa": "[ʊ fˈoɡʊ ky ˌɛlæ ˌaseɪŋdˈeʊ]"
+    },
+    {
+      "pt": "A água que ela encontrou.",
+      "english": "The water she found.",
+      "ipa": "[a ˈaɡwæ ky ˌɛlæ ˌeɪŋkoŋtrˈow]"
+    },
+    {
+      "pt": "As urtigas que ela reconheceu.",
+      "english": "The nettles she recognized.",
+      "ipa": "[az ˌuɾətʃˈiɡæs ky ˌɛlæ xˌekoɲesˈeʊ]"
+    },
+    {
+      "pt": "A montanha me oferece esses elementos, mas sou eu quem os transforma em sobrevivência.",
+      "english": "The mountain offers me these elements, but I'm the one who transforms them into survival.",
+      "ipa": "[a mˌoŋtˈɐ̃ɲæ mj ˌofeɾˈɛsj ˌesiz ˌelemˈeɪŋtʊs\n mas sow eʊ kˈeɪŋ ʊs trˌɐ̃ŋsfˈɔɾəmæ ˈeɪŋ sobɾevˌivˈeɪŋsjæ]"
+    },
+    {
+      "pt": "Naquela noite, sentada perto do fogo, Sophie reflete sobre sua vida.",
+      "english": "That night, sitting by the fire, Sophie reflects on her life.",
+      "ipa": "[nˌakˈɛlæ nˈoɪtʃy\n sˌeɪŋtˈadæ pˈɛɾətʊ dʊ fˈoɡʊ\n sˌofˈiy xˌeflˈɛtʃy sˈobry sˌuæ vˈidæ]"
+    },
+    {
+      "pt": "Esta prova me ensina que sou mais forte do que pensava.",
+      "english": "This trial teaches me that I'm stronger than I thought.",
+      "ipa": "[ˌɛstæ prˈɔvæ mj ˌeɪŋsˈinæ ky sow mˈaɪs fˈɔɾətʃy dʊ ky pˌeɪŋsˈavæ]"
+    },
+    {
+      "pt": "Ela pensa em todos os futuros possíveis.",
+      "english": "She thinks about all the possible futures.",
+      "ipa": "[ˌɛlæ pˈeɪŋsæ ˈeɪŋ tˈodʊz ʊs fˌutˈuɾʊs pˌosˈiveɪs]"
+    },
+    {
+      "pt": "Um futuro onde volta para São Paulo e retoma sua vida de antes.",
+      "english": "A future where she returns to São Paulo and resumes her old life.",
+      "ipa": "[ũŋ fˌutˈuɾw ˌoŋdʒy vˈɔltæ pˌaɾæ sɐ̃ʊ̃ pˈaʊlw i xˌetˈomæ sˌuæ vˈidæ dʒj ˈɐ̃ŋtʃys]"
+    },
+    {
+      "pt": "Um futuro onde fica nas montanhas.",
+      "english": "A future where she stays in the mountains.",
+      "ipa": "[ũŋ fˌutˈuɾw ˌoŋdʒy fˈikæ naz mˌoŋtˈɐ̃ɲæs]"
+    },
+    {
+      "pt": "Um futuro onde ela e Lucas se separam.",
+      "english": "A future where she and Lucas separate.",
+      "ipa": "[ũŋ fˌutˈuɾw ˌoŋdʒj ˌɛlæ i lˈukæs sy sˌepˈaɾɐ̃ʊ̃]"
+    },
+    {
+      "pt": "Um futuro onde ficam juntos mas diferentes.",
+      "english": "A future where they stay together but different.",
+      "ipa": "[ũŋ fˌutˈuɾw ˌoŋdʒy fˈikɐ̃ʊ̃ ʒˈũŋtʊz maz dʒˌifeɾˈeɪŋtʃys]"
+    },
+    {
+      "pt": "Quem sou eu realmente?",
+      "english": "Who am I really?",
+      "ipa": "[kˈeɪŋ sow eʊ xˌeaʊmˈeɪŋtʃy]"
+    },
+    {
+      "pt": "Talvez eu nunca saiba completamente.",
+      "english": "Maybe I'll never know completely.",
+      "ipa": "[taʊvˈez eʊ nˌũŋkæ sˈaɪbæ kˌompletæmˈeɪŋtʃy]"
+    },
+    {
+      "pt": "Talvez seja normal.",
+      "english": "Maybe that's normal.",
+      "ipa": "[taʊvˈes sˈeʒæ noɾəmˈaʊ]"
+    }
+  ],
+  "scene_number": 11,
+  "scene_title": "O Desafio de Sophie - Os Quatro Elementos"
+}

@@ -1,0 +1,2471 @@
+#!/usr/bin/env python3
+"""
+Portuguese Pronunciation Trainer - Web Application
+
+Streamlit-based app for practicing Brazilian Portuguese pronunciation
+with real-time feedback using speech recognition and phonetic analysis.
+
+Run with: streamlit run app.py
+"""
+
+__version__ = "2.0.2"
+__app_name__ = "Pronunciation Trainer"
+__author__ = "Matthew & Contributors"
+__license__ = "GPL-3.0"
+
+# Language configuration
+LANGUAGE_CONFIG = {
+    "Portuguese": {
+        "code": "pt",
+        "whisper_code": "pt",
+        "display_name": "Portuguese Pronunciation Trainer",
+        "voices": {
+            "google_cloud": ["pt-br", "pt"],
+            "gtts": ["pt-br", "pt"],
+            "espeak": ["pt-br", "pt"]
+        }
+    },
+    "Dutch": {
+        "code": "nl",
+        "whisper_code": "nl",
+        "display_name": "Dutch/Flemish Pronunciation Trainer",
+        "voices": {
+            "google_cloud": ["nl", "nl-be"],
+            "gtts": ["nl"],
+            "espeak": ["nl"]
+        }
+    },
+    "French": {
+        "code": "fr",
+        "whisper_code": "fr",
+        "display_name": "French Pronunciation Trainer",
+        "voices": {
+            "google_cloud": ["fr", "fr-fr"],
+            "gtts": ["fr"],
+            "espeak": ["fr-fr"]
+        }
+    },
+    "German": {
+        "code": "de",
+        "whisper_code": "de",
+        "display_name": "German Pronunciation Trainer",
+        "voices": {
+            "google_cloud": ["de", "de-de"],
+            "gtts": ["de"],
+            "espeak": ["de"]
+        }
+    },
+    "Italian": {
+        "code": "it",
+        "whisper_code": "it",
+        "display_name": "Italian Pronunciation Trainer",
+        "voices": {
+            "google_cloud": ["it", "it-it"],
+            "gtts": ["it"],
+            "espeak": ["it"]
+        }
+    },
+    "Spanish": {
+        "code": "es",
+        "whisper_code": "es",
+        "display_name": "Spanish Pronunciation Trainer",
+        "voices": {
+            "google_cloud": ["es", "es-es"],
+            "gtts": ["es"],
+            "espeak": ["es"]
+        }
+    }
+}
+
+# Version History:
+# 1.2.1 (2025-11-13):
+#   - Documentation: Update all docs to be language-agnostic (Miolingo branding)
+#   - Update primary URL to miolingo.io with backup streamlit.app URL
+#   - Emphasize multi-language support throughout documentation
+# 1.2.0 (2025-11-13):
+#   - Add built-in language materials library browser (French: 200 phrases + 428 words, Portuguese: 83 phrases + 172 words)
+#   - New tabbed interface: "Built-in Library" + "Upload File" for better UX
+#   - File metadata preview (item count, translations, IPA) before loading
+#   - Track material source in session state
+#   - Add app_language_materials.py module for materials management
+# 1.1.3 (2025-11-13):
+#   - Remove separator line between audio and recording for better mobile spacing
+#   - Dynamic language name in recording instructions (Portuguese/French/Dutch)
+# 1.1.2 (2025-11-13):
+#   - Further mobile UX improvements: smaller phrase heading (h4), info box moved below recording widget
+# 1.1.1 (2025-11-13):
+#   - Fix eSpeak TTS auto-play bug (use --stdout to capture audio bytes)
+#   - Fix mobile UX: smaller heading (h3), emoji inline, translation above phrase
+#   - Add French language materials infrastructure (phrases A-D levels)
+# 1.0.0 (2025-11-11):
+#   - Add multi-language support (Portuguese, French, Dutch, Flemish)
+#   - Language-specific session tracking
+#   - Dynamic app title based on selected language
+#   - Language selector in sidebar
+# 0.9.3 (2025-11-11):
+#   - Improve audio trimming with 200ms padding (prevents speech artifacts)
+#   - Show trimmed audio in results (what was actually recognized)
+#   - Use IPA instead of eIPA for normalized phonemes display (user-friendly)
+#   - Fix Edit button UX: grayed out in edit mode, clear "Return to Guided Mode" button
+#   - British spelling: "Normalised" in UI
+# 0.9.2 (2025-11-10):
+#   - Add TTS engine selection (Google TTS vs eSpeak)
+#   - Fix speed/pitch settings now work (with eSpeak)
+#   - Add slow mode for Google TTS (simple on/off)
+#   - Add documentation links in sidebar
+#   - Reorganize documentation (USER_GUIDE, TESTING_GUIDE, DEVELOPER_GUIDE)
+# 0.9.1 (2025-11-10):
+#   - Fix WAV audio setting not persisting when saved
+# 0.9.0 (2025-11-10):
+#   - Add iOS Safari audio compatibility (WAV conversion)
+#   - Fix audio generation deadlock with subprocess.DEVNULL
+#   - Add user-adjustable silence trimming threshold
+#   - Improve CCS testing framework integration
+#   - Implement edit distance scoring algorithm
+#   - Add version management system
+
+import streamlit as st
+import json
+import warnings
+from pathlib import Path
+from datetime import datetime
+from typing import Dict, List
+import subprocess
+import tempfile
+import os
+
+# Import authentication module
+import app_mysql
+
+# Import API usage logger for cost tracking
+try:
+    from api_usage_logger import log_api_call
+except ImportError:
+    # Fallback if logger not available (no-op function)
+    def log_api_call(*args, **kwargs):
+        pass
+
+# Environment configuration
+IS_LOCAL_DEV = os.path.exists('./local/bin/run-espeak-ng')  # True if local eSpeak build exists
+
+# Suppress warnings
+warnings.filterwarnings("ignore", message="FP16 is not supported on CPU")  # Whisper on CPU
+warnings.filterwarnings("ignore", message="urllib3 v2 only supports OpenSSL")  # LibreSSL compatibility
+
+try:
+    import whisper
+    import soundfile as sf
+    import numpy as np
+    from gtts import gTTS
+except ImportError as e:
+    st.error(f"Error: {e}")
+    st.error("Please activate the virtual environment and install dependencies")
+    st.stop()
+
+# CCS Testing Framework (optional)
+try:
+    from ccs_test_integration import CCSTestSession
+    CCS_AVAILABLE = True
+except ImportError:
+    CCS_AVAILABLE = False
+
+
+# Page configuration
+st.set_page_config(
+    page_title="Portuguese Pronunciation Practice",
+    page_icon="🇧🇷",
+    layout="wide",
+)
+
+
+# ============================================================================
+# AUTHENTICATION (Test Implementation for v1.3.0)
+# ============================================================================
+
+def show_login_page():
+    """Display login/registration page."""
+    st.title("🔐 Miolingo Login")
+    st.markdown("**Multi-language pronunciation trainer** - Practice Portuguese, French, Dutch & Flemish!")
+    
+    tab1, tab2 = st.tabs(["Login", "Register"])
+    
+    with tab1:
+        st.subheader("Login to Your Account")
+        
+        with st.form("login_form"):
+            username = st.text_input("Username")
+            password = st.text_input("Password", type="password")
+            submit = st.form_submit_button("Login")
+            
+            if submit:
+                if not username or not password:
+                    st.error("❌ Please enter both username and password")
+                else:
+                    # Authenticate user
+                    user = app_mysql.authenticate_user(username, password)
+                    
+                    if user:
+                        # Create session
+                        session_id = app_mysql.create_session(user['user_id'], "127.0.0.1")
+                        
+                        if session_id:
+                            # Store in session state
+                            st.session_state['authenticated'] = True
+                            st.session_state['user'] = user
+                            st.session_state['session_id'] = session_id
+                            st.success(f"✅ Welcome back, {user['username']}!")
+                            st.rerun()
+                        else:
+                            st.error("❌ Failed to create session. Please try again.")
+                    else:
+                        st.error("❌ Invalid username or password")
+    
+    with tab2:
+        st.subheader("Create New Account")
+        
+        with st.form("register_form"):
+            new_username = st.text_input("Choose Username", help="3-20 characters, letters/numbers only")
+            new_email = st.text_input("Email Address")
+            new_password = st.text_input("Choose Password", type="password", help="Min 8 characters")
+            new_password_confirm = st.text_input("Confirm Password", type="password")
+            submit_register = st.form_submit_button("Create Account")
+            
+            if submit_register:
+                # Validation
+                if not all([new_username, new_email, new_password, new_password_confirm]):
+                    st.error("❌ Please fill in all fields")
+                elif new_password != new_password_confirm:
+                    st.error("❌ Passwords do not match")
+                elif len(new_password) < 8:
+                    st.error("❌ Password must be at least 8 characters")
+                elif len(new_username) < 3 or len(new_username) > 20:
+                    st.error("❌ Username must be 3-20 characters")
+                else:
+                    # Create user
+                    user_id = app_mysql.create_user(new_username, new_email, new_password)
+                    
+                    if user_id:
+                        st.success(f"✅ Account created! Welcome, {new_username}!")
+                        st.info("👆 Please login with your new account in the Login tab")
+                    # Errors are handled in app_mysql.create_user()
+
+
+def check_authentication():
+    """
+    Check if user is authenticated. If not, show login page and stop.
+    This runs at the start of every app load.
+    """
+    # Initialize session state
+    if 'authenticated' not in st.session_state:
+        st.session_state['authenticated'] = False
+    
+    # Check if authenticated
+    if not st.session_state['authenticated']:
+        show_login_page()
+        st.stop()
+    
+    # Validate session (optional security check)
+    if 'session_id' in st.session_state:
+        user = app_mysql.validate_session(st.session_state['session_id'], "127.0.0.1")
+        if not user:
+            # Session expired or invalid
+            st.warning("⚠️ Your session has expired. Please login again.")
+            st.session_state['authenticated'] = False
+            st.rerun()
+
+
+# ========================================
+# MAINTENANCE BANNER
+# When activating: Set BANNER_START_TIME to current time, banner shows time+5 minutes
+# Remember to deactivate after maintenance by commenting out the st.warning line!
+# ========================================
+st.success("🎉 **Now supporting 6 languages!** Practice pronunciation in Portuguese, French, Dutch, German, Italian, and Spanish.")
+
+# Check authentication BEFORE loading the app
+check_authentication()
+
+# If we get here, user is authenticated! Show logout button in sidebar
+with st.sidebar:
+    st.markdown("---")
+    st.markdown(f"👤 **{st.session_state['user']['username']}**")
+    st.markdown(f"📧 {st.session_state['user']['email']}")
+    
+    if st.button("🚪 Logout"):
+        # Delete session
+        if 'session_id' in st.session_state:
+            app_mysql.delete_session(st.session_state['session_id'])
+        
+        # Clear session state
+        st.session_state.clear()
+        st.rerun()
+
+# ============================================================================
+# END AUTHENTICATION - Main app starts below
+# ============================================================================
+
+
+def load_settings():
+    """Load user settings from config file"""
+    config_file = Path("practice_config.json")
+    default_settings = {
+        "speed": 140,
+        "pitch": 35,
+        "voice": "pt-br",
+        "model": "base",
+        "duration": 3,
+        "comparison_algorithm": "edit_distance",  # or "positional"
+        "asr_engine": "whisper",  # "whisper" or "wav2vec2"
+        "whisper_model_size": "base",  # tiny, base, small, medium, large
+        "silence_threshold": 0.01,  # Energy threshold for silence detection (0.001-0.1)
+        "use_wav_audio": False,  # Convert TTS audio to WAV for iOS Safari compatibility
+        "tts_engine": "google_cloud",  # "google_cloud" (official API, best), "gtts" (unofficial, rate limited), or "espeak"
+        "gtts_slow": False,  # Enable slow speech for Google TTS (when tts_engine='gtts')
+    }
+    
+    if config_file.exists():
+        try:
+            with open(config_file) as f:
+                saved = json.load(f)
+                default_settings.update(saved)
+        except Exception:
+            pass
+    
+    return default_settings
+
+
+def save_settings(settings: Dict):
+    """Save settings to config file"""
+    try:
+        with open("practice_config.json", 'w') as f:
+            json.dump(settings, f, indent=2)
+    except Exception as e:
+        st.error(f"Could not save settings: {e}")
+
+
+def load_history():
+    """Load practice history"""
+    history_file = Path("practice_history.json")
+    if history_file.exists():
+        try:
+            with open(history_file) as f:
+                return json.load(f)
+        except Exception:
+            return []
+    return []
+
+
+def save_history(history: List[Dict]):
+    """Save practice history"""
+    try:
+        with open("practice_history.json", 'w') as f:
+            json.dump(history, f, indent=2)
+    except Exception as e:
+        st.error(f"Could not save history: {e}")
+
+
+def initialize_session_state():
+    """Initialize Streamlit session state"""
+    if 'settings' not in st.session_state:
+        st.session_state.settings = load_settings()
+    
+    # Initialize language selection (default to Portuguese)
+    if 'language' not in st.session_state:
+        st.session_state.language = "Portuguese"
+    
+    if 'history' not in st.session_state:
+        st.session_state.history = load_history()
+    
+    # Language-specific session tracking
+    if 'current_sessions' not in st.session_state:
+        st.session_state.current_sessions = {}
+    
+    # Get or create current session for selected language
+    if st.session_state.language not in st.session_state.current_sessions:
+        st.session_state.current_sessions[st.session_state.language] = {
+            "date": datetime.now().isoformat(),
+            "practices": []
+        }
+    
+    if 'session_saved' not in st.session_state:
+        st.session_state.session_saved = False
+    
+    if 'last_result' not in st.session_state:
+        st.session_state.last_result = None
+    
+    if 'audio_input_key' not in st.session_state:
+        st.session_state.audio_input_key = 0
+    
+    if 'whisper_model' not in st.session_state:
+        st.session_state.whisper_model = None
+        st.session_state.whisper_model_name = None
+    
+    if 'wav2vec2_processor' not in st.session_state:
+        st.session_state.wav2vec2_processor = None
+        st.session_state.wav2vec2_model = None
+    
+    # CCS Testing Framework initialization (disabled by default)
+    if CCS_AVAILABLE and 'ccs_test' not in st.session_state:
+        st.session_state.ccs_test = CCSTestSession(enabled=False)
+
+
+def get_whisper_model(model_name: str):
+    """Load or get cached Whisper model"""
+    if st.session_state.whisper_model_name != model_name:
+        with st.spinner(f"Loading Whisper model '{model_name}'..."):
+            st.session_state.whisper_model = whisper.load_model(model_name)
+            st.session_state.whisper_model_name = model_name
+    return st.session_state.whisper_model
+
+
+def get_wav2vec2_model():
+    """Load or get cached wav2vec2 Portuguese model"""
+    if 'wav2vec2_processor' not in st.session_state or st.session_state.wav2vec2_processor is None:
+        try:
+            with st.spinner("Loading wav2vec2 Portuguese model (first time may take a few minutes)..."):
+                from transformers import Wav2Vec2ForCTC, Wav2Vec2Processor
+                model_name = "jonatasgrosman/wav2vec2-large-xlsr-53-portuguese"
+                st.session_state.wav2vec2_processor = Wav2Vec2Processor.from_pretrained(model_name)
+                st.session_state.wav2vec2_model = Wav2Vec2ForCTC.from_pretrained(model_name)
+        except ImportError:
+            st.error("wav2vec2 requires 'transformers' and 'torch'. Install with: pip install transformers torch")
+            return None, None
+        except Exception as e:
+            st.error(f"Failed to load wav2vec2 model: {e}")
+            return None, None
+    return st.session_state.wav2vec2_processor, st.session_state.wav2vec2_model
+
+
+def get_espeak_path():
+    """Get espeak-ng path (local build or system-wide)"""
+    local_path = "./local/bin/run-espeak-ng"
+    if Path(local_path).exists():
+        return local_path
+    # Try system-wide espeak-ng (for Streamlit Cloud)
+    return "espeak-ng"
+
+
+def get_phonemes(text: str, voice: str = "pt-br") -> str:
+    """Get eSpeak phoneme codes (eIPA) for text"""
+    try:
+        result = subprocess.run(
+            [get_espeak_path(), "-v", voice, "-x", "-q", text],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+        return result.stdout.strip()
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return "[phonemes unavailable]"
+
+
+def get_ipa(text: str, voice: str = "pt-br") -> str:
+    """Get IPA transcription for text"""
+    try:
+        result = subprocess.run(
+            [get_espeak_path(), "-v", voice, "--ipa", "-q", text],
+            capture_output=True,
+            text=True,
+            check=True
+        )
+        return result.stdout.strip()
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        return "[IPA unavailable]"
+
+
+def format_ipa(ipa_text: str, size: str = "1.0em", weight: int = 400, brackets: bool = True) -> str:
+    """
+    Format IPA text with consistent delimiters and styling.
+    
+    Args:
+        ipa_text: The IPA transcription text
+        size: Font size (default "1.0em" for standard, "0.9em" for smaller)
+        weight: Font weight (default 400 for normal, 300 for light)
+        brackets: Whether to include square brackets (default True)
+    
+    Returns HTML-formatted IPA with consistent styling.
+    Example: <span style="font-size: 1.0em; font-weight: 400;">[ipˈa]</span>
+    """
+    if not ipa_text:
+        return ""
+    
+    # Remove any existing delimiters
+    ipa_clean = ipa_text.strip().strip('[]/()')
+    
+    # Add brackets if requested
+    display_text = f"[{ipa_clean}]" if brackets else ipa_clean
+    
+    # Return formatted HTML
+    return f'<span style="font-size: {size}; font-weight: {weight}; font-family: \'Doulos SIL\', \'Charis SIL\', \'Gentium Plus\', \'DejaVu Sans\', sans-serif;">{display_text}</span>'
+
+
+def speak_text(text: str, voice: str = "pt-br", speed: int = 160, pitch: int = 40) -> tuple[bytes, str]:
+    """
+    Generate speech using eSpeak NG (returns audio bytes, does not auto-play)
+    
+    Args:
+        text: Text to speak
+        voice: Voice/language code (e.g., 'pt-br', 'fr-fr', 'nl')
+        speed: Speech speed in words per minute (80-450)
+        pitch: Voice pitch (0-99)
+    
+    Returns:
+        (audio_bytes, format) where format is 'audio/wav'
+    """
+    try:
+        # Use --stdout to capture audio bytes instead of playing directly
+        result = subprocess.run([
+            get_espeak_path(),
+            "-v", voice,
+            "-s", str(speed),
+            "-p", str(pitch),
+            "--stdout",  # Output WAV to stdout instead of playing
+            text
+        ], capture_output=True, check=True)
+        
+        # Log API call (eSpeak is free/local but good to track usage)
+        log_api_call(
+            api_type="espeak",
+            text=text,
+            language=voice,
+            char_count=len(text),
+            audio_bytes=len(result.stdout),
+            success=True,
+            cached=False
+        )
+        
+        return result.stdout, 'audio/wav'
+    except (subprocess.CalledProcessError, FileNotFoundError):
+        # Return empty audio if espeak not available
+        return b'', 'audio/wav'
+
+
+@st.cache_data(ttl=86400)  # Cache for 24 hours (shared across all users!)
+def speak_text_google_cloud(text: str, lang: str = "pt-BR", use_wav: bool = False, speaking_rate: float = 1.0) -> tuple[bytes, str]:
+    """
+    Generate speech using Google Cloud Text-to-Speech REST API with API key auth
+    Returns tuple of (audio_bytes, format) for playback in Streamlit
+    
+    Cached for 24 hours and shared across all users to minimize API calls.
+    Requires GOOGLE_CLOUD_TTS_API_KEY in Streamlit secrets.
+    
+    Uses REST API instead of client library because API key auth is simpler
+    and doesn't require service account JSON credentials.
+    
+    Args:
+        text: Text to speak
+        lang: Language code (pt-BR, fr-FR, nl-NL, etc.)
+        use_wav: If True, return as WAV format (LINEAR16)
+        speaking_rate: Speech speed (0.25 to 4.0, default 1.0)
+        
+    Returns:
+        (audio_bytes, format) where format is 'audio/mp3' or 'audio/wav'
+    """
+    import requests
+    import json
+    import base64
+    
+    # Get API key from secrets
+    try:
+        api_key = st.secrets["google_cloud_tts_api_key"]
+    except KeyError:
+        raise ValueError("google_cloud_tts_api_key not found in secrets")
+    
+    # Map language codes to voice names
+    voice_map = {
+        "pt-BR": "pt-BR-Standard-A",  # Female Brazilian Portuguese
+        "pt-PT": "pt-PT-Standard-A",  # Female European Portuguese
+        "fr-FR": "fr-FR-Standard-A",  # Female French
+        "nl-NL": "nl-NL-Standard-A",  # Female Dutch
+        "nl-BE": "nl-BE-Standard-A",  # Female Flemish
+        "de-DE": "de-DE-Standard-A",  # Female German
+        "it-IT": "it-IT-Standard-A",  # Female Italian
+        "es-ES": "es-ES-Standard-A",  # Female Spanish
+    }
+    
+    voice_name = voice_map.get(lang, "pt-BR-Standard-A")
+    audio_encoding = "LINEAR16" if use_wav else "MP3"
+    
+    # Build the REST API request
+    url = "https://texttospeech.googleapis.com/v1/text:synthesize"
+    headers = {
+        "X-goog-api-key": api_key,
+        "Content-Type": "application/json; charset=utf-8"
+    }
+    
+    payload = {
+        "input": {"text": text},
+        "voice": {
+            "languageCode": lang[:5],  # pt-BR, fr-FR, etc.
+            "name": voice_name
+        },
+        "audioConfig": {
+            "audioEncoding": audio_encoding,
+            "speakingRate": speaking_rate
+        }
+    }
+    
+    # Make the API request
+    response = requests.post(url, headers=headers, json=payload)
+    
+    if response.status_code != 200:
+        error_msg = f"Google Cloud TTS API error {response.status_code}: {response.text[:200]}"
+        st.warning(f"⚠️ {error_msg}")
+        raise Exception(error_msg)
+    
+    # Extract audio content from response (it's base64 encoded)
+    response_data = response.json()
+    audio_content_base64 = response_data.get("audioContent", "")
+    audio_bytes = base64.b64decode(audio_content_base64)
+    
+    # Log API call for cost tracking
+    log_api_call(
+        api_type="google_cloud_tts",
+        text=text,
+        language=lang,
+        char_count=len(text),
+        audio_bytes=len(audio_bytes),
+        success=True,
+        cached=False  # This runs before cache check
+    )
+    
+    # Return audio bytes and format
+    format_str = 'audio/wav' if use_wav else 'audio/mp3'
+    return audio_bytes, format_str
+
+
+@st.cache_data(ttl=86400)  # Cache for 24 hours (shared across all users!)
+def speak_text_gtts(text: str, lang: str = "pt-br", use_wav: bool = False, slow: bool = False) -> tuple[bytes, str]:
+    """
+    Generate speech using Google TTS (higher quality than eSpeak)
+    Returns tuple of (audio_bytes, format) for playback in Streamlit
+    
+    Cached for 24 hours and shared across all users to minimize API calls.
+    Once a phrase is generated, it's reused for everyone.
+    
+    Args:
+        text: Text to speak
+        lang: Language code (default pt-br)
+        use_wav: If True, convert MP3 to WAV for iOS Safari compatibility
+        slow: If True, speak at ~50% speed (Google TTS slow mode)
+        
+    Returns:
+        (audio_bytes, format) where format is 'audio/mp3' or 'audio/wav'
+    """
+    # Use 'pt' for Portuguese (gTTS auto-detects Brazilian vs European)
+    # or 'pt-br' specifically for Brazilian Portuguese
+    tts = gTTS(text=text, lang=lang.replace('-br', ''), slow=slow)
+    
+    # Save to temporary file and read back
+    with tempfile.NamedTemporaryFile(delete=False, suffix='.mp3') as fp:
+        mp3_path = fp.name
+        tts.save(mp3_path)
+        
+        if use_wav:
+            # Convert MP3 to WAV for iOS Safari compatibility
+            wav_path = mp3_path.replace('.mp3', '.wav')
+            
+            # Run ffmpeg without capturing output to avoid pipe buffer deadlock
+            result = subprocess.run(
+                ['ffmpeg', '-i', mp3_path, '-acodec', 'pcm_s16le', 
+                 '-ar', '22050', '-y', wav_path],
+                stdout=subprocess.DEVNULL,
+                stderr=subprocess.DEVNULL
+            )
+            
+            if result.returncode == 0:
+                with open(wav_path, 'rb') as audio_file:
+                    audio_bytes = audio_file.read()
+                Path(wav_path).unlink()  # Clean up WAV
+                Path(mp3_path).unlink()  # Clean up MP3
+                return audio_bytes, 'audio/wav'
+            else:
+                # Conversion failed, fall back to MP3
+                with open(mp3_path, 'rb') as audio_file:
+                    audio_bytes = audio_file.read()
+                Path(mp3_path).unlink()
+                return audio_bytes, 'audio/mp3'
+        else:
+            # Return MP3
+            with open(mp3_path, 'rb') as audio_file:
+                audio_bytes = audio_file.read()
+            Path(mp3_path).unlink()  # Clean up temp file
+            
+            # Log API call for cost tracking
+            log_api_call(
+                api_type="gtts",
+                text=text,
+                language=lang,
+                char_count=len(text),
+                audio_bytes=len(audio_bytes),
+                success=True,
+                cached=False
+            )
+            
+            return audio_bytes, 'audio/mp3'
+
+
+def generate_target_audio(text: str, settings: Dict) -> tuple[bytes, str]:
+    """
+    Generate target pronunciation audio using the configured TTS engine
+    
+    Args:
+        text: Text to speak
+        settings: User settings dict containing tts_engine, voice, speed, pitch, use_wav_audio
+        
+    Returns:
+        (audio_bytes, format) where format is 'audio/mp3', 'audio/wav', or 'audio/x-wav'
+    """
+    # Remove punctuation to avoid comma/pause detection affecting scores
+    import string
+    text_no_punct = text.translate(str.maketrans('', '', string.punctuation))
+    
+    tts_engine = settings.get('tts_engine', 'google_cloud')  # Default to Google Cloud TTS
+    
+    # Smart fallback priority: Google Cloud TTS → gTTS → eSpeak
+    # This ensures best quality audio with graceful degradation
+    
+    if tts_engine == 'espeak':
+        # User explicitly chose eSpeak - use it directly
+        return speak_text(
+            text_no_punct,
+            voice=settings.get('voice', 'pt-br'),
+            speed=settings.get('speed', 140),
+            pitch=settings.get('pitch', 35)
+        )
+    elif tts_engine == 'google_cloud':
+        # Try Google Cloud TTS first (best quality)
+        try:
+            voice_map = {
+                'pt-br': 'pt-BR',
+                'pt': 'pt-PT',
+                'fr': 'fr-FR',
+                'fr-fr': 'fr-FR',
+                'nl': 'nl-NL',
+                'nl-be': 'nl-BE',
+                'de': 'de-DE',
+                'de-de': 'de-DE',
+                'it': 'it-IT',
+                'it-it': 'it-IT',
+                'es': 'es-ES',
+                'es-es': 'es-ES'
+            }
+            cloud_lang = voice_map.get(settings.get('voice', 'pt-br'), 'pt-BR')
+            
+            return speak_text_google_cloud(
+                text_no_punct,
+                lang=cloud_lang,
+                use_wav=settings.get('use_wav_audio', False),
+                speaking_rate=1.0 if not settings.get('gtts_slow', False) else 0.75
+            )
+        except Exception as e:
+            # Google Cloud TTS failed - try gTTS as fallback
+            st.warning(f"⚠️ Google Cloud TTS unavailable, trying gTTS... ({str(e)[:80]})")
+            try:
+                return speak_text_gtts(
+                    text_no_punct,
+                    lang=settings.get('voice', 'pt-br'),
+                    use_wav=settings.get('use_wav_audio', False),
+                    slow=settings.get('gtts_slow', False)
+                )
+            except Exception as e2:
+                # Both Google options failed - fall back to eSpeak
+                st.warning("⚠️ All Google TTS options failed, using eSpeak NG")
+                return speak_text(
+                    text_no_punct,
+                    voice=settings.get('voice', 'pt-br'),
+                    speed=settings.get('speed', 140),
+                    pitch=settings.get('pitch', 35)
+                )
+    else:
+        # tts_engine is 'gtts' - but use smart fallback
+        # Priority: Google Cloud → gTTS → eSpeak
+        try:
+            # Try Google Cloud first even if user selected gTTS (best quality)
+            voice_map = {
+                'pt-br': 'pt-BR',
+                'pt': 'pt-PT',
+                'fr': 'fr-FR',
+                'fr-fr': 'fr-FR',
+                'nl': 'nl-NL',
+                'nl-be': 'nl-BE',
+                'de': 'de-DE',
+                'de-de': 'de-DE',
+                'it': 'it-IT',
+                'it-it': 'it-IT',
+                'es': 'es-ES',
+                'es-es': 'es-ES'
+            }
+            cloud_lang = voice_map.get(settings.get('voice', 'pt-br'), 'pt-BR')
+            
+            return speak_text_google_cloud(
+                text_no_punct,
+                lang=cloud_lang,
+                use_wav=settings.get('use_wav_audio', False),
+                speaking_rate=1.0 if not settings.get('gtts_slow', False) else 0.75
+            )
+        except Exception:
+            # Google Cloud not available - try gTTS as requested
+            try:
+                return speak_text_gtts(
+                    text_no_punct,
+                    lang=settings.get('voice', 'pt-br'),
+                    use_wav=settings.get('use_wav_audio', False),
+                    slow=settings.get('gtts_slow', False)
+                )
+            except Exception as e:
+                # gTTS failed - fall back to eSpeak to preserve basic functionality
+                st.warning(f"⚠️ Google TTS unavailable, using eSpeak NG instead. ({str(e)[:100]})")
+                return speak_text(
+                    text_no_punct,
+                    voice=settings.get('voice', 'pt-br'),
+                    speed=settings.get('speed', 140),
+                    pitch=settings.get('pitch', 35)
+                )
+
+
+def transcribe_audio_whisper(audio_file: str, model, language_code: str = "pt"):
+    """
+    Transcribe audio to text using Whisper
+    
+    Args:
+        audio_file: Path to audio file
+        model: Whisper model instance
+        language_code: Whisper language code (e.g., 'pt', 'fr', 'nl')
+    
+    Note: No initial_prompt is used to avoid biasing the transcription.
+    We force language detection and use low temperature for consistency.
+    """
+    result = model.transcribe(
+        audio=audio_file,
+        language=language_code,  # Force language (ISO 639-1 code)
+        task="transcribe",
+        temperature=0.0,  # Deterministic output
+        no_speech_threshold=0.6,  # Higher threshold to reject non-speech (like beeps)
+        logprob_threshold=-1.0,   # Stricter on low-confidence segments
+        condition_on_previous_text=False,  # Don't use context from previous segments
+        word_timestamps=False,  # Disable word-level timestamps to reduce space insertion
+        compression_ratio_threshold=2.4  # Default is 2.4, keep it strict
+    )
+    
+    # Double-check detected language (Whisper should respect language parameter but doesn't always)
+    detected_lang = result.get("language", "unknown")
+    if detected_lang != language_code:
+        # Log warning but continue (the transcription might still be correct)
+        import warnings
+        warnings.warn(f"Whisper detected language '{detected_lang}' instead of '{language_code}'")
+    
+    transcribed_text = result["text"].strip().lower()
+    
+    # CRITICAL: Detect hallucination - Whisper sometimes loops when audio is poor
+    # Check for repetitive patterns like "é o que é o que é o que..."
+    words = transcribed_text.split()
+    if len(words) > 20:  # Only check longer transcriptions
+        # Check if same 2-3 word pattern repeats many times
+        # Look for patterns like "word1 word2" repeated 10+ times
+        pattern_found = False
+        for pattern_len in [2, 3, 4]:
+            if len(words) >= pattern_len * 10:
+                # Check if first pattern repeats throughout
+                pattern = ' '.join(words[:pattern_len])
+                repetitions = transcribed_text.count(pattern)
+                if repetitions >= 10:  # Pattern repeats 10+ times
+                    pattern_found = True
+                    import warnings
+                    warnings.warn(f"Whisper hallucination detected: '{pattern}' repeated {repetitions} times")
+                    # Return truncated version to show the issue
+                    return f"[hallucination detected: '{pattern}' x{repetitions}]"
+        
+        # Also check total word count - if way too long, it's probably hallucinating
+        if len(words) > 100:
+            import warnings
+            warnings.warn(f"Suspiciously long transcription: {len(words)} words")
+            return f"[error: transcription too long - {len(words)} words, possible hallucination]"
+    
+    return transcribed_text
+
+
+def transcribe_audio_wav2vec2(audio_file: str, processor, model):
+    """
+    Transcribe audio to text using wav2vec2 Portuguese model
+    """
+    try:
+        import torch
+        import soundfile as sf
+        
+        # Load audio
+        speech, sample_rate = sf.read(audio_file)
+        
+        # Resample if needed (wav2vec2 expects 16kHz)
+        if sample_rate != 16000:
+            import librosa
+            speech = librosa.resample(speech, orig_sr=sample_rate, target_sr=16000)
+        
+        # Process
+        inputs = processor(speech, sampling_rate=16000, return_tensors="pt", padding=True)
+        
+        with torch.no_grad():
+            logits = model(inputs.input_values).logits
+        
+        predicted_ids = torch.argmax(logits, dim=-1)
+        transcription = processor.batch_decode(predicted_ids)[0]
+        
+        return transcription.strip().lower()
+        
+    except Exception as e:
+        st.error(f"wav2vec2 transcription failed: {e}")
+        return ""
+
+
+def transcribe_audio(audio_file: str, settings: Dict, language: str = "Portuguese"):
+    """
+    Transcribe audio using the selected ASR engine
+    
+    Args:
+        audio_file: Path to audio file
+        settings: App settings dict
+        language: Selected language name (e.g., "Portuguese", "French")
+    """
+    asr_engine = settings.get('asr_engine', 'whisper')
+    
+    # Get language configuration
+    lang_config = LANGUAGE_CONFIG[language]
+    whisper_code = lang_config['whisper_code']
+    
+    if asr_engine == 'wav2vec2':
+        # wav2vec2 is Portuguese-only
+        if whisper_code != 'pt':
+            st.warning("wav2vec2 only supports Portuguese, falling back to Whisper")
+            asr_engine = 'whisper'
+        else:
+            processor, model = get_wav2vec2_model()
+            if processor is None or model is None:
+                st.warning("wav2vec2 unavailable, falling back to Whisper")
+                asr_engine = 'whisper'
+            else:
+                return transcribe_audio_wav2vec2(audio_file, processor, model)
+    
+    # Default to Whisper
+    model_size = settings.get('whisper_model_size', 'base')
+    model = get_whisper_model(model_size)
+    return transcribe_audio_whisper(audio_file, model, whisper_code)
+
+
+def levenshtein_distance(s1: str, s2: str) -> int:
+    """
+    Calculate Levenshtein (edit) distance between two strings.
+    Returns the minimum number of single-character edits (insertions, deletions, substitutions).
+    """
+    if len(s1) < len(s2):
+        return levenshtein_distance(s2, s1)
+    
+    if len(s2) == 0:
+        return len(s1)
+    
+    previous_row = range(len(s2) + 1)
+    for i, c1 in enumerate(s1):
+        current_row = [i + 1]
+        for j, c2 in enumerate(s2):
+            # Cost of insertions, deletions, or substitutions
+            insertions = previous_row[j + 1] + 1
+            deletions = current_row[j] + 1
+            substitutions = previous_row[j] + (c1 != c2)
+            current_row.append(min(insertions, deletions, substitutions))
+        previous_row = current_row
+    
+    return previous_row[-1]
+
+
+def get_edit_operations(s1: str, s2: str):
+    """
+    Get the actual edit operations needed to transform s1 into s2.
+    Returns a list of tuples: (operation, position, char1, char2)
+    where operation is 'match', 'substitute', 'insert', or 'delete'
+    """
+    # Build the DP table
+    m, n = len(s1), len(s2)
+    dp = [[0] * (n + 1) for _ in range(m + 1)]
+    
+    for i in range(m + 1):
+        dp[i][0] = i
+    for j in range(n + 1):
+        dp[0][j] = j
+    
+    for i in range(1, m + 1):
+        for j in range(1, n + 1):
+            if s1[i-1] == s2[j-1]:
+                dp[i][j] = dp[i-1][j-1]
+            else:
+                dp[i][j] = 1 + min(
+                    dp[i-1][j],    # delete
+                    dp[i][j-1],    # insert
+                    dp[i-1][j-1]   # substitute
+                )
+    
+    # Backtrack to find operations
+    operations = []
+    i, j = m, n
+    while i > 0 or j > 0:
+        if i > 0 and j > 0 and s1[i-1] == s2[j-1]:
+            operations.append(('match', i-1, s1[i-1], s2[j-1]))
+            i -= 1
+            j -= 1
+        elif i > 0 and j > 0 and dp[i][j] == dp[i-1][j-1] + 1:
+            operations.append(('substitute', i-1, s1[i-1], s2[j-1]))
+            i -= 1
+            j -= 1
+        elif j > 0 and dp[i][j] == dp[i][j-1] + 1:
+            operations.append(('insert', i, '-', s2[j-1]))
+            j -= 1
+        elif i > 0 and dp[i][j] == dp[i-1][j] + 1:
+            operations.append(('delete', i-1, s1[i-1], '-'))
+            i -= 1
+    
+    operations.reverse()
+    return operations
+
+
+def compare_phonemes_positional(user_phonemes: str, correct_phonemes: str):
+    """
+    DEPRECATED: Simple positional matching (fails with insertions/deletions).
+    Kept for reference but not recommended for use.
+    """
+    exact_match = user_phonemes == correct_phonemes
+    
+    if len(correct_phonemes) == 0:
+        similarity = 0.0
+    else:
+        matches = sum(
+            1 for a, b in zip(user_phonemes, correct_phonemes)
+            if a == b
+        )
+        similarity = matches / max(len(user_phonemes), len(correct_phonemes))
+    
+    return exact_match, similarity
+
+
+def compare_phonemes_edit_distance(user_phonemes: str, correct_phonemes: str):
+    """
+    Compare phonemes using edit distance (Levenshtein).
+    Handles insertions, deletions, and substitutions gracefully.
+    
+    Returns:
+        exact_match: bool - True if strings are identical
+        similarity: float - 0.0 to 1.0, where 1.0 is perfect match
+        distance: int - Number of edits needed
+    """
+    exact_match = user_phonemes == correct_phonemes
+    
+    if len(correct_phonemes) == 0:
+        return exact_match, 0.0, len(user_phonemes)
+    
+    distance = levenshtein_distance(user_phonemes, correct_phonemes)
+    max_length = max(len(user_phonemes), len(correct_phonemes))
+    
+    # Similarity: 1.0 means perfect match, 0.0 means completely different
+    similarity = 1.0 - (distance / max_length)
+    
+    return exact_match, similarity, distance
+
+
+def compare_phonemes(user_phonemes: str, correct_phonemes: str, algorithm: str = "edit_distance"):
+    """
+    Modular phoneme comparison with selectable algorithms.
+    
+    Args:
+        user_phonemes: Phonemes from user's speech
+        correct_phonemes: Target phonemes
+        algorithm: "edit_distance" (default) or "positional"
+    
+    Returns:
+        exact_match: bool
+        similarity: float (0.0 to 1.0)
+        distance: int (only for edit_distance, None otherwise)
+    """
+    if algorithm == "edit_distance":
+        return compare_phonemes_edit_distance(user_phonemes, correct_phonemes)
+    elif algorithm == "positional":
+        exact_match, similarity = compare_phonemes_positional(user_phonemes, correct_phonemes)
+        return exact_match, similarity, None
+    else:
+        raise ValueError(f"Unknown algorithm: {algorithm}")
+
+
+def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
+    """
+    Practice a word/phrase using pre-recorded audio
+    
+    Logic:
+    1. Transcribe audio to text (with proper spacing)
+    2. Generate phonemes for both target and recognized text (preserving word boundaries)
+    3. For comparison: strip spaces from phonemes only (not from text)
+    4. This allows flexible matching while maintaining proper IPA display
+    """
+    try:
+        # Save audio bytes to temporary file
+        temp_audio = "temp_streamlit_recording.wav"
+        with open(temp_audio, 'wb') as f:
+            f.write(audio_bytes)
+        
+        # Preprocess audio: trim silence/noise from start and end
+        # This helps remove system noise and other artifacts
+        try:
+            audio_data, sample_rate = sf.read(temp_audio)
+            
+            # Simple energy-based trimming
+            # Calculate short-term energy
+            frame_length = int(0.02 * sample_rate)  # 20ms frames
+            energy = np.array([
+                np.sum(audio_data[i:i+frame_length]**2) 
+                for i in range(0, len(audio_data) - frame_length, frame_length)
+            ])
+            
+            # Find speech boundaries using user-configurable threshold
+            # threshold is a percentage of max energy (default 0.01 = 1%)
+            silence_threshold = settings.get('silence_threshold', 0.01)
+            threshold = silence_threshold * np.max(energy)
+            speech_frames = np.where(energy > threshold)[0]
+            
+            if len(speech_frames) > 0:
+                # Add 200ms padding before and after to avoid speech artifacts
+                padding_ms = 0.2  # 200ms as requested
+                padding_samples = int(padding_ms * sample_rate)
+                
+                start_sample = max(0, speech_frames[0] * frame_length - padding_samples)
+                end_sample = min(len(audio_data), (speech_frames[-1] + 1) * frame_length + padding_samples)
+                
+                trimmed_audio = audio_data[start_sample:end_sample]
+                
+                # Save trimmed audio
+                sf.write(temp_audio, trimmed_audio, sample_rate)
+                
+                # Also save trimmed audio bytes for playback
+                import io
+                trimmed_buffer = io.BytesIO()
+                sf.write(trimmed_buffer, trimmed_audio, sample_rate, format='WAV')
+                trimmed_audio_bytes = trimmed_buffer.getvalue()
+            else:
+                trimmed_audio_bytes = audio_bytes
+        except Exception as e:
+            # If trimming fails, continue with original audio
+            pass
+        
+        # Get correct pronunciation
+        correct_phonemes = get_phonemes(text, settings['voice'])
+        correct_ipa = get_ipa(text, settings['voice'])
+        
+        # Transcribe user's audio using selected ASR engine
+        recognized_text = transcribe_audio(temp_audio, settings, st.session_state.language)
+        
+        # Get phonemes with proper spacing (for display)
+        user_phonemes = get_phonemes(recognized_text, settings['voice'])
+        user_ipa = get_ipa(recognized_text, settings['voice'])
+        
+        # For comparison: normalize by removing spaces from PHONEMES, not text
+        # This allows flexible matching while preserving word boundaries in display
+        correct_phonemes_normalized = correct_phonemes.replace(" ", "")
+        user_phonemes_normalized = user_phonemes.replace(" ", "")
+        
+        # Compare normalized phonemes (without spaces) using edit distance
+        # Get algorithm from settings (default: edit_distance)
+        algorithm = settings.get('comparison_algorithm', 'edit_distance')
+        exact_match, similarity, edit_distance = compare_phonemes(
+            user_phonemes_normalized, 
+            correct_phonemes_normalized,
+            algorithm=algorithm
+        )
+        
+        # Keep the original recording for playback
+        # (Don't delete temp_audio - we'll save it in the result)
+        
+        result = {
+            "target": text,
+            "recognized": recognized_text,
+            "correct_phonemes": correct_phonemes,
+            "user_phonemes": user_phonemes,
+            "correct_ipa": correct_ipa,
+            "user_ipa": user_ipa,
+            "exact_match": exact_match,
+            "similarity": similarity,
+            "edit_distance": edit_distance,
+            "correct_phonemes_normalized": correct_phonemes_normalized,
+            "user_phonemes_normalized": user_phonemes_normalized,
+            "user_audio_bytes": audio_bytes,  # Original recording
+            "user_audio_trimmed_bytes": trimmed_audio_bytes  # Trimmed version (what was actually recognized)
+        }
+        
+        # Save to current session (exclude bytes for JSON serialization)
+        session_data = {k: v for k, v in result.items() if k not in ["user_audio_bytes", "user_audio_trimmed_bytes"]}
+        st.session_state.current_sessions[st.session_state.language]["practices"].append({
+            "time": datetime.now().isoformat(),
+            **session_data
+        })
+        st.session_state.session_saved = False
+        st.session_state.last_result = result
+        
+        # Save to database immediately
+        if st.session_state.get('authenticated', False):
+            try:
+                user_id = st.session_state['user']['user_id']
+                app_mysql.save_practice(
+                    user_id=user_id,
+                    language_code=st.session_state.language,
+                    target_phrase=result['target'],
+                    recognized_phrase=result['recognized'],
+                    similarity_score=result['similarity'],
+                    perfect_match=result['exact_match'],
+                    target_phonemes=result['correct_ipa'],
+                    user_phonemes=result['user_ipa']
+                )
+            except Exception as e:
+                st.warning(f"⚠️ Could not save to database: {e}")
+        
+        return result
+        
+    except Exception as e:
+        st.error(f"Error during practice: {e}")
+        import traceback
+        st.error(traceback.format_exc())
+        return None
+
+
+def save_current_session():
+    """Save current session to history"""
+    current_session = st.session_state.current_sessions[st.session_state.language]
+    if current_session["practices"]:
+        st.session_state.history.append(current_session)
+        save_history(st.session_state.history)
+        
+        # Reset current session for this language
+        st.session_state.current_sessions[st.session_state.language] = {
+            "date": datetime.now().isoformat(),
+            "practices": []
+        }
+        st.session_state.session_saved = True
+        st.success("✓ Session saved!")
+        st.rerun()
+    else:
+        st.warning("No practices in current session to save")
+
+
+def render_practice_interface(text, key_prefix="practice"):
+    """
+    Reusable practice interface component for audio playback, recording, and checking.
+    
+    Args:
+        text: The phrase to practice
+        key_prefix: Unique prefix for widget keys to avoid collisions (default: "practice")
+        
+    Returns:
+        None (handles UI rendering and result storage in session state)
+    """
+    if not text:
+        st.info("👆 Enter a word or phrase above to begin")
+        return
+    
+    # Show target audio directly - one click to play
+    st.write("🎯 **Target pronunciation:**")
+    with st.spinner("Generating audio..."):
+        audio_bytes, audio_format = generate_target_audio(
+            text,
+            st.session_state.settings
+        )
+        st.audio(audio_bytes, format=audio_format, autoplay=False)
+    
+    st.write("🎙️ **Now record your pronunciation:**")
+    
+    # Streamlit's built-in audio input with dynamic key (unique per mode)
+    audio_data = st.audio_input("Click to record", key=f"{key_prefix}_audio_input_{st.session_state.audio_input_key}")
+    
+    # Show recording tip after the recording widget (mobile-friendly)
+    language_name = st.session_state.language
+    st.info(f"💡 Wait for the recording icon to turn red before speaking. The app will automatically trim silence and enforce {language_name} language detection.")
+    
+    if audio_data:
+        st.write("▶️ **Your recording:**")
+        st.audio(audio_data, format='audio/wav')
+        
+        # Always show both buttons when recording exists - critical for UX
+        col1, col2 = st.columns([1, 1])
+        with col1:
+            if st.button("✅ Check Pronunciation", key=f"{key_prefix}_submit_btn", type="primary"):
+                with st.spinner("Processing..."):
+                    result = practice_word_from_audio(
+                        text,
+                        audio_data.getvalue(),
+                        st.session_state.settings
+                    )
+        
+        with col2:
+            # CRITICAL: Always show Remove Recording button when audio exists
+            if st.button("🗑️ Remove Recording", key=f"{key_prefix}_clear_btn"):
+                # Clear the recording, results, and force widget reset
+                st.session_state.last_result = None
+                st.session_state.audio_input_key += 1  # Change key to reset widget
+                st.rerun()
+
+
+def render_practice_results(result, key_prefix="practice"):
+    """
+    Reusable practice results display component.
+    
+    Args:
+        result: Dictionary with practice results from practice_word_from_audio()
+        key_prefix: Unique prefix for widget keys to avoid collisions (default: "practice")
+    """
+    if not result:
+        return
+    
+    st.markdown("---")
+    st.header("Results")
+    
+    # Play celebration sounds based on score (only once per result)
+    import streamlit.components.v1 as components
+    
+    # Track if sound has been played for this result
+    result_id = f"{result.get('target', '')}_{result.get('recognized', '')}_{result.get('similarity', 0)}"
+    if 'last_sound_played' not in st.session_state:
+        st.session_state.last_sound_played = None
+    
+    should_play_sound = st.session_state.last_sound_played != result_id
+    
+    if result["exact_match"]:
+        st.success("🎉 PERFECT MATCH! Well done!")
+        # Play perfect match bell sound (C major triad)
+        if should_play_sound:
+            st.session_state.last_sound_played = result_id
+            components.html("""
+        <script>
+        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        // Perfect match: clear bell-like tone (C5-E5-G5)
+        [523.25, 659.25, 783.99].forEach((freq, i) => {
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            oscillator.frequency.value = freq;
+            oscillator.type = 'sine';
+            gainNode.gain.setValueAtTime(0.3, audioContext.currentTime + i * 0.15);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.15 + 0.6);
+            oscillator.start(audioContext.currentTime + i * 0.15);
+            oscillator.stop(audioContext.currentTime + i * 0.15 + 0.6);
+        });
+        </script>
+        """, height=0)
+    elif result['similarity'] >= 0.90:
+        # High score but not perfect: gentle encouraging sound
+        st.success(f"✨ Excellent! {result['similarity']:.1%} - Almost perfect!")
+        if should_play_sound:
+            st.session_state.last_sound_played = result_id
+            components.html("""
+        <script>
+        const audioContext = new (window.AudioContext || window.webkitAudioContext)();
+        // Gentle "well done" sound: soft ascending notes (A4-C5)
+        [440, 493.88, 523.25].forEach((freq, i) => {
+            const oscillator = audioContext.createOscillator();
+            const gainNode = audioContext.createGain();
+            oscillator.connect(gainNode);
+            gainNode.connect(audioContext.destination);
+            oscillator.frequency.value = freq;
+            oscillator.type = 'sine';
+            gainNode.gain.setValueAtTime(0.15, audioContext.currentTime + i * 0.12);
+            gainNode.gain.exponentialRampToValueAtTime(0.01, audioContext.currentTime + i * 0.12 + 0.4);
+            oscillator.start(audioContext.currentTime + i * 0.12);
+            oscillator.stop(audioContext.currentTime + i * 0.12 + 0.4);
+        });
+        </script>
+        """, height=0)
+    else:
+        score_col1, score_col2 = st.columns([2, 1])
+        with score_col1:
+            st.info(f"📊 Score: {result['similarity']:.1%}")
+        with score_col2:
+            if result.get('edit_distance') is not None:
+                st.metric("Edit Distance", result['edit_distance'],
+                        help="Number of edits needed to match target")
+    
+    col1, col2 = st.columns(2)
+    with col1:
+        st.subheader("Target")
+        st.write(f"**Text:** {result['target']}")
+        st.write(f"**eIPA:** {result['correct_phonemes']}")
+        if result.get('correct_ipa'):
+            st.markdown(f"**IPA:** {format_ipa(result['correct_ipa'])}", unsafe_allow_html=True)
+        
+        # Show target audio directly
+        tts_label = "Google TTS" if st.session_state.settings.get('tts_engine', 'gtts') == 'gtts' else "eSpeak"
+        st.write(f"🔊 **{tts_label}:**")
+        audio_bytes, audio_format = generate_target_audio(result['target'], st.session_state.settings)
+        st.audio(audio_bytes, format=audio_format)
+    
+    with col2:
+        st.subheader("Your Pronunciation")
+        st.write(f"**Recognized:** {result['recognized']}")
+        st.write(f"**eIPA:** {result['user_phonemes']}")
+        if result.get('user_ipa'):
+            st.markdown(f"**IPA:** {format_ipa(result['user_ipa'])}", unsafe_allow_html=True)
+        
+        # Show comparison note
+        # Normalize text by removing punctuation for comparison
+        import string
+        target_clean = result['target'].lower().translate(str.maketrans('', '', string.punctuation))
+        recognized_clean = result['recognized'].translate(str.maketrans('', '', string.punctuation))
+        
+        correct_phonemes_no_space = result['correct_phonemes'].replace(" ", "")
+        user_phonemes_no_space = result['user_phonemes'].replace(" ", "")
+        
+        # Only show messages if there are meaningful differences
+        phonemes_match = correct_phonemes_no_space == user_phonemes_no_space
+        text_matches = target_clean == recognized_clean
+        score_is_high = result['similarity'] >= 0.95
+        
+        if phonemes_match and result['correct_phonemes'] != result['user_phonemes']:
+            st.success("✅ Phonemes match perfectly (spacing differences ignored)")
+        elif not text_matches and not score_is_high:
+            # Only warn if BOTH text differs AND score is low
+            st.warning("⚠️ Different words recognized - try speaking more clearly")
+        elif score_is_high and not text_matches:
+            # High score but text differs (e.g., punctuation) - show positive message
+            st.info("ℹ️ Excellent pronunciation! (Minor text differences ignored)")
+    
+    # Close the two-column layout before the detailed analysis
+    # Show detailed phoneme analysis (works with edit distance!) - full width
+    if st.checkbox("🔍 Show detailed phoneme analysis", key=f"{key_prefix}_show_detail"):
+        st.markdown("---")
+        
+        st.markdown("#### Phoneme Analysis")
+        st.write(f"**Algorithm:** {st.session_state.settings.get('comparison_algorithm', 'edit_distance')}")
+        
+        if result.get('edit_distance') is not None:
+            st.write(f"**Edit Distance:** {result['edit_distance']} edit(s) needed")
+        
+        st.write("**Normalised phonemes (spaces removed for comparison):**")
+        col_a, col_b = st.columns(2)
+        with col_a:
+            # Use IPA (not eIPA) for user-friendly display
+            correct_ipa_normalized = result.get('correct_ipa', '').replace(" ", "")
+            st.markdown(format_ipa(correct_ipa_normalized, size="1.05em", weight=400, brackets=False), unsafe_allow_html=True)
+            st.caption(f"Target ({len(correct_ipa_normalized)} chars)")
+        with col_b:
+            user_ipa_normalized = result.get('user_ipa', '').replace(" ", "")
+            st.markdown(format_ipa(user_ipa_normalized, size="1.05em", weight=400, brackets=False), unsafe_allow_html=True)
+            st.caption(f"Your Pronunciation ({len(user_ipa_normalized)} chars)")
+        
+        # Visual comparison - full width for better readability
+        target_norm = result.get('correct_phonemes_normalized', correct_phonemes_no_space)
+        user_norm = result.get('user_phonemes_normalized', user_phonemes_no_space)
+        
+        if target_norm == user_norm:
+            st.success("🎯 Phonemes are identical!")
+        else:
+            # Use edit distance operations for accurate difference analysis
+            operations = get_edit_operations(target_norm, user_norm)
+            
+            # Count operation types
+            matches = sum(1 for op in operations if op[0] == 'match')
+            substitutions = [op for op in operations if op[0] == 'substitute']
+            insertions = [op for op in operations if op[0] == 'insert']
+            deletions = [op for op in operations if op[0] == 'delete']
+            
+            st.write(f"**Operations:** {matches} matches, {len(substitutions)} substitutions, {len(insertions)} insertions, {len(deletions)} deletions")
+            
+            # Show specific differences using IPA font
+            # Note: get_edit_operations returns (operation, position, char1, char2)
+            if substitutions:
+                st.write("**Substitutions:**")
+                for op, pos, t_char, u_char in substitutions[:5]:  # Limit to first 5
+                    st.markdown(f"  Position {pos}: {format_ipa(t_char, size='1.05em', weight=400, brackets=False)} → {format_ipa(u_char, size='1.05em', weight=400, brackets=False)}", unsafe_allow_html=True)
+            
+            if insertions:
+                st.write("**Insertions (extra phonemes in your pronunciation):**")
+                for op, pos, _, u_char in insertions[:5]:
+                    st.markdown(f"  Position {pos}: {format_ipa(u_char, size='1.05em', weight=400, brackets=False)}", unsafe_allow_html=True)
+            
+            if deletions:
+                st.write("**Deletions (missing phonemes):**")
+                for op, pos, t_char, _ in deletions[:5]:
+                    st.markdown(f"  Position {pos}: {format_ipa(t_char, size='1.05em', weight=400, brackets=False)}", unsafe_allow_html=True)
+
+
+def render_scene_practice_mode(scenes_dir):
+    """
+    Story practice mode - practice pronunciation of story phrases scene by scene.
+    
+    Args:
+        scenes_dir: Path to the directory containing scene JSON files
+    """
+    if not scenes_dir.exists():
+        st.warning("Story scenes not found. Please ensure story-scenes-json/ exists.")
+        return
+    
+    # Get all scene files
+    scene_files = sorted(scenes_dir.glob("scene-*.json"))
+    
+    if not scene_files:
+        st.warning("No scene files found in the story-scenes-json directory.")
+        return
+    
+    # Initialize session state for story practice
+    if 'story_practice_scene_file' not in st.session_state:
+        st.session_state.story_practice_scene_file = str(scene_files[0])
+    if 'story_practice_index' not in st.session_state:
+        st.session_state.story_practice_index = 0
+    
+    # Create scene selector with friendly names
+    scene_options = {}
+    for scene_file in scene_files:
+        # Extract scene number and title from filename
+        parts = scene_file.stem.split('-', 2)
+        if len(parts) >= 3:
+            scene_num = parts[1]
+            scene_title = parts[2].replace('-', ' ').title()
+            display_name = f"Scene {scene_num}: {scene_title}"
+        else:
+            display_name = scene_file.stem
+        
+        scene_options[display_name] = str(scene_file)
+    
+    # Scene selector
+    selected_scene_display = st.selectbox(
+        "Select a scene to practice:",
+        list(scene_options.keys()),
+        index=list(scene_options.values()).index(st.session_state.story_practice_scene_file)
+            if st.session_state.story_practice_scene_file in scene_options.values() else 0,
+        help="Choose a scene from Sophie & Lucas's adventure",
+        key="story_practice_scene_select"
+    )
+    
+    selected_scene_path = scene_options[selected_scene_display]
+    
+    # If scene changed, reset index
+    if selected_scene_path != st.session_state.story_practice_scene_file:
+        st.session_state.story_practice_scene_file = selected_scene_path
+        st.session_state.story_practice_index = 0
+        st.session_state.last_result = None
+        st.rerun()
+    
+    # Load the scene
+    try:
+        with open(selected_scene_path, 'r', encoding='utf-8') as f:
+            scene_data = json.load(f)
+        
+        # All story scenes now use Format 2: {"lang": [...], "scene_number": 1, "scene_title": "..."}
+        if not isinstance(scene_data, dict):
+            st.error(f"Invalid scene format - expected dict, got {type(scene_data).__name__}")
+            return
+        
+        # Get language key (pt, fr, de, nl, it, es)
+        lang_keys = [k for k in scene_data.keys() if k not in ['scene_number', 'scene_title']]
+        if not lang_keys:
+            st.error("Invalid scene data - no language key found")
+            return
+        
+        lang_key = lang_keys[0]
+        phrases = scene_data[lang_key]
+        
+        if not phrases:
+            st.warning("No phrases found in this scene.")
+            return
+        
+        # Navigation and progress
+        total_phrases = len(phrases)
+        current_idx = st.session_state.story_practice_index
+        
+        # Keep index in bounds
+        if current_idx >= total_phrases:
+            st.session_state.story_practice_index = 0
+            current_idx = 0
+        
+        current_phrase_obj = phrases[current_idx]
+        current_phrase = current_phrase_obj.get(lang_key, '')
+        phrase_translation = current_phrase_obj.get('english')
+        phrase_ipa = current_phrase_obj.get('ipa')
+        
+        st.subheader(selected_scene_display)
+        
+        # Progress bar
+        progress = (current_idx + 1) / total_phrases
+        st.progress(progress, text=f"Phrase {current_idx + 1} of {total_phrases}")
+        
+        # Navigation buttons
+        col1, col2, col3 = st.columns([1, 1, 2])
+        with col1:
+            if st.button("⬅️ Previous", disabled=(current_idx == 0), key="story_prev"):
+                st.session_state.story_practice_index -= 1
+                st.session_state.last_result = None
+                st.rerun()
+        with col2:
+            if st.button("Next ➡️", disabled=(current_idx >= total_phrases - 1), key="story_next"):
+                st.session_state.story_practice_index += 1
+                st.session_state.last_result = None
+                st.rerun()
+        with col3:
+            st.caption(f"💡 Navigate through {total_phrases} phrases in this scene")
+        
+        st.markdown("---")
+        
+        # Display current phrase
+        if phrase_translation or phrase_ipa:
+            with st.expander("📖 Translation & Reference", expanded=False):
+                if phrase_translation:
+                    st.markdown(f"**🇬🇧 English:** {phrase_translation}")
+                if phrase_ipa:
+                    st.markdown(f"**📚 Reference IPA:** {format_ipa(phrase_ipa)}", unsafe_allow_html=True)
+                    st.caption("Compare with eSpeak IPA generated below")
+        
+        st.markdown(f"#### 🎯 **{current_phrase}**")
+        
+        # Practice interface with unique key prefix for story mode
+        render_practice_interface(current_phrase, key_prefix="story")
+        
+        # Show results
+        if st.session_state.last_result:
+            render_practice_results(st.session_state.last_result, key_prefix="story")
+            
+    except json.JSONDecodeError as e:
+        st.error(f"Error parsing scene file: {e}")
+    except Exception as e:
+        st.error(f"Error loading scene: {e}")
+
+
+def render_story_reader():
+    """
+    Story Reader tab - Read stories in various formats
+    Modular design allows easy UX refactoring
+    Language-aware: displays story for current target language
+    """
+    # Get material language from session state (affects story display)
+    lang_code = st.session_state.get('material_language', 'fr')
+    
+    # Story titles and paths per language
+    story_config = {
+        'pt': {'title': 'Sophie & Lucas: Uma Jornada aos Alpes', 'setting': 'Brazil'},
+        'fr': {'title': 'Sophie & Lucas: A Journey to the Alps', 'setting': 'French Alps'},
+        'nl': {'title': 'Sophie & Lucas: Een Reis naar de Alpen', 'setting': 'Netherlands'},
+        'de': {'title': 'Sophie & Lucas: Eine Reise in die Alpen', 'setting': 'Black Forest/Alps'},
+        'it': {'title': 'Sophie & Lucas: Un Viaggio sulle Alpi', 'setting': 'Italian Dolomites'},
+        'es': {'title': 'Sophie & Lucas: Un Viaje a Sierra Nevada', 'setting': 'Sierra Nevada, Spain'}
+    }
+    
+    # Check if story materials exist for this language
+    story_md_path = Path(f"language_materials/{lang_code}/story.md")
+    story_scenes_dir = Path(f"language_materials/{lang_code}/story-scenes-json")
+    
+    config = story_config.get(lang_code, {'title': 'Story', 'setting': 'Unknown'})
+    st.header(f"📖 {config['title']}")
+    
+    # Check what story materials are available
+    has_full_story = story_md_path.exists()
+    has_scenes = story_scenes_dir.exists() and list(story_scenes_dir.glob("scene-*.json"))
+    
+    if not has_full_story and not has_scenes:
+        st.warning("Story materials not found. Please ensure story files exist for this language.")
+        return
+    
+    # Story mode selector - show only available modes
+    available_modes = []
+    if has_full_story:
+        available_modes.append("📄 Full Story")
+    if has_scenes:
+        available_modes.extend(["🎬 Scene by Scene", "🎙️ Practice Mode"])
+    
+    story_mode = st.radio(
+        "Choose reading mode:",
+        available_modes,
+        horizontal=True,
+        help="Read the complete story, explore individual scenes, or practice pronunciation"
+    )
+    
+    if story_mode == "📄 Full Story":
+        render_full_story(story_md_path)
+    elif story_mode == "🎬 Scene by Scene":
+        render_scene_by_scene(story_scenes_dir, lang_code)
+    elif story_mode == "🎙️ Practice Mode":
+        render_scene_practice_mode(story_scenes_dir)
+
+
+def render_full_story(story_path):
+    """Render the complete story from markdown file"""
+    try:
+        with open(story_path, 'r', encoding='utf-8') as f:
+            story_content = f.read()
+        
+        # Display the story
+        st.markdown(story_content, unsafe_allow_html=False)
+        
+    except Exception as e:
+        st.error(f"Error loading story: {e}")
+
+
+def render_scene_by_scene(scenes_dir, lang_code):
+    """Render individual scenes with target language text and English translations"""
+    if not scenes_dir.exists():
+        st.warning(f"Story scenes not found. Please ensure `language_materials/{lang_code}/story-scenes-json/` exists.")
+        return
+    
+    # Get all scene files
+    scene_files = sorted(scenes_dir.glob("scene-*.json"))
+    
+    if not scene_files:
+        st.warning("No scene files found in the story-scenes-json directory.")
+        return
+    
+    # Create scene selector with friendly names
+    scene_options = {}
+    for scene_file in scene_files:
+        # Extract scene number and title from filename
+        # e.g., "scene-01-le-café-du-matin.json" -> "Scene 1: Le Café du Matin"
+        parts = scene_file.stem.split('-', 2)
+        if len(parts) >= 3:
+            scene_num = parts[1]
+            scene_title = parts[2].replace('-', ' ').title()
+            display_name = f"Scene {scene_num}: {scene_title}"
+        else:
+            display_name = scene_file.stem
+        
+        scene_options[display_name] = scene_file
+    
+    # Scene selector
+    selected_scene = st.selectbox(
+        "Select a scene to read:",
+        list(scene_options.keys()),
+        help="Choose a scene from Sophie & Lucas's adventure"
+    )
+    
+    scene_file = scene_options[selected_scene]
+    
+    # Load and display the scene
+    try:
+        with open(scene_file, 'r', encoding='utf-8') as f:
+            scene_data = json.load(f)
+        
+        # All story scenes now use Format 2: {"lang": [...], "scene_number": 1, "scene_title": "..."}
+        if not isinstance(scene_data, dict):
+            st.error(f"Invalid scene format - expected dict, got {type(scene_data).__name__}")
+            return
+        
+        # Get language key (pt, fr, de, nl, it, es)
+        lang_keys = [k for k in scene_data.keys() if k not in ['scene_number', 'scene_title']]
+        if not lang_keys:
+            st.error("Invalid scene data - no language key found")
+            return
+        
+        lang_key = lang_keys[0]
+        phrases = scene_data[lang_key]
+        
+        st.subheader(selected_scene)
+        st.caption(f"📊 {len(phrases)} phrases in this scene")
+        
+        # Display options
+        col1, col2 = st.columns([3, 1])
+        with col1:
+            show_translations = st.checkbox("Show English translations", value=False)
+        with col2:
+            show_ipa = st.checkbox("Show IPA", value=False)
+        
+        st.divider()
+        
+        # Display each phrase
+        for i, phrase in enumerate(phrases, 1):
+            # Get text in the target language (french, pt, etc.)
+            target_text = phrase.get(lang_key, '')
+            english_text = phrase.get('english', '[Translation missing]')
+            ipa_text = phrase.get('ipa', '')
+            
+            # Target language text (always shown)
+            st.markdown(f"**{i}.** {target_text}")
+            
+            # Optional: English translation
+            if show_translations:
+                st.markdown(f"   *{english_text}*")
+            
+            # Optional: IPA
+            if show_ipa and ipa_text:
+                st.markdown(f"   🔊 {format_ipa(ipa_text)}", unsafe_allow_html=True)
+            
+            # Add spacing between phrases
+            if i < len(scene_data):
+                st.markdown("")  # Small gap
+        
+        # Practice transition
+        st.divider()
+        st.info("✏️ **Ready to practice?** Go to the **🎯 Quick Practice** tab and load this scene from the Built-in Library → French → Story Scenes.")
+        
+    except json.JSONDecodeError as e:
+        st.error(f"Error parsing scene file: {e}")
+    except Exception as e:
+        st.error(f"Error loading scene: {e}")
+
+
+def main():
+    """Main Streamlit app"""
+    initialize_session_state()
+    
+    # Header - Dynamic title based on selected language
+    lang_config = LANGUAGE_CONFIG[st.session_state.language]
+    
+    # Add flag emoji for each language
+    flag_emojis = {
+        "Portuguese": "🇧🇷",
+        "French": "🇫🇷",
+        "Dutch": "🇳🇱",
+        "Flemish": "🇧🇪",
+        "German": "🇩🇪",
+        "Italian": "🇮🇹",
+        "Spanish": "🇪🇸"
+    }
+    
+    flag = flag_emojis.get(st.session_state.language, "🌍")
+    st.title(f"{flag} {lang_config['display_name']}")
+    st.markdown("---")
+    
+    # Sidebar - Settings and Navigation
+    with st.sidebar:
+        # Version display at top
+        st.markdown(f"### 🎯 Miolingo v{__version__}")
+        st.markdown("---")
+        
+        st.header("⚙️ Settings")
+        
+        # Language selection
+        st.markdown("**🌍 Language**")
+        
+        previous_language = st.session_state.language
+        st.session_state.language = st.selectbox(
+            "Training Language",
+            list(LANGUAGE_CONFIG.keys()),
+            index=list(LANGUAGE_CONFIG.keys()).index(st.session_state.language),
+            help="Select the language you want to practice"
+        )
+        
+        # If language changed, ensure session exists for new language
+        if previous_language != st.session_state.language:
+            if st.session_state.language not in st.session_state.current_sessions:
+                st.session_state.current_sessions[st.session_state.language] = {
+                    "date": datetime.now().isoformat(),
+                    "practices": []
+                }
+        
+        # Material Language selection
+        st.markdown("**📚 Materials Language**")
+        from app_language_materials import get_available_languages, format_language_name
+        
+        if 'material_language' not in st.session_state:
+            st.session_state.material_language = 'fr'  # Default to French (has story)
+        
+        available_materials = get_available_languages()
+        if available_materials:
+            # Find current index
+            try:
+                current_idx = available_materials.index(st.session_state.material_language)
+            except ValueError:
+                current_idx = 0
+                st.session_state.material_language = available_materials[0]
+            
+            st.session_state.material_language = st.selectbox(
+                "Material Language",
+                available_materials,
+                index=current_idx,
+                format_func=format_language_name,
+                help="Language of practice materials and stories to display"
+            )
+        
+        # Get current language config
+        lang_config = LANGUAGE_CONFIG[st.session_state.language]
+        
+        # TTS Engine selection
+        st.markdown("**🔊 Text-to-Speech Engine**")
+        
+        # Map current setting to dropdown index
+        current_engine = st.session_state.settings.get('tts_engine', 'google_cloud')
+        engine_options = ["google_cloud", "gtts", "espeak"]
+        try:
+            current_index = engine_options.index(current_engine)
+        except ValueError:
+            current_index = 0  # Default to google_cloud if unknown
+        
+        st.session_state.settings['tts_engine'] = st.selectbox(
+            "TTS Engine",
+            engine_options,
+            index=current_index,
+            help="google_cloud: Official Google Cloud TTS (best quality, requires API key)\ngtts: Unofficial Google TTS (rate limited)\nespeak: eSpeak (adjustable speed/pitch, robotic voice)"
+        )
+        
+        tts_is_espeak = st.session_state.settings.get('tts_engine', 'gtts') == 'espeak'
+        
+        # Voice settings
+        if tts_is_espeak:
+            # eSpeak: Full speed and pitch control
+            st.session_state.settings['speed'] = st.slider(
+                "Speed (wpm)", 80, 450, st.session_state.settings['speed'], 10,
+                help="Lower = slower speech (eSpeak only)"
+            )
+            
+            st.session_state.settings['pitch'] = st.slider(
+                "Pitch", 0, 99, st.session_state.settings['pitch'], 5,
+                help="Voice pitch (eSpeak only)"
+            )
+        else:
+            # Google TTS: Limited speed control (normal/slow only)
+            st.session_state.settings['gtts_slow'] = st.checkbox(
+                "Slow speech",
+                value=st.session_state.settings.get('gtts_slow', False),
+                help="Enable slower speech (~50% speed). Google TTS only supports normal or slow."
+            )
+            st.caption("💡 For more speed control, change the speed settings on the playback control (⋮)")
+        
+        # Get available voices for current language and TTS engine
+        tts_engine = st.session_state.settings['tts_engine']
+        available_voices = lang_config['voices'][tts_engine]
+        
+        # Make sure current voice is valid for selected language, otherwise use first available
+        current_voice = st.session_state.settings.get('voice', available_voices[0])
+        if current_voice not in available_voices:
+            current_voice = available_voices[0]
+            st.session_state.settings['voice'] = current_voice
+        
+        st.session_state.settings['voice'] = st.selectbox(
+            "Voice",
+            available_voices,
+            index=available_voices.index(current_voice),
+            help=f"Available voices for {st.session_state.language}"
+        )
+        
+        st.markdown("**🎙️ Speech Recognition**")
+        
+        st.session_state.settings['asr_engine'] = st.selectbox(
+            "ASR Engine",
+            ["whisper", "wav2vec2"],
+            index=0 if st.session_state.settings.get('asr_engine', 'whisper') == 'whisper' else 1,
+            help="whisper: Multilingual (99 languages)\nwav2vec2: Portuguese-specific (may be more accurate)"
+        )
+        
+        # Only show Whisper model size if Whisper is selected
+        if st.session_state.settings['asr_engine'] == 'whisper':
+            st.session_state.settings['whisper_model_size'] = st.selectbox(
+                "Whisper Model Size",
+                ["tiny", "base", "small", "medium", "large"],
+                index=["tiny", "base", "small", "medium", "large"].index(
+                    st.session_state.settings.get('whisper_model_size', 'base')
+                ),
+                help="Larger = more accurate but slower. tiny is fastest, large is most accurate."
+            )
+            # Keep 'model' in sync for backwards compatibility
+            st.session_state.settings['model'] = st.session_state.settings['whisper_model_size']
+        else:
+            st.caption("Using wav2vec2-large-xlsr-53-portuguese")
+        
+        st.session_state.settings['comparison_algorithm'] = st.selectbox(
+            "Scoring Algorithm",
+            ["edit_distance", "positional"],
+            index=0 if st.session_state.settings.get('comparison_algorithm', 'edit_distance') == 'edit_distance' else 1,
+            help="edit_distance: Handles insertions/deletions (recommended)\npositional: Simple character-by-character matching"
+        )
+        
+        st.markdown("**🎚️ Audio Processing**")
+        
+        st.session_state.settings['silence_threshold'] = st.slider(
+            "Silence Trim Threshold",
+            min_value=0.001,
+            max_value=0.1,
+            value=st.session_state.settings.get('silence_threshold', 0.01),
+            step=0.001,
+            format="%.3f",
+            help="Audio above this threshold (% of max) is kept as speech. Lower = keep more audio (may include noise). Higher = more aggressive trimming (may cut speech ends). Default: 0.01"
+        )
+        
+        use_wav = st.checkbox(
+            "Use WAV audio format",
+            value=st.session_state.settings.get('use_wav_audio', False),
+            help="Enable if TTS audio doesn't play on your device (iOS Safari compatibility). Converts MP3→WAV.",
+            key="use_wav_checkbox"
+        )
+        # Update setting immediately when checkbox changes
+        if use_wav != st.session_state.settings.get('use_wav_audio', False):
+            st.session_state.settings['use_wav_audio'] = use_wav
+            save_settings(st.session_state.settings)
+            st.info("WAV audio setting saved")
+        
+        if st.button("💾 Save Settings"):
+            save_settings(st.session_state.settings)
+            st.success("Settings saved!")
+        
+        st.markdown("---")
+        
+        # Session info
+        st.header("📊 Current Session")
+        current_session = st.session_state.current_sessions[st.session_state.language]
+        practice_count = len(current_session["practices"])
+        st.metric("Practices", practice_count)
+        
+        if practice_count > 0:
+            perfect = sum(1 for p in current_session["practices"] if p.get("exact_match", False))
+            st.metric("Perfect", f"{perfect}/{practice_count}")
+            
+            if not st.session_state.session_saved:
+                st.warning(f"⚠️ {practice_count} unsaved practice(s)")
+                if st.button("💾 Save Session Now"):
+                    save_current_session()
+        
+        # Documentation links
+        st.markdown("---")
+        st.header("📚 Help & Docs")
+        st.markdown("""
+        **📖 Guides:**
+        - [User Guide](https://github.com/fairflow/espeak-ng-pt-br/blob/main/app-docs/USER_GUIDE.md) - How to use the app
+        - [Testing Guide](https://github.com/fairflow/espeak-ng-pt-br/blob/main/app-docs/TESTING_GUIDE.md) - Report bugs & test
+        - [All Documentation](https://github.com/fairflow/espeak-ng-pt-br/tree/main/app-docs)
+        
+        **📚 Stories:**
+        """)
+        
+        # Language-aware story links (based on material language)
+        lang_code = st.session_state.get('material_language', 'fr')
+        
+        if lang_code == 'pt':
+            st.markdown("- [Sophie & Lucas: Uma Jornada aos Alpes](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/pt/story.md) (Portuguese - Coming soon)")
+        elif lang_code == 'fr':
+            st.markdown("- [Sophie & Lucas: A Journey to the Alps](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/fr/story.md) (French)")
+        elif lang_code == 'nl':
+            st.markdown("- [Sophie & Lucas: Een Reis naar de Alpen](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/nl/story.md) (Dutch - Coming soon)")
+        elif lang_code == 'de':
+            st.markdown("- [Sophie & Lucas: Eine Reise in die Alpen](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/de/story.md) (German - Coming soon)")
+        elif lang_code == 'it':
+            st.markdown("- [Sophie & Lucas: Un Viaggio sulle Alpi](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/it/story.md) (Italian - Coming soon)")
+        elif lang_code == 'es':
+            st.markdown("- [Sophie & Lucas: Un Viaje a Sierra Nevada](https://github.com/fairflow/espeak-ng-pt-br/blob/main/language_materials/es/story.md) (Spanish - Coming soon)")
+        
+        st.markdown("""
+        **💬 Support:**
+        - Email: io@miolingo.io
+        - Discord: [Coming soon]
+        """)
+        
+        # CCS Testing Framework Controls
+        if CCS_AVAILABLE:
+            st.markdown("---")
+            st.header("🧪 CCS Testing")
+            st.session_state.ccs_test.render_toggle_ui()
+            if st.session_state.ccs_test.enabled:
+                st.session_state.ccs_test.render_validation_ui()
+    
+    # Main content - Tabs
+    tab1, tab2, tab3, tab4 = st.tabs([
+        "🎯 Quick Practice",
+        "📖 Story Reader",
+        "📊 Statistics",
+        "📜 History"
+    ])
+    
+    # Tab 1: Quick Practice
+    with tab1:
+        st.header("Quick Practice")
+        
+        # Language announcement banner
+        st.info("🎉 **Now supporting 6 languages!** Practice pronunciation in Portuguese, French, Dutch, German, Italian, and Spanish.")
+        
+        # Help info for new users
+        current_session = st.session_state.current_sessions[st.session_state.language]
+        if len(current_session["practices"]) == 0:
+            st.info("👋 **New here?** Check the [User Guide](https://github.com/fairflow/espeak-ng-pt-br/blob/main/app-docs/USER_GUIDE.md) in the sidebar for step-by-step instructions!")
+        
+        # Phrase/Word list loading - Built-in Library + User Upload
+        with st.expander("📚 Load Practice Materials"):
+            from app_language_materials import (
+                get_available_languages,
+                get_language_structure,
+                get_file_metadata,
+                load_phrase_file,
+                format_category_name,
+                format_language_name
+            )
+            
+            source_tab1, source_tab2 = st.tabs(["📦 Built-in Library", "📁 Upload File"])
+            
+            # TAB 1: Built-in materials
+            with source_tab1:
+                st.write("Browse curated phrase and word lists by language and level.")
+                
+                languages = get_available_languages()
+                
+                if not languages:
+                    st.warning("No built-in materials found in `language_materials/` directory.")
+                else:
+                    # Use material language from sidebar session state
+                    material_lang = st.session_state.get('material_language', 'fr')
+                    
+                    # Show which material language is active
+                    st.info(f"📚 Loading materials for: **{format_language_name(material_lang)}** (change in sidebar)")
+                    
+                    structure = get_language_structure(material_lang)
+                    
+                    if structure:
+                        # Category selection (phrases vs words, level A-D)
+                        categories = list(structure.keys())
+                        category = st.selectbox(
+                            "Category",
+                            categories,
+                            format_func=format_category_name,
+                            help="Select difficulty level: Beginner (A) → Expert (D)"
+                        )
+                        
+                        # File selection within category
+                        files = structure[category]
+                        selected_file = st.selectbox(
+                            "File",
+                            files,
+                            help="Select a specific file from this category"
+                        )
+                        
+                        # Show metadata preview
+                        metadata = get_file_metadata(material_lang, category, selected_file)
+                        
+                        if metadata and 'line_count' in metadata:
+                            col1, col2, col3 = st.columns(3)
+                            with col1:
+                                st.metric("Items", metadata.get('line_count', 0))
+                            with col2:
+                                st.metric("Translations", "✓" if metadata.get('has_translations') else "✗")
+                            with col3:
+                                st.metric("IPA", "✓" if metadata.get('has_ipa') else "✗")
+                            
+                            # Preview
+                            if metadata.get('preview'):
+                                with st.expander("Preview first 3 items"):
+                                    for line in metadata['preview']:
+                                        st.text(line)
+                            
+                            # Load button
+                            if st.button("📂 Load This File", type="primary", key="load_builtin"):
+                                try:
+                                    phrases = load_phrase_file(str(metadata['path']))
+                                    st.session_state.phrase_list = phrases
+                                    st.session_state.current_phrase_index = 0
+                                    st.session_state.last_result = None
+                                    st.session_state.material_source = f"{format_language_name(material_lang)} - {format_category_name(category)} - {selected_file}"
+                                    st.success(f"✓ Loaded {len(phrases)} items from built-in library")
+                                    st.rerun()
+                                except Exception as e:
+                                    st.error(f"Error loading file: {e}")
+                        else:
+                            st.error("Could not read file metadata")
+                    else:
+                        st.info(f"No materials found for {format_language_name(material_lang)}")
+            
+            # TAB 2: User upload
+            with source_tab2:
+                st.write("Upload your own phrase or word list.")
+                st.caption("**Format:** One phrase per line, or `phrase | translation | [ipa]`")
+                
+                uploaded_file = st.file_uploader(
+                    "Choose a text file",
+                    type=['txt'],
+                    help="Upload a .txt file with one phrase per line. Empty lines and comments (#) are ignored."
+                )
+                
+                if uploaded_file is not None:
+                    try:
+                        # Read and parse the file
+                        content = uploaded_file.read().decode('utf-8')
+                        raw_lines = [line.strip() for line in content.split('\n') if line.strip()]
+                        
+                        # Parse phrases - support both simple and enhanced format
+                        phrases = []
+                        for line in raw_lines:
+                            # Skip comments
+                            if line.startswith('#'):
+                                continue
+                            
+                            if '|' in line:
+                                # Enhanced format with translation
+                                parts = [p.strip() for p in line.split('|')]
+                                phrase_dict = {
+                                    'text': parts[0],
+                                    'translation': parts[1] if len(parts) > 1 else None,
+                                    'ipa': parts[2] if len(parts) > 2 else None
+                                }
+                                phrases.append(phrase_dict)
+                            else:
+                                # Simple format - just the text
+                                phrases.append({'text': line, 'translation': None, 'ipa': None})
+                        
+                        st.success(f"✓ Loaded {len(phrases)} items from upload")
+                        
+                        # Show sample
+                        if len(phrases) <= 5:
+                            st.write("**Items:**")
+                            for p in phrases:
+                                st.write(f"• {p['text']}")
+                        else:
+                            sample_texts = [p['text'] for p in phrases[:3]]
+                            st.write(f"**Sample:** {', '.join(sample_texts)}, ...")
+                        
+                        # Use button
+                        if st.button("✅ Use This File", type="primary", key="use_upload"):
+                            st.session_state.phrase_list = phrases
+                            st.session_state.current_phrase_index = 0
+                            st.session_state.last_result = None
+                            st.session_state.material_source = f"Uploaded: {uploaded_file.name}"
+                            st.rerun()
+                            
+                    except Exception as e:
+                        st.error(f"Error reading file: {e}")
+        
+        # Show current material source
+        if 'phrase_list' in st.session_state and st.session_state.phrase_list:
+            material_source = st.session_state.get('material_source', 'Unknown source')
+            st.info(f"📚 **Current material:** {material_source}")
+            
+            if st.button("🗑️ Clear Material"):
+                st.session_state.phrase_list = []
+                st.session_state.current_phrase_index = 0
+                st.session_state.last_result = None
+                st.session_state.material_source = None
+                st.rerun()
+        
+        # Determine practice mode
+        guided_mode = 'phrase_list' in st.session_state and st.session_state.phrase_list
+        
+        # MODE 1: Guided List Practice
+        if guided_mode:
+            st.markdown("---")
+            st.subheader("📚 Guided Practice Mode")
+            
+            # Progress and navigation
+            total_phrases = len(st.session_state.phrase_list)
+            current_idx = st.session_state.current_phrase_index
+            current_phrase_obj = st.session_state.phrase_list[current_idx]
+            # Handle both dict and string formats for backward compatibility
+            if isinstance(current_phrase_obj, dict):
+                current_phrase = current_phrase_obj['text']
+                phrase_translation = current_phrase_obj.get('translation')
+                phrase_ipa = current_phrase_obj.get('ipa')
+            else:
+                current_phrase = current_phrase_obj
+                phrase_translation = None
+                phrase_ipa = None
+            
+            # Track phrase changes to show feedback
+            if 'last_phrase_index' not in st.session_state:
+                st.session_state.last_phrase_index = current_idx
+            
+            if st.session_state.last_phrase_index != current_idx:
+                st.success(f"✓ Moved to phrase #{current_idx + 1}")
+                st.session_state.last_phrase_index = current_idx
+            
+            # Progress bar
+            progress = (current_idx + 1) / total_phrases
+            st.progress(progress, text=f"Phrase {current_idx + 1} of {total_phrases}")
+            
+            # Navigation buttons
+            # Check if we're in edit mode
+            in_edit_mode = st.session_state.get('edit_mode', False)
+            
+            col1, col2, col3, col4 = st.columns([1, 1, 2, 1])
+            with col1:
+                # Disable navigation in edit mode to avoid confusion
+                prev_disabled = (current_idx == 0) or in_edit_mode
+                if st.button("⬅️ Previous", disabled=prev_disabled, key="nav_prev",
+                           help="Navigation disabled in edit mode" if in_edit_mode else None):
+                    st.session_state.current_phrase_index -= 1
+                    # Keep result when navigating
+                    st.rerun()
+            with col2:
+                # Disable navigation in edit mode to avoid confusion
+                next_disabled = (current_idx >= total_phrases - 1) or in_edit_mode
+                if st.button("Next ➡️", disabled=next_disabled, key="nav_next",
+                           help="Navigation disabled in edit mode" if in_edit_mode else None):
+                    st.session_state.current_phrase_index += 1
+                    # Keep result when navigating
+                    st.rerun()
+            with col3:
+                # Dropdown DISABLED - causes state management issues with recordings
+                # Users reported that dropdown changes during recording workflow cause:
+                # - Target phrase to revert unexpectedly
+                # - Check Recording button to disappear
+                # - Remove Recording button to disappear
+                # Use Previous/Next buttons for navigation instead
+                st.caption("🚧 Phrase dropdown temporarily disabled - use ⬅️ Previous / Next ➡️ buttons")
+                # Keep this for reference when we fix state management:
+                # def format_phrase(i):
+                #     phrase_obj = st.session_state.phrase_list[i]
+                #     phrase_text = phrase_obj['text'] if isinstance(phrase_obj, dict) else phrase_obj
+                #     preview = f"{i+1}. {phrase_text[:40]}{'...' if len(phrase_text) > 40 else ''}"
+                #     return preview
+                # 
+                # jump_to = st.selectbox(
+                #     "Jump to phrase:",
+                #     options=range(total_phrases),
+                #     index=current_idx,
+                #     format_func=format_phrase,
+                #     key="phrase_jump_select",
+                #     disabled=in_edit_mode,
+                #     help="Phrase navigation disabled in edit mode" if in_edit_mode else "Jump directly to any phrase"
+                # )
+                # if jump_to != current_idx and not in_edit_mode:
+                #     st.session_state.current_phrase_index = jump_to
+                #     st.rerun()
+            with col4:
+                # Edit button - disabled when in edit mode
+                if 'edit_mode' not in st.session_state:
+                    st.session_state.edit_mode = False
+                    
+                # Disable Edit button when already in edit mode (grayed out)
+                if st.button("✏️ Edit", key="toggle_edit", 
+                            help="Edit current phrase or type your own",
+                            disabled=st.session_state.edit_mode):
+                    st.session_state.edit_mode = True
+                    st.rerun()
+            
+            st.markdown("---")
+            
+            # Display current phrase - editable or fixed
+            if st.session_state.edit_mode:
+                st.markdown("### ✏️ Edit Mode:")
+                st.caption("Edit the phrase below or type something completely different")
+                text = st.text_input(
+                    "Phrase to practice:",
+                    value=current_phrase,
+                    key="edit_phrase_input"
+                )
+                if st.button("📚 Return to Guided Mode", key="back_to_guided"):
+                    st.session_state.edit_mode = False
+                    st.rerun()
+            else:
+                # Show translation/IPA if available (above phrase for mobile visibility)
+                if phrase_translation or phrase_ipa:
+                    with st.expander("📖 Translation & Reference", expanded=False):
+                        if phrase_translation:
+                            st.markdown(f"**🇬🇧 English:** {phrase_translation}")
+                        if phrase_ipa:
+                            st.markdown(f"**📚 Reference IPA:** {format_ipa(phrase_ipa)}", unsafe_allow_html=True)
+                            st.caption("Compare with eSpeak IPA generated below")
+                
+                # Display phrase - mobile-friendly with emoji inline
+                st.markdown(f"#### 🎯 **{current_phrase}**")
+                
+                # Use this phrase for practice
+                text = current_phrase
+            
+        # MODE 2: Free Text Practice
+        else:
+            st.write("Practice any word or phrase you like")
+            
+            # Show navigation buttons (disabled) for consistency
+            col1, col2, col3 = st.columns([1, 1, 4])
+            with col1:
+                st.button("⬅️ Previous", disabled=True, key="nav_prev_disabled", 
+                         help="Navigation only available in guided mode")
+            with col2:
+                st.button("Next ➡️", disabled=True, key="nav_next_disabled",
+                         help="Navigation only available in guided mode")
+            with col3:
+                st.write("")  # Spacing
+            
+            st.markdown("---")
+            text = st.text_input("Enter word or phrase:", key="practice_text_free")
+        
+        # Use reusable practice interface with quick practice key prefix
+        render_practice_interface(text, key_prefix="quick")
+        
+        # Show last result using reusable component
+        if st.session_state.last_result:
+            render_practice_results(st.session_state.last_result, key_prefix="quick")
+            
+            # Optional: Hear eSpeak phoneme pronunciation (local development only)
+            if IS_LOCAL_DEV and st.session_state.last_result and not st.session_state.last_result["exact_match"]:
+                st.markdown("---")
+                st.subheader("Compare Phoneme Sounds (eSpeak)")
+                st.caption("🔧 Development feature - requires local audio device")
+                col1, col2 = st.columns(2)
+                with col1:
+                    if st.button("🔊 Correct Phonemes", key="phoneme_correct"):
+                        speak_text(st.session_state.last_result['target'], 
+                                 voice=st.session_state.settings['voice'],
+                                 speed=st.session_state.settings['speed'],
+                                 pitch=st.session_state.settings['pitch'])
+                with col2:
+                    if st.button("🔊 Your Phonemes", key="phoneme_yours"):
+                        speak_text(st.session_state.last_result['recognized'],
+                                 voice=st.session_state.settings['voice'],
+                                 speed=st.session_state.settings['speed'],
+                                 pitch=st.session_state.settings['pitch'])
+    
+    # Tab 2: Story Reader
+    with tab2:
+        render_story_reader()
+    
+    # Tab 3: Statistics
+    with tab3:
+        st.header("📊 Practice Statistics")
+        
+        # Current session stats
+        current_session = st.session_state.current_sessions[st.session_state.language]
+        if current_session["practices"]:
+            st.subheader("🔵 Current Session")
+            practices = current_session["practices"]
+            perfect = sum(1 for p in practices if p.get("exact_match", False))
+            avg_sim = sum(p["similarity"] for p in practices) / len(practices)
+            
+            col1, col2, col3 = st.columns(3)
+            col1.metric("Practices", len(practices))
+            col2.metric("Perfect", f"{perfect} ({perfect/len(practices):.1%})")
+            col3.metric("Avg Similarity", f"{avg_sim:.1%}")
+        
+        # Overall stats - from database for authenticated users
+        if st.session_state.get('authenticated', False):
+            st.subheader("📈 All Time")
+            try:
+                user_id = st.session_state['user']['user_id']
+                stats = app_mysql.get_user_stats(user_id, st.session_state.language)
+                
+                if stats and stats['total'] > 0:
+                    col1, col2, col3, col4 = st.columns(4)
+                    col1.metric("Total Practices", stats['total'])
+                    col2.metric("Total Perfect", f"{stats['perfect_count']} ({stats['perfect_count']/stats['total']:.1%})")
+                    col3.metric("Overall Avg", f"{stats['avg_score']:.1%}")
+                    col4.metric("Recent Avg (last 10)", f"{stats['recent_avg']:.1%}")
+                else:
+                    st.info("No practice history yet. Start practicing!")
+            except Exception as e:
+                st.error(f"Could not load stats: {e}")
+        else:
+            st.info("No practice history yet. Start practicing!")
+    
+    # Tab 4: History
+    with tab4:
+        st.header("📜 Session History")
+        
+        if not st.session_state.history:
+            st.info("No previous sessions")
+        else:
+            for i, session in enumerate(reversed(st.session_state.history[-10:]), 1):
+                date = session["date"][:10]
+                count = len(session["practices"])
+                perfect = sum(1 for p in session["practices"] if p.get("exact_match", False))
+                
+                with st.expander(f"{date} - {count} practices ({perfect} perfect)"):
+                    for j, practice in enumerate(session["practices"], 1):
+                        status = "✅" if practice.get("exact_match", False) else f"📊 {practice.get('similarity', 0):.1%}"
+                        
+                        st.markdown(f"**{j}. {status}**")
+                        col1, col2 = st.columns(2)
+                        
+                        with col1:
+                            st.write("Target:", practice.get('target', 'N/A'))
+                            if "correct_phonemes" in practice:
+                                st.write("Correct eIPA:", practice['correct_phonemes'])
+                        
+                        with col2:
+                            st.write("Recognized:", practice.get('recognized', 'N/A'))
+                            if "user_phonemes" in practice:
+                                st.write("Your eIPA:", practice['user_phonemes'])
+                        
+                        st.markdown("---")
+    
+    # CCS Testing: Extract app state after UI renders (if testing enabled)
+    if CCS_AVAILABLE and st.session_state.ccs_test.enabled:
+        st.session_state.ccs_test.extract_app_state_from_streamlit()
+
+
+if __name__ == "__main__":
+    main()

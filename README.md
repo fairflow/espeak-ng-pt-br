@@ -1,4 +1,37 @@
-# eSpeak NG Text-to-Speech
+# Miolingo - Multi-Language Pronunciation Trainer + eSpeak NG
+
+**Version 2.0.2** | Web-based multi-language pronunciation practice with instant AI feedback
+
+---
+
+## 🎯 Miolingo Pronunciation Trainer App
+
+This repository contains **Miolingo**, a multi-language pronunciation trainer web application built on top of eSpeak NG. The app helps learners practice pronunciation in **6 languages** (Portuguese, French, Spanish, German, Dutch, Italian) with real-time feedback and immersive story-based learning.
+
+### For App Users
+
+📱 **Want to practice pronunciation?** See the [User Guide](app-docs/USER_GUIDE.md)
+
+🧪 **Want to help test the app?** See the [Testing Guide](app-docs/TESTING_GUIDE.md)
+- Includes CCS testing mode for advanced users (no coding required!)
+
+👨‍💻 **Want to contribute code?** See the [Developer Guide](app-docs/DEVELOPER_GUIDE.md)
+
+📚 **All app documentation**: [app-docs/](app-docs/)
+
+### Quick Start
+
+Access the live app at: **[Your Streamlit Cloud URL]**
+
+Or run locally:
+```bash
+source venv/bin/activate
+streamlit run app.py
+```
+
+---
+
+## 📚 eSpeak NG Text-to-Speech (Base Project)
 
 - [Features](#features)
 - [Supported languages](docs/languages.md)

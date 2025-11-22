@@ -1,0 +1,15 @@
+# French Phrasebook - Asking For Help
+# Practical phrases for real-world situations
+# Difficulty levels: A:8, B:2
+# Format: french | english | [ipa]
+
+Je ne comprends pas | I don't understand | [ʒə- nə- kɔ̃pʁˈɑ̃ pˈa]
+Je ne parle pas français | I don't speak French | [ʒə- nə- pˈaʁl pa fʁɑ̃sˈɛ]
+Je parle un peu français | I speak a little French | [ʒə- pˈaʁl œ̃ pø fʁɑ̃sˈɛ]
+Parlez-vous anglais? | Do you speak English? | [paʁlˈevuz ɑ̃ɡlˈɛ]
+Plus lentement, s'il vous plaît | Slower, please | [ply lɑ̃tmˈɑ̃  sil vu plˈɛ]
+Pouvez-vous répéter? | Can you repeat? | [puvˈevu ʁepetˈe]
+J'ai besoin d'aide | I need help | [ʒe bəzwˈɛ̃ dˈɛd]
+Pouvez-vous m'aider? | Can you help me? | [puvˈevu mɛdˈe]
+Comment dit-on... en français? | How do you say... in French? | [kɔmˌɑ̃ dˈitˈɔ̃  ɑ̃ fʁɑ̃sˈɛ]
+Qu'est-ce que ça veut dire? | What does that mean? | [kɛskˌə sa vˈø dˈiʁ]

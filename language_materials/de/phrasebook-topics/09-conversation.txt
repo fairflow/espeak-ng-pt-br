@@ -1,0 +1,14 @@
+# German Phrasebook - Conversation
+# Level distribution: B, C
+# Format: german | english | [ipa]
+
+Hast du Lust? | How about it? | [hast duː lˈʊst]
+Ich habe Lust auf... | I feel like... | [ɪç hɑːbə lˈʊst ˈaʊf]
+Was machst du? | What are you doing? | [vˈas mˈaxst duː]
+Was machst du? | What are you doing? | [vˈas mˈaxst duː]
+Wie geht es deiner Familie? | How's your family? | [viː ɡˈeːt ɛs dˌaɪnɜ famˈiːlɪə]
+Wie geht es dir? | How are you? | [viː ɡˈeːt ɛs dˈiːɾ]
+Wie läuft die Arbeit? | How's work? | [viː lˈɔøft diː ˈaɾbaɪt]
+Willst du was trinken gehen? | Want to get a drink? | [vɪlst duː vˈas tɾˈɪŋkən ɡˈeːən]
+Halt mich auf dem Laufenden | Keep me updated | [hˈalt mɪç aʊf deːm lˈaʊfəndən]
+Kommst du zurecht? | Are you managing? | [kˈɔmst duː tsuːrˈɛçt]

@@ -1,0 +1,16 @@
+# Italian Phrasebook - Feelings
+# Level distribution: A, B, C
+# Format: italian | english | [ipa]
+
+Ho caldo | I'm hot | [ˌo kˈaldo]
+Ho fame | I'm hungry | [ˌo fˈaːme]
+Ho freddo | I'm cold | [ˌo frˈedːo]
+Ho sete | I'm thirsty | [ˌo sˈeːte]
+Mi annoio | I'm bored | [mˌɪ annˈoɪo]
+Non vedo l'ora | I can't wait | [nˌon vˈeːdo lˈɔːra]
+Sono felice | I'm happy | [sˌono felˈiːtʃe]
+Sono felice | I'm happy | [sˌono felˈiːtʃe]
+Sono stanca | I'm tired | [sˌono stˈanka]
+Sono stanco | I'm tired | [sˌono stˈanko]
+Mi sento giù | I'm feeling down | [mˌɪ sˈɛnto dʒˈu]
+Sono esausto | I'm exhausted | [sˌono ezˈaʊsto]

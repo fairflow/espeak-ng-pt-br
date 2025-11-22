@@ -1,0 +1,15 @@
+# French Phrasebook - Restaurant
+# Practical phrases for real-world situations
+# Difficulty levels: A:8, B:2
+# Format: french | english | [ipa]
+
+Une table pour deux, s'il vous plaît | A table for two, please | [yn tˈabl puʁ dˈø  sil vu plˈɛ]
+Le menu, s'il vous plaît | The menu, please | [lə- mənˈy  sil vu plˈɛ]
+Je voudrais... | I would like... | [ʒə- vudʁˈɛ]
+L'addition, s'il vous plaît | The bill, please | [ladisjˈɔ̃  sil vu plˈɛ]
+C'était délicieux | It was delicious | [setˈɛ delisjˈø]
+Je suis végétarien | I'm vegetarian | [ʒə- syˌi veʒetaʁjˈɛ̃]
+Un café, s'il vous plaît | A coffee, please | [œ̃ kafˈe  sil vu plˈɛ]
+Une carafe d'eau, s'il vous plaît | A carafe of water, please | [yn kaʁˈaf dˈo  sil vu plˈɛ]
+Qu'est-ce que vous recommandez? | What do you recommend? | [kɛskˌə vu ʁəkɔmɑ̃dˈe]
+Je suis allergique à... | I'm allergic to... | [ʒə- syˌiz alɛʁʒˈik ˌaaksɑ̃ɡʁˈav]

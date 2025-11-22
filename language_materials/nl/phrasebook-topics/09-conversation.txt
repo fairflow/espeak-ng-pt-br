@@ -1,0 +1,14 @@
+# Dutch Phrasebook - Conversation
+# Level distribution: B, C
+# Format: dutch | english | [ipa]
+
+Hoe gaat het met je familie? | How's your family? | [hˈu ɣˈaːt hət mɛt jə faːmˈilˌi]
+Hoe gaat het met je werk? | How's work? | [hˈu ɣˈaːt hət mɛt jə ʋˈɛrk]
+Hoe gaat het met je? | How are you? | [hˈu ɣˈaːt hət mɛt jə]
+Ik heb zin in... | I feel like... | [ɪk hɛp zˈɪn ˈɪn]
+Lijkt het je wat? | How about it? | [lˈɛɪkt hət jə ʋɑt]
+Wat ben je aan het doen? | What are you doing? | [ʋɑt bɛn jə aːn hə tˈun]
+Wat doe je? | What are you doing? | [ʋɑ tˈu jə]
+Zullen we iets drinken? | Want to get a drink? | [zˌɵlən ʋə ˈits drˈɪŋkən]
+Hou me op de hoogte | Keep me updated | [hˈʌʊ mə ɔp də hˈoːxtə]
+Red je het? | Are you managing? | [rˈɛt jə hət]

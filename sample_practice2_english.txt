@@ -1,0 +1,70 @@
+# Portuguese Practice Set 2 - English Translation
+# A mix of common words and useful phrases
+# Lines starting with # are comments and will be ignored
+
+# Common greetings and responses
+hello
+bye
+thank you (masculine)
+thank you (feminine)
+sorry / excuse me
+please
+
+# Everyday words
+water
+coffee
+bread
+milk
+meat
+fish
+fruit
+vegetables
+
+# Useful phrases
+good morning
+good afternoon
+good evening / good night
+see you later
+see you tomorrow
+excuse me / with permission
+all good / everything okay
+very well / very good
+
+# Numbers and time
+today
+tomorrow
+yesterday
+now
+later / after
+always
+never
+
+# Common verbs
+to speak / to talk
+to eat
+to drink
+to sleep
+to wake up
+to know
+to be able / can
+to want
+
+# More everyday words
+house / home
+street
+car
+work / job
+school
+book
+table
+chair
+
+# Short useful phrases
+I don't know
+of course / clearly yes
+maybe yes
+certainly / for sure
+you're welcome / it's nothing
+how cool / how nice
+how good
+what do you mean / how so

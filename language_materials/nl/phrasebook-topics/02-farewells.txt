@@ -1,0 +1,10 @@
+# Dutch Phrasebook - Farewells
+# Level distribution: A
+# Format: dutch | english | [ipa]
+
+Fijne avond | Have a good evening | [fˈɛɪnə ˈaːvɔnt]
+Fijne dag | Have a good day | [fˈɛɪnə dˈɑx]
+Tot morgen | See you tomorrow | [tɔt mˈɔrɣən]
+Tot snel | See you soon | [tɔt snˈɛl]
+Tot ziens | Goodbye | [tɔt zˈins]
+Welterusten | Good night | [ʋˈɛltɪːrˌɵstən]
