@@ -1876,6 +1876,8 @@ def main():
                 if st.session_state.material_language in material_to_training:
                     new_training_lang = material_to_training[st.session_state.material_language]
                     if new_training_lang in LANGUAGE_CONFIG:
+                        # Mark that we're doing auto-sync to prevent Training Language dropdown from interfering
+                        st.session_state._auto_syncing = True
                         st.session_state.language = new_training_lang
                         # Ensure session exists for new language
                         if new_training_lang not in st.session_state.current_sessions:
@@ -2063,6 +2065,10 @@ def main():
         
         st.markdown("**Mix up the spoken language**")
         
+        # Clear auto-sync flag after rerun
+        if st.session_state.get('_auto_syncing', False):
+            st.session_state._auto_syncing = False
+        
         # Reorder LANGUAGE_CONFIG to match material language order (de, es, fr, it, nl, pt)
         training_lang_order = ['German', 'Spanish', 'French', 'Italian', 'Dutch', 'Portuguese']
         
@@ -2076,8 +2082,8 @@ def main():
             key="training_language_selector"
         )
         
-        # Only update if user manually changed it (different from current session state)
-        if training_lang_selected != st.session_state.language:
+        # Only update if user manually changed it (different from current session state) and not during auto-sync
+        if training_lang_selected != st.session_state.language and not st.session_state.get('_auto_syncing', False):
             st.session_state.language = training_lang_selected
             # Ensure session exists for new language
             if training_lang_selected not in st.session_state.current_sessions:
