@@ -1951,27 +1951,29 @@ def main():
         
         st.markdown("**🎙️ Speech Recognition**")
         
-        st.session_state.settings['asr_engine'] = st.selectbox(
-            "ASR Engine",
-            ["whisper", "wav2vec2"],
-            index=0 if st.session_state.settings.get('asr_engine', 'whisper') == 'whisper' else 1,
-            help="whisper: Multilingual (99 languages)\nwav2vec2: Portuguese-specific (may be more accurate)"
-        )
+        # wav2vec2 temporarily disabled (requires large dependencies: transformers, torch, librosa)
+        # Whisper is the primary ASR engine and works across all 6 languages
+        st.session_state.settings['asr_engine'] = 'whisper'  # Force whisper
         
-        # Only show Whisper model size if Whisper is selected
-        if st.session_state.settings['asr_engine'] == 'whisper':
-            st.session_state.settings['whisper_model_size'] = st.selectbox(
-                "Whisper Model Size",
-                ["tiny", "base", "small", "medium", "large"],
-                index=["tiny", "base", "small", "medium", "large"].index(
-                    st.session_state.settings.get('whisper_model_size', 'base')
-                ),
-                help="Larger = more accurate but slower. tiny is fastest, large is most accurate."
-            )
-            # Keep 'model' in sync for backwards compatibility
-            st.session_state.settings['model'] = st.session_state.settings['whisper_model_size']
-        else:
-            st.caption("Using wav2vec2-large-xlsr-53-portuguese")
+        # Commented out: ASR Engine selector (can be re-enabled if wav2vec2 dependencies are added back)
+        # st.session_state.settings['asr_engine'] = st.selectbox(
+        #     "ASR Engine",
+        #     ["whisper", "wav2vec2"],
+        #     index=0 if st.session_state.settings.get('asr_engine', 'whisper') == 'whisper' else 1,
+        #     help="whisper: Multilingual (99 languages)\nwav2vec2: Portuguese-specific (may be more accurate)"
+        # )
+        
+        # Whisper model size selection
+        st.session_state.settings['whisper_model_size'] = st.selectbox(
+            "Whisper Model Size",
+            ["tiny", "base", "small", "medium", "large"],
+            index=["tiny", "base", "small", "medium", "large"].index(
+                st.session_state.settings.get('whisper_model_size', 'base')
+            ),
+            help="Larger = more accurate but slower. tiny is fastest, large is most accurate."
+        )
+        # Keep 'model' in sync for backwards compatibility
+        st.session_state.settings['model'] = st.session_state.settings['whisper_model_size']
         
         st.session_state.settings['comparison_algorithm'] = st.selectbox(
             "Scoring Algorithm",
