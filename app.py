@@ -9,7 +9,7 @@ Run with: streamlit run app.py
 """
 
 # VERSION MARKER - Update this when releasing new version
-__version__ = "2.1.0"
+__version__ = "2.2.0"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -416,9 +416,17 @@ def initialize_session_state():
     if 'settings' not in st.session_state:
         st.session_state.settings = load_settings()
     
-    # Initialize language selection (default to Portuguese)
+    # Initialize material_language first (this drives language selection)
+    if 'material_language' not in st.session_state:
+        st.session_state.material_language = 'fr'  # Default to French
+    
+    # Initialize language based on material_language
     if 'language' not in st.session_state:
-        st.session_state.language = "Portuguese"
+        material_to_training = {
+            'de': 'German', 'es': 'Spanish', 'fr': 'French',
+            'it': 'Italian', 'nl': 'Dutch', 'pt': 'Portuguese'
+        }
+        st.session_state.language = material_to_training.get(st.session_state.material_language, 'French')
     
     if 'history' not in st.session_state:
         st.session_state.history = load_history()
@@ -1857,6 +1865,31 @@ def main():
     lang_config = LANGUAGE_CONFIG[st.session_state.language]
     
     # Add flag emoji for each language
+    # Initialize language state BEFORE rendering title
+    # Material Language selection
+    from app_language_materials import get_available_languages, format_language_name
+    
+    if 'material_language' not in st.session_state:
+        st.session_state.material_language = 'fr'  # Default to French (has story)
+    
+    # Map material language to training language
+    material_to_training = {
+        'de': 'German',
+        'es': 'Spanish',
+        'fr': 'French',
+        'it': 'Italian',
+        'nl': 'Dutch',
+        'pt': 'Portuguese'
+    }
+    
+    # Ensure session_state.language is set from material_language
+    if 'language' not in st.session_state:
+        if st.session_state.material_language in material_to_training:
+            st.session_state.language = material_to_training[st.session_state.material_language]
+        else:
+            st.session_state.language = 'French'  # Fallback
+    
+    # NOW we can safely render the title with correct language
     flag_emojis = {
         "Portuguese": "🇧🇷",
         "French": "🇫🇷",
@@ -1876,12 +1909,8 @@ def main():
         st.markdown("---")
         st.header("⚙️ Settings")
         
-        # Material Language selection
+        # Material Language selection (already initialized above)
         st.markdown("**🌍 Language**")
-        from app_language_materials import get_available_languages, format_language_name
-        
-        if 'material_language' not in st.session_state:
-            st.session_state.material_language = 'fr'  # Default to French (has story)
         
         available_materials = get_available_languages()
         if available_materials:
@@ -1901,16 +1930,6 @@ def main():
                 help="Language of practice materials and stories to display",
                 key="material_language_selector"
             )
-            
-            # Map material language codes to LANGUAGE_CONFIG keys for training
-            material_to_training = {
-                'de': 'German',
-                'es': 'Spanish',
-                'fr': 'French',
-                'it': 'Italian',
-                'nl': 'Dutch',
-                'pt': 'Portuguese'
-            }
             
             # Set training language directly from material language (simple and clean)
             if st.session_state.material_language in material_to_training:

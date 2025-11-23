@@ -257,7 +257,7 @@ with tab2:
                 df_active['expires_at'] = pd.to_datetime(df_active['expires_at'])
                 # Convert hours to int
                 df_active['hours_until_expire'] = df_active['hours_until_expire'].astype(int)
-                st.dataframe(df_active, use_container_width=True, hide_index=True)
+                st.dataframe(df_active, width='stretch', hide_index=True)
                 st.caption("💡 Active sessions expire 24 hours after login. Sessions are removed on logout or cleanup.")
             else:
                 st.info("No users currently logged in")
@@ -277,7 +277,7 @@ with tab2:
                         df_expired = pd.DataFrame(expired_sessions)
                         df_expired['login_time'] = pd.to_datetime(df_expired['login_time'])
                         df_expired['expires_at'] = pd.to_datetime(df_expired['expires_at'])
-                        st.dataframe(df_expired, use_container_width=True, hide_index=True)
+                        st.dataframe(df_expired, width='stretch', hide_index=True)
             
             st.divider()
             
@@ -294,7 +294,7 @@ with tab2:
                 st.subheader("Recent Users")
                 df = pd.DataFrame(users)
                 df['created_at'] = pd.to_datetime(df['created_at'])
-                st.dataframe(df, use_container_width=True, hide_index=True)
+                st.dataframe(df, width='stretch', hide_index=True)
             else:
                 st.info("No users found")
             
@@ -378,7 +378,7 @@ with tab3:
                 if sessions:
                     st.subheader("Recent Practice Sessions (Database)")
                     df = pd.DataFrame(sessions)
-                    st.dataframe(df, use_container_width=True, hide_index=True)
+                    st.dataframe(df, width='stretch', hide_index=True)
             except Exception as e:
                 st.info("Practice sessions table not available")
             
