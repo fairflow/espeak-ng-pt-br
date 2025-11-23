@@ -6,6 +6,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2.2.2] - 2025-11-23
+
+### Changed
+
+- **Database-Backed Settings**: All user settings now saved to database instead of local JSON files
+- **Settings Persistence**: Settings persist across devices and sessions for authenticated users
+- **Simplified Storage**: Removed redundant local JSON history storage, database is single source of truth
+- **Guest Warning**: Clear warning for guest users about temporary session data
+
+### Fixed
+
+- **Function Definition Order**: Fixed NameError by moving load_settings() before authentication functions
+- **History Format**: Fixed KeyError by properly grouping database practices into sessions by date
+- **Cross-Device Sync**: Settings now sync automatically across all user sessions
+
+### Technical
+
+- Settings auto-load from user_settings table on login
+- Practice history grouped by date for compatibility with UI
+- All authenticated users use database exclusively
+- Non-authenticated users still use local JSON as fallback
+
+
 ## [2.2.1] - 2025-11-23
 
 ### Fixed

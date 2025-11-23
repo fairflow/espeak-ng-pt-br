@@ -259,6 +259,45 @@ with tab2:
                 df_active['hours_until_expire'] = df_active['hours_until_expire'].astype(int)
                 st.dataframe(df_active, width='stretch', hide_index=True)
                 st.caption("💡 Active sessions expire 24 hours after login. Sessions are removed on logout or cleanup.")
+                
+                # Force logout specific users
+                st.subheader("🚪 Force Logout Selected Users")
+                
+                # Create list of usernames for selection
+                usernames = [session['username'] for session in active_sessions]
+                
+                selected_users = st.multiselect(
+                    "Select users to force logout:",
+                    options=usernames,
+                    help="Selected users will be immediately logged out from all their sessions"
+                )
+                
+                if selected_users:
+                    col_warn, col_btn = st.columns([3, 1])
+                    with col_warn:
+                        st.warning(f"⚠️ This will log out {len(selected_users)} user(s): {', '.join(selected_users)}")
+                    with col_btn:
+                        if st.button("🚪 Force Logout Selected", type="primary"):
+                            try:
+                                conn_logout = get_db_connection()[0]
+                                cursor_logout = conn_logout.cursor()
+                                
+                                # Delete sessions for selected users
+                                placeholders = ', '.join(['%s'] * len(selected_users))
+                                query = f"""
+                                    DELETE s FROM sessions s
+                                    JOIN users u ON s.user_id = u.user_id
+                                    WHERE u.username IN ({placeholders})
+                                """
+                                cursor_logout.execute(query, tuple(selected_users))
+                                deleted = cursor_logout.rowcount
+                                conn_logout.commit()
+                                cursor_logout.close()
+                                
+                                st.success(f"✅ Logged out {len(selected_users)} user(s), removed {deleted} session(s)")
+                                st.rerun()
+                            except Exception as e:
+                                st.error(f"❌ Force logout failed: {e}")
             else:
                 st.info("No users currently logged in")
             

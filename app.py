@@ -9,7 +9,7 @@ Run with: streamlit run app.py
 """
 
 # VERSION MARKER - Update this when releasing new version
-__version__ = "2.2.1"
+__version__ = "2.2.2"
 __app_name__ = "Pronunciation Trainer"
 __author__ = "Matthew & Contributors"
 __license__ = "GPL-3.0"
@@ -180,6 +180,73 @@ st.set_page_config(
 
 
 # ============================================================================
+# SETTINGS FUNCTIONS (must be defined before authentication)
+# ============================================================================
+
+def load_settings():
+    """Load user settings from database (if authenticated) or local config file"""
+    default_settings = {
+        "speed": 140,
+        "pitch": 35,
+        "voice": "pt-br",
+        "model": "base",
+        "duration": 3,
+        "comparison_algorithm": "edit_distance",  # or "positional"
+        "asr_engine": "whisper",  # "whisper" or "wav2vec2"
+        "whisper_model_size": "base",  # tiny, base, small, medium, large
+        "silence_threshold": 0.01,  # Energy threshold for silence detection (0.001-0.1)
+        "use_wav_audio": False,  # Convert TTS audio to WAV for iOS Safari compatibility
+        "tts_engine": "google_cloud",  # "google_cloud" (official API, best), "gtts" (unofficial, rate limited), or "espeak"
+        "gtts_slow": False,  # Enable slow speech for Google TTS (when tts_engine='gtts')
+    }
+    
+    # If authenticated, load from database
+    if st.session_state.get('authenticated', False) and 'user' in st.session_state:
+        try:
+            user_id = st.session_state['user']['user_id']
+            db_settings = app_mysql.get_user_settings(user_id)
+            if db_settings:
+                default_settings.update(db_settings)
+                return default_settings
+        except Exception as e:
+            st.warning(f"Could not load settings from database: {e}")
+    
+    # Fall back to local config file for non-authenticated users
+    config_file = Path("practice_config.json")
+    if config_file.exists():
+        try:
+            with open(config_file) as f:
+                saved = json.load(f)
+                default_settings.update(saved)
+        except Exception:
+            pass
+    
+    return default_settings
+
+
+def save_settings(settings: Dict):
+    """Save settings to database (if authenticated) or local config file"""
+    # If authenticated, save to database
+    if st.session_state.get('authenticated', False) and 'user' in st.session_state:
+        try:
+            user_id = st.session_state['user']['user_id']
+            # Save each setting individually to database
+            for key, value in settings.items():
+                app_mysql.save_user_setting(user_id, key, value)
+            return
+        except Exception as e:
+            st.error(f"Could not save settings to database: {e}")
+            return
+    
+    # Fall back to local config file for non-authenticated users
+    try:
+        with open("practice_config.json", 'w') as f:
+            json.dump(settings, f, indent=2)
+    except Exception as e:
+        st.error(f"Could not save settings: {e}")
+
+
+# ============================================================================
 # AUTHENTICATION (Test Implementation for v1.3.0)
 # ============================================================================
 
@@ -214,6 +281,8 @@ def show_login_page():
                             st.session_state['authenticated'] = True
                             st.session_state['user'] = user
                             st.session_state['session_id'] = session_id
+                            # Reload settings from database
+                            st.session_state.settings = load_settings()
                             st.success(f"✅ Welcome back, {user['username']}!")
                             st.rerun()
                         else:
@@ -283,6 +352,8 @@ def show_login_page():
                 st.session_state['authenticated'] = True
                 st.session_state['user'] = guest_user
                 st.session_state['session_id'] = session_id
+                # Reload settings from database (will have defaults for new guest)
+                st.session_state.settings = load_settings()
                 st.success(f"✅ Welcome, Guest! Enjoy exploring Miolingo!")
                 st.rerun()
             else:
@@ -332,7 +403,7 @@ with st.sidebar:
     # User info below divider
     if st.session_state['user'].get('is_guest', False):
         st.markdown("👤 **Guest User** 🎭")
-        st.caption("⚠️ Session is temporary")
+        st.warning("⚠️ **Temporary session**: Your progress and settings will be lost when you log out. Create an account to save everything!")
     else:
         st.markdown(f"👤 **{st.session_state['user']['username']}**")
         st.markdown(f"📧 {st.session_state['user']['email']}")
@@ -352,63 +423,48 @@ with st.sidebar:
 # ============================================================================
 
 
-def load_settings():
-    """Load user settings from config file"""
-    config_file = Path("practice_config.json")
-    default_settings = {
-        "speed": 140,
-        "pitch": 35,
-        "voice": "pt-br",
-        "model": "base",
-        "duration": 3,
-        "comparison_algorithm": "edit_distance",  # or "positional"
-        "asr_engine": "whisper",  # "whisper" or "wav2vec2"
-        "whisper_model_size": "base",  # tiny, base, small, medium, large
-        "silence_threshold": 0.01,  # Energy threshold for silence detection (0.001-0.1)
-        "use_wav_audio": False,  # Convert TTS audio to WAV for iOS Safari compatibility
-        "tts_engine": "google_cloud",  # "google_cloud" (official API, best), "gtts" (unofficial, rate limited), or "espeak"
-        "gtts_slow": False,  # Enable slow speech for Google TTS (when tts_engine='gtts')
-    }
-    
-    if config_file.exists():
-        try:
-            with open(config_file) as f:
-                saved = json.load(f)
-                default_settings.update(saved)
-        except Exception:
-            pass
-    
-    return default_settings
-
-
-def save_settings(settings: Dict):
-    """Save settings to config file"""
-    try:
-        with open("practice_config.json", 'w') as f:
-            json.dump(settings, f, indent=2)
-    except Exception as e:
-        st.error(f"Could not save settings: {e}")
-
-
 def load_history():
-    """Load practice history"""
-    history_file = Path("practice_history.json")
-    if history_file.exists():
+    """Load practice history from database (if authenticated) or return empty list"""
+    if st.session_state.get('authenticated', False) and 'user' in st.session_state:
         try:
-            with open(history_file) as f:
-                return json.load(f)
-        except Exception:
-            return []
+            user_id = st.session_state['user']['user_id']
+            language_code = st.session_state.get('language', 'Portuguese')
+            # Get recent progress from database
+            progress = app_mysql.get_user_progress(user_id, language_code, limit=100)
+            
+            # Group practices by date into sessions for compatibility with old history format
+            from collections import defaultdict
+            sessions_by_date = defaultdict(list)
+            
+            for p in progress:
+                date = p['practice_date'].date() if hasattr(p['practice_date'], 'date') else str(p['practice_date'])[:10]
+                sessions_by_date[date].append({
+                    "target": p['target_phrase'],
+                    "recognized": p['recognized_phrase'],
+                    "similarity": p['similarity_score'],
+                    "exact_match": p['perfect_match'],
+                    "correct_phonemes": p.get('target_phonemes', ''),
+                    "user_phonemes": p.get('user_phonemes', '')
+                })
+            
+            # Convert to list of session objects
+            return [
+                {
+                    "date": str(date),
+                    "practices": practices
+                }
+                for date, practices in sorted(sessions_by_date.items(), reverse=True)
+            ]
+        except Exception as e:
+            st.warning(f"Could not load history from database: {e}")
     return []
 
 
 def save_history(history: List[Dict]):
-    """Save practice history"""
-    try:
-        with open("practice_history.json", 'w') as f:
-            json.dump(history, f, indent=2)
-    except Exception as e:
-        st.error(f"Could not save history: {e}")
+    """Legacy function - history now saved immediately to database in check_pronunciation"""
+    # No-op: All practice results are saved to database immediately in check_pronunciation()
+    # This function kept for backward compatibility but does nothing
+    pass
 
 
 def initialize_session_state():
@@ -1285,11 +1341,15 @@ def practice_word_from_audio(text: str, audio_bytes: bytes, settings: Dict):
 
 
 def save_current_session():
-    """Save current session to history"""
+    """Save current session (for authenticated users, already saved to database)"""
     current_session = st.session_state.current_sessions[st.session_state.language]
     if current_session["practices"]:
-        st.session_state.history.append(current_session)
-        save_history(st.session_state.history)
+        if st.session_state.get('authenticated', False):
+            # For authenticated users, practices are already in database
+            st.success("✓ All practices saved to your account!")
+        else:
+            # For non-authenticated users (shouldn't happen now), append to local history
+            st.session_state.history.append(current_session)
         
         # Reset current session for this language
         st.session_state.current_sessions[st.session_state.language] = {
@@ -1297,7 +1357,6 @@ def save_current_session():
             "practices": []
         }
         st.session_state.session_saved = True
-        st.success("✓ Session saved!")
         st.rerun()
     else:
         st.warning("No practices in current session to save")
