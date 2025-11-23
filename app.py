@@ -188,7 +188,7 @@ def show_login_page():
     st.title("🔐 Miolingo Login")
     st.markdown("**Multi-language pronunciation trainer** - Practice Portuguese, French, Dutch & Flemish!")
     
-    tab1, tab2 = st.tabs(["Login", "Register"])
+    tab1, tab2, tab3 = st.tabs(["Login", "Register", "Guest Mode"])
     
     with tab1:
         st.subheader("Login to Your Account")
@@ -249,6 +249,44 @@ def show_login_page():
                         st.success(f"✅ Account created! Welcome, {new_username}!")
                         st.info("👆 Please login with your new account in the Login tab")
                     # Errors are handled in app_mysql.create_user()
+    
+    with tab3:
+        st.subheader("Try Without Registration")
+        
+        st.info("🎭 **Guest Mode** - Try the app instantly without creating an account!")
+        st.warning("⚠️ **Note:** Guest sessions are temporary. Your progress won't be saved.")
+        
+        st.markdown("""
+        **What you get as a guest:**
+        - ✅ Full access to all practice features
+        - ✅ All 6 languages (Portuguese, French, Dutch, Flemish, German, Spanish)
+        - ✅ AI pronunciation feedback
+        - ❌ Progress not saved after session ends
+        """)
+        
+        if st.button("🚀 Start as Guest", type="primary", use_container_width=True):
+            # Create guest user
+            result = app_mysql.create_guest_user()
+            
+            if result:
+                user_id, username, session_id = result
+                
+                # Create user dict (matching regular auth format)
+                guest_user = {
+                    'user_id': user_id,
+                    'username': username,
+                    'email': f'{username}@temp.miolingo.io',
+                    'is_guest': True  # Flag for UI indication
+                }
+                
+                # Store in session state
+                st.session_state['authenticated'] = True
+                st.session_state['user'] = guest_user
+                st.session_state['session_id'] = session_id
+                st.success(f"✅ Welcome, Guest! Enjoy exploring Miolingo!")
+                st.rerun()
+            else:
+                st.error("❌ Failed to create guest session. Please try again.")
 
 
 def check_authentication():
@@ -292,8 +330,12 @@ with st.sidebar:
     st.markdown("---")
     
     # User info below divider
-    st.markdown(f"👤 **{st.session_state['user']['username']}**")
-    st.markdown(f"📧 {st.session_state['user']['email']}")
+    if st.session_state['user'].get('is_guest', False):
+        st.markdown("👤 **Guest User** 🎭")
+        st.caption("⚠️ Session is temporary")
+    else:
+        st.markdown(f"👤 **{st.session_state['user']['username']}**")
+        st.markdown(f"📧 {st.session_state['user']['email']}")
     
     # Logout button at bottom of this section
     if st.button("🚪 Logout"):

@@ -177,6 +177,64 @@ atexit.register(cleanup_ssh_tunnel)
 # USER MANAGEMENT
 # ============================================================================
 
+def create_guest_user() -> Optional[tuple]:
+    """
+    Create a temporary guest user for this session.
+    Guest users have unique usernames and don't persist across sessions.
+    
+    Returns:
+        Tuple of (user_id, username, session_id) if successful, None if failed
+    """
+    import secrets
+    import time
+    
+    conn = None
+    try:
+        # Generate unique username and email
+        timestamp = int(time.time())
+        random_suffix = secrets.token_hex(4)
+        username = f"guest_{timestamp}_{random_suffix}"
+        email = f"guest_{timestamp}@temp.miolingo.io"
+        
+        # Create with random password (won't be used)
+        password = secrets.token_urlsafe(32)
+        password_hash = pwd_hasher.hash(password)
+        
+        conn = get_connection()
+        cursor = conn.cursor()
+        
+        query = """
+            INSERT INTO users (username, email, password_hash, created_at, is_active)
+            VALUES (%s, %s, %s, NOW(), TRUE)
+        """
+        cursor.execute(query, (username, email, password_hash))
+        conn.commit()
+        
+        user_id = cursor.lastrowid
+        cursor.close()
+        
+        # Log guest account creation
+        log_activity(user_id, "GUEST_CREATED", f"Guest username: {username}", "system")
+        
+        # Create session immediately
+        session_id = create_session(user_id, "127.0.0.1")
+        
+        if session_id:
+            return (user_id, username, session_id)
+        else:
+            return None
+        
+    except Error as e:
+        if conn:
+            conn.rollback()
+        st.error(f"❌ Failed to create guest user: {e}")
+        return None
+    
+    finally:
+        if conn and conn.is_connected():
+            conn.close()
+
+
 def create_user(username: str, email: str, password: str) -> Optional[int]:
     """
     Create a new user account.
