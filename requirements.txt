@@ -1,21 +1,26 @@
-# Core dependencies for Streamlit Portuguese Pronunciation Trainer
+# Core dependencies for Streamlit Miolingo Pronunciation Trainer
 streamlit>=1.39.0
+
+# Speech Recognition (Whisper is primary, wav2vec2 is optional alternative)
 openai-whisper>=20231117
-gtts>=2.5.4
-google-cloud-texttospeech>=2.14.0
 soundfile>=0.13.1
 numpy>=2.0.2
 
-# wav2vec2 Portuguese ASR engine (alternative to Whisper)
-transformers>=4.30.0
-torch>=2.0.0
-librosa>=0.10.0
-
-# Note: espeak-ng needs to be installed system-wide on the deployment server
-# For local development: ./configure && make && make install
+# Text-to-Speech
+gtts>=2.5.4
+google-cloud-texttospeech>=2.14.0
 
 # Multi-user authentication and database
 mysql-connector-python==9.4.0
 argon2-cffi==25.1.0
 paramiko<3.0
 sshtunnel>=0.4.0
+
+# Note: espeak-ng needs to be installed system-wide on the deployment server
+# For local development: ./configure && make && make install
+
+# Optional: wav2vec2 ASR (large footprint - only install if needed)
+# Uncomment these lines if you want to use wav2vec2 instead of Whisper
+# transformers>=4.30.0
+# torch>=2.0.0
+# librosa>=0.10.0
