@@ -6,6 +6,46 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 
+## [2.2.1] - 2025-11-23
+
+### Fixed
+
+- **Guest Mode Cloud Deployment**: Removed `st.error()` call from `app_mysql.py` that caused AttributeError on Streamlit Cloud
+- **Error Handling**: Made `log_activity()` non-critical in guest user creation (swallows errors gracefully)
+- **Resource Cleanup**: Improved exception handling and cursor/connection cleanup in `create_guest_user()`
+
+### Technical
+
+- Guest mode now returns `None` silently on failure, letting caller handle UI error messages
+- Better exception handling catches generic `Exception` instead of just `Error`
+
+
+## [2.2.0] - 2025-11-23
+
+### Added
+
+- **Guest Mode**: Frictionless onboarding - users can try app without registration
+- **Guest User System**: Creates temporary accounts with unique usernames (`guest_timestamp_random`)
+- **Guest UI Tab**: Third tab on login page for instant access
+- **Guest Indicator**: Sidebar shows guest status and session warnings
+
+### Fixed
+
+- **Language Initialization**: Fixed banner/dropdown mismatch (Portuguese vs French)
+- **Default Language**: Consistent French default throughout app
+- **Session State**: Early initialization of `material_language` and `language` prevents AttributeError
+
+### Changed
+
+- **Admin Dashboard**: Fixed deprecation warnings (`use_container_width` → `width='stretch'`)
+
+### Technical
+
+- Guest sessions are temporary (24h expiration)
+- Guest progress not saved after logout
+- All 6 languages available to guests
+
+
 ## [2.1.0] - 2025-11-22
 
 ### Changed
