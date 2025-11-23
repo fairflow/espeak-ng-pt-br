@@ -237,6 +237,7 @@ local/
 
 # Python virtual environment
 venv/
+venv*/
 *.pyc
 __pycache__/
 !requirements.txt
