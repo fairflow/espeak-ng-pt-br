@@ -253,7 +253,7 @@ def save_settings(settings: Dict):
 def show_login_page():
     """Display login/registration page."""
     st.title("🔐 Miolingo Login")
-    st.markdown("**Multi-language pronunciation trainer** - Practice Portuguese, French, Dutch & Flemish!")
+    st.markdown("**Multi-language pronunciation trainer** - Practice Portuguese, French, Italian, German, Dutch and Spanish!")
     
     tab1, tab2, tab3 = st.tabs(["Login", "Register", "Guest Mode"])
     
