@@ -189,6 +189,8 @@ def create_guest_user() -> Optional[tuple]:
     import time
     
     conn = None
+    cursor = None
+    
     try:
         # Generate unique username and email
         timestamp = int(time.time())
@@ -211,10 +213,12 @@ def create_guest_user() -> Optional[tuple]:
         conn.commit()
         
         user_id = cursor.lastrowid
-        cursor.close()
         
-        # Log guest account creation
-        log_activity(user_id, "GUEST_CREATED", f"Guest username: {username}", "system")
+        # Log guest account creation (non-critical, swallow errors)
+        try:
+            log_activity(user_id, "GUEST_CREATED", f"Guest username: {username}", "system")
+        except:
+            pass  # Don't fail guest creation if logging fails
         
         # Create session immediately
         session_id = create_session(user_id, "127.0.0.1")
@@ -224,15 +228,26 @@ def create_guest_user() -> Optional[tuple]:
         else:
             return None
         
-    except Error as e:
+    except Exception as e:
         if conn:
-            conn.rollback()
-        st.error(f"❌ Failed to create guest user: {e}")
+            try:
+                conn.rollback()
+            except:
+                pass
+        # Return None without calling st.error (let caller handle UI)
         return None
     
     finally:
+        if cursor:
+            try:
+                cursor.close()
+            except:
+                pass
         if conn and conn.is_connected():
-            conn.close()
+            try:
+                conn.close()
+            except:
+                pass
 
 
 def create_user(username: str, email: str, password: str) -> Optional[int]:
