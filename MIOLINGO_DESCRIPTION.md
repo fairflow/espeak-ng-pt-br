@@ -1,18 +1,20 @@
 # Miolingo - Multi-Language Pronunciation Trainer
 
-**Practice pronunciation in 6 languages with instant AI feedback**
+## Practice pronunciation in 6 languages with instant AI feedback
 
-Miolingo is a free web app that helps you improve your pronunciation in Portuguese, French, Italian, German, Dutch, and Spanish using speech recognition and real-time feedback.
+Miolingo is a currently free web app that helps you improve your pronunciation in Portuguese, French, Italian, German, Dutch, and Spanish using speech recognition and real-time feedback.
 
 ## 🎯 Key Features
 
 ### 🗣️ AI-Powered Pronunciation Practice
+
 - Record your voice and get instant similarity scores
-- Compare your pronunciation to native speaker audio
+- Compare your pronunciation to native-quality speaker audio
 - See phonetic transcriptions (IPA) to understand exactly what you're saying
 - Practice with words, phrases, or full sentences
 
 ### 🌍 Six Languages Supported
+
 - **Portuguese** (Brazilian)
 - **French**
 - **Italian**
@@ -20,25 +22,29 @@ Miolingo is a free web app that helps you improve your pronunciation in Portugue
 - **Dutch**
 - **Spanish**
 
-### 📚 Rich Learning Materials
+### 📚 Basic Learning Materials
+
 - Curated phrase collections for each language
 - Common words and expressions
 - Short stories for contextual practice
 - Custom phrase input for personalized practice
 
 ### 💾 Progress Tracking
-- All practice sessions saved to your account
+
+- Separate language practice sessions saved to your account
 - View history organized by date
 - Track your improvement over time
 - Settings sync across all your devices
 
 ### 🎭 Guest Mode
+
 - Try the app instantly without registration
 - Full access to all features
 - No commitment required
 
 ### ⚙️ Customizable Experience
-- Adjust speech speed and pitch
+
+- Adjust speech speed
 - Choose between multiple TTS engines
 - Configure audio format for device compatibility
 - Personalize your learning environment
@@ -67,6 +73,7 @@ Miolingo is a free web app that helps you improve your pronunciation in Portugue
 
 ## 🛠️ Technology
 
+- Development by Claude Sonnet 4.5 and Matthew Fairtlough
 - Built with Streamlit and Python
 - Powered by OpenAI Whisper for speech recognition
 - Uses eSpeak NG and Google Cloud TTS for audio generation
@@ -74,4 +81,4 @@ Miolingo is a free web app that helps you improve your pronunciation in Portugue
 
 ---
 
-**Ready to improve your pronunciation?** Start practicing now at [your-deployment-url]!
+**Ready to improve your pronunciation?** Start practicing now at [miolingo.io](https://miolingo.io)

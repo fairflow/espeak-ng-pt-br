@@ -1,0 +1,7 @@
+# Documentation files containing version numbers
+# One file per line, relative to project root
+app-docs/USER_GUIDE.md
+app-docs/TESTING_GUIDE.md
+app-docs/DEVELOPER_GUIDE.md
+app-docs/README.md
+VERSION_CHECKLIST.md
