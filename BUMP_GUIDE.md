@@ -12,11 +12,13 @@ Edit these files to add/remove files from version bumping.
 ## Usage Examples
 
 **Important:** Always activate the virtual environment first:
+
 ```bash
 source venv/bin/activate
 ```
 
 ### Just bump version (no commit/tag)
+
 ```bash
 bump_app.py major   # 1.2.3 → 2.0.0
 bump_app.py minor   # 1.2.3 → 1.3.0
@@ -24,6 +26,7 @@ bump_app.py patch   # 1.2.3 → 1.2.4
 ```
 
 ### Bump + commit + tag
+
 ```bash
 bump_app.py major tag
 bump_app.py minor tag
@@ -31,6 +34,7 @@ bump_app.py patch tag
 ```
 
 ### Bump + commit + tag + push
+
 ```bash
 bump_app.py major tag push
 bump_app.py minor tag push
@@ -40,6 +44,7 @@ bump_app.py patch tag push
 ## Typical Workflow
 
 1. **During development**: Use plain `bump patch` to update version numbers
+
    ```bash
    source venv/bin/activate
    bump_app.py patch
@@ -49,6 +54,7 @@ bump_app.py patch tag push
    ```
 
 2. **For releases**: Use `bump tag` or `bump tag push`
+
    ```bash
    source venv/bin/activate
    bump_app.py minor tag push
@@ -60,6 +66,7 @@ bump_app.py patch tag push
    ```
 
 3. **For hotfixes**:
+
    ```bash
    source venv/bin/activate
    # Fix the bug first, commit it
