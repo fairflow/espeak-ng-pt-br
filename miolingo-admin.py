@@ -24,8 +24,18 @@ st.set_page_config(
 st.title("🔧 Miolingo Admin Dashboard")
 st.caption("Local monitoring and management interface")
 
+# Quick reconnect button in sidebar
+with st.sidebar:
+    st.subheader("🔧 Quick Actions")
+    if st.button("🔄 Clear Cache & Reconnect", use_container_width=True):
+        st.cache_resource.clear()
+        st.cache_data.clear()
+        st.success("Cache cleared! Page will reload...")
+        st.rerun()
+    st.caption("💡 Use this if you see connection errors")
+
 # Database connection helper
-@st.cache_resource
+@st.cache_resource(ttl=300)
 def get_db_connection():
     """Get database connection using app_mysql module."""
     try:
@@ -49,7 +59,7 @@ def get_db_connection():
         return None, None
 
 # Tab layout
-tab1, tab2, tab3, tab4 = st.tabs(["📊 Resource Usage", "👥 Users", "📝 Logs", "⚙️ Settings"])
+tab1, tab2, tab3, tab4, tab5 = st.tabs(["📊 Resource Usage", "👥 Users", "📝 Logs", "📧 Email", "⚙️ Settings"])
 
 # TAB 1: Resource Usage
 with tab1:
@@ -362,9 +372,21 @@ with tab2:
                 
         except Exception as e:
             st.error(f"Database error: {e}")
+            st.info("💡 The SSH tunnel may have timed out. Try:")
+            col1, col2 = st.columns(2)
+            with col1:
+                if st.button("🔄 Retry Connection"):
+                    st.cache_resource.clear()
+                    st.rerun()
+            with col2:
+                if st.button("📊 Reload Page"):
+                    st.rerun()
             # Connection returned to pool automatically
     else:
         st.warning("Database connection not available. User data not accessible.")
+        if st.button("🔄 Retry Connection", key="retry_no_conn"):
+            st.cache_resource.clear()
+            st.rerun()
 
 # TAB 3: Logs
 with tab3:
@@ -425,8 +447,109 @@ with tab3:
         except Exception as e:
             st.warning(f"Could not fetch logs: {e}")
 
-# TAB 4: Settings
+# TAB 4: Email Monitor
 with tab4:
+    st.header("📧 Email Monitor")
+    st.caption("Read-only monitoring of io@miolingo.io")
+    
+    try:
+        import sys
+        from pathlib import Path
+        
+        # Add admin-sources to path
+        admin_sources = Path(__file__).parent / "admin-sources"
+        if str(admin_sources) not in sys.path:
+            sys.path.insert(0, str(admin_sources))
+        
+        from email_monitor import EmailMonitor
+        
+        # Initialize monitor
+        try:
+            monitor = EmailMonitor()
+            
+            # Show connection status
+            col1, col2, col3 = st.columns([2, 1, 1])
+            
+            with col1:
+                if st.button("🔄 Refresh Emails"):
+                    st.rerun()
+            
+            with col2:
+                if st.button("🔌 Test Connection"):
+                    with st.spinner("Testing connection..."):
+                        success, message = monitor.test_connection()
+                        if success:
+                            st.success(message)
+                        else:
+                            st.error(message)
+            
+            with col3:
+                try:
+                    unread = monitor.get_unread_count()
+                    st.metric("Unread", unread)
+                except Exception as e:
+                    st.warning(f"Could not get unread count: {e}")
+            
+            st.divider()
+            
+            # Fetch and display emails
+            with st.spinner("Fetching emails..."):
+                try:
+                    emails = monitor.fetch_recent_emails(limit=30)
+                    
+                    if emails:
+                        st.info(f"📬 Showing {len(emails)} most recent emails (read-only mode)")
+                        
+                        # Display each email
+                        for email_data in emails:
+                            with st.expander(
+                                f"**{email_data['subject']}** - {email_data['from']} - {email_data['date'].strftime('%Y-%m-%d %H:%M')}",
+                                expanded=False
+                            ):
+                                col1, col2 = st.columns([1, 3])
+                                
+                                with col1:
+                                    st.write("**From:**")
+                                    st.write("**Date:**")
+                                    st.write("**ID:**")
+                                
+                                with col2:
+                                    st.write(email_data['from'])
+                                    st.write(email_data['date'].strftime('%Y-%m-%d %H:%M:%S'))
+                                    st.code(email_data['id'], language=None)
+                                
+                                st.write("**Preview:**")
+                                st.info(email_data['preview'])
+                                
+                                st.caption("ℹ️ Read-only mode - emails cannot be modified or deleted from this interface")
+                    else:
+                        st.info("📭 No emails found")
+                
+                except Exception as e:
+                    st.error(f"❌ Error fetching emails: {e}")
+                    st.caption("Check that email credentials are configured in .streamlit/secrets.toml")
+        
+        except ValueError as e:
+            st.warning("⚠️ Email monitoring not configured")
+            st.info("""
+            To enable email monitoring, add the following to `.streamlit/secrets.toml`:
+            
+            ```toml
+            [email]
+            imap_server = "mail.yourdomain.com"
+            imap_port = 993
+            email_address = "io@miolingo.io"
+            email_password = "your_password"
+            ```
+            """)
+            st.caption(f"Configuration error: {e}")
+    
+    except ImportError:
+        st.error("❌ Email monitor module not found")
+        st.caption("Make sure email_monitor.py is in the admin-sources directory")
+
+# TAB 5: Settings
+with tab5:
     st.header("⚙️ Settings & Configuration")
     
     st.subheader("🔑 Secrets Status")
@@ -486,4 +609,4 @@ with tab4:
 
 # Footer
 st.divider()
-st.caption("Miolingo Admin Dashboard v1.6.0 | Local monitoring interface")
+st.caption("Miolingo Admin Dashboard v1.7.0 | Local monitoring interface")
