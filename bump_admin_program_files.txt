@@ -1,0 +1,3 @@
+# Admin program files containing version numbers
+# One file per line, relative to project root
+miolingo-admin.py

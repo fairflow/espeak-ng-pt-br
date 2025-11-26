@@ -1,0 +1,4 @@
+# Admin documentation files containing version numbers
+# One file per line, relative to project root
+admin-docs/ADMIN_GUIDE.md
+admin-docs/ADMIN_CHANGELOG.md
