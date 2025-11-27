@@ -3,6 +3,7 @@
 ## Script Overview
 
 ### 1. generate_phrasebook_ipa.py
+
 Generate IPA transcriptions for any supported language.
 
 ```bash
